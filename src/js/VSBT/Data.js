@@ -9,7 +9,7 @@ VSBT.Data = new function () {
     /**
      * @typedef {Object} ArcanaData Data describing an arcana.
      * @property {string}   description
-     * @property {ArcanaId} id
+     * @property {ArcanaId} id          This MUST NOT change, because it's used in the URL for saved builds.
      * @property {string}   name
      */
 
@@ -17,7 +17,7 @@ VSBT.Data = new function () {
 
     /**
      * @typedef {Object} CharacterData Data describing a character.
-     * @property {CharacterId} id
+     * @property {CharacterId} id          This MUST NOT change, because it's used in the URL for saved builds.
      * @property {string}      name        The character's first name.
      * @property {string}      description
      * @property {string}      surname
@@ -29,7 +29,7 @@ VSBT.Data = new function () {
     /**
      * @typedef {Object} PassiveData Data describing a passive item.
      * @property {string}    description
-     * @property {PassiveId} id
+     * @property {PassiveId} id          This MUST NOT change, because it's used in the URL for saved builds.
      * @property {string}    name
      */
 
@@ -38,7 +38,7 @@ VSBT.Data = new function () {
     /**
      * @typedef {Object} StageData Data describing a stage.
      * @property {string}      description
-     * @property {StageId}     id
+     * @property {StageId}     id          This MUST NOT change, because it's used in the URL for saved builds.
      * @property {string}      name
      * @property {PassiveId[]} passives    The passive items that can be found on the stage.
      */
@@ -48,7 +48,7 @@ VSBT.Data = new function () {
     /**
      * @typedef {Object} WeaponData Data describing a weapon.
      * @property {string}   description
-     * @property {WeaponId} id
+     * @property {WeaponId} id            This MUST NOT change, because it's used in the URL for saved builds.
      * @property {string}   name
      */
 
