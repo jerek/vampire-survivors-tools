@@ -1,0 +1,11 @@
+# Common IDE & miscellaneous files.
+.idea
+.DS_Store
+_cache
+.settings
+.project
+.vimrc
+*.swp
+
+# A dir for copies of important Vampire Survivors files: main.bundle.js, assets/img, and assets/lang.
+/game-assets
