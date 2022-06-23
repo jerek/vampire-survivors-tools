@@ -171,36 +171,39 @@ VSBT.Data = new function () {
     // ------- //
 
     /**
-     * Returns the data with the given ID from the given data object.
+     * Returns data by ID from the given entity lookup.
      *
-     * @param {Object} dataObject
-     * @param {number} id
+     * @param {Object<number, Object>} entities
+     * @param {number}                 id
      * @return {Object|undefined}
      */
-    function getData(dataObject, id) {
-        if (dataObject[id]) {
-            return VSBT.Util.copyProperties({}, dataObject[id]);
+    function getData(entities, id) {
+        if (entities[id]) {
+            return VSBT.Util.copyProperties({}, entities[id]);
         }
     }
 
     /**
-     * Returns a list of IDs from the given data object.
+     * Returns a list of IDs from the given entity lookup.
      *
-     * @param {Object<number, *>} dataObject
+     * @param {Object<number, Object>} entities
      * @return {number[]}
      */
-    function getIds(dataObject) {
-        return Object.keys(dataObject).map(id => parseInt(id));
+    function getIds(entities) {
+        return Object.keys(entities).map(id => parseInt(id));
     }
 
     /**
-     * Sets IDs in all the data objects.
+     * Sets IDs in all entity lookups.
      */
     function init() {
         setTimeout(() => {
-            [ARCANAS, CHARACTERS, PASSIVES, STAGES, WEAPONS].forEach(dataObject => {
-                Object.keys(dataObject).forEach(idString => {
-                    dataObject[idString] = VSBT.Util.copyProperties({}, {id: parseInt(idString)}, dataObject[idString]);
+            [ARCANAS, CHARACTERS, PASSIVES, STAGES, WEAPONS].forEach(entities => {
+                Object.keys(entities).forEach(idString => {
+                    let id = parseInt(idString);
+
+                    // Rewrite this object with the ID added, and put it first for development convenience.
+                    entities[idString] = VSBT.Util.copyProperties({}, {id: id}, entities[idString]);
                 });
             });
         });
