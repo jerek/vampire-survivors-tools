@@ -64,15 +64,9 @@ VSBT.Data = new function () {
     // ***** CONSTANTS ***** //
     // ********************* //
 
-    // noinspection JSValidateTypes IDs are filled below in init(), so ignore warnings here.
-    /** @type {Object<ArcanaId, ArcanaData>} A custom representation of the game's arcana data. */
-    const ARCANAS = {
-    };
-
-    // noinspection JSValidateTypes IDs are filled below in init(), so ignore warnings here.
-    /** @type {Object<CharacterId, CharacterData>} A custom representation of the game's character data. */
-    const CHARACTERS = {
-    };
+    // === //
+    // IDS //
+    // === //
 
     // Passive Items have constants since they're referred to by ID in multiple places.
     /** @type {PassiveId} */ const PASSIVE_ID_SPINACH = 1;
@@ -96,6 +90,68 @@ VSBT.Data = new function () {
     /** @type {PassiveId} */ const PASSIVE_ID_METAGLIO_LEFT = 19;
     /** @type {PassiveId} */ const PASSIVE_ID_METAGLIO_RIGHT = 20;
     /** @type {PassiveId} */ const PASSIVE_ID_TORRONAS_BOX = 21;
+
+    // Weapons have constants since they're referred to by ID in multiple places.
+    /** @type {WeaponId} */ const WEAPON_ID_WHIP = 1;
+    /** @type {WeaponId} */ const WEAPON_ID_BLOODY_TEAR = 2;
+    /** @type {WeaponId} */ const WEAPON_ID_MAGIC_WAND = 3;
+    /** @type {WeaponId} */ const WEAPON_ID_HOLY_WAND = 4;
+    /** @type {WeaponId} */ const WEAPON_ID_KNIFE = 5;
+    /** @type {WeaponId} */ const WEAPON_ID_THOUSAND_EDGE = 6;
+    /** @type {WeaponId} */ const WEAPON_ID_AXE = 7;
+    /** @type {WeaponId} */ const WEAPON_ID_DEATH_SPIRAL = 8;
+    /** @type {WeaponId} */ const WEAPON_ID_CROSS = 9;
+    /** @type {WeaponId} */ const WEAPON_ID_HEAVEN_SWORD = 10;
+    /** @type {WeaponId} */ const WEAPON_ID_KING_BIBLE = 11;
+    /** @type {WeaponId} */ const WEAPON_ID_UNHOLY_VESPERS = 12;
+    /** @type {WeaponId} */ const WEAPON_ID_FIRE_WAND = 13;
+    /** @type {WeaponId} */ const WEAPON_ID_HELLFIRE = 14;
+    /** @type {WeaponId} */ const WEAPON_ID_GARLIC = 15;
+    /** @type {WeaponId} */ const WEAPON_ID_SOUL_EATER = 16;
+    /** @type {WeaponId} */ const WEAPON_ID_SANTA_WATER = 17;
+    /** @type {WeaponId} */ const WEAPON_ID_LA_BORRA = 18;
+    /** @type {WeaponId} */ const WEAPON_ID_RUNETRACER = 19;
+    /** @type {WeaponId} */ const WEAPON_ID_NO_FUTURE = 20;
+    /** @type {WeaponId} */ const WEAPON_ID_LIGHTNING_RING = 21;
+    /** @type {WeaponId} */ const WEAPON_ID_THUNDER_LOOP = 22;
+    /** @type {WeaponId} */ const WEAPON_ID_PENTAGRAM = 23;
+    /** @type {WeaponId} */ const WEAPON_ID_GORGEOUS_MOON = 24;
+    /** @type {WeaponId} */ const WEAPON_ID_PEACHONE = 25;
+    /** @type {WeaponId} */ const WEAPON_ID_EBONY_WINGS = 26;
+    /** @type {WeaponId} */ const WEAPON_ID_VANDALIER = 27;
+    /** @type {WeaponId} */ const WEAPON_ID_PHIERA_DER_TUPHELLO = 28;
+    /** @type {WeaponId} */ const WEAPON_ID_EIGHT_THE_SPARROW = 29;
+    /** @type {WeaponId} */ const WEAPON_ID_PHIERAGGI = 30;
+    /** @type {WeaponId} */ const WEAPON_ID_GATTI_AMARI = 31;
+    /** @type {WeaponId} */ const WEAPON_ID_VICIOUS_HUNGER = 32;
+    /** @type {WeaponId} */ const WEAPON_ID_SONG_OF_MANA = 33;
+    /** @type {WeaponId} */ const WEAPON_ID_MANNAJJA = 34;
+    /** @type {WeaponId} */ const WEAPON_ID_SHADOW_PINION = 35;
+    /** @type {WeaponId} */ const WEAPON_ID_VALKYRIE_TURNER = 36;
+    /** @type {WeaponId} */ const WEAPON_ID_CLOCK_LANCET = 37;
+    /** @type {WeaponId} */ const WEAPON_ID_INFINITE_CORRIDOR = 38;
+    /** @type {WeaponId} */ const WEAPON_ID_LAUREL = 39;
+    /** @type {WeaponId} */ const WEAPON_ID_CRIMSON_SHROUD = 40;
+    /** @type {WeaponId} */ const WEAPON_ID_VENTO_SACRO = 41;
+    /** @type {WeaponId} */ const WEAPON_ID_FUWALAFUWALOO = 42;
+    /** @type {WeaponId} */ const WEAPON_ID_BONE = 43;
+    /** @type {WeaponId} */ const WEAPON_ID_CHERRY_BOMB = 44;
+    /** @type {WeaponId} */ const WEAPON_ID_CARRELLO = 45;
+    /** @type {WeaponId} */ const WEAPON_ID_CELESTIAL_DUSTING = 46;
+
+    // =========== //
+    // DATA STORES //
+    // =========== //
+
+    // noinspection JSValidateTypes IDs are filled below in init(), so ignore warnings here.
+    /** @type {Object<ArcanaId, ArcanaData>} A custom representation of the game's arcana data. */
+    const ARCANAS = {
+    };
+
+    // noinspection JSValidateTypes IDs are filled below in init(), so ignore warnings here.
+    /** @type {Object<CharacterId, CharacterData>} A custom representation of the game's character data. */
+    const CHARACTERS = {
+    };
 
     // noinspection JSValidateTypes IDs are filled below in init(), so ignore warnings here.
     /** @type {Object<PassiveId, PassiveData>} A custom representation of the game's passive item data. */
@@ -349,54 +405,6 @@ VSBT.Data = new function () {
             ],
         },
     };
-
-    // Weapons have constants since they're referred to by ID in multiple places.
-    /** @type {WeaponId} */ const WEAPON_ID_WHIP = 1;
-    /** @type {WeaponId} */ const WEAPON_ID_BLOODY_TEAR = 2;
-    /** @type {WeaponId} */ const WEAPON_ID_MAGIC_WAND = 3;
-    /** @type {WeaponId} */ const WEAPON_ID_HOLY_WAND = 4;
-    /** @type {WeaponId} */ const WEAPON_ID_KNIFE = 5;
-    /** @type {WeaponId} */ const WEAPON_ID_THOUSAND_EDGE = 6;
-    /** @type {WeaponId} */ const WEAPON_ID_AXE = 7;
-    /** @type {WeaponId} */ const WEAPON_ID_DEATH_SPIRAL = 8;
-    /** @type {WeaponId} */ const WEAPON_ID_CROSS = 9;
-    /** @type {WeaponId} */ const WEAPON_ID_HEAVEN_SWORD = 10;
-    /** @type {WeaponId} */ const WEAPON_ID_KING_BIBLE = 11;
-    /** @type {WeaponId} */ const WEAPON_ID_UNHOLY_VESPERS = 12;
-    /** @type {WeaponId} */ const WEAPON_ID_FIRE_WAND = 13;
-    /** @type {WeaponId} */ const WEAPON_ID_HELLFIRE = 14;
-    /** @type {WeaponId} */ const WEAPON_ID_GARLIC = 15;
-    /** @type {WeaponId} */ const WEAPON_ID_SOUL_EATER = 16;
-    /** @type {WeaponId} */ const WEAPON_ID_SANTA_WATER = 17;
-    /** @type {WeaponId} */ const WEAPON_ID_LA_BORRA = 18;
-    /** @type {WeaponId} */ const WEAPON_ID_RUNETRACER = 19;
-    /** @type {WeaponId} */ const WEAPON_ID_NO_FUTURE = 20;
-    /** @type {WeaponId} */ const WEAPON_ID_LIGHTNING_RING = 21;
-    /** @type {WeaponId} */ const WEAPON_ID_THUNDER_LOOP = 22;
-    /** @type {WeaponId} */ const WEAPON_ID_PENTAGRAM = 23;
-    /** @type {WeaponId} */ const WEAPON_ID_GORGEOUS_MOON = 24;
-    /** @type {WeaponId} */ const WEAPON_ID_PEACHONE = 25;
-    /** @type {WeaponId} */ const WEAPON_ID_EBONY_WINGS = 26;
-    /** @type {WeaponId} */ const WEAPON_ID_VANDALIER = 27;
-    /** @type {WeaponId} */ const WEAPON_ID_PHIERA_DER_TUPHELLO = 28;
-    /** @type {WeaponId} */ const WEAPON_ID_EIGHT_THE_SPARROW = 29;
-    /** @type {WeaponId} */ const WEAPON_ID_PHIERAGGI = 30;
-    /** @type {WeaponId} */ const WEAPON_ID_GATTI_AMARI = 31;
-    /** @type {WeaponId} */ const WEAPON_ID_VICIOUS_HUNGER = 32;
-    /** @type {WeaponId} */ const WEAPON_ID_SONG_OF_MANA = 33;
-    /** @type {WeaponId} */ const WEAPON_ID_MANNAJJA = 34;
-    /** @type {WeaponId} */ const WEAPON_ID_SHADOW_PINION = 35;
-    /** @type {WeaponId} */ const WEAPON_ID_VALKYRIE_TURNER = 36;
-    /** @type {WeaponId} */ const WEAPON_ID_CLOCK_LANCET = 37;
-    /** @type {WeaponId} */ const WEAPON_ID_INFINITE_CORRIDOR = 38;
-    /** @type {WeaponId} */ const WEAPON_ID_LAUREL = 39;
-    /** @type {WeaponId} */ const WEAPON_ID_CRIMSON_SHROUD = 40;
-    /** @type {WeaponId} */ const WEAPON_ID_VENTO_SACRO = 41;
-    /** @type {WeaponId} */ const WEAPON_ID_FUWALAFUWALOO = 42;
-    /** @type {WeaponId} */ const WEAPON_ID_BONE = 43;
-    /** @type {WeaponId} */ const WEAPON_ID_CHERRY_BOMB = 44;
-    /** @type {WeaponId} */ const WEAPON_ID_CARRELLO = 45;
-    /** @type {WeaponId} */ const WEAPON_ID_CELESTIAL_DUSTING = 46;
 
     // noinspection JSValidateTypes IDs are filled below in init(), so ignore warnings here.
     /** @type {Object<WeaponId, WeaponData>} A custom representation of the game's weapon data. */
