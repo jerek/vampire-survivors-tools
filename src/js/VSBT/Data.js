@@ -808,7 +808,12 @@ VSBT.Data = new function () {
                 });
 
                 // Create an ID list that's sorted by the entity order.
-                ids.sort((a, b) => (entities[a].order || 0) > (entities[b].order || 0) ? 1 : -1);
+                ids.sort((a, b) => {
+                    let aSort = entities[a].order || entities[a].id || 0;
+                    let bSort = entities[b].order || entities[b].id || 0;
+
+                    return aSort > bSort ? 1 : -1;
+                });
                 entities.sortedIds = ids;
             });
         });
