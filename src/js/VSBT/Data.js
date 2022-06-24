@@ -18,10 +18,11 @@ VSBT.Data = new function () {
     /**
      * @typedef {Object} CharacterData Data describing a character.
      * @property {CharacterId} id          This MUST NOT change, because it's used in the URL for saved builds.
-     * @property {string}      name        The character's first name.
+     * @property {string}      name        The character's common name.
      * @property {string}      description
-     * @property {string}      surname
-     * @property {WeaponId}    weaponId
+     * @property {WeaponId[]}  weaponIds
+     * @property {string}      [prefix]    Text shown before the character's name when showing their full name.
+     * @property {string}      [surname]   Text shown after the character's name when showing their full name.
      */
 
     /** @typedef {number} CharacterId A character's ID. */
@@ -217,8 +218,211 @@ VSBT.Data = new function () {
     };
 
     // noinspection JSValidateTypes IDs are filled below in init(), so ignore warnings here.
-    /** @type {Object<CharacterId, CharacterData>} A custom representation of the game's character data. */
+    /** @type {Object<CharacterId, CharacterData>} A custom representation of the game's character data. This includes
+     *  a lot of odd character data that is represented how I found it in the game data. For example, there are seven
+     *  characters named "LATODISOTTO", which are not all identical. Some of the odd character data includes manual key
+     *  strings that appear to contain what's intended to eventually be the name of a character in that slot, which I've
+     *  carried over in the description fields. */
     const CHARACTERS = {
+        1: {
+            name: 'Antonio',
+            surname: 'Belpaese',
+            description: 'Gains 10% more damage every 10 levels (max +50%).',
+            weaponIds: [WEAPON_ID_WHIP],
+        },
+        2: {
+            name: 'Imelda',
+            surname: 'Belpaese',
+            description: 'Gains 10% more experience every 5 levels (max +30%).',
+            weaponIds: [WEAPON_ID_MAGIC_WAND],
+        },
+        3: {
+            name: 'Pasqualina',
+            surname: 'Belpaese',
+            description: 'Projectiles get 10% faster every 5 levels (max +30%).',
+            weaponIds: [WEAPON_ID_RUNETRACER],
+        },
+        4: {
+            name: 'Gennaro',
+            surname: 'Belpaese',
+            description: 'Permanent +1 projectile (all weapons).',
+            weaponIds: [WEAPON_ID_KNIFE],
+        },
+        5: {
+            name: 'Arca',
+            surname: 'Ladonna',
+            description: 'Weapon cooldown is reduced by 5% every 10 levels (max -15%).',
+            weaponIds: [WEAPON_ID_FIRE_WAND],
+        },
+        6: {
+            name: 'Porta',
+            surname: 'Ladonna',
+            description: 'Permanent +30% area. Starts with temporary cooldown bonus.',
+            weaponIds: [WEAPON_ID_LIGHTNING_RING],
+        },
+        7: {
+            name: 'Lama',
+            surname: 'Ladonna',
+            description: 'Gains +5% Might, MoveSpeed, and Curse every 10 levels (max +20%).',
+            weaponIds: [WEAPON_ID_AXE],
+        },
+        8: {
+            name: 'Poe',
+            surname: 'Ratcho',
+            description: 'Permanent +25% pickup radius and -30 max health.',
+            weaponIds: [WEAPON_ID_GARLIC],
+        },
+        9: {
+            name: 'Clerici',
+            description: 'Permanent +0.5 HP/s and +50 Max Health. Starts with temporary area bonus.',
+            prefix: 'Suor',
+            weaponIds: [WEAPON_ID_SANTA_WATER],
+        },
+        10: {
+            name: 'Dommario',
+            description: 'Permanent +40% duration and speed, -40% move speed.',
+            weaponIds: [WEAPON_ID_KING_BIBLE],
+        },
+        11: {
+            name: 'Krochi',
+            surname: 'Freetto',
+            description: 'Starts with 1 Revival. Gains 1 more Revival at level 33.',
+            weaponIds: [PASSIVE_ID_CLOVER],
+        },
+        12: {
+            name: 'Christine',
+            surname: 'Davain',
+            description: 'Starts with 1 extra level.',
+            weaponIds: [WEAPON_ID_PENTAGRAM],
+        },
+        13: {
+            name: 'Pugnala',
+            surname: 'Provola',
+            description: 'Gains +1% Might every level.',
+            weaponIds: [WEAPON_ID_PHIERA_DER_TUPHELLO, WEAPON_ID_EIGHT_THE_SPARROW],
+        },
+        14: {
+            name: 'Giovanna',
+            surname: 'Grana',
+            description: 'Gains +1% Projectile Speed every level.',
+            weaponIds: [WEAPON_ID_GATTI_AMARI],
+        },
+        15: {
+            name: 'Poppea',
+            surname: 'Pecorina',
+            description: 'Gains +1% Duration every level.',
+            weaponIds: [WEAPON_ID_SONG_OF_MANA],
+        },
+        16: {
+            name: 'Concetta',
+            surname: 'Caciotta',
+            description: 'Gains +1% Area every level.',
+            weaponIds: [WEAPON_ID_SHADOW_PINION],
+        },
+        17: {
+            name: 'Mortaccio',
+            description: 'Gets more projectiles every 20 levels (max+3).',
+            weaponIds: [WEAPON_ID_BONE],
+        },
+        18: {
+            name: 'Cavallo',
+            description: 'Gets more projectiles every 20 levels (max+3).',
+            prefix: 'Yatta',
+            weaponIds: [WEAPON_ID_CHERRY_BOMB],
+        },
+        19: {
+            name: 'Ramba',
+            description: 'Gets more projectiles every 20 levels (max+3).',
+            prefix: 'Bianca',
+            weaponIds: [WEAPON_ID_CARRELLO],
+        },
+        20: {
+            name: 'O\'Sole',
+            surname: 'Meeo',
+            description: 'Gets more projectiles every 20 levels (max+3).',
+            weaponIds: [WEAPON_ID_CELESTIAL_DUSTING],
+        },
+        21: {
+            name: 'Gallo',
+            surname: 'Valletto',
+            description: 'Starts with 1 extra level. Gains +10% Growth every 5 levels (max +50%).',
+            prefix: 'Iguana',
+            weaponIds: [WEAPON_ID_CLOCK_LANCET],
+        },
+        // 22: {name: 'LATODISOTTO', description: 'LATOEVEST', weaponIds: [PASSIVE_ID_DUPLICATOR]},
+        // 23: {name: 'LATOEVEST  ', description: '', weaponIds: [PASSIVE_ID_DUPLICATOR]},
+        // 24: {name: 'LATODILATO ', description: 'MARIANNA', weaponIds: [PASSIVE_ID_DUPLICATOR]},
+        // 25: {name: 'LATOEVEST  ', description: 'SIGMA', weaponIds: [PASSIVE_ID_DUPLICATOR]},
+        26: {
+            name: 'Divano',
+            surname: 'Thelma',
+            description: 'Starts with 1 extra level. Gains +1 Armor every 5 levels (max +5).',
+            weaponIds: [WEAPON_ID_LAUREL],
+        },
+        27: {
+            name: 'Zi\'Assunta',
+            surname: 'Belpaese',
+            description: 'Gains +0.5% Might, projectile Speed, Duration, and Area every level.',
+            weaponIds: [WEAPON_ID_VENTO_SACRO],
+        },
+        // 28: {name: 'LATODISOPRO', description: '', weaponIds: [PASSIVE_ID_DUPLICATOR]},
+        // 29: {name: 'LATODISOTTO', description: 'ODDEEO', weaponIds: [PASSIVE_ID_DUPLICATOR]},
+        // 30: {name: 'LATODISOTTO', description: 'VOID', weaponIds: [PASSIVE_ID_DUPLICATOR]},
+        // 31: {name: 'LATODILATO ', description: 'RED', weaponIds: [PASSIVE_ID_DUPLICATOR]},
+        // 32: {name: '', description: 'IOLO', weaponIds: [PASSIVE_ID_DUPLICATOR]},
+        33: {
+            name: 'Exdash',
+            surname: 'Exiviiq',
+            description: 'At least they\'re lucky.',
+            weaponIds: [WEAPON_ID_EBONY_WINGS],
+        },
+        34: {
+            name: 'Toastie',
+            description: 'So much potential.',
+            weaponIds: [WEAPON_ID_PEACHONE],
+        },
+        35: {
+            name: 'Smith',
+            surname: 'IV',
+            description: 'The quirky white bear.',
+            weaponIds: [WEAPON_ID_VANDALIER],
+        },
+        36: {
+            name: 'Marrabbio',
+            description: '',
+            prefix: 'Boon',
+            weaponIds: [WEAPON_ID_THOUSAND_EDGE],
+        },
+        // 37: {name: 'LATODILATO ', description: '', weaponIds: [PASSIVE_ID_DUPLICATOR]},
+        // 38: {name: 'LATODISOTTO', description: 'FINO', weaponIds: [PASSIVE_ID_DUPLICATOR]},
+        // 39: {name: 'LATODILATO ', description: 'LATODILATO', weaponIds: [PASSIVE_ID_DUPLICATOR]},
+        40: {
+            name: 'Minnah',
+            surname: 'Mannarah',
+            description: 'Might, projectile Speed, Duration, Area, and Cooldown change every minute.',
+            weaponIds: [WEAPON_ID_BLOODY_TEAR],
+        },
+        41: {
+            name: 'Leda',
+            description: '',
+            weaponIds: [WEAPON_ID_HOLY_WAND],
+        },
+        42: {
+            name: 'Red Death',
+            description: 'A blasphemous mockery.',
+            prefix: 'Mask of the',
+            weaponIds: [WEAPON_ID_DEATH_SPIRAL],
+        },
+        // 43: {name: 'LATODISOTTO', description: 'DEATH', weaponIds: [PASSIVE_ID_DUPLICATOR]},
+        // 44: {name: 'LATODILATO ', description: '', weaponIds: [PASSIVE_ID_DUPLICATOR]},
+        // 45: {name: 'LATODISOTTO', description: '', weaponIds: [PASSIVE_ID_DUPLICATOR]},
+        // 46: {name: 'LATOEVEST  ', description: '', weaponIds: [PASSIVE_ID_DUPLICATOR]},
+        // 47: {name: 'LATODISOTTO', description: '', weaponIds: [PASSIVE_ID_DUPLICATOR]},
+        // 48: {name: 'LATOEVEST  ', description: '', weaponIds: [PASSIVE_ID_DUPLICATOR]},
+        // 49: {name: 'LATODILATO ', description: 'PENTA', weaponIds: [PASSIVE_ID_DUPLICATOR]},
+        // 50: {name: 'LATODILATO ', description: '', weaponIds: [PASSIVE_ID_DUPLICATOR]},
+        // 51: {name: 'LATODILATO ', description: '', weaponIds: [PASSIVE_ID_DUPLICATOR]},
+        // 52: {name: 'LATODISOPRO', description: '', weaponIds: [PASSIVE_ID_DUPLICATOR]},
     };
 
     // noinspection JSValidateTypes IDs are filled below in init(), so ignore warnings here.
