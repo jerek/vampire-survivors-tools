@@ -1,0 +1,12 @@
+version: '2'
+services:
+  app:
+    build: "."
+    container_name: "vsbt"
+    image: "vsbt"
+    volumes:
+      - ".:/var/www/vampire-survivors-build-tool"
+    environment:
+      APP_ENV: "dev"
+    ports:
+      - "80:80"
