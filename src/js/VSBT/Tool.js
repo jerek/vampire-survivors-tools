@@ -1,9 +1,7 @@
 /**
  * The core code for managing the build tool.
- *
- * @constructor
  */
-VSBT.Tool = function () {
+VSBT.Tool = new function () {
     // We can alias any class-like here, since this is loaded last.
     const DOM = VSBT.DOM;
     const Util = VSBT.Util;
@@ -85,13 +83,33 @@ VSBT.Tool = function () {
     // ***** FUNCTIONS ***** //
     // ********************* //
 
-    function init() {
+    // ------ //
+    // PUBLIC //
+    // ------ //
+
+    /**
+     * Returns the main element containing the tool's interactive elements.
+     *
+     * @return {HTMLDivElement}
+     */
+    this.getContainer = function () {
+        return my.elements.container;
+    };
+
+    /**
+     * Sets up the main tool.
+     */
+    this.init = function () {
         // Initialize any core code before attempting to set up the tool.
         VSBT.init();
 
         // Display the tool.
         initDisplay();
-    }
+    };
+
+    // ------- //
+    // PRIVATE //
+    // ------- //
 
     /**
      * Sets up the tool's elements.
@@ -99,15 +117,10 @@ VSBT.Tool = function () {
     function initDisplay() {
         DOM.ce('h1', undefined, document.body, DOM.ct('Vampire Survivors Build Tool'));
 
-        my.elements.container = DOM.ce('div', {className: 'vsbt'}, document.body);
+        let wrapper = DOM.ce('div', {className: 'vsbt'}, document.body);
+        my.elements.container = DOM.ce('div', {className: 'vsbt-container'}, wrapper);
 
         let footer = DOM.ce('footer', undefined, document.body, DOM.ct('Created for the Survivors by '));
         DOM.ce('a', {href: 'https://twitter.com/jerekdain', target: '_blank'}, footer, DOM.ct('Jerek Dain'));
     }
-
-    // ************************** //
-    // ***** INITIALIZATION ***** //
-    // ************************** //
-
-    init();
 };

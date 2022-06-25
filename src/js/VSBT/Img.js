@@ -123,8 +123,8 @@ VSBT.Img = new function () {
      * @param {number} [scale] The 1-base scale at which images should be displayed. Defaults to 2.
      */
     this.displayAllImages = function (scale) {
-        let wrapper = document.querySelector('.vsbt');
-        wrapper.innerHTML = '';
+        let container = VSBT.Tool.getContainer();
+        container.innerHTML = '';
 
         if (typeof scale !== 'number') {
             scale = 3;
@@ -135,7 +135,7 @@ VSBT.Img = new function () {
         ['Characters', 'Items', 'Arcana', 'UI'].forEach(spriteName => {
             let sprite = self[spriteName.toUpperCase()];
 
-            let imagesContainer = DOM.ce('div', undefined, wrapper);
+            let imagesContainer = DOM.ce('div', undefined, container);
             DOM.ce('h2', undefined, imagesContainer, DOM.ct(spriteName));
 
             self.getFilenames(sprite, filenames => {

@@ -76,11 +76,28 @@ footer a:hover {color: var(--vs-yellow)}
 
 .vsbt {
     background: var(--vs-blue);
-    border: 4px solid var(--vs-yellow);
-    border-radius: 4px;
-    box-shadow: var(--vs-shadow);
     box-sizing: border-box;
     margin: 0 auto;
     padding: 10px;
+    position: relative;
     width: 700px;
 }
+
+/* noinspection CssOverwrittenProperties */
+.vsbt:before {
+    --border-offset: -4px;
+    border: 15px solid transparent;
+    border-image: url(../game-assets/Img/UI/frame5_c4.png) 15 fill;
+    bottom: var(--border-offset);
+    content: '';
+    display: block;
+    image-rendering: crisp-edges;
+    image-rendering: pixelated;
+    left: var(--border-offset);
+    position: absolute;
+    right: var(--border-offset);
+    top: var(--border-offset);
+    z-index: 1;
+}
+
+.vsbt-container {position: relative; z-index: 2}
