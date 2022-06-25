@@ -173,7 +173,6 @@ VSBT.Img = new function () {
         loadData(sprite, data => {
             let filenames = [];
 
-            console.info('data', data);
             data.textures.forEach(tp3Sprite => {
                 tp3Sprite.frames.forEach(frame => filenames.push(frame.filename));
             });
