@@ -227,6 +227,7 @@ VSBT.Img = new function () {
      * @param {VsSprite} sprite
      */
     function executeCallbacks(sprite) {
+        delete my.callbackExecutionRequests[sprite];
         while (my.callbacks[sprite].length) {
             my.callbacks[sprite].shift()(my.cache[sprite]);
         }
