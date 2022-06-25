@@ -134,7 +134,7 @@ VSBT.Img = new function () {
             alert('Warning: At scales higher than 4 images will start to be too large to fit in the main container.');
         }
 
-        ['Characters', 'Items', 'Arcana', 'UI'].forEach(spriteName => {
+        getSpriteNames().forEach(spriteName => {
             let sprite = self[spriteName.toUpperCase()];
 
             let imagesContainer = DOM.ce('div', undefined, container);
@@ -248,6 +248,15 @@ VSBT.Img = new function () {
         while (my.callbacks[sprite].length) {
             my.callbacks[sprite].shift()(my.cache[sprite]);
         }
+    }
+
+    /**
+     * Returns a list of all sprite names, which means the sprite filenames with title casing.
+     *
+     * @return {string[]}
+     */
+    function getSpriteNames() {
+        return ['Characters', 'Items', 'Arcana', 'UI'];
     }
 
     /**
