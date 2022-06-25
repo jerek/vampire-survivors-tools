@@ -8,6 +8,7 @@
 
 :root {
     /* Values from the game, or that closely mimic the game. */
+    --vs-blue: #4b4f74;
     --vs-shadow: 2px 2px 5px #000;
     --vs-yellow: #fc6;
 
@@ -74,7 +75,7 @@ footer a:hover {color: var(--vs-yellow)}
 /* ******************** */
 
 .vsbt {
-    background: #505070;
+    background: var(--vs-blue);
     border: 4px solid var(--vs-yellow);
     border-radius: 4px;
     box-shadow: var(--vs-shadow);
