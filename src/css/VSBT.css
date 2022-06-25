@@ -71,7 +71,8 @@ footer a:hover {color: var(--vs-yellow)}
     border: 4px solid var(--vs-yellow);
     border-radius: 4px;
     box-shadow: var(--vs-shadow);
-    height: 700px;
+    box-sizing: border-box;
     margin: 0 auto;
+    padding: 10px;
     width: 700px;
 }
