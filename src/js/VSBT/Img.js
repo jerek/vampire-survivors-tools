@@ -2,6 +2,7 @@
  * Displays images using the game's JSON & PNG files.
  */
 VSBT.Img = new function () {
+    const self = this;
     const DOM = VSBT.DOM;
 
     // *********************** //
@@ -100,18 +101,66 @@ VSBT.Img = new function () {
      *
      * @param {VsSprite}      sprite
      * @param {VsImgFilename} filename
-     * @param {Node}          [parent] When specified, the image element is appended to this.
+     * @param {Node}          [parent]   When specified, the image element is appended to this.
+     * @param {function}      [callback] When specified, a callback that is called with the image element.
      * @return {HTMLSpanElement}
      */
-    this.createImage = function (sprite, filename, parent) {
+    this.createImage = function (sprite, filename, parent, callback) {
         let image = DOM.ce('span', {className: 'vs-sprite-image'});
-        displayImage(sprite, filename, image);
+        displayImage(sprite, filename, image, callback);
 
         if (parent) {
             parent.appendChild(image);
         }
 
         return image;
+    };
+
+    /**
+     * Fills the main wrapper with all images, with a heading for each type.
+     */
+    this.displayAllImages = function () {
+        let wrapper = document.querySelector('.vsbt');
+        wrapper.innerHTML = '';
+
+        ['Arcana', 'Characters', 'Items', 'UI'].forEach(spriteName => {
+            let sprite = self[spriteName.toUpperCase()];
+
+            let imagesContainer = DOM.ce('div', undefined, wrapper);
+            DOM.ce('h2', undefined, imagesContainer, DOM.ct(spriteName));
+
+            self.getFilenames(sprite, chars => {
+                chars.forEach(filename => {
+                    let imageContainer = DOM.ce('span', {style: {
+                        display: 'inline-block',
+                        margin: `${DISPLAY_SCALE}px`,
+                        textAlign: 'center',
+                    }}, imagesContainer);
+
+                    /** @type {HTMLDivElement} */
+                    let title = DOM.ce('div', {style: {
+                        boxSizing: 'border-box',
+                        fontSize: '10px',
+                        overflow: 'hidden',
+                        padding: '0 2px',
+                        textOverflow: 'ellipsis',
+                    }}, imageContainer, DOM.ct(filename));
+
+                    self.createImage(sprite, filename, imageContainer, image => {
+                        if (parseInt(image.style.width) < 35) {
+                            title.style.width = '35px';
+                        } else {
+                            title.style.width = image.style.width;
+                        }
+                        if (title.scrollWidth > title.clientWidth) {
+                            imageContainer.title = filename;
+                        }
+                    });
+
+                    imageContainer.appendChild(title);
+                });
+            });
+        });
     };
 
     /**
@@ -143,8 +192,9 @@ VSBT.Img = new function () {
      * @param {VsSprite}        sprite
      * @param {VsImgFilename}   filename
      * @param {HTMLSpanElement} target
+     * @param {function}        [callback] When specified, a callback that is called with the image element.
      */
-    function displayImage(sprite, filename, target) {
+    function displayImage(sprite, filename, target, callback) {
         loadData(sprite, /** @param {TexturePacker3Data} data */ data => {
             data.textures.some(tp3Sprite => {
                 let scale = tp3Sprite.scale;
@@ -160,6 +210,10 @@ VSBT.Img = new function () {
                             height: `${scale * DISPLAY_SCALE * sizePos.h}px`,
                             width: `${scale * DISPLAY_SCALE * sizePos.w}px`,
                         });
+
+                        if (callback) {
+                            callback(target);
+                        }
 
                         return true;
                     }
