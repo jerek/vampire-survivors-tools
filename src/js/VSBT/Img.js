@@ -132,14 +132,15 @@ VSBT.Img = new function () {
             alert('Warning: At scales higher than 4 images will start to be too large to fit in the main container.');
         }
 
-        ['Arcana', 'Characters', 'Items', 'UI'].forEach(spriteName => {
+        ['Characters', 'Items', 'Arcana', 'UI'].forEach(spriteName => {
             let sprite = self[spriteName.toUpperCase()];
 
             let imagesContainer = DOM.ce('div', undefined, wrapper);
             DOM.ce('h2', undefined, imagesContainer, DOM.ct(spriteName));
 
-            self.getFilenames(sprite, chars => {
-                chars.forEach(filename => {
+            self.getFilenames(sprite, filenames => {
+                filenames.sort((a, b) => a.localeCompare(b));
+                filenames.forEach(filename => {
                     let imageContainer = DOM.ce('span', {style: {
                         display: 'inline-block',
                         margin: `${scale}px`,
