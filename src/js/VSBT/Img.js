@@ -159,11 +159,8 @@ VSBT.Img = new function () {
                     }}, imageContainer, DOM.ct(filename));
 
                     self.createImage(sprite, filename, imageContainer, scale, image => {
-                        if (parseInt(image.style.width) < 35) {
-                            title.style.width = '35px';
-                        } else {
-                            title.style.width = image.style.width;
-                        }
+                        title.style.width = parseInt(image.style.width) < 35 ? '35px' : image.style.width;
+
                         if (title.scrollWidth > title.clientWidth) {
                             imageContainer.title = filename;
                         }
