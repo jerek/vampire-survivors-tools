@@ -67,6 +67,7 @@ footer a:hover {color: var(--vs-yellow)}
 /* ***** SPRITE IMAGES ***** */
 /* ************************* */
 
+.vs-sprite-image-wrapper {align-items: flex-end; display: flex; justify-content: flex-end}
 /* noinspection CssOverwrittenProperties */
 .vs-sprite-image {display: inline-block; image-rendering: crisp-edges; image-rendering: pixelated}
 

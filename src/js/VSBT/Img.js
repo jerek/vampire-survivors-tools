@@ -69,6 +69,9 @@ VSBT.Img = new function () {
     // PRIVATE //
     // ------- //
 
+    /** @type {number} How many MS for each animation frame. */
+    const ANIMATION_SPEED_MS = 150;
+
     /** @type {number} The default 1-base scale at which images should be displayed. */
     const DEFAULT_DISPLAY_SCALE = 2;
 
@@ -118,6 +121,59 @@ VSBT.Img = new function () {
     };
 
     /**
+     * Creates and returns an element to display a Vampire Survivors image via a sprite.
+     *
+     * @param {VsSprite}        sprite
+     * @param {VsImgFilename[]} filenames  The filenames of the frames that are a part of this animation.
+     * @param {Node}            [parent]   When specified, the image element is appended to this.
+     * @param {number}          [scale]    The 1-base scale at which images should be displayed. Defaults to 2.
+     * @param {function}        [callback] When specified, a callback that is called with the image element.
+     * @return {HTMLSpanElement}
+     */
+    this.createImageAnimated = function (sprite, filenames, parent, scale, callback) {
+        let imageWrapper = DOM.ce('span', {className: 'vs-sprite-image-wrapper'});
+        let image = DOM.ce('span', {className: 'vs-sprite-image'}, imageWrapper);
+        if (filenames.length === 1) {
+            displayImage(sprite, filenames[0], image, scale, callback);
+        } else {
+            displayImage(sprite, filenames[0], image, scale, image => {
+                let maxHeight = 0;
+                let maxWidth = 0;
+                getFramesData(sprite, filenames).forEach(/** @param {Tp3Frame} frame */ frame => {
+                    maxHeight = Math.max(maxHeight, frame.frame.h);
+                    maxWidth = Math.max(maxWidth, frame.frame.w);
+                });
+
+                maxHeight *= typeof scale === 'number' ? scale : DEFAULT_DISPLAY_SCALE;
+                maxWidth *= typeof scale === 'number' ? scale : DEFAULT_DISPLAY_SCALE;
+
+                imageWrapper.style.height = maxHeight + 'px';
+                imageWrapper.style.width = maxWidth + 'px';
+
+                let i = 0;
+                setInterval(() => {
+                    // Display the next image in the animation.
+                    i++;
+                    if (i + 1 > filenames.length) {
+                        i = 0;
+                    }
+                    displayImage(sprite, filenames[i], image, scale, callback);
+                }, ANIMATION_SPEED_MS);
+
+                if (callback) {
+                    callback(image);
+                }
+            });
+        }
+
+        if (parent) {
+            parent.appendChild(imageWrapper);
+        }
+
+        return imageWrapper;
+    };
+
+    /**
      * Fills the main wrapper with all images, with a heading for each type.
      *
      * @param {number} [scale] The 1-base scale at which images should be displayed. Defaults to 2.
@@ -163,6 +219,93 @@ VSBT.Img = new function () {
 
                         if (title.scrollWidth > title.clientWidth) {
                             imageContainer.title = filename;
+                        }
+                    });
+
+                    imageContainer.appendChild(title);
+                });
+            });
+        });
+    };
+
+    /**
+     * Fills the main wrapper with all images, with a heading for each type, and animates all that appear to have
+     * animations.
+     *
+     * @param {number} [scale] The 1-base scale at which images should be displayed. Defaults to 2.
+     */
+    this.displayAllImagesAnimated = function (scale) {
+        document.querySelector('h1').innerText = 'Vampire Survivors Images Animated';
+
+        let container = VSBT.Tool.getContainer();
+        container.innerHTML = '';
+
+        if (typeof scale !== 'number') {
+            scale = 3;
+        } else if (scale > 4) {
+            alert('Warning: At scales higher than 4 images will start to be too large to fit in the main container.');
+        }
+
+        getSpriteNames().forEach(spriteName => {
+            let sprite = self[spriteName.toUpperCase()];
+
+            let imagesContainer = DOM.ce('div', undefined, container);
+            DOM.ce('h2', undefined, imagesContainer, DOM.ct(spriteName));
+
+            let animationFrameFilenames = {};
+
+            self.getFilenames(sprite, filenames => {
+                filenames.sort((a, b) => a.localeCompare(b));
+                filenames.forEach(filename => {
+                    let number = '0';
+                    let groupName = filename;
+                    let match = filename.match(/(.*\D|^)(\d+)(\D*\..*)/);
+                    if (match) {
+                        number = match[2];
+                        groupName = match[1] + '#' + match[3];
+                    }
+
+                    if (!animationFrameFilenames[groupName]) {
+                        animationFrameFilenames[groupName] = [];
+                    }
+                    animationFrameFilenames[groupName].push({
+                        number: parseInt(number),
+                        filename: filename,
+                    });
+                });
+
+                Object.entries(animationFrameFilenames).forEach(([groupName, files]) => {
+                    files.sort((a, b) => a.number - b.number);
+
+                    let imageContainer = DOM.ce('span', {style: {
+                            display: 'inline-block',
+                            margin: `${scale}px`,
+                            textAlign: 'center',
+                        }}, imagesContainer);
+
+                    /** @type {HTMLDivElement} */
+                    let title = DOM.ce('div', {style: {
+                            boxSizing: 'border-box',
+                            fontSize: '10px',
+                            overflow: 'hidden',
+                            padding: '0 2px',
+                            textOverflow: 'ellipsis',
+                        }}, imageContainer, DOM.ct(groupName));
+
+                    /** @type {VsImgFilename[]} */
+                    let animationFrames = []
+                    files.forEach(file => {
+                        animationFrames.push(file.filename);
+                    });
+
+                    self.createImageAnimated(sprite, animationFrames, imageContainer, scale, image => {
+                        if (image.parentNode.style.width) {
+                            image = image.parentNode;
+                        }
+                        title.style.width = parseInt(image.style.width) < 35 ? '35px' : image.style.width;
+
+                        if (!imageContainer.title && title.scrollWidth > title.clientWidth) {
+                            imageContainer.title = groupName;
                         }
                     });
 
@@ -245,6 +388,27 @@ VSBT.Img = new function () {
         while (my.callbacks[sprite].length) {
             my.callbacks[sprite].shift()(my.cache[sprite]);
         }
+    }
+
+    /**
+     * Returns data on multiple frames from the given filenames.
+     *
+     * @param {VsSprite}        sprite
+     * @param {VsImgFilename[]} filenames
+     * @return {Tp3Frame[]}
+     */
+    function getFramesData(sprite, filenames) {
+        let framesData = [];
+
+        my.cache[sprite].textures.forEach(tp3Sprite => {
+            tp3Sprite.frames.forEach(frame => {
+                if (filenames.includes(frame.filename)) {
+                    framesData.push(frame);
+                }
+            });
+        });
+
+        return framesData;
     }
 
     /**
