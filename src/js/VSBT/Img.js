@@ -123,6 +123,8 @@ VSBT.Img = new function () {
      * @param {number} [scale] The 1-base scale at which images should be displayed. Defaults to 2.
      */
     this.displayAllImages = function (scale) {
+        document.querySelector('h1').innerText = 'Vampire Survivors Images';
+
         let container = VSBT.Tool.getContainer();
         container.innerHTML = '';
 
