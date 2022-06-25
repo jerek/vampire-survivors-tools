@@ -28,7 +28,7 @@ html, body {
     padding: 0;
 }
 /* A gradient that imitates the BG a little: linear-gradient(180deg, #800106 0%, #120303 100%) */
-html {background: #4a0106 url(../images/game-assets/introBG-enlarged.png); background-size: cover}
+html {background: #4a0106 url(../images/game-assets/introBG-enlarged.png) top / cover fixed}
 body {padding: var(--page-padding)}
 
 h1, h2, h3, h4, h5, h6 {margin: 10px 0; text-align: center}
