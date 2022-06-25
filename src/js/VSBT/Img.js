@@ -69,8 +69,8 @@ VSBT.Img = new function () {
     // PRIVATE //
     // ------- //
 
-    /** @type {number} The 1-base scale at which the Vampire Survivors images should be displayed. */
-    const DISPLAY_SCALE = 3;
+    /** @type {number} The default 1-base scale at which images should be displayed. */
+    const DEFAULT_DISPLAY_SCALE = 2;
 
     // ********************* //
     // ***** VARIABLES ***** //
@@ -102,12 +102,13 @@ VSBT.Img = new function () {
      * @param {VsSprite}      sprite
      * @param {VsImgFilename} filename
      * @param {Node}          [parent]   When specified, the image element is appended to this.
+     * @param {number}        [scale]    The 1-base scale at which images should be displayed. Defaults to 2.
      * @param {function}      [callback] When specified, a callback that is called with the image element.
      * @return {HTMLSpanElement}
      */
-    this.createImage = function (sprite, filename, parent, callback) {
+    this.createImage = function (sprite, filename, parent, scale, callback) {
         let image = DOM.ce('span', {className: 'vs-sprite-image'});
-        displayImage(sprite, filename, image, callback);
+        displayImage(sprite, filename, image, scale, callback);
 
         if (parent) {
             parent.appendChild(image);
@@ -118,10 +119,18 @@ VSBT.Img = new function () {
 
     /**
      * Fills the main wrapper with all images, with a heading for each type.
+     *
+     * @param {number} [scale] The 1-base scale at which images should be displayed. Defaults to 2.
      */
-    this.displayAllImages = function () {
+    this.displayAllImages = function (scale) {
         let wrapper = document.querySelector('.vsbt');
         wrapper.innerHTML = '';
+
+        if (typeof scale !== 'number') {
+            scale = 3;
+        } else if (scale > 4) {
+            alert('Warning: At scales higher than 4 images will start to be too large to fit in the main container.');
+        }
 
         ['Arcana', 'Characters', 'Items', 'UI'].forEach(spriteName => {
             let sprite = self[spriteName.toUpperCase()];
@@ -133,7 +142,7 @@ VSBT.Img = new function () {
                 chars.forEach(filename => {
                     let imageContainer = DOM.ce('span', {style: {
                         display: 'inline-block',
-                        margin: `${DISPLAY_SCALE}px`,
+                        margin: `${scale}px`,
                         textAlign: 'center',
                     }}, imagesContainer);
 
@@ -146,7 +155,7 @@ VSBT.Img = new function () {
                         textOverflow: 'ellipsis',
                     }}, imageContainer, DOM.ct(filename));
 
-                    self.createImage(sprite, filename, imageContainer, image => {
+                    self.createImage(sprite, filename, imageContainer, scale, image => {
                         if (parseInt(image.style.width) < 35) {
                             title.style.width = '35px';
                         } else {
@@ -191,12 +200,17 @@ VSBT.Img = new function () {
      * @param {VsSprite}        sprite
      * @param {VsImgFilename}   filename
      * @param {HTMLSpanElement} target
+     * @param {number}          [scale]    The 1-base scale at which images should be displayed. Defaults to 2.
      * @param {function}        [callback] When specified, a callback that is called with the image element.
      */
-    function displayImage(sprite, filename, target, callback) {
+    function displayImage(sprite, filename, target, scale, callback) {
+        if (typeof scale !== 'number') {
+            scale = DEFAULT_DISPLAY_SCALE;
+        }
+
         loadData(sprite, /** @param {TexturePacker3Data} data */ data => {
             data.textures.some(tp3Sprite => {
-                let scale = tp3Sprite.scale;
+                scale *= tp3Sprite.scale;
 
                 tp3Sprite.frames.some(frame => {
                     if (frame.filename === filename) {
@@ -204,10 +218,10 @@ VSBT.Img = new function () {
                         let bgSizeScale = (tp3Sprite.size.w / sizePos.w) * 100;
                         VSBT.Util.copyProperties(target.style, {
                             backgroundImage: `url(${getSpritePath(sprite, 'png')})`,
-                            backgroundPosition: `-${scale * DISPLAY_SCALE * sizePos.x}px -${scale * DISPLAY_SCALE * sizePos.y}px`,
+                            backgroundPosition: `-${scale * sizePos.x}px -${scale * sizePos.y}px`,
                             backgroundSize: `${bgSizeScale}% auto`,
-                            height: `${scale * DISPLAY_SCALE * sizePos.h}px`,
-                            width: `${scale * DISPLAY_SCALE * sizePos.w}px`,
+                            height: `${scale * sizePos.h}px`,
+                            width: `${scale * sizePos.w}px`,
                         });
 
                         if (callback) {
