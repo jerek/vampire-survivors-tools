@@ -62,6 +62,13 @@ footer {
 footer a {color: inherit}
 footer a:hover {color: var(--vs-yellow)}
 
+/* ************************* */
+/* ***** SPRITE IMAGES ***** */
+/* ************************* */
+
+/* noinspection CssOverwrittenProperties */
+.vs-sprite-image {display: inline-block; image-rendering: crisp-edges; image-rendering: pixelated}
+
 /* ******************** */
 /* ***** THE TOOL ***** */
 /* ******************** */
