@@ -51,6 +51,8 @@ h1 {
     text-transform: uppercase;
 }
 
+a {color: var(--vs-yellow)}
+
 /* ********************** */
 /* ***** THE FOOTER ***** */
 /* ********************** */
@@ -141,3 +143,4 @@ footer a:hover {color: var(--vs-yellow)}
 }
 
 .vsbt-container {position: relative; z-index: 2}
+.vsbt-container > :last-child {margin-bottom: 0}

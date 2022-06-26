@@ -181,8 +181,7 @@ VSBT.Img = new function () {
     this.displayAllImages = function (scale) {
         document.querySelector('h1').innerText = 'Vampire Survivors Images';
 
-        let container = VSBT.Tool.getContainer();
-        container.innerHTML = '';
+        let container = VSBT.Page.getContainer();
 
         if (typeof scale !== 'number') {
             scale = 3;
@@ -237,8 +236,7 @@ VSBT.Img = new function () {
     this.displayAllImagesAnimated = function (scale) {
         document.querySelector('h1').innerText = 'Vampire Survivors Images Animated';
 
-        let container = VSBT.Tool.getContainer();
-        container.innerHTML = '';
+        let container = VSBT.Page.getContainer();
 
         if (typeof scale !== 'number') {
             scale = 3;

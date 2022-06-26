@@ -4,6 +4,7 @@
 VSBT.Tool = new function () {
     // We can alias any class-like here, since this is loaded last.
     const DOM = VSBT.DOM;
+    const Page = VSBT.Page;
     const Util = VSBT.Util;
 
     // *********************** //
@@ -65,9 +66,6 @@ VSBT.Tool = new function () {
             /** @type {HTMLDivElement} The element containing the list of characters. */
             characters: undefined,
 
-            /** @type {HTMLDivElement} The main element containing the tool's interactive elements. */
-            container: undefined,
-
             /** @type {HTMLDivElement} The element containing the list of passive items. */
             passiveItems: undefined,
 
@@ -88,39 +86,17 @@ VSBT.Tool = new function () {
     // ------ //
 
     /**
-     * Returns the main element containing the tool's interactive elements.
-     *
-     * @return {HTMLDivElement}
-     */
-    this.getContainer = function () {
-        return my.elements.container;
-    };
-
-    /**
      * Sets up the main tool.
      */
     this.init = function () {
         // Initialize any core code before attempting to set up the tool.
         VSBT.init();
 
-        // Display the tool.
-        initDisplay();
+        // Set up the page.
+        Page.init();
     };
 
     // ------- //
     // PRIVATE //
     // ------- //
-
-    /**
-     * Sets up the tool's elements.
-     */
-    function initDisplay() {
-        DOM.ce('h1', undefined, document.body, DOM.ct('Vampire Survivors Build Tool'));
-
-        let wrapper = DOM.ce('div', {className: 'vsbt'}, document.body);
-        my.elements.container = DOM.ce('div', {className: 'vsbt-container'}, wrapper);
-
-        let footer = DOM.ce('footer', undefined, document.body, DOM.ct('Created for the Survivors by '));
-        DOM.ce('a', {href: 'https://twitter.com/jerekdain', target: '_blank'}, footer, DOM.ct('Jerek Dain'));
-    }
 };
