@@ -50,7 +50,9 @@ VSBT.Img = new function () {
 
     /** @typedef {string} VsImgFilename A Vampire Survivors image name, which is packed within a sprite. */
 
-    /** @typedef {string} VsSprite A Vampire Survivors sprite name. */
+    /** @typedef {string} VsSprite A Vampire Survivors sprite's internal name. */
+
+    /** @typedef {string} VsSpriteName A Vampire Survivors sprite's name with title casing. */
 
     // ********************* //
     // ***** CONSTANTS ***** //
@@ -59,6 +61,9 @@ VSBT.Img = new function () {
     // ------ //
     // PUBLIC //
     // ------ //
+
+    /** @type {VsSpriteName} A custom sprite name that doesn't exist, to indicate to display images from all sprites. */
+    this.ALL_SPRITES = 'All';
 
     /** @type {VsSprite} */ this.ARCANA     = 'randomazzo';
     /** @type {VsSprite} */ this.CHARACTERS = 'characters';
@@ -179,9 +184,10 @@ VSBT.Img = new function () {
     /**
      * Fills the main wrapper with all images, with a heading for each type.
      *
-     * @param {number} [scale] The 1-base scale at which images should be displayed. Defaults to 2.
+     * @param {VsSpriteName} [sprite] A sprite to display the images from. Defaults to all sprites.
+     * @param {number}       [scale]  The 1-base scale at which images should be displayed. Defaults to 2.
      */
-    this.displayAllImages = function (scale) {
+    this.displayAllImages = function (sprite, scale) {
         document.querySelector('h1').innerText = 'Vampire Survivors Images';
 
         let container = VSBT.Page.getContainer();
@@ -192,7 +198,7 @@ VSBT.Img = new function () {
             alert('Warning: At scales higher than 4 images will start to be too large to fit in the main container.');
         }
 
-        getSpriteNames().forEach(spriteName => {
+        (sprite && sprite !== self.ALL_SPRITES ? [sprite] : self.getSpriteNames()).forEach(spriteName => {
             let sprite = self[spriteName.toUpperCase()];
 
             let imagesContainer = DOM.ce('div', undefined, container);
@@ -234,9 +240,10 @@ VSBT.Img = new function () {
      * Fills the main wrapper with all images, with a heading for each type, and animates all that appear to have
      * animations.
      *
-     * @param {number} [scale] The 1-base scale at which images should be displayed. Defaults to 2.
+     * @param {VsSpriteName} [sprite] A sprite to display the images from. Defaults to all sprites.
+     * @param {number}       [scale]  The 1-base scale at which images should be displayed. Defaults to 2.
      */
-    this.displayAllImagesAnimated = function (scale) {
+    this.displayAllImagesAnimated = function (sprite, scale) {
         document.querySelector('h1').innerText = 'Vampire Survivors Images Animated';
 
         let container = VSBT.Page.getContainer();
@@ -247,7 +254,7 @@ VSBT.Img = new function () {
             alert('Warning: At scales higher than 4 images will start to be too large to fit in the main container.');
         }
 
-        getSpriteNames().forEach(spriteName => {
+        (sprite && sprite !== self.ALL_SPRITES ? [sprite] : self.getSpriteNames()).forEach(spriteName => {
             let sprite = self[spriteName.toUpperCase()];
 
             let imagesContainer = DOM.ce('div', undefined, container);
@@ -334,6 +341,20 @@ VSBT.Img = new function () {
         });
     };
 
+    /**
+     * Returns a list of all sprite names, which means the sprite filenames with title casing.
+     *
+     * @return {VsSpriteName[]}
+     */
+    this.getSpriteNames = function () {
+        return [
+            'Arcana',
+            'Characters',
+            'Items',
+            'UI',
+        ];
+    };
+
     // ------- //
     // PRIVATE //
     // ------- //
@@ -410,15 +431,6 @@ VSBT.Img = new function () {
         });
 
         return framesData;
-    }
-
-    /**
-     * Returns a list of all sprite names, which means the sprite filenames with title casing.
-     *
-     * @return {string[]}
-     */
-    function getSpriteNames() {
-        return ['Characters', 'Items', 'Arcana', 'UI'];
     }
 
     /**

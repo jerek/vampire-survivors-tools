@@ -3,6 +3,7 @@
  */
 VSBT.Page = new function () {
     const self = this;
+    const Img = VSBT.Img;
     const DOM = VSBT.DOM;
 
     // *********************** //
@@ -153,10 +154,26 @@ VSBT.Page = new function () {
         // Display the page content.
         switch (page) {
             case this.PAGE_ALL_IMAGES:
-                VSBT.Img.displayAllImages();
+                if (data) {
+                    Img.displayAllImages(data);
+                } else {
+                    let buttons = DOM.ce('div', {className: 'vs-button-list'}, my.elements.container);
+                    let spriteNames = Img.getSpriteNames().concat([Img.ALL_SPRITES]);
+                    spriteNames.forEach(spriteName => {
+                        DOM.createButton(spriteName, () => self.set(page, spriteName), buttons);
+                    });
+                }
                 break;
             case this.PAGE_ALL_IMAGES_ANIMATED:
-                VSBT.Img.displayAllImagesAnimated();
+                if (data) {
+                    Img.displayAllImagesAnimated(data);
+                } else {
+                    let buttons = DOM.ce('div', {className: 'vs-button-list'}, my.elements.container);
+                    let spriteNames = Img.getSpriteNames().concat([Img.ALL_SPRITES]);
+                    spriteNames.forEach(spriteName => {
+                        DOM.createButton(spriteName, () => self.set(page, spriteName), buttons);
+                    });
+                }
                 break;
             case this.PAGE_ERROR:
                 my.elements.pageHeading.innerText = 'Error';

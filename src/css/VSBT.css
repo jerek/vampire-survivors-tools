@@ -78,9 +78,9 @@ footer a:hover {color: var(--vs-yellow)}
 .vs-sprite-image-wrapper {align-items: flex-end; display: flex; justify-content: flex-end}
 .vs-sprite-image {display: inline-block}
 
-/* ***************************** */
-/* ***** REUSABLE ELEMENTS ***** */
-/* ***************************** */
+/* ******************* */
+/* ***** BUTTONS ***** */
+/* ******************* */
 
 .vs-button {
     border: var(--vs-button-border-size-px) solid transparent;
@@ -114,6 +114,20 @@ footer a:hover {color: var(--vs-yellow)}
 .vs-button[data-color="red"] {
     border-image: url(../game-assets/Img/UI/button_c8_normal.png) var(--vs-button-border-size) fill;
 }
+
+/* ============ */
+/* BUTTON LISTS */
+/* ============ */
+
+.vs-button-list {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin: 50px 0 !important; /* To override :last-child margin removal. */
+}
+
+.vs-button-list > .vs-button {min-width: 165px; text-align: center}
+.vs-button-list > :not(:first-child) {margin-top: 20px}
 
 /* ****************** */
 /* ***** LAYOUT ***** */
