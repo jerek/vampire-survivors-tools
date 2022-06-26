@@ -151,7 +151,7 @@ VSBT.Img = new function () {
                 imageWrapper.style.width = maxWidth + 'px';
 
                 let i = 0;
-                setInterval(() => {
+                let interval = setInterval(() => {
                     // Display the next image in the animation.
                     i++;
                     if (i + 1 > filenames.length) {
@@ -159,6 +159,9 @@ VSBT.Img = new function () {
                     }
                     displayImage(sprite, filenames[i], image, scale, callback);
                 }, ANIMATION_SPEED_MS);
+
+                // When we change to another page, we need to stop the code from trying to update the animations.
+                VSBT.Page.onLeavePage(() => clearInterval(interval));
 
                 if (callback) {
                     callback(image);

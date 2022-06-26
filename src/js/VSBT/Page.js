@@ -66,6 +66,9 @@ VSBT.Page = new function () {
             /** @type {HTMLHeadingElement} The main page heading. */
             pageHeading: undefined,
         },
+
+        /** @type {function[]} A list of functions to call before changing to another page. */
+        onLeavePage: [],
     };
 
     // ********************* //
@@ -101,13 +104,26 @@ VSBT.Page = new function () {
     };
 
     /**
+     * Registers the given callback to be called when the user visits a different page. This is so that pages can do any
+     * needed manual garbage collection to prevent memory leaks, such as clearing animation intervals.
+     *
+     * @param {function} callback
+     */
+    this.onLeavePage = function (callback) {
+        my.onLeavePage.push(callback);
+    };
+
+    /**
      * Sets and displays a page.
      *
      * @param {Page} page
      * @param {*}    [pageData] Page-specific contextual data.
      */
     this.set = function (page, pageData) {
-        // Clear any previous page content.
+        // Do any garbage collection and clear any previous page content.
+        while (my.onLeavePage.length) {
+            my.onLeavePage.shift()();
+        }
         my.elements.container.innerHTML = '';
 
         // Set the new page.
