@@ -9,13 +9,22 @@ VSBT.Page = new function () {
     // ***** DEFINITIONS ***** //
     // *********************** //
 
-    /** @typedef {string} Page A page with an associated layout. */
+    /**
+     * @typedef {Object} PageBundle Data describing a page to display and any associated contextual data.
+     * @property {PageId}   page The page to display.
+     * @property {PageData} data Page-specific contextual data.
+     */
+
+    /** @typedef {*} PageData Page-specific contextual data. */
+
+    /** @typedef {string} PageId A string ID of a page with an associated layout. */
 
     /**
      * @typedef {Object} PageNavigation Data to display a link to a page in the general navigation area.
-     * @property {Page}        page
      * @property {string}      linkText
+     * @property {PageId}      page
      * @property {ButtonColor} [buttonColor]
+     * @property {PageData}    [data]
      */
 
     // ********************* //
@@ -27,10 +36,10 @@ VSBT.Page = new function () {
     // ------ //
 
     // Constants to identify the different page layouts.
-    /** @type {Page} */ this.PAGE_ALL_IMAGES = 'all-images';
-    /** @type {Page} */ this.PAGE_ALL_IMAGES_ANIMATED = 'all-images-animated';
-    /** @type {Page} */ this.PAGE_ERROR = 'error';
-    /** @type {Page} */ this.PAGE_INDEX = 'index';
+    /** @type {PageId} */ this.PAGE_ALL_IMAGES = 'all-images';
+    /** @type {PageId} */ this.PAGE_ALL_IMAGES_ANIMATED = 'all-images-animated';
+    /** @type {PageId} */ this.PAGE_ERROR = 'error';
+    /** @type {PageId} */ this.PAGE_INDEX = 'index';
 
     // ------- //
     // PRIVATE //
@@ -42,7 +51,7 @@ VSBT.Page = new function () {
         {page: this.PAGE_ALL_IMAGES_ANIMATED, linkText: 'Animated Images'},
     ];
 
-    /** @type {Object<Page, string>} A map of pages to their titles. */
+    /** @type {Object<PageId, string>} A map of page IDs to their titles. */
     const PAGE_TITLES = {
         [this.PAGE_ALL_IMAGES]: 'Vampire Survivors Images',
         [this.PAGE_ALL_IMAGES_ANIMATED]: 'Vampire Survivors Images Animated',
@@ -55,7 +64,7 @@ VSBT.Page = new function () {
 
     /** @type {Object} Private object-scope variables. */
     const my = {
-        /** @type {Page} The currently loaded page. */
+        /** @type {PageBundle} The currently loaded page. */
         currentPage: undefined,
 
         /** @type {Object} References to various DOM elements. */
@@ -116,10 +125,10 @@ VSBT.Page = new function () {
     /**
      * Sets and displays a page.
      *
-     * @param {Page} page
-     * @param {*}    [pageData] Page-specific contextual data.
+     * @param {PageId}   page   The page to display.
+     * @param {PageData} [data] Page-specific contextual data.
      */
-    this.set = function (page, pageData) {
+    this.set = function (page, data) {
         // Do any garbage collection and clear any previous page content.
         while (my.onLeavePage.length) {
             my.onLeavePage.shift()();
@@ -127,14 +136,15 @@ VSBT.Page = new function () {
         my.elements.container.innerHTML = '';
 
         // Set the new page.
-        my.currentPage = page;
+        let lastPage = my.currentPage;
+        my.currentPage = {page: page, data: data};
         document.body.dataset.page = page;
 
         // Add the homepage navigation, or a red "Back" button.
         addNavigationButtons(
             page === self.PAGE_INDEX ?
                 NAVIGATION :
-                [{page: this.PAGE_INDEX, linkText: 'Back', buttonColor: DOM.BUTTON_RED}],
+                [{page: lastPage.page, data: lastPage.data, linkText: 'Back', buttonColor: DOM.BUTTON_RED}],
         );
 
         // Update the main heading, if this page has one specified.
@@ -150,7 +160,7 @@ VSBT.Page = new function () {
                 break;
             case this.PAGE_ERROR:
                 my.elements.pageHeading.innerText = 'Error';
-                DOM.ce('h2', undefined, my.elements.container, DOM.ct(pageData && pageData.error || 'Unknown Error'));
+                DOM.ce('h2', undefined, my.elements.container, DOM.ct(data && data.error || 'Unknown Error'));
                 break;
             case this.PAGE_INDEX:
                 // Only navigation buttons are needed.
@@ -173,7 +183,12 @@ VSBT.Page = new function () {
         let navRow = DOM.ce('div', {className: 'vsbt-nav'}, my.elements.container);
 
         navItems.forEach(navItem => {
-            DOM.createButton(navItem.linkText, () => self.set(navItem.page), navRow, navItem.buttonColor);
+            DOM.createButton(
+                navItem.linkText,
+                () => self.set(navItem.page, navItem.data),
+                navRow,
+                navItem.buttonColor,
+            );
         });
     }
 };
