@@ -38,7 +38,7 @@ VSBT.Page = new function () {
 
     /** @type {PageNavigation[]} */
     const NAVIGATION = [
-        {page: this.PAGE_ALL_IMAGES, linkText: 'Images'},
+        {page: this.PAGE_ALL_IMAGES, linkText: 'Game Images'},
         {page: this.PAGE_ALL_IMAGES_ANIMATED, linkText: 'Animated Images'},
     ];
 
