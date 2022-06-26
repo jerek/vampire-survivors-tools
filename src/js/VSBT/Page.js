@@ -11,6 +11,13 @@ VSBT.Page = new function () {
 
     /** @typedef {string} Page A page with an associated layout. */
 
+    /**
+     * @typedef {Object} PageNavigation Data to display a link to a page in the general navigation area.
+     * @property {Page}        page
+     * @property {string}      linkText
+     * @property {ButtonColor} [buttonColor]
+     */
+
     // ********************* //
     // ***** CONSTANTS ***** //
     // ********************* //
@@ -27,6 +34,12 @@ VSBT.Page = new function () {
     // ------- //
     // PRIVATE //
     // ------- //
+
+    /** @type {PageNavigation[]} */
+    const NAVIGATION = [
+        {page: this.PAGE_ALL_IMAGES, linkText: 'Images'},
+        {page: this.PAGE_ALL_IMAGES_ANIMATED, linkText: 'Animated Images'},
+    ];
 
     /** @type {Object<Page, string>} A map of pages to their titles. */
     const PAGE_TITLES = {
@@ -92,14 +105,24 @@ VSBT.Page = new function () {
      * @param {Page} page
      */
     this.setPage = function (page) {
-        my.currentPage = page;
-
+        // Clear any previous page content.
         my.elements.container.innerHTML = '';
 
-        addNavigationButtons(page);
+        // Set the new page.
+        my.currentPage = page;
+        document.body.dataset.page = page;
 
+        // Add the homepage navigation, or a red "Back" button.
+        addNavigationButtons(
+            page === self.PAGE_INDEX ?
+                NAVIGATION :
+                [{page: this.PAGE_INDEX, linkText: 'Back', buttonColor: DOM.BUTTON_RED}],
+        );
+
+        // Update the main heading, if this page has one specified.
         my.elements.pageHeading.innerText = PAGE_TITLES[page] || PAGE_TITLES[self.PAGE_INDEX];
 
+        // Display the page content.
         switch (page) {
             case this.PAGE_ALL_IMAGES:
                 VSBT.Img.displayAllImages();
@@ -108,8 +131,7 @@ VSBT.Page = new function () {
                 VSBT.Img.displayAllImagesAnimated();
                 break;
             case this.PAGE_INDEX:
-                DOM.ce('p', undefined, my.elements.container, DOM.ct('One day, this will have meaningful text. Today ' +
-                    'is not that day.'));
+                // Only navigation buttons are needed.
                 break;
         }
     };
@@ -121,17 +143,13 @@ VSBT.Page = new function () {
     /**
      * Add navigation buttons to the main container.
      *
-     * @param {Page} page
+     * @param {PageNavigation[]} navItems
      */
-    function addNavigationButtons(page) {
-        let nav = DOM.ce('div', {className: 'vsbt-nav'}, my.elements.container);
-        let addSpace = () => nav.appendChild(DOM.ct(' '));
-        if (page !== self.PAGE_INDEX) {
-            DOM.createButton('Back', () => self.setPage(self.PAGE_INDEX), nav, DOM.BUTTON_RED);
-            addSpace();
-        }
-        DOM.createButton('Display All Images', () => self.setPage(self.PAGE_ALL_IMAGES), nav);
-        addSpace();
-        DOM.createButton('Display All Images Animated', () => self.setPage(self.PAGE_ALL_IMAGES_ANIMATED), nav);
+    function addNavigationButtons(navItems) {
+        let navRow = DOM.ce('div', {className: 'vsbt-nav'}, my.elements.container);
+
+        navItems.forEach(navItem => {
+            DOM.createButton(navItem.linkText, () => self.setPage(navItem.page), navRow, navItem.buttonColor);
+        });
     }
 };

@@ -86,6 +86,7 @@ footer a:hover {color: var(--vs-yellow)}
     /* noinspection CssOverwrittenProperties */ image-rendering: crisp-edges;
     /* noinspection CssOverwrittenProperties */ image-rendering: pixelated;
     text-decoration: none;
+    text-transform: uppercase;
 }
 
 .vs-button[data-color="blue"] {
@@ -112,9 +113,9 @@ footer a:hover {color: var(--vs-yellow)}
     border-image: url(../game-assets/Img/UI/button_c8_normal.png) var(--vs-button-border-size) fill;
 }
 
-/* ******************** */
-/* ***** THE TOOL ***** */
-/* ******************** */
+/* ****************** */
+/* ***** LAYOUT ***** */
+/* ****************** */
 
 .vsbt {
     background: var(--vs-blue);
@@ -144,3 +145,16 @@ footer a:hover {color: var(--vs-yellow)}
 
 .vsbt-container {position: relative; z-index: 2}
 .vsbt-container > :last-child {margin-bottom: 0}
+
+/* ***************** */
+/* ***** PAGES ***** */
+/* ***************** */
+
+body[data-page="index"] .vsbt-nav {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin: 30px 0;
+}
+
+body[data-page="index"] .vsbt-nav > :not(:first-child) {margin-top: 10px}
