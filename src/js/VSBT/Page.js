@@ -104,7 +104,7 @@ VSBT.Page = new function () {
      * Sets and displays a page.
      *
      * @param {Page} page
-     * @param {*}    pageData Page-specific contextual data.
+     * @param {*}    [pageData] Page-specific contextual data.
      */
     this.set = function (page, pageData) {
         // Clear any previous page content.
