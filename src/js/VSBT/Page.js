@@ -65,7 +65,7 @@ VSBT.Page = new function () {
 
     /** @type {Object} Private object-scope variables. */
     const my = {
-        /** @type {PageBundle} The currently loaded page. */
+        /** @type {PageBundle|undefined} The currently loaded page. */
         currentPage: undefined,
 
         /** @type {Object} References to various DOM elements. */
@@ -143,7 +143,7 @@ VSBT.Page = new function () {
         // Set the new page.
         if (viaBackButton) {
             my.previousPages.pop();
-        } else {
+        } else if (my.currentPage) {
             my.previousPages.push(my.currentPage);
         }
         my.currentPage = {page: page, data: data};
@@ -155,10 +155,12 @@ VSBT.Page = new function () {
         } else {
             let navRow = addNavigationRow();
 
-            let lastPage = my.previousPages[my.previousPages.length - 1];
             DOM.createButton(
                 'Back',
-                () => self.set(lastPage.page, lastPage.data, true),
+                () => {
+                    let lastPage = my.previousPages[my.previousPages.length - 1];
+                    self.set(lastPage.page, lastPage.data, true);
+                },
                 navRow,
                 DOM.BUTTON_RED,
             );
@@ -200,6 +202,9 @@ VSBT.Page = new function () {
                 break;
             default:
                 self.set(self.PAGE_ERROR, {error: 'Invalid Page'});
+
+                // Remove the invalid page from the page history, or the user would need to reload to leave this page.
+                my.previousPages.pop();
         }
     };
 
