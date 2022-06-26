@@ -62,11 +62,11 @@ a {color: var(--vs-yellow)}
 /* ********************** */
 
 footer {
-    color: #444;
+    color: #808080;
+    font-size: 10px;
     font-weight: bold;
     margin: var(--page-padding) 0 0;
     text-align: center;
-    text-shadow: var(--vs-shadow);
 }
 footer a {color: inherit}
 footer a:hover {color: var(--vs-yellow)}
