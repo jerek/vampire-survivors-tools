@@ -1,0 +1,7 @@
+# TODO: This shouldn't need .htaccess, but it was quick to set up. Move this to the server config later.
+
+# Send any non-file requests to the index file to load the JS app.
+RewriteEngine on
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_URI} !\.
+RewriteRule . index.html [L,QSA]
