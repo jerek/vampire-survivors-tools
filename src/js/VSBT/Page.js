@@ -29,6 +29,7 @@ VSBT.Page = new function () {
     // Constants to identify the different page layouts.
     /** @type {Page} */ this.PAGE_ALL_IMAGES = 'all-images';
     /** @type {Page} */ this.PAGE_ALL_IMAGES_ANIMATED = 'all-images-animated';
+    /** @type {Page} */ this.PAGE_ERROR = 'error';
     /** @type {Page} */ this.PAGE_INDEX = 'index';
 
     // ------- //
@@ -93,7 +94,7 @@ VSBT.Page = new function () {
         let wrapper = DOM.ce('div', {className: 'vsbt'}, document.body);
         my.elements.container = DOM.ce('div', {className: 'vsbt-container'}, wrapper);
 
-        self.setPage(self.PAGE_INDEX);
+        self.set(self.PAGE_INDEX);
 
         let footer = DOM.ce('footer', undefined, document.body, DOM.ct('Created for the Survivors by '));
         DOM.ce('a', {href: 'https://twitter.com/jerekdain', target: '_blank'}, footer, DOM.ct('Jerek Dain'));
@@ -103,8 +104,9 @@ VSBT.Page = new function () {
      * Sets and displays a page.
      *
      * @param {Page} page
+     * @param {*}    pageData Page-specific contextual data.
      */
-    this.setPage = function (page) {
+    this.set = function (page, pageData) {
         // Clear any previous page content.
         my.elements.container.innerHTML = '';
 
@@ -130,9 +132,15 @@ VSBT.Page = new function () {
             case this.PAGE_ALL_IMAGES_ANIMATED:
                 VSBT.Img.displayAllImagesAnimated();
                 break;
+            case this.PAGE_ERROR:
+                my.elements.pageHeading.innerText = 'Error';
+                DOM.ce('h2', undefined, my.elements.container, DOM.ct(pageData && pageData.error || 'Unknown Error'));
+                break;
             case this.PAGE_INDEX:
                 // Only navigation buttons are needed.
                 break;
+            default:
+                self.set(self.PAGE_ERROR, {error: 'Invalid Page'});
         }
     };
 
@@ -149,7 +157,7 @@ VSBT.Page = new function () {
         let navRow = DOM.ce('div', {className: 'vsbt-nav'}, my.elements.container);
 
         navItems.forEach(navItem => {
-            DOM.createButton(navItem.linkText, () => self.setPage(navItem.page), navRow, navItem.buttonColor);
+            DOM.createButton(navItem.linkText, () => self.set(navItem.page), navRow, navItem.buttonColor);
         });
     }
 };
