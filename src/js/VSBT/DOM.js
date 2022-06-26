@@ -2,6 +2,26 @@
  * Helper functions for dealing with the DOM.
  */
 VSBT.DOM = new function () {
+    const self = this;
+
+    // *********************** //
+    // ***** DEFINITIONS ***** //
+    // *********************** //
+
+    /** @typedef {string} ButtonColor One of the Vampire Survivors button colors. */
+
+    // ********************* //
+    // ***** CONSTANTS ***** //
+    // ********************* //
+
+    /** @type {ButtonColor} */ this.BUTTON_BLUE = 'blue';
+    /** @type {ButtonColor} */ this.BUTTON_GREEN = 'green';
+    /** @type {ButtonColor} */ this.BUTTON_RED = 'red';
+
+    // ********************* //
+    // ***** FUNCTIONS ***** //
+    // ********************* //
+
     /**
      * Returns an element created with the given options.
      *
@@ -26,6 +46,28 @@ VSBT.DOM = new function () {
         }
 
         return element;
+    };
+
+    /**
+     * Returns a Vampire Survivors button created with the given options.
+     *
+     * @param {string}      text
+     * @param {function}    callback
+     * @param {Node}        [appendTo] The parent to append the created element to.
+     * @param {ButtonColor} [color]    Defaults to blue.
+     * @return {HTMLAnchorElement}
+     */
+    this.createButton = function (text, callback, appendTo, color) {
+        let button = self.ce('a', {
+            className: 'vs-button',
+            dataset: {
+                color: color || this.BUTTON_BLUE,
+            },
+            href: 'javascript:',
+        }, appendTo, self.ct(text));
+        button.addEventListener('click', callback);
+
+        return button;
     };
 
     /**

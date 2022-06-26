@@ -9,6 +9,8 @@
 :root {
     /* Values from the game, or that closely mimic the game. */
     --vs-blue: #4b4f74;
+    --vs-button-border-size: 9;
+    --vs-button-border-size-px: 9px;
     --vs-shadow: 2px 2px 5px #000;
     --vs-yellow: #fc6;
 
@@ -70,6 +72,43 @@ footer a:hover {color: var(--vs-yellow)}
 .vs-sprite-image-wrapper {align-items: flex-end; display: flex; justify-content: flex-end}
 /* noinspection CssOverwrittenProperties */
 .vs-sprite-image {display: inline-block; image-rendering: crisp-edges; image-rendering: pixelated}
+
+/* ***************************** */
+/* ***** REUSABLE ELEMENTS ***** */
+/* ***************************** */
+
+.vs-button {
+    border: var(--vs-button-border-size-px) solid transparent;
+    color: #fff;
+    display: inline-block;
+    /* noinspection CssOverwrittenProperties */ image-rendering: crisp-edges;
+    /* noinspection CssOverwrittenProperties */ image-rendering: pixelated;
+    text-decoration: none;
+}
+
+.vs-button[data-color="blue"] {
+    border-image: url(../game-assets/Img/UI/button_c9_normal.png) var(--vs-button-border-size) fill;
+}
+.vs-button[data-color="blue"]:hover {
+    border-image: url(../game-assets/Img/UI/button_c9_mouseover.png) var(--vs-button-border-size) fill;
+}
+.vs-button[data-color="blue"]:active {
+    border-image: url(../game-assets/Img/UI/button_c9_pressed.png) var(--vs-button-border-size) fill;
+}
+
+.vs-button[data-color="green"] {
+    border-image: url(../game-assets/Img/UI/button_c5_normal.png) var(--vs-button-border-size) fill;
+}
+.vs-button[data-color="green"]:hover {
+    border-image: url(../game-assets/Img/UI/button_c5_mouseover.png) var(--vs-button-border-size) fill;
+}
+.vs-button[data-color="green"]:active {
+    border-image: url(../game-assets/Img/UI/button_c5_pressed.png) var(--vs-button-border-size) fill;
+}
+
+.vs-button[data-color="red"] {
+    border-image: url(../game-assets/Img/UI/button_c8_normal.png) var(--vs-button-border-size) fill;
+}
 
 /* ******************** */
 /* ***** THE TOOL ***** */
