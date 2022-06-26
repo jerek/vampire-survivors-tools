@@ -79,6 +79,9 @@ VSBT.Page = new function () {
 
         /** @type {function[]} A list of functions to call before changing to another page. */
         onLeavePage: [],
+
+        /** @type {PageBundle[]} The previous pages that the user can go back to. */
+        previousPages: [],
     };
 
     // ********************* //
@@ -126,10 +129,11 @@ VSBT.Page = new function () {
     /**
      * Sets and displays a page.
      *
-     * @param {PageId}   page   The page to display.
-     * @param {PageData} [data] Page-specific contextual data.
+     * @param {PageId}   page            The page to display.
+     * @param {PageData} [data]          Page-specific contextual data.
+     * @param {boolean}  [viaBackButton] Whether this page is being loaded because the user used the back button.
      */
-    this.set = function (page, data) {
+    this.set = function (page, data, viaBackButton) {
         // Do any garbage collection and clear any previous page content.
         while (my.onLeavePage.length) {
             my.onLeavePage.shift()();
@@ -137,16 +141,28 @@ VSBT.Page = new function () {
         my.elements.container.innerHTML = '';
 
         // Set the new page.
-        let lastPage = my.currentPage;
+        if (viaBackButton) {
+            my.previousPages.pop();
+        } else {
+            my.previousPages.push(my.currentPage);
+        }
         my.currentPage = {page: page, data: data};
         document.body.dataset.page = page;
 
         // Add the homepage navigation, or a red "Back" button.
-        addNavigationButtons(
-            page === self.PAGE_INDEX ?
-                NAVIGATION :
-                [{page: lastPage.page, data: lastPage.data, linkText: 'Back', buttonColor: DOM.BUTTON_RED}],
-        );
+        if (page === self.PAGE_INDEX) {
+            addNavigationButtons(NAVIGATION);
+        } else {
+            let navRow = addNavigationRow();
+
+            let lastPage = my.previousPages[my.previousPages.length - 1];
+            DOM.createButton(
+                'Back',
+                () => self.set(lastPage.page, lastPage.data, true),
+                navRow,
+                DOM.BUTTON_RED,
+            );
+        }
 
         // Update the main heading, if this page has one specified.
         my.elements.pageHeading.innerText = PAGE_TITLES[page] || PAGE_TITLES[self.PAGE_INDEX];
@@ -197,7 +213,7 @@ VSBT.Page = new function () {
      * @param {PageNavigation[]} navItems
      */
     function addNavigationButtons(navItems) {
-        let navRow = DOM.ce('div', {className: 'vsbt-nav'}, my.elements.container);
+        let navRow = addNavigationRow();
 
         navItems.forEach(navItem => {
             DOM.createButton(
@@ -207,5 +223,14 @@ VSBT.Page = new function () {
                 navItem.buttonColor,
             );
         });
+    }
+
+    /**
+     * Creates and returns a navigation row in the main container.
+     *
+     * @return {HTMLDivElement}
+     */
+    function addNavigationRow() {
+        return DOM.ce('div', {className: 'vsbt-nav'}, my.elements.container);
     }
 };
