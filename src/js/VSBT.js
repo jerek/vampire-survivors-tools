@@ -1,6 +1,4 @@
 /**
- * A Vampire Survivors Build Tool, by Jerek Dain.
- *
  * This is the base class-like, to which all the others attach, for namespacing and a clean global state. It also
  * handles low level tool initialization functionality.
  */

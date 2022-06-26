@@ -117,7 +117,7 @@ VSBT.Page = new function () {
         },
         [this.PAGE_INDEX]: {
             id: this.PAGE_INDEX,
-            title: 'Vampire Survivors Build Tool',
+            title: 'Vampire Survivors Tools',
             url: 'build-tool',
             display: () => {
                 let navRow = addNavigationRow();
