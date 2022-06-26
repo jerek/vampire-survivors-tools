@@ -11,22 +11,29 @@ VSBT.Page = new function () {
     // *********************** //
 
     /**
+     * @typedef {Object} HomepageNavigation Data to display a button link to a page in the general navigation area.
+     * @property {string}      buttonText    The text to display in its button.
+     * @property {PageId}      page          The page that the button links to.
+     * @property {ButtonColor} [buttonColor] The color of the button on the homepage.
+     */
+
+    /**
      * @typedef {Object} PageBundle Data describing a page to display and any associated contextual data.
      * @property {PageId}   page The page to display.
      * @property {PageData} data Page-specific contextual data.
      */
 
+    /**
+     * @typedef {Object} PageConfig The basic data needed to display a page.
+     * @property {function} display Renders the page for the user.
+     * @property {PageId}   id      The page ID.
+     * @property {string}   title   The page title, shown in the main heading and <title> tag.
+     * @property {string}   [url]   The URL where the page is seen. The error page doesn't change the URL.
+     */
+
     /** @typedef {*} PageData Page-specific contextual data. */
 
     /** @typedef {string} PageId A string ID of a page with an associated layout. */
-
-    /**
-     * @typedef {Object} PageNavigation Data to display a link to a page in the general navigation area.
-     * @property {string}      linkText
-     * @property {PageId}      page
-     * @property {ButtonColor} [buttonColor]
-     * @property {PageData}    [data]
-     */
 
     // ********************* //
     // ***** CONSTANTS ***** //
@@ -37,8 +44,8 @@ VSBT.Page = new function () {
     // ------ //
 
     // Constants to identify the different page layouts.
-    /** @type {PageId} */ this.PAGE_ALL_IMAGES = 'all-images';
-    /** @type {PageId} */ this.PAGE_ALL_IMAGES_ANIMATED = 'all-images-animated';
+    /** @type {PageId} */ this.PAGE_GAME_IMAGES = 'game-images';
+    /** @type {PageId} */ this.PAGE_GAME_IMAGES_ANIMATED = 'game-images-animated';
     /** @type {PageId} */ this.PAGE_ERROR = 'error';
     /** @type {PageId} */ this.PAGE_INDEX = 'index';
 
@@ -46,17 +53,85 @@ VSBT.Page = new function () {
     // PRIVATE //
     // ------- //
 
-    /** @type {PageNavigation[]} */
-    const NAVIGATION = [
-        {page: this.PAGE_ALL_IMAGES, linkText: 'Game Images'},
-        {page: this.PAGE_ALL_IMAGES_ANIMATED, linkText: 'Animated Images'},
+    /** @type {HomepageNavigation[]} The page links displayed on the homepage. */
+    const HOMEPAGE_NAVIGATION = [
+        {page: this.PAGE_GAME_IMAGES, buttonText: 'Game Images'},
+        {page: this.PAGE_GAME_IMAGES_ANIMATED, buttonText: 'Animated Images'},
     ];
 
-    /** @type {Object<PageId, string>} A map of page IDs to their titles. */
-    const PAGE_TITLES = {
-        [this.PAGE_ALL_IMAGES]: 'Vampire Survivors Images',
-        [this.PAGE_ALL_IMAGES_ANIMATED]: 'Vampire Survivors Images Animated',
-        [this.PAGE_INDEX]: 'Vampire Survivors Build Tool',
+    /** @type {Object<PageId, PageConfig>} A map of page IDs to their configurations. */
+    const PAGES = {
+        [this.PAGE_ERROR]: {
+            id: this.PAGE_ERROR,
+            title: 'Error',
+            display:
+                /**
+                 * @param {PageId}          page
+                 * @param {{error: string}} [data]
+                 */
+                (page, data) => {
+                    DOM.ce('h2', undefined, my.elements.container, DOM.ct(data && data.error || 'Unknown Error'));
+                },
+        },
+        [this.PAGE_GAME_IMAGES]: {
+            id: this.PAGE_GAME_IMAGES,
+            title: 'Vampire Survivors Images',
+            url: 'game-images',
+            display:
+                /**
+                 * @param {PageId}       page
+                 * @param {VsSpriteName} [data]
+                 */
+                (page, data) => {
+                    if (data) {
+                        Img.displayAllImages(data);
+                    } else {
+                        let buttons = DOM.ce('div', {className: 'vs-button-list'}, my.elements.container);
+                        let spriteNames = Img.getSpriteNames().concat([Img.ALL_SPRITES]);
+                        spriteNames.forEach(spriteName => {
+                            DOM.createButton(spriteName, () => self.set(self.PAGE_GAME_IMAGES, spriteName), buttons);
+                        });
+                    }
+                },
+        },
+        [this.PAGE_GAME_IMAGES_ANIMATED]: {
+            id: this.PAGE_GAME_IMAGES_ANIMATED,
+            title: 'Vampire Survivors Images Animated',
+            url: 'game-images/animated',
+            display:
+                /**
+                 * @param {PageId}       page
+                 * @param {VsSpriteName} [data]
+                 */
+                (page, data) => {
+                    if (data) {
+                        Img.displayAllImagesAnimated(data);
+                    } else {
+                        let buttons = DOM.ce('div', {className: 'vs-button-list'}, my.elements.container);
+                        let spriteNames = Img.getSpriteNames().concat([Img.ALL_SPRITES]);
+                        spriteNames.forEach(spriteName => {
+                            DOM.createButton(spriteName, () => self.set(self.PAGE_GAME_IMAGES_ANIMATED, spriteName), buttons);
+                        });
+                    }
+                },
+        },
+        [this.PAGE_INDEX]: {
+            id: this.PAGE_INDEX,
+            title: 'Vampire Survivors Build Tool',
+            url: 'build-tool',
+            display: () => {
+                let navRow = addNavigationRow();
+
+                HOMEPAGE_NAVIGATION.forEach(navItem => {
+                    DOM.createButton(
+                        navItem.buttonText,
+                        () => self.set(navItem.page),
+                        navRow,
+                        navItem.buttonColor,
+                    );
+                });
+            },
+        },
     };
 
     // ********************* //
@@ -141,6 +216,12 @@ VSBT.Page = new function () {
         my.elements.container.innerHTML = '';
 
         // Set the new page.
+        let pageConfig = PAGES[page];
+        if (!pageConfig) {
+            self.set(self.PAGE_ERROR, {error: 'Page Not Found'});
+
+            return;
+        }
         if (viaBackButton) {
             my.previousPages.pop();
         } else if (my.currentPage) {
@@ -149,10 +230,11 @@ VSBT.Page = new function () {
         my.currentPage = {page: page, data: data};
         document.body.dataset.page = page;
 
-        // Add the homepage navigation, or a red "Back" button.
-        if (page === self.PAGE_INDEX) {
-            addNavigationButtons(NAVIGATION);
-        } else {
+        // Update the main heading.
+        my.elements.pageHeading.innerText = pageConfig.title;
+
+        // Add a red "Back" button to go back to the previous page.
+        if (my.previousPages.length) {
             let navRow = addNavigationRow();
 
             DOM.createButton(
@@ -166,69 +248,13 @@ VSBT.Page = new function () {
             );
         }
 
-        // Update the main heading, if this page has one specified.
-        my.elements.pageHeading.innerText = PAGE_TITLES[page] || PAGE_TITLES[self.PAGE_INDEX];
-
         // Display the page content.
-        switch (page) {
-            case this.PAGE_ALL_IMAGES:
-                if (data) {
-                    Img.displayAllImages(data);
-                } else {
-                    let buttons = DOM.ce('div', {className: 'vs-button-list'}, my.elements.container);
-                    let spriteNames = Img.getSpriteNames().concat([Img.ALL_SPRITES]);
-                    spriteNames.forEach(spriteName => {
-                        DOM.createButton(spriteName, () => self.set(page, spriteName), buttons);
-                    });
-                }
-                break;
-            case this.PAGE_ALL_IMAGES_ANIMATED:
-                if (data) {
-                    Img.displayAllImagesAnimated(data);
-                } else {
-                    let buttons = DOM.ce('div', {className: 'vs-button-list'}, my.elements.container);
-                    let spriteNames = Img.getSpriteNames().concat([Img.ALL_SPRITES]);
-                    spriteNames.forEach(spriteName => {
-                        DOM.createButton(spriteName, () => self.set(page, spriteName), buttons);
-                    });
-                }
-                break;
-            case this.PAGE_ERROR:
-                my.elements.pageHeading.innerText = 'Error';
-                DOM.ce('h2', undefined, my.elements.container, DOM.ct(data && data.error || 'Unknown Error'));
-                break;
-            case this.PAGE_INDEX:
-                // Only navigation buttons are needed.
-                break;
-            default:
-                self.set(self.PAGE_ERROR, {error: 'Invalid Page'});
-
-                // Remove the invalid page from the page history, or the user would need to reload to leave this page.
-                my.previousPages.pop();
-        }
+        pageConfig.display(page, data);
     };
 
     // ------- //
     // PRIVATE //
     // ------- //
-
-    /**
-     * Add navigation buttons to the main container.
-     *
-     * @param {PageNavigation[]} navItems
-     */
-    function addNavigationButtons(navItems) {
-        let navRow = addNavigationRow();
-
-        navItems.forEach(navItem => {
-            DOM.createButton(
-                navItem.linkText,
-                () => self.set(navItem.page, navItem.data),
-                navRow,
-                navItem.buttonColor,
-            );
-        });
-    }
 
     /**
      * Creates and returns a navigation row in the main container.
