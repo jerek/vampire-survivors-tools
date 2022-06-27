@@ -65,10 +65,23 @@ VSBT.Img = new function () {
     /** @type {VsSpriteName} A custom sprite name that doesn't exist, to indicate to display images from all sprites. */
     this.ALL_SPRITES = 'All';
 
-    /** @type {VsSprite} */ this.ARCANA     = 'randomazzo';
-    /** @type {VsSprite} */ this.CHARACTERS = 'characters';
-    /** @type {VsSprite} */ this.ITEMS      = 'items';
-    /** @type {VsSprite} */ this.UI         = 'UI';
+    // Constants to identify sprites. The constants' names are the name returned from this.getSpriteNames() in all
+    // uppercase, and the values are their filenames without an extension.
+    /** @type {VsSprite} */ this.ANGEL         = 'angel';
+    /** @type {VsSprite} */ this.ARCANA        = 'randomazzo';
+    /** @type {VsSprite} */ this.BACKGROUND_4  = 'background4';
+    /** @type {VsSprite} */ this.BACKGROUND_W  = 'backgroundW';
+    /** @type {VsSprite} */ this.BACKGROUND_X  = 'backgroundX';
+    /** @type {VsSprite} */ this.CHARACTERS    = 'characters';
+    /** @type {VsSprite} */ this.ENEMIES       = 'enemies';
+    /** @type {VsSprite} */ this.ENEMIES_2     = 'enemies2';
+    /** @type {VsSprite} */ this.ENEMIES_3     = 'enemies3';
+    /** @type {VsSprite} */ this.ENEMIES_M     = 'enemiesM';
+    /** @type {VsSprite} */ this.ILLUSTRATIONS = 'illustrations';
+    /** @type {VsSprite} */ this.ITEMS         = 'items';
+    /** @type {VsSprite} */ this.SHOP          = 'shop';
+    /** @type {VsSprite} */ this.UI            = 'UI';
+    /** @type {VsSprite} */ this.VFX           = 'vfx';
 
     // ------- //
     // PRIVATE //
@@ -199,7 +212,7 @@ VSBT.Img = new function () {
         }
 
         (sprite && sprite !== self.ALL_SPRITES ? [sprite] : self.getSpriteNames()).forEach(spriteName => {
-            let sprite = self[spriteName.toUpperCase()];
+            let sprite = getSpriteBasenameFromName(spriteName);
 
             let imagesContainer = DOM.ce('div', undefined, container);
             DOM.ce('h2', undefined, imagesContainer, DOM.ct(spriteName));
@@ -255,7 +268,7 @@ VSBT.Img = new function () {
         }
 
         (sprite && sprite !== self.ALL_SPRITES ? [sprite] : self.getSpriteNames()).forEach(spriteName => {
-            let sprite = self[spriteName.toUpperCase()];
+            let sprite = getSpriteBasenameFromName(spriteName);
 
             let imagesContainer = DOM.ce('div', undefined, container);
             DOM.ce('h2', undefined, imagesContainer, DOM.ct(spriteName));
@@ -348,10 +361,21 @@ VSBT.Img = new function () {
      */
     this.getSpriteNames = function () {
         return [
+            'Angel',
             'Arcana',
+            'Background 4',
+            'Background W',
+            'Background X',
             'Characters',
+            'Enemies',
+            'Enemies 2',
+            'Enemies 3',
+            'Enemies M',
+            'Illustrations',
             'Items',
+            'Shop',
             'UI',
+            'VFX',
         ];
     };
 
@@ -410,6 +434,16 @@ VSBT.Img = new function () {
         while (my.callbacks[sprite].length) {
             my.callbacks[sprite].shift()(my.cache[sprite]);
         }
+    }
+
+    /**
+     * Returns the sprite basename from the given sprite name.
+     *
+     * @param {VsSpriteName} spriteName
+     * @return {VsSprite}
+     */
+    function getSpriteBasenameFromName(spriteName) {
+        return self[spriteName.toUpperCase().replace(' ', '_')];
     }
 
     /**

@@ -1,0 +1,83 @@
+{
+	"textures": [
+		{
+			"image": "backgroundW.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 516,
+				"h": 519
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "spr_water_0.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 512,
+						"h": 512
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 512,
+						"h": 512
+					},
+					"frame": {
+						"x": 2,
+						"y": 2,
+						"w": 512,
+						"h": 512
+					}
+				},
+				{
+					"filename": "blackDot.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 1,
+						"h": 1
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 1,
+						"h": 1
+					},
+					"frame": {
+						"x": 2,
+						"y": 516,
+						"w": 1,
+						"h": 1
+					}
+				},
+				{
+					"filename": "whiteDot.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 1,
+						"h": 1
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 1,
+						"h": 1
+					},
+					"frame": {
+						"x": 5,
+						"y": 516,
+						"w": 1,
+						"h": 1
+					}
+				}
+			]
+		}
+	],
+	"meta": {
+		"app": "https://www.codeandweb.com/texturepacker",
+		"version": "3.0",
+		"smartupdate": "$TexturePacker:SmartUpdate:8e752f8a4e19568fc2118a528924803f:12897a4baa9b732a41d42b79659b31c5:c85702c4ca300b953edd867f8d02e2f4$"
+	}
+}

@@ -1,0 +1,209 @@
+{
+	"textures": [
+		{
+			"image": "background4.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 1628,
+				"h": 880
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "07_stars.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 540,
+						"h": 540
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 540,
+						"h": 540
+					},
+					"frame": {
+						"x": 2,
+						"y": 2,
+						"w": 540,
+						"h": 540
+					}
+				},
+				{
+					"filename": "05_Peaks.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 540,
+						"h": 245
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 540,
+						"h": 245
+					},
+					"frame": {
+						"x": 2,
+						"y": 544,
+						"w": 540,
+						"h": 245
+					}
+				},
+				{
+					"filename": "02_Hills.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 540,
+						"h": 87
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 540,
+						"h": 87
+					},
+					"frame": {
+						"x": 2,
+						"y": 791,
+						"w": 540,
+						"h": 87
+					}
+				},
+				{
+					"filename": "08_stars.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 540,
+						"h": 540
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 540,
+						"h": 540
+					},
+					"frame": {
+						"x": 544,
+						"y": 2,
+						"w": 540,
+						"h": 540
+					}
+				},
+				{
+					"filename": "04_Mountains.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 540,
+						"h": 213
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 540,
+						"h": 213
+					},
+					"frame": {
+						"x": 544,
+						"y": 544,
+						"w": 540,
+						"h": 213
+					}
+				},
+				{
+					"filename": "01_Forest.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 540,
+						"h": 113
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 540,
+						"h": 113
+					},
+					"frame": {
+						"x": 544,
+						"y": 759,
+						"w": 540,
+						"h": 113
+					}
+				},
+				{
+					"filename": "06_background.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 540,
+						"h": 360
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 540,
+						"h": 360
+					},
+					"frame": {
+						"x": 1086,
+						"y": 2,
+						"w": 540,
+						"h": 360
+					}
+				},
+				{
+					"filename": "03_Mountains.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 540,
+						"h": 192
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 540,
+						"h": 192
+					},
+					"frame": {
+						"x": 1086,
+						"y": 364,
+						"w": 540,
+						"h": 192
+					}
+				},
+				{
+					"filename": "09_mist.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 256,
+						"h": 256
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 256,
+						"h": 256
+					},
+					"frame": {
+						"x": 1086,
+						"y": 558,
+						"w": 256,
+						"h": 256
+					}
+				}
+			]
+		}
+	],
+	"meta": {
+		"app": "https://www.codeandweb.com/texturepacker",
+		"version": "3.0",
+		"smartupdate": "$TexturePacker:SmartUpdate:ac395be9e7d21f1883642f389062cb7f:f79a39363814d4beefa80319b38e47e6:9929c094f0e5468061d716acb1d30e13$"
+	}
+}
