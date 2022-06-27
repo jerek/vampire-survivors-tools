@@ -55,7 +55,9 @@ h1 {
     text-transform: uppercase;
 }
 
-a {color: var(--vs-yellow)}
+a {color: var(--vs-yellow); text-decoration: none}
+a:hover {color: #fff}
+a:focus-visible {outline: none; text-decoration: underline}
 
 /* ********************** */
 /* ***** THE FOOTER ***** */
@@ -68,7 +70,8 @@ footer {
     margin: var(--page-padding) 0 0;
     text-align: center;
 }
-footer a {color: inherit}
+footer a {color: inherit; text-decoration: underline}
+footer a:focus-visible {color: #fff}
 footer a:hover {color: var(--vs-yellow)}
 
 /* ************************* */
@@ -90,6 +93,7 @@ footer a:hover {color: var(--vs-yellow)}
     text-decoration: none;
     text-transform: uppercase;
 }
+.vs-button:focus-visible {border-radius: 8px; box-shadow: 0 0 0 2px #000; outline: none; text-decoration: none}
 
 .vs-button[data-color="blue"] {
     border-image: url(../game-assets/Img/UI/button_c9_normal.png) var(--vs-button-border-size) fill;
