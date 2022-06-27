@@ -28,7 +28,7 @@ VSBT.Page = new function () {
      * @property {function} display Renders the page for the user.
      * @property {PageId}   id      The page ID.
      * @property {string}   title   The page title, shown in the main heading and <title> tag.
-     * @property {string}   [url]   The URL where the page is seen. The error page doesn't change the URL.
+     * @property {string}   url     The URL where the page is seen.
      */
 
     /** @typedef {*} PageData Page-specific contextual data. */
@@ -59,11 +59,15 @@ VSBT.Page = new function () {
         {page: this.PAGE_GAME_IMAGES_ANIMATED, buttonText: 'Animated Images'},
     ];
 
+    /** @type {string} Because one does not simply push "" to the history state, we need to use this value instead. */
+    const INTERNAL_HOMEPAGE_URL = './';
+
     /** @type {Object<PageId, PageConfig>} A map of page IDs to their configurations. */
     const PAGES = {
         [this.PAGE_ERROR]: {
             id: this.PAGE_ERROR,
             title: 'Error',
+            url: 'error',
             display:
                 /**
                  * @param {PageId}          page
@@ -118,7 +122,7 @@ VSBT.Page = new function () {
         [this.PAGE_INDEX]: {
             id: this.PAGE_INDEX,
             title: 'Vampire Survivors Tools',
-            url: 'build-tool',
+            url: INTERNAL_HOMEPAGE_URL,
             display: () => {
                 let navRow = addNavigationRow();
 
@@ -140,6 +144,9 @@ VSBT.Page = new function () {
 
     /** @type {Object} Private object-scope variables. */
     const my = {
+        /** @type {boolean} Whether URL updates from setting the page should happen. Disabled when examining the URL. */
+        allowUrlUpdates: true,
+
         /** @type {PageBundle|undefined} The currently loaded page. */
         currentPage: undefined,
 
@@ -185,10 +192,26 @@ VSBT.Page = new function () {
         let wrapper = DOM.ce('div', {className: 'vsbt'}, document.body);
         my.elements.container = DOM.ce('div', {className: 'vsbt-container'}, wrapper);
 
-        self.set(self.PAGE_INDEX);
-
         let footer = DOM.ce('footer', undefined, document.body, DOM.ct('Created for the Survivors by '));
         DOM.ce('a', {href: 'https://twitter.com/jerekdain', target: '_blank'}, footer, DOM.ct('Jerek Dain'));
+
+        /**
+         * Temporarily disables URL updates when setting the page, and checks whether to set the page based on the URL.
+         */
+        let updateFromUrl = () => {
+            my.allowUrlUpdates = false;
+
+            // If we found a different page than the current one, or need to show an error page, do so.
+            let page = getByPath(location.pathname);
+            if (!page || page !== (my.currentPage || {}).page) {
+                self.set(page);
+            }
+
+            my.allowUrlUpdates = true;
+        };
+
+        window.addEventListener('popstate', updateFromUrl);
+        updateFromUrl();
     };
 
     /**
@@ -215,17 +238,28 @@ VSBT.Page = new function () {
         }
         my.elements.container.innerHTML = '';
 
-        // Set the new page.
+        // Validate the requested page.
         let pageConfig = PAGES[page];
         if (!pageConfig) {
             self.set(self.PAGE_ERROR, {error: 'Page Not Found'});
 
             return;
         }
+
+        // Set the page.
+        if (my.currentPage) {
+            self.setUrl(pageConfig.url);
+        }
         if (viaBackButton) {
+            // The user is going back, remove the previous page (which is now being loaded).
             my.previousPages.pop();
         } else if (my.currentPage) {
+            // The user is loading a new page, remember the current one.
             my.previousPages.push(my.currentPage);
+        } else if (page !== self.PAGE_INDEX) {
+            // There's no previous page, and the current page isn't the index, so add the index to the previous page, so
+            // that they can go "back" to the homepage.
+            my.previousPages.push({page: self.PAGE_INDEX});
         }
         my.currentPage = {page: page, data: data};
         document.body.dataset.page = page;
@@ -252,6 +286,30 @@ VSBT.Page = new function () {
         pageConfig.display(page, data);
     };
 
+    /**
+     * Updates the URL in a way that doesn't trigger URL change detection to load a page.
+     *
+     * @param {string} url
+     */
+    this.setUrl = function (url) {
+        // Don't change the URL while we're examining it.
+        if (!my.allowUrlUpdates) {
+            return;
+        }
+
+        // Don't change the URL to itself, or the browser's back button will appear to do nothing.
+        if (url === location.pathname) {
+            return;
+        }
+
+        // The URL must start with a slash in order to set the full URL from the root.
+        if (!url.startsWith('/')) {
+            url = '/' + url;
+        }
+
+        history.pushState({}, '', url);
+    };
+
     // ------- //
     // PRIVATE //
     // ------- //
@@ -263,5 +321,31 @@ VSBT.Page = new function () {
      */
     function addNavigationRow() {
         return DOM.ce('div', {className: 'vsbt-nav'}, my.elements.container);
+    }
+
+    /**
+     * Returns the page ID that matches the given path, or undefined if none match.
+     *
+     * @param {string} path
+     * @return {PageId|undefined}
+     */
+    function getByPath(path) {
+        path = path.replace(/^\//, '');
+
+        // If we're on the homepage, pretend it's the internal homepage workaround URL.
+        if (path === '') {
+            path = INTERNAL_HOMEPAGE_URL;
+        }
+
+        let page;
+        Object.values(PAGES).some(pageConfig => {
+            if (pageConfig.url === path) {
+                page = pageConfig.id;
+
+                return true;
+            }
+        });
+
+        return page;
     }
 };
