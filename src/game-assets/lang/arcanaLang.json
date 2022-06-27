@@ -1,0 +1,690 @@
+{
+  "xx": {},
+  "ar": {
+    "english": "Arabic",
+    "native": "العربية",
+    "api": "arabic",
+    "translations": {}
+  },
+  "bg": {
+    "english": "Bulgarian",
+    "native": "български език",
+    "api": "bulgarian",
+    "translations": {}
+  },
+  "zh-CN": {
+    "english": "Chinese",
+    "native": "简体中文",
+    "api": "schinese",
+    "translations": {
+      "4": {
+        "name": "IV - 觉醒",
+        "description": "提供3次复活机会。 复活时， 最大生命值+10%， 防御+1， 攻击范围、 持续时间和速度+5%。"
+      },
+      "5": {
+        "name": "V - 充满混乱的黑夜",
+        "description": "每 10 秒随机改变弹道速度 -50% 至 +200%"
+      },
+      "6": {
+        "name": "VI - 治疗之萨拉",
+        "description": "治疗加倍。 恢复HP会对附近的敌人造成相同数量的伤害。"
+      },
+      "7": {
+        "name": "VII - 铁蓝意志",
+        "description": "当列表中武器射弹最多可反弹 3 次, 并可能穿过敌人和墙壁。"
+      },
+      "8": {
+        "name": "VIII - Mad Groove",
+        "description": "Every 2 minutes attracts all standard stage items, pickups, and light sources towards the character."
+      },
+      "10": {
+        "name": "X - Beginning",
+        "description": "Listed weapons get +1 Amount. The character's main weapon and its evolution gain +3 Amount instead."
+      },
+      "11": {
+        "name": "XI - 珍珠圆舞曲",
+        "description": "列表中武器 射弹 最多获得 3  次反弹。"
+      },
+      "12": {
+        "name": "XII - Out of Bounds",
+        "description": "Freezing enemies generates explosions. Orologions are easier to find."
+      },
+      "14": {
+        "name": "XIV - Jail of Crystal",
+        "description": "Listed weapon projectiles have a chance to freeze enemies."
+      },
+      "15": {
+        "name": "XV - Disco of Gold",
+        "description": "Picking up coin bags from the floor triggers Gold Fever. Obtaining gold restores as many HP."
+      },
+      "16": {
+        "name": "XVI - 切",
+        "description": "增加列表中武器的暴击几率并造成双倍暴击伤害。"
+      },
+      "17": {
+        "name": "XVII - 丢失的图片",
+        "description": "持续时间每 10 秒随机变化 -50% 至 +200%"
+      },
+      "18": {
+        "name": "XVIII - Boogaloo of Illusions",
+        "description": "Overall Area continuously changes between -25% and +50% over 10 seconds."
+      },
+      "19": {
+        "name": "XIX - 火之心",
+        "description": "当列表中武器的射弹碰撞时, 它会爆炸并造成伤害。 当角色受到伤害时, 它会爆炸并造成伤害。"
+      }
+    }
+  },
+  "zh-TW": {
+    "english": "Chinese (Traditional)",
+    "native": "繁體中文 95%",
+    "api": "tchinese",
+    "translations": {}
+  },
+  "cs": {
+    "english": "Czech",
+    "native": "čeština",
+    "api": "czech",
+    "translations": {}
+  },
+  "da": {
+    "english": "Danish",
+    "native": "Dansk",
+    "api": "danish",
+    "translations": {}
+  },
+  "nl": {
+    "english": "Dutch",
+    "native": "Nederlands",
+    "api": "dutch",
+    "translations": {}
+  },
+  "en": {
+    "english": "English",
+    "native": "English",
+    "api": "english",
+    "translations": {
+      "4": {
+        "name": "IV - Awake",
+        "description": "Gives +3 Revivals. Consuming a Revival gives +10% MaxHealth, +1 Armor, and +5% Might, Area, Duration, and Speed."
+      },
+      "5": {
+        "name": "V - Chaos in the Dark Night",
+        "description": "Overall projectile Speed continuously changes between -50% and +200% over 10 seconds."
+      },
+      "6": {
+        "name": "VI - Sarabande of Healing",
+        "description": "Healing is doubled. Recovering HP damages nearby enemies for the same amount."
+      },
+      "7": {
+        "name": "VII - Iron Blue Will",
+        "description": "Listed weapon projectiles gain up to 3 bounces and might pass through enemies and walls."
+      },
+      "8": {
+        "name": "VIII - Mad Groove",
+        "description": "Every 2 minutes attracts all standard stage items, pickups, and light sources towards the character."
+      },
+      "10": {
+        "name": "X - Beginning",
+        "description": "Listed weapons get +1 Amount. The character's main weapon and its evolution gain +3 Amount instead."
+      },
+      "11": {
+        "name": "XI - Waltz of Pearls",
+        "description": "Listed weapon projectiles gain up to 3 bounces."
+      },
+      "12": {
+        "name": "XII - Out of Bounds",
+        "description": "Freezing enemies generates explosions. Orologions are easier to find."
+      },
+      "14": {
+        "name": "XIV - Jail of Crystal",
+        "description": "Listed weapon projectiles have a chance to freeze enemies."
+      },
+      "15": {
+        "name": "XV - Disco of Gold",
+        "description": "Picking up coin bags from the floor triggers Gold Fever. Obtaining gold restores as many HP."
+      },
+      "16": {
+        "name": "XVI - Slash",
+        "description": "Enables critical hits for listed weapons. Doubles overall critical damage."
+      },
+      "17": {
+        "name": "XVII - Lost & Found Painting",
+        "description": "Overall Duration continuously changes between -50% and +200% over 10 seconds."
+      },
+      "18": {
+        "name": "XVIII - Boogaloo of Illusions",
+        "description": "Overall Area continuously changes between -25% and +50% over 10 seconds."
+      },
+      "19": {
+        "name": "XIX - Heart of Fire",
+        "description": "Listed weapon projectiles explode on impact. Light sources explode. Character explodes when damaged."
+      }
+    }
+  },
+  "fi": {
+    "english": "Finnish",
+    "native": "Suomi",
+    "api": "finnish",
+    "translations": {}
+  },
+  "fr": {
+    "english": "French",
+    "native": "Français 80%",
+    "api": "french",
+    "translations": {
+      "4": {
+        "name": "IV - Awake",
+        "description": "Gives +3 Revivals. Consuming a Revival gives +10% MaxHealth, +1 Armor, and +5% Might, Area, Duration, and Speed."
+      },
+      "5": {
+        "name": "V - Chaos in the Dark Night",
+        "description": "Overall projectile Speed continuously changes between -50% and +200% over 10 seconds."
+      },
+      "6": {
+        "name": "VI - Sarabande of Healing",
+        "description": "Healing is doubled. Recovering HP damages nearby enemies for the same amount."
+      },
+      "7": {
+        "name": "VII - Iron Blue Will",
+        "description": "Listed weapon projectiles gain up to 3 bounces and might pass through enemies and walls."
+      },
+      "8": {
+        "name": "VIII - Mad Groove",
+        "description": "Every 2 minutes attracts all standard stage items, pickups, and light sources towards the character."
+      },
+      "10": {
+        "name": "X - Beginning",
+        "description": "Listed weapons get +1 Amount. The character's main weapon and its evolution gain +3 Amount instead."
+      },
+      "11": {
+        "name": "XI - Waltz of Pearls",
+        "description": "Listed weapon projectiles gain up to 3 bounces."
+      },
+      "12": {
+        "name": "XII - Out of Bounds",
+        "description": "Freezing enemies generates explosions. Orologions are easier to find."
+      },
+      "14": {
+        "name": "XIV - Jail of Crystal",
+        "description": "Listed weapon projectiles have a chance to freeze enemies."
+      },
+      "15": {
+        "name": "XV - Disco of Gold",
+        "description": "Picking up coin bags from the floor triggers Gold Fever. Obtaining gold restores as many HP."
+      },
+      "16": {
+        "name": "XVI - Slash",
+        "description": "Enables critical hits for listed weapons. Doubles overall critical damage."
+      },
+      "17": {
+        "name": "XVII - Lost & Found Painting",
+        "description": "Overall Duration continuously changes between -50% and +200% over 10 seconds."
+      },
+      "18": {
+        "name": "XVIII - Boogaloo of Illusions",
+        "description": "Overall Area continuously changes between -25% and +50% over 10 seconds."
+      },
+      "19": {
+        "name": "XIX - Heart of Fire",
+        "description": "Listed weapon projectiles explode on impact. Light sources explode. Character explodes when damaged."
+      }
+    }
+  },
+  "de": {
+    "english": "German",
+    "native": "Deutsch",
+    "api": "german",
+    "translations": {
+      "4": {
+        "name": "IV - Awake",
+        "description": "Gives +3 Revivals. Consuming a Revival gives +10% MaxHealth, +1 Armor, and +5% Might, Area, Duration, and Speed."
+      },
+      "5": {
+        "name": "V - Chaos in the Dark Night",
+        "description": "Overall projectile Speed continuously changes between -50% and +200% over 10 seconds."
+      },
+      "6": {
+        "name": "VI - Sarabande of Healing",
+        "description": "Healing is doubled. Recovering HP damages nearby enemies for the same amount."
+      },
+      "7": {
+        "name": "VII - Iron Blue Will",
+        "description": "Listed weapon projectiles gain up to 3 bounces and might pass through enemies and walls."
+      },
+      "8": {
+        "name": "VIII - Mad Groove",
+        "description": "Every 2 minutes attracts all standard stage items, pickups, and light sources towards the character."
+      },
+      "10": {
+        "name": "X - Beginning",
+        "description": "Listed weapons get +1 Amount. The character's main weapon and its evolution gain +3 Amount instead."
+      },
+      "11": {
+        "name": "XI - Waltz of Pearls",
+        "description": "Listed weapon projectiles gain up to 3 bounces."
+      },
+      "12": {
+        "name": "XII - Out of Bounds",
+        "description": "Freezing enemies generates explosions. Orologions are easier to find."
+      },
+      "14": {
+        "name": "XIV - Jail of Crystal",
+        "description": "Listed weapon projectiles have a chance to freeze enemies."
+      },
+      "15": {
+        "name": "XV - Disco of Gold",
+        "description": "Picking up coin bags from the floor triggers Gold Fever. Obtaining gold restores as many HP."
+      },
+      "16": {
+        "name": "XVI - Slash",
+        "description": "Enables critical hits for listed weapons. Doubles overall critical damage."
+      },
+      "17": {
+        "name": "XVII - Lost & Found Painting",
+        "description": "Overall Duration continuously changes between -50% and +200% over 10 seconds."
+      },
+      "18": {
+        "name": "XVIII - Boogaloo of Illusions",
+        "description": "Overall Area continuously changes between -25% and +50% over 10 seconds."
+      },
+      "19": {
+        "name": "XIX - Heart of Fire",
+        "description": "Listed weapon projectiles explode on impact. Light sources explode. Character explodes when damaged."
+      }
+    }
+  },
+  "el": {
+    "english": "Greek",
+    "native": "Ελληνικά",
+    "api": "greek",
+    "translations": {}
+  },
+  "hu": {
+    "english": "Hungarian",
+    "native": "Magyar",
+    "api": "hungarian",
+    "translations": {}
+  },
+  "it": {
+    "english": "Italian",
+    "native": "Italiano",
+    "api": "italian",
+    "translations": {}
+  },
+  "ja": {
+    "english": "Japanese",
+    "native": "日本語 95%",
+    "api": "japanese",
+    "translations": {
+      "4": {
+        "name": "IV - Awake",
+        "description": "Gives +3 Revivals. Consuming a Revival gives +10% MaxHealth, +1 Armor, and +5% Might, Area, Duration, and Speed."
+      },
+      "5": {
+        "name": "V - Chaos in the Dark Night",
+        "description": "Overall projectile Speed continuously changes between -50% and +200% over 10 seconds."
+      },
+      "6": {
+        "name": "VI - Sarabande of Healing",
+        "description": "Healing is doubled. Recovering HP damages nearby enemies for the same amount."
+      },
+      "7": {
+        "name": "VII - Iron Blue Will",
+        "description": "Listed weapon projectiles gain up to 3 bounces and might pass through enemies and walls."
+      },
+      "8": {
+        "name": "VIII - Mad Groove",
+        "description": "Every 2 minutes attracts all standard stage items, pickups, and light sources towards the character."
+      },
+      "10": {
+        "name": "X - Beginning",
+        "description": "Listed weapons get +1 Amount. The character's main weapon and its evolution gain +3 Amount instead."
+      },
+      "11": {
+        "name": "XI - Waltz of Pearls",
+        "description": "Listed weapon projectiles gain up to 3 bounces."
+      },
+      "12": {
+        "name": "XII - Out of Bounds",
+        "description": "Freezing enemies generates explosions. Orologions are easier to find."
+      },
+      "14": {
+        "name": "XIV - Jail of Crystal",
+        "description": "Listed weapon projectiles have a chance to freeze enemies."
+      },
+      "15": {
+        "name": "XV - Disco of Gold",
+        "description": "Picking up coin bags from the floor triggers Gold Fever. Obtaining gold restores as many HP."
+      },
+      "16": {
+        "name": "XVI - Slash",
+        "description": "Enables critical hits for listed weapons. Doubles overall critical damage."
+      },
+      "17": {
+        "name": "XVII - Lost & Found Painting",
+        "description": "Overall Duration continuously changes between -50% and +200% over 10 seconds."
+      },
+      "18": {
+        "name": "XVIII - Boogaloo of Illusions",
+        "description": "Overall Area continuously changes between -25% and +50% over 10 seconds."
+      },
+      "19": {
+        "name": "XIX - Heart of Fire",
+        "description": "Listed weapon projectiles explode on impact. Light sources explode. Character explodes when damaged."
+      }
+    }
+  },
+  "ko": {
+    "english": "Korean",
+    "native": "한국어",
+    "api": "koreana",
+    "translations": {
+      "4": {
+        "name": "IV - 각성",
+        "description": "3번의 부활 기회를 제공 합니다. 부활시 최대 체력 +10%, 방어력+1, 공격범위, 지속시간 및 속도+5% 증가합니다."
+      },
+      "5": {
+        "name": "V - 혼돈이 가득한 어두운밤",
+        "description": "매 10초마다 투사체 속도 무작위로 변경 -50% ~ +200%"
+      },
+      "6": {
+        "name": "VI - 치유의 사라반드",
+        "description": "회복량 2배 증가. HP를 회복하면 주변 적에게도 같은 양의 피해를 줍니다."
+      },
+      "7": {
+        "name": "VII - 푸른 강철의 의지",
+        "description": "목록에 있는 무기의 발사체는 최대 3회 튕기며 적과 벽을 관통하여 공격합니다."
+      },
+      "8": {
+        "name": "VIII - 광기의 그루브",
+        "description": "2분마다 모든 스테이지의 드롭아이템.화로를 캐틱터 쪽으로 당겨옴."
+      },
+      "10": {
+        "name": "X - 근원",
+        "description": "목록에 있는 무기의 투사체 수 +1 증가. 기본 무기와 그 진화 무기는 투사체수 +3 증가."
+      },
+      "11": {
+        "name": "XI - 진주의 왈츠",
+        "description": "목록에 있는 무기의 발사체는 최대 3회 튕기며 공격합니다."
+      },
+      "12": {
+        "name": "XII - 한도초과",
+        "description": "적을 얼리면 그 주위의 적에게 얼음 파편으로 범위 피해를 줍니다, 회중시계를 더욱 쉽게 발견할 수 있습니다."
+      },
+      "14": {
+        "name": "XIV - 수정 감옥",
+        "description": "목록에 있는 무기의 발사체는 일정확률로 적을 얼립니다."
+      },
+      "15": {
+        "name": "XV - 황금 디스코",
+        "description": "금화 주머니 습득시 황금의 피버타임을 가집니다. 획득한 금화만큼 HP를 회복합니다."
+      },
+      "16": {
+        "name": "XVI - 절단",
+        "description": "목록에 있는 무기의 치명타 확률을 상승시키며 2배의 크리티컬 데미지를 줍니다."
+      },
+      "17": {
+        "name": "XVII - 잃어버린 그림",
+        "description": "매 10초마다 지속시간 무작위로 변경 -50% ~ +200%"
+      },
+      "18": {
+        "name": "XVIII - 환상의 춤",
+        "description": "매 10초마다 공격범위가 -25% 에서 +50% 사이로 무작위 변경."
+      },
+      "19": {
+        "name": "XIX - 불의 심장",
+        "description": "목록에 있는 무기의 투사체는 충돌시 폭발하며 대미지를 줍니다. 캐릭터가 피해를 입으면 주위에 폭파 대미지를 줍니다."
+      }
+    }
+  },
+  "no": {
+    "english": "Norwegian",
+    "native": "Norsk",
+    "api": "norwegian",
+    "translations": {}
+  },
+  "pl": {
+    "english": "Polish",
+    "native": "Polski",
+    "api": "polish",
+    "translations": {}
+  },
+  "pt": {
+    "english": "Portuguese",
+    "native": "Português",
+    "api": "portuguese",
+    "translations": {}
+  },
+  "pt-BR": {
+    "english": "Portuguese-Brazil",
+    "native": "Português-Brasil",
+    "api": "brazilian",
+    "translations": {
+      "4": {
+        "name": "IV - Despertar",
+        "description": "Ganha +3 Revives. Consumir um Revive concede +10% HP Máximo, +1 de armadura e 5% de Poder, Área, Duração e Velocidade."
+      },
+      "5": {
+        "name": "V - Caos na Noite Negra",
+        "description": "Velocidade dos Projéteis troca continuamente entre -50% e +200% durante 10 segundos."
+      },
+      "6": {
+        "name": "VI - Serenata de Cura",
+        "description": "Cura é dobrada. Recuperar HP causa dano a inimigos próximos com a mesma quantidade."
+      },
+      "7": {
+        "name": "VII - Perseverança Azul",
+        "description": "Projéteis das armas listadas ganham até 3 ricocheteamentos e podem atravessar inimigos e paredes."
+      },
+      "8": {
+        "name": "VIII - Mad Groove",
+        "description": "Every 2 minutes attracts all standard stage items, pickups, and light sources towards the character."
+      },
+      "10": {
+        "name": "X - Beginning",
+        "description": "Listed weapons get +1 Amount. The character's main weapon and its evolution gain +3 Amount instead."
+      },
+      "11": {
+        "name": "XI - Valsa das Pérolas",
+        "description": "Projéteis das armas listadas ganham até 3 ricocheteamentos."
+      },
+      "12": {
+        "name": "XII - Out of Bounds",
+        "description": "Freezing enemies generates explosions. Orologions are easier to find."
+      },
+      "14": {
+        "name": "XIV - Jail of Crystal",
+        "description": "Listed weapon projectiles have a chance to freeze enemies."
+      },
+      "15": {
+        "name": "XV - Disco of Gold",
+        "description": "Picking up coin bags from the floor triggers Gold Fever. Obtaining gold restores as many HP."
+      },
+      "16": {
+        "name": "XVI - Corte",
+        "description": "Ativa ataques críticos para as armas listadas. Dobra o dano crítico geral"
+      },
+      "17": {
+        "name": "XVII - Pintura de Achados & Perdidos",
+        "description": "Duração alterna continuamente entre -50% e +200% durante 10 segundos"
+      },
+      "18": {
+        "name": "XVIII - Boogaloo of Illusions",
+        "description": "Overall Area continuously changes between -25% and +50% over 10 seconds."
+      },
+      "19": {
+        "name": "XIX - Coração de Fogo",
+        "description": "Projéteis das armas listadas explodem no impacto. Luzes explodem. Personagem explode quando leva dano."
+      }
+    }
+  },
+  "ro": {
+    "english": "Romanian",
+    "native": "Română",
+    "api": "romanian",
+    "translations": {}
+  },
+  "ru": {
+    "english": "Russian",
+    "native": "Русский",
+    "api": "russian",
+    "translations": {
+      "4": {
+        "name": "IV - Пробуждение",
+        "description": "Дает +3 Оживления. Использование Оживления дает +10% к Макс. ОЗ, +1 к Броне, и +5% к Силе, Размеру, Сроку и Подвижности."
+      },
+      "5": {
+        "name": "V - Хаос в Темной Ночи",
+        "description": "Cкорость всех снарядов непрерывно меняется от -50% до +200% в течение 10 секунд."
+      },
+      "6": {
+        "name": "VI - Сарабанда Исцеления",
+        "description": "Исцеление удваивается. Восстановление ОЗ наносит урон ближайшим врагам на ту же сумму."
+      },
+      "7": {
+        "name": "VII - Железная Голубая Воля",
+        "description": "Снаряды перечисленного оружия получают до 3 отскоков и могут проходить сквозь врагов и стены."
+      },
+      "8": {
+        "name": "VIII - Mad Groove",
+        "description": "Every 2 minutes attracts all standard stage items, pickups, and light sources towards the character."
+      },
+      "10": {
+        "name": "X - Beginning",
+        "description": "Listed weapons get +1 Amount. The character's main weapon and its evolution gain +3 Amount instead."
+      },
+      "11": {
+        "name": "XI - Вальс Жемчужин",
+        "description": "Снаряды перечисленного оружия получают до 3 отскоков."
+      },
+      "12": {
+        "name": "XII - За Пределами",
+        "description": "Замораживание врагов порождает взрывы. Часослов легче найти."
+      },
+      "14": {
+        "name": "XIV - Кристальная Темница",
+        "description": "Снаряды перечисленного оружия имеют шанс заморозить врагов."
+      },
+      "15": {
+        "name": "XV - Золотая Дискотека",
+        "description": "Подбирание мешков с монетами с пола вызывает Золотую Лихорадку. За каждое полученное золото восстанавливается ОЗ."
+      },
+      "16": {
+        "name": "XVI - Порез",
+        "description": "Позволяет наносить критические удары для перечисленного оружия. Удваивает весь критический урон."
+      },
+      "17": {
+        "name": "XVII - Потерянная и Найденная Картина",
+        "description": "Срок непрерывно меняется от -50% до +200% в течение 10 секунд."
+      },
+      "18": {
+        "name": "XVIII - Бугалу Иллюзий",
+        "description": "Размер всех атак непрерывно меняется от -25% до +50% в течение 10 секунд."
+      },
+      "19": {
+        "name": "XIX - Сердце Огня",
+        "description": "Снаряды перечисленного оружия взрываются при столкновении. Источники света взрываются. Персонаж взрывается при получении урона."
+      }
+    }
+  },
+  "es": {
+    "english": "Spanish",
+    "native": "Español 80%",
+    "api": "spanish",
+    "translations": {
+      "4": {
+        "name": "IV - Awake",
+        "description": "Gives +3 Revivals. Consuming a Revival gives +10% MaxHealth, +1 Armor, and +5% Might, Area, Duration, and Speed."
+      },
+      "5": {
+        "name": "V - Chaos in the Dark Night",
+        "description": "Overall projectile Speed continuously changes between -50% and +200% over 10 seconds."
+      },
+      "6": {
+        "name": "VI - Sarabande of Healing",
+        "description": "Healing is doubled. Recovering HP damages nearby enemies for the same amount."
+      },
+      "7": {
+        "name": "VII - Iron Blue Will",
+        "description": "Listed weapon projectiles gain up to 3 bounces and might pass through enemies and walls."
+      },
+      "8": {
+        "name": "VIII - Mad Groove",
+        "description": "Every 2 minutes attracts all standard stage items, pickups, and light sources towards the character."
+      },
+      "10": {
+        "name": "X - Beginning",
+        "description": "Listed weapons get +1 Amount. The character's main weapon and its evolution gain +3 Amount instead."
+      },
+      "11": {
+        "name": "XI - Waltz of Pearls",
+        "description": "Listed weapon projectiles gain up to 3 bounces."
+      },
+      "12": {
+        "name": "XII - Out of Bounds",
+        "description": "Freezing enemies generates explosions. Orologions are easier to find."
+      },
+      "14": {
+        "name": "XIV - Jail of Crystal",
+        "description": "Listed weapon projectiles have a chance to freeze enemies."
+      },
+      "15": {
+        "name": "XV - Disco of Gold",
+        "description": "Picking up coin bags from the floor triggers Gold Fever. Obtaining gold restores as many HP."
+      },
+      "16": {
+        "name": "XVI - Slash",
+        "description": "Enables critical hits for listed weapons. Doubles overall critical damage."
+      },
+      "17": {
+        "name": "XVII - Lost & Found Painting",
+        "description": "Overall Duration continuously changes between -50% and +200% over 10 seconds."
+      },
+      "18": {
+        "name": "XVIII - Boogaloo of Illusions",
+        "description": "Overall Area continuously changes between -25% and +50% over 10 seconds."
+      },
+      "19": {
+        "name": "XIX - Heart of Fire",
+        "description": "Listed weapon projectiles explode on impact. Light sources explode. Character explodes when damaged."
+      }
+    }
+  },
+  "es-419": {
+    "english": "Spanish-Latin America",
+    "native": "Español-Latinoamérica",
+    "api": "latam",
+    "translations": {}
+  },
+  "sv": {
+    "english": "Swedish",
+    "native": "Svenska",
+    "api": "swedish",
+    "translations": {}
+  },
+  "th": {
+    "english": "Thai",
+    "native": "ไทย",
+    "api": "thai",
+    "translations": {}
+  },
+  "tr": {
+    "english": "Turkish",
+    "native": "Türkçe",
+    "api": "turkish",
+    "translations": {}
+  },
+  "uk": {
+    "english": "Ukrainian",
+    "native": "Українська",
+    "api": "ukrainian",
+    "translations": {}
+  },
+  "vn": {
+    "english": "Vietnamese",
+    "native": "Tiếng Việt",
+    "api": "vietnamese",
+    "translations": {}
+  }
+}
