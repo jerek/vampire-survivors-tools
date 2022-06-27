@@ -161,6 +161,7 @@ footer a:hover {color: var(--vs-yellow)}
 }
 
 .vsbt-container {position: relative; z-index: 2}
+.vsbt-container > h2:first-child {margin-top: 0}
 .vsbt-container > :last-child {margin-bottom: 0}
 
 /* ***************** */
