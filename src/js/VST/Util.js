@@ -24,7 +24,11 @@ VST.Util = new function () {
             Object.entries(properties).forEach(([property, value]) => {
                 if (typeof value === 'object' && value) {
                     if (!targetObject[property]) {
-                        targetObject[property] = {};
+                        if (Array.isArray(properties[property])) {
+                            targetObject[property] = [];
+                        } else {
+                            targetObject[property] = {};
+                        }
                     }
                     self.copyProperties(targetObject[property], value);
                 } else {
