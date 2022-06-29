@@ -2,6 +2,7 @@
  * Contains game data and provides functions for retrieving it.
  */
 VST.Data = new function () {
+    const Img = VST.Img;
     const Util = VST.Util;
 
     // *********************** //
@@ -19,12 +20,14 @@ VST.Data = new function () {
 
     /**
      * @typedef {Object} CharacterData Data describing a character.
-     * @property {CharacterId} id          This MUST NOT change, because it's used in the URL for saved builds.
-     * @property {string}      name        The character's common name.
-     * @property {string}      description
-     * @property {WeaponId[]}  weaponIds
-     * @property {string}      [prefix]    Text shown before the character's name when showing their full name.
-     * @property {string}      [surname]   Text shown after the character's name when showing their full name.
+     * @property {CharacterId}  id          This MUST NOT change, because it's used in the URL for saved builds.
+     * @property {string}       name        The character's common name.
+     * @property {string}       description The character's in-game description.
+     * @property {VsSpriteName} spriteAlt   The sprite that the filename exists in, if different from "characters".
+     * @property {string}       spriteName  The filename of the character's image within the "characters" sprite.
+     * @property {WeaponId[]}   weaponIds   The weapons the character starts with.
+     * @property {string}       [prefix]    Text shown before the character's name when showing their full name.
+     * @property {string}       [surname]   Text shown after the character's name when showing their full name.
      */
 
     /** @typedef {number} CharacterId A character's ID. */
@@ -230,111 +233,130 @@ VST.Data = new function () {
             name: 'Antonio',
             surname: 'Belpaese',
             description: 'Gains 10% more damage every 10 levels (max +50%).',
+            spriteName: 'newAntonio_01.png',
             weaponIds: [WEAPON_ID_WHIP],
         },
         2: {
             name: 'Imelda',
             surname: 'Belpaese',
             description: 'Gains 10% more experience every 5 levels (max +30%).',
+            spriteName: 'newImelda_01.png',
             weaponIds: [WEAPON_ID_MAGIC_WAND],
         },
         3: {
             name: 'Pasqualina',
             surname: 'Belpaese',
             description: 'Projectiles get 10% faster every 5 levels (max +30%).',
+            spriteName: 'newPasqualina_01.png',
             weaponIds: [WEAPON_ID_RUNETRACER],
         },
         4: {
             name: 'Gennaro',
             surname: 'Belpaese',
             description: 'Permanent +1 projectile (all weapons).',
+            spriteName: 'newGennaro_01.png',
             weaponIds: [WEAPON_ID_KNIFE],
         },
         5: {
             name: 'Arca',
             surname: 'Ladonna',
             description: 'Weapon cooldown is reduced by 5% every 10 levels (max -15%).',
+            spriteName: 'Arca_01.png',
             weaponIds: [WEAPON_ID_FIRE_WAND],
         },
         6: {
             name: 'Porta',
             surname: 'Ladonna',
             description: 'Permanent +30% area. Starts with temporary cooldown bonus.',
+            spriteName: 'Porta_01.png',
             weaponIds: [WEAPON_ID_LIGHTNING_RING],
         },
         7: {
             name: 'Lama',
             surname: 'Ladonna',
             description: 'Gains +5% Might, MoveSpeed, and Curse every 10 levels (max +20%).',
+            spriteName: 'Lama_01.png',
             weaponIds: [WEAPON_ID_AXE],
         },
         8: {
             name: 'Poe',
             surname: 'Ratcho',
             description: 'Permanent +25% pickup radius and -30 max health.',
+            spriteName: 'Old3_01.png',
             weaponIds: [WEAPON_ID_GARLIC],
         },
         9: {
             name: 'Clerici',
             description: 'Permanent +0.5 HP/s and +50 Max Health. Starts with temporary area bonus.',
+            spriteName: 'Suora_01.png',
             prefix: 'Suor',
             weaponIds: [WEAPON_ID_SANTA_WATER],
         },
         10: {
             name: 'Dommario',
             description: 'Permanent +40% duration and speed, -40% move speed.',
+            spriteName: 'Dommario_01.png',
             weaponIds: [WEAPON_ID_KING_BIBLE],
         },
         11: {
             name: 'Krochi',
             surname: 'Freetto',
             description: 'Starts with 1 Revival. Gains 1 more Revival at level 33.',
+            spriteName: 'Krochi_01.png',
             weaponIds: [PASSIVE_ID_CLOVER],
         },
         12: {
             name: 'Christine',
             surname: 'Davain',
             description: 'Starts with 1 extra level.',
+            spriteName: 'Christine_01.png',
             weaponIds: [WEAPON_ID_PENTAGRAM],
         },
         13: {
             name: 'Pugnala',
             surname: 'Provola',
             description: 'Gains +1% Might every level.',
+            spriteName: 'Pugnala_01.png',
             weaponIds: [WEAPON_ID_PHIERA_DER_TUPHELLO, WEAPON_ID_EIGHT_THE_SPARROW],
         },
         14: {
             name: 'Giovanna',
             surname: 'Grana',
             description: 'Gains +1% Projectile Speed every level.',
+            spriteName: 'Giovanna_01.png',
             weaponIds: [WEAPON_ID_GATTI_AMARI],
         },
         15: {
             name: 'Poppea',
             surname: 'Pecorina',
             description: 'Gains +1% Duration every level.',
+            spriteName: 'Poppea_01.png',
             weaponIds: [WEAPON_ID_SONG_OF_MANA],
         },
         16: {
             name: 'Concetta',
             surname: 'Caciotta',
             description: 'Gains +1% Area every level.',
+            spriteName: 'Concetta_i01.png',
             weaponIds: [WEAPON_ID_SHADOW_PINION],
         },
         17: {
             name: 'Mortaccio',
             description: 'Gets more projectiles every 20 levels (max+3).',
+            spriteName: 'Mortaccio_01.png',
             weaponIds: [WEAPON_ID_BONE],
         },
         18: {
             name: 'Cavallo',
             description: 'Gets more projectiles every 20 levels (max+3).',
+            spriteName: 'Cavallo_01.png',
             prefix: 'Yatta',
             weaponIds: [WEAPON_ID_CHERRY_BOMB],
         },
         19: {
             name: 'Ramba',
             description: 'Gets more projectiles every 20 levels (max+3).',
+            spriteName: 'Ramba_01.png',
             prefix: 'Bianca',
             weaponIds: [WEAPON_ID_CARRELLO],
         },
@@ -342,12 +364,14 @@ VST.Data = new function () {
             name: 'O\'Sole',
             surname: 'Meeo',
             description: 'Gets more projectiles every 20 levels (max+3).',
+            spriteName: 'Dog_01.png',
             weaponIds: [WEAPON_ID_CELESTIAL_DUSTING],
         },
         21: {
             name: 'Gallo',
             surname: 'Valletto',
             description: 'Starts with 1 extra level. Gains +10% Growth every 5 levels (max +50%).',
+            spriteName: 'Gallo_01.png',
             prefix: 'Iguana',
             weaponIds: [WEAPON_ID_CLOCK_LANCET],
         },
@@ -359,12 +383,14 @@ VST.Data = new function () {
             name: 'Divano',
             surname: 'Thelma',
             description: 'Starts with 1 extra level. Gains +1 Armor every 5 levels (max +5).',
+            spriteName: 'Divano_01.png',
             weaponIds: [WEAPON_ID_LAUREL],
         },
         27: {
             name: 'Zi\'Assunta',
             surname: 'Belpaese',
             description: 'Gains +0.5% Might, projectile Speed, Duration, and Area every level.',
+            spriteName: 'Assunta_01.png',
             weaponIds: [WEAPON_ID_VENTO_SACRO],
         },
         // 28: {name: 'LATODISOPRO', description: '', weaponIds: [PASSIVE_ID_DUPLICATOR]},
@@ -376,22 +402,26 @@ VST.Data = new function () {
             name: 'Exdash',
             surname: 'Exiviiq',
             description: 'At least they\'re lucky.',
+            spriteName: 'Exdash_01.png',
             weaponIds: [WEAPON_ID_EBONY_WINGS],
         },
         34: {
             name: 'Toastie',
             description: 'So much potential.',
+            spriteName: 'uExdash_01.png',
             weaponIds: [WEAPON_ID_PEACHONE],
         },
         35: {
             name: 'Smith',
             surname: 'IV',
             description: 'The quirky white bear.',
+            spriteName: 'nExdash_01.png',
             weaponIds: [WEAPON_ID_VANDALIER],
         },
         36: {
             name: 'Marrabbio',
             description: '',
+            spriteName: 'Marrabbio_01.png',
             prefix: 'Boon',
             weaponIds: [WEAPON_ID_THOUSAND_EDGE],
         },
@@ -402,16 +432,20 @@ VST.Data = new function () {
             name: 'Minnah',
             surname: 'Mannarah',
             description: 'Might, projectile Speed, Duration, Area, and Cooldown change every minute.',
+            spriteName: 'Minnah_01.png',
             weaponIds: [WEAPON_ID_BLOODY_TEAR],
         },
         41: {
             name: 'Leda',
             description: '',
+            spriteAlt: Img.ENEMIES_2,
+            spriteName: 'XLLeda_i01.png',
             weaponIds: [WEAPON_ID_HOLY_WAND],
         },
         42: {
             name: 'Red Death',
             description: 'A blasphemous mockery.',
+            spriteName: 'XLReaper_i01.png',
             prefix: 'Mask of the',
             weaponIds: [WEAPON_ID_DEATH_SPIRAL],
         },
