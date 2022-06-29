@@ -266,7 +266,8 @@ VSBT.Page = new function () {
         my.currentPage = {page: page, subPath: subPath};
         document.body.dataset.page = page;
 
-        // Update the main heading.
+        // Update the main heading and title.
+        document.title = pageConfig.title;
         my.elements.pageHeading.innerText = pageConfig.title;
 
         // Add a red "Back" button to go back to the previous page.
