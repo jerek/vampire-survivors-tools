@@ -17,13 +17,9 @@ window.VSBT = new function () {
     // ***** FUNCTIONS ***** //
     // ********************* //
 
-    /**
-     * Sets up the core library code.
-     */
-    this.init = () => {
-        // Call any registered callbacks, now that everything on the page is available.
-        my.initCallbacks.forEach(callback => callback());
-    };
+    // ------ //
+    // PUBLIC //
+    // ------ //
 
     /**
      * Registers a callback to be executed when all JS files have been loaded on the page, just before the core init.
@@ -31,4 +27,25 @@ window.VSBT = new function () {
      * @param {function} callback
      */
     this.registerInitCallback = callback => my.initCallbacks.push(callback);
+
+    // ------- //
+    // PRIVATE //
+    // ------- //
+
+    /**
+     * Sets up the core library code.
+     */
+    function init() {
+        // Call any registered callbacks, now that everything on the page is available.
+        my.initCallbacks.forEach(callback => callback());
+
+        // Set up the page.
+        VSBT.Page.init();
+    }
+
+    // ************************** //
+    // ***** INITIALIZATION ***** //
+    // ************************** //
+
+    window.addEventListener('DOMContentLoaded', init);
 };

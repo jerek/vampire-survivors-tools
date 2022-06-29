@@ -85,17 +85,6 @@ VSBT.Tool = new function () {
     // PUBLIC //
     // ------ //
 
-    /**
-     * Sets up the main tool.
-     */
-    this.init = function () {
-        // Initialize any core code before attempting to set up the tool.
-        VSBT.init();
-
-        // Set up the page.
-        Page.init();
-    };
-
     // ------- //
     // PRIVATE //
     // ------- //
