@@ -96,27 +96,27 @@ footer a:hover {color: var(--vs-yellow)}
 .vs-button:focus-visible {border-radius: 8px; box-shadow: 0 0 0 2px #000; outline: none; text-decoration: none}
 
 .vs-button[data-color="blue"] {
-    border-image: url(../game-assets/Img/UI/button_c9_normal.png) var(--vs-button-border-size) fill;
+    border-image: url(../game-assets/img/UI/button_c9_normal.png) var(--vs-button-border-size) fill;
 }
 .vs-button[data-color="blue"]:hover {
-    border-image: url(../game-assets/Img/UI/button_c9_mouseover.png) var(--vs-button-border-size) fill;
+    border-image: url(../game-assets/img/UI/button_c9_mouseover.png) var(--vs-button-border-size) fill;
 }
 .vs-button[data-color="blue"]:active {
-    border-image: url(../game-assets/Img/UI/button_c9_pressed.png) var(--vs-button-border-size) fill;
+    border-image: url(../game-assets/img/UI/button_c9_pressed.png) var(--vs-button-border-size) fill;
 }
 
 .vs-button[data-color="green"] {
-    border-image: url(../game-assets/Img/UI/button_c5_normal.png) var(--vs-button-border-size) fill;
+    border-image: url(../game-assets/img/UI/button_c5_normal.png) var(--vs-button-border-size) fill;
 }
 .vs-button[data-color="green"]:hover {
-    border-image: url(../game-assets/Img/UI/button_c5_mouseover.png) var(--vs-button-border-size) fill;
+    border-image: url(../game-assets/img/UI/button_c5_mouseover.png) var(--vs-button-border-size) fill;
 }
 .vs-button[data-color="green"]:active {
-    border-image: url(../game-assets/Img/UI/button_c5_pressed.png) var(--vs-button-border-size) fill;
+    border-image: url(../game-assets/img/UI/button_c5_pressed.png) var(--vs-button-border-size) fill;
 }
 
 .vs-button[data-color="red"] {
-    border-image: url(../game-assets/Img/UI/button_c8_normal.png) var(--vs-button-border-size) fill;
+    border-image: url(../game-assets/img/UI/button_c8_normal.png) var(--vs-button-border-size) fill;
 }
 
 /* ============ */
@@ -149,7 +149,7 @@ footer a:hover {color: var(--vs-yellow)}
 .vst:before {
     --border-offset: -4px;
     border: 15px solid transparent;
-    border-image: url(../game-assets/Img/UI/frame5_c4.png) 15 fill;
+    border-image: url(../game-assets/img/UI/frame5_c4.png) 15 fill;
     bottom: var(--border-offset);
     content: '';
     display: block;
