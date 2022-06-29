@@ -18,9 +18,9 @@ VSBT.Page = new function () {
      */
 
     /**
-     * @typedef {Object} PageBundle Data describing a page to display and any associated contextual data.
-     * @property {PageId}   page The page to display.
-     * @property {PageData} data Page-specific contextual data.
+     * @typedef {Object} PageBundle Data describing a page to display and any additional URL segments.
+     * @property {PageId}   page    The page to display.
+     * @property {PageSubPath} subPath Any URL segments after the end of the page URL.
      */
 
     /**
@@ -31,7 +31,7 @@ VSBT.Page = new function () {
      * @property {string}   url     The URL where the page is seen.
      */
 
-    /** @typedef {*} PageData Page-specific contextual data. */
+    /** @typedef {*} PageSubPath Any URL segments after the end of the page URL. */
 
     /** @typedef {string} PageId A string ID of a page with an associated layout. */
 
@@ -71,10 +71,10 @@ VSBT.Page = new function () {
             display:
                 /**
                  * @param {PageId}          page
-                 * @param {{error: string}} [data]
+                 * @param {{error: string}} [subPath]
                  */
-                (page, data) => {
-                    DOM.ce('h2', undefined, my.elements.container, DOM.ct(data && data.error || 'Unknown Error'));
+                (page, subPath) => {
+                    DOM.ce('h2', undefined, my.elements.container, DOM.ct(subPath || 'Unknown Error'));
                 },
         },
         [this.PAGE_GAME_IMAGES]: {
@@ -84,11 +84,12 @@ VSBT.Page = new function () {
             display:
                 /**
                  * @param {PageId}       page
-                 * @param {VsSpriteName} [data]
+                 * @param {VsSpriteName} [subPath]
                  */
-                (page, data) => {
-                    if (data) {
-                        Img.displayAllImages(data);
+                (page, subPath) => {
+                    if (subPath) {
+                        self.setUrl('game-images/' + VSBT.Util.slug(subPath), true);
+                        Img.displayAllImages(subPath);
                     } else {
                         let buttons = DOM.ce('div', {className: 'vs-button-list'}, my.elements.container);
                         let spriteNames = Img.getSpriteNames().concat([Img.ALL_SPRITES]);
@@ -105,11 +106,12 @@ VSBT.Page = new function () {
             display:
                 /**
                  * @param {PageId}       page
-                 * @param {VsSpriteName} [data]
+                 * @param {VsSpriteName} [subPath]
                  */
-                (page, data) => {
-                    if (data) {
-                        Img.displayAllImagesAnimated(data);
+                (page, subPath) => {
+                    if (subPath) {
+                        self.setUrl('game-images/animated/' + VSBT.Util.slug(subPath), true);
+                        Img.displayAllImagesAnimated(subPath);
                     } else {
                         let buttons = DOM.ce('div', {className: 'vs-button-list'}, my.elements.container);
                         let spriteNames = Img.getSpriteNames().concat([Img.ALL_SPRITES]);
@@ -202,9 +204,9 @@ VSBT.Page = new function () {
             my.allowUrlUpdates = false;
 
             // If we found a different page than the current one, or need to show an error page, do so.
-            let page = getByPath(location.pathname);
-            if (!page || page !== (my.currentPage || {}).page) {
-                self.set(page);
+            let pageBundle = getByPath(location.pathname);
+            if (!pageBundle || pageBundle.page !== (my.currentPage || {}).page) {
+                self.set(pageBundle.page, pageBundle.subPath);
             }
 
             my.allowUrlUpdates = true;
@@ -227,11 +229,11 @@ VSBT.Page = new function () {
     /**
      * Sets and displays a page.
      *
-     * @param {PageId}   page            The page to display.
-     * @param {PageData} [data]          Page-specific contextual data.
-     * @param {boolean}  [viaBackButton] Whether this page is being loaded because the user used the back button.
+     * @param {PageId}      page            The page to display.
+     * @param {PageSubPath} [subPath]       Any URL segments after the end of the page URL.
+     * @param {boolean}     [viaBackButton] Whether this page is being loaded because the user used the back button.
      */
-    this.set = function (page, data, viaBackButton) {
+    this.set = function (page, subPath, viaBackButton) {
         // Do any garbage collection and clear any previous page content.
         while (my.onLeavePage.length) {
             my.onLeavePage.shift()();
@@ -241,7 +243,7 @@ VSBT.Page = new function () {
         // Validate the requested page.
         let pageConfig = PAGES[page];
         if (!pageConfig) {
-            self.set(self.PAGE_ERROR, {error: 'Page Not Found'});
+            self.set(self.PAGE_ERROR, 'Page Not Found');
 
             return;
         }
@@ -261,7 +263,7 @@ VSBT.Page = new function () {
             // that they can go "back" to the homepage.
             my.previousPages.push({page: self.PAGE_INDEX});
         }
-        my.currentPage = {page: page, data: data};
+        my.currentPage = {page: page, subPath: subPath};
         document.body.dataset.page = page;
 
         // Update the main heading.
@@ -275,7 +277,7 @@ VSBT.Page = new function () {
                 'Back',
                 () => {
                     let lastPage = my.previousPages[my.previousPages.length - 1];
-                    self.set(lastPage.page, lastPage.data, true);
+                    self.set(lastPage.page, lastPage.subPath, true);
                 },
                 navRow,
                 DOM.BUTTON_RED,
@@ -283,15 +285,16 @@ VSBT.Page = new function () {
         }
 
         // Display the page content.
-        pageConfig.display(page, data);
+        pageConfig.display(page, subPath);
     };
 
     /**
      * Updates the URL in a way that doesn't trigger URL change detection to load a page.
      *
-     * @param {string} url
+     * @param {string}  url
+     * @param {boolean} [replace]
      */
-    this.setUrl = function (url) {
+    this.setUrl = function (url, replace) {
         // Don't change the URL while we're examining it.
         if (!my.allowUrlUpdates) {
             return;
@@ -307,7 +310,11 @@ VSBT.Page = new function () {
             url = '/' + url;
         }
 
-        history.pushState({}, '', url);
+        if (replace) {
+            history.replaceState({}, '', url);
+        } else {
+            history.pushState({}, '', url);
+        }
     };
 
     // ------- //
@@ -327,7 +334,7 @@ VSBT.Page = new function () {
      * Returns the page ID that matches the given path, or undefined if none match.
      *
      * @param {string} path
-     * @return {PageId|undefined}
+     * @return {PageBundle|undefined}
      */
     function getByPath(path) {
         path = path.replace(/^\//, '');
@@ -338,14 +345,25 @@ VSBT.Page = new function () {
         }
 
         let page;
-        Object.values(PAGES).some(pageConfig => {
-            if (pageConfig.url === path) {
+        Object.values(PAGES).forEach(pageConfig => {
+            // If the path starts with this page's URL, and this is the longest matching URL found so far, use it.
+            if (path.startsWith(pageConfig.url) && (
+                !page ||
+                PAGES[page].url.length < pageConfig.url.length
+            )) {
                 page = pageConfig.id;
-
-                return true;
             }
         });
 
-        return page;
+        /** @type {PageBundle|undefined} */
+        let pageBundle;
+        if (page) {
+            pageBundle = {
+                page: page,
+                subPath: path.substring(page.length),
+            };
+        }
+
+        return pageBundle;
     }
 };

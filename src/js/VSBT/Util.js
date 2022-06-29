@@ -35,4 +35,26 @@ VSBT.Util = new function () {
 
         return targetObject;
     };
+
+    /**
+     * Returns the given string converted to a URL slug.
+     *
+     * @param {string} string
+     * @return {string}
+     */
+    this.slug = function (string) {
+        // Make it lowercase in a locale-supported way.
+        string = string.toLocaleLowerCase();
+
+        // Replace any unsupported characters with hyphens.
+        string = string.replace(/ \/ |_|[^\u00C0-\u1FFF\u2C00-\uD7FF\w]+/g, '-');
+
+        // Trim any duplicate hyphens.
+        string = string.replace(/-{2,}/g, '-');
+
+        // Trim any beginning or ending hyphens.
+        string = string.replace(/^-+|-+$/g, '');
+
+        return string;
+    };
 };

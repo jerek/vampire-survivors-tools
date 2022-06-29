@@ -197,10 +197,10 @@ VSBT.Img = new function () {
     /**
      * Fills the main wrapper with all images, with a heading for each type.
      *
-     * @param {VsSpriteName} [sprite] A sprite to display the images from. Defaults to all sprites.
-     * @param {number}       [scale]  The 1-base scale at which images should be displayed. Defaults to 2.
+     * @param {string} [subPath] A sub-path that maps to an image sprite to display. Defaults to all sprites.
+     * @param {number} [scale]   The 1-base scale at which images should be displayed. Defaults to 2.
      */
-    this.displayAllImages = function (sprite, scale) {
+    this.displayAllImages = function (subPath, scale) {
         document.querySelector('h1').innerText = 'Vampire Survivors Images';
 
         let container = VSBT.Page.getContainer();
@@ -211,7 +211,7 @@ VSBT.Img = new function () {
             alert('Warning: At scales higher than 4 images will start to be too large to fit in the main container.');
         }
 
-        (sprite && sprite !== self.ALL_SPRITES ? [sprite] : self.getSpriteNames()).forEach(spriteName => {
+        getSpritesFromSubPath(subPath).forEach(spriteName => {
             let sprite = getSpriteBasenameFromName(spriteName);
 
             let imagesContainer = DOM.ce('div', undefined, container);
@@ -253,10 +253,10 @@ VSBT.Img = new function () {
      * Fills the main wrapper with all images, with a heading for each type, and animates all that appear to have
      * animations.
      *
-     * @param {VsSpriteName} [sprite] A sprite to display the images from. Defaults to all sprites.
-     * @param {number}       [scale]  The 1-base scale at which images should be displayed. Defaults to 2.
+     * @param {string} [subPath] A sub-path that maps to an image sprite to display. Defaults to all sprites.
+     * @param {number} [scale]   The 1-base scale at which images should be displayed. Defaults to 2.
      */
-    this.displayAllImagesAnimated = function (sprite, scale) {
+    this.displayAllImagesAnimated = function (subPath, scale) {
         document.querySelector('h1').innerText = 'Vampire Survivors Images Animated';
 
         let container = VSBT.Page.getContainer();
@@ -267,7 +267,7 @@ VSBT.Img = new function () {
             alert('Warning: At scales higher than 4 images will start to be too large to fit in the main container.');
         }
 
-        (sprite && sprite !== self.ALL_SPRITES ? [sprite] : self.getSpriteNames()).forEach(spriteName => {
+        getSpritesFromSubPath(subPath).forEach(spriteName => {
             let sprite = getSpriteBasenameFromName(spriteName);
 
             let imagesContainer = DOM.ce('div', undefined, container);
@@ -444,6 +444,35 @@ VSBT.Img = new function () {
      */
     function getSpriteBasenameFromName(spriteName) {
         return self[spriteName.toUpperCase().replace(' ', '_')];
+    }
+
+    /**
+     * Returns a list of sprites to display from the given sub-path. Falls back on all sprites.
+     *
+     * @param {string} [subPath]
+     * @return {VsSpriteName[]}
+     */
+    function getSpritesFromSubPath(subPath) {
+        let allSprites = self.getSpriteNames();
+
+        if (subPath) {
+            let slug = VSBT.Util.slug(subPath);
+
+            let sprite;
+            allSprites.some(spriteName => {
+                if (VSBT.Util.slug(spriteName) === slug) {
+                    sprite = spriteName;
+
+                    return true;
+                }
+            });
+
+            if (sprite) {
+                return [sprite];
+            }
+        }
+
+        return allSprites;
     }
 
     /**
