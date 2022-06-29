@@ -1065,29 +1065,27 @@ VST.Data = new function () {
      * Sets IDs in all entity lookups.
      */
     function init() {
-        setTimeout(() => {
-            [ARCANAS, CHARACTERS, PASSIVES, STAGES, WEAPONS].forEach(entities => {
-                let ids = [];
+        [ARCANAS, CHARACTERS, PASSIVES, STAGES, WEAPONS].forEach(entities => {
+            let ids = [];
 
-                Object.keys(entities).forEach(idString => {
-                    let id = parseInt(idString);
+            Object.keys(entities).forEach(idString => {
+                let id = parseInt(idString);
 
-                    // Rewrite this object with the ID added, and put it first for development convenience.
-                    entities[idString] = VST.Util.copyProperties({}, {id: id}, entities[idString]);
+                // Rewrite this object with the ID added, and put it first for development convenience.
+                entities[idString] = VST.Util.copyProperties({}, {id: id}, entities[idString]);
 
-                    // Add this ID to the list of IDs to be sorted.
-                    ids.push(id);
-                });
-
-                // Create an ID list that's sorted by the entity order.
-                ids.sort((a, b) => {
-                    let aSort = entities[a].order || entities[a].id || 0;
-                    let bSort = entities[b].order || entities[b].id || 0;
-
-                    return aSort > bSort ? 1 : -1;
-                });
-                entities.sortedIds = ids;
+                // Add this ID to the list of IDs to be sorted.
+                ids.push(id);
             });
+
+            // Create an ID list that's sorted by the entity order.
+            ids.sort((a, b) => {
+                let aSort = entities[a].order || entities[a].id || 0;
+                let bSort = entities[b].order || entities[b].id || 0;
+
+                return aSort > bSort ? 1 : -1;
+            });
+            entities.sortedIds = ids;
         });
     }
 
