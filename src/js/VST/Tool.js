@@ -1,11 +1,11 @@
 /**
  * The core code for managing the build tool.
  */
-VSBT.Tool = new function () {
+VST.Tool = new function () {
     // We can alias any class-like here, since this is loaded last.
-    const DOM = VSBT.DOM;
-    const Page = VSBT.Page;
-    const Util = VSBT.Util;
+    const DOM = VST.DOM;
+    const Page = VST.Page;
+    const Util = VST.Util;
 
     // *********************** //
     // ***** DEFINITIONS ***** //

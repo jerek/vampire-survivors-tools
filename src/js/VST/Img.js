@@ -1,9 +1,9 @@
 /**
  * Displays images using the game's JSON & PNG files.
  */
-VSBT.Img = new function () {
+VST.Img = new function () {
     const self = this;
-    const DOM = VSBT.DOM;
+    const DOM = VST.DOM;
 
     // *********************** //
     // ***** DEFINITIONS ***** //
@@ -179,7 +179,7 @@ VSBT.Img = new function () {
                 }, ANIMATION_SPEED_MS);
 
                 // When we change to another page, we need to stop the code from trying to update the animations.
-                VSBT.Page.onLeavePage(() => clearInterval(interval));
+                VST.Page.onLeavePage(() => clearInterval(interval));
 
                 if (callback) {
                     callback(image);
@@ -203,7 +203,7 @@ VSBT.Img = new function () {
     this.displayAllImages = function (subPath, scale) {
         document.querySelector('h1').innerText = 'Vampire Survivors Images';
 
-        let container = VSBT.Page.getContainer();
+        let container = VST.Page.getContainer();
 
         if (typeof scale !== 'number') {
             scale = 3;
@@ -259,7 +259,7 @@ VSBT.Img = new function () {
     this.displayAllImagesAnimated = function (subPath, scale) {
         document.querySelector('h1').innerText = 'Vampire Survivors Images Animated';
 
-        let container = VSBT.Page.getContainer();
+        let container = VST.Page.getContainer();
 
         if (typeof scale !== 'number') {
             scale = 3;
@@ -405,7 +405,7 @@ VSBT.Img = new function () {
                     if (frame.filename === filename) {
                         let sizePos = frame.frame;
                         let bgSizeScale = (tp3Sprite.size.w / sizePos.w) * 100;
-                        VSBT.Util.copyProperties(target.style, {
+                        VST.Util.copyProperties(target.style, {
                             backgroundImage: `url(${getSpritePath(sprite, 'png')})`,
                             backgroundPosition: `-${scale * sizePos.x}px -${scale * sizePos.y}px`,
                             backgroundSize: `${bgSizeScale}% auto`,
@@ -456,11 +456,11 @@ VSBT.Img = new function () {
         let allSprites = self.getSpriteNames();
 
         if (subPath) {
-            let slug = VSBT.Util.slug(subPath);
+            let slug = VST.Util.slug(subPath);
 
             let sprite;
             allSprites.some(spriteName => {
-                if (VSBT.Util.slug(spriteName) === slug) {
+                if (VST.Util.slug(spriteName) === slug) {
                     sprite = spriteName;
 
                     return true;

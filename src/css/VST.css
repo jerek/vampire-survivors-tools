@@ -137,7 +137,7 @@ footer a:hover {color: var(--vs-yellow)}
 /* ***** LAYOUT ***** */
 /* ****************** */
 
-.vsbt {
+.vst {
     background: var(--vs-blue);
     box-sizing: border-box;
     margin: 0 auto;
@@ -146,7 +146,7 @@ footer a:hover {color: var(--vs-yellow)}
     width: 700px;
 }
 
-.vsbt:before {
+.vst:before {
     --border-offset: -4px;
     border: 15px solid transparent;
     border-image: url(../game-assets/Img/UI/frame5_c4.png) 15 fill;
@@ -160,20 +160,20 @@ footer a:hover {color: var(--vs-yellow)}
     z-index: 1;
 }
 
-.vsbt-container {position: relative; z-index: 2}
-.vsbt-container > h2:first-child {margin-top: 0}
-.vsbt-container > :last-child {margin-bottom: 0}
+.vst-container {position: relative; z-index: 2}
+.vst-container > h2:first-child {margin-top: 0}
+.vst-container > :last-child {margin-bottom: 0}
 
 /* ***************** */
 /* ***** PAGES ***** */
 /* ***************** */
 
-body[data-page="index"] .vsbt-nav {
+body[data-page="index"] .vst-nav {
     align-items: center;
     display: flex;
     flex-direction: column;
     margin: 50px 0;
 }
 
-body[data-page="index"] .vsbt-nav > .vs-button {min-width: 165px; text-align: center}
-body[data-page="index"] .vsbt-nav > :not(:first-child) {margin-top: 20px}
+body[data-page="index"] .vst-nav > .vs-button {min-width: 165px; text-align: center}
+body[data-page="index"] .vst-nav > :not(:first-child) {margin-top: 20px}

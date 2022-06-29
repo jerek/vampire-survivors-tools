@@ -1,10 +1,10 @@
 /**
  * Manages rendering the page and different page layouts.
  */
-VSBT.Page = new function () {
+VST.Page = new function () {
     const self = this;
-    const Img = VSBT.Img;
-    const DOM = VSBT.DOM;
+    const Img = VST.Img;
+    const DOM = VST.DOM;
 
     // *********************** //
     // ***** DEFINITIONS ***** //
@@ -88,7 +88,7 @@ VSBT.Page = new function () {
                  */
                 (page, subPath) => {
                     if (subPath) {
-                        self.setUrl('game-images/' + VSBT.Util.slug(subPath), true);
+                        self.setUrl('game-images/' + VST.Util.slug(subPath), true);
                         Img.displayAllImages(subPath);
                     } else {
                         let buttons = DOM.ce('div', {className: 'vs-button-list'}, my.elements.container);
@@ -110,7 +110,7 @@ VSBT.Page = new function () {
                  */
                 (page, subPath) => {
                     if (subPath) {
-                        self.setUrl('game-images/animated/' + VSBT.Util.slug(subPath), true);
+                        self.setUrl('game-images/animated/' + VST.Util.slug(subPath), true);
                         Img.displayAllImagesAnimated(subPath);
                     } else {
                         let buttons = DOM.ce('div', {className: 'vs-button-list'}, my.elements.container);
@@ -191,8 +191,8 @@ VSBT.Page = new function () {
     this.init = function () {
         my.elements.pageHeading = DOM.ce('h1', undefined, document.body);
 
-        let wrapper = DOM.ce('div', {className: 'vsbt'}, document.body);
-        my.elements.container = DOM.ce('div', {className: 'vsbt-container'}, wrapper);
+        let wrapper = DOM.ce('div', {className: 'vst'}, document.body);
+        my.elements.container = DOM.ce('div', {className: 'vst-container'}, wrapper);
 
         let footer = DOM.ce('footer', undefined, document.body, DOM.ct('Created for the Survivors by '));
         DOM.ce('a', {href: 'https://twitter.com/jerekdain', target: '_blank'}, footer, DOM.ct('Jerek Dain'));
@@ -328,7 +328,7 @@ VSBT.Page = new function () {
      * @return {HTMLDivElement}
      */
     function addNavigationRow() {
-        return DOM.ce('div', {className: 'vsbt-nav'}, my.elements.container);
+        return DOM.ce('div', {className: 'vst-nav'}, my.elements.container);
     }
 
     /**

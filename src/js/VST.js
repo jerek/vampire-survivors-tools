@@ -2,7 +2,7 @@
  * This is the base class-like, to which all the others attach, for namespacing and a clean global state. It also
  * handles low level tool initialization functionality.
  */
-window.VSBT = new function () {
+window.VST = new function () {
     // ********************* //
     // ***** VARIABLES ***** //
     // ********************* //
@@ -40,7 +40,7 @@ window.VSBT = new function () {
         my.initCallbacks.forEach(callback => callback());
 
         // Set up the page.
-        VSBT.Page.init();
+        VST.Page.init();
     }
 
     // ************************** //

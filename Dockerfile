@@ -14,7 +14,7 @@ RUN echo "alias ll='ls -al --color'" >>/root/.bashrc
 RUN a2enmod rewrite
 
 # Update the document root
-RUN sed -i 's!/var/www/html!/var/www/vampire-survivors-build-tool/src!g' /etc/apache2/sites-available/000-default.conf
+RUN sed -i 's!/var/www/html!/var/www/vampire-survivors-tools/src!g' /etc/apache2/sites-available/000-default.conf
 
 # Update some Linux file system index thing
 RUN updatedb

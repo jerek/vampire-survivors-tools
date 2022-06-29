@@ -1,7 +1,7 @@
 /**
  * Helper functions for dealing with the DOM.
  */
-VSBT.DOM = new function () {
+VST.DOM = new function () {
     const self = this;
 
     // *********************** //
@@ -34,7 +34,7 @@ VSBT.DOM = new function () {
         let element = document.createElement(tag);
 
         if (properties) {
-            VSBT.Util.copyProperties(element, properties);
+            VST.Util.copyProperties(element, properties);
         }
 
         if (childNode) {

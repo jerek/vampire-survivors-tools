@@ -2,10 +2,10 @@ version: '2'
 services:
   app:
     build: "."
-    container_name: "vsbt"
-    image: "vsbt"
+    container_name: "vst"
+    image: "vst"
     volumes:
-      - ".:/var/www/vampire-survivors-build-tool"
+      - ".:/var/www/vampire-survivors-tools"
     environment:
       APP_ENV: "dev"
     ports:

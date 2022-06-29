@@ -1,7 +1,7 @@
 /**
  * General JavaScript utility functions.
  */
-VSBT.Util = new function () {
+VST.Util = new function () {
     const self = this;
 
     // ********************* //

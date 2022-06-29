@@ -1,7 +1,7 @@
 /**
  * Contains game data and provides functions for retrieving it.
  */
-VSBT.Data = new function () {
+VST.Data = new function () {
     // *********************** //
     // ***** DEFINITIONS ***** //
     // *********************** //
@@ -1047,7 +1047,7 @@ VSBT.Data = new function () {
      */
     function getData(entities, id) {
         if (entities[id]) {
-            return VSBT.Util.copyProperties({}, entities[id]);
+            return VST.Util.copyProperties({}, entities[id]);
         }
     }
 
@@ -1073,7 +1073,7 @@ VSBT.Data = new function () {
                     let id = parseInt(idString);
 
                     // Rewrite this object with the ID added, and put it first for development convenience.
-                    entities[idString] = VSBT.Util.copyProperties({}, {id: id}, entities[idString]);
+                    entities[idString] = VST.Util.copyProperties({}, {id: id}, entities[idString]);
 
                     // Add this ID to the list of IDs to be sorted.
                     ids.push(id);
@@ -1095,5 +1095,5 @@ VSBT.Data = new function () {
     // ***** INITIALIZATION ***** //
     // ************************** //
 
-    VSBT.registerInitCallback(init);
+    VST.registerInitCallback(init);
 };
