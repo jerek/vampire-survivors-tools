@@ -5,6 +5,7 @@ VST.Page = new function () {
     const self = this;
     const Img = VST.Img;
     const DOM = VST.DOM;
+    const Util = VST.Util;
 
     // *********************** //
     // ***** DEFINITIONS ***** //
@@ -88,7 +89,7 @@ VST.Page = new function () {
                  */
                 (page, subPath) => {
                     if (subPath) {
-                        self.setUrl('game-images/' + VST.Util.slug(subPath), true);
+                        self.setUrl('game-images/' + Util.slug(subPath), true);
                         Img.displayAllImages(subPath);
                     } else {
                         let buttons = DOM.ce('div', {className: 'vs-button-list'}, my.elements.container);
@@ -110,7 +111,7 @@ VST.Page = new function () {
                  */
                 (page, subPath) => {
                     if (subPath) {
-                        self.setUrl('game-images/animated/' + VST.Util.slug(subPath), true);
+                        self.setUrl('game-images/animated/' + Util.slug(subPath), true);
                         Img.displayAllImagesAnimated(subPath);
                     } else {
                         let buttons = DOM.ce('div', {className: 'vs-button-list'}, my.elements.container);

@@ -4,6 +4,7 @@
 VST.Img = new function () {
     const self = this;
     const DOM = VST.DOM;
+    const Util = VST.Util;
 
     // *********************** //
     // ***** DEFINITIONS ***** //
@@ -405,7 +406,7 @@ VST.Img = new function () {
                     if (frame.filename === filename) {
                         let sizePos = frame.frame;
                         let bgSizeScale = (tp3Sprite.size.w / sizePos.w) * 100;
-                        VST.Util.copyProperties(target.style, {
+                        Util.copyProperties(target.style, {
                             backgroundImage: `url(${getSpritePath(sprite, 'png')})`,
                             backgroundPosition: `-${scale * sizePos.x}px -${scale * sizePos.y}px`,
                             backgroundSize: `${bgSizeScale}% auto`,
@@ -456,11 +457,11 @@ VST.Img = new function () {
         let allSprites = self.getSpriteNames();
 
         if (subPath) {
-            let slug = VST.Util.slug(subPath);
+            let slug = Util.slug(subPath);
 
             let sprite;
             allSprites.some(spriteName => {
-                if (VST.Util.slug(spriteName) === slug) {
+                if (Util.slug(spriteName) === slug) {
                     sprite = spriteName;
 
                     return true;

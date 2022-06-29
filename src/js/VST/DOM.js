@@ -3,6 +3,7 @@
  */
 VST.DOM = new function () {
     const self = this;
+    const Util = VST.Util;
 
     // *********************** //
     // ***** DEFINITIONS ***** //
@@ -34,7 +35,7 @@ VST.DOM = new function () {
         let element = document.createElement(tag);
 
         if (properties) {
-            VST.Util.copyProperties(element, properties);
+            Util.copyProperties(element, properties);
         }
 
         if (childNode) {

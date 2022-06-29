@@ -2,6 +2,8 @@
  * Contains game data and provides functions for retrieving it.
  */
 VST.Data = new function () {
+    const Util = VST.Util;
+
     // *********************** //
     // ***** DEFINITIONS ***** //
     // *********************** //
@@ -1047,7 +1049,7 @@ VST.Data = new function () {
      */
     function getData(entities, id) {
         if (entities[id]) {
-            return VST.Util.copyProperties({}, entities[id]);
+            return Util.copyProperties({}, entities[id]);
         }
     }
 
@@ -1072,7 +1074,7 @@ VST.Data = new function () {
                 let id = parseInt(idString);
 
                 // Rewrite this object with the ID added, and put it first for development convenience.
-                entities[idString] = VST.Util.copyProperties({}, {id: id}, entities[idString]);
+                entities[idString] = Util.copyProperties({}, {id: id}, entities[idString]);
 
                 // Add this ID to the list of IDs to be sorted.
                 ids.push(id);
