@@ -1,7 +1,7 @@
 /**
  * The core code for managing the build tool.
  */
-VST.Tool = new function () {
+VST.Build = new function () {
     // We can alias any class-like here, since this is loaded last.
     const DOM = VST.DOM;
     const Page = VST.Page;
