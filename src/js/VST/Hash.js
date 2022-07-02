@@ -448,17 +448,15 @@ VST.Hash = new function () {
                 hashPart = hashParts.shift();
             }
 
-            if (hashParts.length) {
-                let value = ENCODE_STRING.indexOf(hashPart);
+            let value = ENCODE_STRING.indexOf(hashPart);
 
-                // If .indexOf() fails, we have an invalid hash, so throw an error.
-                if (value === -1) {
-                    throw new Error('VST: Hash character not found in hash encode string.');
-                }
-
-                // Add the value to the list of values.
-                values.push(currentValue + value);
+            // If .indexOf() fails, we have an invalid hash, so throw an error.
+            if (value === -1) {
+                throw new Error('VST: Hash character not found in hash encode string.');
             }
+
+            // Add the value to the list of values.
+            values.push(currentValue + value);
         }
 
         VST.debug('Deserialized hash:', values);
