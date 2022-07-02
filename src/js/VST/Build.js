@@ -3,7 +3,9 @@
  */
 VST.Build = new function () {
     // We can alias any class-like here, since this is loaded last.
+    const Data = VST.Data;
     const DOM = VST.DOM;
+    const Img = VST.Img;
     const Page = VST.Page;
     const Util = VST.Util;
 
@@ -42,6 +44,9 @@ VST.Build = new function () {
         stageIncludedInHash: true,
         weapons: [],
     };
+
+    /** @type {number} The scaling size of the character and weapon images in the standard character boxes. */
+    const IMAGE_SCALE_CHAR_BOX = 1.72;
 
     /** @type {number} The maximum number of standard passive items that a build can contain. */
     const PASSIVE_ITEMS_MAX = 6;
@@ -88,4 +93,61 @@ VST.Build = new function () {
     // ------- //
     // PRIVATE //
     // ------- //
+
+    /**
+     * Appends a character display box to the given parent element.
+     *
+     * @param {CharacterData} char
+     * @param {boolean}       extraDetails  Whether to print the character's full name and description.
+     * @param {string}        tagName       The tag name to use for the element.
+     * @param {string}        usageClass    An HTML class to identify this usage of the character box styles.
+     * @param {Node}          appendTo
+     * @return {HTMLAnchorElement}
+     */
+    function renderCharacterBox(char, extraDetails, tagName, usageClass, appendTo) {
+        // By default, the styles are based only on this class and its extensions.
+        let baseClass = 'vs-char-box';
+
+        /** @type {string[]} The classes to apply to the main element. The base class has the core styles. */
+        let boxClasses = [baseClass];
+        if (extraDetails) {
+            boxClasses.push(`${baseClass}-extra-details`);
+        }
+        boxClasses.push(usageClass);
+
+        // The main box element.
+        let box = DOM.ce(tagName, {
+            className: boxClasses.join(' '),
+            dataset: {character: char.id},
+        }, appendTo);
+
+        // The BG, which is automatically sized to the box.
+        DOM.ce('span', {className: `${baseClass}-bg`}, box);
+
+        // The character's shorthand or full name.
+        let name = extraDetails ? [char.prefix, char.name, char.surname] : [char.name];
+        name.filter(Boolean);
+        name = name.join(' ');
+        DOM.ce('span', {className: `${baseClass}-name`}, box, DOM.ct(name));
+
+        // The default image of the character.
+        let sprite = char.spriteAlt || Img.CHARACTERS;
+        let image = Img.createImage(sprite, char.spriteName, box, IMAGE_SCALE_CHAR_BOX);
+        image.classList.add(`${baseClass}-image`);
+
+        // The weapons the character can equip.
+        let weapons = DOM.ce('span', {className: `${baseClass}-weapons`, dataset: {count: char.weaponIds.length}}, box);
+        char.weaponIds.forEach(weaponId => {
+            let weapon = Data.getWeapon(weaponId);
+            let weaponFrame = DOM.ce('span', {className: `${baseClass}-weapons-frame`}, weapons);
+            Img.createImage(Img.ITEMS, weapon.frameName, weaponFrame, IMAGE_SCALE_CHAR_BOX);
+        });
+
+        // If we're including extra details, add the description.
+        if (extraDetails) {
+            DOM.ce('span', {className: `${baseClass}-description`}, box, DOM.ct(char.description));
+        }
+
+        return box;
+    }
 };

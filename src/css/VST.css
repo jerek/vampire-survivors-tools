@@ -11,7 +11,12 @@
     --vs-blue: #4b4f74;
     --vs-button-border-size: 9;
     --vs-button-border-size-px: 9px;
+    --vs-char-bg-border-size: 5;
+    --vs-char-bg-border-size-px: 5px;
     --vs-shadow: 2px 2px 5px #000;
+    --vs-weapon-frame-size: 42px;
+    --vs-weapon-frame-size-x2: 84px;
+    --vs-weapon-frame-size-x3: 126px;
     --vs-yellow: #fc6;
 
     /* Tool-specific variables */
@@ -177,3 +182,141 @@ body[data-page="index"] .vst-nav {
 
 body[data-page="index"] .vst-nav > .vs-button {min-width: 165px; text-align: center}
 body[data-page="index"] .vst-nav > :not(:first-child) {margin-top: 20px}
+
+/* ************************* */
+/* ***** CHARACTER BOX ***** */
+/* ************************* */
+
+.vs-char-box {
+    color: #fff;
+    cursor: pointer;
+    font-size: 12px;
+    font-weight: bold;
+    height: 96px;
+    margin: 5px;
+    position: relative;
+    width: 96px;
+}
+.vs-char-box:hover:after,
+.vs-char-box:focus-visible:after {
+    /* The selection indicators in the corners. */
+    --border-size: 7;
+    --border-size-px: 12px;
+    --offset: -6px;
+    border: var(--border-size-px) solid transparent;
+    border-image: url(../game-assets/img/UI/selectionSquareActive_01.png) var(--border-size) fill;
+    bottom: var(--offset);
+    content: "";
+    display: block;
+    left: var(--offset);
+    pointer-events: none;
+    position: absolute;
+    right: var(--offset);
+    top: var(--offset);
+}
+.vs-char-box > * {position: absolute}
+.vs-char-box-bg {
+    border: var(--vs-char-bg-border-size-px) solid transparent;
+    border-image: url(../game-assets/img/UI/frame1_c2.png) var(--vs-char-bg-border-size) fill;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+}
+.vs-char-box-name {
+    left: 6px;
+    text-shadow: 1px 1px 1px #8b8b8b;
+    top: 5px;
+    z-index: 1;
+}
+/* At 159px width every character perfectly matches the in-game text, except for Arca, who needs 158px. It's not set to
+ * 158px for everyone because then Smith & Red Death would be wrong. */
+.vs-char-box-description {left: 120px; top: 37px; width: 159px}
+.vs-char-box[data-character="5"] .vs-char-box-description {width: 158px}
+.vs-char-box-image {bottom: 5px; left: 6px}
+.vs-char-box-weapons {
+    align-content: flex-end;
+    bottom: 11px;
+    display: flex;
+    filter: drop-shadow(3px 3px 0 #000);
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    right: 11px;
+    top: 0;
+}
+.vs-char-box-weapons-frame {display: contents}
+.vs-char-box-weapons[data-count="2"] .vs-char-box-weapons-frame .vs-sprite-image {margin: 2px 0 0 2px}
+.vs-char-box.vs-char-box-extra-details .vs-char-box-weapons {
+    bottom: 7px;
+    filter: none;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    left: 70px;
+    right: auto;
+    transform-origin: bottom;
+    width: var(--vs-weapon-frame-size);
+}
+.vs-char-box.vs-char-box-extra-details .vs-char-box-weapons-frame {
+    align-items: center;
+    background: url(../game-assets/img/UI/frameB.png) center / 100% 100%;
+    display: flex;
+    height: var(--vs-weapon-frame-size);
+    justify-content: center;
+    width: var(--vs-weapon-frame-size);
+}
+
+/**
+ * We already have Pugnala who starts with two weapons, so these styles are in preparation of up to 6 starting weapons.
+ */
+.vs-char-box.vs-char-box-extra-details .vs-char-box-weapons[data-count="2"] {
+    transform: scale(.85);
+}
+.vs-char-box.vs-char-box-extra-details .vs-char-box-weapons[data-count="3"],
+.vs-char-box.vs-char-box-extra-details .vs-char-box-weapons[data-count="4"] {
+    left: 40px;
+    transform: scale(.7);
+    width: var(--vs-weapon-frame-size-x2);
+}
+.vs-char-box.vs-char-box-extra-details .vs-char-box-weapons[data-count="5"],
+.vs-char-box.vs-char-box-extra-details .vs-char-box-weapons[data-count="6"] {
+    left: 40px;
+    transform: scale(.58);
+    width: var(--vs-weapon-frame-size-x2);
+}
+.vs-char-box.vs-char-box-extra-details .vs-char-box-weapons[data-count="3"] > :first-child,
+.vs-char-box.vs-char-box-extra-details .vs-char-box-weapons[data-count="5"] > :first-child {
+    /* noinspection CssNonIntegerLengthInPixels */
+    flex: 0 0 42.1px;
+}
+
+/* ****************************** */
+/* ***** BUILDS: CHARACTERS ***** */
+/* ****************************** */
+
+.vst-build-chars {display: flex; flex-wrap: wrap; justify-content: center; padding-bottom: 20px}
+
+/* ====================== */
+/* CHARACTER BOX TOOLTIPS */
+/* ====================== */
+
+.vs-char-box.vst-build-chars-char-tooltip .vs-char-box-bg {
+    border-image: url(../game-assets/img/UI/frame1_c4.png) var(--vs-char-bg-border-size) fill;
+}
+.vs-char-box.vst-build-chars-char-tooltip .vs-char-box-name {text-shadow: 1px 1px 1px #4b4f74}
+.vs-char-box.vst-build-chars-char .vs-char-box.vst-build-chars-char-tooltip {
+    bottom: 100%;
+    display: none;
+    height: 100px;
+    left: 0;
+    margin: 0;
+    pointer-events: none;
+    position: absolute;
+    width: 400px;
+    z-index: 100;
+}
+.vs-char-box.vst-build-chars-char:hover .vs-char-box.vst-build-chars-char-tooltip,
+.vs-char-box.vst-build-chars-char:focus-visible .vs-char-box.vst-build-chars-char-tooltip {
+    display: block;
+}
