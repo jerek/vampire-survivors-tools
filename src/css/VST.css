@@ -151,7 +151,7 @@ footer a:hover {color: var(--vs-yellow)}
     border: 15px solid transparent;
     border-image: url(../game-assets/img/UI/frame5_c4.png) 15 fill;
     bottom: var(--border-offset);
-    content: '';
+    content: "";
     display: block;
     left: var(--border-offset);
     position: absolute;
