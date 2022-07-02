@@ -1,8 +1,18 @@
 /**
- * This is the base class-like, to which all the others attach, for namespacing and a clean global state. It also
- * handles low level tool initialization functionality.
+ * This is the base class-like, which serves these porpoises 🐬:
+ * - The base class to which all the others attach, for namespacing and a clean global state.
+ * - Handles low level tool initialization registration for some classes.
+ * - Contains logging functions, so that logging uses consistent formats, and logging commands intended for production
+ *   are distinguishable from temporary console calls.
  */
 window.VST = new function () {
+    // ********************* //
+    // ***** CONSTANTS ***** //
+    // ********************* //
+
+    /** @type {string} Text shown before all console messages on production. */
+    const CONSOLE_MESSAGE_PREFIX = '[VST]';
+
     // ********************* //
     // ***** VARIABLES ***** //
     // ********************* //
@@ -16,6 +26,59 @@ window.VST = new function () {
     // ********************* //
     // ***** FUNCTIONS ***** //
     // ********************* //
+
+    // ======= //
+    // LOGGING //  Using these functions indicates that the calling code is MEANT to log to the console on production.
+    // ======= //
+
+    /**
+     * Log a console debug message.
+     *
+     * @param {*} message
+     */
+    this.debug = function (message) {
+        log('debug', arguments);
+    };
+
+    /**
+     * Log a console error message.
+     *
+     * @param {*} message
+     */
+    this.error = function (message) {
+        log('error', arguments);
+    };
+
+    /**
+     * Log a console info message.
+     *
+     * @param {*} message
+     */
+    this.info = function (message) {
+        log('info', arguments);
+    };
+
+    /**
+     * Log a console log message.
+     *
+     * @param {*} message
+     */
+    this.log = function (message) {
+        log('log', arguments);
+    };
+
+    /**
+     * Log a console warn message.
+     *
+     * @param {*} message
+     */
+    this.warn = function (message) {
+        log('warn', arguments);
+    };
+
+    // ======= //
+    // GENERAL //
+    // ======= //
 
     // ------ //
     // PUBLIC //
@@ -41,6 +104,19 @@ window.VST = new function () {
 
         // Set up the page.
         VST.Page.init();
+    }
+
+    /**
+     * Logs a message to the console with the given function and arguments.
+     *
+     * @param {string}     func
+     * @param {IArguments} args
+     */
+    function log(func, args) {
+        console[func].apply(
+            console[func],
+            [CONSOLE_MESSAGE_PREFIX].concat(Array.prototype.slice.call(args)),
+        );
     }
 
     // ************************** //
