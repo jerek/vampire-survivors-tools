@@ -182,14 +182,14 @@ VST.Page = new function () {
      *
      * @return {HTMLDivElement}
      */
-    this.getContainer = function () {
+    this.getContainer = () => {
         return my.elements.container;
     };
 
     /**
      * Sets up the tool's elements.
      */
-    this.init = function () {
+    this.init = () => {
         my.elements.pageHeading = DOM.ce('h1', undefined, document.body);
 
         let wrapper = DOM.ce('div', {className: 'vst'}, document.body);

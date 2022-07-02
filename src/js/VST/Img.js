@@ -360,7 +360,7 @@ VST.Img = new function () {
      *
      * @return {VsSpriteName[]}
      */
-    this.getSpriteNames = function () {
+    this.getSpriteNames = () => {
         return [
             'Angel',
             'Arcana',
