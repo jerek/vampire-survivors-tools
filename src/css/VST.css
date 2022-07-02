@@ -307,6 +307,7 @@ body[data-page="index"] .vst-nav > :not(:first-child) {margin-top: 20px}
 .vs-char-box.vst-build-chars-char-tooltip .vs-char-box-name {text-shadow: 1px 1px 1px #4b4f74}
 .vs-char-box.vst-build-chars-char .vs-char-box.vst-build-chars-char-tooltip {
     bottom: 100%;
+    cursor: default;
     display: none;
     height: 100px;
     left: 0;
