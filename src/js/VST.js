@@ -31,6 +31,10 @@ window.VST = new function () {
     // LOGGING //  Using these functions indicates that the calling code is MEANT to log to the console on production.
     // ======= //
 
+    // ------ //
+    // PUBLIC //
+    // ------ //
+
     /**
      * Log a console debug message.
      *
@@ -76,6 +80,23 @@ window.VST = new function () {
         log('warn', arguments);
     };
 
+    // ------- //
+    // PRIVATE //
+    // ------- //
+
+    /**
+     * Logs a message to the console with the given function and arguments.
+     *
+     * @param {string}     func
+     * @param {IArguments} args
+     */
+    function log(func, args) {
+        console[func].apply(
+            console[func],
+            [CONSOLE_MESSAGE_PREFIX].concat(Array.prototype.slice.call(args)),
+        );
+    }
+
     // ======= //
     // GENERAL //
     // ======= //
@@ -104,19 +125,6 @@ window.VST = new function () {
 
         // Set up the page.
         VST.Page.init();
-    }
-
-    /**
-     * Logs a message to the console with the given function and arguments.
-     *
-     * @param {string}     func
-     * @param {IArguments} args
-     */
-    function log(func, args) {
-        console[func].apply(
-            console[func],
-            [CONSOLE_MESSAGE_PREFIX].concat(Array.prototype.slice.call(args)),
-        );
     }
 
     // ************************** //
