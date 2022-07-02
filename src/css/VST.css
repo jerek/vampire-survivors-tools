@@ -291,11 +291,26 @@ body[data-page="index"] .vst-nav > :not(:first-child) {margin-top: 20px}
     flex: 0 0 42.1px;
 }
 
+/* ****************** */
+/* ***** BUILDS ***** */
+/* ****************** */
+
+/* Hide section headings when their data has been selected. */
+body[data-page="build"] .vst-container > section[data-selected="true"] > h2:first-child {
+    display: none;
+}
+
 /* ****************************** */
 /* ***** BUILDS: CHARACTERS ***** */
 /* ****************************** */
 
 .vst-build-chars {display: flex; flex-wrap: wrap; justify-content: center; padding-bottom: 20px}
+body[data-page="build"] section[data-selected="true"] .vst-build-chars .vs-char-box {
+    display: none;
+}
+body[data-page="build"] section[data-selected="true"] .vst-build-chars .vs-char-box[data-selected="true"] {
+    display: block;
+}
 
 /* ====================== */
 /* CHARACTER BOX TOOLTIPS */

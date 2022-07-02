@@ -49,6 +49,9 @@ VST.Build = new function () {
     // PRIVATE //
     // ------- //
 
+    /** @type {string} The base HTML class for the character selection area. */
+    const CHAR_SELECTION_CLASS = 'vst-build-chars-char';
+
     /** @type {Build} The default build state when initially loading or resetting the tool. */
     const EMPTY_BUILD = {
         arcanas: [],
@@ -79,6 +82,9 @@ VST.Build = new function () {
 
             /** @type {HTMLDivElement} The element containing the list of characters. */
             characters: undefined,
+
+            /** @type {HTMLDivElement} The element containing the character selection area. */
+            charactersWrapper: undefined,
 
             /** @type {HTMLDivElement} The element containing the list of passive items. */
             passiveItems: undefined,
@@ -112,6 +118,8 @@ VST.Build = new function () {
      * Sets up the main tool.
      */
     this.init = () => {
+        renderCharacterSelection();
+
         // Initializing hash support will also do an initial read of the hash to load a build.
         Hash.init();
     };
@@ -125,11 +133,36 @@ VST.Build = new function () {
         VST.debug('Setting build:', build);
         build = Util.copyProperties({}, build);
         my.build = build;
+
+        setCharacter(build.character, true);
     };
 
     // ------- //
     // PRIVATE //
     // ------- //
+
+    /**
+     * Displays the character selection options in the main container.
+     */
+    function renderCharacterSelection() {
+        let container = Page.getContainer();
+
+        my.elements.charactersWrapper = DOM.ce('section', {dataset: {section: 'characters'}}, container);
+
+        DOM.ce('h2', undefined, my.elements.charactersWrapper, DOM.ct('Character Selection'));
+
+        my.elements.characters = DOM.ce('div', {className: 'vst-build-chars'}, my.elements.charactersWrapper);
+        Data.getCharacterIds().forEach(charId => {
+            // noinspection JSValidateTypes Realistically, this can't actually return undefined.
+            /** @type {CharacterData} */
+            let character = Data.getCharacter(charId);
+
+            let frame = renderCharacterBox(character, false, 'a', CHAR_SELECTION_CLASS, my.elements.characters);
+            frame.href = 'javascript:';
+            frame.addEventListener('click', setCharacter.bind(null, charId));
+            renderCharacterBox(character, true, 'span', `${CHAR_SELECTION_CLASS}-tooltip`, frame);
+        });
+    }
 
     /**
      * Appends a character display box to the given parent element.
@@ -186,5 +219,37 @@ VST.Build = new function () {
         }
 
         return box;
+    }
+
+    /**
+     * Set the given character's ID as the current character.
+     *
+     * @param {number}  characterId
+     * @param {boolean} [fromBuild] Whether this is being set due to loading a build, and therefore don't set weapons.
+     */
+    function setCharacter(characterId, fromBuild) {
+        let char = Data.getCharacter(characterId);
+        if (!char) {
+            VST.error('Could not set requested character.', characterId);
+
+            return;
+        }
+
+        my.build.character = characterId;
+
+        my.elements.charactersWrapper.dataset.selected = 'true';
+
+        // Update the selected character.
+        my.elements.characters.querySelectorAll(':scope > .vs-char-box[data-selected="true"]')
+            .forEach(char => delete char.dataset.selected);
+        my.elements.characters.querySelector(':scope > .vs-char-box[data-character="' + characterId + '"]')
+            .dataset.selected = 'true';
+
+        // TODO: Uncomment this once weapons are supported.
+        // if (!fromBuild) {
+        //     char.weaponIds.forEach(weaponId => setWeapon(weaponId));
+        // }
+
+        Hash.write();
     }
 };
