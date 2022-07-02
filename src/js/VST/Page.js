@@ -186,6 +186,13 @@ VST.Page = new function () {
     // ------ //
 
     /**
+     * Returns the current page's ID.
+     *
+     * @return {PageId}
+     */
+    this.get = () => my.currentPage.page;
+
+    /**
      * Returns the main element containing the tool's interactive elements.
      *
      * @return {HTMLDivElement}

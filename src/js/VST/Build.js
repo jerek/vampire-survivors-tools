@@ -5,6 +5,7 @@ VST.Build = new function () {
     // We can alias any class-like here, since this is loaded last.
     const Data = VST.Data;
     const DOM = VST.DOM;
+    const Hash = VST.Hash;
     const Img = VST.Img;
     const Page = VST.Page;
     const Util = VST.Util;
@@ -31,8 +32,22 @@ VST.Build = new function () {
     // ***** CONSTANTS ***** //
     // ********************* //
 
+    // ------ //
+    // PUBLIC //
+    // ------ //
+
     /** @type {number} The maximum number of arcanas that a build can contain. */
-    const ARCANAS_MAX = 3;
+    this.ARCANAS_MAX = 3;
+
+    /** @type {number} The maximum number of standard passive items that a build can contain. */
+    this.PASSIVE_ITEMS_MAX = 6;
+
+    /** @type {number} The maximum number of weapons that a build can contain. */
+    this.WEAPONS_MAX = 6;
+
+    // ------- //
+    // PRIVATE //
+    // ------- //
 
     /** @type {Build} The default build state when initially loading or resetting the tool. */
     const EMPTY_BUILD = {
@@ -47,12 +62,6 @@ VST.Build = new function () {
 
     /** @type {number} The scaling size of the character and weapon images in the standard character boxes. */
     const IMAGE_SCALE_CHAR_BOX = 1.72;
-
-    /** @type {number} The maximum number of standard passive items that a build can contain. */
-    const PASSIVE_ITEMS_MAX = 6;
-
-    /** @type {number} The maximum number of weapons that a build can contain. */
-    const WEAPONS_MAX = 6;
 
     // ********************* //
     // ***** VARIABLES ***** //
@@ -91,9 +100,31 @@ VST.Build = new function () {
     // ------ //
 
     /**
+     * Returns the current build.
+     *
+     * @return {Build}
+     */
+    this.getBuild = () => {
+        return Util.copyProperties({}, my.build);
+    };
+
+    /**
      * Sets up the main tool.
      */
     this.init = () => {
+        // Initializing hash support will also do an initial read of the hash to load a build.
+        Hash.init();
+    };
+
+    /**
+     * Applies the given build to the tool.
+     *
+     * @param {Build}  build
+     */
+    this.set = function (build) {
+        VST.debug('Setting build:', build);
+        build = Util.copyProperties({}, build);
+        my.build = build;
     };
 
     // ------- //
