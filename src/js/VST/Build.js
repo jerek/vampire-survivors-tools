@@ -90,6 +90,12 @@ VST.Build = new function () {
     // PUBLIC //
     // ------ //
 
+    /**
+     * Sets up the main tool.
+     */
+    this.init = () => {
+    };
+
     // ------- //
     // PRIVATE //
     // ------- //

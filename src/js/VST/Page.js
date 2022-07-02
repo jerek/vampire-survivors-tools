@@ -47,6 +47,7 @@ VST.Page = new function () {
     // Constants to identify the different page layouts.
     /** @type {PageId} */ this.PAGE_GAME_IMAGES = 'game-images';
     /** @type {PageId} */ this.PAGE_GAME_IMAGES_ANIMATED = 'game-images-animated';
+    /** @type {PageId} */ this.PAGE_BUILD_TOOL = 'build';
     /** @type {PageId} */ this.PAGE_ERROR = 'error';
     /** @type {PageId} */ this.PAGE_INDEX = 'index';
 
@@ -56,6 +57,7 @@ VST.Page = new function () {
 
     /** @type {HomepageNavigation[]} The page links displayed on the homepage. */
     const HOMEPAGE_NAVIGATION = [
+        {page: this.PAGE_BUILD_TOOL, buttonText: 'Create a Build', buttonColor: DOM.BUTTON_GREEN},
         {page: this.PAGE_GAME_IMAGES, buttonText: 'Game Images'},
         {page: this.PAGE_GAME_IMAGES_ANIMATED, buttonText: 'Animated Images'},
     ];
@@ -65,6 +67,12 @@ VST.Page = new function () {
 
     /** @type {Object<PageId, PageConfig>} A map of page IDs to their configurations. */
     const PAGES = {
+        [this.PAGE_BUILD_TOOL]: {
+            id: this.PAGE_BUILD_TOOL,
+            title: 'Vampire Survivors Build Tool',
+            url: 'build',
+            display: () => VST.Build.init(),
+        },
         [this.PAGE_ERROR]: {
             id: this.PAGE_ERROR,
             title: 'Error',
