@@ -45,12 +45,31 @@ window.VST = new function () {
     };
 
     /**
-     * Log a console error message.
+     * Log a console error message, and track it in Google Analytics.
      *
      * @param {*} message
      */
     this.error = function (message) {
         log('error', arguments);
+
+        if (VST.Analytics) {
+            if (!message) {
+                console.error('The error message was empty, and thus will not be logged.');
+
+                return;
+            }
+
+            // Log errors in Google Analytics, so they can be reviewed.
+            let args = Array.prototype.slice.call(arguments);
+            let params = {
+                message: args.shift(),
+            };
+            for (let i = 0, len = args.length; i < len; i++) {
+                // TODO: To test what GA4 accepts, these params are using spaces, special chars, and mixed casing.
+                params['Error Param #' + (i + 1)] = args[i];
+            }
+            VST.Analytics.trackEvent('Error', params);
+        }
     };
 
     /**
