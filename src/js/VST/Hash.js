@@ -440,11 +440,9 @@ VST.Hash = new function () {
             }
 
             // If this value is increased by orders of magnitude, take them into account.
-            let currentValue = 0;
-            let oomCount = 0;
+            let increaseValue = 0;
             while (hashPart === DELIMITER_ORDER_OF_MAGNITUDE) {
-                oomCount++;
-                currentValue += maxValue;
+                increaseValue += maxValue;
                 hashPart = hashParts.shift();
             }
 
@@ -456,7 +454,7 @@ VST.Hash = new function () {
             }
 
             // Add the value to the list of values.
-            values.push(currentValue + value);
+            values.push(value + increaseValue);
         }
 
         VST.debug('Deserialized hash:', values);
