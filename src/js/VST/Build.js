@@ -252,20 +252,23 @@ VST.Build = new function () {
     /**
      * Set the given character's ID as the current character.
      *
-     * @param {number}  characterId
-     * @param {boolean} [fromBuild] Whether this is being set due to loading a build, and therefore don't set weapons.
+     * @param {number|null} characterId
+     * @param {boolean}     [fromBuild] Whether this is from a build, and therefore weapons should not be modified.
      */
     function setCharacter(characterId, fromBuild) {
-        let char = Data.getCharacter(characterId);
-        if (!char) {
-            VST.error('Could not set requested character.', characterId);
+        let character;
+        if (characterId !== null) {
+            character = Data.getCharacter(characterId);
+            if (!character) {
+                VST.error('Could not set requested character.', characterId);
 
-            return;
+                return;
+            }
         }
 
         my.build.character = characterId;
 
-        my.elements.charactersWrapper.dataset.selected = 'true';
+        my.elements.charactersWrapper.dataset.selected = JSON.stringify(!!characterId);
 
         // Update the selected character.
         my.elements.characters.querySelectorAll(':scope > .vs-char-box[data-selected="true"]')
