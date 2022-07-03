@@ -58,9 +58,6 @@ VST.Build = new function () {
     /** @type {CharDisplayMode} A rectangular box with a blue BG. Contains only the full name and description. */
     const CHAR_DISPLAY_MODE_TOOLTIP = 'tooltip';
 
-    /** @type {string} The base HTML class for the character selection area. */
-    const CHAR_SELECTION_CLASS = 'vst-build-chars-char';
-
     /** @type {Build} The default build state when initially loading or resetting the tool. */
     const EMPTY_BUILD = {
         arcanas: [],
@@ -170,7 +167,6 @@ VST.Build = new function () {
                 character,
                 CHAR_DISPLAY_MODE_DEFAULT,
                 'a',
-                CHAR_SELECTION_CLASS,
                 my.elements.characters,
             );
             charBox.href = 'javascript:';
@@ -180,7 +176,6 @@ VST.Build = new function () {
                 character,
                 CHAR_DISPLAY_MODE_TOOLTIP,
                 'span',
-                `${CHAR_SELECTION_CLASS}-tooltip`,
                 charBox,
             );
         });
@@ -192,17 +187,16 @@ VST.Build = new function () {
      * @param {CharacterData}   char
      * @param {CharDisplayMode} mode          What style of display this character box should be.
      * @param {string}          tagName       The tag name to use for the element.
-     * @param {string}          usageClass    An HTML class to identify this usage of the character box styles.
      * @param {Node}            appendTo
      * @return {HTMLAnchorElement}
      */
-    function renderCharacterBox(char, mode, tagName, usageClass, appendTo) {
+    function renderCharacterBox(char, mode, tagName, appendTo) {
         // By default, the styles are based only on this class and its extensions.
         let baseClass = 'vs-char-box';
 
         // The main box element.
         let box = DOM.ce(tagName, {
-            className: `${baseClass} ${usageClass}`,
+            className: baseClass,
             dataset: {
                 character: char.id,
                 hasDescription: !!char.description,
