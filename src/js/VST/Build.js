@@ -184,13 +184,18 @@ VST.Build = new function () {
     /**
      * Appends a character display box to the given parent element.
      *
+     * If both the buttonText and buttonAction optional params are supplied, a blue button will be added to the
+     * bottom-right of the character box. The button may still not be visible, depending on the mode.
+     *
      * @param {CharacterData}   char
      * @param {CharDisplayMode} mode          What style of display this character box should be.
      * @param {string}          tagName       The tag name to use for the element.
      * @param {Node}            appendTo
+     * @param {string}          [buttonText]   The text to display on the optional button.
+     * @param {function}        [buttonAction] The function to execute when clicking the optional button.
      * @return {HTMLAnchorElement}
      */
-    function renderCharacterBox(char, mode, tagName, appendTo) {
+    function renderCharacterBox(char, mode, tagName, appendTo, buttonText, buttonAction) {
         // By default, the styles are based only on this class and its extensions.
         let baseClass = 'vs-char-box';
 
@@ -234,6 +239,11 @@ VST.Build = new function () {
         // The description, which is only visible in some modes.
         if (char.description) {
             DOM.ce('span', {className: `${baseClass}-description`}, box, DOM.ct(char.description));
+        }
+
+        if (buttonText && buttonAction) {
+            let button = DOM.createButton(buttonText, buttonAction, box, DOM.BUTTON_BLUE);
+            button.classList.add('vs-char-box-button');
         }
 
         return box;

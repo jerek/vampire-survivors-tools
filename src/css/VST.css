@@ -248,6 +248,7 @@ a.vs-char-box:focus-visible:after {
 }
 .vs-char-box-weapons-frame {display: contents}
 .vs-char-box-weapons[data-count="2"] .vs-char-box-weapons-frame .vs-sprite-image {margin: 2px 0 0 2px}
+.vs-char-box-button {bottom: 7px; position: absolute; right: 7px}
 
 /* ============= */
 /* MODE: DEFAULT */
