@@ -303,7 +303,7 @@ a.vs-char-box:focus-visible:after {
     /* noinspection CssNonIntegerLengthInPixels */
     flex: 0 0 42.1px;
 }
-.vs-char-box[data-mode="details"] > .vs-button {font-weight: normal}
+.vs-char-box[data-mode="details"] > .vs-button {font-size: 16px; font-weight: normal; text-transform: none}
 
 /* ============= */
 /* MODE: TOOLTIP */
