@@ -16,14 +16,14 @@ VST.Build = new function () {
 
     /**
      * @typedef {Object} Build All data describing a build.
-     * @property {BuildIdList}      arcanas             A list of the selected arcanas' IDs.
-     * @property {number|undefined} character           The ID of the currently selected character.
-     * @property {BuildIdList}      passiveItems        A list of the selected passive items' IDs.
-     * @property {BuildIdList}      passiveItemsBackup  A list of the selected backup passive items' IDs, which will
-     *                                                  automatically replace passives based on what's on the stage.
-     * @property {number|undefined} stage               The ID of the currently selected stage.
-     * @property {boolean}          stageIncludedInHash Whether to include the stage in the hash.
-     * @property {BuildIdList}      weapons             A list of the selected weapons' IDs.
+     * @property {BuildIdList} arcanas             A list of the selected arcanas' IDs.
+     * @property {number|null} character           The ID of the currently selected character.
+     * @property {BuildIdList} passiveItems        A list of the selected passive items' IDs.
+     * @property {BuildIdList} passiveItemsBackup  A list of the selected backup passive items' IDs, which will
+     *                                             automatically replace passives based on what's on the stage.
+     * @property {number|null} stage               The ID of the currently selected stage.
+     * @property {boolean}     stageIncludedInHash Whether to include the stage in the hash.
+     * @property {BuildIdList} weapons             A list of the selected weapons' IDs.
      */
 
     /** @typedef {number[]} BuildIdList A sparse ID list. Indexes go to the entity's max - 1, and there can be gaps. */
@@ -61,10 +61,10 @@ VST.Build = new function () {
     /** @type {Build} The default build state when initially loading or resetting the tool. */
     const EMPTY_BUILD = {
         arcanas: [],
-        character: undefined,
+        character: null,
         passiveItems: [],
         passiveItemsBackup: [],
-        stage: undefined,
+        stage: null,
         stageIncludedInHash: true,
         weapons: [],
     };

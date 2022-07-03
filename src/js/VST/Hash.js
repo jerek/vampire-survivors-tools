@@ -177,8 +177,8 @@ VST.Hash = new function () {
         //           //
 
         VST.debug('Checking the hash for a character.');
-        let characterId = values.shift();
-        if (!Data.getCharacter(characterId)) {
+        let characterId = values.shift() || null;
+        if (characterId && !Data.getCharacter(characterId)) {
             invalid('character', characterId);
 
             return;
@@ -279,7 +279,7 @@ VST.Hash = new function () {
         //       //
 
         VST.debug('Checking the hash for a stage ID.');
-        let stageId = values.shift() || undefined;
+        let stageId = values.shift() || null;
 
         //                        //
         // Stage Included in Hash //
