@@ -133,7 +133,7 @@ VST.Build = new function () {
     /**
      * Applies the given build to the tool.
      *
-     * @param {Build}  build
+     * @param {Build} build
      */
     this.set = function (build) {
         VST.debug('Setting build:', build);

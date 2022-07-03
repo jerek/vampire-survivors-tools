@@ -140,7 +140,7 @@ VST.Hash = new function () {
     /**
      * Returns the build represented by the given hash.
      *
-     * @param {string}  hash
+     * @param {string} hash
      * @return {Build|undefined}
      */
     function generateBuildFromHash(hash) {
@@ -302,7 +302,7 @@ VST.Hash = new function () {
     /**
      * Returns a hash representing the given build.
      *
-     * @param {Build}  build
+     * @param {Build} build
      * @return {string}
      */
     function generateHashFromBuild(build) {
@@ -383,7 +383,7 @@ VST.Hash = new function () {
     /**
      * Returns the string form of the hash from the given numeric values.
      *
-     * @param {number[]}  values
+     * @param {number[]} values
      * @return {string}
      * @throws {Error} Throws when passed unsupported values.
      */
@@ -418,7 +418,7 @@ VST.Hash = new function () {
     /**
      * Returns the numeric values from the given hash string.
      *
-     * @param {string}  hash
+     * @param {string} hash
      * @return {number[]}
      * @throws {Error} Throws when the hash includes invalid characters.
      */
