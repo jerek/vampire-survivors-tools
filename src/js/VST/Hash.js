@@ -280,6 +280,11 @@ VST.Hash = new function () {
 
         VST.debug('Checking the hash for a stage ID.');
         let stageId = values.shift() || null;
+        if (stageId && !Data.getStage(stageId)) {
+            invalid('stage', stageId);
+
+            return;
+        }
 
         //                        //
         // Stage Included in Hash //
