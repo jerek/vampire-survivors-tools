@@ -193,7 +193,6 @@ body[data-page="index"] .vst-nav > :not(:first-child) {margin-top: 20px}
     font-size: 12px;
     font-weight: bold;
     height: 96px;
-    margin: 5px;
     position: relative;
     width: 96px;
 }
@@ -315,7 +314,6 @@ a.vs-char-box:focus-visible:after {
     display: none;
     height: auto;
     left: 0;
-    margin: 0;
     pointer-events: none;
     position: absolute;
     width: auto;
@@ -351,6 +349,7 @@ body[data-page="build"] .vst-container > section[data-selected="true"] > h2:firs
 /* ****************************** */
 
 .vst-build-chars {display: flex; flex-wrap: wrap; justify-content: center; padding-bottom: 20px}
+body[data-page="build"] section[data-section="characters"] .vs-char-box[data-mode="default"] {margin: 5px}
 body[data-page="build"] section[data-selected="true"] .vst-build-chars .vs-char-box {
     display: none;
 }
