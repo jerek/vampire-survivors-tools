@@ -1,7 +1,7 @@
 /**
- * Contains game data and provides functions for retrieving it.
+ * Functions and classes for managing Vampire Survivors entities.
  */
-VST.Data = new function () {
+VST.VS = new function () {
     const Img = VST.Img;
     const Util = VST.Util;
 

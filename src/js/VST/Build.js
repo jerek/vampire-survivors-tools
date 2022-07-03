@@ -3,12 +3,12 @@
  */
 VST.Build = new function () {
     // We can alias any class-like here, since this is loaded last.
-    const Data = VST.Data;
     const DOM = VST.DOM;
     const Hash = VST.Hash;
     const Img = VST.Img;
     const Page = VST.Page;
     const Util = VST.Util;
+    const VS = VST.VS;
 
     // *********************** //
     // ***** DEFINITIONS ***** //
@@ -161,10 +161,10 @@ VST.Build = new function () {
         DOM.ce('h2', undefined, my.elements.charactersWrapper, DOM.ct('Character Selection'));
 
         my.elements.characters = DOM.ce('div', {className: 'vst-build-chars'}, my.elements.charactersWrapper);
-        Data.getCharacterIds().forEach(charId => {
+        VS.getCharacterIds().forEach(charId => {
             // noinspection JSValidateTypes Realistically, this can't actually return undefined.
             /** @type {CharacterData} */
-            let character = Data.getCharacter(charId);
+            let character = VS.getCharacter(charId);
 
             let charBox = renderCharacterBox(
                 character,
@@ -236,7 +236,7 @@ VST.Build = new function () {
         // The weapons the character can equip.
         let weapons = DOM.ce('span', {className: `${baseClass}-weapons`, dataset: {count: char.weaponIds.length}}, box);
         char.weaponIds.forEach(weaponId => {
-            let weapon = Data.getWeapon(weaponId);
+            let weapon = VS.getWeapon(weaponId);
             let weaponFrame = DOM.ce('span', {className: `${baseClass}-weapons-frame`}, weapons);
             Img.createImage(Img.ITEMS, weapon.frameName, weaponFrame, IMAGE_SCALE_CHAR_BOX);
         });
@@ -263,7 +263,7 @@ VST.Build = new function () {
     function setCharacter(characterId, fromBuild) {
         let character;
         if (characterId !== null) {
-            character = Data.getCharacter(characterId);
+            character = VS.getCharacter(characterId);
             if (!character) {
                 VST.error('Could not set requested character.', characterId);
 
