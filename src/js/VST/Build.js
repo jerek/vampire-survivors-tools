@@ -166,22 +166,22 @@ VST.Build = new function () {
             /** @type {CharacterData} */
             let character = Data.getCharacter(charId);
 
-            let frame = renderCharacterBox(
+            let charBox = renderCharacterBox(
                 character,
                 CHAR_DISPLAY_MODE_DEFAULT,
                 'a',
                 CHAR_SELECTION_CLASS,
                 my.elements.characters,
             );
-            frame.href = 'javascript:';
-            frame.addEventListener('click', setCharacter.bind(null, charId));
+            charBox.href = 'javascript:';
+            charBox.addEventListener('click', setCharacter.bind(null, charId));
 
             renderCharacterBox(
                 character,
                 CHAR_DISPLAY_MODE_TOOLTIP,
                 'span',
                 `${CHAR_SELECTION_CLASS}-tooltip`,
-                frame,
+                charBox,
             );
         });
     }
