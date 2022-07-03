@@ -261,6 +261,7 @@ a.vs-char-box:focus-visible:after {
 /* MODE: DETAILS */
 /* ============= */
 
+.vs-char-box[data-mode="details"] {height: 100px; width: 380px}
 .vs-char-box[data-mode="details"] > .vs-char-box-weapons {
     bottom: 7px;
     filter: none;
