@@ -352,10 +352,9 @@ body[data-page="build"] .vst-container > section[data-selected="true"] > h2:firs
 /* ****************************** */
 
 .vst-build-chars {display: flex; flex-wrap: wrap; justify-content: center; padding-bottom: 20px}
+body[data-page="build"] section {margin: 10px 0}
 body[data-page="build"] section[data-section="characters"] .vs-char-box[data-mode="default"] {margin: 5px}
-body[data-page="build"] section[data-selected="true"] .vst-build-chars .vs-char-box {
-    display: none;
-}
-body[data-page="build"] section[data-selected="true"] .vst-build-chars .vs-char-box[data-selected="true"] {
-    display: block;
-}
+body[data-page="build"] section[data-section="characters"] .vst-build-char {display: none}
+body[data-page="build"] section[data-section="characters"] .vst-build-char .vs-char-box {margin: 0 auto}
+body[data-page="build"] section[data-section="characters"][data-selected="true"] .vst-build-chars {display: none}
+body[data-page="build"] section[data-section="characters"][data-selected="true"] .vst-build-char {display: block}

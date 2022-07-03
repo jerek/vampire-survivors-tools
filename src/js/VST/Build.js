@@ -86,6 +86,9 @@ VST.Build = new function () {
             /** @type {HTMLDivElement} The element containing the list of arcanas. */
             arcanas: undefined,
 
+            /** @type {HTMLDivElement} The element containing the currently selected character. */
+            character: undefined,
+
             /** @type {HTMLDivElement} The element containing the list of characters. */
             characters: undefined,
 
@@ -179,6 +182,8 @@ VST.Build = new function () {
                 charBox,
             );
         });
+
+        my.elements.character = DOM.ce('div', {className: 'vst-build-char'}, my.elements.charactersWrapper);
     }
 
     /**
@@ -271,10 +276,17 @@ VST.Build = new function () {
         my.elements.charactersWrapper.dataset.selected = JSON.stringify(!!characterId);
 
         // Update the selected character.
-        my.elements.characters.querySelectorAll(':scope > .vs-char-box[data-selected="true"]')
-            .forEach(char => delete char.dataset.selected);
-        my.elements.characters.querySelector(':scope > .vs-char-box[data-character="' + characterId + '"]')
-            .dataset.selected = 'true';
+        my.elements.character.innerHTML = '';
+        if (character) {
+            renderCharacterBox(
+                character,
+                CHAR_DISPLAY_MODE_DETAILS,
+                'span',
+                my.elements.character,
+                'Change',
+                () => setCharacter(null),
+            );
+        }
 
         // TODO: Uncomment this once weapons are supported.
         // if (!fromBuild) {
