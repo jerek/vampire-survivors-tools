@@ -189,6 +189,7 @@ body[data-page="index"] .vst-nav > :not(:first-child) {margin-top: 20px}
 
 .vs-char-box {
     color: #fff;
+    display: block;
     font-size: 12px;
     font-weight: bold;
     height: 96px;
