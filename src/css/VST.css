@@ -189,7 +189,6 @@ body[data-page="index"] .vst-nav > :not(:first-child) {margin-top: 20px}
 
 .vs-char-box {
     color: #fff;
-    cursor: pointer;
     font-size: 12px;
     font-weight: bold;
     height: 96px;
@@ -197,8 +196,9 @@ body[data-page="index"] .vst-nav > :not(:first-child) {margin-top: 20px}
     position: relative;
     width: 96px;
 }
-.vs-char-box:hover:after,
-.vs-char-box:focus-visible:after {
+a.vs-char-box {cursor: pointer}
+a.vs-char-box:hover:after,
+a.vs-char-box:focus-visible:after {
     /* The selection indicators in the corners. */
     --border-size: 7;
     --border-size-px: 12px;
