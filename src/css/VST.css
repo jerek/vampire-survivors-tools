@@ -247,7 +247,19 @@ body[data-page="index"] .vst-nav > :not(:first-child) {margin-top: 20px}
 }
 .vs-char-box-weapons-frame {display: contents}
 .vs-char-box-weapons[data-count="2"] .vs-char-box-weapons-frame .vs-sprite-image {margin: 2px 0 0 2px}
-.vs-char-box.vs-char-box-extra-details .vs-char-box-weapons {
+
+/* ============= */
+/* MODE: DEFAULT */
+/* ============= */
+
+.vs-char-box[data-mode="default"] > .vs-char-box-name span {display: none}
+.vs-char-box[data-mode="default"] > .vs-char-box-description {display: none}
+
+/* ============= */
+/* MODE: DETAILS */
+/* ============= */
+
+.vs-char-box[data-mode="details"] > .vs-char-box-weapons {
     bottom: 7px;
     filter: none;
     flex-direction: row;
@@ -258,7 +270,7 @@ body[data-page="index"] .vst-nav > :not(:first-child) {margin-top: 20px}
     transform-origin: bottom;
     width: var(--vs-weapon-frame-size);
 }
-.vs-char-box.vs-char-box-extra-details .vs-char-box-weapons-frame {
+.vs-char-box[data-mode="details"] > .vs-char-box-weapons .vs-char-box-weapons-frame {
     align-items: center;
     background: url(../game-assets/img/UI/frameB.png) center / 100% 100%;
     display: flex;
@@ -270,25 +282,57 @@ body[data-page="index"] .vst-nav > :not(:first-child) {margin-top: 20px}
 /**
  * We already have Pugnala who starts with two weapons, so these styles are in preparation of up to 6 starting weapons.
  */
-.vs-char-box.vs-char-box-extra-details .vs-char-box-weapons[data-count="2"] {
+.vs-char-box[data-mode="details"] > .vs-char-box-weapons[data-count="2"] {
     transform: scale(.85);
 }
-.vs-char-box.vs-char-box-extra-details .vs-char-box-weapons[data-count="3"],
-.vs-char-box.vs-char-box-extra-details .vs-char-box-weapons[data-count="4"] {
+.vs-char-box[data-mode="details"] > .vs-char-box-weapons[data-count="3"],
+.vs-char-box[data-mode="details"] > .vs-char-box-weapons[data-count="4"] {
     left: 40px;
     transform: scale(.7);
     width: var(--vs-weapon-frame-size-x2);
 }
-.vs-char-box.vs-char-box-extra-details .vs-char-box-weapons[data-count="5"],
-.vs-char-box.vs-char-box-extra-details .vs-char-box-weapons[data-count="6"] {
+.vs-char-box[data-mode="details"] > .vs-char-box-weapons[data-count="5"],
+.vs-char-box[data-mode="details"] > .vs-char-box-weapons[data-count="6"] {
     left: 40px;
     transform: scale(.58);
     width: var(--vs-weapon-frame-size-x2);
 }
-.vs-char-box.vs-char-box-extra-details .vs-char-box-weapons[data-count="3"] > :first-child,
-.vs-char-box.vs-char-box-extra-details .vs-char-box-weapons[data-count="5"] > :first-child {
+.vs-char-box[data-mode="details"] > .vs-char-box-weapons[data-count="3"] > :first-child,
+.vs-char-box[data-mode="details"] > .vs-char-box-weapons[data-count="5"] > :first-child {
     /* noinspection CssNonIntegerLengthInPixels */
     flex: 0 0 42.1px;
+}
+
+/* ============= */
+/* MODE: TOOLTIP */
+/* ============= */
+
+.vs-char-box[data-mode="tooltip"] {
+    bottom: 100%;
+    cursor: default;
+    display: none;
+    height: auto;
+    left: 0;
+    margin: 0;
+    pointer-events: none;
+    position: absolute;
+    width: auto;
+    z-index: 100;
+}
+.vs-char-box:hover .vs-char-box[data-mode="tooltip"][data-has-description="true"],
+.vs-char-box:focus-visible .vs-char-box[data-mode="tooltip"][data-has-description="true"] {
+    display: block;
+}
+
+.vs-char-box[data-mode="tooltip"] > * {display: none}
+.vs-char-box[data-mode="tooltip"] > .vs-char-box-description {display: block; margin: 7px 8px; position: static}
+.vs-char-box[data-mode="tooltip"] > .vs-char-box-bg {
+    /* TODO: IF this included the name, we'd change the text shadow to this color, to match the BG. Save for later. */
+    /* .vs-char-box[data-mode="tooltip"] > .vs-char-box-name {text-shadow: 1px 1px 1px #4b4f74} */
+
+    border-image: url(../game-assets/img/UI/frame1_c4.png) var(--vs-char-bg-border-size) fill;
+    display: block;
+    z-index: -1;
 }
 
 /* ****************** */
@@ -309,30 +353,5 @@ body[data-page="build"] section[data-selected="true"] .vst-build-chars .vs-char-
     display: none;
 }
 body[data-page="build"] section[data-selected="true"] .vst-build-chars .vs-char-box[data-selected="true"] {
-    display: block;
-}
-
-/* ====================== */
-/* CHARACTER BOX TOOLTIPS */
-/* ====================== */
-
-.vs-char-box.vst-build-chars-char-tooltip .vs-char-box-bg {
-    border-image: url(../game-assets/img/UI/frame1_c4.png) var(--vs-char-bg-border-size) fill;
-}
-.vs-char-box.vst-build-chars-char-tooltip .vs-char-box-name {text-shadow: 1px 1px 1px #4b4f74}
-.vs-char-box.vst-build-chars-char .vs-char-box.vst-build-chars-char-tooltip {
-    bottom: 100%;
-    cursor: default;
-    display: none;
-    height: 100px;
-    left: 0;
-    margin: 0;
-    pointer-events: none;
-    position: absolute;
-    width: 400px;
-    z-index: 100;
-}
-.vs-char-box.vst-build-chars-char:hover .vs-char-box.vst-build-chars-char-tooltip,
-.vs-char-box.vst-build-chars-char:focus-visible .vs-char-box.vst-build-chars-char-tooltip {
     display: block;
 }

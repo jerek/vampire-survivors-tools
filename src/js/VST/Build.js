@@ -28,6 +28,8 @@ VST.Build = new function () {
 
     /** @typedef {number[]} BuildIdList A sparse ID list. Indexes go to the entity's max - 1, and there can be gaps. */
 
+    /** @typedef {string} CharDisplayMode What style of display a character box should be. */
+
     // ********************* //
     // ***** CONSTANTS ***** //
     // ********************* //
@@ -48,6 +50,13 @@ VST.Build = new function () {
     // ------- //
     // PRIVATE //
     // ------- //
+
+    /** @type {CharDisplayMode} The default. A square box with their short name, image, and starting weapons. */
+    const CHAR_DISPLAY_MODE_DEFAULT = 'default';
+    /** @type {CharDisplayMode} Like default, but wider. With full name, description, weapon frames, optional button. */
+    const CHAR_DISPLAY_MODE_DETAILS = 'details';
+    /** @type {CharDisplayMode} A rectangular box with a blue BG. Contains only the full name and description. */
+    const CHAR_DISPLAY_MODE_TOOLTIP = 'tooltip';
 
     /** @type {string} The base HTML class for the character selection area. */
     const CHAR_SELECTION_CLASS = 'vst-build-chars-char';
@@ -157,48 +166,63 @@ VST.Build = new function () {
             /** @type {CharacterData} */
             let character = Data.getCharacter(charId);
 
-            let frame = renderCharacterBox(character, false, 'a', CHAR_SELECTION_CLASS, my.elements.characters);
+            let frame = renderCharacterBox(
+                character,
+                CHAR_DISPLAY_MODE_DEFAULT,
+                'a',
+                CHAR_SELECTION_CLASS,
+                my.elements.characters,
+            );
             frame.href = 'javascript:';
             frame.addEventListener('click', setCharacter.bind(null, charId));
-            renderCharacterBox(character, true, 'span', `${CHAR_SELECTION_CLASS}-tooltip`, frame);
+
+            renderCharacterBox(
+                character,
+                CHAR_DISPLAY_MODE_TOOLTIP,
+                'span',
+                `${CHAR_SELECTION_CLASS}-tooltip`,
+                frame,
+            );
         });
     }
 
     /**
      * Appends a character display box to the given parent element.
      *
-     * @param {CharacterData} char
-     * @param {boolean}       extraDetails  Whether to print the character's full name and description.
-     * @param {string}        tagName       The tag name to use for the element.
-     * @param {string}        usageClass    An HTML class to identify this usage of the character box styles.
-     * @param {Node}          appendTo
+     * @param {CharacterData}   char
+     * @param {CharDisplayMode} mode          What style of display this character box should be.
+     * @param {string}          tagName       The tag name to use for the element.
+     * @param {string}          usageClass    An HTML class to identify this usage of the character box styles.
+     * @param {Node}            appendTo
      * @return {HTMLAnchorElement}
      */
-    function renderCharacterBox(char, extraDetails, tagName, usageClass, appendTo) {
+    function renderCharacterBox(char, mode, tagName, usageClass, appendTo) {
         // By default, the styles are based only on this class and its extensions.
         let baseClass = 'vs-char-box';
 
-        /** @type {string[]} The classes to apply to the main element. The base class has the core styles. */
-        let boxClasses = [baseClass];
-        if (extraDetails) {
-            boxClasses.push(`${baseClass}-extra-details`);
-        }
-        boxClasses.push(usageClass);
-
         // The main box element.
         let box = DOM.ce(tagName, {
-            className: boxClasses.join(' '),
-            dataset: {character: char.id},
+            className: `${baseClass} ${usageClass}`,
+            dataset: {
+                character: char.id,
+                hasDescription: !!char.description,
+                mode: mode,
+            },
         }, appendTo);
 
         // The BG, which is automatically sized to the box.
         DOM.ce('span', {className: `${baseClass}-bg`}, box);
 
-        // The character's shorthand or full name.
-        let name = extraDetails ? [char.prefix, char.name, char.surname] : [char.name];
-        name.filter(Boolean);
-        name = name.join(' ');
-        DOM.ce('span', {className: `${baseClass}-name`}, box, DOM.ct(name));
+        // The character's name. Some modes will only show the base name, without the prefix and surname.
+        let nameClass = `${baseClass}-name`;
+        let name = DOM.ce('span', {className: nameClass}, box);
+        if (char.prefix) {
+            DOM.ce('span', {className: `${nameClass}-prefix`}, name, DOM.ct(char.prefix + ' '))
+        }
+        name.append(DOM.ct(char.name));
+        if (char.surname) {
+            DOM.ce('span', {className: `${nameClass}-surname`}, name, DOM.ct(' ' + char.surname));
+        }
 
         // The default image of the character.
         let sprite = char.spriteAlt || Img.CHARACTERS;
@@ -213,8 +237,8 @@ VST.Build = new function () {
             Img.createImage(Img.ITEMS, weapon.frameName, weaponFrame, IMAGE_SCALE_CHAR_BOX);
         });
 
-        // If we're including extra details, add the description.
-        if (extraDetails) {
+        // The description, which is only visible in some modes.
+        if (char.description) {
             DOM.ce('span', {className: `${baseClass}-description`}, box, DOM.ct(char.description));
         }
 
