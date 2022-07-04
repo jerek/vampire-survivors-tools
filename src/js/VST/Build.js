@@ -165,7 +165,7 @@ VST.Build = new function () {
     function renderCharacterSelection() {
         let section = renderSection('character', 'Character Selection');
 
-        my.elements.characterList = DOM.ce('div', {className: 'vst-build-chars'}, section);
+        my.elements.characterList = DOM.ce('div', {className: 'vst-build-character-list'}, section);
         Character.getIds().forEach(characterId => {
             // noinspection JSValidateTypes Realistically, this can't actually return undefined.
             /** @type {CharacterData} */
@@ -188,7 +188,7 @@ VST.Build = new function () {
             );
         });
 
-        my.elements.selectedCharacter = DOM.ce('div', {className: 'vst-build-char'}, section);
+        my.elements.selectedCharacter = DOM.ce('div', {className: 'vst-build-character'}, section);
     }
 
     /**
