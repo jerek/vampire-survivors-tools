@@ -1,5 +1,8 @@
+// noinspection JSClosureCompilerSyntax EventTarget is implemented in a non-standard way, but it works fine.
 /**
  * The core code for managing the build tool.
+ *
+ * @implements {EventTarget}
  */
 VST.Build = new function () {
     const self = this;
@@ -59,6 +62,9 @@ VST.Build = new function () {
         weapons: [],
     };
 
+    /** @type {string} The event type when the build changes. */
+    const EVENT_CHANGED_BUILD = 'changed-build';
+
     // ********************* //
     // ***** VARIABLES ***** //
     // ********************* //
@@ -115,6 +121,15 @@ VST.Build = new function () {
      */
     this.init = () => {
         renderCharacterSelection();
+
+        if (!self.addEventListener) {
+            let target = new EventTarget();
+            self.addEventListener = target.addEventListener.bind(target);
+            self.dispatchEvent = target.dispatchEvent.bind(target);
+            self.removeEventListener = target.removeEventListener.bind(target);
+
+            this.addEventListener(EVENT_CHANGED_BUILD, self.Hash.write, false);
+        }
 
         // Initializing hash support will also do an initial read of the hash to load a build.
         self.Hash.init();
@@ -212,6 +227,13 @@ VST.Build = new function () {
         //     character.weaponIds.forEach(weaponId => setWeapon(weaponId));
         // }
 
-        self.Hash.write();
+        dispatchChangedBuildEvent();
+    }
+
+    /**
+     * Dispatches an event indicating that the build has changed.
+     */
+    function dispatchChangedBuildEvent() {
+        self.dispatchEvent(new CustomEvent(EVENT_CHANGED_BUILD));
     }
 };
