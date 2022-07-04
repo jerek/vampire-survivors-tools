@@ -6,7 +6,6 @@ VST.Build = new function () {
     const Character = VST.VS.Character;
     const DOM = VST.DOM;
     const Hash = VST.Hash;
-    const Img = VST.Img;
     const Page = VST.Page;
     const Util = VST.Util;
 
@@ -27,8 +26,6 @@ VST.Build = new function () {
      */
 
     /** @typedef {number[]} BuildIdList A sparse ID list. Indexes go to the entity's max - 1, and there can be gaps. */
-
-    /** @typedef {string} CharDisplayMode What style of display a character box should be. */
 
     // ********************* //
     // ***** CONSTANTS ***** //
@@ -51,13 +48,6 @@ VST.Build = new function () {
     // PRIVATE //
     // ------- //
 
-    /** @type {CharDisplayMode} The default. A square box with their short name, image, and starting weapons. */
-    const CHAR_DISPLAY_MODE_DEFAULT = 'default';
-    /** @type {CharDisplayMode} Like default, but wider. With full name, description, weapon frames, optional button. */
-    const CHAR_DISPLAY_MODE_DETAILS = 'details';
-    /** @type {CharDisplayMode} A rectangular box with a blue BG. Contains only the full name and description. */
-    const CHAR_DISPLAY_MODE_TOOLTIP = 'tooltip';
-
     /** @type {Build} The default build state when initially loading or resetting the tool. */
     const EMPTY_BUILD = {
         arcanas: [],
@@ -68,9 +58,6 @@ VST.Build = new function () {
         stageIncludedInHash: true,
         weapons: [],
     };
-
-    /** @type {number} The scaling size of the character and weapon images in the standard character boxes. */
-    const IMAGE_SCALE_CHAR_BOX = 1.72;
 
     // ********************* //
     // ***** VARIABLES ***** //
@@ -166,92 +153,24 @@ VST.Build = new function () {
             /** @type {CharacterData} */
             let character = Character.get(charId);
 
-            let charBox = renderCharacterBox(
+            let charBox = Character.renderBox(
                 character,
-                CHAR_DISPLAY_MODE_DEFAULT,
+                Character.DISPLAY_MODE_DEFAULT,
                 'a',
                 my.elements.characters,
             );
             charBox.href = 'javascript:';
             charBox.addEventListener('click', setCharacter.bind(null, charId));
 
-            renderCharacterBox(
+            Character.renderBox(
                 character,
-                CHAR_DISPLAY_MODE_TOOLTIP,
+                Character.DISPLAY_MODE_TOOLTIP,
                 'span',
                 charBox,
             );
         });
 
         my.elements.character = DOM.ce('div', {className: 'vst-build-char'}, my.elements.charactersWrapper);
-    }
-
-    /**
-     * Appends a character display box to the given parent element.
-     *
-     * If both the buttonText and buttonAction optional params are supplied, a blue button will be added to the
-     * bottom-right of the character box. The button may still not be visible, depending on the mode.
-     *
-     * @param {CharacterData}   char
-     * @param {CharDisplayMode} mode          What style of display this character box should be.
-     * @param {string}          tagName       The tag name to use for the element.
-     * @param {Node}            appendTo
-     * @param {string}          [buttonText]   The text to display on the optional button.
-     * @param {function}        [buttonAction] The function to execute when clicking the optional button.
-     * @return {HTMLAnchorElement}
-     */
-    function renderCharacterBox(char, mode, tagName, appendTo, buttonText, buttonAction) {
-        // By default, the styles are based only on this class and its extensions.
-        let baseClass = 'vs-char-box';
-
-        // The main box element.
-        let box = DOM.ce(tagName, {
-            className: baseClass,
-            dataset: {
-                character: char.id,
-                hasDescription: !!char.description,
-                mode: mode,
-            },
-        }, appendTo);
-
-        // The BG, which is automatically sized to the box.
-        DOM.ce('span', {className: `${baseClass}-bg`}, box);
-
-        // The character's name. Some modes will only show the base name, without the prefix and surname.
-        let nameClass = `${baseClass}-name`;
-        let name = DOM.ce('span', {className: nameClass}, box);
-        if (char.prefix) {
-            DOM.ce('span', {className: `${nameClass}-prefix`}, name, DOM.ct(char.prefix + ' '))
-        }
-        name.append(DOM.ct(char.name));
-        if (char.surname) {
-            DOM.ce('span', {className: `${nameClass}-surname`}, name, DOM.ct(' ' + char.surname));
-        }
-
-        // The default image of the character.
-        let sprite = char.spriteAlt || Img.CHARACTERS;
-        let image = Img.createImage(sprite, char.spriteName, box, IMAGE_SCALE_CHAR_BOX);
-        image.classList.add(`${baseClass}-image`);
-
-        // The weapons the character can equip.
-        let weapons = DOM.ce('span', {className: `${baseClass}-weapons`, dataset: {count: char.weaponIds.length}}, box);
-        char.weaponIds.forEach(weaponId => {
-            let weapon = VS.getWeapon(weaponId);
-            let weaponFrame = DOM.ce('span', {className: `${baseClass}-weapons-frame`}, weapons);
-            Img.createImage(Img.ITEMS, weapon.frameName, weaponFrame, IMAGE_SCALE_CHAR_BOX);
-        });
-
-        // The description, which is only visible in some modes.
-        if (char.description) {
-            DOM.ce('span', {className: `${baseClass}-description`}, box, DOM.ct(char.description));
-        }
-
-        if (buttonText && buttonAction) {
-            let button = DOM.createButton(buttonText, buttonAction, box, DOM.BUTTON_BLUE);
-            button.classList.add('vs-char-box-button');
-        }
-
-        return box;
     }
 
     /**
@@ -278,9 +197,9 @@ VST.Build = new function () {
         // Update the selected character.
         my.elements.character.innerHTML = '';
         if (character) {
-            renderCharacterBox(
+            Character.renderBox(
                 character,
-                CHAR_DISPLAY_MODE_DETAILS,
+                Character.DISPLAY_MODE_DETAILS,
                 'span',
                 my.elements.character,
                 'Change',
