@@ -3,7 +3,7 @@
  */
 VST.VS.Character = new function () {
     const DOM = VST.DOM;
-    const Img = VST.Img;
+    const Img = VST.VS.Img;
     const VS = VST.VS;
 
     // *********************** //

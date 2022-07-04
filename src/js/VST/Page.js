@@ -3,7 +3,7 @@
  */
 VST.Page = new function () {
     const self = this;
-    const Img = VST.Img;
+    const Img = VST.VS.Img;
     const DOM = VST.DOM;
     const Util = VST.Util;
 

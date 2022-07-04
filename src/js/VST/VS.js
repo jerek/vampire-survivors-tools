@@ -1,8 +1,8 @@
 /**
- * Functions and classes for managing Vampire Survivors entities.
+ * Functions and classes for managing Vampire Survivors entities and assets.
  */
 VST.VS = new function () {
-    const Img = VST.Img;
+    const self = this;
     const Util = VST.Util;
 
     // *********************** //
@@ -23,7 +23,7 @@ VST.VS = new function () {
      * @property {CharacterId}  id          This MUST NOT change, because it's used in the URL for saved builds.
      * @property {string}       name        The character's common name.
      * @property {string}       description The character's in-game description.
-     * @property {VsSpriteName} spriteAlt   The sprite that the filename exists in, if different from "characters".
+     * @property {VsSpriteFunc} spriteAlt   The sprite that the filename exists in, if different from "characters".
      * @property {string}       spriteName  The filename of the character's image within the "characters" sprite.
      * @property {WeaponId[]}   weaponIds   The weapons the character starts with.
      * @property {string}       [prefix]    Text shown before the character's name when showing their full name.
@@ -456,7 +456,7 @@ VST.VS = new function () {
         41: {
             name: 'Leda',
             description: '',
-            spriteAlt: Img.ENEMIES_2,
+            spriteAlt: () => self.Img.ENEMIES_2,
             spriteName: 'XLLeda_i01.png',
             weaponIds: [WEAPON_ID_HOLY_WAND],
         },

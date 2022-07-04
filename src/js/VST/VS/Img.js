@@ -1,7 +1,7 @@
 /**
  * Displays images using the game's JSON & PNG files.
  */
-VST.Img = new function () {
+VST.VS.Img = new function () {
     const self = this;
     const DOM = VST.DOM;
     const Util = VST.Util;
@@ -52,6 +52,8 @@ VST.Img = new function () {
     /** @typedef {string} VsImgFilename A Vampire Survivors image name, which is packed within a sprite. */
 
     /** @typedef {string} VsSprite A Vampire Survivors sprite's internal name. */
+
+    /** @typedef {function} VsSpriteFunc A function that returns a Vampire Survivors sprite's internal name. */
 
     /** @typedef {string} VsSpriteName A Vampire Survivors sprite's name with title casing. */
 
@@ -121,11 +123,11 @@ VST.Img = new function () {
     /**
      * Creates and returns an element to display a Vampire Survivors image via a sprite.
      *
-     * @param {VsSprite}      sprite
-     * @param {VsImgFilename} filename
-     * @param {Node}          [parent]   When specified, the image element is appended to this.
-     * @param {number}        [scale]    The 1-base scale at which images should be displayed. Defaults to 2.
-     * @param {function}      [callback] When specified, a callback that is called with the image element.
+     * @param {VsSprite|VsSpriteFunc} sprite
+     * @param {VsImgFilename}         filename
+     * @param {Node}                  [parent]   When specified, the image element is appended to this.
+     * @param {number}                [scale]    The 1-base scale at which images should be displayed. Defaults to 2.
+     * @param {function}              [callback] When specified, a callback that is called with the image element.
      * @return {HTMLSpanElement}
      */
     this.createImage = function (sprite, filename, parent, scale, callback) {
@@ -387,15 +389,19 @@ VST.Img = new function () {
     /**
      * Displays the requested image in the given <img> tag.
      *
-     * @param {VsSprite}        sprite
-     * @param {VsImgFilename}   filename
-     * @param {HTMLSpanElement} target
-     * @param {number}          [scale]    The 1-base scale at which images should be displayed. Defaults to 2.
-     * @param {function}        [callback] When specified, a callback that is called with the image element.
+     * @param {VsSprite|VsSpriteFunc} sprite
+     * @param {VsImgFilename}         filename
+     * @param {HTMLSpanElement}       target
+     * @param {number}                [scale]    The 1-base scale at which images should be displayed. Defaults to 2.
+     * @param {function}              [callback] When specified, a callback that is called with the image element.
      */
     function displayImage(sprite, filename, target, scale, callback) {
         if (typeof scale !== 'number') {
             scale = DEFAULT_DISPLAY_SCALE;
+        }
+
+        if (typeof sprite === 'function') {
+            sprite = sprite();
         }
 
         loadData(sprite, /** @param {TexturePacker3Data} data */ data => {
