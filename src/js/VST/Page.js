@@ -150,6 +150,11 @@ VST.Page = new function () {
                 let navRow = addNavigationRow();
 
                 HOMEPAGE_NAVIGATION.forEach(navItem => {
+                    // Don't print the link to the build tool on production until it's ready.
+                    if (navItem.page === this.PAGE_BUILD_TOOL && !VST.IS_DEV) {
+                        return;
+                    }
+
                     let button = DOM.createButton(
                         navItem.buttonText,
                         navItem.page && (() => self.set(navItem.page)),
