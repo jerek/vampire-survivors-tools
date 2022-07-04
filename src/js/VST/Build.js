@@ -153,6 +153,13 @@ VST.Build = new function () {
     // ------- //
 
     /**
+     * Dispatches an event indicating that the build has changed.
+     */
+    function dispatchChangedBuildEvent() {
+        self.dispatchEvent(new CustomEvent(EVENT_CHANGED_BUILD));
+    }
+
+    /**
      * Displays the character selection options in the main container.
      */
     function renderCharacterSelection() {
@@ -228,12 +235,5 @@ VST.Build = new function () {
         // }
 
         dispatchChangedBuildEvent();
-    }
-
-    /**
-     * Dispatches an event indicating that the build has changed.
-     */
-    function dispatchChangedBuildEvent() {
-        self.dispatchEvent(new CustomEvent(EVENT_CHANGED_BUILD));
     }
 };
