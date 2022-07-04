@@ -212,7 +212,7 @@ VST.Build = new function () {
             );
         });
 
-        my.elements.selectedCharacter = DOM.ce('div', {className: 'vst-build-character'}, section);
+        my.elements.selectedCharacter = DOM.ce('div', {className: 'vst-build-selected-character'}, section);
     }
 
     /**
