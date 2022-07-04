@@ -2,7 +2,6 @@
  * Functions and classes for managing Vampire Survivors entities.
  */
 VST.VS = new function () {
-    const self = this;
     const Img = VST.Img;
     const Util = VST.Util;
 
@@ -55,6 +54,8 @@ VST.VS = new function () {
 
     /** @typedef {number} StageId A stage's ID. */
 
+    /** @typedef {string} VsType A Vampire Survivors entity type. E.g. character, weapon, stage, etc. */
+
     /**
      * @typedef {Object} WeaponData Data describing a weapon.
      * @property {string}      description
@@ -71,6 +72,21 @@ VST.VS = new function () {
     // ********************* //
     // ***** CONSTANTS ***** //
     // ********************* //
+
+    /** @type {VsType} An arcana that a character can collect. */
+    this.TYPE_ARCANA = 'arcana';
+
+    /** @type {VsType} A character that the player can play as. */
+    this.TYPE_CHARACTER = 'character';
+
+    /** @type {VsType} A passive item that a character can equip. */
+    this.TYPE_PASSIVE = 'passive';
+
+    /** @type {VsType} A level where a character is played. */
+    this.TYPE_STAGE = 'stage';
+
+    /** @type {VsType} A weapon that a character can equip. */
+    this.TYPE_WEAPON = 'weapon';
 
     // === //
     // IDS //
@@ -1035,6 +1051,15 @@ VST.VS = new function () {
         },
     };
 
+    /** @type {Object<VsType, Object>} A map of types to their data objects. */
+    const DATA_OBJECTS = {
+        [this.TYPE_ARCANA]: ARCANAS,
+        [this.TYPE_CHARACTER]: CHARACTERS,
+        [this.TYPE_PASSIVE]: PASSIVES,
+        [this.TYPE_STAGE]: STAGES,
+        [this.TYPE_WEAPON]: WEAPONS,
+    };
+
     // ********************* //
     // ***** FUNCTIONS ***** //
     // ********************* //
@@ -1044,13 +1069,14 @@ VST.VS = new function () {
     // ------ //
 
     /**
-     * Returns data by ID from the given entity lookup.
+     * Returns data by ID of the given entity type.
      *
-     * @param {Object<number, Object>} entities
-     * @param {number}                 id
+     * @param {VsType} type
+     * @param {number} id
      * @return {Object|undefined}
      */
-    this.getData = function (entities, id) {
+    this.getData = function (type, id) {
+        let entities = DATA_OBJECTS[type];
         if (entities[id]) {
             return Util.copyProperties({}, entities[id]);
         }
@@ -1059,87 +1085,13 @@ VST.VS = new function () {
     /**
      * Returns a list of IDs from the given entity lookup.
      *
-     * @param {Object<number, Object>} entities
+     * @param {VsType} type
      * @return {number[]}
      */
-    this.getIds = function (entities) {
+    this.getIds = function (type) {
+        let entities = DATA_OBJECTS[type];
         return entities.sortedIds || Object.keys(entities).map(id => parseInt(id));
     };
-
-    /**
-     * Returns the arcana with the given ID.
-     *
-     * @param {ArcanaId} id
-     * @return {ArcanaData|undefined}
-     */
-    this.getArcana = id => self.getData(ARCANAS, id);
-
-    /**
-     * Returns a list of all arcana IDs.
-     *
-     * @return {ArcanaId[]}
-     */
-    this.getArcanaIds = () => self.getIds(ARCANAS);
-
-    /**
-     * Returns the character with the given ID.
-     *
-     * @param {CharacterId} id
-     * @return {CharacterData|undefined}
-     */
-    this.getCharacter = id => self.getData(CHARACTERS, id);
-
-    /**
-     * Returns a list of all character IDs.
-     *
-     * @return {CharacterId[]}
-     */
-    this.getCharacterIds = () => self.getIds(CHARACTERS);
-
-    /**
-     * Returns the passive item with the given ID.
-     *
-     * @param {PassiveId} id
-     * @return {PassiveData|undefined}
-     */
-    this.getPassive = id => self.getData(PASSIVES, id);
-
-    /**
-     * Returns a list of all passive item IDs.
-     *
-     * @return {PassiveId[]}
-     */
-    this.getPassiveIds = () => self.getIds(PASSIVES);
-
-    /**
-     * Returns the stage with the given ID.
-     *
-     * @param {StageId} id
-     * @return {StageData|undefined}
-     */
-    this.getStage = id => self.getData(STAGES, id);
-
-    /**
-     * Returns a list of all stage IDs.
-     *
-     * @return {StageId[]}
-     */
-    this.getStageIds = () => self.getIds(STAGES);
-
-    /**
-     * Returns the weapon with the given ID.
-     *
-     * @param {WeaponId} id
-     * @return {WeaponData|undefined}
-     */
-    this.getWeapon = id => self.getData(WEAPONS, id);
-
-    /**
-     * Returns a list of all weapon IDs.
-     *
-     * @return {WeaponId[]}
-     */
-    this.getWeaponIds = () => self.getIds(WEAPONS);
 
     // ------- //
     // PRIVATE //

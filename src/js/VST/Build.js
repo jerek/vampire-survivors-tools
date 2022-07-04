@@ -3,12 +3,12 @@
  */
 VST.Build = new function () {
     // We can alias any class-like here, since this is loaded last.
+    const Character = VST.VS.Character;
     const DOM = VST.DOM;
     const Hash = VST.Hash;
     const Img = VST.Img;
     const Page = VST.Page;
     const Util = VST.Util;
-    const VS = VST.VS;
 
     // *********************** //
     // ***** DEFINITIONS ***** //
@@ -161,10 +161,10 @@ VST.Build = new function () {
         DOM.ce('h2', undefined, my.elements.charactersWrapper, DOM.ct('Character Selection'));
 
         my.elements.characters = DOM.ce('div', {className: 'vst-build-chars'}, my.elements.charactersWrapper);
-        VS.getCharacterIds().forEach(charId => {
+        Character.getIds().forEach(charId => {
             // noinspection JSValidateTypes Realistically, this can't actually return undefined.
             /** @type {CharacterData} */
-            let character = VS.getCharacter(charId);
+            let character = Character.get(charId);
 
             let charBox = renderCharacterBox(
                 character,
@@ -263,7 +263,7 @@ VST.Build = new function () {
     function setCharacter(characterId, fromBuild) {
         let character;
         if (characterId !== null) {
-            character = VS.getCharacter(characterId);
+            character = Character.get(characterId);
             if (!character) {
                 VST.error('Could not set requested character.', characterId);
 

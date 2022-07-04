@@ -3,8 +3,12 @@
  */
 VST.Hash = new function () {
     const self = this;
+    const Arcana = VST.VS.Arcana;
+    const Character = VST.VS.Character;
     const Page = VST.Page;
-    const VS = VST.VS;
+    const Passive = VST.VS.Passive;
+    const Stage = VST.VS.Stage;
+    const Weapon = VST.VS.Weapon;
 
     // ********************* //
     // ***** CONSTANTS ***** //
@@ -178,7 +182,7 @@ VST.Hash = new function () {
 
         VST.debug('Checking the hash for a character.');
         let characterId = values.shift() || null;
-        if (characterId && !VS.getCharacter(characterId)) {
+        if (characterId && !Character.get(characterId)) {
             invalid('character', characterId);
 
             return;
@@ -193,7 +197,7 @@ VST.Hash = new function () {
         for (let i = 0; i < Build.WEAPONS_MAX; i++) {
             let weaponId = values.shift();
             if (weaponId) {
-                if (!VS.getWeapon(weaponId)) {
+                if (!Weapon.get(weaponId)) {
                     invalid('weapon', weaponId);
 
                     return;
@@ -214,7 +218,7 @@ VST.Hash = new function () {
         for (let i = 0; i < Build.PASSIVE_ITEMS_MAX; i++) {
             let passiveId = values.shift();
             if (passiveId) {
-                if (!VS.getPassive(passiveId)) {
+                if (!Passive.get(passiveId)) {
                     invalid('passive item', passiveId);
 
                     return;
@@ -235,7 +239,7 @@ VST.Hash = new function () {
         while (values.length && values[0] !== VALUE_DELIMITER) {
             let passiveId = values.shift();
             if (passiveId) {
-                if (!VS.getPassive(passiveId)) {
+                if (!Passive.get(passiveId)) {
                     invalid('backup passive item', passiveId);
 
                     return;
@@ -262,7 +266,7 @@ VST.Hash = new function () {
         for (let i = 0; i < Build.ARCANAS_MAX; i++) {
             let arcanaId = values.shift();
             if (arcanaId) {
-                if (!VS.getArcana(arcanaId)) {
+                if (!Arcana.get(arcanaId)) {
                     invalid('arcana', arcanaId);
 
                     return;
@@ -280,7 +284,7 @@ VST.Hash = new function () {
 
         VST.debug('Checking the hash for a stage ID.');
         let stageId = values.shift() || null;
-        if (stageId && !VS.getStage(stageId)) {
+        if (stageId && !Stage.get(stageId)) {
             invalid('stage', stageId);
 
             return;
