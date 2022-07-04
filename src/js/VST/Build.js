@@ -2,10 +2,10 @@
  * The core code for managing the build tool.
  */
 VST.Build = new function () {
+    const self = this;
     // We can alias any class-like here, since this is loaded last.
     const Character = VST.VS.Character;
     const DOM = VST.DOM;
-    const Hash = VST.Hash;
     const Page = VST.Page;
     const Util = VST.Util;
 
@@ -117,7 +117,7 @@ VST.Build = new function () {
         renderCharacterSelection();
 
         // Initializing hash support will also do an initial read of the hash to load a build.
-        Hash.init();
+        self.Hash.init();
     };
 
     /**
@@ -212,6 +212,6 @@ VST.Build = new function () {
         //     character.weaponIds.forEach(weaponId => setWeapon(weaponId));
         // }
 
-        Hash.write();
+        self.Hash.write();
     }
 };

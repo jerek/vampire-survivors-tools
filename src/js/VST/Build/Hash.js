@@ -1,7 +1,7 @@
 /**
  * Manages the tool's hash.
  */
-VST.Hash = new function () {
+VST.Build.Hash = new function () {
     const self = this;
     const Arcana = VST.VS.Arcana;
     const Character = VST.VS.Character;
