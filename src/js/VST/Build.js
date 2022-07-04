@@ -77,7 +77,10 @@ VST.Build = new function () {
         /** @type {Object} References to various DOM elements. */
         elements: {
             /** @type {HTMLDivElement} The element containing the list of arcanas. */
-            arcanas: undefined,
+            arcanasList: undefined,
+
+            /** @type {HTMLDivElement} The element containing the arcanas selection area. */
+            arcanasSection: undefined,
 
             /** @type {HTMLDivElement} The element containing the list of characters. */
             characterList: undefined,
@@ -86,16 +89,37 @@ VST.Build = new function () {
             characterSection: undefined,
 
             /** @type {HTMLDivElement} The element containing the list of passive items. */
-            passiveItems: undefined,
+            passiveItemsList: undefined,
+
+            /** @type {HTMLDivElement} The element containing the passive items selection area. */
+            passiveItemsSection: undefined,
+
+            /** @type {HTMLDivElement} The element containing the currently selected arcanas. */
+            selectedArcanas: undefined,
 
             /** @type {HTMLDivElement} The element containing the currently selected character. */
             selectedCharacter: undefined,
 
+            /** @type {HTMLDivElement} The element containing the currently selected passive items. */
+            selectedPassiveItems: undefined,
+
+            /** @type {HTMLDivElement} The element containing the currently selected stage. */
+            selectedStage: undefined,
+
+            /** @type {HTMLDivElement} The element containing the currently selected weapons. */
+            selectedWeapons: undefined,
+
             /** @type {HTMLDivElement} The element containing the list of stages. */
-            stages: undefined,
+            stagesList: undefined,
+
+            /** @type {HTMLDivElement} The element containing the stage selection area. */
+            stageSection: undefined,
 
             /** @type {HTMLDivElement} The element containing the list of weapons. */
-            weapons: undefined,
+            weaponsList: undefined,
+
+            /** @type {HTMLDivElement} The element containing the weapons selection area. */
+            weaponsSection: undefined,
         },
     };
 
