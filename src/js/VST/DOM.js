@@ -60,7 +60,7 @@ VST.DOM = new function () {
      * Returns a Vampire Survivors button created with the given options.
      *
      * @param {string}      text
-     * @param {function}    callback
+     * @param {function}    [callback]
      * @param {Node}        [appendTo] The parent to append the created element to.
      * @param {ButtonColor} [color]    Defaults to blue.
      * @param {ButtonStyle} [style]
@@ -75,7 +75,9 @@ VST.DOM = new function () {
             href: 'javascript:',
         }, appendTo, self.ct(text));
 
-        button.addEventListener('click', callback);
+        if (callback) {
+            button.addEventListener('click', callback);
+        }
 
         if (style) {
             button.dataset.style = style;

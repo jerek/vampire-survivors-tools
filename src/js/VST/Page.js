@@ -62,6 +62,16 @@ VST.Page = new function () {
         {page: this.PAGE_BUILD_TOOL, buttonText: 'Create a Build', buttonColor: DOM.BUTTON_COLOR_GREEN},
         {page: this.PAGE_GAME_IMAGES, buttonText: 'Game Images'},
         {page: this.PAGE_GAME_IMAGES_ANIMATED, buttonText: 'Animated Images'},
+        {
+            buttonStyle: DOM.BUTTON_STYLE_SMALL,
+            buttonText: 'GitHub',
+            url: 'https://github.com/jerek/vampire-survivors-tools',
+        },
+        {
+            buttonStyle: DOM.BUTTON_STYLE_SMALL,
+            buttonText: 'Credits',
+            url: 'https://twitter.com/jerekdain',
+        },
     ];
 
     /** @type {string} Because one does not simply push "" to the history state, we need to use this value instead. */
@@ -140,13 +150,18 @@ VST.Page = new function () {
                 let navRow = addNavigationRow();
 
                 HOMEPAGE_NAVIGATION.forEach(navItem => {
-                    DOM.createButton(
+                    let button = DOM.createButton(
                         navItem.buttonText,
-                        () => self.set(navItem.page),
+                        navItem.page && (() => self.set(navItem.page)),
                         navRow,
                         navItem.buttonColor,
                         navItem.buttonStyle,
                     );
+
+                    if (navItem.url) {
+                        button.href = navItem.url;
+                        button.target = '_blank';
+                    }
                 });
             },
         },
