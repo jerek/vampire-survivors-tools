@@ -8,8 +8,8 @@ VST.Analytics = new function () {
     // ***** CONSTANTS ***** //
     // ********************* //
 
-    /** @type {boolean} Whether to initialize and use Google Analytics. Disabled in dev. */
-    const ENABLED = !/\d|^dev\./.test(location.hostname);
+    /** @type {boolean} Whether to initialize and use Google Analytics. */
+    const ENABLED = !VST.IS_DEV;
 
     // ********************* //
     // ***** FUNCTIONS ***** //

@@ -10,6 +10,17 @@ window.VST = new function () {
     // ***** CONSTANTS ***** //
     // ********************* //
 
+    // ------ //
+    // PUBLIC //
+    // ------ //
+
+    /** @type {boolean} Whether this is being run in a development environment. */
+    this.IS_DEV = /\d|^dev\./.test(location.hostname);
+
+    // ------- //
+    // PRIVATE //
+    // ------- //
+
     /** @type {string} Text shown before all console messages on production. */
     const CONSOLE_MESSAGE_PREFIX = '[VST]';
 
