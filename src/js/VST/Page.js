@@ -289,6 +289,7 @@ VST.Page = new function () {
         // Add a red "Back" button to go back to the previous page.
         if (my.previousPages.length) {
             let navRow = addNavigationRow();
+            navRow.dataset.context = 'nav';
 
             DOM.createButton(
                 'Back',
@@ -344,7 +345,7 @@ VST.Page = new function () {
      * @return {HTMLDivElement}
      */
     function addNavigationRow() {
-        return DOM.ce('div', {className: 'vst-nav'}, my.elements.container);
+        return DOM.ce('div', {className: 'vs-button-list'}, my.elements.container);
     }
 
     /**

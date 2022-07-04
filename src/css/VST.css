@@ -9,8 +9,8 @@
 :root {
     /* Values from the game, or that closely mimic the game. */
     --vs-blue: #4b4f74;
-    --vs-button-border-size: 9;
-    --vs-button-border-size-px: 9px;
+    --vs-button-border-size: 18;
+    --vs-button-border-size-px: 18px;
     --vs-char-bg-border-size: 5;
     --vs-char-bg-border-size-px: 5px;
     --vs-shadow: 2px 2px 5px #000;
@@ -90,38 +90,48 @@ footer a:hover {color: var(--vs-yellow)}
 /* ***** BUTTONS ***** */
 /* ******************* */
 
+/* ======= */
+/* GENERAL */
+/* ======= */
+
 .vs-button {
     border: var(--vs-button-border-size-px) solid transparent;
     box-sizing: border-box;
     color: #fff;
     display: inline-block;
+    font-size: 16px;
+    font-weight: normal;
     text-decoration: none;
     text-transform: uppercase;
 }
 .vs-button:focus-visible {border-radius: 8px; box-shadow: 0 0 0 2px #000; outline: none; text-decoration: none}
 
+/* ====== */
+/* COLORS */
+/* ====== */
+
 .vs-button[data-color="blue"] {
-    border-image: url(../game-assets/img/UI/button_c9_normal.png) var(--vs-button-border-size) fill;
+    border-image: url(../game-assets/img/UI/button_c9_normal_x2.png) var(--vs-button-border-size) fill;
 }
 .vs-button[data-color="blue"]:hover {
-    border-image: url(../game-assets/img/UI/button_c9_mouseover.png) var(--vs-button-border-size) fill;
+    border-image: url(../game-assets/img/UI/button_c9_mouseover_x2.png) var(--vs-button-border-size) fill;
 }
 .vs-button[data-color="blue"]:active {
-    border-image: url(../game-assets/img/UI/button_c9_pressed.png) var(--vs-button-border-size) fill;
+    border-image: url(../game-assets/img/UI/button_c9_pressed_x2.png) var(--vs-button-border-size) fill;
 }
 
 .vs-button[data-color="green"] {
-    border-image: url(../game-assets/img/UI/button_c5_normal.png) var(--vs-button-border-size) fill;
+    border-image: url(../game-assets/img/UI/button_c5_normal_x2.png) var(--vs-button-border-size) fill;
 }
 .vs-button[data-color="green"]:hover {
-    border-image: url(../game-assets/img/UI/button_c5_mouseover.png) var(--vs-button-border-size) fill;
+    border-image: url(../game-assets/img/UI/button_c5_mouseover_x2.png) var(--vs-button-border-size) fill;
 }
 .vs-button[data-color="green"]:active {
-    border-image: url(../game-assets/img/UI/button_c5_pressed.png) var(--vs-button-border-size) fill;
+    border-image: url(../game-assets/img/UI/button_c5_pressed_x2.png) var(--vs-button-border-size) fill;
 }
 
 .vs-button[data-color="red"] {
-    border-image: url(../game-assets/img/UI/button_c8_normal.png) var(--vs-button-border-size) fill;
+    border-image: url(../game-assets/img/UI/button_c8_normal_x2.png) var(--vs-button-border-size) fill;
 }
 
 /* ============ */
@@ -135,8 +145,10 @@ footer a:hover {color: var(--vs-yellow)}
     margin: 50px 0 !important; /* To override :last-child margin removal. */
 }
 
-.vs-button-list > .vs-button {min-width: 165px; text-align: center}
+.vs-button-list .vs-button {min-width: 180px; text-align: center}
 .vs-button-list > :not(:first-child) {margin-top: 20px}
+
+.vs-button-list[data-context="nav"] {align-items: flex-start; flex-direction: row; margin: 0 !important}
 
 /* ****************** */
 /* ***** LAYOUT ***** */
@@ -168,20 +180,6 @@ footer a:hover {color: var(--vs-yellow)}
 .vst-container {position: relative; z-index: 2}
 .vst-container > h2:first-child {margin-top: 0}
 .vst-container > :last-child {margin-bottom: 0}
-
-/* ***************** */
-/* ***** PAGES ***** */
-/* ***************** */
-
-body[data-page="index"] .vst-nav {
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-    margin: 50px 0;
-}
-
-body[data-page="index"] .vst-nav > .vs-button {min-width: 165px; text-align: center}
-body[data-page="index"] .vst-nav > :not(:first-child) {margin-top: 20px}
 
 /* ************************* */
 /* ***** CHARACTER BOX ***** */
@@ -261,7 +259,7 @@ a.vs-char-box:focus-visible:after {
 /* MODE: DETAILS */
 /* ============= */
 
-.vs-char-box[data-mode="details"] {height: 100px; width: 380px}
+.vs-char-box[data-mode="details"] {height: 100px; width: 400px}
 .vs-char-box[data-mode="details"] > .vs-char-box-weapons {
     bottom: 7px;
     filter: none;
@@ -305,7 +303,6 @@ a.vs-char-box:focus-visible:after {
     /* noinspection CssNonIntegerLengthInPixels */
     flex: 0 0 42.1px;
 }
-.vs-char-box[data-mode="details"] > .vs-button {font-size: 16px; font-weight: normal; text-transform: none}
 
 /* ============= */
 /* MODE: TOOLTIP */
