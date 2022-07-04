@@ -2,6 +2,7 @@
  * Functions related to Vampire Survivors characters.
  */
 VST.VS.Character = new function () {
+    const self = this;
     const DOM = VST.DOM;
     const Img = VST.VS.Img;
     const VS = VST.VS;
@@ -102,10 +103,12 @@ VST.VS.Character = new function () {
 
         // The weapons the character can equip.
         let weapons = DOM.ce('span', {className: `${baseClass}-weapons`, dataset: {count: char.weaponIds.length}}, box);
+        let weaponDisplayMode = mode === self.DISPLAY_MODE_DEFAULT ?
+            VS.Weapon.DISPLAY_MODE_DEFAULT :
+            VS.Weapon.DISPLAY_MODE_FRAME;
         char.weaponIds.forEach(weaponId => {
-            let weapon = VS.Weapon.get(weaponId);
-            let weaponFrame = DOM.ce('span', {className: `${baseClass}-weapons-frame`}, weapons);
-            Img.createImage(Img.ITEMS, weapon.frameName, weaponFrame, IMAGE_SCALE_CHAR_BOX);
+            // noinspection JSCheckFunctionSignatures Realistically, this can't actually return undefined.
+            VS.Weapon.render(VS.Weapon.get(weaponId), weapons, weaponDisplayMode, IMAGE_SCALE_CHAR_BOX);
         });
 
         // The description, which is only visible in some modes.
