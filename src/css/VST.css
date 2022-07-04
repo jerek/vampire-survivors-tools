@@ -366,7 +366,7 @@ body[data-page="build"] section {display: none; margin: 10px 0}
 
 .vst-build-character-list {display: flex; flex-wrap: wrap; justify-content: center; padding-bottom: 20px}
 /* Unlike other sections, the character section is always shown. */
-body[data-page="build"] section[data-section="character"] {display: block}
+body[data-page="build"] section[data-section="character"] {display: block !important; margin-top: 50px}
 body[data-page="build"] section[data-section="character"] .vs-char-box[data-mode="default"] {margin: 5px}
 body[data-page="build"] section[data-section="character"] .vst-build-selected-character {display: none}
 body[data-page="build"] section[data-section="character"] .vst-build-selected-character .vs-char-box {margin: 0 auto}

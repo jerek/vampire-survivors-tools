@@ -276,11 +276,7 @@ VST.Build = new function () {
         let sections = Page.getContainer().querySelectorAll(':scope > section');
         if (characterId === null) {
             // Re-hide the other sections.
-            sections.forEach(section => {
-                if (section.dataset.section !== 'character') {
-                    section.style.display = 'none';
-                }
-            });
+            sections.forEach(section => section.style.display = 'none');
         } else {
             // Reveal any hidden sections.
             sections.forEach(section => section.style.display = 'block');
