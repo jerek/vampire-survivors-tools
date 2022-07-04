@@ -190,9 +190,9 @@ footer a:hover {color: var(--vs-yellow)}
 .vst-container > h2:first-child {margin-top: 0}
 .vst-container > :last-child {margin-bottom: 0}
 
-/* ************************* */
-/* ***** CHARACTER BOX ***** */
-/* ************************* */
+/* ********************** */
+/* ***** CHARACTERS ***** */
+/* ********************** */
 
 .vs-char-box {
     color: #fff;
