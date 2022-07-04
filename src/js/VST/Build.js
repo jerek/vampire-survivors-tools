@@ -148,25 +148,25 @@ VST.Build = new function () {
         DOM.ce('h2', undefined, my.elements.charactersWrapper, DOM.ct('Character Selection'));
 
         my.elements.characters = DOM.ce('div', {className: 'vst-build-chars'}, my.elements.charactersWrapper);
-        Character.getIds().forEach(charId => {
+        Character.getIds().forEach(characterId => {
             // noinspection JSValidateTypes Realistically, this can't actually return undefined.
             /** @type {CharacterData} */
-            let character = Character.get(charId);
+            let character = Character.get(characterId);
 
-            let charBox = Character.renderBox(
+            let box = Character.renderBox(
                 character,
                 Character.DISPLAY_MODE_DEFAULT,
                 'a',
                 my.elements.characters,
             );
-            charBox.href = 'javascript:';
-            charBox.addEventListener('click', setCharacter.bind(null, charId));
+            box.href = 'javascript:';
+            box.addEventListener('click', setCharacter.bind(null, characterId));
 
             Character.renderBox(
                 character,
                 Character.DISPLAY_MODE_TOOLTIP,
                 'span',
-                charBox,
+                box,
             );
         });
 
@@ -209,7 +209,7 @@ VST.Build = new function () {
 
         // TODO: Uncomment this once weapons are supported.
         // if (!fromBuild) {
-        //     char.weaponIds.forEach(weaponId => setWeapon(weaponId));
+        //     character.weaponIds.forEach(weaponId => setWeapon(weaponId));
         // }
 
         Hash.write();
