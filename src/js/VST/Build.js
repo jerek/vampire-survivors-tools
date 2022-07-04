@@ -79,17 +79,17 @@ VST.Build = new function () {
             /** @type {HTMLDivElement} The element containing the list of arcanas. */
             arcanas: undefined,
 
-            /** @type {HTMLDivElement} The element containing the currently selected character. */
-            character: undefined,
-
             /** @type {HTMLDivElement} The element containing the list of characters. */
-            characters: undefined,
+            characterList: undefined,
 
             /** @type {HTMLDivElement} The element containing the character selection area. */
-            charactersWrapper: undefined,
+            characterSection: undefined,
 
             /** @type {HTMLDivElement} The element containing the list of passive items. */
             passiveItems: undefined,
+
+            /** @type {HTMLDivElement} The element containing the currently selected character. */
+            selectedCharacter: undefined,
 
             /** @type {HTMLDivElement} The element containing the list of stages. */
             stages: undefined,
@@ -163,13 +163,9 @@ VST.Build = new function () {
      * Displays the character selection options in the main container.
      */
     function renderCharacterSelection() {
-        let container = Page.getContainer();
+        let section = renderSection('character', 'Character Selection');
 
-        my.elements.charactersWrapper = DOM.ce('section', {dataset: {section: 'characters'}}, container);
-
-        DOM.ce('h2', undefined, my.elements.charactersWrapper, DOM.ct('Character Selection'));
-
-        my.elements.characters = DOM.ce('div', {className: 'vst-build-chars'}, my.elements.charactersWrapper);
+        my.elements.characterList = DOM.ce('div', {className: 'vst-build-chars'}, section);
         Character.getIds().forEach(characterId => {
             // noinspection JSValidateTypes Realistically, this can't actually return undefined.
             /** @type {CharacterData} */
@@ -179,7 +175,7 @@ VST.Build = new function () {
                 character,
                 Character.DISPLAY_MODE_DEFAULT,
                 'a',
-                my.elements.characters,
+                my.elements.characterList,
             );
             box.href = 'javascript:';
             box.addEventListener('click', setCharacter.bind(null, characterId));
@@ -192,7 +188,26 @@ VST.Build = new function () {
             );
         });
 
-        my.elements.character = DOM.ce('div', {className: 'vst-build-char'}, my.elements.charactersWrapper);
+        my.elements.selectedCharacter = DOM.ce('div', {className: 'vst-build-char'}, section);
+    }
+
+    /**
+     * Appends a new section wrapper to the main container and returns it.
+     *
+     * @param {string} section
+     * @param {string} headingText
+     * @return {HTMLDivElement}
+     */
+    function renderSection(section, headingText) {
+        let wrapper = my.elements[`${section}Section`] = DOM.ce('section', {
+            dataset: {
+                section: section,
+            },
+        }, Page.getContainer());
+
+        DOM.ce('h2', undefined, wrapper, DOM.ct(headingText));
+
+        return wrapper;
     }
 
     /**
@@ -214,16 +229,16 @@ VST.Build = new function () {
 
         my.build.character = characterId;
 
-        my.elements.charactersWrapper.dataset.selected = JSON.stringify(!!characterId);
+        my.elements.characterSection.dataset.selected = JSON.stringify(!!characterId);
 
         // Update the selected character.
-        my.elements.character.innerHTML = '';
+        my.elements.selectedCharacter.innerHTML = '';
         if (character) {
             Character.renderBox(
                 character,
                 Character.DISPLAY_MODE_DETAILS,
                 'span',
-                my.elements.character,
+                my.elements.selectedCharacter,
                 'Change',
                 () => setCharacter(null),
             );
