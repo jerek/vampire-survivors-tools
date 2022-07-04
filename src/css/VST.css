@@ -134,6 +134,14 @@ footer a:hover {color: var(--vs-yellow)}
     border-image: url(../game-assets/img/UI/button_c8_normal_x2.png) var(--vs-button-border-size) fill;
 }
 
+/* ====== */
+/* STYLES */
+/* ====== */
+
+.vs-button[data-style="default-case"] {text-transform: none}
+
+.vs-button[data-style="small"] {font-size: 12px; line-height: 0; text-transform: none}
+
 /* ============ */
 /* BUTTON LISTS */
 /* ============ */
@@ -146,6 +154,7 @@ footer a:hover {color: var(--vs-yellow)}
 }
 
 .vs-button-list .vs-button {min-width: 180px; text-align: center}
+.vs-button-list .vs-button[data-style="small"] {min-width: 130px}
 .vs-button-list > :not(:first-child) {margin-top: 20px}
 
 .vs-button-list[data-context="nav"] {align-items: flex-start; flex-direction: row; margin: 0 !important}

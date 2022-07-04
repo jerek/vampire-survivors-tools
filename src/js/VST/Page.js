@@ -14,8 +14,10 @@ VST.Page = new function () {
     /**
      * @typedef {Object} HomepageNavigation Data to display a button link to a page in the general navigation area.
      * @property {string}      buttonText    The text to display in its button.
-     * @property {PageId}      page          The page that the button links to.
-     * @property {ButtonColor} [buttonColor] The color of the button on the homepage.
+     * @property {ButtonColor} [buttonColor] The color of the button.
+     * @property {ButtonStyle} [buttonStyle] The style of the button. E.g. small or lowercase.
+     * @property {PageId}      [page]        The page that the button links to.
+     * @property {string}      [url]         An external URL to link to.
      */
 
     /**
@@ -57,7 +59,7 @@ VST.Page = new function () {
 
     /** @type {HomepageNavigation[]} The page links displayed on the homepage. */
     const HOMEPAGE_NAVIGATION = [
-        {page: this.PAGE_BUILD_TOOL, buttonText: 'Create a Build', buttonColor: DOM.BUTTON_GREEN},
+        {page: this.PAGE_BUILD_TOOL, buttonText: 'Create a Build', buttonColor: DOM.BUTTON_COLOR_GREEN},
         {page: this.PAGE_GAME_IMAGES, buttonText: 'Game Images'},
         {page: this.PAGE_GAME_IMAGES_ANIMATED, buttonText: 'Animated Images'},
     ];
@@ -143,6 +145,7 @@ VST.Page = new function () {
                         () => self.set(navItem.page),
                         navRow,
                         navItem.buttonColor,
+                        navItem.buttonStyle,
                     );
                 });
             },
@@ -298,7 +301,7 @@ VST.Page = new function () {
                     self.set(lastPage.page, lastPage.subPath, true);
                 },
                 navRow,
-                DOM.BUTTON_RED,
+                DOM.BUTTON_COLOR_RED,
             );
         }
 

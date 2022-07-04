@@ -114,7 +114,13 @@ VST.VS.Character = new function () {
         }
 
         if (buttonText && buttonAction) {
-            let button = DOM.createButton(buttonText, buttonAction, box, DOM.BUTTON_BLUE);
+            let button = DOM.createButton(
+                buttonText,
+                buttonAction,
+                box,
+                DOM.BUTTON_COLOR_BLUE,
+                DOM.BUTTON_STYLE_DEFAULT_CASE,
+            );
             button.classList.add('vs-char-box-button');
         }
 

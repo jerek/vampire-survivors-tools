@@ -11,13 +11,20 @@ VST.DOM = new function () {
 
     /** @typedef {string} ButtonColor One of the Vampire Survivors button colors. */
 
+    /** @typedef {string} ButtonStyle A set of adjustments to make to a button's style. */
+
     // ********************* //
     // ***** CONSTANTS ***** //
     // ********************* //
 
-    /** @type {ButtonColor} */ this.BUTTON_BLUE = 'blue';
-    /** @type {ButtonColor} */ this.BUTTON_GREEN = 'green';
-    /** @type {ButtonColor} */ this.BUTTON_RED = 'red';
+    // Button colors. The in-game assets only have hover/active effects for blue and green buttons.
+    /** @type {ButtonColor} */ this.BUTTON_COLOR_BLUE  = 'blue';
+    /** @type {ButtonColor} */ this.BUTTON_COLOR_GREEN = 'green';
+    /** @type {ButtonColor} */ this.BUTTON_COLOR_RED   = 'red';
+
+    // Button styles. The small style includes using default casing.
+    /** @type {ButtonStyle} */ this.BUTTON_STYLE_SMALL        = 'small';
+    /** @type {ButtonStyle} */ this.BUTTON_STYLE_DEFAULT_CASE = 'default-case';
 
     // ********************* //
     // ***** FUNCTIONS ***** //
@@ -56,17 +63,23 @@ VST.DOM = new function () {
      * @param {function}    callback
      * @param {Node}        [appendTo] The parent to append the created element to.
      * @param {ButtonColor} [color]    Defaults to blue.
+     * @param {ButtonStyle} [style]
      * @return {HTMLAnchorElement}
      */
-    this.createButton = function (text, callback, appendTo, color) {
+    this.createButton = function (text, callback, appendTo, color, style) {
         let button = self.ce('a', {
             className: 'vs-button',
             dataset: {
-                color: color || this.BUTTON_BLUE,
+                color: color || this.BUTTON_COLOR_BLUE,
             },
             href: 'javascript:',
         }, appendTo, self.ct(text));
+
         button.addEventListener('click', callback);
+
+        if (style) {
+            button.dataset.style = style;
+        }
 
         return button;
     };
