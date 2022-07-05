@@ -322,7 +322,7 @@ VST.VS = new function () {
             surname: 'Freetto',
             description: 'Starts with 1 Revival. Gains 1 more Revival at level 33.',
             spriteName: 'Krochi_01.png',
-            weaponIds: [PASSIVE_ID_CLOVER],
+            weaponIds: [WEAPON_ID_CROSS],
         },
         12: {
             name: 'Christine',
