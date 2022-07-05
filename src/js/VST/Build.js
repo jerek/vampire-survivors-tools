@@ -249,7 +249,7 @@ VST.Build = new function () {
         if (characterId !== self.EMPTY_ID) {
             character = Character.get(characterId);
             if (!character) {
-                VST.error('Could not set requested character.', characterId);
+                VST.error('Could not find the requested character to set.', characterId);
 
                 return;
             }
