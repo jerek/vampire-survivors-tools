@@ -19,14 +19,14 @@ VST.Build = new function () {
 
     /**
      * @typedef {Object} Build All data describing a build.
-     * @property {BuildIdList} arcanas             A list of the selected arcanas' IDs.
-     * @property {number}      character           The ID of the currently selected character.
-     * @property {BuildIdList} passiveItems        A list of the selected passive items' IDs.
-     * @property {BuildIdList} passiveItemsBackup  A list of the selected backup passive items' IDs, which will
-     *                                             automatically replace passives based on what's on the stage.
-     * @property {number}      stage               The ID of the currently selected stage.
-     * @property {boolean}     stageIncludedInHash Whether to include the stage in the hash.
-     * @property {BuildIdList} weapons             A list of the selected weapons' IDs.
+     * @property {BuildIdList} arcanas         A list of the selected arcanas' IDs.
+     * @property {number}      character       The ID of the currently selected character.
+     * @property {BuildIdList} passives        A list of the selected passive items' IDs.
+     * @property {BuildIdList} passives-backup A list of the selected backup passive items' IDs, which will
+     *                                         automatically replace passives based on what's on the stage.
+     * @property {number}      stage           The ID of the currently selected stage.
+     * @property {boolean}     stageInHash     Whether to include the stage in the hash.
+     * @property {BuildIdList} weapons         A list of the selected weapons' IDs.
      */
 
     /** @typedef {number[]} BuildIdList A sparse ID list. Indexes go to the entity's max - 1, and there can be gaps. */
@@ -72,10 +72,10 @@ VST.Build = new function () {
     const EMPTY_BUILD = {
         arcanas: [],
         character: this.EMPTY_ID,
-        passiveItems: [],
-        passiveItemsBackup: [],
+        passives: [],
+        'passives-backup': [],
         stage: this.EMPTY_ID,
-        stageIncludedInHash: true,
+        stageInHash: true,
         weapons: [],
     };
 

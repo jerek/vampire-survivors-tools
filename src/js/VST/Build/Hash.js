@@ -296,15 +296,15 @@ VST.Build.Hash = new function () {
         //                        //
 
         VST.debug('Checking the hash for whether to include stages in the hash.');
-        let stageIncludedInHash = values.shift() !== VALUE_STAGES_EXCLUDED;
+        let stageInHash = values.shift() !== VALUE_STAGES_EXCLUDED;
 
         return {
             arcanas: arcanaIds,
             character: characterId,
-            passiveItems: passiveItemIds,
-            passiveItemsBackup: passiveItemBackupIds,
+            passives: passiveItemIds,
+            'passives-backup': passiveItemBackupIds,
             stage: stageId,
-            stageIncludedInHash: stageIncludedInHash,
+            stageInHash: stageInHash,
             weapons: weaponIds,
         };
     }
@@ -350,14 +350,14 @@ VST.Build.Hash = new function () {
         //               //
 
         for (let i = 0; i < Build.PASSIVE_ITEMS_MAX; i++) {
-            values.push(build.passiveItems[i] || Build.EMPTY_ID);
+            values.push(build.passives[i] || Build.EMPTY_ID);
         }
 
         //                      //
         // Backup Passive Items //
         //                      //
 
-        build.passiveItemsBackup.forEach(passiveId => values.push(passiveId || Build.EMPTY_ID));
+        build['passives-backup'].forEach(passiveId => values.push(passiveId || Build.EMPTY_ID));
         // Add a delimiter, since there are a variable amount of backup passive items.
         values.push(VALUE_DELIMITER);
 
@@ -373,13 +373,13 @@ VST.Build.Hash = new function () {
         // Stage //
         //       //
 
-        values.push(build.stageIncludedInHash && build.stage || Build.EMPTY_ID);
+        values.push(build.stageInHash && build.stage || Build.EMPTY_ID);
 
         //                        //
         // Stage Included in Hash //
         //                        //
 
-        values.push(build.stageIncludedInHash ? VALUE_STAGES_INCLUDED : VALUE_STAGES_EXCLUDED);
+        values.push(build.stageInHash ? VALUE_STAGES_INCLUDED : VALUE_STAGES_EXCLUDED);
 
         // Trim any trailing empty values.
         while (VALUES_TRIMMABLE_TRAILING_CHARACTERS.includes(values[values.length - 1])) {
