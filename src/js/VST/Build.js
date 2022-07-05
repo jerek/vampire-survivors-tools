@@ -501,7 +501,7 @@ VST.Build = new function () {
         let slotElement = section.selected.querySelector(':scope > span[data-slot="' + slot + '"]');
         slotElement.innerHTML = '';
         if (item) {
-            Item.render(item, slotElement, Item.DISPLAY_MODE_FRAME, Item.SELECTED_SCALE);
+            Item.render(item, slotElement, Item.DISPLAY_MODE_EQUIPPED, Item.SELECTED_SCALE);
         }
 
         // TODO: Update evolution indicators

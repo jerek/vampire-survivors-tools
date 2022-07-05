@@ -23,7 +23,9 @@ VST.VS.Item = new function () {
     /** @type {ItemDisplayMode} The default. Just the item icon. */
     this.DISPLAY_MODE_DEFAULT = 'default';
     /** @type {ItemDisplayMode} Has a frame around the item icon. */
-    this.DISPLAY_MODE_FRAME   = 'frame';
+    this.DISPLAY_MODE_FRAME = 'frame';
+    /** @type {ItemDisplayMode} Has semi-transparent frame behind the icon. */
+    this.DISPLAY_MODE_EQUIPPED = 'equipped';
 
     /** @type {number} The scale used when displaying selected items. */
     this.SELECTED_SCALE = 2.66666;
