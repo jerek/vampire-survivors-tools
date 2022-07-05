@@ -19,11 +19,11 @@ VST.Build = new function () {
     /**
      * @typedef {Object} Build All data describing a build.
      * @property {BuildIdList} arcanas             A list of the selected arcanas' IDs.
-     * @property {number|null} character           The ID of the currently selected character.
+     * @property {number}      character           The ID of the currently selected character.
      * @property {BuildIdList} passiveItems        A list of the selected passive items' IDs.
      * @property {BuildIdList} passiveItemsBackup  A list of the selected backup passive items' IDs, which will
      *                                             automatically replace passives based on what's on the stage.
-     * @property {number|null} stage               The ID of the currently selected stage.
+     * @property {number}      stage               The ID of the currently selected stage.
      * @property {boolean}     stageIncludedInHash Whether to include the stage in the hash.
      * @property {BuildIdList} weapons             A list of the selected weapons' IDs.
      */
@@ -41,6 +41,10 @@ VST.Build = new function () {
     /** @type {number} The maximum number of arcanas that a build can contain. */
     this.ARCANAS_MAX = 3;
 
+    /** @type {number} Several parts of builds always expect numbers, so this is used as a null value, and is kept in a
+     *  constant so that their uses can be easily found and tracked. */
+    this.EMPTY_ID = 0;
+
     /** @type {number} The maximum number of standard passive items that a build can contain. */
     this.PASSIVE_ITEMS_MAX = 6;
 
@@ -54,10 +58,10 @@ VST.Build = new function () {
     /** @type {Build} The default build state when initially loading or resetting the tool. */
     const EMPTY_BUILD = {
         arcanas: [],
-        character: null,
+        character: this.EMPTY_ID,
         passiveItems: [],
         passiveItemsBackup: [],
-        stage: null,
+        stage: this.EMPTY_ID,
         stageIncludedInHash: true,
         weapons: [],
     };
@@ -202,7 +206,7 @@ VST.Build = new function () {
                 my.elements.characterList,
             );
             box.href = 'javascript:';
-            box.addEventListener('click', setCharacter.bind(null, characterId));
+            box.addEventListener('click', setCharacter.bind(self.EMPTY_ID, characterId));
 
             Character.renderBox(
                 character,
@@ -237,12 +241,12 @@ VST.Build = new function () {
     /**
      * Set the given character's ID as the current character.
      *
-     * @param {number|null} characterId
-     * @param {boolean}     [fromBuild] Whether this is from a build, and therefore weapons should not be modified.
+     * @param {number}  characterId
+     * @param {boolean} [fromBuild] Whether this is from a build, and therefore weapons should not be modified.
      */
     function setCharacter(characterId, fromBuild) {
         let character;
-        if (characterId !== null) {
+        if (characterId !== self.EMPTY_ID) {
             character = Character.get(characterId);
             if (!character) {
                 VST.error('Could not set requested character.', characterId);
@@ -264,7 +268,7 @@ VST.Build = new function () {
                 'span',
                 my.elements.selectedCharacter,
                 'Change',
-                () => setCharacter(null),
+                () => setCharacter(self.EMPTY_ID),
             );
         }
 

@@ -4,6 +4,7 @@
 VST.Build.Hash = new function () {
     const self = this;
     const Arcana = VST.VS.Arcana;
+    const Build = VST.Build;
     const Character = VST.VS.Character;
     const Page = VST.Page;
     const Passive = VST.VS.Passive;
@@ -181,7 +182,7 @@ VST.Build.Hash = new function () {
         //           //
 
         VST.debug('Checking the hash for a character.');
-        let characterId = values.shift() || null;
+        let characterId = values.shift() || Build.EMPTY_ID;
         if (characterId && !Character.get(characterId)) {
             invalid('character', characterId);
 
@@ -205,7 +206,7 @@ VST.Build.Hash = new function () {
 
                 weaponIds.push(weaponId);
             } else {
-                weaponIds.push(0);
+                weaponIds.push(Build.EMPTY_ID);
             }
         }
 
@@ -226,7 +227,7 @@ VST.Build.Hash = new function () {
 
                 passiveItemIds.push(passiveId);
             } else {
-                passiveItemIds.push(0);
+                passiveItemIds.push(Build.EMPTY_ID);
             }
         }
 
@@ -247,7 +248,7 @@ VST.Build.Hash = new function () {
 
                 passiveItemBackupIds.push(passiveId);
             } else {
-                passiveItemBackupIds.push(0);
+                passiveItemBackupIds.push(Build.EMPTY_ID);
             }
         }
 
@@ -274,7 +275,7 @@ VST.Build.Hash = new function () {
 
                 arcanaIds.push(arcanaId);
             } else {
-                arcanaIds.push(0);
+                arcanaIds.push(Build.EMPTY_ID);
             }
         }
 
@@ -283,7 +284,7 @@ VST.Build.Hash = new function () {
         //       //
 
         VST.debug('Checking the hash for a stage ID.');
-        let stageId = values.shift() || null;
+        let stageId = values.shift() || Build.EMPTY_ID;
         if (stageId && !Stage.get(stageId)) {
             invalid('stage', stageId);
 
@@ -341,7 +342,7 @@ VST.Build.Hash = new function () {
         //         //
 
         for (let i = 0; i < Build.WEAPONS_MAX; i++) {
-            values.push(build.weapons[i] || 0);
+            values.push(build.weapons[i] || Build.EMPTY_ID);
         }
 
         //               //
@@ -349,14 +350,14 @@ VST.Build.Hash = new function () {
         //               //
 
         for (let i = 0; i < Build.PASSIVE_ITEMS_MAX; i++) {
-            values.push(build.passiveItems[i] || 0);
+            values.push(build.passiveItems[i] || Build.EMPTY_ID);
         }
 
         //                      //
         // Backup Passive Items //
         //                      //
 
-        build.passiveItemsBackup.forEach(passiveId => values.push(passiveId || 0));
+        build.passiveItemsBackup.forEach(passiveId => values.push(passiveId || Build.EMPTY_ID));
         // Add a delimiter, since there are a variable amount of backup passive items.
         values.push(VALUE_DELIMITER);
 
@@ -365,14 +366,14 @@ VST.Build.Hash = new function () {
         //         //
 
         for (let i = 0; i < Build.ARCANAS_MAX; i++) {
-            values.push(build.arcanas[i] || 0);
+            values.push(build.arcanas[i] || Build.EMPTY_ID);
         }
 
         //       //
         // Stage //
         //       //
 
-        values.push(build.stageIncludedInHash && build.stage || 0);
+        values.push(build.stageIncludedInHash && build.stage || Build.EMPTY_ID);
 
         //                        //
         // Stage Included in Hash //
