@@ -375,7 +375,7 @@ body[data-page="build"] .vst-container > section[data-selected="true"] > h2 {
     display: none;
 }
 
-body[data-page="build"] section {margin: 10px 0}
+body[data-page="build"] section {margin: 10px 0; transition: margin 150ms}
 body[data-page="build"] section:not([data-selected="true"]) {margin: 50px 0}
 body[data-page="build"] section:not([data-section="character"]) h2 {margin: 0}
 section[data-section="character"] {display: block; margin-top: var(--build-tool-margin) !important}
