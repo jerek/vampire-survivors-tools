@@ -413,6 +413,8 @@ VST.Build = new function () {
      * @return {boolean} Whether the item was successfully added.
      */
     function setItem(sectionId, itemId, slot) {
+        let section = SECTIONS[sectionId];
+
         let debug = function (message) {
             let args = ['setItem, ' + sectionId + ':'].concat(Array.prototype.slice.call(arguments));
             VST.debug.apply(VST.debug, args);
@@ -438,7 +440,7 @@ VST.Build = new function () {
 
         // If there's no slot specified, find the first available slot.
         if (slot === undefined) {
-            let maxItems = SECTIONS[sectionId].max;
+            let maxItems = section.max;
             for (let potentialSlot = 0; potentialSlot < maxItems; potentialSlot++) {
                 if (!my.build[sectionId][potentialSlot]) {
                     slot = potentialSlot;
