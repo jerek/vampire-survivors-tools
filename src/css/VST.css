@@ -402,7 +402,7 @@ section[data-section="character"][data-selected="true"] .vst-build-selected-char
 /* ************************* */
 
 .vst-build-selected-items {display: flex; flex-wrap: wrap; justify-content: center}
-.vst-build-selected-items-item {height: 64px !important; margin: 2px; width: 64px !important}
+.vst-build-selected-items-item {height: 42.6666px !important; margin: 2px; width: 42.6666px !important}
 .vst-build-selected-items .vs-item-image {animation: fadeIn 150ms}
 .vst-build-selected-items-item:not(:empty) {cursor: pointer}
 

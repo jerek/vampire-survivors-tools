@@ -33,7 +33,7 @@ VST.VS.Item = new function () {
     // ------- //
 
     /** @type {number} The pixel size of an item icon at a scale of 1. */
-    const BASE_ICON_SIZE = 24;
+    const BASE_ICON_SIZE = 16;
 
     /** @type {number} The standard scaling size of item images. */
     const IMAGE_SCALE = 2;
@@ -60,10 +60,14 @@ VST.VS.Item = new function () {
             scale = IMAGE_SCALE;
         }
 
+        let size = BASE_ICON_SIZE * scale;
         let style = {
-            height: `${BASE_ICON_SIZE * scale}px`,
-            width: `${BASE_ICON_SIZE * scale}px`,
+            height: `${size}px`,
+            width: `${size}px`,
         };
+        if (mode === self.DISPLAY_MODE_FRAME) {
+            style.padding = `${size * 0.25}px`;
+        }
 
         let wrapper = DOM.ce(tagName || 'span', {
             className: baseClass,
