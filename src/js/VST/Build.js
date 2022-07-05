@@ -420,16 +420,20 @@ VST.Build = new function () {
 
         debug('Called', 'ID:', itemId, 'Slot:', slot);
 
-        if (
-            // This most notably happens when the user clicks a build slot that's already empty.
-            (slot !== undefined && my.build[sectionId][slot] === self.EMPTY_ID) ||
-            // This most notably happens when the user clicks an item that's already in the build.
-            (itemId !== self.EMPTY_ID && my.build[sectionId].includes(itemId))
-        ) {
-            // Nothing to do.
-            debug('Nothing to do');
+        if (slot === undefined) {
+            // When the user clicks an item that's already in the build, remove it.
+            if (itemId !== self.EMPTY_ID && my.build[sectionId].includes(itemId)) {
+                slot = my.build[sectionId].indexOf(itemId);
+                itemId = self.EMPTY_ID;
+            }
+        } else {
+            // When the user clicks a build slot that's already empty, do nothing.
+            if (my.build[sectionId][slot] === self.EMPTY_ID) {
+                // Nothing to do.
+                debug('Nothing to do');
 
-            return false;
+                return false;
+            }
         }
 
         // If there's no slot specified, find the first available slot.
