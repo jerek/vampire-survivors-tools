@@ -59,6 +59,9 @@ VST.Build.Hash = new function () {
 
         /** @type {boolean} Whether the "popstate" event listener was set up, so that we only have one at a time. */
         attachedHistoryEventListener: false,
+
+        /** @type {string|undefined} The last hash that was read or written. */
+        lastHash: undefined,
     };
 
     // ********************* //
@@ -73,8 +76,12 @@ VST.Build.Hash = new function () {
      * Sets up the listener for hash changes.
      */
     this.init = () => {
-        // Writes are not disabled during the initial read, so that old hashes are updated.
-        self.read();
+        // Note: Unlike below, writes are not disabled during the initial read, so that old hash versions get updated.
+        let loadedFromHash = self.read();
+
+        if (!loadedFromHash && my.lastHash) {
+            loadFromHash(my.lastHash);
+        }
 
         if (!my.attachedHistoryEventListener) {
             my.attachedHistoryEventListener = true;
@@ -94,23 +101,20 @@ VST.Build.Hash = new function () {
     };
 
     /**
-     * Returns the build that's defined in the hash, if it was parsable as a valid build.
+     * Loads the build that's defined in the hash in the URL, if it was parsable as a valid build.
+     *
+     * @return {boolean} Whether we loaded a build from the hash.
      */
     this.read = () => {
         // Get the hash from the URL.
         let matches = location.pathname.match(VALID_REGEX);
         if (!matches) {
-            return;
+            return false;
         }
         let hash = matches[1];
 
         // Load the build from the hash.
-        let build = generateBuildFromHash(hash);
-        if (build) {
-            VST.Build.set(build);
-        } else {
-            VST.warn('Could not generate build from hash.', hash);
-        }
+        return loadFromHash(hash);
     }
 
     /**
@@ -136,6 +140,9 @@ VST.Build.Hash = new function () {
         // Update the URL with the new hash. By using history.pushState(), the user will be able to use their browser's
         // back or forward buttons to undo or redo, which is monitored via a popstate event handler.
         history.pushState({}, '', newUrl);
+
+        // Remember this hash in case the user navigates to another page and back.
+        my.lastHash = hash;
     };
 
     // ------- //
@@ -388,6 +395,28 @@ VST.Build.Hash = new function () {
 
         // Encode the numeric values.
         return serializeHash(values);
+    }
+
+    /**
+     * Load the build from the given hash.
+     *
+     * @param {string} hash
+     * @return {boolean} Whether we loaded a build from the hash.
+     */
+    function loadFromHash(hash) {
+        let build = generateBuildFromHash(hash);
+        if (!build) {
+            VST.warn('Could not generate build from hash.', hash);
+
+            return false;
+        }
+
+        VST.Build.set(build);
+
+        // Remember this hash in case the user navigates to another page and back.
+        my.lastHash = hash;
+
+        return true;
     }
 
     /**
