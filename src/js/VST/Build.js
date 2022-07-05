@@ -9,9 +9,12 @@ VST.Build = new function () {
     // We can alias any class-like here, since this is loaded last.
     const Character = VST.VS.Character;
     const DOM = VST.DOM;
+    const Item = VST.VS.Item;
     const Page = VST.Page;
     const Util = VST.Util;
+    const Passive = VST.VS.Passive;
     const VS = VST.VS;
+    const Weapon = VST.VS.Weapon;
 
     // *********************** //
     // ***** DEFINITIONS ***** //
@@ -173,7 +176,9 @@ VST.Build = new function () {
      * Sets up the main tool.
      */
     this.init = () => {
-        renderCharacterSelection();
+        renderCharacterSection();
+        renderItemSection(SECTION_WEAPONS);
+        renderItemSection(SECTION_PASSIVES);
 
         if (!self.addEventListener) {
             let target = new EventTarget();
@@ -198,7 +203,47 @@ VST.Build = new function () {
         build = Util.copyProperties({}, build);
         my.build = build;
 
+        // Character
         setCharacter(build.character, true);
+
+        // Weapons
+        for (let slot = 0; slot < self.WEAPONS_MAX; slot++) {
+            let weaponId = my.build.weapons[slot];
+            if (weaponId) {
+                let weapon = Weapon.get(weaponId);
+                if (!weapon) {
+                    VST.error('Could not load weapon found in build.', weaponId);
+
+                    continue;
+                }
+
+                updateItemDisplay(SECTION_WEAPONS, slot, weapon);
+            }
+        }
+
+        // Passive Items
+        for (let slot = 0; slot < self.PASSIVE_ITEMS_MAX; slot++) {
+            let passiveId = my.build.passives[slot];
+            if (passiveId) {
+                let passive = Passive.get(passiveId);
+                if (!passive) {
+                    VST.error('Could not load passive item found in build.', passiveId);
+
+                    continue;
+                }
+
+                updateItemDisplay(SECTION_PASSIVES, slot, passive);
+            }
+        }
+
+        // Backup Passive Items
+        // TODO
+
+        // Arcanas
+        // TODO
+
+        // Stage
+        // TODO
     };
 
     // ------- //
@@ -242,6 +287,59 @@ VST.Build = new function () {
                 'span',
                 box,
             );
+        });
+    }
+
+    /**
+     * Displays the weapon or passive selection options in the main container.
+     *
+     * @param {BuildSectionId} sectionId
+     */
+    function renderItemSection(sectionId) {
+        let section = SECTIONS[sectionId];
+        renderSectionContainer(sectionId);
+
+        section.selected = DOM.ce('div', {
+            className: 'vst-build-selected-items vst-build-selected-' + sectionId,
+        });
+        section.container.prepend(section.selected);
+
+        section.list = DOM.ce('div', {
+            className: `vst-build-items-list vst-build-${sectionId}-list`,
+        }, section.container);
+
+        for (let slot = 0; slot < section.max; slot++) {
+            let slotElement = DOM.ce('span', {
+                className: 'vst-build-selected-items-item',
+                dataset: {
+                    slot: slot,
+                },
+            }, section.selected);
+            slotElement.addEventListener('click', () => setItem(sectionId, self.EMPTY_ID, slot));
+        }
+
+        VS.getIds(section.entityType).forEach(entityId => {
+            let entity = VS.getData(section.entityType, entityId);
+
+            let box = Item.render(
+                entity,
+                section.list,
+                Item.DISPLAY_MODE_FRAME,
+                undefined,
+                'a',
+            );
+            box.href = 'javascript:';
+            box.addEventListener('click', () => {
+                let success = setItem(sectionId, entityId);
+                if (!success) {
+                    // Display an "error" animation for user feedback.
+                    box.dataset.animation = 'error';
+                    setTimeout(() => delete box.dataset.animation, 300);
+                }
+            });
+
+            // TODO
+            // Item.renderTooltip(item, box);
         });
     }
 
@@ -304,5 +402,104 @@ VST.Build = new function () {
         // }
 
         dispatchChangedBuildEvent();
+    }
+
+    /**
+     * Equip the item with the given ID in the first available or given slot.
+     *
+     * @param {BuildSectionId} sectionId
+     * @param {number}         itemId
+     * @param {number}         [slot]    Defaults to the first available slot.
+     * @return {boolean} Whether the item was successfully added.
+     */
+    function setItem(sectionId, itemId, slot) {
+        let debug = function (message) {
+            let args = ['setItem, ' + sectionId + ':'].concat(Array.prototype.slice.call(arguments));
+            VST.debug.apply(VST.debug, args);
+        };
+
+        debug('Called', 'ID:', itemId, 'Slot:', slot);
+
+        if (
+            // This most notably happens when the user clicks a build slot that's already empty.
+            (slot !== undefined && my.build[sectionId][slot] === self.EMPTY_ID) ||
+            // This most notably happens when the user clicks an item that's already in the build.
+            (itemId !== self.EMPTY_ID && my.build[sectionId].includes(itemId))
+        ) {
+            // Nothing to do.
+            debug('Nothing to do');
+
+            return false;
+        }
+
+        // If there's no slot specified, find the first available slot.
+        if (slot === undefined) {
+            let maxItems = SECTIONS[sectionId].max;
+            for (let potentialSlot = 0; potentialSlot < maxItems; potentialSlot++) {
+                if (!my.build[sectionId][potentialSlot]) {
+                    slot = potentialSlot;
+                    break;
+                }
+            }
+
+            if (slot === undefined) {
+                // We couldn't find a slot for this item, do nothing.
+                debug('No available slot found');
+
+                return false;
+            }
+        }
+
+        // Get the item data, both to validate the ID and because we'll need it to update the display.
+        let item;
+        if (itemId !== self.EMPTY_ID) {
+            item = sectionId === SECTION_WEAPONS ? Weapon.get(itemId) : Passive.get(itemId);
+            if (!item) {
+                VST.error('Could not find the requested item to set.', sectionId, itemId);
+
+                return false;
+            }
+        }
+
+        // Set the item in the build.
+        my.build[sectionId][slot] = itemId;
+
+        // Update the relevant slot.
+        updateItemDisplay(sectionId, slot, item);
+
+        dispatchChangedBuildEvent();
+
+        debug('Success');
+
+        return true;
+    }
+
+    /**
+     * Show the given item in the specified slot, or clear the slot if no item was given.
+     *
+     * @param {BuildSectionId}         sectionId
+     * @param {number}                 slot
+     * @param {WeaponData|PassiveData} [item]
+     */
+    function updateItemDisplay(sectionId, slot, item) {
+        let section = SECTIONS[sectionId];
+
+        let incomplete = false;
+        for (let slotIndex = 0; slotIndex < section.max; slotIndex++) {
+            if (!my.build[sectionId][slotIndex]) {
+                incomplete = true;
+                break;
+            }
+        }
+        section.container.dataset.selected = JSON.stringify(!incomplete);
+
+        // Update the selected weapon.
+        let slotElement = section.selected.querySelector(':scope > span[data-slot="' + slot + '"]');
+        slotElement.innerHTML = '';
+        if (item) {
+            Item.render(item, slotElement, Item.DISPLAY_MODE_FRAME, Item.SELECTED_SCALE);
+        }
+
+        // TODO: Update evolution indicators
     }
 };

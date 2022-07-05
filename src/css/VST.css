@@ -24,6 +24,19 @@
     --page-padding: 20px;
 }
 
+/* ********************** */
+/* ***** ANIMATIONS ***** */
+/* ********************** */
+
+@keyframes actionError {
+    0% {filter: sepia(100%) brightness(50%) saturate(500%) hue-rotate(290deg)}
+    33% {filter: sepia(100%) brightness(50%) saturate(500%) hue-rotate(290deg)}
+    34% {filter: none}
+    65% {filter: none}
+    66% {filter: sepia(100%) brightness(50%) saturate(500%) hue-rotate(290deg)}
+    100% {filter: sepia(100%) brightness(50%) saturate(500%) hue-rotate(290deg)}
+}
+
 /* *************************** */
 /* ***** GLOBAL ELEMENTS ***** */
 /* *************************** */
@@ -254,8 +267,8 @@ a.vs-char-box:focus-visible:after {
     right: 11px;
     top: 0;
 }
-.vs-weapon {display: contents}
-.vs-char-box-weapons[data-count="2"] .vs-weapon-image {margin: 2px 0 0 2px}
+.vs-item {display: contents}
+.vs-char-box-weapons[data-count="2"] .vs-item-image {margin: 2px 0 0 2px}
 .vs-char-box-button {bottom: 7px; position: absolute; right: 7px}
 
 /* ============= */
@@ -337,11 +350,11 @@ a.vs-char-box:focus-visible:after {
     z-index: -1;
 }
 
-/* ******************* */
-/* ***** WEAPONS ***** */
-/* ******************* */
+/* ***************** */
+/* ***** ITEMS ***** */
+/* ***************** */
 
-.vs-weapon[data-mode="frame"] {
+.vs-item[data-mode="frame"], .vst-build-selected-items-item:empty {
     align-items: center;
     background: url(../game-assets/img/UI/frameB.png) center / 100% 100%;
     display: flex;
@@ -360,6 +373,8 @@ body[data-page="build"] .vst-container > section[data-selected="true"] > h2 {
 }
 
 body[data-page="build"] section {margin: 10px 0}
+body[data-page="build"] section:not([data-selected="true"]) {margin: 50px 0}
+body[data-page="build"] section:not([data-section="character"]) h2 {margin: 0}
 section[data-section="character"] {display: block; margin-top: var(--build-tool-margin) !important}
 section[data-section="character"][data-selected="true"] ~ section:last-child {
     margin-bottom: var(--build-tool-margin) !important;
@@ -378,3 +393,16 @@ section[data-section="character"] .vst-build-selected-character {display: none}
 section[data-section="character"] .vst-build-selected-character .vs-char-box {margin: 0 auto}
 section[data-section="character"][data-selected="true"] .vst-build-character-list {display: none}
 section[data-section="character"][data-selected="true"] .vst-build-selected-character {display: block}
+
+/* ************************* */
+/* ***** BUILDS: ITEMS ***** */
+/* ************************* */
+
+.vst-build-selected-items {display: flex; flex-wrap: wrap; justify-content: center}
+.vst-build-selected-items-item {height: 64px !important; margin: 2px; width: 64px !important}
+.vst-build-selected-items-item:not(:empty) {cursor: pointer}
+
+section[data-selected="true"] .vst-build-items-list {display: none}
+.vst-build-items-list {display: flex; flex-wrap: wrap; justify-content: center}
+.vst-build-items-list .vs-item {margin: 2px}
+.vst-build-items-list .vs-item[data-animation="error"] {animation: actionError 300ms}

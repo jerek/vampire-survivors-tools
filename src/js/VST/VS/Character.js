@@ -103,12 +103,12 @@ VST.VS.Character = new function () {
 
         // The weapons the character can equip.
         let weapons = DOM.ce('span', {className: `${baseClass}-weapons`, dataset: {count: char.weaponIds.length}}, box);
-        let weaponDisplayMode = mode === self.DISPLAY_MODE_DEFAULT ?
-            VS.Weapon.DISPLAY_MODE_DEFAULT :
-            VS.Weapon.DISPLAY_MODE_FRAME;
+        let itemDisplayMode = mode === self.DISPLAY_MODE_DEFAULT ?
+            VS.Item.DISPLAY_MODE_DEFAULT :
+            VS.Item.DISPLAY_MODE_FRAME;
         char.weaponIds.forEach(weaponId => {
             // noinspection JSCheckFunctionSignatures Realistically, this can't actually return undefined.
-            VS.Weapon.render(VS.Weapon.get(weaponId), weapons, weaponDisplayMode, IMAGE_SCALE_CHAR_BOX);
+            VS.Item.render(VS.Weapon.get(weaponId), weapons, itemDisplayMode, IMAGE_SCALE_CHAR_BOX);
         });
 
         // The description, which is only visible in some modes.
