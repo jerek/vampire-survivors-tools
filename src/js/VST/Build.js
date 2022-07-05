@@ -30,6 +30,17 @@ VST.Build = new function () {
 
     /** @typedef {number[]} BuildIdList A sparse ID list. Indexes go to the entity's max - 1, and there can be gaps. */
 
+    /** @typedef {string} BuildSectionId An area of the build tool where a certain type of entity is managed. */
+
+    /**
+     * @typedef {Object} BuildSectionConfig
+     * @property {HTMLDivElement} container   The element containing the section.
+     * @property {HTMLDivElement} list        The element containing the list of entities.
+     * @property {string}         listHeading The text shown above the list.
+     * @property {HTMLDivElement} selected    The element containing the currently selected entities.
+     * @property {number}         [max]       The max number of entities that can be selected in this section.
+     */
+
     // ********************* //
     // ***** CONSTANTS ***** //
     // ********************* //
@@ -69,6 +80,56 @@ VST.Build = new function () {
     /** @type {string} The event type when the build changes. */
     const EVENT_CHANGED_BUILD = 'changed-build';
 
+    /** @type {BuildSectionId} */ const SECTION_ARCANAS = 'arcanas';
+    /** @type {BuildSectionId} */ const SECTION_CHARACTER = 'character';
+    /** @type {BuildSectionId} */ const SECTION_PASSIVES = 'passives';
+    /** @type {BuildSectionId} */ const SECTION_PASSIVES_BACKUP = 'passives-backup';
+    /** @type {BuildSectionId} */ const SECTION_STAGE = 'stage';
+    /** @type {BuildSectionId} */ const SECTION_WEAPONS = 'weapons';
+
+    /** @type {Object<BuildSectionId, BuildSectionConfig>} A map of section strings to their config and elements. */
+    const SECTIONS = {
+        [SECTION_ARCANAS]: {
+            container: undefined,
+            list: undefined,
+            listHeading: 'Arcanas',
+            max: self.ARCANAS_MAX,
+            selected: undefined,
+        },
+        [SECTION_CHARACTER]: {
+            container: undefined,
+            list: undefined,
+            listHeading: 'Character Selection',
+            selected: undefined,
+        },
+        [SECTION_PASSIVES]: {
+            container: undefined,
+            list: undefined,
+            listHeading: 'Passive Items',
+            max: self.PASSIVE_ITEMS_MAX,
+            selected: undefined,
+        },
+        [SECTION_PASSIVES_BACKUP]: {
+            container: undefined,
+            list: undefined,
+            listHeading: 'Backup Passive Items',
+            selected: undefined,
+        },
+        [SECTION_STAGE]: {
+            container: undefined,
+            list: undefined,
+            listHeading: 'Stage',
+            selected: undefined,
+        },
+        [SECTION_WEAPONS]: {
+            container: undefined,
+            list: undefined,
+            listHeading: 'Weapons',
+            max: self.WEAPONS_MAX,
+            selected: undefined,
+        },
+    };
+
     // ********************* //
     // ***** VARIABLES ***** //
     // ********************* //
@@ -80,50 +141,6 @@ VST.Build = new function () {
 
         /** @type {Object} References to various DOM elements. */
         elements: {
-            /** @type {HTMLDivElement} The element containing the list of arcanas. */
-            arcanasList: undefined,
-
-            /** @type {HTMLDivElement} The element containing the arcanas selection area. */
-            arcanasSection: undefined,
-
-            /** @type {HTMLDivElement} The element containing the list of characters. */
-            characterList: undefined,
-
-            /** @type {HTMLDivElement} The element containing the character selection area. */
-            characterSection: undefined,
-
-            /** @type {HTMLDivElement} The element containing the list of passive items. */
-            passiveItemsList: undefined,
-
-            /** @type {HTMLDivElement} The element containing the passive items selection area. */
-            passiveItemsSection: undefined,
-
-            /** @type {HTMLDivElement} The element containing the currently selected arcanas. */
-            selectedArcanas: undefined,
-
-            /** @type {HTMLDivElement} The element containing the currently selected character. */
-            selectedCharacter: undefined,
-
-            /** @type {HTMLDivElement} The element containing the currently selected passive items. */
-            selectedPassiveItems: undefined,
-
-            /** @type {HTMLDivElement} The element containing the currently selected stage. */
-            selectedStage: undefined,
-
-            /** @type {HTMLDivElement} The element containing the currently selected weapons. */
-            selectedWeapons: undefined,
-
-            /** @type {HTMLDivElement} The element containing the list of stages. */
-            stagesList: undefined,
-
-            /** @type {HTMLDivElement} The element containing the stage selection area. */
-            stageSection: undefined,
-
-            /** @type {HTMLDivElement} The element containing the list of weapons. */
-            weaponsList: undefined,
-
-            /** @type {HTMLDivElement} The element containing the weapons selection area. */
-            weaponsSection: undefined,
         },
     };
 
@@ -188,12 +205,15 @@ VST.Build = new function () {
     }
 
     /**
-     * Displays the character selection options in the main container.
+     * Displays the character section in the main container.
      */
-    function renderCharacterSelection() {
-        let section = renderSection('character', 'Character Selection');
+    function renderCharacterSection() {
+        let section = SECTIONS[SECTION_CHARACTER];
+        renderSectionContainer(SECTION_CHARACTER);
 
-        my.elements.characterList = DOM.ce('div', {className: 'vst-build-character-list'}, section);
+        section.list     = DOM.ce('div', {className: 'vst-build-character-list'    }, section.container);
+        section.selected = DOM.ce('div', {className: 'vst-build-selected-character'}, section.container);
+
         Character.getIds().forEach(characterId => {
             // noinspection JSValidateTypes Realistically, this can't actually return undefined.
             /** @type {CharacterData} */
@@ -203,7 +223,7 @@ VST.Build = new function () {
                 character,
                 Character.DISPLAY_MODE_DEFAULT,
                 'a',
-                my.elements.characterList,
+                section.list,
             );
             box.href = 'javascript:';
             box.addEventListener('click', setCharacter.bind(self.EMPTY_ID, characterId));
@@ -215,27 +235,23 @@ VST.Build = new function () {
                 box,
             );
         });
-
-        my.elements.selectedCharacter = DOM.ce('div', {className: 'vst-build-selected-character'}, section);
     }
 
     /**
      * Appends a new section wrapper to the main container and returns it.
      *
-     * @param {string} section
-     * @param {string} headingText
-     * @return {HTMLDivElement}
+     * @param {BuildSectionId} sectionId
      */
-    function renderSection(section, headingText) {
-        let wrapper = my.elements[`${section}Section`] = DOM.ce('section', {
+    function renderSectionContainer(sectionId) {
+        let section = SECTIONS[sectionId];
+
+        section.container = DOM.ce('section', {
             dataset: {
-                section: section,
+                section: sectionId,
             },
         }, Page.getContainer());
 
-        DOM.ce('h2', undefined, wrapper, DOM.ct(headingText));
-
-        return wrapper;
+        DOM.ce('h2', undefined, section.container, DOM.ct(section.listHeading));
     }
 
     /**
@@ -245,6 +261,8 @@ VST.Build = new function () {
      * @param {boolean} [fromBuild] Whether this is from a build, and therefore weapons should not be modified.
      */
     function setCharacter(characterId, fromBuild) {
+        let section = SECTIONS[SECTION_CHARACTER];
+
         let character;
         if (characterId !== self.EMPTY_ID) {
             character = Character.get(characterId);
@@ -257,16 +275,16 @@ VST.Build = new function () {
 
         my.build.character = characterId;
 
-        my.elements.characterSection.dataset.selected = JSON.stringify(!!characterId);
+        section.container.dataset.selected = JSON.stringify(!!characterId);
 
         // Update the selected character.
-        my.elements.selectedCharacter.innerHTML = '';
+        section.selected.innerHTML = '';
         if (character) {
             Character.renderBox(
                 character,
                 Character.DISPLAY_MODE_DETAILS,
                 'span',
-                my.elements.selectedCharacter,
+                section.selected,
                 'Change',
                 () => setCharacter(self.EMPTY_ID),
             );
