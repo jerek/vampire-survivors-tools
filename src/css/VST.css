@@ -354,7 +354,7 @@ a.vs-char-box:focus-visible:after {
 /* ****************** */
 
 /* Hide section headings when their data has been selected. */
-body[data-page="build"] .vst-container > section[data-selected="true"] > h2:first-child {
+body[data-page="build"] .vst-container > section[data-selected="true"] > h2 {
     display: none;
 }
 
