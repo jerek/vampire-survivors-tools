@@ -273,15 +273,6 @@ VST.Build = new function () {
         //     character.weaponIds.forEach(weaponId => setWeapon(weaponId));
         // }
 
-        let sections = Page.getContainer().querySelectorAll(':scope > section');
-        if (characterId === null) {
-            // Re-hide the other sections.
-            sections.forEach(section => section.style.display = 'none');
-        } else {
-            // Reveal any hidden sections.
-            sections.forEach(section => section.style.display = 'block');
-        }
-
         dispatchChangedBuildEvent();
     }
 };

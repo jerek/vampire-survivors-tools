@@ -358,15 +358,17 @@ body[data-page="build"] .vst-container > section[data-selected="true"] > h2 {
     display: none;
 }
 
-body[data-page="build"] section {display: none; margin: 10px 0}
+body[data-page="build"] section {margin: 10px 0}
+
+/* Sections other than characters are hidden until a character is selected. */
+section[data-section="character"]:not([data-selected="true"]) ~ section {display: none}
 
 /* ***************************** */
 /* ***** BUILDS: CHARACTER ***** */
 /* ***************************** */
 
 .vst-build-character-list {display: flex; flex-wrap: wrap; justify-content: center; padding-bottom: 20px}
-/* Unlike other sections, the character section is always shown. */
-section[data-section="character"] {display: block !important; margin-top: 50px !important}
+section[data-section="character"] {margin-top: 50px !important}
 section[data-section="character"] .vs-char-box[data-mode="default"] {margin: 5px}
 section[data-section="character"] .vst-build-selected-character {display: none}
 section[data-section="character"] .vst-build-selected-character .vs-char-box {margin: 0 auto}
