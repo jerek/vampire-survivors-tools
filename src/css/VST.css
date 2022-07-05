@@ -13,10 +13,10 @@
     --vs-button-border-size-px: 18px;
     --vs-char-bg-border-size: 5;
     --vs-char-bg-border-size-px: 5px;
+    --vs-char-weapon-frame-size: 42px;
+    --vs-char-weapon-frame-size-x2: 84px;
+    --vs-char-weapon-frame-size-x3: 126px;
     --vs-shadow: 2px 2px 5px #000;
-    --vs-weapon-frame-size: 42px;
-    --vs-weapon-frame-size-x2: 84px;
-    --vs-weapon-frame-size-x3: 126px;
     --vs-yellow: #fc6;
 
     /* Non-game variables. */
@@ -279,7 +279,7 @@ a.vs-char-box:focus-visible:after {
     left: 70px;
     right: auto;
     transform-origin: bottom;
-    width: var(--vs-weapon-frame-size);
+    width: var(--vs-char-weapon-frame-size);
 }
 
 /**
@@ -292,13 +292,13 @@ a.vs-char-box:focus-visible:after {
 .vs-char-box[data-mode="details"] > .vs-char-box-weapons[data-count="4"] {
     left: 40px;
     transform: scale(.7);
-    width: var(--vs-weapon-frame-size-x2);
+    width: var(--vs-char-weapon-frame-size-x2);
 }
 .vs-char-box[data-mode="details"] > .vs-char-box-weapons[data-count="5"],
 .vs-char-box[data-mode="details"] > .vs-char-box-weapons[data-count="6"] {
     left: 40px;
     transform: scale(.58);
-    width: var(--vs-weapon-frame-size-x2);
+    width: var(--vs-char-weapon-frame-size-x2);
 }
 .vs-char-box[data-mode="details"] > .vs-char-box-weapons[data-count="3"] > :first-child,
 .vs-char-box[data-mode="details"] > .vs-char-box-weapons[data-count="5"] > :first-child {
@@ -345,9 +345,9 @@ a.vs-char-box:focus-visible:after {
     align-items: center;
     background: url(../game-assets/img/UI/frameB.png) center / 100% 100%;
     display: flex;
-    height: var(--vs-weapon-frame-size);
+    height: var(--vs-char-weapon-frame-size);
     justify-content: center;
-    width: var(--vs-weapon-frame-size);
+    width: var(--vs-char-weapon-frame-size);
 }
 
 /* ****************** */
