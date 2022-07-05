@@ -11,6 +11,7 @@ VST.Build = new function () {
     const DOM = VST.DOM;
     const Page = VST.Page;
     const Util = VST.Util;
+    const VS = VST.VS;
 
     // *********************** //
     // ***** DEFINITIONS ***** //
@@ -35,6 +36,7 @@ VST.Build = new function () {
     /**
      * @typedef {Object} BuildSectionConfig
      * @property {HTMLDivElement} container   The element containing the section.
+     * @property {VsType}         entityType  The Vampire Survivors entity type that can be selected in this section.
      * @property {HTMLDivElement} list        The element containing the list of entities.
      * @property {string}         listHeading The text shown above the list.
      * @property {HTMLDivElement} selected    The element containing the currently selected entities.
@@ -91,6 +93,7 @@ VST.Build = new function () {
     const SECTIONS = {
         [SECTION_ARCANAS]: {
             container: undefined,
+            entityType: VS.TYPE_ARCANA,
             list: undefined,
             listHeading: 'Arcanas',
             max: self.ARCANAS_MAX,
@@ -98,12 +101,14 @@ VST.Build = new function () {
         },
         [SECTION_CHARACTER]: {
             container: undefined,
+            entityType: VS.TYPE_CHARACTER,
             list: undefined,
             listHeading: 'Character Selection',
             selected: undefined,
         },
         [SECTION_PASSIVES]: {
             container: undefined,
+            entityType: VS.TYPE_PASSIVE,
             list: undefined,
             listHeading: 'Passive Items',
             max: self.PASSIVE_ITEMS_MAX,
@@ -111,18 +116,21 @@ VST.Build = new function () {
         },
         [SECTION_PASSIVES_BACKUP]: {
             container: undefined,
+            entityType: VS.TYPE_PASSIVE,
             list: undefined,
             listHeading: 'Backup Passive Items',
             selected: undefined,
         },
         [SECTION_STAGE]: {
             container: undefined,
+            entityType: VS.TYPE_STAGE,
             list: undefined,
             listHeading: 'Stage',
             selected: undefined,
         },
         [SECTION_WEAPONS]: {
             container: undefined,
+            entityType: VS.TYPE_WEAPON,
             list: undefined,
             listHeading: 'Weapons',
             max: self.WEAPONS_MAX,
