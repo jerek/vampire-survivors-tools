@@ -267,7 +267,8 @@ a.vs-char-box:focus-visible:after {
     right: 11px;
     top: 0;
 }
-.vs-item {display: contents}
+.vs-item[data-mode="default"] {display: contents}
+.vs-item:not([data-mode="default"]) {align-items: center; display: flex; justify-content: center}
 .vs-char-box-weapons[data-count="2"] .vs-item-image {margin: 2px 0 0 2px}
 .vs-char-box-button {bottom: 7px; position: absolute; right: 7px}
 
@@ -355,11 +356,8 @@ a.vs-char-box:focus-visible:after {
 /* ***************** */
 
 .vs-item[data-mode="frame"], .vst-build-selected-items-item:empty {
-    align-items: center;
     background: url(../game-assets/img/UI/frameB.png) center / 100% 100%;
-    display: flex;
     height: var(--vs-char-weapon-frame-size);
-    justify-content: center;
     width: var(--vs-char-weapon-frame-size);
 }
 
