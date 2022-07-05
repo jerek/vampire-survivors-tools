@@ -19,7 +19,8 @@
     --vs-weapon-frame-size-x3: 126px;
     --vs-yellow: #fc6;
 
-    /* Tool-specific variables */
+    /* Non-game variables. */
+    --build-tool-margin: 50px;
     --page-padding: 20px;
 }
 
@@ -359,6 +360,10 @@ body[data-page="build"] .vst-container > section[data-selected="true"] > h2 {
 }
 
 body[data-page="build"] section {margin: 10px 0}
+section[data-section="character"] {display: block; margin-top: var(--build-tool-margin) !important}
+section[data-section="character"][data-selected="true"] ~ section:last-child {
+    margin-bottom: var(--build-tool-margin) !important;
+}
 
 /* Sections other than characters are hidden until a character is selected. */
 section[data-section="character"]:not([data-selected="true"]) ~ section {display: none}
@@ -368,7 +373,6 @@ section[data-section="character"]:not([data-selected="true"]) ~ section {display
 /* ***************************** */
 
 .vst-build-character-list {display: flex; flex-wrap: wrap; justify-content: center; padding-bottom: 20px}
-section[data-section="character"] {margin-top: 50px !important}
 section[data-section="character"] .vs-char-box[data-mode="default"] {margin: 5px}
 section[data-section="character"] .vst-build-selected-character {display: none}
 section[data-section="character"] .vst-build-selected-character .vs-char-box {margin: 0 auto}
