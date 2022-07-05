@@ -19,7 +19,7 @@ VST.Build.Hash = new function () {
     const BUILD_PATH = '/build';
 
     /** @type {string} The string used to encode & decode information in the hash to save and load builds. */
-    const ENCODE_STRING = '0zxcvbnmasdfghjklqwertyuipZXCVBNMASDFGHJKLQWERTYUIOP123456789';
+    const ENCODE_STRING = '0zxcvbnmsdfghjklqwrtypZXCVBNMSDFGHJKLQWRTYP123456789';
 
     /** @type {string} The character separating different parts of the hash. */
     const DELIMITER = '-';
