@@ -328,6 +328,7 @@ VST.Build = new function () {
                 undefined,
                 'a',
             );
+            box.dataset.id = entityId.toString();
             box.href = 'javascript:';
             box.addEventListener('click', () => {
                 let success = setItem(sectionId, entityId);
@@ -467,6 +468,11 @@ VST.Build = new function () {
             }
         }
 
+        // If we're clearing or replacing a slot, set the item that was here to no longer appear selected.
+        if (my.build[sectionId][slot] !== self.EMPTY_ID) {
+            setSelected(section, my.build[sectionId][slot], false);
+        }
+
         // Set the item in the build.
         my.build[sectionId][slot] = itemId;
 
@@ -478,6 +484,17 @@ VST.Build = new function () {
         debug('Success');
 
         return true;
+    }
+
+    /**
+     * Enable or disable the styles for an item in a list being selected.
+     *
+     * @param {BuildSectionConfig} section
+     * @param {number}             itemId
+     * @param {boolean}            selected
+     */
+    function setSelected(section, itemId, selected) {
+        section.list.querySelector('.vs-item[data-id="' + itemId + '"]').dataset.selected = JSON.stringify(selected);
     }
 
     /**
@@ -504,6 +521,11 @@ VST.Build = new function () {
         slotElement.innerHTML = '';
         if (item) {
             Item.render(item, slotElement, Item.DISPLAY_MODE_EQUIPPED, Item.SELECTED_SCALE);
+        }
+
+        if (item) {
+            // Update the item's style in the list.
+            setSelected(section, item.id, true);
         }
 
         // TODO: Update evolution indicators

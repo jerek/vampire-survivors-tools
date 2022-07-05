@@ -433,5 +433,26 @@ section[data-section="character"][data-selected="true"] .vst-build-selected-char
 
 section[data-selected="true"] .vst-build-items-list {display: none}
 .vst-build-items-list {display: flex; flex-wrap: wrap; justify-content: center}
-.vst-build-items-list .vs-item {margin: 2px}
+.vst-build-items-list .vs-item {margin: 2px; position: relative; transition: opacity 150ms, filter 150ms}
+.vst-build-items-list .vs-item[data-selected="true"] {opacity: .5}
+.vst-build-items-list .vs-item[data-selected="true"] * {filter: grayscale(1) brightness(0.65)}
+.vst-build-items-list .vs-item:after {
+    /* The selection indicators in the corners. */
+    --border-size: 7;
+    --border-size-px: 12px;
+    --offset: -2px;
+    border: var(--border-size-px) solid transparent;
+    border-image: url(../game-assets/img/UI/selectionSquareActive_01.png) var(--border-size) fill;
+    bottom: var(--offset);
+    content: "";
+    display: block;
+    left: var(--offset);
+    opacity: 0;
+    pointer-events: none;
+    position: absolute;
+    right: var(--offset);
+    top: var(--offset);
+    transition: 150ms;
+}
+.vst-build-items-list .vs-item[data-selected="true"]:after {opacity: 1}
 .vst-build-items-list .vs-item[data-animation="error"] {animation: actionError 300ms}
