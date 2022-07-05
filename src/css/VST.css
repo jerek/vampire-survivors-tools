@@ -37,6 +37,11 @@
     100% {filter: sepia(100%) brightness(50%) saturate(500%) hue-rotate(290deg)}
 }
 
+@keyframes fadeIn {
+    0% {opacity: 0}
+    100% {opacity: 1}
+}
+
 /* *************************** */
 /* ***** GLOBAL ELEMENTS ***** */
 /* *************************** */
@@ -398,6 +403,7 @@ section[data-section="character"][data-selected="true"] .vst-build-selected-char
 
 .vst-build-selected-items {display: flex; flex-wrap: wrap; justify-content: center}
 .vst-build-selected-items-item {height: 64px !important; margin: 2px; width: 64px !important}
+.vst-build-selected-items .vs-item-image {animation: fadeIn 150ms}
 .vst-build-selected-items-item:not(:empty) {cursor: pointer}
 
 section[data-selected="true"] .vst-build-items-list {display: none}
