@@ -245,7 +245,7 @@ VST.Build = new function () {
         // Arcanas
         // TODO
 
-        // Stage
+        // Stage / Stage In Hash
         // TODO
     };
 
