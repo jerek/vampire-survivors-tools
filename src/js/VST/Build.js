@@ -526,7 +526,7 @@ VST.Build = new function () {
         }
 
         // If we're clearing or replacing a slot, set the item that was here to no longer appear selected.
-        if (my.build[sectionId][slot] !== self.EMPTY_ID) {
+        if (typeof my.build[sectionId][slot] === 'number' && my.build[sectionId][slot] !== self.EMPTY_ID) {
             setSelected(section, my.build[sectionId][slot], false);
         }
 
