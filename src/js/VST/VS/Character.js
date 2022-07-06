@@ -102,11 +102,16 @@ VST.VS.Character = new function () {
         image.classList.add(`${baseClass}-image`);
 
         // The weapons the character can equip.
-        let weapons = DOM.ce('span', {className: `${baseClass}-weapons`, dataset: {count: char.weaponIds.length}}, box);
+        let weapons = DOM.ce('span', {
+            className: `${baseClass}-weapons`,
+            dataset: {
+                count: (char.weaponIds || []).length,
+            },
+        }, box);
         let itemDisplayMode = mode === self.DISPLAY_MODE_DEFAULT ?
             VS.Item.DISPLAY_MODE_DEFAULT :
             VS.Item.DISPLAY_MODE_FRAME;
-        char.weaponIds.forEach(weaponId => {
+        (char.weaponIds || []).forEach(weaponId => {
             // noinspection JSCheckFunctionSignatures Realistically, this can't actually return undefined.
             VS.Item.render(VS.Weapon.get(weaponId), weapons, itemDisplayMode, IMAGE_SCALE_CHAR_BOX);
         });

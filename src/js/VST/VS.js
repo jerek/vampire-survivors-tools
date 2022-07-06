@@ -20,15 +20,15 @@ VST.VS = new function () {
 
     /**
      * @typedef {Object} CharacterData Data describing a character.
-     * @property {CharacterId}  id          This MUST NOT change, because it's used in the URL for saved builds.
-     * @property {string}       name        The character's common name.
-     * @property {string}       description The character's in-game description.
-     * @property {PassiveId[]}  passiveIds  The passive items the character starts with.
-     * @property {VsSpriteFunc} spriteAlt   The sprite that the filename exists in, if different from "characters".
-     * @property {string}       spriteName  The filename of the character's image within the "characters" sprite.
-     * @property {WeaponId[]}   weaponIds   The weapons the character starts with.
-     * @property {string}       [prefix]    Text shown before the character's name when showing their full name.
-     * @property {string}       [surname]   Text shown after the character's name when showing their full name.
+     * @property {CharacterId}  id           This MUST NOT change, because it's used in the URL for saved builds.
+     * @property {string}       name         The character's common name.
+     * @property {string}       description  The character's in-game description.
+     * @property {VsSpriteFunc} spriteAlt    The sprite that the filename exists in, if different from "characters".
+     * @property {string}       spriteName   The filename of the character's image within the "characters" sprite.
+     * @property {PassiveId[]}  [passiveIds] The passive items the character starts with.
+     * @property {string}       [prefix]     Text shown before the character's name when showing their full name.
+     * @property {string}       [surname]    Text shown after the character's name when showing their full name.
+     * @property {WeaponId[]}   [weaponIds]  The weapons the character starts with.
      */
 
     /** @typedef {number} CharacterId A character's ID. */
