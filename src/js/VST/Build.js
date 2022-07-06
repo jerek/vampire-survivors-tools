@@ -24,6 +24,7 @@ VST.Build = new function () {
      * @typedef {Object} Build All data describing a build.
      * @property {BuildIdList} arcanas         A list of the selected arcanas' IDs.
      * @property {number}      character       The ID of the currently selected character.
+     * @property {number}      maxWeapons      The maximum number of weapons allowed in the build.
      * @property {BuildIdList} passives        A list of the selected passive items' IDs.
      * @property {BuildIdList} passives-backup A list of the selected backup passive items' IDs, which will
      *                                         automatically replace passives based on what's on the stage.
@@ -75,6 +76,7 @@ VST.Build = new function () {
     const EMPTY_BUILD = {
         arcanas: [],
         character: this.EMPTY_ID,
+        maxWeapons: 6,
         passives: [],
         'passives-backup': [],
         stage: this.EMPTY_ID,
@@ -208,6 +210,9 @@ VST.Build = new function () {
 
         // Character
         setCharacter(build.character, true);
+
+        // Max Weapons
+        // TODO: update max weapons display
 
         // Weapons
         for (let slot = 0; slot < self.WEAPONS_MAX; slot++) {

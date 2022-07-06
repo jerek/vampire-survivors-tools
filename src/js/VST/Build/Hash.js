@@ -196,6 +196,18 @@ VST.Build.Hash = new function () {
             return;
         }
 
+        //             //
+        // Max Weapons //
+        //             //
+
+        VST.debug('Checking the hash for the max weapon count.');
+        let maxWeapons = values.shift() || Build.WEAPONS_MAX;
+        if (maxWeapons > Build.WEAPONS_MAX) {
+            invalid('max weapons', maxWeapons);
+
+            return;
+        }
+
         //         //
         // Weapons //
         //         //
@@ -308,6 +320,7 @@ VST.Build.Hash = new function () {
         return {
             arcanas: arcanaIds,
             character: characterId,
+            maxWeapons: maxWeapons,
             passives: passiveItemIds,
             'passives-backup': passiveItemBackupIds,
             stage: stageId,
@@ -343,6 +356,12 @@ VST.Build.Hash = new function () {
         //           //
 
         values.push(build.character);
+
+        //             //
+        // Max Weapons //
+        //             //
+
+        values.push(build.maxWeapons);
 
         //         //
         // Weapons //
