@@ -79,10 +79,15 @@ VST.VS.Item = new function () {
             style: style,
         }, appendTo);
 
-        let image = Img.createImage(Img.ITEMS, item.frameName, wrapper, scale);
+        let setImagePos = image => {
+            image.style.top = 'calc(50% - ' + parseInt(image.style.height) / 2 + 'px' + ')';
+            image.style.left = 'calc(50% - ' + parseInt(image.style.width) / 2 + 'px' + ')';
+        };
+        let image = Img.createImage(Img.ITEMS, item.frameName, wrapper, scale, setImagePos);
         image.classList.add(`${baseClass}-image`);
         image.style.height = style.height;
         image.style.width = style.width;
+        setImagePos(image);
 
         return wrapper;
     };

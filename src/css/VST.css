@@ -272,8 +272,10 @@ a.vs-char-box:focus-visible:after {
     right: 11px;
     top: 0;
 }
+.vs-item {display: block}
 .vs-item[data-mode="default"] {display: contents}
-.vs-item:not([data-mode="default"]) {align-items: center; display: flex; justify-content: center}
+.vs-item:not([data-mode="default"]) {position: relative}
+.vs-item:not([data-mode="default"]) .vs-item-image {position: absolute}
 .vs-char-box-weapons[data-count="2"] .vs-item-image {margin: 2px 0 0 2px}
 .vs-char-box-button {bottom: 7px; position: absolute; right: 7px}
 
