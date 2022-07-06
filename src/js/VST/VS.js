@@ -23,6 +23,7 @@ VST.VS = new function () {
      * @property {CharacterId}  id          This MUST NOT change, because it's used in the URL for saved builds.
      * @property {string}       name        The character's common name.
      * @property {string}       description The character's in-game description.
+     * @property {PassiveId[]}  passiveIds  The passive items the character starts with.
      * @property {VsSpriteFunc} spriteAlt   The sprite that the filename exists in, if different from "characters".
      * @property {string}       spriteName  The filename of the character's image within the "characters" sprite.
      * @property {WeaponId[]}   weaponIds   The weapons the character starts with.
@@ -394,10 +395,10 @@ VST.VS = new function () {
             prefix: 'Iguana',
             weaponIds: [WEAPON_ID_CLOCK_LANCET],
         },
-        // 22: {name: 'LATODISOTTO', description: 'LATOEVEST', weaponIds: [PASSIVE_ID_DUPLICATOR]},
-        // 23: {name: 'LATOEVEST  ', description: '', weaponIds: [PASSIVE_ID_DUPLICATOR]},
-        // 24: {name: 'LATODILATO ', description: 'MARIANNA', weaponIds: [PASSIVE_ID_DUPLICATOR]},
-        // 25: {name: 'LATOEVEST  ', description: 'SIGMA', weaponIds: [PASSIVE_ID_DUPLICATOR]},
+        // 22: {name: 'LATODISOTTO', description: 'LATOEVEST', passiveIds: [PASSIVE_ID_DUPLICATOR]},
+        // 23: {name: 'LATOEVEST  ', description: '', passiveIds: [PASSIVE_ID_DUPLICATOR]},
+        // 24: {name: 'LATODILATO ', description: 'MARIANNA', passiveIds: [PASSIVE_ID_DUPLICATOR]},
+        // 25: {name: 'LATOEVEST  ', description: 'SIGMA', passiveIds: [PASSIVE_ID_DUPLICATOR]},
         26: {
             name: 'Divano',
             surname: 'Thelma',
@@ -412,11 +413,11 @@ VST.VS = new function () {
             spriteName: 'Assunta_01.png',
             weaponIds: [WEAPON_ID_VENTO_SACRO],
         },
-        // 28: {name: 'LATODISOPRO', description: '', weaponIds: [PASSIVE_ID_DUPLICATOR]},
-        // 29: {name: 'LATODISOTTO', description: 'ODDEEO', weaponIds: [PASSIVE_ID_DUPLICATOR]},
-        // 30: {name: 'LATODISOTTO', description: 'VOID', weaponIds: [PASSIVE_ID_DUPLICATOR]},
-        // 31: {name: 'LATODILATO ', description: 'RED', weaponIds: [PASSIVE_ID_DUPLICATOR]},
-        // 32: {name: '', description: 'IOLO', weaponIds: [PASSIVE_ID_DUPLICATOR]},
+        // 28: {name: 'LATODISOPRO', description: '', passiveIds: [PASSIVE_ID_DUPLICATOR]},
+        // 29: {name: 'LATODISOTTO', description: 'ODDEEO', passiveIds: [PASSIVE_ID_DUPLICATOR]},
+        // 30: {name: 'LATODISOTTO', description: 'VOID', passiveIds: [PASSIVE_ID_DUPLICATOR]},
+        // 31: {name: 'LATODILATO ', description: 'RED', passiveIds: [PASSIVE_ID_DUPLICATOR]},
+        // 32: {name: '', description: 'IOLO', passiveIds: [PASSIVE_ID_DUPLICATOR]},
         33: {
             name: 'Exdash',
             surname: 'Exiviiq',
@@ -444,9 +445,9 @@ VST.VS = new function () {
             prefix: 'Boon',
             weaponIds: [WEAPON_ID_THOUSAND_EDGE],
         },
-        // 37: {name: 'LATODILATO ', description: '', weaponIds: [PASSIVE_ID_DUPLICATOR]},
-        // 38: {name: 'LATODISOTTO', description: 'FINO', weaponIds: [PASSIVE_ID_DUPLICATOR]},
-        // 39: {name: 'LATODILATO ', description: 'LATODILATO', weaponIds: [PASSIVE_ID_DUPLICATOR]},
+        // 37: {name: 'LATODILATO ', description: '', passiveIds: [PASSIVE_ID_DUPLICATOR]},
+        // 38: {name: 'LATODISOTTO', description: 'FINO', passiveIds: [PASSIVE_ID_DUPLICATOR]},
+        // 39: {name: 'LATODILATO ', description: 'LATODILATO', passiveIds: [PASSIVE_ID_DUPLICATOR]},
         40: {
             name: 'Minnah',
             surname: 'Mannarah',
@@ -468,16 +469,16 @@ VST.VS = new function () {
             prefix: 'Mask of the',
             weaponIds: [WEAPON_ID_DEATH_SPIRAL],
         },
-        // 43: {name: 'LATODISOTTO', description: 'DEATH', weaponIds: [PASSIVE_ID_DUPLICATOR]},
-        // 44: {name: 'LATODILATO ', description: '', weaponIds: [PASSIVE_ID_DUPLICATOR]},
-        // 45: {name: 'LATODISOTTO', description: '', weaponIds: [PASSIVE_ID_DUPLICATOR]},
-        // 46: {name: 'LATOEVEST  ', description: '', weaponIds: [PASSIVE_ID_DUPLICATOR]},
-        // 47: {name: 'LATODISOTTO', description: '', weaponIds: [PASSIVE_ID_DUPLICATOR]},
-        // 48: {name: 'LATOEVEST  ', description: '', weaponIds: [PASSIVE_ID_DUPLICATOR]},
-        // 49: {name: 'LATODILATO ', description: 'PENTA', weaponIds: [PASSIVE_ID_DUPLICATOR]},
-        // 50: {name: 'LATODILATO ', description: '', weaponIds: [PASSIVE_ID_DUPLICATOR]},
-        // 51: {name: 'LATODILATO ', description: '', weaponIds: [PASSIVE_ID_DUPLICATOR]},
-        // 52: {name: 'LATODISOPRO', description: '', weaponIds: [PASSIVE_ID_DUPLICATOR]},
+        // 43: {name: 'LATODISOTTO', description: 'DEATH', passiveIds: [PASSIVE_ID_DUPLICATOR]},
+        // 44: {name: 'LATODILATO ', description: '', passiveIds: [PASSIVE_ID_DUPLICATOR]},
+        // 45: {name: 'LATODISOTTO', description: '', passiveIds: [PASSIVE_ID_DUPLICATOR]},
+        // 46: {name: 'LATOEVEST  ', description: '', passiveIds: [PASSIVE_ID_DUPLICATOR]},
+        // 47: {name: 'LATODISOTTO', description: '', passiveIds: [PASSIVE_ID_DUPLICATOR]},
+        // 48: {name: 'LATOEVEST  ', description: '', passiveIds: [PASSIVE_ID_DUPLICATOR]},
+        // 49: {name: 'LATODILATO ', description: 'PENTA', passiveIds: [PASSIVE_ID_DUPLICATOR]},
+        // 50: {name: 'LATODILATO ', description: '', passiveIds: [PASSIVE_ID_DUPLICATOR]},
+        // 51: {name: 'LATODILATO ', description: '', passiveIds: [PASSIVE_ID_DUPLICATOR]},
+        // 52: {name: 'LATODISOPRO', description: '', passiveIds: [PASSIVE_ID_DUPLICATOR]},
     };
 
     // noinspection JSValidateTypes IDs are filled below in init(), so ignore warnings here.
