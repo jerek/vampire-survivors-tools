@@ -23,6 +23,7 @@ VST.VS = new function () {
      * @property {CharacterId}  id           This MUST NOT change, because it's used in the URL for saved builds.
      * @property {string}       name         The character's common name.
      * @property {string}       description  The character's in-game description.
+     * @property {number}       order        The order that this character is shown in.
      * @property {VsSpriteFunc} spriteAlt    The sprite that the filename exists in, if different from "characters".
      * @property {string}       spriteName   The filename of the character's image within the "characters" sprite.
      * @property {PassiveId[]}  [passiveIds] The passive items the character starts with.
@@ -111,11 +112,11 @@ VST.VS = new function () {
     /** @type {PassiveId} */ const PASSIVE_ID_STONE_MASK = 14;
     /** @type {PassiveId} */ const PASSIVE_ID_SKULL_O_MANIAC = 15;
     /** @type {PassiveId} */ const PASSIVE_ID_TIRAGISU = 16;
-    /** @type {PassiveId} */ const PASSIVE_ID_SILVER_RING = 17;
-    /** @type {PassiveId} */ const PASSIVE_ID_GOLD_RING = 18;
-    /** @type {PassiveId} */ const PASSIVE_ID_METAGLIO_LEFT = 19;
-    /** @type {PassiveId} */ const PASSIVE_ID_METAGLIO_RIGHT = 20;
-    /** @type {PassiveId} */ const PASSIVE_ID_TORRONAS_BOX = 21;
+    /** @type {PassiveId} */ const PASSIVE_ID_TORRONAS_BOX = 17;
+    /** @type {PassiveId} */ const PASSIVE_ID_SILVER_RING = 18;
+    /** @type {PassiveId} */ const PASSIVE_ID_GOLD_RING = 19;
+    /** @type {PassiveId} */ const PASSIVE_ID_METAGLIO_LEFT = 20;
+    /** @type {PassiveId} */ const PASSIVE_ID_METAGLIO_RIGHT = 21;
 
     // Weapons have constants since they're referred to by ID in multiple places.
     /** @type {WeaponId} */ const WEAPON_ID_WHIP = 1;
@@ -164,6 +165,7 @@ VST.VS = new function () {
     /** @type {WeaponId} */ const WEAPON_ID_CHERRY_BOMB = 44;
     /** @type {WeaponId} */ const WEAPON_ID_CARRELLO = 45;
     /** @type {WeaponId} */ const WEAPON_ID_CELESTIAL_DUSTING = 46;
+    /** @type {WeaponId} */ const WEAPON_ID_LA_ROBBA = 47;
 
     // =========== //
     // DATA STORES //
@@ -253,6 +255,7 @@ VST.VS = new function () {
             name: 'Antonio',
             surname: 'Belpaese',
             description: 'Gains 10% more damage every 10 levels (max +50%).',
+            order: 1,
             spriteName: 'newAntonio_01.png',
             weaponIds: [WEAPON_ID_WHIP],
         },
@@ -260,6 +263,7 @@ VST.VS = new function () {
             name: 'Imelda',
             surname: 'Belpaese',
             description: 'Gains 10% more experience every 5 levels (max +30%).',
+            order: 2,
             spriteName: 'newImelda_01.png',
             weaponIds: [WEAPON_ID_MAGIC_WAND],
         },
@@ -267,6 +271,7 @@ VST.VS = new function () {
             name: 'Pasqualina',
             surname: 'Belpaese',
             description: 'Projectiles get 10% faster every 5 levels (max +30%).',
+            order: 3,
             spriteName: 'newPasqualina_01.png',
             weaponIds: [WEAPON_ID_RUNETRACER],
         },
@@ -274,6 +279,7 @@ VST.VS = new function () {
             name: 'Gennaro',
             surname: 'Belpaese',
             description: 'Permanent +1 projectile (all weapons).',
+            order: 4,
             spriteName: 'newGennaro_01.png',
             weaponIds: [WEAPON_ID_KNIFE],
         },
@@ -281,27 +287,31 @@ VST.VS = new function () {
             name: 'Arca',
             surname: 'Ladonna',
             description: 'Weapon cooldown is reduced by 5% every 10 levels (max -15%).',
-            spriteName: 'Arca_01.png',
+            order: 5,
+            spriteName: 'newArca_01.png',
             weaponIds: [WEAPON_ID_FIRE_WAND],
         },
         6: {
             name: 'Porta',
             surname: 'Ladonna',
             description: 'Permanent +30% area. Starts with temporary cooldown bonus.',
-            spriteName: 'Porta_01.png',
+            order: 6,
+            spriteName: 'newPorta_01.png',
             weaponIds: [WEAPON_ID_LIGHTNING_RING],
         },
         7: {
             name: 'Lama',
             surname: 'Ladonna',
             description: 'Gains +5% Might, MoveSpeed, and Curse every 10 levels (max +20%).',
-            spriteName: 'Lama_01.png',
+            order: 7,
+            spriteName: 'newLama_01.png',
             weaponIds: [WEAPON_ID_AXE],
         },
         8: {
             name: 'Poe',
             surname: 'Ratcho',
             description: 'Permanent +25% pickup radius and -30 max health.',
+            order: 8,
             spriteName: 'Old3_01.png',
             weaponIds: [WEAPON_ID_GARLIC],
         },
@@ -309,12 +319,14 @@ VST.VS = new function () {
             name: 'Clerici',
             description: 'Permanent +0.5 HP/s and +50 Max Health. Starts with temporary area bonus.',
             spriteName: 'Suora_01.png',
+            order: 9,
             prefix: 'Suor',
             weaponIds: [WEAPON_ID_SANTA_WATER],
         },
         10: {
             name: 'Dommario',
             description: 'Permanent +40% duration and speed, -40% move speed.',
+            order: 10,
             spriteName: 'Dommario_01.png',
             weaponIds: [WEAPON_ID_KING_BIBLE],
         },
@@ -322,6 +334,7 @@ VST.VS = new function () {
             name: 'Krochi',
             surname: 'Freetto',
             description: 'Starts with 1 Revival. Gains 1 more Revival at level 33.',
+            order: 11,
             spriteName: 'Krochi_01.png',
             weaponIds: [WEAPON_ID_CROSS],
         },
@@ -329,6 +342,7 @@ VST.VS = new function () {
             name: 'Christine',
             surname: 'Davain',
             description: 'Starts with 1 extra level.',
+            order: 12,
             spriteName: 'Christine_01.png',
             weaponIds: [WEAPON_ID_PENTAGRAM],
         },
@@ -336,6 +350,7 @@ VST.VS = new function () {
             name: 'Pugnala',
             surname: 'Provola',
             description: 'Gains +1% Might every level.',
+            order: 13,
             spriteName: 'Pugnala_01.png',
             weaponIds: [WEAPON_ID_PHIERA_DER_TUPHELLO, WEAPON_ID_EIGHT_THE_SPARROW],
         },
@@ -343,6 +358,7 @@ VST.VS = new function () {
             name: 'Giovanna',
             surname: 'Grana',
             description: 'Gains +1% Projectile Speed every level.',
+            order: 14,
             spriteName: 'Giovanna_01.png',
             weaponIds: [WEAPON_ID_GATTI_AMARI],
         },
@@ -350,6 +366,7 @@ VST.VS = new function () {
             name: 'Poppea',
             surname: 'Pecorina',
             description: 'Gains +1% Duration every level.',
+            order: 15,
             spriteName: 'Poppea_01.png',
             weaponIds: [WEAPON_ID_SONG_OF_MANA],
         },
@@ -357,18 +374,21 @@ VST.VS = new function () {
             name: 'Concetta',
             surname: 'Caciotta',
             description: 'Gains +1% Area every level.',
+            order: 16,
             spriteName: 'Concetta_i01.png',
             weaponIds: [WEAPON_ID_SHADOW_PINION],
         },
         17: {
             name: 'Mortaccio',
             description: 'Gets more projectiles every 20 levels (max+3).',
+            order: 17,
             spriteName: 'Mortaccio_01.png',
             weaponIds: [WEAPON_ID_BONE],
         },
         18: {
             name: 'Cavallo',
             description: 'Gets more projectiles every 20 levels (max+3).',
+            order: 18,
             spriteName: 'Cavallo_01.png',
             prefix: 'Yatta',
             weaponIds: [WEAPON_ID_CHERRY_BOMB],
@@ -376,6 +396,7 @@ VST.VS = new function () {
         19: {
             name: 'Ramba',
             description: 'Gets more projectiles every 20 levels (max+3).',
+            order: 19,
             spriteName: 'Ramba_01.png',
             prefix: 'Bianca',
             weaponIds: [WEAPON_ID_CARRELLO],
@@ -384,91 +405,121 @@ VST.VS = new function () {
             name: 'O\'Sole',
             surname: 'Meeo',
             description: 'Gets more projectiles every 20 levels (max+3).',
+            order: 20,
             spriteName: 'Dog_01.png',
             weaponIds: [WEAPON_ID_CELESTIAL_DUSTING],
         },
         21: {
+            name: 'Ambrojoe',
+            description: 'Gets more projectiles every 20 levels (max+3). Starts with temporary Amount bonus.',
+            order: 21,
+            prefix: 'Sir',
+            spriteName: 'Hat_01.png',
+            weaponIds: [WEAPON_ID_LA_ROBBA],
+        },
+        22: {
             name: 'Gallo',
             surname: 'Valletto',
             description: 'Starts with 1 extra level. Gains +10% Growth every 5 levels (max +50%).',
+            order: 22,
             spriteName: 'Gallo_01.png',
             prefix: 'Iguana',
             weaponIds: [WEAPON_ID_CLOCK_LANCET],
         },
+        23: {
+            name: 'Divano',
+            surname: 'Thelma',
+            description: 'Starts with 1 extra level. Gains +1 Armor every 5 levels (max +5).',
+            order: 23,
+            spriteName: 'Divano_01.png',
+            weaponIds: [WEAPON_ID_LAUREL],
+        },
+        24: {
+            name: 'Zi\'Assunta',
+            surname: 'Belpaese',
+            description: 'Gains +0.5% Might, projectile Speed, Duration, and Area every level.',
+            order: 24,
+            spriteName: 'newAssunta_01.png',
+            weaponIds: [WEAPON_ID_VENTO_SACRO],
+        },
+        25: {
+            name: 'Exdash',
+            surname: 'Exiviiq',
+            description: 'At least they\'re lucky.',
+            order: 25,
+            spriteName: 'Exdash_01.png',
+            weaponIds: [WEAPON_ID_EBONY_WINGS],
+        },
+        26: {
+            name: 'Toastie',
+            description: 'So much potential.',
+            order: 26,
+            spriteName: 'uExdash_01.png',
+            weaponIds: [WEAPON_ID_PEACHONE],
+        },
+        27: {
+            name: 'Smith',
+            surname: 'IV',
+            description: 'The quirky white bear.',
+            order: 27,
+            spriteName: 'nExdash_01.png',
+            weaponIds: [WEAPON_ID_VANDALIER],
+        },
+        28: {
+            name: 'Marrabbio',
+            description: '',
+            order: 28,
+            spriteName: 'Marrabbio_01.png',
+            prefix: 'Boon',
+            weaponIds: [WEAPON_ID_THOUSAND_EDGE],
+        },
+        29: {
+            name: 'Minnah',
+            surname: 'Mannarah',
+            description: 'Might, projectile Speed, Duration, Area, and Cooldown change every minute.',
+            order: 29,
+            spriteName: 'Minnah_01.png',
+            weaponIds: [WEAPON_ID_BLOODY_TEAR],
+        },
+        30: {
+            name: 'Leda',
+            description: '',
+            spriteAlt: () => self.Img.ENEMIES_2,
+            order: 30,
+            spriteName: 'XLLeda_i01.png',
+            weaponIds: [WEAPON_ID_HOLY_WAND],
+        },
+        31: {
+            name: 'Peppino',
+            description: 'Starts with temporarily reduced area.',
+            order: 31,
+            spriteName: 'Peppino_01.png',
+            weaponIds: [WEAPON_ID_SOUL_EATER],
+        },
+        32: {
+            name: 'Red Death',
+            description: 'A blasphemous mockery.',
+            order: 32,
+            spriteName: 'XLReaper_i01.png',
+            prefix: 'Mask of the',
+            weaponIds: [WEAPON_ID_DEATH_SPIRAL],
+        },
+        // There's some weird extra character data in the game files. Initially I included it all (just commented out),
+        // in the hopes that it would lead to something interesting. After the initial update of 0.7.2 => 0.7.360, it
+        // doesn't look like that'll pay off. So I'm going to keep an eye on this data in future patches, but basically
+        // just leave this data here to rot and remind me to watch for anything meaningful.
         // 22: {name: 'LATODISOTTO', description: 'LATOEVEST', passiveIds: [PASSIVE_ID_DUPLICATOR]},
         // 23: {name: 'LATOEVEST  ', description: '', passiveIds: [PASSIVE_ID_DUPLICATOR]},
         // 24: {name: 'LATODILATO ', description: 'MARIANNA', passiveIds: [PASSIVE_ID_DUPLICATOR]},
         // 25: {name: 'LATOEVEST  ', description: 'SIGMA', passiveIds: [PASSIVE_ID_DUPLICATOR]},
-        26: {
-            name: 'Divano',
-            surname: 'Thelma',
-            description: 'Starts with 1 extra level. Gains +1 Armor every 5 levels (max +5).',
-            spriteName: 'Divano_01.png',
-            weaponIds: [WEAPON_ID_LAUREL],
-        },
-        27: {
-            name: 'Zi\'Assunta',
-            surname: 'Belpaese',
-            description: 'Gains +0.5% Might, projectile Speed, Duration, and Area every level.',
-            spriteName: 'Assunta_01.png',
-            weaponIds: [WEAPON_ID_VENTO_SACRO],
-        },
         // 28: {name: 'LATODISOPRO', description: '', passiveIds: [PASSIVE_ID_DUPLICATOR]},
         // 29: {name: 'LATODISOTTO', description: 'ODDEEO', passiveIds: [PASSIVE_ID_DUPLICATOR]},
         // 30: {name: 'LATODISOTTO', description: 'VOID', passiveIds: [PASSIVE_ID_DUPLICATOR]},
         // 31: {name: 'LATODILATO ', description: 'RED', passiveIds: [PASSIVE_ID_DUPLICATOR]},
         // 32: {name: '', description: 'IOLO', passiveIds: [PASSIVE_ID_DUPLICATOR]},
-        33: {
-            name: 'Exdash',
-            surname: 'Exiviiq',
-            description: 'At least they\'re lucky.',
-            spriteName: 'Exdash_01.png',
-            weaponIds: [WEAPON_ID_EBONY_WINGS],
-        },
-        34: {
-            name: 'Toastie',
-            description: 'So much potential.',
-            spriteName: 'uExdash_01.png',
-            weaponIds: [WEAPON_ID_PEACHONE],
-        },
-        35: {
-            name: 'Smith',
-            surname: 'IV',
-            description: 'The quirky white bear.',
-            spriteName: 'nExdash_01.png',
-            weaponIds: [WEAPON_ID_VANDALIER],
-        },
-        36: {
-            name: 'Marrabbio',
-            description: '',
-            spriteName: 'Marrabbio_01.png',
-            prefix: 'Boon',
-            weaponIds: [WEAPON_ID_THOUSAND_EDGE],
-        },
         // 37: {name: 'LATODILATO ', description: '', passiveIds: [PASSIVE_ID_DUPLICATOR]},
         // 38: {name: 'LATODISOTTO', description: 'FINO', passiveIds: [PASSIVE_ID_DUPLICATOR]},
         // 39: {name: 'LATODILATO ', description: 'LATODILATO', passiveIds: [PASSIVE_ID_DUPLICATOR]},
-        40: {
-            name: 'Minnah',
-            surname: 'Mannarah',
-            description: 'Might, projectile Speed, Duration, Area, and Cooldown change every minute.',
-            spriteName: 'Minnah_01.png',
-            weaponIds: [WEAPON_ID_BLOODY_TEAR],
-        },
-        41: {
-            name: 'Leda',
-            description: '',
-            spriteAlt: () => self.Img.ENEMIES_2,
-            spriteName: 'XLLeda_i01.png',
-            weaponIds: [WEAPON_ID_HOLY_WAND],
-        },
-        42: {
-            name: 'Red Death',
-            description: 'A blasphemous mockery.',
-            spriteName: 'XLReaper_i01.png',
-            prefix: 'Mask of the',
-            weaponIds: [WEAPON_ID_DEATH_SPIRAL],
-        },
         // 43: {name: 'LATODISOTTO', description: 'DEATH', passiveIds: [PASSIVE_ID_DUPLICATOR]},
         // 44: {name: 'LATODILATO ', description: '', passiveIds: [PASSIVE_ID_DUPLICATOR]},
         // 45: {name: 'LATODISOTTO', description: '', passiveIds: [PASSIVE_ID_DUPLICATOR]},
@@ -580,34 +631,34 @@ VST.VS = new function () {
             frameName: 'Tiramisu.png',
             order: 16,
         },
+        [PASSIVE_ID_TORRONAS_BOX]: {
+            name: 'Torrona\'s Box',
+            description: 'Cursed item, but increases Might, Projectile Speed, Duration, and Area by 4%.',
+            frameName: 'torrone.png',
+            order: 17,
+        },
         [PASSIVE_ID_SILVER_RING]: {
             name: 'Silver Ring',
             description: 'Wear ... Clock ...',
             frameName: 'silverring.png',
-            order: 17,
+            order: 18,
         },
         [PASSIVE_ID_GOLD_RING]: {
             name: 'Gold Ring',
             description: '... With ... Lancet',
             frameName: 'goldring.png',
-            order: 18,
+            order: 19,
         },
         [PASSIVE_ID_METAGLIO_LEFT]: {
             name: 'Metaglio Left',
             description: 'Channels dark powers to protect the bearer.',
             frameName: 'bsleft.png',
-            order: 19,
+            order: 20,
         },
         [PASSIVE_ID_METAGLIO_RIGHT]: {
             name: 'Metaglio Right',
             description: 'Channels dark powers to curse the bearer.',
             frameName: 'bsright.png',
-            order: 20,
-        },
-        [PASSIVE_ID_TORRONAS_BOX]: {
-            name: 'Torrona\'s Box',
-            description: 'Cursed item, but increases Might, Projectile Speed, Duration, and Area by 4%.',
-            frameName: 'torrone.png',
             order: 21,
         },
     };
@@ -1071,6 +1122,12 @@ VST.VS = new function () {
             description: 'Throws a bouncing projectile. Cooldown reduces when moving.',
             frameName: 'flower.png',
             order: 46,
+        },
+        [WEAPON_ID_LA_ROBBA]: {
+            name: 'La Robba',
+            description: 'Generates bouncing projectiles.',
+            frameName: 'larobba.png',
+            order: 47,
         },
     };
 

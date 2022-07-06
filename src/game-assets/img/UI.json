@@ -1249,7 +1249,7 @@
 					}
 				},
 				{
-					"filename": "stage_bone_unlock.png",
+					"filename": "p_ambrojoe.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -1270,7 +1270,7 @@
 					}
 				},
 				{
-					"filename": "stage_chapel_icon.png",
+					"filename": "stage_bone_unlock.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -1291,7 +1291,7 @@
 					}
 				},
 				{
-					"filename": "stage_chapel_unlock.png",
+					"filename": "stage_chapel_icon.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -1354,7 +1354,7 @@
 					}
 				},
 				{
-					"filename": "stage_forest_icon.png",
+					"filename": "stage_chapel_unlock.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -1375,7 +1375,7 @@
 					}
 				},
 				{
-					"filename": "stage_forest_unlock.png",
+					"filename": "stage_forest_icon.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -1396,7 +1396,7 @@
 					}
 				},
 				{
-					"filename": "stage_green_unlock.png",
+					"filename": "stage_forest_unlock.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -1417,7 +1417,7 @@
 					}
 				},
 				{
-					"filename": "stage_library_icon.png",
+					"filename": "stage_green_unlock.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -1438,7 +1438,7 @@
 					}
 				},
 				{
-					"filename": "stage_library_unlock.png",
+					"filename": "stage_library_icon.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -1459,7 +1459,7 @@
 					}
 				},
 				{
-					"filename": "stage_molise_unlock.png",
+					"filename": "stage_library_unlock.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -1501,7 +1501,7 @@
 					}
 				},
 				{
-					"filename": "stage_plant_icon.png",
+					"filename": "stage_molise_unlock.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -1522,7 +1522,7 @@
 					}
 				},
 				{
-					"filename": "stage_plant_unlock.png",
+					"filename": "stage_plant_icon.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -1564,7 +1564,7 @@
 					}
 				},
 				{
-					"filename": "stage_tower_icon.png",
+					"filename": "stage_plant_unlock.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -1585,7 +1585,7 @@
 					}
 				},
 				{
-					"filename": "stage_tower_unlock.png",
+					"filename": "stage_tower_icon.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -1606,7 +1606,7 @@
 					}
 				},
 				{
-					"filename": "stage_water_unlock.png",
+					"filename": "stage_tower_unlock.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -1627,7 +1627,7 @@
 					}
 				},
 				{
-					"filename": "stage_x_unlock.png",
+					"filename": "stage_water_unlock.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -1669,6 +1669,27 @@
 					}
 				},
 				{
+					"filename": "stage_x_unlock.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 18,
+						"h": 18
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 18,
+						"h": 18
+					},
+					"frame": {
+						"x": 132,
+						"y": 617,
+						"w": 18,
+						"h": 18
+					}
+				},
+				{
 					"filename": "yes16.png",
 					"rotated": false,
 					"trimmed": true,
@@ -1684,7 +1705,7 @@
 					},
 					"frame": {
 						"x": 132,
-						"y": 617,
+						"y": 636,
 						"w": 18,
 						"h": 14
 					}
@@ -1705,7 +1726,7 @@
 					},
 					"frame": {
 						"x": 132,
-						"y": 632,
+						"y": 651,
 						"w": 16,
 						"h": 16
 					}
@@ -1726,7 +1747,7 @@
 					},
 					"frame": {
 						"x": 132,
-						"y": 649,
+						"y": 668,
 						"w": 16,
 						"h": 16
 					}
@@ -1747,7 +1768,7 @@
 					},
 					"frame": {
 						"x": 132,
-						"y": 666,
+						"y": 685,
 						"w": 16,
 						"h": 16
 					}
@@ -1768,7 +1789,7 @@
 					},
 					"frame": {
 						"x": 132,
-						"y": 683,
+						"y": 702,
 						"w": 16,
 						"h": 16
 					}
@@ -1789,28 +1810,7 @@
 					},
 					"frame": {
 						"x": 132,
-						"y": 700,
-						"w": 16,
-						"h": 16
-					}
-				},
-				{
-					"filename": "p_croci.png",
-					"rotated": false,
-					"trimmed": false,
-					"sourceSize": {
-						"w": 16,
-						"h": 16
-					},
-					"spriteSourceSize": {
-						"x": 0,
-						"y": 0,
-						"w": 16,
-						"h": 16
-					},
-					"frame": {
-						"x": 132,
-						"y": 717,
+						"y": 719,
 						"w": 16,
 						"h": 16
 					}
@@ -1837,7 +1837,7 @@
 					}
 				},
 				{
-					"filename": "p_dommario.png",
+					"filename": "p_croci.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -1858,7 +1858,7 @@
 					}
 				},
 				{
-					"filename": "p_lama.png",
+					"filename": "p_dommario.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -2005,7 +2005,7 @@
 					}
 				},
 				{
-					"filename": "p_mortaccio.png",
+					"filename": "p_lama.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -2026,7 +2026,7 @@
 					}
 				},
 				{
-					"filename": "p_osole.png",
+					"filename": "p_mortaccio.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -2047,7 +2047,7 @@
 					}
 				},
 				{
-					"filename": "p_poe.png",
+					"filename": "p_osole.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -2068,7 +2068,7 @@
 					}
 				},
 				{
-					"filename": "p_porta.png",
+					"filename": "p_poe.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -2089,7 +2089,7 @@
 					}
 				},
 				{
-					"filename": "p_ramba.png",
+					"filename": "p_porta.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -2131,6 +2131,27 @@
 					}
 				},
 				{
+					"filename": "p_ramba.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 16,
+						"h": 16
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 16,
+						"h": 16
+					},
+					"frame": {
+						"x": 132,
+						"y": 736,
+						"w": 16,
+						"h": 16
+					}
+				},
+				{
 					"filename": "portal.png",
 					"rotated": false,
 					"trimmed": false,
@@ -2146,7 +2167,7 @@
 					},
 					"frame": {
 						"x": 132,
-						"y": 734,
+						"y": 753,
 						"w": 16,
 						"h": 16
 					}
@@ -2167,7 +2188,7 @@
 					},
 					"frame": {
 						"x": 132,
-						"y": 751,
+						"y": 770,
 						"w": 16,
 						"h": 15
 					}
@@ -2188,7 +2209,7 @@
 					},
 					"frame": {
 						"x": 132,
-						"y": 767,
+						"y": 786,
 						"w": 16,
 						"h": 14
 					}
@@ -2209,7 +2230,7 @@
 					},
 					"frame": {
 						"x": 132,
-						"y": 782,
+						"y": 801,
 						"w": 16,
 						"h": 14
 					}
@@ -2230,7 +2251,7 @@
 					},
 					"frame": {
 						"x": 132,
-						"y": 797,
+						"y": 816,
 						"w": 16,
 						"h": 11
 					}
@@ -2251,7 +2272,7 @@
 					},
 					"frame": {
 						"x": 132,
-						"y": 809,
+						"y": 828,
 						"w": 16,
 						"h": 11
 					}
@@ -2271,8 +2292,8 @@
 						"h": 8
 					},
 					"frame": {
-						"x": 132,
-						"y": 821,
+						"x": 280,
+						"y": 727,
 						"w": 16,
 						"h": 8
 					}
@@ -2292,31 +2313,10 @@
 						"h": 8
 					},
 					"frame": {
-						"x": 132,
-						"y": 830,
+						"x": 280,
+						"y": 736,
 						"w": 16,
 						"h": 8
-					}
-				},
-				{
-					"filename": "arrow_05.png",
-					"rotated": false,
-					"trimmed": true,
-					"sourceSize": {
-						"w": 16,
-						"h": 16
-					},
-					"spriteSourceSize": {
-						"x": 0,
-						"y": 5,
-						"w": 16,
-						"h": 5
-					},
-					"frame": {
-						"x": 280,
-						"y": 727,
-						"w": 16,
-						"h": 5
 					}
 				},
 				{
@@ -2551,27 +2551,6 @@
 					}
 				},
 				{
-					"filename": "ExclamationMark.png",
-					"rotated": false,
-					"trimmed": false,
-					"sourceSize": {
-						"w": 14,
-						"h": 55
-					},
-					"spriteSourceSize": {
-						"x": 0,
-						"y": 0,
-						"w": 14,
-						"h": 55
-					},
-					"frame": {
-						"x": 280,
-						"y": 733,
-						"w": 14,
-						"h": 55
-					}
-				},
-				{
 					"filename": "sheen13.png",
 					"rotated": false,
 					"trimmed": false,
@@ -2586,56 +2565,14 @@
 						"h": 112
 					},
 					"frame": {
-						"x": 295,
+						"x": 297,
 						"y": 744,
 						"w": 130,
 						"h": 112
 					}
 				},
 				{
-					"filename": "passiveBG.png",
-					"rotated": false,
-					"trimmed": false,
-					"sourceSize": {
-						"w": 14,
-						"h": 14
-					},
-					"spriteSourceSize": {
-						"x": 0,
-						"y": 0,
-						"w": 14,
-						"h": 14
-					},
-					"frame": {
-						"x": 280,
-						"y": 789,
-						"w": 14,
-						"h": 14
-					}
-				},
-				{
-					"filename": "weaponBG.png",
-					"rotated": false,
-					"trimmed": false,
-					"sourceSize": {
-						"w": 14,
-						"h": 14
-					},
-					"spriteSourceSize": {
-						"x": 0,
-						"y": 0,
-						"w": 14,
-						"h": 14
-					},
-					"frame": {
-						"x": 280,
-						"y": 804,
-						"w": 14,
-						"h": 14
-					}
-				},
-				{
-					"filename": "menu_checkbox_16_checkmark.png",
+					"filename": "arrow_05.png",
 					"rotated": false,
 					"trimmed": true,
 					"sourceSize": {
@@ -2643,16 +2580,16 @@
 						"h": 16
 					},
 					"spriteSourceSize": {
-						"x": 2,
-						"y": 1,
-						"w": 13,
-						"h": 14
+						"x": 0,
+						"y": 5,
+						"w": 16,
+						"h": 5
 					},
 					"frame": {
 						"x": 280,
-						"y": 819,
-						"w": 13,
-						"h": 14
+						"y": 745,
+						"w": 16,
+						"h": 5
 					}
 				},
 				{
@@ -2670,7 +2607,7 @@
 						"h": 35
 					},
 					"frame": {
-						"x": 426,
+						"x": 428,
 						"y": 779,
 						"w": 48,
 						"h": 35
@@ -2691,7 +2628,7 @@
 						"h": 12
 					},
 					"frame": {
-						"x": 475,
+						"x": 477,
 						"y": 789,
 						"w": 33,
 						"h": 12
@@ -2712,7 +2649,7 @@
 						"h": 12
 					},
 					"frame": {
-						"x": 475,
+						"x": 477,
 						"y": 789,
 						"w": 33,
 						"h": 12
@@ -2733,7 +2670,7 @@
 						"h": 22
 					},
 					"frame": {
-						"x": 475,
+						"x": 477,
 						"y": 802,
 						"w": 32,
 						"h": 22
@@ -2754,10 +2691,73 @@
 						"h": 35
 					},
 					"frame": {
-						"x": 426,
+						"x": 428,
 						"y": 815,
 						"w": 48,
 						"h": 35
+					}
+				},
+				{
+					"filename": "ExclamationMark.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 14,
+						"h": 55
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 14,
+						"h": 55
+					},
+					"frame": {
+						"x": 280,
+						"y": 751,
+						"w": 14,
+						"h": 55
+					}
+				},
+				{
+					"filename": "passiveBG.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 14,
+						"h": 14
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 14,
+						"h": 14
+					},
+					"frame": {
+						"x": 280,
+						"y": 807,
+						"w": 14,
+						"h": 14
+					}
+				},
+				{
+					"filename": "weaponBG.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 14,
+						"h": 14
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 14,
+						"h": 14
+					},
+					"frame": {
+						"x": 280,
+						"y": 822,
+						"w": 14,
+						"h": 14
 					}
 				},
 				{
@@ -2775,7 +2775,7 @@
 						"h": 12
 					},
 					"frame": {
-						"x": 475,
+						"x": 477,
 						"y": 825,
 						"w": 31,
 						"h": 12
@@ -2796,7 +2796,7 @@
 						"h": 25
 					},
 					"frame": {
-						"x": 475,
+						"x": 477,
 						"y": 838,
 						"w": 30,
 						"h": 25
@@ -2817,7 +2817,7 @@
 						"h": 35
 					},
 					"frame": {
-						"x": 426,
+						"x": 428,
 						"y": 851,
 						"w": 48,
 						"h": 35
@@ -2838,7 +2838,7 @@
 						"h": 28
 					},
 					"frame": {
-						"x": 475,
+						"x": 477,
 						"y": 864,
 						"w": 28,
 						"h": 28
@@ -2881,13 +2881,13 @@
 					},
 					"frame": {
 						"x": 246,
-						"y": 834,
+						"y": 837,
 						"w": 48,
 						"h": 35
 					}
 				},
 				{
-					"filename": "QuestionMark.png",
+					"filename": "menu_checkbox_16_checkmark.png",
 					"rotated": false,
 					"trimmed": true,
 					"sourceSize": {
@@ -2897,13 +2897,13 @@
 					"spriteSourceSize": {
 						"x": 2,
 						"y": 1,
-						"w": 12,
+						"w": 13,
 						"h": 14
 					},
 					"frame": {
 						"x": 132,
-						"y": 839,
-						"w": 12,
+						"y": 840,
+						"w": 13,
 						"h": 14
 					}
 				},
@@ -2922,8 +2922,8 @@
 						"h": 18
 					},
 					"frame": {
-						"x": 295,
-						"y": 857,
+						"x": 1,
+						"y": 841,
 						"w": 48,
 						"h": 18
 					}
@@ -2943,8 +2943,8 @@
 						"h": 18
 					},
 					"frame": {
-						"x": 344,
-						"y": 857,
+						"x": 50,
+						"y": 841,
 						"w": 48,
 						"h": 18
 					}
@@ -2964,10 +2964,115 @@
 						"h": 28
 					},
 					"frame": {
-						"x": 393,
-						"y": 857,
+						"x": 99,
+						"y": 841,
 						"w": 28,
 						"h": 28
+					}
+				},
+				{
+					"filename": "QuestionMark.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 16
+					},
+					"spriteSourceSize": {
+						"x": 2,
+						"y": 1,
+						"w": 12,
+						"h": 14
+					},
+					"frame": {
+						"x": 128,
+						"y": 855,
+						"w": 12,
+						"h": 14
+					}
+				},
+				{
+					"filename": "TreasureIdle_03.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 40,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 5,
+						"w": 28,
+						"h": 27
+					},
+					"frame": {
+						"x": 1,
+						"y": 860,
+						"w": 28,
+						"h": 27
+					}
+				},
+				{
+					"filename": "CoinGold.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 16
+					},
+					"spriteSourceSize": {
+						"x": 2,
+						"y": 2,
+						"w": 12,
+						"h": 12
+					},
+					"frame": {
+						"x": 30,
+						"y": 860,
+						"w": 12,
+						"h": 12
+					}
+				},
+				{
+					"filename": "SkullToken.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 16
+					},
+					"spriteSourceSize": {
+						"x": 3,
+						"y": 3,
+						"w": 11,
+						"h": 10
+					},
+					"frame": {
+						"x": 43,
+						"y": 860,
+						"w": 11,
+						"h": 10
+					}
+				},
+				{
+					"filename": "mapCursor.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 24,
+						"h": 24
+					},
+					"spriteSourceSize": {
+						"x": 7,
+						"y": 7,
+						"w": 9,
+						"h": 9
+					},
+					"frame": {
+						"x": 55,
+						"y": 860,
+						"w": 9,
+						"h": 9
 					}
 				},
 				{
@@ -2985,8 +3090,8 @@
 						"h": 32
 					},
 					"frame": {
-						"x": 1,
-						"y": 893,
+						"x": 65,
+						"y": 860,
 						"w": 8,
 						"h": 32
 					}
@@ -3006,94 +3111,10 @@
 						"h": 14
 					},
 					"frame": {
-						"x": 1,
-						"y": 876,
+						"x": 55,
+						"y": 870,
 						"w": 8,
 						"h": 14
-					}
-				},
-				{
-					"filename": "mapCursor.png",
-					"rotated": false,
-					"trimmed": true,
-					"sourceSize": {
-						"w": 24,
-						"h": 24
-					},
-					"spriteSourceSize": {
-						"x": 7,
-						"y": 7,
-						"w": 9,
-						"h": 9
-					},
-					"frame": {
-						"x": 1,
-						"y": 866,
-						"w": 9,
-						"h": 9
-					}
-				},
-				{
-					"filename": "SkullToken.png",
-					"rotated": false,
-					"trimmed": true,
-					"sourceSize": {
-						"w": 16,
-						"h": 16
-					},
-					"spriteSourceSize": {
-						"x": 3,
-						"y": 3,
-						"w": 11,
-						"h": 10
-					},
-					"frame": {
-						"x": 1,
-						"y": 854,
-						"w": 11,
-						"h": 10
-					}
-				},
-				{
-					"filename": "CoinGold.png",
-					"rotated": false,
-					"trimmed": true,
-					"sourceSize": {
-						"w": 16,
-						"h": 16
-					},
-					"spriteSourceSize": {
-						"x": 2,
-						"y": 2,
-						"w": 12,
-						"h": 12
-					},
-					"frame": {
-						"x": 1,
-						"y": 841,
-						"w": 12,
-						"h": 12
-					}
-				},
-				{
-					"filename": "TreasureIdle_03.png",
-					"rotated": false,
-					"trimmed": true,
-					"sourceSize": {
-						"w": 40,
-						"h": 32
-					},
-					"spriteSourceSize": {
-						"x": 4,
-						"y": 5,
-						"w": 28,
-						"h": 27
-					},
-					"frame": {
-						"x": 1,
-						"y": 926,
-						"w": 28,
-						"h": 27
 					}
 				},
 				{
@@ -3111,8 +3132,8 @@
 						"h": 8
 					},
 					"frame": {
-						"x": 10,
-						"y": 893,
+						"x": 43,
+						"y": 871,
 						"w": 8,
 						"h": 8
 					}
@@ -3132,8 +3153,8 @@
 						"h": 8
 					},
 					"frame": {
-						"x": 10,
-						"y": 876,
+						"x": 30,
+						"y": 873,
 						"w": 8,
 						"h": 8
 					}
@@ -3144,6 +3165,6 @@
 	"meta": {
 		"app": "https://www.codeandweb.com/texturepacker",
 		"version": "3.0",
-		"smartupdate": "$TexturePacker:SmartUpdate:989cb61784a121c531f6f84f9a6084ef:27c896dd376dd1612d614be055e6dad8:4b774b923918ecd961888279dba3ffad$"
+		"smartupdate": "$TexturePacker:SmartUpdate:fcdab2ef600321e56f14ebb964a1a289:821e9948b5e46720b35885c0685af207:4b774b923918ecd961888279dba3ffad$"
 	}
 }

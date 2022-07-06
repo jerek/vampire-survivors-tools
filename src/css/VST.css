@@ -259,8 +259,9 @@ a.vs-char-box:focus-visible:after {
 /* At 159px width every character perfectly matches the in-game text, except for Arca, who needs 158px. It's not set to
  * 158px for everyone because then Smith & Red Death would be wrong. */
 .vs-char-box-description {left: 120px; top: 37px; width: 159px}
-.vs-char-box[data-character="5"] .vs-char-box-description {width: 158px}
-.vs-char-box-image {bottom: 5px; left: 6px}
+.vs-char-box[data-character="5"] .vs-char-box-description {width: 158px} /* Arca Ladonna */
+.vs-char-box[data-character="21"] .vs-char-box-description {width: 166px} /* Sir Ambrojoe */
+.vs-char-box-image {bottom: 5px; left: 6px; pointer-events: none}
 .vs-char-box-weapons {
     align-content: flex-end;
     bottom: 11px;
