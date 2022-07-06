@@ -147,6 +147,9 @@ VST.Build = new function () {
 
     /** @type {Object} Private object-scope variables. */
     const my = {
+        /** @type {boolean} Whether it's currently okay to trigger changed build events, which will update the hash. */
+        allowChangedBuildEvents: true,
+
         /** @type {Build} The currently loaded character build. */
         build: Util.copyProperties({}, EMPTY_BUILD),
 
@@ -254,6 +257,10 @@ VST.Build = new function () {
      * Dispatches an event indicating that the build has changed.
      */
     function dispatchChangedBuildEvent() {
+        if (!my.allowChangedBuildEvents) {
+            return;
+        }
+
         self.dispatchEvent(new CustomEvent(EVENT_CHANGED_BUILD));
     }
 
@@ -279,7 +286,7 @@ VST.Build = new function () {
                 section.list,
             );
             box.href = 'javascript:';
-            box.addEventListener('click', setCharacter.bind(self.EMPTY_ID, characterId));
+            box.addEventListener('click', () => setCharacter(characterId));
 
             Character.renderBox(
                 character,
@@ -380,6 +387,7 @@ VST.Build = new function () {
             }
         }
 
+        let previousCharacterId = my.build.character;
         my.build.character = characterId;
 
         section.container.dataset.selected = JSON.stringify(!!characterId);
@@ -397,10 +405,59 @@ VST.Build = new function () {
             );
         }
 
-        // TODO: Uncomment this once weapons are supported.
-        // if (!fromBuild) {
-        //     character.weaponIds.forEach(weaponId => setWeapon(weaponId));
-        // }
+        my.allowChangedBuildEvents = false;
+
+        // If this isn't from an existing build...
+        if (!fromBuild) {
+            // ...and we're clearing the character, remove the character's weapons.
+            if (characterId === self.EMPTY_ID && previousCharacterId !== self.EMPTY_ID) {
+                let previousCharacter = Character.get(previousCharacterId);
+                if (previousCharacter) {
+                    let weaponEvolutions = {};
+
+                    // Remove any of this character's original weapons, and collect information on their evolutions.
+                    (previousCharacter.weaponIds || []).forEach(weaponId => {
+                        if (my.build.weapons.includes(weaponId)) {
+                            let slot = my.build.weapons.indexOf(weaponId);
+                            setItem(SECTION_WEAPONS, self.EMPTY_ID, slot);
+                        }
+                        Object.entries(Weapon.getAllEvolutions(weaponId)).forEach(([id, weapon]) => {
+                            weaponEvolutions[id] = weapon;
+                        });
+                    });
+
+                    // Remove any of this character's evolved original weapons.
+                    Object.keys(weaponEvolutions).forEach(weaponId => {
+                        weaponId = parseInt(weaponId);
+                        if (my.build.weapons.includes(weaponId)) {
+                            let slot = my.build.weapons.indexOf(weaponId);
+                            setItem(SECTION_WEAPONS, self.EMPTY_ID, slot);
+                        }
+                    });
+
+                    // Remove any of this character's original passive items.
+                    (previousCharacter.passiveIds || []).forEach(passiveId => {
+                        if (my.build.passives.includes(passiveId)) {
+                            let slot = my.build.passives.indexOf(passiveId);
+                            setItem(SECTION_PASSIVES, self.EMPTY_ID, slot);
+                        }
+                    });
+                }
+            }
+
+            // ...and we're setting a character, also set the character's weapons/passives.
+            if (characterId !== self.EMPTY_ID) {
+                (character.weaponIds || []).forEach(weaponId => {
+                    setItem(SECTION_WEAPONS, weaponId);
+                });
+
+                (character.passiveIds || []).forEach(passiveId => {
+                    setItem(SECTION_PASSIVES, passiveId);
+                });
+            }
+        }
+
+        my.allowChangedBuildEvents = true;
 
         dispatchChangedBuildEvent();
     }
