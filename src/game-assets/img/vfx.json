@@ -11161,6 +11161,27 @@
 					}
 				},
 				{
+					"filename": "window_29.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 3,
+						"h": 3
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 3,
+						"h": 3
+					},
+					"frame": {
+						"x": 761,
+						"y": 492,
+						"w": 3,
+						"h": 3
+					}
+				},
+				{
 					"filename": "CartEnd_17.png",
 					"rotated": false,
 					"trimmed": false,
@@ -11266,27 +11287,6 @@
 					}
 				},
 				{
-					"filename": "window_29.png",
-					"rotated": false,
-					"trimmed": false,
-					"sourceSize": {
-						"w": 3,
-						"h": 3
-					},
-					"spriteSourceSize": {
-						"x": 103,
-						"y": 17,
-						"w": 3,
-						"h": 3
-					},
-					"frame": {
-						"x": 1157,
-						"y": 529,
-						"w": 3,
-						"h": 3
-					}
-				},
-				{
 					"filename": "PfxDot.png",
 					"rotated": false,
 					"trimmed": false,
@@ -11355,6 +11355,6 @@
 	"meta": {
 		"app": "https://www.codeandweb.com/texturepacker",
 		"version": "3.0",
-		"smartupdate": "$TexturePacker:SmartUpdate:b3aa68c31bd80748857f5fe37e2cd6f0:2833978396741c889761f1bebd64dd7f:e8a10d8fa8e9d60843a1977c276b63e3$"
+		"smartupdate": "$TexturePacker:SmartUpdate:95c30bd3eeae7d285cf1a00ef965c674:c1df361471ba8366d00051192234dfe5:e8a10d8fa8e9d60843a1977c276b63e3$"
 	}
 }

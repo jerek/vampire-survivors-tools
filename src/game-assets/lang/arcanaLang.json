@@ -17,6 +17,14 @@
     "native": "简体中文",
     "api": "schinese",
     "translations": {
+      "0": {
+        "name": "Game Killer",
+        "description": "Halts XP gain. XP gems turn into exploding projectiles. All Treasures contain at least 3 items."
+      },
+      "3": {
+        "name": "III - Tragic Princess",
+        "description": "The cooldown of the listed weapons reduces when moving."
+      },
       "4": {
         "name": "IV - 觉醒",
         "description": "提供3次复活机会。 复活时， 最大生命值+10%， 防御+1， 攻击范围、 持续时间和速度+5%。"
@@ -72,12 +80,16 @@
       "19": {
         "name": "XIX - 火之心",
         "description": "当列表中武器的射弹碰撞时, 它会爆炸并造成伤害。 当角色受到伤害时, 它会爆炸并造成伤害。"
+      },
+      "20": {
+        "name": "XX - Silent Old Sanctuary",
+        "description": "Gives +3 Reroll, Skip, and Banish. Gives +20% Might and -8% Cooldown for each active weapon slot left empty."
       }
     }
   },
   "zh-TW": {
     "english": "Chinese (Traditional)",
-    "native": "繁體中文 95%",
+    "native": "繁體中文 90%",
     "api": "tchinese",
     "translations": {}
   },
@@ -104,6 +116,14 @@
     "native": "English",
     "api": "english",
     "translations": {
+      "0": {
+        "name": "Game Killer",
+        "description": "Halts XP gain. XP gems turn into exploding projectiles. All Treasures contain at least 3 items."
+      },
+      "3": {
+        "name": "III - Tragic Princess",
+        "description": "The cooldown of the listed weapons reduces when moving."
+      },
       "4": {
         "name": "IV - Awake",
         "description": "Gives +3 Revivals. Consuming a Revival gives +10% MaxHealth, +1 Armor, and +5% Might, Area, Duration, and Speed."
@@ -159,6 +179,10 @@
       "19": {
         "name": "XIX - Heart of Fire",
         "description": "Listed weapon projectiles explode on impact. Light sources explode. Character explodes when damaged."
+      },
+      "20": {
+        "name": "XX - Silent Old Sanctuary",
+        "description": "Gives +3 Reroll, Skip, and Banish. Gives +20% Might and -8% Cooldown for each active weapon slot left empty."
       }
     }
   },
@@ -173,6 +197,14 @@
     "native": "Français 80%",
     "api": "french",
     "translations": {
+      "0": {
+        "name": "Game Killer",
+        "description": "Halts XP gain. XP gems turn into exploding projectiles. All Treasures contain at least 3 items."
+      },
+      "3": {
+        "name": "III - Tragic Princess",
+        "description": "The cooldown of the listed weapons reduces when moving."
+      },
       "4": {
         "name": "IV - Awake",
         "description": "Gives +3 Revivals. Consuming a Revival gives +10% MaxHealth, +1 Armor, and +5% Might, Area, Duration, and Speed."
@@ -228,14 +260,26 @@
       "19": {
         "name": "XIX - Heart of Fire",
         "description": "Listed weapon projectiles explode on impact. Light sources explode. Character explodes when damaged."
+      },
+      "20": {
+        "name": "XX - Silent Old Sanctuary",
+        "description": "Gives +3 Reroll, Skip, and Banish. Gives +20% Might and -8% Cooldown for each active weapon slot left empty."
       }
     }
   },
   "de": {
     "english": "German",
-    "native": "Deutsch",
+    "native": "Deutsch 80%",
     "api": "german",
     "translations": {
+      "0": {
+        "name": "Game Killer",
+        "description": "Halts XP gain. XP gems turn into exploding projectiles. All Treasures contain at least 3 items."
+      },
+      "3": {
+        "name": "III - Tragic Princess",
+        "description": "The cooldown of the listed weapons reduces when moving."
+      },
       "4": {
         "name": "IV - Awake",
         "description": "Gives +3 Revivals. Consuming a Revival gives +10% MaxHealth, +1 Armor, and +5% Might, Area, Duration, and Speed."
@@ -291,6 +335,10 @@
       "19": {
         "name": "XIX - Heart of Fire",
         "description": "Listed weapon projectiles explode on impact. Light sources explode. Character explodes when damaged."
+      },
+      "20": {
+        "name": "XX - Silent Old Sanctuary",
+        "description": "Gives +3 Reroll, Skip, and Banish. Gives +20% Might and -8% Cooldown for each active weapon slot left empty."
       }
     }
   },
@@ -314,64 +362,76 @@
   },
   "ja": {
     "english": "Japanese",
-    "native": "日本語 95%",
+    "native": "日本語 90%",
     "api": "japanese",
     "translations": {
+      "0": {
+        "name": "Game Killer",
+        "description": "Halts XP gain. XP gems turn into exploding projectiles. All Treasures contain at least 3 items."
+      },
+      "3": {
+        "name": "III - Tragic Princess",
+        "description": "The cooldown of the listed weapons reduces when moving."
+      },
       "4": {
-        "name": "IV - Awake",
-        "description": "Gives +3 Revivals. Consuming a Revival gives +10% MaxHealth, +1 Armor, and +5% Might, Area, Duration, and Speed."
+        "name": "IV - 覚醒",
+        "description": "復活回数が+3される。復活すると、最大体力+10%、\nアーマー+1、威力、範囲、持続時間、速度+5%"
       },
       "5": {
-        "name": "V - Chaos in the Dark Night",
-        "description": "Overall projectile Speed continuously changes between -50% and +200% over 10 seconds."
+        "name": "V - 暗黒の夜の混沌",
+        "description": "10秒間、すべての投射物の速度が-50%から+200%\nの間で連続的に変化する"
       },
       "6": {
-        "name": "VI - Sarabande of Healing",
-        "description": "Healing is doubled. Recovering HP damages nearby enemies for the same amount."
+        "name": "VI - 癒しのサラバンド",
+        "description": "回復量が2倍になる。HP回復時に周囲の敵に同量の\nダメージを与える"
       },
       "7": {
-        "name": "VII - Iron Blue Will",
-        "description": "Listed weapon projectiles gain up to 3 bounces and might pass through enemies and walls."
+        "name": "VII - 鉄の青い意志",
+        "description": "武器の弾が最大3回跳ね返り、 敵や壁を通過することがある。"
       },
       "8": {
-        "name": "VIII - Mad Groove",
-        "description": "Every 2 minutes attracts all standard stage items, pickups, and light sources towards the character."
+        "name": "VIII - マッド・グルーヴ",
+        "description": "2分ごとに標準的なステージアイテム、 ピックアップ、 光源をすべてキャラクターに向かって引き寄せる。"
       },
       "10": {
-        "name": "X - Beginning",
-        "description": "Listed weapons get +1 Amount. The character's main weapon and its evolution gain +3 Amount instead."
+        "name": "X - ビギニング",
+        "description": "リストされた武器は+1を得る。 キャラクターのメイン武器とその進化は代わりに+3される。"
       },
       "11": {
-        "name": "XI - Waltz of Pearls",
-        "description": "Listed weapon projectiles gain up to 3 bounces."
+        "name": "XI - 真珠のワルツ",
+        "description": "リストアップされた武器の投射物は、最大で3バウンドを得る。"
       },
       "12": {
-        "name": "XII - Out of Bounds",
-        "description": "Freezing enemies generates explosions. Orologions are easier to find."
+        "name": "XII - アウト・オブ・バウンズ",
+        "description": "敵を凍らせると爆発が発生します。  懐中時計が出やすくなる。"
       },
       "14": {
-        "name": "XIV - Jail of Crystal",
-        "description": "Listed weapon projectiles have a chance to freeze enemies."
+        "name": "XIV - クリスタルの牢獄",
+        "description": "リストされた武器の弾丸は敵を凍らせるチャンスがある。"
       },
       "15": {
-        "name": "XV - Disco of Gold",
-        "description": "Picking up coin bags from the floor triggers Gold Fever. Obtaining gold restores as many HP."
+        "name": "XV - ゴールド・ディスコ",
+        "description": "床に落ちているコイン袋を拾うとゴールドフィーバーが発生する.  ゴールドを手に入れるとHPがいくらでも回復する."
       },
       "16": {
-        "name": "XVI - Slash",
-        "description": "Enables critical hits for listed weapons. Doubles overall critical damage."
+        "name": "XVI - スラッシュ",
+        "description": "リストアップされた武器のクリティカルヒットを\n有効にする。全体のクリティカルダメージが2倍になる。"
       },
       "17": {
-        "name": "XVII - Lost & Found Painting",
-        "description": "Overall Duration continuously changes between -50% and +200% over 10 seconds."
+        "name": "XVII - 遺失物の絵画",
+        "description": "10秒間、すべての持続時間が-50%から+200%の間\nで連続的に変化する。"
       },
       "18": {
-        "name": "XVIII - Boogaloo of Illusions",
-        "description": "Overall Area continuously changes between -25% and +50% over 10 seconds."
+        "name": "XVIII - 幻想のブーガルー",
+        "description": "10秒間, 全体面積が-25%〜+50%で変化し続ける."
       },
       "19": {
-        "name": "XIX - Heart of Fire",
-        "description": "Listed weapon projectiles explode on impact. Light sources explode. Character explodes when damaged."
+        "name": "XIX - ハート・オブ・ファイア",
+        "description": "リストアップされた武器の弾丸が着弾時に爆発する。\n光源が爆発する。 キャラクターがダメージを受け\nると爆発する。"
+      },
+      "20": {
+        "name": "XX - Silent Old Sanctuary",
+        "description": "Gives +3 Reroll, Skip, and Banish. Gives +20% Might and -8% Cooldown for each active weapon slot left empty."
       }
     }
   },
@@ -380,6 +440,14 @@
     "native": "한국어",
     "api": "koreana",
     "translations": {
+      "0": {
+        "name": "Game Killer",
+        "description": "Halts XP gain. XP gems turn into exploding projectiles. All Treasures contain at least 3 items."
+      },
+      "3": {
+        "name": "III - 공주의 비련",
+        "description": "목록에 있는 무기의 쿨타임이 이동시 대폭 감소합니다."
+      },
       "4": {
         "name": "IV - 각성",
         "description": "3번의 부활 기회를 제공 합니다. 부활시 최대 체력 +10%, 방어력+1, 공격범위, 지속시간 및 속도+5% 증가합니다."
@@ -398,7 +466,7 @@
       },
       "8": {
         "name": "VIII - 광기의 그루브",
-        "description": "2분마다 모든 스테이지의 드롭아이템.화로를 캐틱터 쪽으로 당겨옴."
+        "description": "2분마다 모든 스테이지의 드롭아이템.화로를 캐틱터 주변으로 끌어옵니다."
       },
       "10": {
         "name": "X - 근원",
@@ -435,6 +503,10 @@
       "19": {
         "name": "XIX - 불의 심장",
         "description": "목록에 있는 무기의 투사체는 충돌시 폭발하며 대미지를 줍니다. 캐릭터가 피해를 입으면 주위에 폭파 대미지를 줍니다."
+      },
+      "20": {
+        "name": "XX - 고요한 옛 성역",
+        "description": "새로고침,건너뛰기,지우기 3회 증가, 빈 무기 슬롯마다 피해량+20%,쿨타임-8% 버프 획득"
       }
     }
   },
@@ -461,6 +533,14 @@
     "native": "Português-Brasil",
     "api": "brazilian",
     "translations": {
+      "0": {
+        "name": "Game Killer",
+        "description": "Halts XP gain. XP gems turn into exploding projectiles. All Treasures contain at least 3 items."
+      },
+      "3": {
+        "name": "III - Tragic Princess",
+        "description": "The cooldown of the listed weapons reduces when moving."
+      },
       "4": {
         "name": "IV - Despertar",
         "description": "Ganha +3 Revives. Consumir um Revive concede +10% HP Máximo, +1 de armadura e 5% de Poder, Área, Duração e Velocidade."
@@ -516,6 +596,10 @@
       "19": {
         "name": "XIX - Coração de Fogo",
         "description": "Projéteis das armas listadas explodem no impacto. Luzes explodem. Personagem explode quando leva dano."
+      },
+      "20": {
+        "name": "XX - Silent Old Sanctuary",
+        "description": "Gives +3 Reroll, Skip, and Banish. Gives +20% Might and -8% Cooldown for each active weapon slot left empty."
       }
     }
   },
@@ -530,6 +614,14 @@
     "native": "Русский",
     "api": "russian",
     "translations": {
+      "0": {
+        "name": "Game Killer",
+        "description": "Halts XP gain. XP gems turn into exploding projectiles. All Treasures contain at least 3 items."
+      },
+      "3": {
+        "name": "III - Трагическая принцесса",
+        "description": "Время отката перечисленного оружия уменьшается при перемещении."
+      },
       "4": {
         "name": "IV - Пробуждение",
         "description": "Дает +3 Оживления. Использование Оживления дает +10% к Макс. ОЗ, +1 к Броне, и +5% к Силе, Размеру, Сроку и Подвижности."
@@ -547,12 +639,12 @@
         "description": "Снаряды перечисленного оружия получают до 3 отскоков и могут проходить сквозь врагов и стены."
       },
       "8": {
-        "name": "VIII - Mad Groove",
-        "description": "Every 2 minutes attracts all standard stage items, pickups, and light sources towards the character."
+        "name": "VIII - Безумный Паз",
+        "description": "Каждые 2 минуты притягивает все стандартные предметы этапа, подбираемые предметы и источники света к персонажу."
       },
       "10": {
-        "name": "X - Beginning",
-        "description": "Listed weapons get +1 Amount. The character's main weapon and its evolution gain +3 Amount instead."
+        "name": "X - Начало",
+        "description": "Перечисленное оружие получает +1 к Количеству. Основное оружие персонажа и его улучшенная версия получают +3 к Количеству."
       },
       "11": {
         "name": "XI - Вальс Жемчужин",
@@ -585,6 +677,10 @@
       "19": {
         "name": "XIX - Сердце Огня",
         "description": "Снаряды перечисленного оружия взрываются при столкновении. Источники света взрываются. Персонаж взрывается при получении урона."
+      },
+      "20": {
+        "name": "XX - Тихое Старое Святилище",
+        "description": "Дает +3 к Повтору, Пропуску и Исключению. Дает +20% Силы и -8% Отката за каждый активный слот оружия, оставшийся пустым."
       }
     }
   },
@@ -593,6 +689,14 @@
     "native": "Español 80%",
     "api": "spanish",
     "translations": {
+      "0": {
+        "name": "Game Killer",
+        "description": "Halts XP gain. XP gems turn into exploding projectiles. All Treasures contain at least 3 items."
+      },
+      "3": {
+        "name": "III - Tragic Princess",
+        "description": "The cooldown of the listed weapons reduces when moving."
+      },
       "4": {
         "name": "IV - Awake",
         "description": "Gives +3 Revivals. Consuming a Revival gives +10% MaxHealth, +1 Armor, and +5% Might, Area, Duration, and Speed."
@@ -648,6 +752,10 @@
       "19": {
         "name": "XIX - Heart of Fire",
         "description": "Listed weapon projectiles explode on impact. Light sources explode. Character explodes when damaged."
+      },
+      "20": {
+        "name": "XX - Silent Old Sanctuary",
+        "description": "Gives +3 Reroll, Skip, and Banish. Gives +20% Might and -8% Cooldown for each active weapon slot left empty."
       }
     }
   },

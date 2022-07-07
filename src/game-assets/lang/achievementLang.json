@@ -343,12 +343,39 @@
       },
       "DefeatBossChapel": {
         "description": "Defeat the Trinacria in the Cappella Magna."
+      },
+      "Defeat6000StageKillers": {
+        "description": "Defeat a total of 6000 Stage Killers."
+      },
+      "ReachLV99WithPorta": {
+        "description": "Reach Level 99 with Porta."
+      },
+      "Survive31MinutesInDairyPlant": {
+        "description": "Reach minute 31 in the Dairy Plant."
+      },
+      "See100Items": {
+        "description": "Fill 100 entries in the Collection."
+      },
+      "ReachLV100WithAmbrojoe": {
+        "description": "Reach Level 100 with Sir Ambrojoe."
+      },
+      "FindGrimoire": {
+        "description": "Find the Grim Grimoire."
+      },
+      "FindGouda": {
+        "description": "Find the Ars Gouda."
+      },
+      "FindGGospel": {
+        "description": "Find the Great Gospel."
+      },
+      "DefeatBossChapel2": {
+        "description": "Defeat the final enemy in the Cappella Magna."
       }
     }
   },
   "zh-TW": {
     "english": "Chinese (Traditional)",
-    "native": "繁體中文 95%",
+    "native": "繁體中文 90%",
     "api": "tchinese",
     "translations": {}
   },
@@ -701,6 +728,33 @@
       },
       "DefeatBossChapel": {
         "description": "Defeat the Trinacria in the Cappella Magna."
+      },
+      "Defeat6000StageKillers": {
+        "description": "Defeat a total of 6000 Stage Killers."
+      },
+      "ReachLV99WithPorta": {
+        "description": "Reach Level 99 with Porta."
+      },
+      "Survive31MinutesInDairyPlant": {
+        "description": "Reach minute 31 in the Dairy Plant."
+      },
+      "See100Items": {
+        "description": "Fill 100 entries in the Collection."
+      },
+      "ReachLV100WithAmbrojoe": {
+        "description": "Reach Level 100 with Sir Ambrojoe."
+      },
+      "FindGrimoire": {
+        "description": "Find the Grim Grimoire."
+      },
+      "FindGouda": {
+        "description": "Find the Ars Gouda."
+      },
+      "FindGGospel": {
+        "description": "Find the Great Gospel."
+      },
+      "DefeatBossChapel2": {
+        "description": "Defeat the final enemy in the Cappella Magna."
       }
     }
   },
@@ -1041,12 +1095,39 @@
       },
       "DefeatBossChapel": {
         "description": "Defeat the Trinacria in the Cappella Magna."
+      },
+      "Defeat6000StageKillers": {
+        "description": "Defeat a total of 6000 Stage Killers."
+      },
+      "ReachLV99WithPorta": {
+        "description": "Reach Level 99 with Porta."
+      },
+      "Survive31MinutesInDairyPlant": {
+        "description": "Reach minute 31 in the Dairy Plant."
+      },
+      "See100Items": {
+        "description": "Fill 100 entries in the Collection."
+      },
+      "ReachLV100WithAmbrojoe": {
+        "description": "Reach Level 100 with Sir Ambrojoe."
+      },
+      "FindGrimoire": {
+        "description": "Find the Grim Grimoire."
+      },
+      "FindGouda": {
+        "description": "Find the Ars Gouda."
+      },
+      "FindGGospel": {
+        "description": "Find the Great Gospel."
+      },
+      "DefeatBossChapel2": {
+        "description": "Defeat the final enemy in the Cappella Magna."
       }
     }
   },
   "de": {
     "english": "German",
-    "native": "Deutsch",
+    "native": "Deutsch 80%",
     "api": "german",
     "translations": {
       "ReachLV5": {
@@ -1375,6 +1456,33 @@
       },
       "DefeatBossChapel": {
         "description": "Defeat the Trinacria in the Cappella Magna."
+      },
+      "Defeat6000StageKillers": {
+        "description": "Defeat a total of 6000 Stage Killers."
+      },
+      "ReachLV99WithPorta": {
+        "description": "Reach Level 99 with Porta."
+      },
+      "Survive31MinutesInDairyPlant": {
+        "description": "Reach minute 31 in the Dairy Plant."
+      },
+      "See100Items": {
+        "description": "Fill 100 entries in the Collection."
+      },
+      "ReachLV100WithAmbrojoe": {
+        "description": "Reach Level 100 with Sir Ambrojoe."
+      },
+      "FindGrimoire": {
+        "description": "Find the Grim Grimoire."
+      },
+      "FindGouda": {
+        "description": "Find the Ars Gouda."
+      },
+      "FindGGospel": {
+        "description": "Find the Great Gospel."
+      },
+      "DefeatBossChapel2": {
+        "description": "Defeat the final enemy in the Cappella Magna."
       }
     }
   },
@@ -1398,7 +1506,7 @@
   },
   "ja": {
     "english": "Japanese",
-    "native": "日本語 95%",
+    "native": "日本語 90%",
     "api": "japanese",
     "translations": {
       "ReachLV5": {
@@ -1570,163 +1678,190 @@
         "description": "天の川マップを見つける。"
       },
       "GetPentagramToLevel7": {
-        "description": "Get Pentagram to Level 7."
+        "description": "ペンタグラムをレベル7にする。"
       },
       "Unlock3Hypers": {
-        "description": "Unlock Hyper mode any normal stage."
+        "description": "3つのノーマルステージでハイパーモードを解除する"
       },
       "Survive15MinutesInMolise": {
-        "description": "Survive 15 minutes in Molise."
+        "description": "モリーゼで15分間生存する"
       },
       "EvolvePentagram": {
-        "description": "Evolve the Pentagram."
+        "description": "ペンタグラムを進化させる。"
       },
       "See50Items": {
-        "description": "Fill 50 entries in the Collection."
+        "description": "コレクションを50項目埋める。"
       },
       "FindCoffinStage1": {
-        "description": "Find and open the coffin in the Mad Forest."
+        "description": "狂気の森で棺桶を探し開ける。"
       },
       "Survive10MinutesWithGuns": {
-        "description": "Survive 10 minutes with Pugnala."
+        "description": "プニャーラで10分間生存する"
       },
       "Survive15MinutesWithGuns": {
-        "description": "Survive 15 minutes with Pugnala."
+        "description": "プニャーラで15分間生存する"
       },
       "EvolveGuns": {
-        "description": "Evolve and unite Phiera Der Tuphello and Eight The Sparrow."
+        "description": "フィエラ・デル・トゥペロとエイト・ザ・\nスパロウを進化、合体させる。"
       },
       "ReachLV60InDairyPlant": {
-        "description": "Reach LV 60 in the Dairy Plant."
+        "description": "酪農場でLV60に到達。"
       },
       "FindSorceressTears": {
-        "description": "Find the Sorceress' Tears"
+        "description": "魔女の涙を見つける。"
       },
       "DefeatBossTower": {
-        "description": "Defeat the Giant Enemy Crab in Gallo Tower."
+        "description": "ガロ・タワーにいる巨大なエネミー・クラブを倒す。"
       },
       "See60Items": {
-        "description": "Fill 60 entries in the Collection."
+        "description": "コレクションを60項目埋める。"
       },
       "ReachLV100WithRamba": {
-        "description": "Reach LV 100 with Bianca Ramba."
+        "description": "ビアンカ・ランバでレベル100に到達する。"
       },
       "Defeat3000Milk": {
-        "description": "Defeat a total of 3000 Milk Elementals."
+        "description": "ミルクエレメンタルを合計3000体倒す。"
       },
       "EvolveRunetracer": {
-        "description": "Evolve the Runetracer."
+        "description": "追撃のルーンを進化させる。"
       },
       "See70Items": {
-        "description": "Fill 70 entries in the Collection."
+        "description": "コレクションを70項目埋める。"
       },
       "Survive15MinutesWithGatti": {
-        "description": "Survive 15 minutes with Giovanna."
+        "description": "ジョヴァンナで15分間生存する。"
       },
       "FindCoffinStage2": {
-        "description": "Find and open the coffin in the Inlaid Library."
+        "description": "象眼細工の図書館で棺桶を探し開ける。"
       },
       "ReachLV100WithOsole": {
-        "description": "Reach Level 100 with O'Sole Meeo."
+        "description": "オソーレ ミーオでレベル100に到達する。"
       },
       "Defeat3000Hydra": {
-        "description": "Defeat a total of 3000 Dragon Shrimps."
+        "description": "ドラゴンシュリンプを合計3000体倒す。"
       },
       "Unlock3Hypers_Correct": {
         "description": "ハイパーモードを3ステージ分アンロックする。"
       },
       "Survive30MinutesInBoneZone": {
-        "description": "Survive 30 minutes in The Bone Zone."
+        "description": "ボーンゾーンで30分間生存する。"
       },
       "ReachLV99WithImelda": {
-        "description": "Reach Level 99 with Imelda."
+        "description": "イメルダでレベル99に到達する。"
       },
       "ReachLV99WithGennaro": {
-        "description": "Reach Level 99 with Gennaro."
+        "description": "ジェナーロでレベル99に到達する。"
       },
       "FindRandomazzo": {
-        "description": "Find the Randomazzo."
+        "description": "ランダマッゾを探す"
       },
       "FindRandomazzoT06": {
-        "description": "Find the Randomazzo."
+        "description": "ランダマッゾを探す"
       },
       "ReachLV99WithGiovanna": {
-        "description": "Reach Level 99 with Giovanna."
+        "description": "ジョバンナでレベル99に到達する。"
       },
       "ReachLV99WithKroci": {
-        "description": "Reach Level 99 with Krochi."
+        "description": "クロチでレベル99に到達する。"
       },
       "ReachLV99WithLama": {
-        "description": "Reach Level 99 with Lama."
+        "description": "ラマでレベル99に到達する。"
       },
       "ReachLV99WithPoppea": {
-        "description": "Reach Level 99 with Poppea."
+        "description": "ポピアでレベル99に到達する。"
       },
       "ReachLV99WithArca": {
-        "description": "Reach Level 99 with Arca."
+        "description": "アルカでレベル99に到達する。"
       },
       "FindCoffinStage4": {
-        "description": "Find and open the coffin in the Gallo Tower."
+        "description": "ガロ・タワーにある棺桶を探して開ける。"
       },
       "ReachLV99WithConcetta": {
-        "description": "Reach Level 99 with Concetta."
+        "description": "コンチェッタでレベル99に到達する。"
       },
       "Survive15MinutesWithShadow": {
-        "description": "Survive 15 minutes with Concetta."
+        "description": "コンチェッタで15分生存する。"
       },
       "EvolveGatti": {
-        "description": "Evolve the Gatti Amari."
+        "description": "ビター・キャッツを進化させる。"
       },
       "EvolveShadow": {
-        "description": "Evolve the Shadow Pinion."
+        "description": "シャドーピニオンを進化させる。"
       },
       "Survive31MinutesInLibrary": {
-        "description": "Reach minute 31 in the Inlaid Library."
+        "description": "象眼細工の図書館で31分に到達する。"
       },
       "See80Items": {
-        "description": "Fill 80 entries in the Collection."
+        "description": "コレクションを80項目埋める。"
       },
       "FindMagicBanger": {
-        "description": "Find the Magic Banger."
+        "description": "マジックバンガーを探せ"
       },
       "See90Items": {
-        "description": "Fill 90 entries in the Collection."
+        "description": "コレクションの90項目埋める。"
       },
       "FindYellowSign": {
-        "description": "Find the Yellow Sign."
+        "description": "黄色い看板を見つける。"
       },
       "ObtainTheInfiniteCorridor": {
-        "description": "Obtain the Infinite Corridor."
+        "description": "無限回廊を入手する。"
       },
       "ObtainTheCrimsonShroud": {
-        "description": "Obtain the Crimson Shroud."
+        "description": "クリムゾン・シュラウドを入手する。"
       },
       "ReachLV99WithAntonio": {
-        "description": "Reach Level 99 with Antonio."
+        "description": "アントニオでレベル99に到達する。"
       },
       "Survive31MinutesInForest": {
-        "description": "Reach minute 31 in the Mad Forest."
+        "description": "狂気の森で31分まで到達する。"
       },
       "Have6Evolutions": {
-        "description": "Hold 6 different weapon evolutions at once."
+        "description": "6種類の武器進化を同時に保持する。"
       },
       "GetTorroneToLevel9": {
-        "description": "Get Torrona's Box to Level 9."
+        "description": "トロナの箱をレベル9にする。"
       },
       "FindYellowSignS5": {
-        "description": "Deal with the whole lunar eclipse event, starting from Moongolow."
+        "description": "ムーンゴローから始まる月食イベントを全て処理する。"
       },
       "FindCoffinStage5": {
-        "description": "Find and open the coffin in the Cappella Magna."
+        "description": "カペラ・マグナで棺桶を発見して開ける"
       },
       "Survive15MinutesWithWind": {
-        "description": "Survive 15 minutes with Zi'Assunta."
+        "description": "ジ・アスンタで15分生存する。"
       },
       "EvolveWind": {
-        "description": "Unite Vento Sacro and Bloody Tear."
+        "description": "聖なる風とブラッディ・ティアを一体化させる。"
       },
       "DefeatBossChapel": {
-        "description": "Defeat the Trinacria in the Cappella Magna."
+        "description": "カペラ・マグナでトリナクリアを倒す。"
+      },
+      "Defeat6000StageKillers": {
+        "description": "Defeat a total of 6000 Stage Killers."
+      },
+      "ReachLV99WithPorta": {
+        "description": "Reach Level 99 with Porta."
+      },
+      "Survive31MinutesInDairyPlant": {
+        "description": "Reach minute 31 in the Dairy Plant."
+      },
+      "See100Items": {
+        "description": "Fill 100 entries in the Collection."
+      },
+      "ReachLV100WithAmbrojoe": {
+        "description": "Reach Level 100 with Sir Ambrojoe."
+      },
+      "FindGrimoire": {
+        "description": "Find the Grim Grimoire."
+      },
+      "FindGouda": {
+        "description": "Find the Ars Gouda."
+      },
+      "FindGGospel": {
+        "description": "Find the Great Gospel."
+      },
+      "DefeatBossChapel2": {
+        "description": "Defeat the final enemy in the Cappella Magna."
       }
     }
   },
@@ -2061,6 +2196,33 @@
       },
       "DefeatBossChapel": {
         "description": "마그나 예배당에서 트리나크리아 쓰러뜨리기."
+      },
+      "Defeat6000StageKillers": {
+        "description": "누적 6.000마리의 스테이지 킬러 처치."
+      },
+      "ReachLV99WithPorta": {
+        "description": "포르타 99레벨 달성."
+      },
+      "Survive31MinutesInDairyPlant": {
+        "description": "유제품 공장에서 31분을 생존."
+      },
+      "See100Items": {
+        "description": "컬렉션에 100개의 항목을 해금."
+      },
+      "ReachLV100WithAmbrojoe": {
+        "description": "암브로조 경 100레벨 달성."
+      },
+      "FindGrimoire": {
+        "description": "그림 그리모어 발견."
+      },
+      "FindGouda": {
+        "description": "Find the Ars Gouda."
+      },
+      "FindGGospel": {
+        "description": "Find the Great Gospel."
+      },
+      "DefeatBossChapel2": {
+        "description": "Defeat the final enemy in the Cappella Magna."
       }
     }
   },
@@ -2413,6 +2575,33 @@
       },
       "DefeatBossChapel": {
         "description": "Defeat the Trinacria in the Cappella Magna."
+      },
+      "Defeat6000StageKillers": {
+        "description": "Defeat a total of 6000 Stage Killers."
+      },
+      "ReachLV99WithPorta": {
+        "description": "Reach Level 99 with Porta."
+      },
+      "Survive31MinutesInDairyPlant": {
+        "description": "Reach minute 31 in the Dairy Plant."
+      },
+      "See100Items": {
+        "description": "Fill 100 entries in the Collection."
+      },
+      "ReachLV100WithAmbrojoe": {
+        "description": "Reach Level 100 with Sir Ambrojoe."
+      },
+      "FindGrimoire": {
+        "description": "Find the Grim Grimoire."
+      },
+      "FindGouda": {
+        "description": "Find the Ars Gouda."
+      },
+      "FindGGospel": {
+        "description": "Find the Great Gospel."
+      },
+      "DefeatBossChapel2": {
+        "description": "Defeat the final enemy in the Cappella Magna."
       }
     }
   },
@@ -2728,31 +2917,58 @@
         "description": "Получите Багровый Саван."
       },
       "ReachLV99WithAntonio": {
-        "description": "Reach Level 99 with Antonio."
+        "description": "Достигните 99 Уровня с Антонио."
       },
       "Survive31MinutesInForest": {
-        "description": "Reach minute 31 in the Mad Forest."
+        "description": "Достигните 31 минуты в Безумном Лесу."
       },
       "Have6Evolutions": {
-        "description": "Hold 6 different weapon evolutions at once."
+        "description": "Соберите 6 разных видов улучшенного оружия за забег."
       },
       "GetTorroneToLevel9": {
-        "description": "Get Torrona's Box to Level 9."
+        "description": "Получите Шкатулку Торроны 9 Уровня."
       },
       "FindYellowSignS5": {
-        "description": "Deal with the whole lunar eclipse event, starting from Moongolow."
+        "description": "Разберитесь со всем событием лунного затмения, начиная с Лунасвета."
       },
       "FindCoffinStage5": {
-        "description": "Find and open the coffin in the Cappella Magna."
+        "description": "Найдите и откройте гроб в Капелла Магна."
       },
       "Survive15MinutesWithWind": {
-        "description": "Survive 15 minutes with Zi'Assunta."
+        "description": "Выживите 15 минут с Зи'Ассунта."
       },
       "EvolveWind": {
-        "description": "Unite Vento Sacro and Bloody Tear."
+        "description": "Объедините Венто Сакро и Кровавую Слезу."
       },
       "DefeatBossChapel": {
-        "description": "Defeat the Trinacria in the Cappella Magna."
+        "description": "Победите Тринакрию в Капелла Магна."
+      },
+      "Defeat6000StageKillers": {
+        "description": "Победите в общей сложности 6000 Сценических убийц."
+      },
+      "ReachLV99WithPorta": {
+        "description": "Достигните 99 Уровня с Порта."
+      },
+      "Survive31MinutesInDairyPlant": {
+        "description": "Достигните 31 минуты на Молочном заводе."
+      },
+      "See100Items": {
+        "description": "Откройте 100 предметов в Коллекции."
+      },
+      "ReachLV100WithAmbrojoe": {
+        "description": "Достигните 100 Уровня с  Сэром Амбро Джо."
+      },
+      "FindGrimoire": {
+        "description": "Найдите Мрачный Гримуар."
+      },
+      "FindGouda": {
+        "description": "Find the Ars Gouda."
+      },
+      "FindGGospel": {
+        "description": "Find the Great Gospel."
+      },
+      "DefeatBossChapel2": {
+        "description": "Defeat the final enemy in the Cappella Magna."
       }
     }
   },
@@ -3087,6 +3303,33 @@
       },
       "DefeatBossChapel": {
         "description": "Defeat the Trinacria in the Cappella Magna."
+      },
+      "Defeat6000StageKillers": {
+        "description": "Defeat a total of 6000 Stage Killers."
+      },
+      "ReachLV99WithPorta": {
+        "description": "Reach Level 99 with Porta."
+      },
+      "Survive31MinutesInDairyPlant": {
+        "description": "Reach minute 31 in the Dairy Plant."
+      },
+      "See100Items": {
+        "description": "Fill 100 entries in the Collection."
+      },
+      "ReachLV100WithAmbrojoe": {
+        "description": "Reach Level 100 with Sir Ambrojoe."
+      },
+      "FindGrimoire": {
+        "description": "Find the Grim Grimoire."
+      },
+      "FindGouda": {
+        "description": "Find the Ars Gouda."
+      },
+      "FindGGospel": {
+        "description": "Find the Great Gospel."
+      },
+      "DefeatBossChapel2": {
+        "description": "Defeat the final enemy in the Cappella Magna."
       }
     }
   },

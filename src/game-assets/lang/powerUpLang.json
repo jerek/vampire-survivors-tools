@@ -105,7 +105,7 @@
   },
   "zh-TW": {
     "english": "Chinese (Traditional)",
-    "native": "繁體中文 95%",
+    "native": "繁體中文 90%",
     "api": "tchinese",
     "translations": {}
   },
@@ -317,7 +317,7 @@
   },
   "de": {
     "english": "German",
-    "native": "Deutsch",
+    "native": "Deutsch 80%",
     "api": "german",
     "translations": {
       "POWER": {
@@ -426,7 +426,7 @@
   },
   "ja": {
     "english": "Japanese",
-    "native": "日本語 95%",
+    "native": "日本語 90%",
     "api": "japanese",
     "translations": {
       "POWER": {
@@ -506,12 +506,12 @@
         "description": "敵のスピード、ヘルス、数量、\n頻度をランク毎に10%ずつ増加\nさせる(最大+50%)。"
       },
       "BANISH": {
-        "name": "Banish",
-        "description": "Once per rank, allows to remove an item from level up choices, for the rest of the run."
+        "name": "バニッシュ",
+        "description": "ランクごとに1回使用することが\nでき、使用するとレベルアップ\nの選択肢から項目を削除できる。"
       },
       "PANDORA": {
-        "name": "Omni",
-        "description": "Increases Might, Projectile Speed, Duration, and Area by 2% per rank (max +10%)."
+        "name": "オムニ",
+        "description": "ランク毎に威力、発射速度、持続時間、範囲を2%ずつ増加させる(最大+10%)．"
       }
     }
   },
@@ -807,8 +807,8 @@
         "description": "Позволяет удалить предмет из предложенных при повышении уровня до конца забега."
       },
       "PANDORA": {
-        "name": "Omni",
-        "description": "Increases Might, Projectile Speed, Duration, and Area by 2% per rank (max +10%)."
+        "name": "Омни",
+        "description": "Увеличивает Силу, Скорость, Срок и Размер на 2% за ранг (макс. +10%)."
       }
     }
   },

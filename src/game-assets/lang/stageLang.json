@@ -70,7 +70,7 @@
   },
   "zh-TW": {
     "english": "Chinese (Traditional)",
-    "native": "繁體中文 95%",
+    "native": "繁體中文 90%",
     "api": "tchinese",
     "translations": {}
   },
@@ -212,7 +212,7 @@
   },
   "de": {
     "english": "German",
-    "native": "Deutsch",
+    "native": "Deutsch 80%",
     "api": "german",
     "translations": {
       "FOREST": {
@@ -286,7 +286,7 @@
   },
   "ja": {
     "english": "Japanese",
-    "native": "日本語 95%",
+    "native": "日本語 90%",
     "api": "japanese",
     "translations": {
       "FOREST": {
@@ -302,7 +302,7 @@
       "GREENACRES": {
         "stageName": "緑の地",
         "description": "人間は決して立ち入れない場所。 ここでは運命が数分で変わってしまう。",
-        "tips": "Random enemy waves from normal stages",
+        "tips": "通常ステージの敵のランダムウェーブ",
         "hyperTips": "50%のゴールドボーナス\n10%の運気ボーナス",
         "stagenNumber": "チャレンジ"
       },
@@ -312,31 +312,31 @@
         "hyperTips": "50%のゴールドボーナス\n10%の運気ボーナス"
       },
       "MOLISE": {
-        "stageName": "Il Molise",
-        "description": "There exists places that don't exist. Come to relax and enjoy life. See you in the country.",
-        "hyperTips": "50% Gold Bonus\n20% Luck bonus\nEnemies Health +60%",
-        "tips": "Enemies don't move"
+        "stageName": "イル・モリーゼ",
+        "description": "実在しない場所も存在する。\nリラックスして人生を楽しもう。\n田舎で会いましょう。",
+        "hyperTips": "金貨50%ボーナス\n運気10％ボーナス\n敵の体力+60%",
+        "tips": "敵が動かない"
       },
       "TOWER": {
-        "stageName": "Gallo Tower",
-        "description": "This tower holds great magical artifacts and historically accurate monsters."
+        "stageName": "ガロ・タワー",
+        "description": "この塔には、素晴らしい魔法の品々や歴\n史上実在したモンスターが隠れています。"
       },
       "BONEZONE": {
-        "stageName": "The Bone Zone",
-        "description": "Come over here and say your unholy vespers.",
-        "tips": "No item drops. Enemies grow stronger over time."
+        "stageName": "ボーン・ゾーン",
+        "description": "こっちに来て、邪悪な祈りを捧げなさい。",
+        "tips": "アイテムドロップはありません。\n敵は時間経過で強くなる。"
       },
       "SINKING": {
         "stageName": "Moongolow",
-        "description": "When the moon is red and bright, the remnants of a town swallowed by the sea come back to the surface, bringing mysteries and riches.",
-        "tips": "Extra stage items"
+        "description": "月が赤く輝く頃、 海に呑み込まれた町の名残が蘇り、 謎と富をもたらす。",
+        "tips": "エクストラステージアイテム"
       },
       "STAGEX": {
-        "description": "Wait, you can see this too? This isn't right..."
+        "description": "えっ、 これも見えるの？ これはおかしいぞ...。"
       },
       "CHAPEL": {
-        "stageName": "Cappella Magna",
-        "description": "Have we gone too far? Could have just camped in the forest with all that chicken, but noooo, we had to go chase some random vampire instead."
+        "stageName": "カペラ・マグナ",
+        "description": "行き過ぎたかな？ 森でキャンプすることもできたのに チキンを持って...  代わりにヴァンパイアを追わなければならないとはね"
       }
     }
   },
@@ -527,8 +527,8 @@
         "description": "Подожди, ты тоже это видишь? Это неправильно..."
       },
       "CHAPEL": {
-        "stageName": "Cappella Magna",
-        "description": "Have we gone too far? Could have just camped in the forest with all that chicken, but noooo, we had to go chase some random vampire instead."
+        "stageName": "Капелла Магна",
+        "description": "Не зашли ли мы слишком далеко? Можно было бы просто разбить лагерь в лесу со всей этой курицей, но нееет, вместо этого нам пришлось гоняться за каким-то случайным вампиром."
       }
     }
   },

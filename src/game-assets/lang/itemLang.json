@@ -109,12 +109,32 @@
         "name": "Yellow Sign",
         "description": "Permanently allows to detect hidden items in all stages.",
         "achievementTips": "Hidden stage items."
+      },
+      "RELIC_GRIMOIRE": {
+        "name": "Grim Grimoire",
+        "description": "Permanently allows to peek at discovered weapon evolutions and unions from the pause menu.",
+        "achievementTips": "evolution list."
+      },
+      "RELIC_NOSEGLASSES": {
+        "name": "Mindbender",
+        "description": "Permanently allows to change character appearance (where applicable) and maximum weapon loadout.",
+        "achievementTips": "character customization."
+      },
+      "RELIC_GOUDA": {
+        "name": "Ars Gouda",
+        "description": "Permanently allows to access the list of defeated enemies from the main menu.",
+        "achievementTips": "Bestiary."
+      },
+      "RELIC_GGOSPEL": {
+        "name": "Great Gospel",
+        "description": "Permanently allows to level up weapons beyond their limit. Can be enabled in Stage Selection.",
+        "achievementTips": "Limit Break."
       }
     }
   },
   "zh-TW": {
     "english": "Chinese (Traditional)",
-    "native": "繁體中文 95%",
+    "native": "繁體中文 90%",
     "api": "tchinese",
     "translations": {}
   },
@@ -233,6 +253,26 @@
         "name": "Yellow Sign",
         "description": "Permanently allows to detect hidden items in all stages.",
         "achievementTips": "Hidden stage items."
+      },
+      "RELIC_GRIMOIRE": {
+        "name": "Grim Grimoire",
+        "description": "Permanently allows to peek at discovered weapon evolutions and unions from the pause menu.",
+        "achievementTips": "evolution list."
+      },
+      "RELIC_NOSEGLASSES": {
+        "name": "Mindbender",
+        "description": "Permanently allows to change character appearance (where applicable) and maximum weapon loadout.",
+        "achievementTips": "character customization."
+      },
+      "RELIC_GOUDA": {
+        "name": "Ars Gouda",
+        "description": "Permanently allows to access the list of defeated enemies from the main menu.",
+        "achievementTips": "Bestiary."
+      },
+      "RELIC_GGOSPEL": {
+        "name": "Great Gospel",
+        "description": "Permanently allows to level up weapons beyond their limit. Can be enabled in Stage Selection.",
+        "achievementTips": "Limit Break."
       }
     }
   },
@@ -339,12 +379,32 @@
         "name": "Yellow Sign",
         "description": "Permanently allows to detect hidden items in all stages.",
         "achievementTips": "Hidden stage items."
+      },
+      "RELIC_GRIMOIRE": {
+        "name": "Grim Grimoire",
+        "description": "Permanently allows to peek at discovered weapon evolutions and unions from the pause menu.",
+        "achievementTips": "evolution list."
+      },
+      "RELIC_NOSEGLASSES": {
+        "name": "Mindbender",
+        "description": "Permanently allows to change character appearance (where applicable) and maximum weapon loadout.",
+        "achievementTips": "character customization."
+      },
+      "RELIC_GOUDA": {
+        "name": "Ars Gouda",
+        "description": "Permanently allows to access the list of defeated enemies from the main menu.",
+        "achievementTips": "Bestiary."
+      },
+      "RELIC_GGOSPEL": {
+        "name": "Great Gospel",
+        "description": "Permanently allows to level up weapons beyond their limit. Can be enabled in Stage Selection.",
+        "achievementTips": "Limit Break."
       }
     }
   },
   "de": {
     "english": "German",
-    "native": "Deutsch",
+    "native": "Deutsch 80%",
     "api": "german",
     "translations": {
       "CLOVER": {
@@ -439,6 +499,26 @@
         "name": "Yellow Sign",
         "description": "Permanently allows to detect hidden items in all stages.",
         "achievementTips": "Hidden stage items."
+      },
+      "RELIC_GRIMOIRE": {
+        "name": "Grim Grimoire",
+        "description": "Permanently allows to peek at discovered weapon evolutions and unions from the pause menu.",
+        "achievementTips": "evolution list."
+      },
+      "RELIC_NOSEGLASSES": {
+        "name": "Mindbender",
+        "description": "Permanently allows to change character appearance (where applicable) and maximum weapon loadout.",
+        "achievementTips": "character customization."
+      },
+      "RELIC_GOUDA": {
+        "name": "Ars Gouda",
+        "description": "Permanently allows to access the list of defeated enemies from the main menu.",
+        "achievementTips": "Bestiary."
+      },
+      "RELIC_GGOSPEL": {
+        "name": "Great Gospel",
+        "description": "Permanently allows to level up weapons beyond their limit. Can be enabled in Stage Selection.",
+        "achievementTips": "Limit Break."
       }
     }
   },
@@ -462,7 +542,7 @@
   },
   "ja": {
     "english": "Japanese",
-    "native": "日本語 95%",
+    "native": "日本語 90%",
     "api": "japanese",
     "translations": {
       "CLOVER": {
@@ -526,37 +606,57 @@
         "achievementTips": "ポーズメニューマップ"
       },
       "RELIC_TEAR": {
-        "name": "Sorceress' Tears",
-        "description": "Permanently allows to speed up time in Stage Selection.",
-        "achievementTips": "Hurry mode."
+        "name": "魔女の涙",
+        "description": "ステージ選択時にお急ぎ時間短縮を可能にする。",
+        "achievementTips": "お急ぎモード"
       },
       "RELIC_RANDOMAZZO": {
-        "description": "Enables the unlocking and activation of Arcanas.",
-        "name": "Randomazzo",
-        "achievementTips": "Arcanas."
+        "description": "アルカナのアンロックとアクティベーションを可能にする。",
+        "name": "ランダマッゾ",
+        "achievementTips": "アルカナ"
       },
       "RELIC_BANGER": {
-        "description": "Permanently allows to change music in stage selection.",
-        "name": "Magic Banger",
-        "achievementTips": "Music selection."
+        "description": "ステージ選択時の音楽変更を常時可能にする。",
+        "name": "マジックバンガー",
+        "achievementTips": "音楽選択"
       },
       "GILDED": {
-        "description": "Gathers all gold left on the ground and starts a Gold Fever.",
-        "name": "Gilded Clover"
+        "description": "地面に落ちているゴールドを全て集め、 ゴールドフィーバーを起こす。",
+        "name": "金箔のクローバー"
       },
       "RELIC_GLASSMASK": {
-        "name": "Glass Vizard",
-        "description": "Summons the merchant in all stages.",
-        "achievementTips": "Merchant."
+        "name": "グラス・ビザード",
+        "description": "全ステージで商人を召喚する。",
+        "achievementTips": "商人"
       },
       "RELIC_GOLDENEGG": {
-        "name": "Golden Egg",
-        "description": "Permanently improves a random stat for the current character, by a tiny amount."
+        "name": "金の卵",
+        "description": "現在のキャラクターのランダムなステータスを永久に微量に向上させる。"
       },
       "RELIC_YELLOW": {
-        "name": "Yellow Sign",
-        "description": "Permanently allows to detect hidden items in all stages.",
-        "achievementTips": "Hidden stage items."
+        "name": "イエローサイン",
+        "description": "全ステージで隠しアイテムを発見できるようになります。",
+        "achievementTips": "ステージの隠しアイテム"
+      },
+      "RELIC_GRIMOIRE": {
+        "name": "Grim Grimoire",
+        "description": "Permanently allows to peek at discovered weapon evolutions and unions from the pause menu.",
+        "achievementTips": "evolution list."
+      },
+      "RELIC_NOSEGLASSES": {
+        "name": "Mindbender",
+        "description": "Permanently allows to change character appearance (where applicable) and maximum weapon loadout.",
+        "achievementTips": "character customization."
+      },
+      "RELIC_GOUDA": {
+        "name": "Ars Gouda",
+        "description": "Permanently allows to access the list of defeated enemies from the main menu.",
+        "achievementTips": "Bestiary."
+      },
+      "RELIC_GGOSPEL": {
+        "name": "Great Gospel",
+        "description": "Permanently allows to level up weapons beyond their limit. Can be enabled in Stage Selection.",
+        "achievementTips": "Limit Break."
       }
     }
   },
@@ -656,7 +756,27 @@
       "RELIC_YELLOW": {
         "name": "노란색 신호",
         "description": "획득시 숨겨진 진화법을 해금합니다.",
-        "achievementTips": "숨겨진 스테이지 아이템."
+        "achievementTips": "숨겨진 마법유물."
+      },
+      "RELIC_GRIMOIRE": {
+        "name": "그림 그리모어",
+        "description": "일시 정지 메뉴에서 발견한 무기 진화,조합법을 영구적으로 확인할수 있습니다.",
+        "achievementTips": "진화목록."
+      },
+      "RELIC_NOSEGLASSES": {
+        "name": "코주부 안경",
+        "description": "캐릭터의 외형을 변경 가능하게 해줍니다 또한 게임 시작 전에 소지 가능한 최대 무기의 수량을 지정할 수 있습니다.",
+        "achievementTips": "캐릭터 커스터마이징."
+      },
+      "RELIC_GOUDA": {
+        "name": "Ars Gouda",
+        "description": "Permanently allows to access the list of defeated enemies from the main menu.",
+        "achievementTips": "Bestiary."
+      },
+      "RELIC_GGOSPEL": {
+        "name": "Great Gospel",
+        "description": "Permanently allows to level up weapons beyond their limit. Can be enabled in Stage Selection.",
+        "achievementTips": "Limit Break."
       }
     }
   },
@@ -775,6 +895,26 @@
         "name": "Yellow Sign",
         "description": "Permanently allows to detect hidden items in all stages.",
         "achievementTips": "Hidden stage items."
+      },
+      "RELIC_GRIMOIRE": {
+        "name": "Grim Grimoire",
+        "description": "Permanently allows to peek at discovered weapon evolutions and unions from the pause menu.",
+        "achievementTips": "evolution list."
+      },
+      "RELIC_NOSEGLASSES": {
+        "name": "Mindbender",
+        "description": "Permanently allows to change character appearance (where applicable) and maximum weapon loadout.",
+        "achievementTips": "character customization."
+      },
+      "RELIC_GOUDA": {
+        "name": "Ars Gouda",
+        "description": "Permanently allows to access the list of defeated enemies from the main menu.",
+        "achievementTips": "Bestiary."
+      },
+      "RELIC_GGOSPEL": {
+        "name": "Great Gospel",
+        "description": "Permanently allows to level up weapons beyond their limit. Can be enabled in Stage Selection.",
+        "achievementTips": "Limit Break."
       }
     }
   },
@@ -881,6 +1021,26 @@
         "name": "Желтый Знак",
         "description": "Позволяет обнаруживать скрытые предметы на всех этапах.",
         "achievementTips": "Скрытые предметы этапа."
+      },
+      "RELIC_GRIMOIRE": {
+        "name": "Мрачный Гримуар.",
+        "description": "Позволяет просматривать обнаруженные улучшения оружия и объединения из меню паузы.",
+        "achievementTips": "список улучшений."
+      },
+      "RELIC_NOSEGLASSES": {
+        "name": "Покоритель Разума",
+        "description": "Позволяет изменять внешний вид персонажа (где это применимо) и макс. загрузку оружия.",
+        "achievementTips": "кастомизация персонажа."
+      },
+      "RELIC_GOUDA": {
+        "name": "Ars Gouda",
+        "description": "Permanently allows to access the list of defeated enemies from the main menu.",
+        "achievementTips": "Bestiary."
+      },
+      "RELIC_GGOSPEL": {
+        "name": "Great Gospel",
+        "description": "Permanently allows to level up weapons beyond their limit. Can be enabled in Stage Selection.",
+        "achievementTips": "Limit Break."
       }
     }
   },
@@ -981,6 +1141,26 @@
         "name": "Yellow Sign",
         "description": "Permanently allows to detect hidden items in all stages.",
         "achievementTips": "Hidden stage items."
+      },
+      "RELIC_GRIMOIRE": {
+        "name": "Grim Grimoire",
+        "description": "Permanently allows to peek at discovered weapon evolutions and unions from the pause menu.",
+        "achievementTips": "evolution list."
+      },
+      "RELIC_NOSEGLASSES": {
+        "name": "Mindbender",
+        "description": "Permanently allows to change character appearance (where applicable) and maximum weapon loadout.",
+        "achievementTips": "character customization."
+      },
+      "RELIC_GOUDA": {
+        "name": "Ars Gouda",
+        "description": "Permanently allows to access the list of defeated enemies from the main menu.",
+        "achievementTips": "Bestiary."
+      },
+      "RELIC_GGOSPEL": {
+        "name": "Great Gospel",
+        "description": "Permanently allows to level up weapons beyond their limit. Can be enabled in Stage Selection.",
+        "achievementTips": "Limit Break."
       }
     }
   },

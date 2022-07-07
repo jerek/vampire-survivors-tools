@@ -142,12 +142,26 @@
       "NEO": {
         "charName": "Marrabbio",
         "prefix": "Boon"
+      },
+      "PEPPINO": {
+        "charName": "Peppino",
+        "description": "Starts with temporarily reduced area."
+      },
+      "AMBROGIO": {
+        "prefix": "Sir",
+        "charName": "Ambrojoe",
+        "description": "Gets more projectiles every 20 levels (max+3). Starts with temporary Amount bonus."
+      },
+      "BOROS": {
+        "name": "Gains",
+        "surname": "Boros",
+        "description": "Gains +2% Growth every level."
       }
     }
   },
   "zh-TW": {
     "english": "Chinese (Traditional)",
-    "native": "繁體中文 95%",
+    "native": "繁體中文 90%",
     "api": "tchinese",
     "translations": {}
   },
@@ -299,6 +313,20 @@
       "NEO": {
         "charName": "Marrabbio",
         "prefix": "Boon"
+      },
+      "PEPPINO": {
+        "charName": "Peppino",
+        "description": "Starts with temporarily reduced area."
+      },
+      "AMBROGIO": {
+        "prefix": "Sir",
+        "charName": "Ambrojoe",
+        "description": "Gets more projectiles every 20 levels (max+3). Starts with temporary Amount bonus."
+      },
+      "BOROS": {
+        "name": "Gains",
+        "surname": "Boros",
+        "description": "Gains +2% Growth every level."
       }
     }
   },
@@ -438,12 +466,26 @@
       "NEO": {
         "charName": "Marrabbio",
         "prefix": "Boon"
+      },
+      "PEPPINO": {
+        "charName": "Peppino",
+        "description": "Starts with temporarily reduced area."
+      },
+      "AMBROGIO": {
+        "prefix": "Sir",
+        "charName": "Ambrojoe",
+        "description": "Gets more projectiles every 20 levels (max+3). Starts with temporary Amount bonus."
+      },
+      "BOROS": {
+        "name": "Gains",
+        "surname": "Boros",
+        "description": "Gains +2% Growth every level."
       }
     }
   },
   "de": {
     "english": "German",
-    "native": "Deutsch",
+    "native": "Deutsch 80%",
     "api": "german",
     "translations": {
       "ANTONIO": {
@@ -571,6 +613,20 @@
       "NEO": {
         "charName": "Marrabbio",
         "prefix": "Boon"
+      },
+      "PEPPINO": {
+        "charName": "Peppino",
+        "description": "Starts with temporarily reduced area."
+      },
+      "AMBROGIO": {
+        "prefix": "Sir",
+        "charName": "Ambrojoe",
+        "description": "Gets more projectiles every 20 levels (max+3). Starts with temporary Amount bonus."
+      },
+      "BOROS": {
+        "name": "Gains",
+        "surname": "Boros",
+        "description": "Gains +2% Growth every level."
       }
     }
   },
@@ -594,7 +650,7 @@
   },
   "ja": {
     "english": "Japanese",
-    "native": "日本語 95%",
+    "native": "日本語 90%",
     "api": "japanese",
     "translations": {
       "ANTONIO": {
@@ -669,59 +725,73 @@
         "description": "レベル毎に効果時間が+1%される。"
       },
       "CRISTINA": {
-        "description": "Starts with 1 extra level.",
-        "surname": "Davain",
-        "charName": "Christine"
+        "description": "1レベル追加で開始。",
+        "surname": "ダヴァン",
+        "charName": "クリスティーン"
       },
       "PUGNALA": {
-        "description": "Gains +1% Might every level.",
-        "surname": "Provola",
-        "charName": "Pugnala"
+        "description": "レベル毎に威力が+1%増加する。",
+        "surname": "プローヴォラ",
+        "charName": "プニャーラ"
       },
       "MARIA": {
         "description": "20レベルごとに発射物が増加 （上限：3）。",
-        "prefix": "Bianca",
-        "charName": "Ramba"
+        "prefix": "ビアンカ",
+        "charName": "ランバ"
       },
       "GIOVANNA": {
-        "charName": "Giovanna",
-        "surname": "Grana",
-        "description": "Gains +1% Projectile Speed every level."
+        "charName": "ジョバンナ",
+        "surname": "グラナ",
+        "description": "レベル毎に発射速度が+1%増加する。"
       },
       "TATANKA": {
-        "name": "O'Sole",
-        "surname": "Meeo",
+        "name": "オソーレ",
+        "surname": "ミーオ",
         "description": "20レベルごとに発射物が増加 （上限：3）。"
       },
       "CONCETTA": {
-        "charName": "Concetta",
-        "surname": "Caciotta",
-        "description": "Gains +1% Area every level."
+        "charName": "コンチェッタ",
+        "surname": "カシオッタ",
+        "description": "レベル毎にエリアが+1%される。"
       },
       "FEBBRA": {
-        "charName": "Divano",
-        "surname": "Thelma",
-        "description": "Starts with 1 extra level. Gains +1 Armor every 5 levels (max +5)."
+        "charName": "ディバーノ",
+        "surname": "テルマ",
+        "description": "レベルが1上がった状態でスタートする。 5レベル毎にアーマーが+1される (最大+5)."
       },
       "PINO": {
-        "charName": "Gallo",
-        "suffix": "Iguana",
-        "surname": "Valletto",
-        "description": "Starts with 1 extra level. Gains +10% Growth every 5 levels (max +50%)."
+        "charName": "ガロ",
+        "suffix": "イグアナ",
+        "surname": "ヴァレット",
+        "description": "レベルが1上がった状態でスタートする。 5レベルごとに成長率 +10%(最大+50%)を獲得する。"
       },
       "ASSUNTA": {
-        "charName": "Zi'Assunta",
-        "surname": "Belpaese",
-        "description": "Gains +0.5% Might, projectile Speed, Duration, and Area every level."
+        "charName": "ジ・アスンタ",
+        "surname": "ベルペーゼ",
+        "description": "レベル毎に威力、 発射速度、 持続時間、 範囲が+0.5%される。"
       },
       "GRAZIELLA": {
-        "charName": "Minnah",
-        "surname": "Mannarah",
-        "description": "Might, projectile Speed, Duration, Area, and Cooldown change every minute."
+        "charName": "ミナ",
+        "surname": "マナラ",
+        "description": "威力、スピード、 持続時間、 範囲、 クールダウンは 1分毎に変化する。"
       },
       "NEO": {
-        "charName": "Marrabbio",
-        "prefix": "Boon"
+        "charName": "マラッビオ",
+        "prefix": "ブーン"
+      },
+      "PEPPINO": {
+        "charName": "Peppino",
+        "description": "Starts with temporarily reduced area."
+      },
+      "AMBROGIO": {
+        "prefix": "Sir",
+        "charName": "Ambrojoe",
+        "description": "Gets more projectiles every 20 levels (max+3). Starts with temporary Amount bonus."
+      },
+      "BOROS": {
+        "name": "Gains",
+        "surname": "Boros",
+        "description": "Gains +2% Growth every level."
       }
     }
   },
@@ -855,6 +925,20 @@
       "NEO": {
         "charName": "마라비오",
         "prefix": "분"
+      },
+      "PEPPINO": {
+        "charName": "페피노",
+        "description": "일시적인 공격범위 감소를 가지고 시작합니다.,"
+      },
+      "AMBROGIO": {
+        "prefix": "경",
+        "charName": "암브로조",
+        "description": "매 20레벨 마다 투사체 추가됩니다(최대 +3), 일시적인 투사체 수 증가 보너스를 받고 시작합니다."
+      },
+      "BOROS": {
+        "name": "Gains",
+        "surname": "Boros",
+        "description": "Gains +2% Growth every level."
       }
     }
   },
@@ -1006,6 +1090,20 @@
       "NEO": {
         "charName": "Marrabbio",
         "prefix": "Boon"
+      },
+      "PEPPINO": {
+        "charName": "Peppino",
+        "description": "Starts with temporarily reduced area."
+      },
+      "AMBROGIO": {
+        "prefix": "Sir",
+        "charName": "Ambrojoe",
+        "description": "Gets more projectiles every 20 levels (max+3). Starts with temporary Amount bonus."
+      },
+      "BOROS": {
+        "name": "Gains",
+        "surname": "Boros",
+        "description": "Gains +2% Growth every level."
       }
     }
   },
@@ -1133,18 +1231,32 @@
         "description": "Начинает с 1 доп. уровнем. Получ. +10% к Приросту каждые 5 уровней (макс. +50%)."
       },
       "ASSUNTA": {
-        "charName": "Zi'Assunta",
-        "surname": "Belpaese",
-        "description": "Gains +0.5% Might, projectile Speed, Duration, and Area every level."
+        "charName": "Зи'Ассунта",
+        "surname": "Бельпаезе",
+        "description": "Получает +0,5% к Силе, Скорости, Сроку и Размеру с каждым уровнем."
       },
       "GRAZIELLA": {
-        "charName": "Minnah",
-        "surname": "Mannarah",
-        "description": "Might, projectile Speed, Duration, Area, and Cooldown change every minute."
+        "charName": "Минна",
+        "surname": "Маннарах",
+        "description": "Сила, Скорость, Срок, Размер и Откат меняются каждую минуту."
       },
       "NEO": {
-        "charName": "Marrabbio",
-        "prefix": "Boon"
+        "charName": "Марраббио",
+        "prefix": "Бун"
+      },
+      "PEPPINO": {
+        "charName": "Пеппино",
+        "description": "Начинает с временно уменьшенным размером снарядов."
+      },
+      "AMBROGIO": {
+        "prefix": "Сэр",
+        "charName": "Амброджо",
+        "description": "Получает больше снарядов каждые 20 уровней (макс. +3). Начинает с временным бонусом к Количеству."
+      },
+      "BOROS": {
+        "name": "Gains",
+        "surname": "Boros",
+        "description": "Gains +2% Growth every level."
       }
     }
   },
@@ -1278,6 +1390,20 @@
       "NEO": {
         "charName": "Marrabbio",
         "prefix": "Boon"
+      },
+      "PEPPINO": {
+        "charName": "Peppino",
+        "description": "Starts with temporarily reduced area."
+      },
+      "AMBROGIO": {
+        "prefix": "Sir",
+        "charName": "Ambrojoe",
+        "description": "Gets more projectiles every 20 levels (max+3). Starts with temporary Amount bonus."
+      },
+      "BOROS": {
+        "name": "Gains",
+        "surname": "Boros",
+        "description": "Gains +2% Growth every level."
       }
     }
   },

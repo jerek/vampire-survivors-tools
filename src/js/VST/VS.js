@@ -174,74 +174,85 @@ VST.VS = new function () {
     // noinspection JSValidateTypes IDs are filled below in init(), so ignore warnings here.
     /** @type {Object<ArcanaId, ArcanaData>} A custom representation of the game's arcana data. */
     const ARCANAS = {
-        // 0: {name: 'Killer', description: '???'}, // If this is actually added, it'll need a different ID.
-        // 1: {name: 'Aquarius', description: '???'},
-        // 2: {name: '???', description: '???'},
-        // 3: {name: 'Tragic', description: '???'},
+        1: {
+            name: 'Game Killer',
+            description: 'Halts XP gain. XP gems turn into exploding projectiles. All Treasures contain at least 3 ' +
+                'items.',
+        },
+        // 2: {name: 'Aquarius', description: '???'},
+        // 3: {name: '???', description: '???'},
         4: {
+            name: 'III - Tragic Princess',
+            description: 'The cooldown of the listed weapons reduces when moving.',
+        },
+        5: {
             name: 'IV - Awake',
             description: 'Gives +3 Revivals. Consuming a Revival gives +10% MaxHealth, +1 Armor, and +5% Might, ' +
                 'Area, Duration, and Speed.',
         },
-        5: {
+        6: {
             name: 'V - Chaos in the Dark Night',
             description: 'Overall projectile Speed continuously changes between -50% and +200% over 10 seconds.',
         },
-        6: {
+        7: {
             name: 'VI - Sarabande of Healing',
             description: 'Healing is doubled. Recovering HP damages nearby enemies for the same amount.',
         },
-        7: {
+        8: {
             name: 'VII - Iron Blue Will',
             description: 'Listed weapon projectiles gain up to 3 bounces and might pass through enemies and walls.',
         },
-        8: {
+        9: {
             name: 'VIII - Mad Groove',
             description: 'Every 2 minutes attracts all standard stage items, pickups, and light sources towards the ' +
                 'character.',
         },
-        // 9: {name: '???', description: '???'},
-        10: {
+        // 10: {name: '???', description: '???'},
+        11: {
             name: 'X - Beginning',
             description: 'Listed weapons get +1 Amount. The character\'s main weapon and its evolution gain +3 ' +
                 'Amount instead.',
         },
-        11: {
+        12: {
             name: 'XI - Waltz of Pearls',
             description: 'Listed weapon projectiles gain up to 3 bounces.',
         },
-        12: {
+        13: {
             name: 'XII - Out of Bounds',
             description: 'Freezing enemies generates explosions. Orologions are easier to find.',
         },
-        // 13: {name: '???', description: '???'},
-        14: {
+        // 14: {name: '???', description: '???'},
+        15: {
             name: 'XIV - Jail of Crystal',
             description: 'Listed weapon projectiles have a chance to freeze enemies.',
         },
-        15: {
+        16: {
             name: 'XV - Disco of Gold',
             description: 'Picking up coin bags from the floor triggers Gold Fever. Obtaining gold restores as many HP.',
         },
-        16: {
+        17: {
             name: 'XVI - Slash',
             description: 'Enables critical hits for listed weapons. Doubles overall critical damage.',
         },
-        17: {
+        18: {
             name: 'XVII - Lost & Found Painting',
             description: 'Overall Duration continuously changes between -50% and +200% over 10 seconds.',
         },
-        18: {
+        19: {
             name: 'XVIII - Boogaloo of Illusions',
             description: 'Overall Area continuously changes between -25% and +50% over 10 seconds.',
         },
-        19: {
+        20: {
             name: 'XIX - Heart of Fire',
             description: 'Listed weapon projectiles explode on impact. Light sources explode. Character explodes ' +
                 'when damaged.',
         },
-        // 20: {name: 'Sinking', description: '???'},
-        // 21: {name: 'Bloody', description: '???'},
+        21: {
+            name: 'XX - Silent Old Sanctuary',
+            description: 'Gives +3 Reroll, Skip, and Banish. Gives +20% Might and -8% Cooldown for each active ' +
+                'weapon slot left empty.',
+        },
+        // 22: {name: 'Bloody', description: '???'},
     };
 
     // noinspection JSValidateTypes IDs are filled below in init(), so ignore warnings here.
@@ -312,13 +323,13 @@ VST.VS = new function () {
             surname: 'Ratcho',
             description: 'Permanent +25% pickup radius and -30 max health.',
             order: 8,
-            spriteName: 'Old3_01.png',
+            spriteName: 'newOld3_01.png',
             weaponIds: [WEAPON_ID_GARLIC],
         },
         9: {
             name: 'Clerici',
             description: 'Permanent +0.5 HP/s and +50 Max Health. Starts with temporary area bonus.',
-            spriteName: 'Suora_01.png',
+            spriteName: 'newSuora_01.png',
             order: 9,
             prefix: 'Suor',
             weaponIds: [WEAPON_ID_SANTA_WATER],
@@ -327,7 +338,7 @@ VST.VS = new function () {
             name: 'Dommario',
             description: 'Permanent +40% duration and speed, -40% move speed.',
             order: 10,
-            spriteName: 'Dommario_01.png',
+            spriteName: 'newDommario_01.png',
             weaponIds: [WEAPON_ID_KING_BIBLE],
         },
         11: {
@@ -335,7 +346,7 @@ VST.VS = new function () {
             surname: 'Freetto',
             description: 'Starts with 1 Revival. Gains 1 more Revival at level 33.',
             order: 11,
-            spriteName: 'Krochi_01.png',
+            spriteName: 'newKrochi_01.png',
             weaponIds: [WEAPON_ID_CROSS],
         },
         12: {
@@ -499,10 +510,19 @@ VST.VS = new function () {
         32: {
             name: 'Red Death',
             description: 'A blasphemous mockery.',
-            order: 32,
+            order: 33,
             spriteName: 'XLReaper_i01.png',
             prefix: 'Mask of the',
             weaponIds: [WEAPON_ID_DEATH_SPIRAL],
+        },
+        33: {
+            name: 'Gains',
+            description: 'Gains +2% Growth every level.',
+            order: 32,
+            spriteAlt: () => self.Img.ENEMIES_2,
+            spriteName: 'XLDragon1_i01.png',
+            surname: 'Boros',
+            weaponIds: [WEAPON_ID_HEAVEN_SWORD],
         },
         // There's some weird extra character data in the game files. Initially I included it all (just commented out),
         // in the hopes that it would lead to something interesting. After the initial update of 0.7.2 => 0.7.360, it

@@ -328,12 +328,17 @@
       "PANDORA": {
         "tips": "Torrona's Box",
         "description": "Cursed item, but increases Might, Projectile Speed, Duration, and Area by 4%."
+      },
+      "LAROBBA": {
+        "tips": "Best with: duration, speed.",
+        "description": "Generates bouncing projectiles.",
+        "name": "La Robba"
       }
     }
   },
   "zh-TW": {
     "english": "Chinese (Traditional)",
-    "native": "繁體中文 95%",
+    "native": "繁體中文 90%",
     "api": "tchinese",
     "translations": {}
   },
@@ -671,6 +676,11 @@
       "PANDORA": {
         "tips": "Torrona's Box",
         "description": "Cursed item, but increases Might, Projectile Speed, Duration, and Area by 4%."
+      },
+      "LAROBBA": {
+        "tips": "Best with: duration, speed.",
+        "description": "Generates bouncing projectiles.",
+        "name": "La Robba"
       }
     }
   },
@@ -996,12 +1006,17 @@
       "PANDORA": {
         "tips": "Torrona's Box",
         "description": "Cursed item, but increases Might, Projectile Speed, Duration, and Area by 4%."
+      },
+      "LAROBBA": {
+        "tips": "Best with: duration, speed.",
+        "description": "Generates bouncing projectiles.",
+        "name": "La Robba"
       }
     }
   },
   "de": {
     "english": "German",
-    "native": "Deutsch",
+    "native": "Deutsch 80%",
     "api": "german",
     "translations": {
       "WHIP": {
@@ -1315,6 +1330,11 @@
       "PANDORA": {
         "tips": "Torrona's Box",
         "description": "Cursed item, but increases Might, Projectile Speed, Duration, and Area by 4%."
+      },
+      "LAROBBA": {
+        "tips": "Best with: duration, speed.",
+        "description": "Generates bouncing projectiles.",
+        "name": "La Robba"
       }
     }
   },
@@ -1338,7 +1358,7 @@
   },
   "ja": {
     "english": "Japanese",
-    "native": "日本語 95%",
+    "native": "日本語 90%",
     "api": "japanese",
     "translations": {
       "WHIP": {
@@ -1560,98 +1580,103 @@
         "tips": "必要アイテム：スコル・オマニアック"
       },
       "SIRE": {
-        "name": "Gorgeous Moon",
-        "description": "Evolved Pentagram. Generates extra gems and gathers all of them.",
-        "tips": "Requires: Crown."
+        "name": "ゴージャス・ムーン",
+        "description": "進化したペンタグラム。\n追加のジェムを生成し、それらをすべて集めます。",
+        "tips": "必要アイテム：王冠"
       },
       "GUNS": {
-        "name": "Phiera Der Tuphello",
-        "description": "Fires quickly in four fixed directions.",
+        "name": "フィエラ・デル・トゥフェロ",
+        "description": "4方向へ素早く発射。\n必要アイテム：ティラミス / エイト・ザ・スパロウ",
         "tips": "持続時間を無視する。"
       },
       "GUNS2": {
-        "name": "Eight The Sparrow",
-        "description": "Fires quickly in four fixed directions.",
+        "name": "エイト・ザ・スパロウ",
+        "description": "4方向へ素早く発射。\n必要アイテム：ティラミス / フィエラ・デル・トゥフェロ",
         "tips": "持続時間を無視する。"
       },
       "GUNS3": {
-        "name": "Phieraggi",
-        "description": "Union of Phiera Der Tuphello and Eight The Sparrow. Scales with Revivals.",
-        "tips": "必要アイテム：ティラギス"
+        "name": "フィエラッジ",
+        "description": "フィエラ・デル・トゥペロとエイト・ザ・スパロウ\nの合体。ティラミスでスケールします。",
+        "tips": "必要アイテム：ティラミス"
       },
       "ROCHER": {
-        "name": "NO FUTURE",
-        "description": "Evolved Runetracer. Explodes when bouncing and in retaliation.",
-        "tips": "Requires: Armor"
+        "name": "ノー・フューチャー",
+        "description": "進化した追撃のルーン。バウンド時や反撃時に爆発する。\n必要アイテム：アーマー",
+        "tips": "必要アイテム：アーマー"
       },
       "CART2": {
-        "name": "Carréllo",
-        "description": "Throws a bouncing projectile. Number of bounces affected by Amount.",
-        "tips": "Ignores: duration."
+        "name": "カレロ",
+        "description": "跳ね返る発射体を投げる。 跳ね返る回数は「量」に影響される。",
+        "tips": "効果無視：持続時間"
       },
       "GATTI": {
-        "name": "Gatti Amari",
-        "description": "Summons capricious projectiles. Might interact with pickups.",
-        "tips": "Best with: luck, floor chicken."
+        "name": "ビター・キャッツ",
+        "description": "気まぐれな弾丸を召喚する。\nピックアップと相互作用することがある。\n必要アイテム：石仮面",
+        "tips": "ベストマッチ：運気、ローストチキン"
       },
       "FLOWER": {
-        "name": "Celestial Dusting",
-        "description": "Throws a bouncing projectile. Cooldown reduces when moving.",
-        "tips": "Best with: moveSpeed."
+        "name": "セレスティアル・ダスティング",
+        "description": "弾むような発射体を投げる。 移動中はクールダウンが短くなる。",
+        "tips": "ベストマッチ：移動速度"
       },
       "TRAPANO": {
-        "name": "Shadow Pinion",
-        "description": "Generates damaging zones when moving, strikes when stopping.",
-        "tips": "Best with: MoveSpeed."
+        "name": "シャドーピニオン",
+        "description": "移動時にはダメージゾーンを発生させ、 停止時にはストライクを発生させる。 必要アイテム：ウィング",
+        "tips": "ベストマッチ：移動スピード"
       },
       "TRAPANO2": {
-        "name": "Valkyrie Turner",
-        "description": "Evolved Shadow Pinion. Bigger, longer, faster, stronger.",
-        "tips": "Requires: Wings."
+        "name": "ヴァルキリーターナー",
+        "description": "進化したシャドーピニオン。 より大きく、 より長く、 より速く、 より強くなる。",
+        "tips": "必要アイテム：ウイング"
       },
       "STIGRANGATTI": {
-        "name": "Vicious Hunger",
-        "description": "Evolved Gatti Amari. Might turn anything into gold.",
-        "tips": "Requires: Stone Mask."
+        "name": "ヴィシャス・ハンガー",
+        "description": "ビター・キャッツが進化したものです。 何でも黄金に変えてしまうかもしれない。",
+        "tips": "必要アイテム：石仮面"
       },
       "SHROUD": {
-        "name": "Crimson Shroud",
-        "description": "Evolved Laurel. Caps incoming damage at 10. Retaliates when losing charges.",
-        "tips": "Requires: Metaglio Left, Metaglio Right."
+        "name": "クリムゾン・シュラウド",
+        "description": "進化した月桂樹。 受けるダメージの上限を10にする。 チャージが無くなると報復する。",
+        "tips": "必要アイテム：メタリオ・レフト、メタリオ・ライト"
       },
       "CORRIDOR": {
-        "name": "Infinite Corridor",
-        "description": "Evolved Clock Lancet. Halves enemies health.",
-        "tips": "Requires: Gold Ring, Silver Ring."
+        "name": "無限回廊",
+        "description": "進化したクロック・ランセット。 敵の体力を半分にする。",
+        "tips": "必要アイテム：金の指輪、銀の指輪"
       },
       "GOLD": {
-        "name": "Gold Ring",
-        "description": "... With ... Lancet"
+        "name": "金の指輪",
+        "description": "ランセット...と..."
       },
       "SILVER": {
-        "name": "Silver Ring",
-        "description": "Wear ... Clock ..."
+        "name": "銀の指輪",
+        "description": "クロック...付ける..."
       },
       "LEFT": {
-        "name": "Metaglio Left",
-        "description": "Channels dark powers to protect the bearer."
+        "name": "メタリオ・レフト",
+        "description": "闇の力を操り、持ち主を守る。"
       },
       "RIGHT": {
-        "name": "Metaglio Right",
-        "description": "Channels dark powers to curse the bearer."
+        "name": "メタリオ・ライト",
+        "description": "暗黒の力を操り、持ち主を呪う。"
       },
       "VENTO": {
-        "name": "Vento Sacro",
-        "description": "Stronger with continuous movement. Can deal critical damage.",
-        "tips": "Best with: Luck, MoveSpeed."
+        "name": "聖なる風",
+        "description": "連続移動で強くなる。 クリティカルダメージを与えることができる。",
+        "tips": "ベストマッチ：運気、移動スピード"
       },
       "VENTO2": {
-        "name": "Fuwalafuwaloo",
-        "description": "Union of Vento Sacro and Bloody Tear. Critical hits might generate explosions."
+        "name": "フワラーフワラー",
+        "description": "聖なる風とブラッディー・ティアの合体。 クリティカルで爆発を起こすことがある。"
       },
       "PANDORA": {
-        "tips": "Torrona's Box",
-        "description": "Cursed item, but increases Might, Projectile Speed, Duration, and Area by 4%."
+        "tips": "トローナの箱",
+        "description": "呪われたアイテムだが、 威力、 発射速度、 効果時間、 範囲が4%上昇する."
+      },
+      "LAROBBA": {
+        "tips": "Best with: duration, speed.",
+        "description": "Generates bouncing projectiles.",
+        "name": "La Robba"
       }
     }
   },
@@ -1966,11 +1991,16 @@
       },
       "VENTO2": {
         "name": "붉은장미 덩쿨",
-        "description": "성스러운 바람과 피눈물의 진화형.치명타 공격시 폭발범위 대미지를 줍니다."
+        "description": "성스러운 바람과 피눈물의 진화형.치명타 공격시 범위 대미지를 줍니다."
       },
       "PANDORA": {
         "tips": "토로나의 상자",
-        "description": "저주받은 아이템이지만 힘, 투사체 속도, 지속 시간, 면적이 4% 증가합니다."
+        "description": "저주받은 아이템이지만 힘, 투사체 속도, 지속 시간, 공격범위가 4% 증가합니다."
+      },
+      "LAROBBA": {
+        "tips": "추천조합 : 지속시간,공격속도",
+        "description": "통통 튀는 투사체를 소환하여 공격합니다.",
+        "name": "라 로바"
       }
     }
   },
@@ -2308,6 +2338,11 @@
       "PANDORA": {
         "tips": "Torrona's Box",
         "description": "Cursed item, but increases Might, Projectile Speed, Duration, and Area by 4%."
+      },
+      "LAROBBA": {
+        "tips": "Best with: duration, speed.",
+        "description": "Generates bouncing projectiles.",
+        "name": "La Robba"
       }
     }
   },
@@ -2510,7 +2545,7 @@
       },
       "SILF3": {
         "name": "Вандалист",
-        "description": "Союз Черных Крыльев и Голубя."
+        "description": "Объединение Черных Крыльев и Голубя."
       },
       "REVIVAL": {
         "name": "Тирагису",
@@ -2557,7 +2592,7 @@
       },
       "GUNS3": {
         "name": "Фиераджи",
-        "description": "Союз Фиеры Дер Туфелло и 8-го Воробья. Изменяется с каждым Оживлением.",
+        "description": "Объединение Фиеры Дер Туфелло и 8-го Воробья. Изменяется с каждым Оживлением.",
         "tips": "Требует: Тирагису."
       },
       "ROCHER": {
@@ -2622,17 +2657,22 @@
         "description": "Источает темные силы, чтобы проклясть носителя."
       },
       "VENTO": {
-        "name": "Vento Sacro",
-        "description": "Stronger with continuous movement. Can deal critical damage.",
-        "tips": "Best with: Luck, MoveSpeed."
+        "name": "Венто Сакро",
+        "description": "Усиливается при непрерывном движении. Может нанести критический урон.",
+        "tips": "Лучше сочетается с: Удача, Подвижность."
       },
       "VENTO2": {
-        "name": "Fuwalafuwaloo",
-        "description": "Union of Vento Sacro and Bloody Tear. Critical hits might generate explosions."
+        "name": "Фувалафувалу",
+        "description": "Объединение Венто Сакро и Кровавой Слезы. Критические попадания могут привести к взрывам."
       },
       "PANDORA": {
-        "tips": "Torrona's Box",
-        "description": "Cursed item, but increases Might, Projectile Speed, Duration, and Area by 4%."
+        "tips": "Шкатулка Торроны",
+        "description": "Проклятый предмет, но увеличивает Силу, Скорость Снаряда, Срок и Размер на 4%."
+      },
+      "LAROBBA": {
+        "tips": "Лучше сочетается с: срок, скорость.",
+        "description": "Генерирует отскакивающие снаряды.",
+        "name": "Ля Робба"
       }
     }
   },
@@ -2952,6 +2992,11 @@
       "PANDORA": {
         "tips": "Torrona's Box",
         "description": "Cursed item, but increases Might, Projectile Speed, Duration, and Area by 4%."
+      },
+      "LAROBBA": {
+        "tips": "Best with: duration, speed.",
+        "description": "Generates bouncing projectiles.",
+        "name": "La Robba"
       }
     }
   },
