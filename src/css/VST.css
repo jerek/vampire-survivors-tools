@@ -11,8 +11,8 @@
     --vs-blue: #4b4f74;
     --vs-button-border-size: 18;
     --vs-button-border-size-px: 18px;
-    --vs-char-bg-border-size: 5;
-    --vs-char-bg-border-size-px: 5px;
+    --vs-generic-border-size: 5;
+    --vs-generic-border-size-px: 5px;
     --vs-char-weapon-frame-size: 42px;
     --vs-char-weapon-frame-size-x2: 84px;
     --vs-char-weapon-frame-size-x3: 126px;
@@ -209,6 +209,49 @@ footer a:hover {color: var(--vs-yellow)}
 .vst-container > h2:first-child {margin-top: 0}
 .vst-container > :last-child {margin-bottom: 0}
 
+/* ******************** */
+/* ***** TOOLTIPS ***** */
+/* ******************** */
+
+.vst-tooltip {
+    bottom: 100%;
+    box-sizing: border-box;
+    cursor: default;
+    display: none;
+    font-size: 12px;
+    font-weight: bold;
+    height: auto;
+    left: 0;
+    min-width: 175px;
+    padding: 7px 8px;
+    pointer-events: none;
+    position: absolute;
+    width: auto;
+    z-index: 100;
+}
+
+.vs-arcana-card, .vs-character, .vs-item, .vs-stage {display: inline-block; position: relative}
+
+.vs-arcana-card:hover .vst-tooltip,
+.vs-character:hover .vst-tooltip,
+.vs-item:hover .vst-tooltip,
+.vs-stage:hover .vst-tooltip {
+    display: block;
+}
+
+.vst-tooltip:after {
+    border: var(--vs-generic-border-size-px) solid transparent;
+    border-image: url(../game-assets/img/UI/frame1_c4.png) var(--vs-generic-border-size) fill;
+    bottom: 0;
+    content: "";
+    display: block;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: -1;
+}
+
 /* ********************** */
 /* ***** CHARACTERS ***** */
 /* ********************** */
@@ -242,8 +285,8 @@ a.vs-char-box:focus-visible:after {
 }
 .vs-char-box > * {position: absolute}
 .vs-char-box-bg {
-    border: var(--vs-char-bg-border-size-px) solid transparent;
-    border-image: url(../game-assets/img/UI/frame1_c2.png) var(--vs-char-bg-border-size) fill;
+    border: var(--vs-generic-border-size-px) solid transparent;
+    border-image: url(../game-assets/img/UI/frame1_c2.png) var(--vs-generic-border-size) fill;
     bottom: 0;
     left: 0;
     pointer-events: none;
@@ -354,7 +397,7 @@ a.vs-char-box:focus-visible:after {
     /* TODO: IF this included the name, we'd change the text shadow to this color, to match the BG. Save for later. */
     /* .vs-char-box[data-mode="tooltip"] > .vs-char-box-name {text-shadow: 1px 1px 1px #4b4f74} */
 
-    border-image: url(../game-assets/img/UI/frame1_c4.png) var(--vs-char-bg-border-size) fill;
+    border-image: url(../game-assets/img/UI/frame1_c4.png) var(--vs-generic-border-size) fill;
     display: block;
     z-index: -1;
 }

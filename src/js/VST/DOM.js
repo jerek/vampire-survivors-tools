@@ -87,6 +87,21 @@ VST.DOM = new function () {
     };
 
     /**
+     * Create a tooltip with the given content, and optionally append it to a parent.
+     *
+     * @param {string|Node} content
+     * @param {Node}        [appendTo]
+     * @return {HTMLSpanElement}
+     */
+    this.createTooltip = function (content, appendTo) {
+        if (!content.nodeType) {
+            content = self.ct(content);
+        }
+
+        return self.ce('span', {className: 'vst-tooltip'}, appendTo, content);
+    };
+
+    /**
      * Returns a text node containing the given text.
      *
      * @param {string} text
