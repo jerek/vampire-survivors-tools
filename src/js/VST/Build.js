@@ -7,6 +7,7 @@
 VST.Build = new function () {
     const self = this;
     // We can alias any class-like here, since this is loaded last.
+    const Arcana = VST.VS.Arcana;
     const Character = VST.VS.Character;
     const DOM = VST.DOM;
     const Item = VST.VS.Item;
@@ -184,6 +185,7 @@ VST.Build = new function () {
         renderCharacterSection();
         renderItemSection(SECTION_WEAPONS);
         renderItemSection(SECTION_PASSIVES);
+        renderArcanasSection();
 
         if (!self.addEventListener) {
             let target = new EventTarget();
@@ -248,7 +250,19 @@ VST.Build = new function () {
         // TODO
 
         // Arcanas
-        // TODO
+        for (let slot = 0; slot < self.ARCANAS_MAX; slot++) {
+            let arcanaId = my.build.arcanas[slot];
+            if (arcanaId) {
+                let arcana = Arcana.get(arcanaId);
+                if (!arcana) {
+                    VST.error('Could not load arcana found in build.', arcanaId);
+
+                    continue;
+                }
+
+                updateArcanaDisplay(slot, arcana);
+            }
+        }
 
         // Stage / Stage In Hash
         // TODO
@@ -267,6 +281,47 @@ VST.Build = new function () {
         }
 
         self.dispatchEvent(new CustomEvent(EVENT_CHANGED_BUILD));
+    }
+
+    /**
+     * Displays the arcanas section in the main container.
+     */
+    function renderArcanasSection() {
+        let section = SECTIONS[SECTION_ARCANAS];
+        renderSectionContainer(SECTION_ARCANAS);
+
+        //                  //
+        // SELECTED ARCANAS //
+        //                  //
+
+        section.selected = DOM.ce('div', {className: 'vst-build-selected-arcanas'});
+        section.container.prepend(section.selected);
+
+        for (let slot = 0; slot < section.max; slot++) {
+            let slotElement = DOM.ce('span', {
+                className: 'vst-build-selected-arcanas-arcana',
+                dataset: {
+                    slot: slot,
+                },
+            }, section.selected);
+            slotElement.addEventListener('click', () => setArcana(self.EMPTY_ID, slot));
+        }
+
+        //              //
+        // ARCANAS LIST //
+        //              //
+
+        section.list = DOM.ce('div', {className: 'vst-build-arcanas-list'}, section.container);
+
+        Arcana.getIds().forEach(arcanaId => {
+            // noinspection JSValidateTypes Realistically, this can't actually return undefined.
+            /** @type {ArcanaData} */
+            let arcana = Arcana.get(arcanaId);
+
+            let card = Arcana.renderCard(arcana, section.list, 'a');
+            card.href = 'javascript:';
+            card.addEventListener('click', () => setArcana(arcanaId));
+        });
     }
 
     /**
@@ -485,6 +540,85 @@ VST.Build = new function () {
     }
 
     /**
+     * Select the arcana with the given ID in the first available or given slot.
+     *
+     * @param {ArcanaId} arcanaId
+     * @param {number}   [slot]    Defaults to the first available slot.
+     * @return {boolean} Whether the arcana was successfully added.
+     */
+    function setArcana(arcanaId, slot) {
+        let section = SECTIONS[SECTION_ARCANAS];
+
+        let debug = function (message) {
+            let args = ['setArcana:'].concat(Array.prototype.slice.call(arguments));
+            VST.debug.apply(VST.debug, args);
+        };
+
+        debug('Called', 'ID:', arcanaId, 'Slot:', slot);
+
+        if (slot === undefined) {
+            // When the user clicks an arcana that's already in the build, remove it.
+            if (arcanaId !== self.EMPTY_ID && my.build.arcanas.includes(arcanaId)) {
+                slot = my.build.arcanas.indexOf(arcanaId);
+                arcanaId = self.EMPTY_ID;
+            }
+        } else {
+            // When the user clicks a build slot that's already empty, do nothing.
+            if (my.build.arcanas[slot] === self.EMPTY_ID) {
+                // Nothing to do.
+                debug('Nothing to do');
+
+                return false;
+            }
+        }
+
+        // If there's no slot specified, find the first available slot.
+        if (slot === undefined) {
+            for (let potentialSlot = 0; potentialSlot < section.max; potentialSlot++) {
+                if (!my.build.arcanas[potentialSlot]) {
+                    slot = potentialSlot;
+                    break;
+                }
+            }
+
+            if (slot === undefined) {
+                // We couldn't find a slot for this arcana, do nothing.
+                debug('No available slot found');
+
+                return false;
+            }
+        }
+
+        // Get the arcana data, both to validate the ID and because we'll need it to update the display.
+        let arcana;
+        if (arcanaId !== self.EMPTY_ID) {
+            arcana = Arcana.get(arcanaId);
+            if (!arcana) {
+                VST.error('Could not find the requested arcana to set.', arcanaId);
+
+                return false;
+            }
+        }
+
+        // If we're clearing or replacing a slot, set the arcana that was here to no longer appear selected.
+        if (typeof my.build.arcanas[slot] === 'number' && my.build.arcanas[slot] !== self.EMPTY_ID) {
+            setEntityAsSelected(section, my.build.arcanas[slot], false);
+        }
+
+        // Set the arcana in the build.
+        my.build.arcanas[slot] = arcanaId;
+
+        // Update the relevant slot.
+        updateArcanaDisplay(slot, arcana);
+
+        dispatchChangedBuildEvent();
+
+        debug('Success');
+
+        return true;
+    }
+
+    /**
      * Equip the item with the given ID in the first available or given slot.
      *
      * @param {BuildSectionId}     sectionId
@@ -575,6 +709,9 @@ VST.Build = new function () {
     function setEntityAsSelected(section, id, selected) {
         let className;
         switch (section.entityType) {
+            case VS.TYPE_ARCANA:
+                className = 'arcana-card';
+                break;
             case VS.TYPE_PASSIVE:
             case VS.TYPE_WEAPON:
                 className = 'item';
@@ -584,6 +721,38 @@ VST.Build = new function () {
         }
 
         section.list.querySelector(`.vs-${className}[data-id="${id}"]`).dataset.selected = JSON.stringify(selected);
+    }
+
+    /**
+     * Show the given arcana in the specified slot, or clear the slot if no arcana was given.
+     *
+     * @param {number}     slot
+     * @param {ArcanaData} [arcana]
+     */
+    function updateArcanaDisplay(slot, arcana) {
+        let section = SECTIONS[SECTION_ARCANAS];
+
+        let incomplete = false;
+        for (let slotIndex = 0; slotIndex < section.max; slotIndex++) {
+            if (!my.build.arcanas[slotIndex]) {
+                incomplete = true;
+                break;
+            }
+        }
+        section.container.dataset.selected = JSON.stringify(!incomplete);
+
+        // Update the selected arcana.
+        let slotElement = section.selected.querySelector(':scope > span[data-slot="' + slot + '"]');
+        slotElement.innerHTML = '';
+        if (arcana) {
+            let card = Arcana.renderCard(arcana, slotElement, 'a');
+            card.href = 'javascript:';
+        }
+
+        if (arcana) {
+            // Update the arcana's style in the list.
+            setEntityAsSelected(section, arcana.id, true);
+        }
     }
 
     /**

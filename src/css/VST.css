@@ -8,6 +8,8 @@
 
 :root {
     /* Values from the game, or that closely mimic the game. */
+    --vs-arcana-height: 128px;
+    --vs-arcana-width: 89.6px;
     --vs-blue: #4b4f74;
     --vs-button-border-size: 18;
     --vs-button-border-size-px: 18px;
@@ -230,7 +232,8 @@ footer a:hover {color: var(--vs-yellow)}
     z-index: 100;
 }
 
-.vs-arcana-card, .vs-character, .vs-item, .vs-stage {display: inline-block; position: relative}
+/* TODO: Move this to a generic .vs-entity class. */
+.vs-arcana-card, .vs-character, .vs-item, .vs-stage {display: block; position: relative}
 
 .vs-arcana-card:hover .vst-tooltip,
 .vs-character:hover .vst-tooltip,
@@ -502,3 +505,55 @@ section[data-selected="true"] .vst-build-items-list {display: none}
 }
 .vst-build-items-list .vs-item[data-selected="true"]:after {opacity: 1}
 .vst-build-items-list .vs-item[data-animation="error"] {animation: actionError 300ms}
+
+/* *************************** */
+/* ***** BUILDS: ARCANAS ***** */
+/* *************************** */
+
+/* TODO: Apply this to all images in generic .vs-entity classes. */
+.vs-arcana-card-image {display: block}
+
+/* ======== */
+/* SELECTED */
+/* ======== */
+
+.vst-build-selected-arcanas {display: flex; flex-wrap: wrap; justify-content: center}
+.vst-build-selected-arcanas-arcana {margin: 2px}
+.vst-build-selected-arcanas .vs-arcana-card {animation: fadeIn 150ms}
+.vst-build-selected-arcanas-arcana:not(:empty) {cursor: pointer}
+.vst-build-selected-arcanas-arcana:empty {
+    background: url(../game-assets/img/randomazzo/back.png) center / 100% 100%;
+    height: var(--vs-arcana-height);
+    width: var(--vs-arcana-width);
+}
+
+/* ==== */
+/* LIST */
+/* ==== */
+
+section[data-selected="true"] .vst-build-arcanas-list {display: none}
+.vst-build-arcanas-list {display: flex; flex-wrap: wrap; justify-content: center}
+.vst-build-arcanas-list .vs-arcana-card {margin: 2px; position: relative; transition: opacity 150ms, filter 150ms}
+.vst-build-arcanas-list .vs-arcana-card[data-selected="true"] * {}
+.vst-build-arcanas-list .vs-arcana-card[data-selected="true"] .vs-arcana-card-image {filter: grayscale(1) brightness(0.65); opacity: .5}
+/* TODO: Move this to a generic .vs-entity class. */
+.vst-build-arcanas-list .vs-arcana-card .vs-arcana-card-image:after {
+    /* The selection indicators in the corners. */
+    --border-size: 7;
+    --border-size-px: 12px;
+    --offset: -2px;
+    border: var(--border-size-px) solid transparent;
+    border-image: url(../game-assets/img/UI/selectionSquareActive_01.png) var(--border-size) fill;
+    bottom: var(--offset);
+    content: "";
+    display: block;
+    left: var(--offset);
+    opacity: 0;
+    pointer-events: none;
+    position: absolute;
+    right: var(--offset);
+    top: var(--offset);
+    transition: 150ms;
+}
+.vst-build-arcanas-list .vs-arcana-card[data-selected="true"] .vs-arcana-card-image:after {opacity: 1}
+.vst-build-arcanas-list .vs-arcana-card[data-animation="error"] {animation: actionError 300ms}
