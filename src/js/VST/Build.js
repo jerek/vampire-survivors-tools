@@ -23,12 +23,12 @@ VST.Build = new function () {
     /**
      * @typedef {Object} Build All data describing a build.
      * @property {BuildIdList} arcanas         A list of the selected arcanas' IDs.
-     * @property {number}      character       The ID of the currently selected character.
+     * @property {CharacterId} character       The ID of the currently selected character.
      * @property {number}      maxWeapons      The maximum number of weapons allowed in the build.
      * @property {BuildIdList} passives        A list of the selected passive items' IDs.
      * @property {BuildIdList} passives-backup A list of the selected backup passive items' IDs, which will
      *                                         automatically replace passives based on what's on the stage.
-     * @property {number}      stage           The ID of the currently selected stage.
+     * @property {StageId}     stage           The ID of the currently selected stage.
      * @property {boolean}     stageInHash     Whether to include the stage in the hash.
      * @property {BuildIdList} weapons         A list of the selected weapons' IDs.
      */
@@ -376,8 +376,8 @@ VST.Build = new function () {
     /**
      * Set the given character's ID as the current character.
      *
-     * @param {number}  characterId
-     * @param {boolean} [fromBuild] Whether this is from a build, and therefore weapons should not be modified.
+     * @param {CharacterId} characterId
+     * @param {boolean}     [fromBuild] Whether this is from a build, and therefore weapons should not be modified.
      */
     function setCharacter(characterId, fromBuild) {
         let section = SECTIONS[SECTION_CHARACTER];
@@ -470,9 +470,9 @@ VST.Build = new function () {
     /**
      * Equip the item with the given ID in the first available or given slot.
      *
-     * @param {BuildSectionId} sectionId
-     * @param {number}         itemId
-     * @param {number}         [slot]    Defaults to the first available slot.
+     * @param {BuildSectionId}     sectionId
+     * @param {WeaponId|PassiveId} itemId
+     * @param {number}             [slot]    Defaults to the first available slot.
      * @return {boolean} Whether the item was successfully added.
      */
     function setItem(sectionId, itemId, slot) {
@@ -552,7 +552,7 @@ VST.Build = new function () {
      * Enable or disable the styles for an item in a list being selected.
      *
      * @param {BuildSectionConfig} section
-     * @param {number}             itemId
+     * @param {WeaponId|PassiveId} itemId
      * @param {boolean}            selected
      */
     function setSelected(section, itemId, selected) {
