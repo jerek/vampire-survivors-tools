@@ -578,7 +578,7 @@ VST.Build = new function () {
         }
         section.container.dataset.selected = JSON.stringify(!incomplete);
 
-        // Update the selected weapon.
+        // Update the selected item.
         let slotElement = section.selected.querySelector(':scope > span[data-slot="' + slot + '"]');
         slotElement.innerHTML = '';
         if (item) {
