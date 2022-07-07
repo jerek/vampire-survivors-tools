@@ -319,6 +319,7 @@ a.vs-char-box:focus-visible:after {
     right: 11px;
     top: 0;
 }
+.vs-char-box:not([data-mode="details"]) .vs-item {pointer-events: none}
 .vs-item {display: block}
 .vs-item[data-mode="default"] {display: contents}
 .vs-item:not([data-mode="default"]) {position: relative}

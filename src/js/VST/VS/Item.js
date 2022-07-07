@@ -89,6 +89,8 @@ VST.VS.Item = new function () {
         image.style.width = style.width;
         setImagePos(image);
 
+        DOM.createTooltip(item.description, wrapper);
+
         return wrapper;
     };
 };
