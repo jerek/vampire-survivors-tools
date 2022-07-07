@@ -532,7 +532,7 @@ VST.Build = new function () {
 
         // If we're clearing or replacing a slot, set the item that was here to no longer appear selected.
         if (typeof my.build[sectionId][slot] === 'number' && my.build[sectionId][slot] !== self.EMPTY_ID) {
-            setItemAsSelected(section, my.build[sectionId][slot], false);
+            setEntityAsSelected(section, my.build[sectionId][slot], false);
         }
 
         // Set the item in the build.
@@ -549,14 +549,24 @@ VST.Build = new function () {
     }
 
     /**
-     * Enable or disable the styles for an item in a list being selected.
+     * Enable or disable the styles to indicate that an entity in a list is selected.
      *
      * @param {BuildSectionConfig} section
-     * @param {WeaponId|PassiveId} itemId
+     * @param {number}             id
      * @param {boolean}            selected
      */
-    function setItemAsSelected(section, itemId, selected) {
-        section.list.querySelector('.vs-item[data-id="' + itemId + '"]').dataset.selected = JSON.stringify(selected);
+    function setEntityAsSelected(section, id, selected) {
+        let className;
+        switch (section.entityType) {
+            case VS.TYPE_PASSIVE:
+            case VS.TYPE_WEAPON:
+                className = 'item';
+                break;
+            default:
+                className = section.entityType;
+        }
+
+        section.list.querySelector(`.vs-${className}[data-id="${id}"]`).dataset.selected = JSON.stringify(selected);
     }
 
     /**
@@ -587,7 +597,7 @@ VST.Build = new function () {
 
         if (item) {
             // Update the item's style in the list.
-            setItemAsSelected(section, item.id, true);
+            setEntityAsSelected(section, item.id, true);
         }
 
         // TODO: Update evolution indicators
