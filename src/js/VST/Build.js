@@ -532,7 +532,7 @@ VST.Build = new function () {
 
         // If we're clearing or replacing a slot, set the item that was here to no longer appear selected.
         if (typeof my.build[sectionId][slot] === 'number' && my.build[sectionId][slot] !== self.EMPTY_ID) {
-            setSelected(section, my.build[sectionId][slot], false);
+            setItemAsSelected(section, my.build[sectionId][slot], false);
         }
 
         // Set the item in the build.
@@ -555,7 +555,7 @@ VST.Build = new function () {
      * @param {WeaponId|PassiveId} itemId
      * @param {boolean}            selected
      */
-    function setSelected(section, itemId, selected) {
+    function setItemAsSelected(section, itemId, selected) {
         section.list.querySelector('.vs-item[data-id="' + itemId + '"]').dataset.selected = JSON.stringify(selected);
     }
 
@@ -587,7 +587,7 @@ VST.Build = new function () {
 
         if (item) {
             // Update the item's style in the list.
-            setSelected(section, item.id, true);
+            setItemAsSelected(section, item.id, true);
         }
 
         // TODO: Update evolution indicators
