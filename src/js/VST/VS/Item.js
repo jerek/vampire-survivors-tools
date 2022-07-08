@@ -53,9 +53,10 @@ VST.VS.Item = new function () {
      * @param {ItemDisplayMode}        [mode]          What style of display this character box should be.
      * @param {number}                 [scale]         The 1-base scale at which images should be displayed. Default: 2
      * @param {string}                 [tagName="div"] The tag name to use for the element.
+     * @param {function}               [callback]      A function executed after the image is loaded.
      * @return {HTMLSpanElement|HTMLElement}
      */
-    this.render = function (type, item, mode, scale, tagName) {
+    this.render = function (type, item, mode, scale, tagName, callback) {
         if (!scale) {
             scale = IMAGE_SCALE;
         }
@@ -76,6 +77,9 @@ VST.VS.Item = new function () {
             let setImagePos = image => {
                 image.style.top = 'calc(50% - ' + parseInt(image.style.height) / 2 + 'px' + ')';
                 image.style.left = 'calc(50% - ' + parseInt(image.style.width) / 2 + 'px' + ')';
+                if (callback) {
+                    callback();
+                }
             };
             let image = Img.createImage(Img.ITEMS, item.frameName, scale, setImagePos);
             Util.copyProperties(image.style, style);

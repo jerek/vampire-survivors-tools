@@ -155,6 +155,9 @@ VST.Build = new function () {
 
         /** @type {Build} The currently loaded character build. */
         build: Util.copyProperties({}, EMPTY_BUILD),
+
+        /** @type {number} A value returned by requestAnimationFrame, used to throttle responsive width updates. */
+        requestedWidthUpdateFrame: undefined,
     };
 
     // ********************* //
@@ -183,6 +186,8 @@ VST.Build = new function () {
         renderItemSection(SECTION_PASSIVES);
         renderArcanasSection();
 
+        requestListWidthUpdate();
+
         if (!self.addEventListener) {
             let target = new EventTarget();
             self.addEventListener = target.addEventListener.bind(target);
@@ -190,6 +195,10 @@ VST.Build = new function () {
             self.removeEventListener = target.removeEventListener.bind(target);
 
             this.addEventListener(EVENT_CHANGED_BUILD, self.Hash.write, false);
+
+            // Technically this isn't related to this condition, but it'll likewise only need to be set up once, so
+            // we'll piggyback on it.
+            window.addEventListener('resize', requestListWidthUpdate);
         }
 
         // Initializing hash support will also do an initial read of the hash to load a build.
@@ -379,6 +388,7 @@ VST.Build = new function () {
                 Item.DISPLAY_MODE_FRAME,
                 undefined,
                 'a',
+                requestListWidthUpdate,
             );
             box.addEventListener('click', () => {
                 let success = setItem(sectionId, entityId);
@@ -421,6 +431,20 @@ VST.Build = new function () {
                 section: sectionId,
             },
         }, section.container);
+    }
+
+    /**
+     * Requests an update to list widths on the next animation frame, if there isn't already one pending.
+     */
+    function requestListWidthUpdate() {
+        if (my.requestedWidthUpdateFrame) {
+            return;
+        }
+
+        my.requestedWidthUpdateFrame = requestAnimationFrame(() => {
+            updateListWidths();
+            my.requestedWidthUpdateFrame = 0;
+        });
     }
 
     /**
@@ -590,6 +614,9 @@ VST.Build = new function () {
             }
         }
 
+        // Because this may have revealed character or other lists for the first time at this resolution, update widths.
+        requestListWidthUpdate();
+
         my.allowChangedBuildEvents = true;
 
         dispatchChangedBuildEvent();
@@ -717,6 +744,11 @@ VST.Build = new function () {
             // Update the arcana's style in the list.
             setEntityAsSelected(section, arcana.id, true);
         }
+
+        if (!arcana && incomplete) {
+            // Because this may have revealed the arcana list for the first time at this resolution, update widths.
+            requestListWidthUpdate();
+        }
     }
 
     /**
@@ -757,5 +789,45 @@ VST.Build = new function () {
         }
 
         // TODO: Update evolution indicators
+
+        if (!item && incomplete) {
+            // Because this may have revealed an item list for the first time at this resolution, update widths.
+            requestListWidthUpdate();
+        }
+    }
+
+    /**
+     * Update the widths of all entity lists to have the most even distribution of entities that's possible within them.
+     */
+    function updateListWidths() {
+        let container = Page.getContainer();
+        let containerWidth = container.clientWidth;
+
+        container.querySelectorAll('.vst-build-list').forEach(list => {
+            if (list.offsetParent === null) {
+                // This list is currently hidden, there's nothing to check yet.
+                return;
+            }
+
+            let entities = list.querySelectorAll('.vs-entity');
+            let entityCount = entities.length;
+            if (!entityCount) {
+                // No entities found, probably not fully initialized yet.
+                return;
+            }
+
+            // Determine the entity width that we need to support.
+            let entity = entities[0];
+            let entityStyle = getComputedStyle(entity);
+            let entityWidth = entity.clientWidth + parseInt(entityStyle.marginLeft) + parseInt(entityStyle.marginRight);
+
+            // Determine how many entities would be ideal per row that are able to fit.
+            let maxEntitiesPerRow = Math.floor(containerWidth / entityWidth);
+            let minimumEntityRowCount = Math.ceil(entityCount / maxEntitiesPerRow);
+            let targetEntitiesPerRow = Math.ceil(entityCount / minimumEntityRowCount);
+
+            // The 0.5 extra entity provides more than enough wiggle room to account for imperfect browser rendering.
+            list.style.maxWidth = ((targetEntitiesPerRow + 0.5) * entityWidth) + 'px';
+        });
     }
 };

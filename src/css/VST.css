@@ -505,7 +505,7 @@ section[data-section="character"]:not([data-selected="true"]) ~ section {display
 /* LIST */
 /* ==== */
 
-.vst-build-list {display: flex; flex-wrap: wrap; justify-content: center}
+.vst-build-list {display: flex; flex-wrap: wrap; justify-content: center; margin: 0 auto}
 section[data-selected="true"] .vst-build-list {display: none}
 .vst-build-list .vs-entity {margin: 2px}
 
