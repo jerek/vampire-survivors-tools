@@ -155,10 +155,6 @@ VST.Build = new function () {
 
         /** @type {Build} The currently loaded character build. */
         build: Util.copyProperties({}, EMPTY_BUILD),
-
-        /** @type {Object} References to various DOM elements. */
-        elements: {
-        },
     };
 
     // ********************* //
