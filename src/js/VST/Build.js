@@ -319,7 +319,6 @@ VST.Build = new function () {
             let arcana = Arcana.get(arcanaId);
 
             let card = Arcana.renderCard(arcana, 'a');
-            card.href = 'javascript:';
             card.addEventListener('click', () => setArcana(arcanaId));
             section.list.appendChild(card);
         });
@@ -354,7 +353,6 @@ VST.Build = new function () {
                 Character.DISPLAY_MODE_DEFAULT,
                 'a',
             );
-            box.href = 'javascript:';
             box.addEventListener('click', () => setCharacter(characterId));
             section.list.appendChild(box);
         });
@@ -408,7 +406,6 @@ VST.Build = new function () {
                 undefined,
                 'a',
             );
-            box.href = 'javascript:';
             box.addEventListener('click', () => {
                 let success = setItem(sectionId, entityId);
                 if (!success) {
@@ -725,9 +722,7 @@ VST.Build = new function () {
         let slotElement = section.selected.querySelector(':scope > span[data-slot="' + slot + '"]');
         slotElement.innerHTML = '';
         if (arcana) {
-            let card = Arcana.renderCard(arcana, 'a');
-            card.href = 'javascript:';
-            slotElement.appendChild(card);
+            slotElement.appendChild(Arcana.renderCard(arcana, 'a'));
         }
 
         if (arcana) {

@@ -41,6 +41,17 @@ VST.DOM = new function () {
     this.ce = (tag, properties, appendTo, childNode) => {
         let element = document.createElement(tag);
 
+        // Make sure that all links are created with a "href" attribute by default, so that they inherently support
+        // things like being focused.
+        if (tag === 'a') {
+            if (!properties) {
+                properties = {};
+            }
+            if (!properties.href) {
+                properties.href = 'javascript:';
+            }
+        }
+
         if (properties) {
             Util.copyProperties(element, properties);
         }
@@ -71,7 +82,6 @@ VST.DOM = new function () {
             dataset: {
                 color: color || this.BUTTON_COLOR_BLUE,
             },
-            href: 'javascript:',
         }, undefined, self.ct(text));
 
         if (callback) {
