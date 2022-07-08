@@ -269,7 +269,7 @@ a.vs-entity {cursor: pointer}
     cursor: default;
     display: none;
     font-size: 12px;
-    font-weight: bold;
+    font-weight: normal;
     height: auto;
     left: 0;
     min-width: 175px;
@@ -296,6 +296,9 @@ a.vs-entity {cursor: pointer}
 .vs-entity:hover > .vst-tooltip {
     display: block;
 }
+
+.vst-tooltip-name {font-size: 14px; font-weight: 600}
+.vst-tooltip-name:not(:last-child) {margin-bottom: 10px}
 
 /* ********************** */
 /* ***** CHARACTERS ***** */

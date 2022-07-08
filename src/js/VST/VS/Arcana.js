@@ -2,7 +2,6 @@
  * Functions related to Vampire Survivors arcanas.
  */
 VST.VS.Arcana = new function () {
-    const DOM = VST.DOM;
     const Img = VST.VS.Img;
     const VS = VST.VS;
 
@@ -49,7 +48,7 @@ VST.VS.Arcana = new function () {
 
         entity.content.appendChild(Img.createImage(Img.ARCANA, getCardImageFilename(arcana.id), scale));
 
-        entity.wrapper.appendChild(DOM.createTooltip(arcana.description));
+        entity.wrapper.appendChild(VS.createTooltip(arcana));
 
         return entity.wrapper;
     };

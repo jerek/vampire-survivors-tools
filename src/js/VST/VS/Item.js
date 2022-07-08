@@ -3,7 +3,6 @@
  */
 VST.VS.Item = new function () {
     const self = this;
-    const DOM = VST.DOM;
     const Img = VST.VS.Img;
     const Util = VST.Util
     const VS = VST.VS;
@@ -83,7 +82,7 @@ VST.VS.Item = new function () {
             setImagePos(image);
             entity.content.appendChild(image);
 
-            entity.wrapper.appendChild(DOM.createTooltip(item.description));
+            entity.wrapper.appendChild(VS.createTooltip(item));
         }
 
         return entity.wrapper;

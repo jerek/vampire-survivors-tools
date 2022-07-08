@@ -125,7 +125,7 @@ VST.VS.Character = new function () {
         }
 
         if (mode === self.DISPLAY_MODE_DEFAULT) {
-            entity.wrapper.appendChild(DOM.createTooltip(char.description));
+            entity.wrapper.appendChild(VS.createTooltip(char));
         }
 
         return entity.wrapper;

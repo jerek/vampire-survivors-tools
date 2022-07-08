@@ -1213,6 +1213,44 @@ VST.VS = new function () {
     };
 
     /**
+     * Create a tooltip with the given content.
+     *
+     * @param {EntityData|CharacterData} entity Any entity data, but character data is listed for its unique properties.
+     * @return {HTMLDivElement}
+     */
+    this.createTooltip = function (entity) {
+        let tooltip = document.createDocumentFragment();
+
+        //      //
+        // NAME //
+        //      //
+
+        let name = DOM.ce('div', {
+            className: 'vst-tooltip-name',
+        });
+        if (entity.prefix) {
+            name.appendChild(DOM.ct(entity.prefix + ' '));
+        }
+        name.appendChild(DOM.ct(entity.name));
+        if (entity.surname) {
+            name.appendChild(DOM.ct(' ' + entity.surname));
+        }
+        tooltip.appendChild(name);
+
+        //             //
+        // DESCRIPTION //
+        //             //
+
+        if (entity.description) {
+            tooltip.appendChild(DOM.ce('div', {
+                className: 'vst-tooltip-description',
+            }, undefined, DOM.ct(entity.description)));
+        }
+
+        return DOM.createTooltip(tooltip);
+    };
+
+    /**
      * Returns data by ID of the given entity type.
      *
      * @param {VsType} type
