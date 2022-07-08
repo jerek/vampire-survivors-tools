@@ -537,8 +537,13 @@ section[data-selected="true"] .vst-build-list {display: none}
 /* ***** BUILDS: ARCANAS ***** */
 /* *************************** */
 
-.vst-build-selected[data-section="arcanas"] .vst-build-selected-slot:empty {
-    background: url(../game-assets/img/randomazzo/back.png) center / 100% 100%;
+.vst-build-selected[data-section="arcanas"] .vst-build-selected-slot,
+.vst-build-selected[data-section="arcanas"] .vs-entity[data-type="arcana"],
+.vst-build-list[data-section="arcanas"] .vs-entity[data-type="arcana"] {
     height: var(--vs-arcana-height);
     width: var(--vs-arcana-width);
+}
+
+.vst-build-selected[data-section="arcanas"] .vst-build-selected-slot:empty {
+    background: url(../game-assets/img/randomazzo/back.png) center / 100% 100%;
 }
