@@ -114,9 +114,9 @@ VST.Page = new function () {
                     } else {
                         let buttons = DOM.ce('div', {className: 'vs-button-list'}, my.elements.container);
                         let spriteNames = Img.getSpriteNames().concat([Img.ALL_SPRITES]);
-                        spriteNames.forEach(spriteName => {
-                            DOM.createButton(spriteName, () => self.set(self.PAGE_GAME_IMAGES, spriteName), buttons);
-                        });
+                        spriteNames.forEach(spriteName => buttons.appendChild(
+                            DOM.createButton(spriteName, () => self.set(self.PAGE_GAME_IMAGES, spriteName)),
+                        ));
                     }
                 },
         },
@@ -136,9 +136,9 @@ VST.Page = new function () {
                     } else {
                         let buttons = DOM.ce('div', {className: 'vs-button-list'}, my.elements.container);
                         let spriteNames = Img.getSpriteNames().concat([Img.ALL_SPRITES]);
-                        spriteNames.forEach(spriteName => {
-                            DOM.createButton(spriteName, () => self.set(self.PAGE_GAME_IMAGES_ANIMATED, spriteName), buttons);
-                        });
+                        spriteNames.forEach(spriteName => buttons.appendChild(
+                            DOM.createButton(spriteName, () => self.set(self.PAGE_GAME_IMAGES_ANIMATED, spriteName)),
+                        ));
                     }
                 },
         },
@@ -153,7 +153,6 @@ VST.Page = new function () {
                     let button = DOM.createButton(
                         navItem.buttonText,
                         navItem.page && (() => self.set(navItem.page)),
-                        navRow,
                         navItem.buttonColor,
                         navItem.buttonStyle,
                     );
@@ -162,6 +161,8 @@ VST.Page = new function () {
                         button.href = navItem.url;
                         button.target = '_blank';
                     }
+
+                    navRow.appendChild(button);
                 });
             },
         },
@@ -309,15 +310,14 @@ VST.Page = new function () {
             let navRow = addNavigationRow();
             navRow.dataset.context = 'nav';
 
-            DOM.createButton(
+            navRow.appendChild(DOM.createButton(
                 'Back',
                 () => {
                     let lastPage = my.previousPages[my.previousPages.length - 1];
                     self.set(lastPage.page, lastPage.subPath, true);
                 },
-                navRow,
                 DOM.BUTTON_COLOR_RED,
-            );
+            ));
         }
 
         // Display the page content.

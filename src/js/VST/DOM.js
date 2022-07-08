@@ -61,19 +61,18 @@ VST.DOM = new function () {
      *
      * @param {string}      text
      * @param {function}    [callback]
-     * @param {Node}        [appendTo] The parent to append the created element to.
      * @param {ButtonColor} [color]    Defaults to blue.
      * @param {ButtonStyle} [style]
      * @return {HTMLAnchorElement}
      */
-    this.createButton = function (text, callback, appendTo, color, style) {
+    this.createButton = function (text, callback, color, style) {
         let button = self.ce('a', {
             className: 'vs-button',
             dataset: {
                 color: color || this.BUTTON_COLOR_BLUE,
             },
             href: 'javascript:',
-        }, appendTo, self.ct(text));
+        }, undefined, self.ct(text));
 
         if (callback) {
             button.addEventListener('click', callback);

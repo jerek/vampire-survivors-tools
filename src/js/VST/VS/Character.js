@@ -116,11 +116,11 @@ VST.VS.Character = new function () {
             let button = DOM.createButton(
                 buttonText,
                 buttonAction,
-                entity.content,
                 DOM.BUTTON_COLOR_BLUE,
                 DOM.BUTTON_STYLE_DEFAULT_CASE,
             );
             button.classList.add('vs-char-box-button');
+            entity.content.appendChild(button);
         }
 
         if (mode === self.DISPLAY_MODE_DEFAULT) {
