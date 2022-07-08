@@ -212,6 +212,54 @@ footer a:hover {color: var(--vs-yellow)}
 .vst-container > :last-child {margin-bottom: 0}
 
 /* ******************** */
+/* ***** ENTITIES ***** */
+/* ******************** */
+
+/* ======= */
+/* GENERAL */
+/* ======= */
+
+.vs-entity, .vs-entity-content {display: block; position: relative}
+a.vs-entity {cursor: pointer}
+.vs-entity .vs-sprite-image {display: block}
+
+/* ============== */
+/* SELECTION FADE */
+/* ============== */
+
+.vs-entity > .vs-entity-content {transition: opacity 150ms, filter 150ms}
+.vs-entity[data-selected="true"] > .vs-entity-content {filter: grayscale(1) brightness(0.65); opacity: .5}
+
+/* ==================== */
+/* SELECTION INDICATORS */
+/* ==================== */
+
+.vs-entity-content:after {
+    --border-size: 7;
+    --border-size-px: 12px;
+    --offset: -2px;
+    border: var(--border-size-px) solid transparent;
+    border-image: url(../game-assets/img/UI/selectionSquareActive_01.png) var(--border-size) fill;
+    bottom: var(--offset);
+    content: "";
+    display: block;
+    left: var(--offset);
+    opacity: 0;
+    pointer-events: none;
+    position: absolute;
+    right: var(--offset);
+    top: var(--offset);
+    transition: 150ms;
+}
+.vs-entity[data-selected="true"] > .vs-entity-content:after {opacity: 1}
+
+/* =========== */
+/* ERROR FLASH */
+/* =========== */
+
+.vs-entity[data-animation="error"] {animation: actionError 300ms}
+
+/* ******************** */
 /* ***** TOOLTIPS ***** */
 /* ******************** */
 
@@ -232,16 +280,6 @@ footer a:hover {color: var(--vs-yellow)}
     z-index: 100;
 }
 
-/* TODO: Move this to a generic .vs-entity class. */
-.vs-arcana-card, .vs-character, .vs-item, .vs-stage {display: block; position: relative}
-
-.vs-arcana-card:hover .vst-tooltip,
-.vs-character:hover .vst-tooltip,
-.vs-item:hover .vst-tooltip,
-.vs-stage:hover .vst-tooltip {
-    display: block;
-}
-
 .vst-tooltip:after {
     border: var(--vs-generic-border-size-px) solid transparent;
     border-image: url(../game-assets/img/UI/frame1_c4.png) var(--vs-generic-border-size) fill;
@@ -255,38 +293,21 @@ footer a:hover {color: var(--vs-yellow)}
     z-index: -1;
 }
 
+.vs-entity:hover > .vst-tooltip {
+    display: block;
+}
+
 /* ********************** */
 /* ***** CHARACTERS ***** */
 /* ********************** */
 
-.vs-char-box {
-    color: #fff;
-    display: block;
-    font-size: 12px;
-    font-weight: bold;
+.vs-entity[data-type="character"],
+.vs-entity[data-type="character"] > .vs-entity-content {
     height: 96px;
-    position: relative;
     width: 96px;
 }
-a.vs-char-box {cursor: pointer}
-a.vs-char-box:hover:after,
-a.vs-char-box:focus-visible:after {
-    /* The selection indicators in the corners. */
-    --border-size: 7;
-    --border-size-px: 12px;
-    --offset: -6px;
-    border: var(--border-size-px) solid transparent;
-    border-image: url(../game-assets/img/UI/selectionSquareActive_01.png) var(--border-size) fill;
-    bottom: var(--offset);
-    content: "";
-    display: block;
-    left: var(--offset);
-    pointer-events: none;
-    position: absolute;
-    right: var(--offset);
-    top: var(--offset);
-}
-.vs-char-box > * {position: absolute}
+.vs-entity[data-type="character"] > .vs-entity-content {color: #fff; font-size: 12px; font-weight: bold}
+.vs-entity[data-type="character"] > .vs-entity-content > * {position: absolute}
 .vs-char-box-bg {
     border: var(--vs-generic-border-size-px) solid transparent;
     border-image: url(../game-assets/img/UI/frame1_c2.png) var(--vs-generic-border-size) fill;
@@ -304,9 +325,21 @@ a.vs-char-box:focus-visible:after {
 }
 /* At 159px width every character perfectly matches the in-game text, except for Arca, who needs 158px. It's not set to
  * 158px for everyone because then Smith & Red Death would be wrong. */
-.vs-char-box-description {left: 120px; top: 37px; width: 159px}
-.vs-char-box[data-character="5"] .vs-char-box-description {width: 158px} /* Arca Ladonna */
-.vs-char-box[data-character="21"] .vs-char-box-description {width: 166px} /* Sir Ambrojoe */
+.vs-char-box-description {left: 120px; top: 37px}
+.vs-char-box-description,
+.vs-entity[data-type="character"] > .vst-tooltip {
+    width: 159px;
+}
+/* Arca Ladonna */
+.vs-entity[data-type="character"][data-id="5"] > .vs-entity-content > .vs-char-box-description,
+.vs-entity[data-type="character"][data-id="5"] > .vst-tooltip {
+    width: 158px;
+}
+/* Sir Ambrojoe */
+.vs-entity[data-type="character"][data-id="21"] > .vs-entity-content > .vs-char-box-description,
+.vs-entity[data-type="character"][data-id="21"] > .vst-tooltip {
+    width: 166px;
+}
 .vs-char-box-image {bottom: 5px; left: 6px; pointer-events: none}
 .vs-char-box-weapons {
     align-content: flex-end;
@@ -318,28 +351,31 @@ a.vs-char-box:focus-visible:after {
     justify-content: flex-end;
     right: 11px;
     top: 0;
+    z-index: 2;
 }
-.vs-char-box:not([data-mode="details"]) .vs-item {pointer-events: none}
-.vs-item {display: block}
-.vs-item[data-mode="default"] {display: contents}
-.vs-item:not([data-mode="default"]) {position: relative}
-.vs-item:not([data-mode="default"]) .vs-item-image {position: absolute}
-.vs-char-box-weapons[data-count="2"] .vs-item-image {margin: 2px 0 0 2px}
+.vs-char-box-weapons[data-count="2"] .vs-entity[data-meta-type="item"] {margin: 2px 0 0 2px}
 .vs-char-box-button {bottom: 7px; position: absolute; right: 7px}
+
+/* Only allow hovering over the character's weapons for tooltips in the large detail view. */
+.vs-entity[data-type="character"]:not([data-mode="details"]) .vs-entity[data-meta-type="item"] {pointer-events: none}
 
 /* ============= */
 /* MODE: DEFAULT */
 /* ============= */
 
-.vs-char-box[data-mode="default"] > .vs-char-box-name span {display: none}
-.vs-char-box[data-mode="default"] > .vs-char-box-description {display: none}
+.vs-entity[data-type="character"][data-mode="default"] > .vs-entity-content > .vs-char-box-name span {display: none}
+.vs-entity[data-type="character"][data-mode="default"] > .vs-entity-content > .vs-char-box-description {display: none}
 
 /* ============= */
 /* MODE: DETAILS */
 /* ============= */
 
-.vs-char-box[data-mode="details"] {height: 100px; width: 400px}
-.vs-char-box[data-mode="details"] > .vs-char-box-weapons {
+.vs-entity[data-type="character"][data-mode="details"],
+.vs-entity[data-type="character"][data-mode="details"] > .vs-entity-content {
+    height: 100px;
+    width: 400px;
+}
+.vs-entity[data-type="character"][data-mode="details"] > .vs-entity-content > .vs-char-box-weapons {
     bottom: 7px;
     filter: none;
     flex-direction: row;
@@ -354,67 +390,46 @@ a.vs-char-box:focus-visible:after {
 /**
  * We already have Pugnala who starts with two weapons, so these styles are in preparation of up to 6 starting weapons.
  */
-.vs-char-box[data-mode="details"] > .vs-char-box-weapons[data-count="2"] {
+.vs-entity[data-type="character"][data-mode="details"] > .vs-entity-content > .vs-char-box-weapons[data-count="2"] {
     transform: scale(.85);
 }
-.vs-char-box[data-mode="details"] > .vs-char-box-weapons[data-count="3"],
-.vs-char-box[data-mode="details"] > .vs-char-box-weapons[data-count="4"] {
+.vs-entity[data-type="character"][data-mode="details"] > .vs-entity-content > .vs-char-box-weapons[data-count="3"],
+.vs-entity[data-type="character"][data-mode="details"] > .vs-entity-content > .vs-char-box-weapons[data-count="4"] {
     left: 40px;
     transform: scale(.7);
     width: var(--vs-char-weapon-frame-size-x2);
 }
-.vs-char-box[data-mode="details"] > .vs-char-box-weapons[data-count="5"],
-.vs-char-box[data-mode="details"] > .vs-char-box-weapons[data-count="6"] {
+.vs-entity[data-type="character"][data-mode="details"] > .vs-entity-content > .vs-char-box-weapons[data-count="5"],
+.vs-entity[data-type="character"][data-mode="details"] > .vs-entity-content > .vs-char-box-weapons[data-count="6"] {
     left: 40px;
     transform: scale(.58);
     width: var(--vs-char-weapon-frame-size-x2);
 }
-.vs-char-box[data-mode="details"] > .vs-char-box-weapons[data-count="3"] > :first-child,
-.vs-char-box[data-mode="details"] > .vs-char-box-weapons[data-count="5"] > :first-child {
+.vs-entity[data-type="character"][data-mode="details"] > .vs-entity-content > .vs-char-box-weapons[data-count="3"] > :first-child,
+.vs-entity[data-type="character"][data-mode="details"] > .vs-entity-content > .vs-char-box-weapons[data-count="5"] > :first-child {
     /* noinspection CssNonIntegerLengthInPixels */
     flex: 0 0 42.1px;
-}
-
-/* ============= */
-/* MODE: TOOLTIP */
-/* ============= */
-
-.vs-char-box[data-mode="tooltip"] {
-    bottom: 100%;
-    cursor: default;
-    display: none;
-    height: auto;
-    left: 0;
-    pointer-events: none;
-    position: absolute;
-    width: auto;
-    z-index: 100;
-}
-.vs-char-box:hover .vs-char-box[data-mode="tooltip"][data-has-description="true"],
-.vs-char-box:focus-visible .vs-char-box[data-mode="tooltip"][data-has-description="true"] {
-    display: block;
-}
-
-.vs-char-box[data-mode="tooltip"] > * {display: none}
-.vs-char-box[data-mode="tooltip"] > .vs-char-box-description {display: block; margin: 7px 8px; position: static}
-.vs-char-box[data-mode="tooltip"] > .vs-char-box-bg {
-    /* TODO: IF this included the name, we'd change the text shadow to this color, to match the BG. Save for later. */
-    /* .vs-char-box[data-mode="tooltip"] > .vs-char-box-name {text-shadow: 1px 1px 1px #4b4f74} */
-
-    border-image: url(../game-assets/img/UI/frame1_c4.png) var(--vs-generic-border-size) fill;
-    display: block;
-    z-index: -1;
 }
 
 /* ***************** */
 /* ***** ITEMS ***** */
 /* ***************** */
 
-.vs-item[data-mode="frame"], .vst-build-selected-items-item:empty {
-    background: url(../game-assets/img/UI/frameB.png) center / 100% 100%;
+.vs-entity[data-meta-type="item"]:not([data-mode="default"]) > .vs-entity-content {
     height: var(--vs-char-weapon-frame-size);
     width: var(--vs-char-weapon-frame-size);
 }
+.vs-entity[data-meta-type="item"]:not([data-mode="default"]) > .vs-entity-content:before {
+    background: url(../game-assets/img/UI/frameB.png) center / 100% 100%;
+    bottom: 0;
+    content: "";
+    display: block;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.vs-entity[data-meta-type="item"] .vs-sprite-image {position: relative; z-index: 1}
 
 /* ****************** */
 /* ***** BUILDS ***** */
@@ -441,9 +456,9 @@ section[data-section="character"]:not([data-selected="true"]) ~ section {display
 /* ***************************** */
 
 .vst-build-character-list {display: flex; flex-wrap: wrap; justify-content: center; padding-bottom: 20px}
-section[data-section="character"] .vs-char-box[data-mode="default"] {margin: 5px}
+section[data-section="character"] .vs-entity[data-type="character"][data-mode="default"] {margin: 5px}
 section[data-section="character"] .vst-build-selected-character {display: none}
-section[data-section="character"] .vst-build-selected-character .vs-char-box {margin: 0 auto}
+section[data-section="character"] .vst-build-selected-character .vs-entity[data-type="character"] {margin: 0 auto}
 section[data-section="character"][data-selected="true"] .vst-build-character-list {display: none}
 section[data-section="character"][data-selected="true"] .vst-build-selected-character {display: block}
 
@@ -461,19 +476,16 @@ section[data-section="character"][data-selected="true"] .vst-build-selected-char
 
 .vst-build-selected-items {display: flex; flex-wrap: wrap; justify-content: center}
 .vst-build-selected-items-item {height: 42.6666px !important; margin: 2px; width: 42.6666px !important}
-.vst-build-selected-items .vs-item-image {animation: fadeIn 150ms}
-.vst-build-selected-items-item:not(:empty) {cursor: pointer}
+.vst-build-selected-items .vs-entity .vs-sprite-image {animation: fadeIn 150ms}
 
 /* --------------- */
 /* EQUIPPED FRAMES */
 /* --------------- */
 
-.vst-build-selected-weapons .vs-item[data-mode="equipped"],
-.vst-build-selected-weapons .vst-build-selected-items-item:empty {
+.vst-build-selected-weapons .vs-entity[data-meta-type="item"][data-mode="equipped"] > .vs-entity-content:before {
     background: url(../game-assets/img/UI/weaponBG.png) no-repeat center / 38px 38px;
 }
-.vst-build-selected-passives .vs-item[data-mode="equipped"],
-.vst-build-selected-passives .vst-build-selected-items-item:empty {
+.vst-build-selected-passives .vs-entity[data-meta-type="item"][data-mode="equipped"] > .vs-entity-content:before {
     background: url(../game-assets/img/UI/passiveBG.png) no-repeat center / 38px 38px;
 }
 
@@ -483,36 +495,11 @@ section[data-section="character"][data-selected="true"] .vst-build-selected-char
 
 section[data-selected="true"] .vst-build-items-list {display: none}
 .vst-build-items-list {display: flex; flex-wrap: wrap; justify-content: center}
-.vst-build-items-list .vs-item {margin: 2px; position: relative; transition: opacity 150ms, filter 150ms}
-.vst-build-items-list .vs-item[data-selected="true"] {opacity: .5}
-.vst-build-items-list .vs-item[data-selected="true"] * {filter: grayscale(1) brightness(0.65)}
-.vst-build-items-list .vs-item:after {
-    /* The selection indicators in the corners. */
-    --border-size: 7;
-    --border-size-px: 12px;
-    --offset: -2px;
-    border: var(--border-size-px) solid transparent;
-    border-image: url(../game-assets/img/UI/selectionSquareActive_01.png) var(--border-size) fill;
-    bottom: var(--offset);
-    content: "";
-    display: block;
-    left: var(--offset);
-    opacity: 0;
-    pointer-events: none;
-    position: absolute;
-    right: var(--offset);
-    top: var(--offset);
-    transition: 150ms;
-}
-.vst-build-items-list .vs-item[data-selected="true"]:after {opacity: 1}
-.vst-build-items-list .vs-item[data-animation="error"] {animation: actionError 300ms}
+.vst-build-items-list .vs-entity[data-meta-type="item"] {margin: 2px}
 
 /* *************************** */
 /* ***** BUILDS: ARCANAS ***** */
 /* *************************** */
-
-/* TODO: Apply this to all images in generic .vs-entity classes. */
-.vs-arcana-card-image {display: block}
 
 /* ======== */
 /* SELECTED */
@@ -520,8 +507,7 @@ section[data-selected="true"] .vst-build-items-list {display: none}
 
 .vst-build-selected-arcanas {display: flex; flex-wrap: wrap; justify-content: center}
 .vst-build-selected-arcanas-arcana {margin: 2px}
-.vst-build-selected-arcanas .vs-arcana-card {animation: fadeIn 150ms}
-.vst-build-selected-arcanas-arcana:not(:empty) {cursor: pointer}
+.vst-build-selected-arcanas .vs-entity .vs-sprite-image {animation: fadeIn 150ms}
 .vst-build-selected-arcanas-arcana:empty {
     background: url(../game-assets/img/randomazzo/back.png) center / 100% 100%;
     height: var(--vs-arcana-height);
@@ -534,27 +520,4 @@ section[data-selected="true"] .vst-build-items-list {display: none}
 
 section[data-selected="true"] .vst-build-arcanas-list {display: none}
 .vst-build-arcanas-list {display: flex; flex-wrap: wrap; justify-content: center}
-.vst-build-arcanas-list .vs-arcana-card {margin: 2px; position: relative; transition: opacity 150ms, filter 150ms}
-.vst-build-arcanas-list .vs-arcana-card[data-selected="true"] * {}
-.vst-build-arcanas-list .vs-arcana-card[data-selected="true"] .vs-arcana-card-image {filter: grayscale(1) brightness(0.65); opacity: .5}
-/* TODO: Move this to a generic .vs-entity class. */
-.vst-build-arcanas-list .vs-arcana-card .vs-arcana-card-image:after {
-    /* The selection indicators in the corners. */
-    --border-size: 7;
-    --border-size-px: 12px;
-    --offset: -2px;
-    border: var(--border-size-px) solid transparent;
-    border-image: url(../game-assets/img/UI/selectionSquareActive_01.png) var(--border-size) fill;
-    bottom: var(--offset);
-    content: "";
-    display: block;
-    left: var(--offset);
-    opacity: 0;
-    pointer-events: none;
-    position: absolute;
-    right: var(--offset);
-    top: var(--offset);
-    transition: 150ms;
-}
-.vst-build-arcanas-list .vs-arcana-card[data-selected="true"] .vs-arcana-card-image:after {opacity: 1}
-.vst-build-arcanas-list .vs-arcana-card[data-animation="error"] {animation: actionError 300ms}
+.vst-build-arcanas-list .vs-entity[data-type="arcana"] {margin: 2px}

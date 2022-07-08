@@ -36,32 +36,22 @@ VST.VS.Arcana = new function () {
      * Appends an arcana card image to the given parent element.
      *
      * @param {ArcanaData} arcana
-     * @param {Node}       appendTo
      * @param {number}     [scale]          The 1-base scale at which images should be displayed. Default: 2
      * @param {string}     [tagName="span"] The tag name to use for the element.
      * @return {HTMLSpanElement|HTMLElement}
      */
-    this.renderCard = function (arcana, appendTo, tagName, scale) {
-        // By default, the styles are based only on this class and its extensions.
-        let baseClass = 'vs-arcana-card';
-
+    this.renderCard = function (arcana, tagName, scale) {
         if (!scale) {
             scale = IMAGE_SCALE_CARDS;
         }
 
-        let wrapper = DOM.ce(tagName || 'span', {
-            className: baseClass,
-            dataset: {
-                id: arcana.id,
-            },
-        }, appendTo);
+        let entity = VS.createEntityElements(VS.TYPE_ARCANA, arcana, tagName);
 
-        let image = Img.createImage(Img.ARCANA, getCardImageFilename(arcana.id), wrapper, scale);
-        image.classList.add(`${baseClass}-image`);
+        Img.createImage(Img.ARCANA, getCardImageFilename(arcana.id), entity.content, scale);
 
-        DOM.createTooltip(arcana.description, wrapper);
+        entity.wrapper.appendChild(DOM.createTooltip(arcana.description));
 
-        return wrapper;
+        return entity.wrapper;
     };
 
     /**

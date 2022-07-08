@@ -90,15 +90,19 @@ VST.DOM = new function () {
      * Create a tooltip with the given content, and optionally append it to a parent.
      *
      * @param {string|Node} content
-     * @param {Node}        [appendTo]
-     * @return {HTMLSpanElement}
+     * @return {HTMLDivElement|DocumentFragment}
      */
-    this.createTooltip = function (content, appendTo) {
+    this.createTooltip = function (content) {
+        // If there's no tooltip content, return a document fragment that will "melt away" when appended.
+        if (!content) {
+            return document.createDocumentFragment();
+        }
+
         if (!content.nodeType) {
             content = self.ct(content);
         }
 
-        return self.ce('span', {className: 'vst-tooltip'}, appendTo, content);
+        return self.ce('div', {className: 'vst-tooltip'}, undefined, content);
     };
 
     /**

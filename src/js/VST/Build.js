@@ -318,9 +318,10 @@ VST.Build = new function () {
             /** @type {ArcanaData} */
             let arcana = Arcana.get(arcanaId);
 
-            let card = Arcana.renderCard(arcana, section.list, 'a');
+            let card = Arcana.renderCard(arcana, 'a');
             card.href = 'javascript:';
             card.addEventListener('click', () => setArcana(arcanaId));
+            section.list.appendChild(card);
         });
     }
 
@@ -352,17 +353,10 @@ VST.Build = new function () {
                 character,
                 Character.DISPLAY_MODE_DEFAULT,
                 'a',
-                section.list,
             );
             box.href = 'javascript:';
             box.addEventListener('click', () => setCharacter(characterId));
-
-            Character.renderBox(
-                character,
-                Character.DISPLAY_MODE_TOOLTIP,
-                'span',
-                box,
-            );
+            section.list.appendChild(box);
         });
     }
 
@@ -392,6 +386,8 @@ VST.Build = new function () {
                 },
             }, section.selected);
             slotElement.addEventListener('click', () => setItem(sectionId, self.EMPTY_ID, slot));
+
+            updateItemDisplay(sectionId, slot);
         }
 
         //            //
@@ -406,13 +402,12 @@ VST.Build = new function () {
             let entity = VS.getData(section.entityType, entityId);
 
             let box = Item.render(
+                section.entityType,
                 entity,
-                section.list,
                 Item.DISPLAY_MODE_FRAME,
                 undefined,
                 'a',
             );
-            box.dataset.id = entityId.toString();
             box.href = 'javascript:';
             box.addEventListener('click', () => {
                 let success = setItem(sectionId, entityId);
@@ -422,9 +417,7 @@ VST.Build = new function () {
                     setTimeout(() => delete box.dataset.animation, 300);
                 }
             });
-
-            // TODO
-            // Item.renderTooltip(item, box);
+            section.list.appendChild(box);
         });
     }
 
@@ -472,14 +465,13 @@ VST.Build = new function () {
         // Update the selected character.
         section.selected.innerHTML = '';
         if (character) {
-            Character.renderBox(
+            section.selected.appendChild(Character.renderBox(
                 character,
                 Character.DISPLAY_MODE_DETAILS,
-                'span',
-                section.selected,
+                undefined,
                 'Change',
                 () => setCharacter(self.EMPTY_ID),
-            );
+            ));
         }
 
         my.allowChangedBuildEvents = false;
@@ -707,20 +699,8 @@ VST.Build = new function () {
      * @param {boolean}            selected
      */
     function setEntityAsSelected(section, id, selected) {
-        let className;
-        switch (section.entityType) {
-            case VS.TYPE_ARCANA:
-                className = 'arcana-card';
-                break;
-            case VS.TYPE_PASSIVE:
-            case VS.TYPE_WEAPON:
-                className = 'item';
-                break;
-            default:
-                className = section.entityType;
-        }
-
-        section.list.querySelector(`.vs-${className}[data-id="${id}"]`).dataset.selected = JSON.stringify(selected);
+        section.list.querySelector(`.vs-entity[data-type="${section.entityType}"][data-id="${id}"]`)
+            .dataset.selected = JSON.stringify(selected);
     }
 
     /**
@@ -745,8 +725,9 @@ VST.Build = new function () {
         let slotElement = section.selected.querySelector(':scope > span[data-slot="' + slot + '"]');
         slotElement.innerHTML = '';
         if (arcana) {
-            let card = Arcana.renderCard(arcana, slotElement, 'a');
+            let card = Arcana.renderCard(arcana, 'a');
             card.href = 'javascript:';
+            slotElement.appendChild(card);
         }
 
         if (arcana) {
@@ -777,9 +758,15 @@ VST.Build = new function () {
         // Update the selected item.
         let slotElement = section.selected.querySelector(':scope > span[data-slot="' + slot + '"]');
         slotElement.innerHTML = '';
-        if (item) {
-            Item.render(item, slotElement, Item.DISPLAY_MODE_EQUIPPED, Item.SELECTED_SCALE);
-        }
+        slotElement.appendChild(
+            Item.render(
+                section.entityType,
+                item,
+                Item.DISPLAY_MODE_EQUIPPED,
+                Item.SELECTED_SCALE,
+                item ? 'a' : undefined,
+            ),
+        );
 
         if (item) {
             // Update the item's style in the list.

@@ -3,6 +3,7 @@
  */
 VST.VS = new function () {
     const self = this;
+    const DOM = VST.DOM;
     const Util = VST.Util;
 
     // *********************** //
@@ -1179,6 +1180,37 @@ VST.VS = new function () {
     // ------ //
     // PUBLIC //
     // ------ //
+
+    /**
+     * Creates a standard entity wrapper, used for the display of most entities.
+     *
+     * @param {VsType}     type
+     * @param {EntityData} [entity]
+     * @param {string}     [tagName]
+     * @param {string}     [mode]
+     * @return {{wrapper: HTMLDivElement, content: HTMLDivElement}}
+     */
+    this.createEntityElements = function (type, entity, tagName, mode) {
+        let elements = {};
+
+        elements.wrapper = DOM.ce(tagName || 'div', {
+            className: 'vs-entity',
+            dataset: {
+                metaType: self.getMetaType(type),
+                type: type,
+            },
+        });
+        if (entity) {
+            elements.wrapper.dataset.id = entity.id.toString();
+        }
+        if (mode) {
+            elements.wrapper.dataset.mode = mode;
+        }
+
+        elements.content = DOM.ce('div', {className: 'vs-entity-content'}, elements.wrapper)
+
+        return elements;
+    };
 
     /**
      * Returns data by ID of the given entity type.
