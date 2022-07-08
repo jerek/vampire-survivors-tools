@@ -125,18 +125,13 @@ VST.VS.Img = new function () {
      *
      * @param {VsSprite|VsSpriteFunc} sprite
      * @param {VsImgFilename}         filename
-     * @param {Node}                  [parent]   When specified, the image element is appended to this.
      * @param {number}                [scale]    The 1-base scale at which images should be displayed. Defaults to 2.
      * @param {function}              [callback] When specified, a callback that is called with the image element.
      * @return {HTMLSpanElement}
      */
-    this.createImage = function (sprite, filename, parent, scale, callback) {
+    this.createImage = function (sprite, filename, scale, callback) {
         let image = DOM.ce('span', {className: 'vs-sprite-image'});
         displayImage(sprite, filename, image, scale, callback);
-
-        if (parent) {
-            parent.appendChild(image);
-        }
 
         return image;
     };
@@ -146,12 +141,11 @@ VST.VS.Img = new function () {
      *
      * @param {VsSprite}        sprite
      * @param {VsImgFilename[]} filenames  The filenames of the frames that are a part of this animation.
-     * @param {Node}            [parent]   When specified, the image element is appended to this.
      * @param {number}          [scale]    The 1-base scale at which images should be displayed. Defaults to 2.
      * @param {function}        [callback] When specified, a callback that is called with the image element.
      * @return {HTMLSpanElement}
      */
-    this.createImageAnimated = function (sprite, filenames, parent, scale, callback) {
+    this.createImageAnimated = function (sprite, filenames, scale, callback) {
         let imageWrapper = DOM.ce('span', {className: 'vs-sprite-image-wrapper'});
         let image = DOM.ce('span', {className: 'vs-sprite-image'}, imageWrapper);
         if (filenames.length === 1) {
@@ -188,10 +182,6 @@ VST.VS.Img = new function () {
                     callback(image);
                 }
             });
-        }
-
-        if (parent) {
-            parent.appendChild(imageWrapper);
         }
 
         return imageWrapper;
@@ -238,13 +228,13 @@ VST.VS.Img = new function () {
                         textOverflow: 'ellipsis',
                     }}, imageContainer, DOM.ct(filename));
 
-                    self.createImage(sprite, filename, imageContainer, scale, image => {
+                    imageContainer.appendChild(self.createImage(sprite, filename, scale, image => {
                         title.style.width = parseInt(image.style.width) < 35 ? '35px' : image.style.width;
 
                         if (title.scrollWidth > title.clientWidth) {
                             imageContainer.title = filename;
                         }
-                    });
+                    }));
 
                     imageContainer.appendChild(title);
                 });
@@ -322,7 +312,7 @@ VST.VS.Img = new function () {
                         animationFrames.push(file.filename);
                     });
 
-                    self.createImageAnimated(sprite, animationFrames, imageContainer, scale, image => {
+                    imageContainer.appendChild(self.createImageAnimated(sprite, animationFrames, scale, image => {
                         if (image.parentNode.style.width) {
                             image = image.parentNode;
                         }
@@ -331,7 +321,7 @@ VST.VS.Img = new function () {
                         if (!imageContainer.title && title.scrollWidth > title.clientWidth) {
                             imageContainer.title = groupName;
                         }
-                    });
+                    }));
 
                     imageContainer.appendChild(title);
                 });

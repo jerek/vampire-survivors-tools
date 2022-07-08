@@ -87,8 +87,9 @@ VST.VS.Character = new function () {
 
         // The default image of the character.
         let sprite = char.spriteAlt || Img.CHARACTERS;
-        let image = Img.createImage(sprite, char.spriteName, entity.content, IMAGE_SCALE_CHAR_BOX);
+        let image = Img.createImage(sprite, char.spriteName, IMAGE_SCALE_CHAR_BOX);
         image.classList.add(`${baseClass}-image`);
+        entity.content.appendChild(image);
 
         // The weapons the character can equip.
         let weapons = DOM.ce('div', {

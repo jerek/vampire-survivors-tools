@@ -47,7 +47,7 @@ VST.VS.Arcana = new function () {
 
         let entity = VS.createEntityElements(VS.TYPE_ARCANA, arcana, tagName);
 
-        Img.createImage(Img.ARCANA, getCardImageFilename(arcana.id), entity.content, scale);
+        entity.content.appendChild(Img.createImage(Img.ARCANA, getCardImageFilename(arcana.id), scale));
 
         entity.wrapper.appendChild(DOM.createTooltip(arcana.description));
 

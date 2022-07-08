@@ -78,9 +78,10 @@ VST.VS.Item = new function () {
                 image.style.top = 'calc(50% - ' + parseInt(image.style.height) / 2 + 'px' + ')';
                 image.style.left = 'calc(50% - ' + parseInt(image.style.width) / 2 + 'px' + ')';
             };
-            let image = Img.createImage(Img.ITEMS, item.frameName, entity.content, scale, setImagePos);
+            let image = Img.createImage(Img.ITEMS, item.frameName, scale, setImagePos);
             Util.copyProperties(image.style, style);
             setImagePos(image);
+            entity.content.appendChild(image);
 
             entity.wrapper.appendChild(DOM.createTooltip(item.description));
         }
