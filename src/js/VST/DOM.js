@@ -86,7 +86,7 @@ VST.DOM = new function () {
     };
 
     /**
-     * Create a tooltip with the given content, and optionally append it to a parent.
+     * Create a tooltip with the given content.
      *
      * @param {string|Node} content
      * @return {HTMLDivElement|DocumentFragment}

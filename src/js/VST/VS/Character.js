@@ -53,7 +53,7 @@ VST.VS.Character = new function () {
     this.getIds = () => VS.getIds(VS.TYPE_CHARACTER);
 
     /**
-     * Appends a character display box to the given parent element.
+     * Returns elements created to display a character box.
      *
      * If both the buttonText and buttonAction optional params are supplied, a blue button will be added to the
      * bottom-right of the character box. The button may still not be visible, depending on the mode.

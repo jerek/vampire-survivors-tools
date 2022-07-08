@@ -47,7 +47,7 @@ VST.VS.Item = new function () {
     // ********************* //
 
     /**
-     * Appends an item image to the given parent element.
+     * Returns elements created to display an item image.
      *
      * @param {VsType}                 type             The item's entity type.
      * @param {WeaponData|PassiveData} [item]

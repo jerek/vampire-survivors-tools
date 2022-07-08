@@ -33,11 +33,11 @@ VST.VS.Arcana = new function () {
     this.getIds = () => VS.getIds(VS.TYPE_ARCANA);
 
     /**
-     * Appends an arcana card image to the given parent element.
+     * Returns elements created to display an arcana card.
      *
      * @param {ArcanaData} arcana
-     * @param {number}     [scale]          The 1-base scale at which images should be displayed. Default: 2
      * @param {string}     [tagName="span"] The tag name to use for the element.
+     * @param {number}     [scale]          The 1-base scale at which images should be displayed. Default: 2
      * @return {HTMLSpanElement|HTMLElement}
      */
     this.renderCard = function (arcana, tagName, scale) {
