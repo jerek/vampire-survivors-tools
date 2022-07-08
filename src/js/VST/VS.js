@@ -85,6 +85,9 @@ VST.VS = new function () {
     // ***** CONSTANTS ***** //
     // ********************* //
 
+    /** @type {VsType} A weapon or passive item that a character can equip. */
+    this.META_TYPE_ITEM = 'item';
+
     /** @type {VsType} An arcana that a character can collect. */
     this.TYPE_ARCANA = 'arcana';
 
@@ -1200,6 +1203,20 @@ VST.VS = new function () {
     this.getIds = function (type) {
         let entities = DATA_OBJECTS[type];
         return entities.sortedIds || Object.keys(entities).map(id => parseInt(id));
+    };
+
+    /**
+     * Returns the meta type of the given type.
+     *
+     * @param {VsType} type
+     * @return {VsType}
+     */
+    this.getMetaType = function (type) {
+        if ([self.TYPE_WEAPON, self.TYPE_PASSIVE].includes(type)) {
+            return self.META_TYPE_ITEM;
+        }
+
+        return type;
     };
 
     // ------- //
