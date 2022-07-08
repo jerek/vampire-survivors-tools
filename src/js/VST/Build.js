@@ -298,7 +298,7 @@ VST.Build = new function () {
         section.container.prepend(section.selected);
 
         for (let slot = 0; slot < section.max; slot++) {
-            let slotElement = DOM.ce('span', {
+            let slotElement = DOM.ce('div', {
                 className: 'vst-build-selected-arcanas-arcana',
                 dataset: {
                     slot: slot,
@@ -377,7 +377,7 @@ VST.Build = new function () {
         section.container.prepend(section.selected);
 
         for (let slot = 0; slot < section.max; slot++) {
-            let slotElement = DOM.ce('span', {
+            let slotElement = DOM.ce('div', {
                 className: 'vst-build-selected-items-item',
                 dataset: {
                     slot: slot,
@@ -719,7 +719,7 @@ VST.Build = new function () {
         section.container.dataset.selected = JSON.stringify(!incomplete);
 
         // Update the selected arcana.
-        let slotElement = section.selected.querySelector(':scope > span[data-slot="' + slot + '"]');
+        let slotElement = section.selected.querySelector(':scope > [data-slot="' + slot + '"]');
         slotElement.innerHTML = '';
         if (arcana) {
             slotElement.appendChild(Arcana.renderCard(arcana, 'a'));
@@ -751,7 +751,7 @@ VST.Build = new function () {
         section.container.dataset.selected = JSON.stringify(!incomplete);
 
         // Update the selected item.
-        let slotElement = section.selected.querySelector(':scope > span[data-slot="' + slot + '"]');
+        let slotElement = section.selected.querySelector(':scope > [data-slot="' + slot + '"]');
         slotElement.innerHTML = '';
         slotElement.appendChild(
             Item.render(
