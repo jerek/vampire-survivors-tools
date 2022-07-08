@@ -428,6 +428,85 @@ VST.Build = new function () {
     }
 
     /**
+     * Select the arcana with the given ID in the first available or given slot.
+     *
+     * @param {ArcanaId} arcanaId
+     * @param {number}   [slot]    Defaults to the first available slot.
+     * @return {boolean} Whether the arcana was successfully added.
+     */
+    function setArcana(arcanaId, slot) {
+        let section = SECTIONS[SECTION_ARCANAS];
+
+        let debug = function (message) {
+            let args = ['setArcana:'].concat(Array.prototype.slice.call(arguments));
+            VST.debug.apply(VST.debug, args);
+        };
+
+        debug('Called', 'ID:', arcanaId, 'Slot:', slot);
+
+        if (slot === undefined) {
+            // When the user clicks an arcana that's already in the build, remove it.
+            if (arcanaId !== self.EMPTY_ID && my.build.arcanas.includes(arcanaId)) {
+                slot = my.build.arcanas.indexOf(arcanaId);
+                arcanaId = self.EMPTY_ID;
+            }
+        } else {
+            // When the user clicks a build slot that's already empty, do nothing.
+            if (my.build.arcanas[slot] === self.EMPTY_ID) {
+                // Nothing to do.
+                debug('Nothing to do');
+
+                return false;
+            }
+        }
+
+        // If there's no slot specified, find the first available slot.
+        if (slot === undefined) {
+            for (let potentialSlot = 0; potentialSlot < section.max; potentialSlot++) {
+                if (!my.build.arcanas[potentialSlot]) {
+                    slot = potentialSlot;
+                    break;
+                }
+            }
+
+            if (slot === undefined) {
+                // We couldn't find a slot for this arcana, do nothing.
+                debug('No available slot found');
+
+                return false;
+            }
+        }
+
+        // Get the arcana data, both to validate the ID and because we'll need it to update the display.
+        let arcana;
+        if (arcanaId !== self.EMPTY_ID) {
+            arcana = Arcana.get(arcanaId);
+            if (!arcana) {
+                VST.error('Could not find the requested arcana to set.', arcanaId);
+
+                return false;
+            }
+        }
+
+        // If we're clearing or replacing a slot, set the arcana that was here to no longer appear selected.
+        if (typeof my.build.arcanas[slot] === 'number' && my.build.arcanas[slot] !== self.EMPTY_ID) {
+            setEntityAsSelected(section, my.build.arcanas[slot], false);
+        }
+
+        // Set the arcana in the build.
+        my.build.arcanas[slot] = arcanaId;
+
+        // Update the relevant slot.
+        updateArcanaDisplay(slot, arcana);
+
+        dispatchChangedBuildEvent();
+
+        debug('Success');
+
+        return true;
+    }
+
+    /**
      * Set the given character's ID as the current character.
      *
      * @param {CharacterId} characterId
@@ -521,82 +600,15 @@ VST.Build = new function () {
     }
 
     /**
-     * Select the arcana with the given ID in the first available or given slot.
+     * Enable or disable the styles to indicate that an entity in a list is selected.
      *
-     * @param {ArcanaId} arcanaId
-     * @param {number}   [slot]    Defaults to the first available slot.
-     * @return {boolean} Whether the arcana was successfully added.
+     * @param {BuildSectionConfig} section
+     * @param {number}             id
+     * @param {boolean}            selected
      */
-    function setArcana(arcanaId, slot) {
-        let section = SECTIONS[SECTION_ARCANAS];
-
-        let debug = function (message) {
-            let args = ['setArcana:'].concat(Array.prototype.slice.call(arguments));
-            VST.debug.apply(VST.debug, args);
-        };
-
-        debug('Called', 'ID:', arcanaId, 'Slot:', slot);
-
-        if (slot === undefined) {
-            // When the user clicks an arcana that's already in the build, remove it.
-            if (arcanaId !== self.EMPTY_ID && my.build.arcanas.includes(arcanaId)) {
-                slot = my.build.arcanas.indexOf(arcanaId);
-                arcanaId = self.EMPTY_ID;
-            }
-        } else {
-            // When the user clicks a build slot that's already empty, do nothing.
-            if (my.build.arcanas[slot] === self.EMPTY_ID) {
-                // Nothing to do.
-                debug('Nothing to do');
-
-                return false;
-            }
-        }
-
-        // If there's no slot specified, find the first available slot.
-        if (slot === undefined) {
-            for (let potentialSlot = 0; potentialSlot < section.max; potentialSlot++) {
-                if (!my.build.arcanas[potentialSlot]) {
-                    slot = potentialSlot;
-                    break;
-                }
-            }
-
-            if (slot === undefined) {
-                // We couldn't find a slot for this arcana, do nothing.
-                debug('No available slot found');
-
-                return false;
-            }
-        }
-
-        // Get the arcana data, both to validate the ID and because we'll need it to update the display.
-        let arcana;
-        if (arcanaId !== self.EMPTY_ID) {
-            arcana = Arcana.get(arcanaId);
-            if (!arcana) {
-                VST.error('Could not find the requested arcana to set.', arcanaId);
-
-                return false;
-            }
-        }
-
-        // If we're clearing or replacing a slot, set the arcana that was here to no longer appear selected.
-        if (typeof my.build.arcanas[slot] === 'number' && my.build.arcanas[slot] !== self.EMPTY_ID) {
-            setEntityAsSelected(section, my.build.arcanas[slot], false);
-        }
-
-        // Set the arcana in the build.
-        my.build.arcanas[slot] = arcanaId;
-
-        // Update the relevant slot.
-        updateArcanaDisplay(slot, arcana);
-
-        dispatchChangedBuildEvent();
-
-        debug('Success');
-
-        return true;
+    function setEntityAsSelected(section, id, selected) {
+        section.list.querySelector(`.vs-entity[data-type="${section.entityType}"][data-id="${id}"]`)
+            .dataset.selected = JSON.stringify(selected);
     }
 
     /**
@@ -678,18 +690,6 @@ VST.Build = new function () {
         debug('Success');
 
         return true;
-    }
-
-    /**
-     * Enable or disable the styles to indicate that an entity in a list is selected.
-     *
-     * @param {BuildSectionConfig} section
-     * @param {number}             id
-     * @param {boolean}            selected
-     */
-    function setEntityAsSelected(section, id, selected) {
-        section.list.querySelector(`.vs-entity[data-type="${section.entityType}"][data-id="${id}"]`)
-            .dataset.selected = JSON.stringify(selected);
     }
 
     /**
