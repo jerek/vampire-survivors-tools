@@ -10,16 +10,16 @@ VST.VS = new function () {
     // *********************** //
 
     /**
-     * @typedef {Object} ArcanaData Data describing an arcana.
+     * @typedef {EntityData} ArcanaData Data describing an arcana.
      * @property {string}   description
      * @property {ArcanaId} id          This MUST NOT change, because it's used in the URL for saved builds.
      * @property {string}   name
      */
 
-    /** @typedef {number} ArcanaId An arcana's ID. */
+    /** @typedef {EntityId} ArcanaId An arcana's ID. */
 
     /**
-     * @typedef {Object} CharacterData Data describing a character.
+     * @typedef {EntityData} CharacterData Data describing a character.
      * @property {CharacterId}  id           This MUST NOT change, because it's used in the URL for saved builds.
      * @property {string}       name         The character's common name.
      * @property {string}       description  The character's in-game description.
@@ -32,10 +32,19 @@ VST.VS = new function () {
      * @property {WeaponId[]}   [weaponIds]  The weapons the character starts with.
      */
 
-    /** @typedef {number} CharacterId A character's ID. */
+    /** @typedef {EntityId} CharacterId A character's ID. */
 
     /**
-     * @typedef {Object} PassiveData Data describing a passive item.
+     * @typedef {Object} EntityData Data describing an entity.
+     * @property {string}   description
+     * @property {EntityId} id          This MUST NOT change, because it's used in the URL for saved builds.
+     * @property {string}   name
+     */
+
+    /** @typedef {number} EntityId An entity's ID. */
+
+    /**
+     * @typedef {EntityData} PassiveData Data describing a passive item.
      * @property {string}    description
      * @property {string}    frameName   The filename of the passive item's image within the "items" sprite.
      * @property {PassiveId} id          This MUST NOT change, because it's used in the URL for saved builds.
@@ -43,10 +52,10 @@ VST.VS = new function () {
      * @property {number}    order       The order that this passive item is displayed in the in-game Collection.
      */
 
-    /** @typedef {number} PassiveId A passive item's ID. */
+    /** @typedef {EntityId} PassiveId A passive item's ID. */
 
     /**
-     * @typedef {Object} StageData Data describing a stage.
+     * @typedef {EntityData} StageData Data describing a stage.
      * @property {string}      description
      * @property {StageId}     id             This MUST NOT change, because it's used in the URL for saved builds.
      * @property {string}      name
@@ -55,12 +64,12 @@ VST.VS = new function () {
      * @property {boolean}     [hideFromTool] Whether to hide this stage when selecting a stage for a build.
      */
 
-    /** @typedef {number} StageId A stage's ID. */
+    /** @typedef {EntityId} StageId A stage's ID. */
 
     /** @typedef {string} VsType A Vampire Survivors entity type. E.g. character, weapon, stage, etc. */
 
     /**
-     * @typedef {Object} WeaponData Data describing a weapon.
+     * @typedef {EntityData} WeaponData Data describing a weapon.
      * @property {string}      description
      * @property {string}      frameName     The filename of the weapon's image within the "items" sprite.
      * @property {WeaponId}    id            This MUST NOT change, because it's used in the URL for saved builds.
@@ -70,7 +79,7 @@ VST.VS = new function () {
      * @property {WeaponId[]}  [reqWeapons]  The weapons required to get this evolved weapon.
      */
 
-    /** @typedef {number} WeaponId A weapon's ID. */
+    /** @typedef {EntityId} WeaponId A weapon's ID. */
 
     // ********************* //
     // ***** CONSTANTS ***** //
