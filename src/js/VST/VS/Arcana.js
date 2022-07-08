@@ -10,7 +10,7 @@ VST.VS.Arcana = new function () {
     // ********************* //
 
     /** @type {number} The standard scaling size of arcana card images. */
-    const IMAGE_SCALE_CARDS = 1.6;
+    const IMAGE_SCALE_CARDS = 1.5;
 
     // ********************* //
     // ***** FUNCTIONS ***** //

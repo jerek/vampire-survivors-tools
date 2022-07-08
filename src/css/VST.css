@@ -8,8 +8,8 @@
 
 :root {
     /* Values from the game, or that closely mimic the game. */
-    --vs-arcana-height: 128px;
-    --vs-arcana-width: 89.6px;
+    --vs-arcana-height: 120px;
+    --vs-arcana-width: 84px;
     --vs-blue: #4b4f74;
     --vs-button-border-size: 18;
     --vs-button-border-size-px: 18px;
@@ -79,6 +79,18 @@ h1 {
     margin: 0 0 var(--page-padding);
     text-shadow: var(--vs-shadow);
     text-transform: uppercase;
+}
+@media screen and (max-width: 900px) {
+    h1 {font-size: 2.5em}
+}
+@media screen and (max-width: 730px) {
+    h1 {font-size: 2em}
+}
+@media screen and (max-width: 600px) {
+    h1 {margin-left: auto; margin-right: auto; max-width: 340px}
+}
+@media screen and (max-width: 370px) {
+    h1 {font-size: 1.8em}
 }
 
 a {color: var(--vs-yellow); text-decoration: none}
@@ -191,6 +203,10 @@ footer a:hover {color: var(--vs-yellow)}
     max-width: 700px;
     padding: 10px;
     position: relative;
+}
+
+@media screen and (max-width: 439px) {
+    body {padding: 10px}
 }
 
 .vst:before {
@@ -376,7 +392,26 @@ a.vs-entity {cursor: pointer}
 .vs-entity[data-type="character"][data-mode="details"],
 .vs-entity[data-type="character"][data-mode="details"] > .vs-entity-content {
     height: 100px;
-    width: 400px;
+    max-width: 400px;
+    width: 100%;
+}
+@media screen and (max-width: 419px) {
+    .vs-entity[data-type="character"][data-mode="details"] {
+        display: flex;
+        justify-content: center;
+        margin: 0 -12%;
+        max-width: 124%;
+        transform: scale(0.8);
+        width: 124%;
+    }
+}
+@media screen and (max-width: 349px) {
+    .vs-entity[data-type="character"][data-mode="details"] {
+        margin: 0 -24%;
+        max-width: 148%;
+        transform: scale(0.6);
+        width: 148%;
+    }
 }
 .vs-entity[data-type="character"][data-mode="details"] > .vs-entity-content > .vs-char-box-weapons {
     bottom: 7px;
