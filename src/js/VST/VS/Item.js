@@ -49,11 +49,11 @@ VST.VS.Item = new function () {
     /**
      * Returns elements created to display an item image.
      *
-     * @param {VsType}                 type             The item's entity type.
+     * @param {VsType}                 type            The item's entity type.
      * @param {WeaponData|PassiveData} [item]
-     * @param {ItemDisplayMode}        [mode]           What style of display this character box should be.
-     * @param {number}                 [scale]          The 1-base scale at which images should be displayed. Default: 2
-     * @param {string}                 [tagName="span"] The tag name to use for the element.
+     * @param {ItemDisplayMode}        [mode]          What style of display this character box should be.
+     * @param {number}                 [scale]         The 1-base scale at which images should be displayed. Default: 2
+     * @param {string}                 [tagName="div"] The tag name to use for the element.
      * @return {HTMLSpanElement|HTMLElement}
      */
     this.render = function (type, item, mode, scale, tagName) {

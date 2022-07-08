@@ -59,10 +59,10 @@ VST.VS.Character = new function () {
      * bottom-right of the character box. The button may still not be visible, depending on the mode.
      *
      * @param {CharacterData}   char
-     * @param {CharDisplayMode} mode           What style of display this character box should be.
-     * @param {string}          [tagName]      The tag name to use for the element.
-     * @param {string}          [buttonText]   The text to display on the optional button.
-     * @param {function}        [buttonAction] The function to execute when clicking the optional button.
+     * @param {CharDisplayMode} mode            What style of display this character box should be.
+     * @param {string}          [tagName="div"] The tag name to use for the element.
+     * @param {string}          [buttonText]    The text to display on the optional button.
+     * @param {function}        [buttonAction]  The function to execute when clicking the optional button.
      * @return {HTMLDivElement|HTMLAnchorElement}
      */
     this.renderBox = function (char, mode, tagName, buttonText, buttonAction) {

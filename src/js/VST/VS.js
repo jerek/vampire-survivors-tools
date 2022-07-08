@@ -1186,7 +1186,7 @@ VST.VS = new function () {
      *
      * @param {VsType}     type
      * @param {EntityData} [entity]
-     * @param {string}     [tagName]
+     * @param {string}     [tagName="div"]
      * @param {string}     [mode]
      * @return {{wrapper: HTMLDivElement, content: HTMLDivElement}}
      */
