@@ -294,12 +294,9 @@ VST.Build = new function () {
         // SELECTED ARCANAS //
         //                  //
 
-        section.selected = DOM.ce('div', {className: 'vst-build-selected-arcanas'});
-        section.container.prepend(section.selected);
-
         for (let slot = 0; slot < section.max; slot++) {
             let slotElement = DOM.ce('div', {
-                className: 'vst-build-selected-arcanas-arcana',
+                className: 'vst-build-selected-slot',
                 dataset: {
                     slot: slot,
                 },
@@ -310,8 +307,6 @@ VST.Build = new function () {
         //              //
         // ARCANAS LIST //
         //              //
-
-        section.list = DOM.ce('div', {className: 'vst-build-arcanas-list'}, section.container);
 
         Arcana.getIds().forEach(arcanaId => {
             // noinspection JSValidateTypes Realistically, this can't actually return undefined.
@@ -331,17 +326,9 @@ VST.Build = new function () {
         let section = SECTIONS[SECTION_CHARACTER];
         renderSectionContainer(SECTION_CHARACTER);
 
-        //                    //
-        // SELECTED CHARACTER //
-        //                    //
-
-        section.selected = DOM.ce('div', {className: 'vst-build-selected-character'}, section.container);
-
         //                 //
         // CHARACTERS LIST //
         //                 //
-
-        section.list = DOM.ce('div', {className: 'vst-build-character-list'}, section.container);
 
         Character.getIds().forEach(characterId => {
             // noinspection JSValidateTypes Realistically, this can't actually return undefined.
@@ -371,14 +358,9 @@ VST.Build = new function () {
         // SELECTED ITEMS //
         //                //
 
-        section.selected = DOM.ce('div', {
-            className: 'vst-build-selected-items vst-build-selected-' + sectionId,
-        });
-        section.container.prepend(section.selected);
-
         for (let slot = 0; slot < section.max; slot++) {
             let slotElement = DOM.ce('div', {
-                className: 'vst-build-selected-items-item',
+                className: 'vst-build-selected-slot',
                 dataset: {
                     slot: slot,
                 },
@@ -391,10 +373,6 @@ VST.Build = new function () {
         //            //
         // ITEMS LIST //
         //            //
-
-        section.list = DOM.ce('div', {
-            className: `vst-build-items-list vst-build-${sectionId}-list`,
-        }, section.container);
 
         VS.getIds(section.entityType).forEach(entityId => {
             let entity = VS.getData(section.entityType, entityId);
@@ -432,7 +410,21 @@ VST.Build = new function () {
             },
         }, Page.getContainer());
 
+        section.selected = DOM.ce('div', {
+            className: 'vst-build-selected',
+            dataset: {
+                section: sectionId,
+            },
+        }, section.container);
+
         DOM.ce('h2', undefined, section.container, DOM.ct(section.listHeading));
+
+        section.list = DOM.ce('div', {
+            className: 'vst-build-list',
+            dataset: {
+                section: sectionId,
+            },
+        }, section.container);
     }
 
     /**

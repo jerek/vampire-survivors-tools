@@ -451,73 +451,56 @@ section[data-section="character"][data-selected="true"] ~ section:last-child {
 /* Sections other than characters are hidden until a character is selected. */
 section[data-section="character"]:not([data-selected="true"]) ~ section {display: none}
 
+/* **************************** */
+/* ***** BUILDS: ENTITIES ***** */
+/* **************************** */
+
+/* ======== */
+/* SELECTED */
+/* ======== */
+
+.vst-build-selected {display: flex; flex-wrap: wrap; justify-content: center}
+.vst-build-selected-slot {margin: 2px}
+.vst-build-selected .vs-entity .vs-sprite-image {animation: fadeIn 150ms}
+
+/* ==== */
+/* LIST */
+/* ==== */
+
+.vst-build-list {display: flex; flex-wrap: wrap; justify-content: center}
+section[data-selected="true"] .vst-build-list {display: none}
+.vst-build-list .vs-entity {margin: 2px}
+
 /* ***************************** */
 /* ***** BUILDS: CHARACTER ***** */
 /* ***************************** */
 
-.vst-build-character-list {display: flex; flex-wrap: wrap; justify-content: center; padding-bottom: 20px}
-section[data-section="character"] .vs-entity[data-type="character"][data-mode="default"] {margin: 5px}
-section[data-section="character"] .vst-build-selected-character {display: none}
-section[data-section="character"] .vst-build-selected-character .vs-entity[data-type="character"] {margin: 0 auto}
-section[data-section="character"][data-selected="true"] .vst-build-character-list {display: none}
-section[data-section="character"][data-selected="true"] .vst-build-selected-character {display: block}
+.vst-build-list[data-section="character"] {padding-bottom: 20px}
+.vst-build-list[data-section="character"] .vs-entity {margin: 5px}
 
 /* ************************* */
 /* ***** BUILDS: ITEMS ***** */
 /* ************************* */
 
-/* ======== */
-/* SELECTED */
-/* ======== */
+.vst-build-selected[data-section="weapons"] .vst-build-selected-slot,
+.vst-build-selected[data-section="passives"] .vst-build-selected-slot {
+    height: 42.6666px !important;
+    width: 42.6666px !important;
+}
 
-/* ------- */
-/* GENERAL */
-/* ------- */
-
-.vst-build-selected-items {display: flex; flex-wrap: wrap; justify-content: center}
-.vst-build-selected-items-item {height: 42.6666px !important; margin: 2px; width: 42.6666px !important}
-.vst-build-selected-items .vs-entity .vs-sprite-image {animation: fadeIn 150ms}
-
-/* --------------- */
-/* EQUIPPED FRAMES */
-/* --------------- */
-
-.vst-build-selected-weapons .vs-entity[data-meta-type="item"][data-mode="equipped"] > .vs-entity-content:before {
+.vst-build-selected[data-section="weapons"] .vs-entity > .vs-entity-content:before {
     background: url(../game-assets/img/UI/weaponBG.png) no-repeat center / 38px 38px;
 }
-.vst-build-selected-passives .vs-entity[data-meta-type="item"][data-mode="equipped"] > .vs-entity-content:before {
+.vst-build-selected[data-section="passives"] .vs-entity > .vs-entity-content:before {
     background: url(../game-assets/img/UI/passiveBG.png) no-repeat center / 38px 38px;
 }
-
-/* ==== */
-/* LIST */
-/* ==== */
-
-section[data-selected="true"] .vst-build-items-list {display: none}
-.vst-build-items-list {display: flex; flex-wrap: wrap; justify-content: center}
-.vst-build-items-list .vs-entity[data-meta-type="item"] {margin: 2px}
 
 /* *************************** */
 /* ***** BUILDS: ARCANAS ***** */
 /* *************************** */
 
-/* ======== */
-/* SELECTED */
-/* ======== */
-
-.vst-build-selected-arcanas {display: flex; flex-wrap: wrap; justify-content: center}
-.vst-build-selected-arcanas-arcana {margin: 2px}
-.vst-build-selected-arcanas .vs-entity .vs-sprite-image {animation: fadeIn 150ms}
-.vst-build-selected-arcanas-arcana:empty {
+.vst-build-selected[data-section="arcanas"] .vst-build-selected-slot:empty {
     background: url(../game-assets/img/randomazzo/back.png) center / 100% 100%;
     height: var(--vs-arcana-height);
     width: var(--vs-arcana-width);
 }
-
-/* ==== */
-/* LIST */
-/* ==== */
-
-section[data-selected="true"] .vst-build-arcanas-list {display: none}
-.vst-build-arcanas-list {display: flex; flex-wrap: wrap; justify-content: center}
-.vst-build-arcanas-list .vs-entity[data-type="arcana"] {margin: 2px}
