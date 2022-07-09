@@ -3,6 +3,7 @@
  */
 VST.VS.Passive = new function () {
     const self = this;
+    const Item = VST.VS.Item;
     const VS = VST.VS;
 
     // ********************* //
@@ -24,7 +25,7 @@ VST.VS.Passive = new function () {
      * @return {WeaponData|undefined}
      */
     this.getEvolution = id => {
-        let evolutionId = VS.Weapon.getPassiveEvolutionMap()[id];
+        let evolutionId = Item.getPassiveEvolutionMap()[id];
         if (evolutionId) {
             return self.get(evolutionId);
         }

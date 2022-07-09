@@ -14,6 +14,19 @@ VST.VS.Item = new function () {
     /** @typedef {string} ItemDisplayMode What style of display a rendered item should be. */
 
     // ********************* //
+    // ***** VARIABLES ***** //
+    // ********************* //
+
+    /** @type {Object} Private object-scope variables. */
+    const my = {
+        /** @type {Object<PassiveId, WeaponId>} A generated map of passive IDs to weapons that they can evolve into. */
+        passiveEvolutions: undefined,
+
+        /** @type {Object<WeaponId, WeaponId>} A generated map of weapon IDs to weapons that they can evolve into. */
+        weaponEvolutions: undefined,
+    };
+
+    // ********************* //
     // ***** CONSTANTS ***** //
     // ********************* //
 
@@ -44,6 +57,24 @@ VST.VS.Item = new function () {
     // ********************* //
     // ***** FUNCTIONS ***** //
     // ********************* //
+
+    // ------ //
+    // PUBLIC //
+    // ------ //
+
+    /**
+     * Returns an ID map of passives to the weapons that they can evolve into.
+     *
+     * @return {Object<PassiveId, WeaponId>}
+     */
+    this.getPassiveEvolutionMap = () => my.passiveEvolutions;
+
+    /**
+     * Returns an ID map of weapons to the weapons that they can evolve into.
+     *
+     * @return {Object<WeaponId, WeaponId>}
+     */
+    this.getWeaponEvolutionMap = () => my.weaponEvolutions;
 
     /**
      * Returns elements created to display an item image.
@@ -91,4 +122,34 @@ VST.VS.Item = new function () {
 
         return entity.wrapper;
     };
+
+    // ------- //
+    // PRIVATE //
+    // ------- //
+
+    /**
+     * Finalizes entity objects and generates data lookup maps based on the core data.
+     */
+    function init() {
+        initEvolutionData();
+    }
+
+    /**
+     * Generates evolution data lookups.
+     */
+    function initEvolutionData() {
+        my.weaponEvolutions = {};
+        my.passiveEvolutions = {};
+        VS.Weapon.getIds().forEach(weaponId => {
+            let weapon = VS.Weapon.get(weaponId);
+            (weapon.reqWeapons || []).forEach(requiredWeaponId => my.weaponEvolutions[requiredWeaponId] = weaponId);
+            (weapon.reqPassives || []).forEach(requiredPassiveId => my.passiveEvolutions[requiredPassiveId] = weaponId);
+        });
+    }
+
+    // ************************** //
+    // ***** INITIALIZATION ***** //
+    // ************************** //
+
+    VST.registerInitCallback(init);
 };
