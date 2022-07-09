@@ -80,7 +80,7 @@ VST.VS.Item = new function () {
     /**
      * Returns elements created to display an item image.
      *
-     * @param {VsType}                 type            The item's entity type.
+     * @param {VsType}                 type            Items carry types, but the item is optional, so we need this.
      * @param {WeaponData|PassiveData} [item]
      * @param {ItemDisplayMode}        [mode]          What style of display this character box should be.
      * @param {number}                 [scale]         The 1-base scale at which images should be displayed. Default: 2
