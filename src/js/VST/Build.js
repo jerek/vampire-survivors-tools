@@ -639,7 +639,7 @@ VST.Build = new function () {
      * @param {boolean}            selected
      */
     function setEntityAsSelected(section, id, selected) {
-        section.list.querySelector(`.vs-entity[data-type="${section.entityType}"][data-id="${id}"]`)
+        section.list.querySelector(`:scope > .vs-entity[data-type="${section.entityType}"][data-id="${id}"]`)
             .dataset.selected = JSON.stringify(selected);
     }
 
