@@ -4,4 +4,4 @@
 RewriteEngine on
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_URI} !\.
-RewriteRule . index.html [L,QSA]
+RewriteRule . index.php [L,QSA]
