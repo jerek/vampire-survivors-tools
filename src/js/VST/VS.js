@@ -1295,6 +1295,22 @@ VST.VS = new function () {
         return type;
     };
 
+    /**
+     * Returns the class associated with the given type.
+     *
+     * @param {VsType} type
+     * @return {object}
+     */
+    this.getTypeClass = function (type) {
+        switch (type) {
+            case self.TYPE_ARCANA:    return self.Arcana;
+            case self.TYPE_CHARACTER: return self.Character;
+            case self.TYPE_PASSIVE:   return self.Passive;
+            case self.TYPE_STAGE:     return self.Stage;
+            case self.TYPE_WEAPON:    return self.Weapon;
+        }
+    };
+
     // ------- //
     // PRIVATE //
     // ------- //
