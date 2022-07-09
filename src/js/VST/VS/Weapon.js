@@ -38,20 +38,17 @@ VST.VS.Weapon = new function () {
      * Returns all weapons that can result from evolving the given weapon.
      *
      * @param {WeaponId} id
-     * @return {Object<WeaponId, WeaponData>}
+     * @return {WeaponData[]}
      */
     this.getAllEvolutions = id => {
-        let evolutions = {};
+        let weaponEvolutionMap = getWeaponEvolutionMap();
+        let evolutions = [];
 
-        let nextId = id;
+        let nextId = weaponEvolutionMap[id];
         while (nextId) {
-            let weapon = self.getEvolution(nextId);
-            if (weapon) {
-                evolutions[weapon.id] = weapon;
-                nextId = weapon.id;
-            } else {
-                nextId = null;
-            }
+            let evolvedWeapon = self.get(nextId);
+            evolutions.push(evolvedWeapon);
+            nextId = weaponEvolutionMap[evolvedWeapon.id];
         }
 
         return evolutions;

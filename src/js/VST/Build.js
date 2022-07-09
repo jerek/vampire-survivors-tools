@@ -578,8 +578,8 @@ VST.Build = new function () {
                             let slot = my.build.weapons.indexOf(weaponId);
                             setItem(SECTION_WEAPONS, self.EMPTY_ID, slot);
                         }
-                        Object.entries(Weapon.getAllEvolutions(weaponId)).forEach(([id, weapon]) => {
-                            weaponEvolutions[id] = weapon;
+                        Weapon.getAllEvolutions(weaponId).forEach(weapon => {
+                            weaponEvolutions[weapon.id] = weapon;
                         });
                     });
 
