@@ -11,7 +11,7 @@ VST.VS.Item = new function () {
     // ***** DEFINITIONS ***** //
     // *********************** //
 
-    /** @typedef {string} ItemDisplayMode What style of display a character box should be. */
+    /** @typedef {string} ItemDisplayMode What style of display a rendered item should be. */
 
     // ********************* //
     // ***** CONSTANTS ***** //
