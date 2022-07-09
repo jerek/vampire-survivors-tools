@@ -128,7 +128,7 @@ VST.VS.Item = new function () {
     // ------- //
 
     /**
-     * Finalizes entity objects and generates data lookup maps based on the core data.
+     * Generates data lookup maps based on the core data.
      */
     function init() {
         initEvolutionData();
