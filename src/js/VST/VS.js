@@ -304,27 +304,6 @@ VST.VS = new function () {
     };
 
     /**
-     * Returns data by ID of the given entity type.
-     *
-     * @param {VsType} type
-     * @param {number} id
-     * @return {EntityData|undefined}
-     */
-    this.getData = function (type, id) {
-        self.getTypeClass(type).get(id);
-    };
-
-    /**
-     * Returns a list of IDs from the given entity lookup.
-     *
-     * @param {VsType} type
-     * @return {number[]}
-     */
-    this.getIds = function (type) {
-        return self.getTypeClass(type).getIds();
-    };
-
-    /**
      * Returns the meta type of the given type.
      *
      * @param {VsType} type
