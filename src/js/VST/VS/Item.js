@@ -80,20 +80,22 @@ VST.VS.Item = new function () {
     /**
      * Returns elements created to display an item image.
      *
-     * @param {VsType}                 type            Items carry types, but the item is optional, so we need this.
-     * @param {WeaponData|PassiveData} [item]
-     * @param {ItemDisplayMode}        [mode]          What style of display this character box should be.
-     * @param {number}                 [scale]         The 1-base scale at which images should be displayed. Default: 2
-     * @param {string}                 [tagName="div"] The tag name to use for the element.
-     * @param {function}               [callback]      A function executed after the image is loaded.
+     * @param {VsType}                 type                    This is required because the item entity is optional.
+     * @param {WeaponData|PassiveData} [item]                  When omitted prints an empty item entity element.
+     * @param {Object}                 [options]
+     * @param {function}               [options.callback]      A function executed after the image is loaded.
+     * @param {ItemDisplayMode}        [options.mode]          What style of display this character box should be.
+     * @param {number}                 [options.scale=2]       The 1-base scale at which images should be displayed.
+     * @param {string}                 [options.tagName="div"] The tag name to use for the element.
      * @return {HTMLSpanElement|HTMLElement}
      */
-    this.render = function (type, item, mode, scale, tagName, callback) {
-        if (!scale) {
-            scale = IMAGE_SCALE;
-        }
+    this.render = function (type, item, options) {
+        options = options || {};
 
-        let entity = VS.createEntityElements(type, item, tagName, mode || self.DISPLAY_MODE_DEFAULT);
+        let scale = options.scale || IMAGE_SCALE;
+        let mode = options.mode || self.DISPLAY_MODE_DEFAULT;
+
+        let entity = VS.createEntityElements(type, item, options.tagName, mode || self.DISPLAY_MODE_DEFAULT);
 
         let size = BASE_ICON_SIZE * scale;
         let style = {
@@ -109,8 +111,8 @@ VST.VS.Item = new function () {
             let setImagePos = image => {
                 image.style.top = 'calc(50% - ' + parseInt(image.style.height) / 2 + 'px' + ')';
                 image.style.left = 'calc(50% - ' + parseInt(image.style.width) / 2 + 'px' + ')';
-                if (callback) {
-                    callback();
+                if (options.callback) {
+                    options.callback();
                 }
             };
             let image = Img.createImage(Img.ITEMS, item.frameName, scale, setImagePos);

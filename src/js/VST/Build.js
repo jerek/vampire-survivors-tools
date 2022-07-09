@@ -383,14 +383,11 @@ VST.Build = new function () {
         itemClass.getIds().forEach(itemId => {
             let item = itemClass.get(itemId);
 
-            let box = Item.render(
-                section.entityType,
-                item,
-                Item.DISPLAY_MODE_FRAME,
-                undefined,
-                'a',
-                requestListWidthUpdate,
-            );
+            let box = Item.render(section.entityType, item, {
+                callback: requestListWidthUpdate,
+                mode: Item.DISPLAY_MODE_FRAME,
+                tagName: 'a',
+            });
             box.addEventListener('click', () => {
                 let success = setItem(sectionId, itemId);
                 if (!success) {
@@ -786,13 +783,11 @@ VST.Build = new function () {
         let slotElement = section.selected.querySelector(':scope > [data-slot="' + slot + '"]');
         slotElement.innerHTML = '';
         slotElement.appendChild(
-            Item.render(
-                section.entityType,
-                item,
-                Item.DISPLAY_MODE_EQUIPPED,
-                Item.SELECTED_SCALE,
-                item ? 'a' : undefined,
-            ),
+            Item.render(section.entityType, item, {
+                mode: Item.DISPLAY_MODE_EQUIPPED,
+                scale: Item.SELECTED_SCALE,
+                tagName: item ? 'a' : undefined,
+            }),
         );
 
         if (item) {

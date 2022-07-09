@@ -407,7 +407,10 @@ VST.VS.Character = new function () {
         (char.weaponIds || []).forEach(weaponId => {
             // noinspection JSCheckFunctionSignatures Realistically, this can't actually return undefined.
             weapons.appendChild(
-                VS.Item.render(VS.TYPE_WEAPON, VS.Weapon.get(weaponId), itemDisplayMode, IMAGE_SCALE_CHAR_BOX),
+                VS.Item.render(VS.TYPE_WEAPON, VS.Weapon.get(weaponId), {
+                    mode: itemDisplayMode,
+                    scale: IMAGE_SCALE_CHAR_BOX,
+                }),
             );
         });
 
