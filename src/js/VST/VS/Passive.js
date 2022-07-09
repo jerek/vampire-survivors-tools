@@ -4,6 +4,22 @@
 VST.VS.Passive = new function () {
     const VS = VST.VS;
 
+    // *********************** //
+    // ***** DEFINITIONS ***** //
+    // *********************** //
+
+    /**
+     * @typedef {EntityData} PassiveData Data describing a passive item.
+     * @property {string}    description
+     * @property {string}    frameName   The filename of the passive item's image within the "items" sprite.
+     * @property {PassiveId} id          This MUST NOT change, because it's used in the URL for saved builds.
+     * @property {string}    name
+     * @property {number}    order       The order that this passive item is displayed in the in-game Collection.
+     * @property {VsType}    type        The Passive Item type ID.
+     */
+
+    /** @typedef {EntityId} PassiveId A passive item's ID. */
+
     // ********************* //
     // ***** CONSTANTS ***** //
     // ********************* //

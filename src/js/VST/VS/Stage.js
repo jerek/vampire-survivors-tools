@@ -4,6 +4,23 @@
 VST.VS.Stage = new function () {
     const VS = VST.VS;
 
+    // *********************** //
+    // ***** DEFINITIONS ***** //
+    // *********************** //
+
+    /**
+     * @typedef {EntityData} StageData Data describing a stage.
+     * @property {string}      description
+     * @property {StageId}     id             This MUST NOT change, because it's used in the URL for saved builds.
+     * @property {string}      name
+     * @property {number}      order          The order that this stage is displayed when starting a run.
+     * @property {PassiveId[]} passives       The passive items that can be found on the stage.
+     * @property {VsType}      type           The Stage type ID.
+     * @property {boolean}     [hideFromTool] Whether to hide this stage when selecting a stage for a build.
+     */
+
+    /** @typedef {EntityId} StageId A stage's ID. */
+
     // ********************* //
     // ***** CONSTANTS ***** //
     // ********************* //

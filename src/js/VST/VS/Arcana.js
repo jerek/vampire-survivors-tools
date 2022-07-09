@@ -5,6 +5,20 @@ VST.VS.Arcana = new function () {
     const Img = VST.VS.Img;
     const VS = VST.VS;
 
+    // *********************** //
+    // ***** DEFINITIONS ***** //
+    // *********************** //
+
+    /**
+     * @typedef {EntityData} ArcanaData Data describing an arcana.
+     * @property {string}   description
+     * @property {ArcanaId} id          This MUST NOT change, because it's used in the URL for saved builds.
+     * @property {string}   name
+     * @property {VsType}   type        The Arcana type ID.
+     */
+
+    /** @typedef {EntityId} ArcanaId An arcana's ID. */
+
     // ********************* //
     // ***** CONSTANTS ***** //
     // ********************* //

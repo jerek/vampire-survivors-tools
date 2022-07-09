@@ -5,6 +5,24 @@ VST.VS.Weapon = new function () {
     const self = this;
     const VS = VST.VS;
 
+    // *********************** //
+    // ***** DEFINITIONS ***** //
+    // *********************** //
+
+    /**
+     * @typedef {EntityData} WeaponData Data describing a weapon.
+     * @property {string}      description
+     * @property {string}      frameName     The filename of the weapon's image within the "items" sprite.
+     * @property {WeaponId}    id            This MUST NOT change, because it's used in the URL for saved builds.
+     * @property {string}      name
+     * @property {number}      order         The order that this weapon is displayed in the in-game Collection.
+     * @property {VsType}      type          The Weapon type ID.
+     * @property {PassiveId[]} [reqPassives] The passive items required to get this evolved weapon.
+     * @property {WeaponId[]}  [reqWeapons]  The weapons required to get this evolved weapon.
+     */
+
+    /** @typedef {EntityId} WeaponId A weapon's ID. */
+
     // ********************* //
     // ***** CONSTANTS ***** //
     // ********************* //
