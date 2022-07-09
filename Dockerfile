@@ -1,4 +1,4 @@
-FROM php:8.1.6-apache
+FROM php:7.4.9-apache
 
 # Install packages
 RUN apt update
