@@ -536,6 +536,7 @@ VST.Build = new function () {
     function setCharacter(characterId, fromBuild) {
         let section = SECTIONS[SECTION_CHARACTER];
 
+        /** @type {CharacterData} */
         let character;
         if (characterId !== self.EMPTY_ID) {
             character = Character.get(characterId);
@@ -606,10 +607,20 @@ VST.Build = new function () {
             // ...and we're setting a character, also set the character's weapons/passives.
             if (characterId !== self.EMPTY_ID) {
                 (character.weaponIds || []).forEach(weaponId => {
+                    // If this build already includes this character's weapon, do nothing.
+                    if (my.build.weapons.includes(weaponId)) {
+                        return;
+                    }
+
                     setItem(SECTION_WEAPONS, weaponId);
                 });
 
                 (character.passiveIds || []).forEach(passiveId => {
+                    // If this build already includes this character's passive item, do nothing.
+                    if (my.build.passives.includes(passiveId)) {
+                        return;
+                    }
+
                     setItem(SECTION_PASSIVES, passiveId);
                 });
             }
