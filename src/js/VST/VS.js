@@ -1190,7 +1190,7 @@ VST.VS = new function () {
     /**
      * Creates a standard entity wrapper, used for the display of most entities.
      *
-     * @param {VsType}     type
+     * @param {VsType}     type            Although entities carry their type, the entity is optional, so we need this.
      * @param {EntityData} [entity]
      * @param {string}     [tagName="div"]
      * @param {string}     [mode]
