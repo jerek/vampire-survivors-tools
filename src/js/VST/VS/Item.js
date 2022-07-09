@@ -6,6 +6,7 @@ VST.VS.Item = new function () {
     const Img = VST.VS.Img;
     const Util = VST.Util
     const VS = VST.VS;
+    const Weapon = VST.VS.Weapon;
 
     // *********************** //
     // ***** DEFINITIONS ***** //
@@ -128,20 +129,13 @@ VST.VS.Item = new function () {
     // ------- //
 
     /**
-     * Generates data lookup maps based on the core data.
-     */
-    function init() {
-        initEvolutionData();
-    }
-
-    /**
      * Generates evolution data lookups.
      */
     function initEvolutionData() {
         my.weaponEvolutions = {};
         my.passiveEvolutions = {};
-        VS.Weapon.getIds().forEach(weaponId => {
-            let weapon = VS.Weapon.get(weaponId);
+        Weapon.getIds().forEach(weaponId => {
+            let weapon = Weapon.get(weaponId);
             (weapon.reqWeapons || []).forEach(requiredWeaponId => my.weaponEvolutions[requiredWeaponId] = weaponId);
             (weapon.reqPassives || []).forEach(requiredPassiveId => my.passiveEvolutions[requiredPassiveId] = weaponId);
         });
@@ -151,5 +145,5 @@ VST.VS.Item = new function () {
     // ***** INITIALIZATION ***** //
     // ************************** //
 
-    VST.registerInitCallback(init);
+    VST.registerInitCallback(initEvolutionData);
 };

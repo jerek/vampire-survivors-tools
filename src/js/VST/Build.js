@@ -379,19 +379,20 @@ VST.Build = new function () {
         // ITEMS LIST //
         //            //
 
-        VS.getIds(section.entityType).forEach(entityId => {
-            let entity = VS.getData(section.entityType, entityId);
+        let itemClass = VS.getTypeClass(section.entityType);
+        itemClass.getIds().forEach(itemId => {
+            let item = itemClass.get(itemId);
 
             let box = Item.render(
                 section.entityType,
-                entity,
+                item,
                 Item.DISPLAY_MODE_FRAME,
                 undefined,
                 'a',
                 requestListWidthUpdate,
             );
             box.addEventListener('click', () => {
-                let success = setItem(sectionId, entityId);
+                let success = setItem(sectionId, itemId);
                 if (!success) {
                     // Display an "error" animation for user feedback.
                     box.dataset.animation = 'error';
