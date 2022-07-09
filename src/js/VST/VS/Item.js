@@ -43,7 +43,7 @@ VST.VS.Item = new function () {
     this.DISPLAY_MODE_EQUIPPED = 'equipped';
 
     /** @type {number} The scale used when displaying selected items. */
-    this.SELECTED_SCALE = 2.66666;
+    this.SCALE_SELECTED = 2.66666;
 
     // ------- //
     // PRIVATE //

@@ -785,7 +785,7 @@ VST.Build = new function () {
         slotElement.appendChild(
             Item.render(section.entityType, item, {
                 mode: Item.DISPLAY_MODE_EQUIPPED,
-                scale: Item.SELECTED_SCALE,
+                scale: Item.SCALE_SELECTED,
                 tagName: item ? 'a' : undefined,
             }),
         );
