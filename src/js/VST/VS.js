@@ -15,6 +15,7 @@ VST.VS = new function () {
      * @property {string}   description
      * @property {ArcanaId} id          This MUST NOT change, because it's used in the URL for saved builds.
      * @property {string}   name
+     * @property {VsType}   type        The Arcana type ID.
      */
 
     /** @typedef {EntityId} ArcanaId An arcana's ID. */
@@ -27,6 +28,7 @@ VST.VS = new function () {
      * @property {number}       order        The order that this character is shown in.
      * @property {VsSpriteFunc} spriteAlt    The sprite that the filename exists in, if different from "characters".
      * @property {string}       spriteName   The filename of the character's image within the "characters" sprite.
+     * @property {VsType}       type         The Character type ID.
      * @property {PassiveId[]}  [passiveIds] The passive items the character starts with.
      * @property {string}       [prefix]     Text shown before the character's name when showing their full name.
      * @property {string}       [surname]    Text shown after the character's name when showing their full name.
@@ -40,6 +42,7 @@ VST.VS = new function () {
      * @property {string}   description
      * @property {EntityId} id          This MUST NOT change, because it's used in the URL for saved builds.
      * @property {string}   name
+     * @property {VsType}   type        The entity's type ID.
      */
 
     /** @typedef {number} EntityId An entity's ID. */
@@ -51,6 +54,7 @@ VST.VS = new function () {
      * @property {PassiveId} id          This MUST NOT change, because it's used in the URL for saved builds.
      * @property {string}    name
      * @property {number}    order       The order that this passive item is displayed in the in-game Collection.
+     * @property {VsType}    type        The Passive Item type ID.
      */
 
     /** @typedef {EntityId} PassiveId A passive item's ID. */
@@ -62,6 +66,7 @@ VST.VS = new function () {
      * @property {string}      name
      * @property {number}      order          The order that this stage is displayed when starting a run.
      * @property {PassiveId[]} passives       The passive items that can be found on the stage.
+     * @property {VsType}      type           The Stage type ID.
      * @property {boolean}     [hideFromTool] Whether to hide this stage when selecting a stage for a build.
      */
 
@@ -76,6 +81,7 @@ VST.VS = new function () {
      * @property {WeaponId}    id            This MUST NOT change, because it's used in the URL for saved builds.
      * @property {string}      name
      * @property {number}      order         The order that this weapon is displayed in the in-game Collection.
+     * @property {VsType}      type          The Weapon type ID.
      * @property {PassiveId[]} [reqPassives] The passive items required to get this evolved weapon.
      * @property {WeaponId[]}  [reqWeapons]  The weapons required to get this evolved weapon.
      */
@@ -184,7 +190,7 @@ VST.VS = new function () {
     // DATA STORES //
     // =========== //
 
-    // noinspection JSValidateTypes IDs are filled below in init(), so ignore warnings here.
+    // noinspection JSValidateTypes Types and IDs are filled below in init(), so ignore warnings here.
     /** @type {Object<ArcanaId, ArcanaData>} A custom representation of the game's arcana data. */
     const ARCANAS = {
         1: {
@@ -268,7 +274,7 @@ VST.VS = new function () {
         // 22: {name: 'Bloody', description: '???'},
     };
 
-    // noinspection JSValidateTypes IDs are filled below in init(), so ignore warnings here.
+    // noinspection JSValidateTypes Types and IDs are filled below in init(), so ignore warnings here.
     /** @type {Object<CharacterId, CharacterData>} A custom representation of the game's character data. This includes
      *  a lot of odd character data that is represented how I found it in the game data. For example, there are seven
      *  characters named "LATODISOTTO", which are not all identical. Some of the odd character data includes manual key
@@ -565,7 +571,7 @@ VST.VS = new function () {
         // 52: {name: 'LATODISOPRO', description: '', passiveIds: [PASSIVE_ID_DUPLICATOR]},
     };
 
-    // noinspection JSValidateTypes IDs are filled below in init(), so ignore warnings here.
+    // noinspection JSValidateTypes Types and IDs are filled below in init(), so ignore warnings here.
     /** @type {Object<PassiveId, PassiveData>} A custom representation of the game's passive item data. */
     const PASSIVES = {
         [PASSIVE_ID_SPINACH]: {
@@ -696,7 +702,7 @@ VST.VS = new function () {
         },
     };
 
-    // noinspection JSValidateTypes IDs are filled below in init(), so ignore warnings here.
+    // noinspection JSValidateTypes Types and IDs are filled below in init(), so ignore warnings here.
     /** @type {Object<StageId, StageData>} A custom representation of the game's stage data. */
     const STAGES = {
         1: {
@@ -839,7 +845,7 @@ VST.VS = new function () {
         },
     };
 
-    // noinspection JSValidateTypes IDs are filled below in init(), so ignore warnings here.
+    // noinspection JSValidateTypes Types and IDs are filled below in init(), so ignore warnings here.
     /** @type {Object<WeaponId, WeaponData>} A custom representation of the game's weapon data. */
     const WEAPONS = {
         [WEAPON_ID_WHIP]: {
@@ -1294,17 +1300,30 @@ VST.VS = new function () {
     // ------- //
 
     /**
-     * Sets IDs in all entity lookups.
+     * Sets types and IDs in all entity lookups, and builds a sorted ID list for each entity lookup.
      */
     function init() {
-        [ARCANAS, CHARACTERS, PASSIVES, STAGES, WEAPONS].forEach(entities => {
+        [
+            {type: self.TYPE_ARCANA,    entities: ARCANAS},
+            {type: self.TYPE_CHARACTER, entities: CHARACTERS},
+            {type: self.TYPE_PASSIVE,   entities: PASSIVES},
+            {type: self.TYPE_STAGE,     entities: STAGES},
+            {type: self.TYPE_WEAPON,    entities: WEAPONS},
+        ].forEach(entitySet => {
+            let type = entitySet.type;
+            let entities = entitySet.entities;
+
             let ids = [];
 
             Object.keys(entities).forEach(idString => {
                 let id = parseInt(idString);
 
-                // Rewrite this object with the ID added, and put it first for development convenience.
-                entities[idString] = Util.copyProperties({}, {id: id}, entities[idString]);
+                // Rewrite this object with the type & ID added, and put them first for development convenience.
+                entities[idString] = Util.copyProperties(
+                    {},
+                    {type: type, id: id},
+                    entities[idString],
+                );
 
                 // Add this ID to the list of IDs to be sorted.
                 ids.push(id);
