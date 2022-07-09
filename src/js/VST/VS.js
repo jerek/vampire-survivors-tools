@@ -241,11 +241,11 @@ VST.VS = new function () {
         let name = DOM.ce('div', {
             className: 'vst-tooltip-name',
         });
-        if (entity.prefix) {
+        if (entity.type === self.TYPE_CHARACTER && entity.prefix) {
             name.appendChild(DOM.ct(entity.prefix + ' '));
         }
         name.appendChild(DOM.ct(entity.name));
-        if (entity.surname) {
+        if (entity.type === self.TYPE_CHARACTER && entity.surname) {
             name.appendChild(DOM.ct(' ' + entity.surname));
         }
         tooltip.appendChild(name);
