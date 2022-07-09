@@ -1310,7 +1310,7 @@ VST.VS = new function () {
                 ids.push(id);
             });
 
-            // Create an ID list that's sorted by the entity order.
+            // Sort the ID list by the entity order.
             ids.sort((a, b) => {
                 let aSort = entities[a].order || entities[a].id || 0;
                 let bSort = entities[b].order || entities[b].id || 0;
