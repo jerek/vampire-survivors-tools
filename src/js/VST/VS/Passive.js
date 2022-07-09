@@ -7,6 +7,13 @@ VST.VS.Passive = new function () {
     const VS = VST.VS;
 
     // ********************* //
+    // ***** CONSTANTS ***** //
+    // ********************* //
+
+    /** @type {VsType} The entity type that this class is associated with. */
+    const TYPE = VS.TYPE_PASSIVE;
+
+    // ********************* //
     // ***** FUNCTIONS ***** //
     // ********************* //
 
@@ -16,7 +23,7 @@ VST.VS.Passive = new function () {
      * @param {PassiveId} id
      * @return {PassiveData|undefined}
      */
-    this.get = id => VS.getData(VS.TYPE_PASSIVE, id);
+    this.get = id => VS.getData(TYPE, id);
 
     /**
      * Returns the weapon that can result from evolving the given passive item.
@@ -36,5 +43,5 @@ VST.VS.Passive = new function () {
      *
      * @return {PassiveId[]}
      */
-    this.getIds = () => VS.getIds(VS.TYPE_PASSIVE);
+    this.getIds = () => VS.getIds(TYPE);
 };

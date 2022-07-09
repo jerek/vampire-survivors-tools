@@ -5,6 +5,13 @@ VST.VS.Stage = new function () {
     const VS = VST.VS;
 
     // ********************* //
+    // ***** CONSTANTS ***** //
+    // ********************* //
+
+    /** @type {VsType} The entity type that this class is associated with. */
+    const TYPE = VS.TYPE_STAGE;
+
+    // ********************* //
     // ***** FUNCTIONS ***** //
     // ********************* //
 
@@ -14,12 +21,12 @@ VST.VS.Stage = new function () {
      * @param {StageId} id
      * @return {StageData|undefined}
      */
-    this.get = id => VS.getData(VS.TYPE_STAGE, id);
+    this.get = id => VS.getData(TYPE, id);
 
     /**
      * Returns a list of all stage IDs.
      *
      * @return {StageId[]}
      */
-    this.getIds = () => VS.getIds(VS.TYPE_STAGE);
+    this.getIds = () => VS.getIds(TYPE);
 };

@@ -12,6 +12,9 @@ VST.VS.Arcana = new function () {
     /** @type {number} The standard scaling size of arcana card images. */
     const IMAGE_SCALE_CARDS = 1.5;
 
+    /** @type {VsType} The entity type that this class is associated with. */
+    const TYPE = VS.TYPE_ARCANA;
+
     // ********************* //
     // ***** FUNCTIONS ***** //
     // ********************* //
@@ -22,14 +25,14 @@ VST.VS.Arcana = new function () {
      * @param {ArcanaId} id
      * @return {ArcanaData|undefined}
      */
-    this.get = id => VS.getData(VS.TYPE_ARCANA, id);
+    this.get = id => VS.getData(TYPE, id);
 
     /**
      * Returns a list of all arcana IDs.
      *
      * @return {ArcanaId[]}
      */
-    this.getIds = () => VS.getIds(VS.TYPE_ARCANA);
+    this.getIds = () => VS.getIds(TYPE);
 
     /**
      * Returns elements created to display an arcana card.
@@ -44,7 +47,7 @@ VST.VS.Arcana = new function () {
             scale = IMAGE_SCALE_CARDS;
         }
 
-        let entity = VS.createEntityElements(VS.TYPE_ARCANA, arcana, tagName);
+        let entity = VS.createEntityElements(TYPE, arcana, tagName);
 
         entity.content.appendChild(Img.createImage(Img.ARCANA, getCardImageFilename(arcana.id), scale));
 

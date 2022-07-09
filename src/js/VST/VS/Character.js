@@ -33,6 +33,9 @@ VST.VS.Character = new function () {
     /** @type {number} The scaling size of the character and weapon images in the standard character boxes. */
     const IMAGE_SCALE_CHAR_BOX = 1.72;
 
+    /** @type {VsType} The entity type that this class is associated with. */
+    const TYPE = VS.TYPE_CHARACTER;
+
     // ********************* //
     // ***** FUNCTIONS ***** //
     // ********************* //
@@ -43,14 +46,14 @@ VST.VS.Character = new function () {
      * @param {CharacterId} id
      * @return {CharacterData|undefined}
      */
-    this.get = id => VS.getData(VS.TYPE_CHARACTER, id);
+    this.get = id => VS.getData(TYPE, id);
 
     /**
      * Returns a list of all character IDs.
      *
      * @return {CharacterId[]}
      */
-    this.getIds = () => VS.getIds(VS.TYPE_CHARACTER);
+    this.getIds = () => VS.getIds(TYPE);
 
     /**
      * Returns elements created to display a character box.
@@ -68,7 +71,7 @@ VST.VS.Character = new function () {
     this.renderBox = function (char, mode, tagName, buttonText, buttonAction) {
         let baseClass = 'vs-char-box';
 
-        let entity = VS.createEntityElements(VS.TYPE_CHARACTER, char, tagName, mode || self.DISPLAY_MODE_DEFAULT);
+        let entity = VS.createEntityElements(TYPE, char, tagName, mode || self.DISPLAY_MODE_DEFAULT);
         entity.content.classList.add(baseClass);
 
         // The BG, which is automatically sized to the box.

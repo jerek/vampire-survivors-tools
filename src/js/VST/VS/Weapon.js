@@ -7,6 +7,13 @@ VST.VS.Weapon = new function () {
     const VS = VST.VS;
 
     // ********************* //
+    // ***** CONSTANTS ***** //
+    // ********************* //
+
+    /** @type {VsType} The entity type that this class is associated with. */
+    const TYPE = VS.TYPE_WEAPON;
+
+    // ********************* //
     // ***** FUNCTIONS ***** //
     // ********************* //
 
@@ -16,7 +23,7 @@ VST.VS.Weapon = new function () {
      * @param {WeaponId} id
      * @return {WeaponData|undefined}
      */
-    this.get = id => VS.getData(VS.TYPE_WEAPON, id);
+    this.get = id => VS.getData(TYPE, id);
 
     /**
      * Returns all weapons that can result from evolving the given weapon.
@@ -56,5 +63,5 @@ VST.VS.Weapon = new function () {
      *
      * @return {WeaponId[]}
      */
-    this.getIds = () => VS.getIds(VS.TYPE_WEAPON);
+    this.getIds = () => VS.getIds(TYPE);
 };
