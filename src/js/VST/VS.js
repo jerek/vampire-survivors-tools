@@ -1170,7 +1170,7 @@ VST.VS = new function () {
         },
     };
 
-    /** @type {Object<VsType, Object>} A map of types to their data objects. */
+    /** @type {Object<VsType, Object<EntityId, EntityData>>} A map of types to their data objects. */
     const DATA_OBJECTS = {
         [this.TYPE_ARCANA]: ARCANAS,
         [this.TYPE_CHARACTER]: CHARACTERS,
@@ -1261,7 +1261,7 @@ VST.VS = new function () {
      *
      * @param {VsType} type
      * @param {number} id
-     * @return {Object|undefined}
+     * @return {EntityData|undefined}
      */
     this.getData = function (type, id) {
         let entities = DATA_OBJECTS[type];
