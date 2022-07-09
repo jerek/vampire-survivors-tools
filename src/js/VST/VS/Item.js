@@ -134,11 +134,15 @@ VST.VS.Item = new function () {
     function initEvolutionData() {
         my.weaponEvolutions = {};
         my.passiveEvolutions = {};
+
         Weapon.getIds().forEach(weaponId => {
             let weapon = Weapon.get(weaponId);
             (weapon.reqWeapons || []).forEach(requiredWeaponId => my.weaponEvolutions[requiredWeaponId] = weaponId);
             (weapon.reqPassives || []).forEach(requiredPassiveId => my.passiveEvolutions[requiredPassiveId] = weaponId);
         });
+
+        Object.freeze(my.weaponEvolutions);
+        Object.freeze(my.passiveEvolutions);
     }
 
     // ************************** //
