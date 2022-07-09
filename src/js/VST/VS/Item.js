@@ -44,6 +44,8 @@ VST.VS.Item = new function () {
 
     /** @type {number} The scale used when displaying selected items. */
     this.SCALE_SELECTED = 2.66666;
+    /** @type {number} The scale used when displaying items inside tooltips. */
+    this.SCALE_TOOLTIP = 1.5;
 
     // ------- //
     // PRIVATE //
@@ -85,6 +87,7 @@ VST.VS.Item = new function () {
      * @param {Object}                 [options]
      * @param {function}               [options.callback]      A function executed after the image is loaded.
      * @param {ItemDisplayMode}        [options.mode]          What style of display this character box should be.
+     * @param {boolean}                [options.noTooltip]     Whether to prevent attaching a tooltip to this entity.
      * @param {number}                 [options.scale=2]       The 1-base scale at which images should be displayed.
      * @param {string}                 [options.tagName="div"] The tag name to use for the element.
      * @return {HTMLSpanElement|HTMLElement}
@@ -120,7 +123,9 @@ VST.VS.Item = new function () {
             setImagePos(image);
             entity.content.appendChild(image);
 
-            entity.wrapper.appendChild(VS.createTooltip(item));
+            if (!options.noTooltip) {
+                entity.wrapper.appendChild(VS.createTooltip(item));
+            }
         }
 
         return entity.wrapper;

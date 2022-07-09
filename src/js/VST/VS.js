@@ -228,7 +228,7 @@ VST.VS = new function () {
     /**
      * Create a tooltip with the given content.
      *
-     * @param {EntityData|CharacterData} entity Any entity data, but character data is listed for its unique properties.
+     * @param {EntityData|CharacterData|WeaponData} entity Any entity data; listing others for unique properties.
      * @return {HTMLDivElement}
      */
     this.createTooltip = function (entity) {
@@ -258,6 +258,70 @@ VST.VS = new function () {
             tooltip.appendChild(DOM.ce('div', {
                 className: 'vst-tooltip-description',
             }, undefined, DOM.ct(entity.description)));
+        }
+
+        //            //
+        // EVOLUTIONS //
+        //            //
+
+        // Assemble a list of all evolutions that this item is relevant to.
+        let evolutions = [];
+        if (entity.reqWeapons || entity.reqPassives) {
+            evolutions.push(entity);
+        }
+        if (entity.type === self.TYPE_WEAPON) {
+            let evolution = self.Weapon.getEvolution(entity.id);
+            if (evolution) {
+                evolutions.push(evolution);
+            }
+        } else if (entity.type === self.TYPE_PASSIVE) {
+            let evolution = self.Passive.getEvolution(entity.id);
+            if (evolution) {
+                evolutions.push(evolution);
+            }
+        }
+
+        // If any evolutions were found, display them.
+        if (evolutions.length) {
+            let evolutionSection = DOM.ce('div', {className: 'vst-tooltip-items'});
+
+            evolutions.forEach(evolution => {
+                let evolutionItems = DOM.ce('div', {className: 'vst-tooltip-items-row'});
+
+                // Assemble a list of the entities that lead to this evolution.
+                let items = [];
+                (evolution.reqWeapons  || []).forEach(weaponId  => items.push(self.Weapon.get(weaponId)));
+                (evolution.reqPassives || []).forEach(passiveId => items.push(self.Passive.get(passiveId)));
+
+                // Display the entities that lead to this evolution.
+                let renderOptions = {
+                    scale: self.Item.SCALE_TOOLTIP,
+                    noTooltip: true,
+                };
+                items.forEach((item, index) => {
+                    if (index !== 0) {
+                        evolutionItems.appendChild(DOM.ct(' + '));
+                    }
+
+                    let itemIcon = self.Item.render(item.type, item, renderOptions);
+                    if (item.id === entity.id) {
+                        itemIcon.dataset.highlight = 'true';
+                    }
+                    evolutionItems.appendChild(itemIcon);
+                });
+
+                // Display the resulting evolution.
+                evolutionItems.appendChild(DOM.ct(' = '));
+                let itemIcon = self.Item.render(evolution.type, evolution, renderOptions);
+                if (evolution.id === entity.id) {
+                    itemIcon.dataset.highlight = 'true';
+                }
+                evolutionItems.appendChild(itemIcon);
+
+                evolutionSection.appendChild(evolutionItems);
+            });
+
+            tooltip.appendChild(evolutionSection);
         }
 
         return DOM.createTooltip(tooltip);

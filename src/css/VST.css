@@ -316,6 +316,22 @@ a.vs-entity {cursor: pointer}
 .vst-tooltip-name {font-size: 14px; font-weight: 600}
 .vst-tooltip-name:not(:last-child) {margin-bottom: 10px}
 
+.vst-tooltip-items {font-weight: bold; margin-top: 10px}
+.vst-tooltip-items-row {align-items: center; display: flex}
+.vst-tooltip-items-row .vs-entity {margin: 3px; padding: 2px}
+.vst-tooltip-items-row .vs-entity[data-highlight="true"]:before {
+    --offset: -2px;
+    background: #a5a64c;
+    border-radius: 100%;
+    bottom: var(--offset);
+    content: "";
+    display: block;
+    left: var(--offset);
+    position: absolute;
+    right: var(--offset);
+    top: var(--offset);
+}
+
 /* ********************** */
 /* ***** CHARACTERS ***** */
 /* ********************** */
