@@ -2,7 +2,6 @@
  * Functions related to Vampire Survivors passive items.
  */
 VST.VS.Passive = new function () {
-    const self = this;
     const VS = VST.VS;
 
     // ********************* //
@@ -167,7 +166,7 @@ VST.VS.Passive = new function () {
     this.getEvolution = id => {
         let evolutionId = VS.Item.getPassiveEvolutionMap()[id];
         if (evolutionId) {
-            return self.get(evolutionId);
+            return VS.Weapon.get(evolutionId);
         }
     };
 
