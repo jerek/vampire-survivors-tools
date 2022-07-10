@@ -523,14 +523,14 @@ section[data-section="character"]:not([data-selected="true"]) ~ section {display
 
 .vst-build-list {display: flex; flex-wrap: wrap; justify-content: center; margin: 0 auto}
 section[data-selected="true"] .vst-build-list {display: none}
-.vst-build-list .vs-entity {margin: 2px}
+.vst-build-list > .vs-entity {margin: 2px}
 
 /* ***************************** */
 /* ***** BUILDS: CHARACTER ***** */
 /* ***************************** */
 
 .vst-build-list[data-section="character"] {padding-bottom: 20px}
-.vst-build-list[data-section="character"] .vs-entity {margin: 5px}
+.vst-build-list[data-section="character"] > .vs-entity {margin: 5px}
 
 /* ************************* */
 /* ***** BUILDS: ITEMS ***** */
@@ -555,7 +555,7 @@ section[data-selected="true"] .vst-build-list {display: none}
 
 .vst-build-selected[data-section="arcanas"] .vst-build-selected-slot,
 .vst-build-selected[data-section="arcanas"] .vs-entity[data-type="arcana"],
-.vst-build-list[data-section="arcanas"] .vs-entity[data-type="arcana"] {
+.vst-build-list[data-section="arcanas"] > .vs-entity[data-type="arcana"] {
     height: var(--vs-arcana-height);
     width: var(--vs-arcana-width);
 }
