@@ -289,6 +289,20 @@ VST.Build = new function () {
     }
 
     /**
+     * Execute the given function, passing it the specified section's list entity element.
+     *
+     * @param {BuildSectionConfig} section
+     * @param {EntityId}           id
+     * @param {function}           entityFunction
+     */
+    function executeOnListEntity(section, id, entityFunction) {
+        let entity = section.list.querySelector(`:scope > [data-type="${section.entityType}"][data-id="${id}"]`);
+        if (entity) {
+            entityFunction(entity);
+        }
+    }
+
+    /**
      * Displays the arcanas section in the main container.
      */
     function renderArcanasSection() {
@@ -508,7 +522,7 @@ VST.Build = new function () {
 
         // If we're clearing or replacing a slot, set the arcana that was here to no longer appear selected.
         if (typeof my.build.arcanas[slot] === 'number' && my.build.arcanas[slot] !== self.EMPTY_ID) {
-            setEntityAsSelected(section, my.build.arcanas[slot], false);
+            setListEntityAsSelected(section, my.build.arcanas[slot], false);
         }
 
         // Set the arcana in the build.
@@ -638,9 +652,8 @@ VST.Build = new function () {
      * @param {EntityId}           id
      * @param {boolean}            selected
      */
-    function setEntityAsSelected(section, id, selected) {
-        section.list.querySelector(`:scope > .vs-entity[data-type="${section.entityType}"][data-id="${id}"]`)
-            .dataset.selected = JSON.stringify(selected);
+    function setListEntityAsSelected(section, id, selected) {
+        executeOnListEntity(section, id, entity => entity.dataset.selected = JSON.stringify(selected));
     }
 
     /**
@@ -708,7 +721,7 @@ VST.Build = new function () {
 
         // If we're clearing or replacing a slot, set the item that was here to no longer appear selected.
         if (typeof my.build[sectionId][slot] === 'number' && my.build[sectionId][slot] !== self.EMPTY_ID) {
-            setEntityAsSelected(section, my.build[sectionId][slot], false);
+            setListEntityAsSelected(section, my.build[sectionId][slot], false);
         }
 
         // Set the item in the build.
@@ -751,7 +764,7 @@ VST.Build = new function () {
 
         if (arcana) {
             // Update the arcana's style in the list.
-            setEntityAsSelected(section, arcana.id, true);
+            setListEntityAsSelected(section, arcana.id, true);
         }
 
         if (!arcana && incomplete) {
@@ -792,7 +805,7 @@ VST.Build = new function () {
 
         if (item) {
             // Update the item's style in the list.
-            setEntityAsSelected(section, item.id, true);
+            setListEntityAsSelected(section, item.id, true);
         }
 
         // TODO: Update evolution indicators
