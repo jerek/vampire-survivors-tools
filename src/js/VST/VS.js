@@ -203,7 +203,11 @@ VST.VS = new function () {
             entityClass.addTooltipContent(tooltip, entity);
         }
 
-        return DOM.createTooltip(tooltip);
+        let tooltipDiv = DOM.createTooltip(tooltip);
+        tooltipDiv.dataset.metaType = self.getMetaType(entity.type);
+        tooltipDiv.dataset.type = entity.type;
+
+        return tooltipDiv;
     };
 
     /**

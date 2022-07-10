@@ -317,8 +317,8 @@ a.vs-entity {cursor: pointer}
 .vst-tooltip-name:not(:last-child) {margin-bottom: 10px}
 
 .vst-tooltip-items {font-weight: bold; margin-top: 10px}
-.vst-tooltip-items-row {align-items: center; display: flex}
-.vst-tooltip-items-row .vs-entity {margin: 3px; padding: 2px}
+.vst-tooltip-items-row {align-items: center; display: flex; flex-wrap: wrap}
+.vst-tooltip-items-row .vs-entity {margin: 3px}
 .vst-tooltip-items-row .vs-entity[data-highlight="true"]:before {
     --offset: -2px;
     background: #a5a64c;
@@ -331,6 +331,9 @@ a.vs-entity {cursor: pointer}
     right: var(--offset);
     top: var(--offset);
 }
+
+.vst-tooltip[data-meta-type="arcana"] .vst-tooltip-items-row {justify-content: center}
+.vst-tooltip[data-meta-type="item"] .vst-tooltip-items-row .vs-entity {padding: 2px}
 
 /* ********************** */
 /* ***** CHARACTERS ***** */
