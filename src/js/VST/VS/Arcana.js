@@ -225,11 +225,18 @@ VST.VS.Arcana = new function () {
 
         let totalCount = items.length + passives.length + weapons.length;
         if (totalCount > 0) {
-            // When there are 6 items it would show one item alone on a second line, so shrink the images a bit.
-            let scale = totalCount === 6 ? Item.SCALE_TOOLTIP * 0.85 : Item.SCALE_TOOLTIP;
-
             let evolutionSection = DOM.ce('div', {className: 'vst-tooltip-items'});
             let evolutionDiv = DOM.ce('div', {className: 'vst-tooltip-items-row'});
+
+            let scale = Item.SCALE_TOOLTIP;
+            if (totalCount === 6) {
+                // When there are 6 items it would show one item alone on a second line, so reduce the spacing a bit.
+                evolutionDiv.dataset.spacing = 'reduced';
+            } else if (totalCount === 7) {
+                // 7 items still looks a little awkward with two on a second line, so no spacing and reduce the scale.
+                evolutionDiv.dataset.spacing = 'none';
+                scale *= 0.925;
+            }
 
             // Render the images.
             weapons.forEach(weaponId => evolutionDiv.appendChild(

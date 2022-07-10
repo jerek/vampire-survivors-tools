@@ -319,6 +319,8 @@ a.vs-entity {cursor: pointer}
 .vst-tooltip-items {font-weight: bold; margin-top: 10px}
 .vst-tooltip-items-row {align-items: center; display: flex; flex-wrap: wrap}
 .vst-tooltip-items-row .vs-entity {margin: 3px}
+.vst-tooltip-items-row[data-spacing="reduced"] .vs-entity {margin: 1px}
+.vst-tooltip-items-row[data-spacing="none"] .vs-entity {margin: 0}
 .vst-tooltip-items-row .vs-entity[data-highlight="true"]:before {
     --offset: -2px;
     background: #a5a64c;
