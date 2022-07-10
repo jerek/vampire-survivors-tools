@@ -59,8 +59,8 @@ VST.Build = new function () {
     /** @type {number} The maximum number of arcanas that a build can contain. */
     this.ARCANAS_MAX = 3;
 
-    /** @type {number} Several parts of builds always expect numbers, so this is used as a null value, and is kept in a
-     *  constant so that their uses can be easily found and tracked. */
+    /** @type {EntityId} Several parts of builds always expect numbers, so this is used as a null value, and is kept in
+     *  a constant so that their uses can be easily found and tracked. */
     this.EMPTY_ID = 0;
 
     /** @type {number} The maximum number of standard passive items that a build can contain. */
@@ -635,7 +635,7 @@ VST.Build = new function () {
      * Enable or disable the styles to indicate that an entity in a list is selected.
      *
      * @param {BuildSectionConfig} section
-     * @param {number}             id
+     * @param {EntityId}           id
      * @param {boolean}            selected
      */
     function setEntityAsSelected(section, id, selected) {
