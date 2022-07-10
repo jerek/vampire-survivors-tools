@@ -166,6 +166,16 @@ VST.VS.Passive = new function () {
     // ********************* //
 
     /**
+     * Add any relevant passive-specific tooltip content to the given passive item tooltip.
+     *
+     * @param {HTMLDivElement} tooltip
+     * @param {PassiveData}    passive
+     */
+    this.addTooltipContent = function (tooltip, passive) {
+        VS.Item.addTooltipContent(tooltip, passive);
+    };
+
+    /**
      * Returns the passive item with the given ID.
      *
      * @param {PassiveId} id

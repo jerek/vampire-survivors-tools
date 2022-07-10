@@ -363,6 +363,16 @@ VST.VS.Weapon = new function () {
     // ********************* //
 
     /**
+     * Add any relevant weapon-specific tooltip content to the given weapon tooltip.
+     *
+     * @param {HTMLDivElement} tooltip
+     * @param {WeaponData}     weapon
+     */
+    this.addTooltipContent = function (tooltip, weapon) {
+        VS.Item.addTooltipContent(tooltip, weapon);
+    };
+
+    /**
      * Returns the weapon with the given ID.
      *
      * @param {WeaponId} id

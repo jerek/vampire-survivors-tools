@@ -3,7 +3,9 @@
  */
 VST.VS.Item = new function () {
     const self = this;
+    const DOM = VST.DOM;
     const Img = VST.VS.Img;
+    const Passive = VST.VS.Passive;
     const Util = VST.Util
     const VS = VST.VS;
     const Weapon = VST.VS.Weapon;
@@ -64,6 +66,78 @@ VST.VS.Item = new function () {
     // ------ //
     // PUBLIC //
     // ------ //
+
+    /**
+     * Add any relevant item-specific tooltip content to the given item tooltip.
+     *
+     * @param {HTMLDivElement}         tooltip
+     * @param {PassiveData|WeaponData} item
+     */
+    this.addTooltipContent = function (tooltip, item) {
+        //            //
+        // EVOLUTIONS //
+        //            //
+
+        // Assemble a list of all evolutions that this item is relevant to.
+        let evolutions = [];
+        if (item.reqWeapons || item.reqPassives) {
+            evolutions.push(item);
+        }
+        if (item.type === VS.TYPE_WEAPON) {
+            let evolution = Weapon.getEvolution(item.id);
+            if (evolution) {
+                evolutions.push(evolution);
+            }
+        } else if (item.type === VS.TYPE_PASSIVE) {
+            let evolution = Passive.getEvolution(item.id);
+            if (evolution) {
+                evolutions.push(evolution);
+            }
+        }
+
+        // If any evolutions were found, display them.
+        if (evolutions.length) {
+            let evolutionSection = DOM.ce('div', {className: 'vst-tooltip-items'});
+
+            evolutions.forEach(evolution => {
+                let evolutionDiv = DOM.ce('div', {className: 'vst-tooltip-items-row'});
+
+                // Assemble a list of the entities that lead to this evolution.
+                let evoItems = [];
+                (evolution.reqWeapons  || []).forEach(weaponId  => evoItems.push(Weapon.get(weaponId)));
+                (evolution.reqPassives || []).forEach(passiveId => evoItems.push(Passive.get(passiveId)));
+
+                // Display the entities that lead to this evolution.
+                let renderOptions = {
+                    scale: self.SCALE_TOOLTIP,
+                    noTooltip: true,
+                };
+                evoItems.forEach((evoItem, index) => {
+                    if (index !== 0) {
+                        evolutionDiv.appendChild(DOM.ct(' + '));
+                    }
+
+                    let itemIcon = self.render(evoItem.type, evoItem, renderOptions);
+                    if (evoItem.id === item.id) {
+                        itemIcon.dataset.highlight = 'true';
+                    }
+                    evolutionDiv.appendChild(itemIcon);
+                });
+
+                // Display the resulting evolution.
+                evolutionDiv.appendChild(DOM.ct(' = '));
+                let itemIcon = self.render(evolution.type, evolution, renderOptions);
+                if (evolution.id === item.id) {
+                    itemIcon.dataset.highlight = 'true';
+                }
+                evolutionDiv.appendChild(itemIcon);
+
+                evolutionSection.appendChild(evolutionDiv);
+            });
+
+            tooltip.appendChild(evolutionSection);
+        }
+    };
 
     /**
      * Returns an ID map of passives to the weapons that they can evolve into.
