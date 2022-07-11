@@ -156,6 +156,9 @@ VST.Build = new function () {
         /** @type {Build} The currently loaded character build. */
         build: Util.copyProperties({}, EMPTY_BUILD),
 
+        /** @type {number} A value returned by requestAnimationFrame, used to throttle evolution indicator updates. */
+        requestedEvolutionIndicatorsUpdateFrame: undefined,
+
         /** @type {number} A value returned by requestAnimationFrame, used to throttle responsive width updates. */
         requestedWidthUpdateFrame: undefined,
     };
@@ -730,6 +733,9 @@ VST.Build = new function () {
         // Update the relevant slot.
         updateItemDisplay(sectionId, slot, item);
 
+        // Update evolution indicators.
+        updateEvolutionIndicators();
+
         dispatchChangedBuildEvent();
 
         debug('Success');
@@ -774,6 +780,144 @@ VST.Build = new function () {
     }
 
     /**
+     * Updates all evolution indicators to match the current build.
+     */
+    function updateEvolutionIndicators() {
+        if (my.requestedEvolutionIndicatorsUpdateFrame) {
+            return;
+        }
+
+        my.requestedEvolutionIndicatorsUpdateFrame = requestAnimationFrame(() => {
+            // Assemble sets of everything in the build, the build's synergies, and the build's evolutions.
+
+            let evolutions = new Set();
+            let passives = new Set();
+            let passiveSynergies = new Set();
+            let weapons = new Set();
+            let weaponSynergies = new Set();
+
+            let addSynergies = weapon => {
+                (weapon.reqPassives || []).forEach(passiveId => passiveSynergies.add(Passive.get(passiveId)));
+                (weapon.reqWeapons  || []).forEach(weaponId  => weaponSynergies.add(Weapon.get(weaponId)));
+            };
+
+            let handlePassiveSynergies = (passiveId, equipped) => {
+                if (passiveId === self.EMPTY_ID) {
+                    return;
+                }
+
+                let passive = Passive.get(passiveId);
+                if (equipped) {
+                    passives.add(passive);
+                }
+
+                let evolution = Passive.getEvolution(passive.id);
+                if (evolution) {
+                    evolutions.add(evolution);
+                    addSynergies(evolution);
+                }
+            };
+
+            let handleWeaponSynergies = (weaponId, equipped) => {
+                if (weaponId === self.EMPTY_ID) {
+                    return;
+                }
+
+                let weapon = Weapon.get(weaponId);
+                if (equipped) {
+                    weapons.add(weapon);
+                }
+                addSynergies(weapon);
+
+                if (weapon.reqPassives) {
+                    weapon.reqPassives.forEach(passiveId => handlePassiveSynergies(passiveId, false));
+                }
+                if (weapon.reqWeapons) {
+                    weapon.reqWeapons.forEach(weaponId => handleWeaponSynergies(weaponId, false));
+                }
+
+                let evolution = Weapon.getEvolution(weaponId);
+                if (evolution) {
+                    evolutions.add(evolution);
+                    addSynergies(evolution);
+                }
+            };
+
+            my.build.weapons.forEach(weaponId => handleWeaponSynergies(weaponId, true));
+            my.build.passives.forEach(passiveId => handlePassiveSynergies(passiveId, true));
+
+            // Update the list items with indicators colored according to whether evolution synergies were achieved.
+
+            let passivesSection = SECTIONS[SECTION_PASSIVES];
+            let weaponsSection = SECTIONS[SECTION_WEAPONS];
+
+            // Clear all previously existing indicators.
+            passivesSection.list.querySelectorAll(':scope > [data-evolution]')
+                .forEach(passive => delete passive.dataset.evolution);
+            weaponsSection.list.querySelectorAll(':scope > [data-evolution]')
+                .forEach(weapon => delete weapon.dataset.evolution);
+
+            // Update passive items to indicate their synergies as available or achieved.
+            passiveSynergies.forEach(passive => {
+                executeOnListEntity(passivesSection, passive.id, entity => {
+                    entity.dataset.evolution = passives.has(passive) ?
+                        'achieved-synergy' :
+                        'available-synergy';
+                });
+            });
+
+            // Update weapons to indicate their synergies as available or achieved.
+            weaponSynergies.forEach(weapon => {
+                executeOnListEntity(weaponsSection, weapon.id, entity => {
+                    let achievedSynergy = weapons.has(weapon);
+                    if (!achievedSynergy) {
+                        let nextEvolutionId = weapon.id;
+                        let evolution;
+                        while (evolution = Weapon.getEvolution(nextEvolutionId)) {
+                            achievedSynergy = achievedSynergy || weapons.has(evolution);
+                            nextEvolutionId = evolution.id;
+                        }
+                    }
+                    entity.dataset.evolution = achievedSynergy ?
+                        'achieved-synergy' :
+                        'available-synergy';
+                });
+            });
+
+            // Update evolved weapons to indicate their requirements as complete or incomplete.
+            evolutions.forEach(weapon => {
+                executeOnListEntity(weaponsSection, weapon.id, entity => {
+                    let metAllRequirements = true;
+                    (weapon.reqPassives || []).forEach(passiveId => {
+                        if (!my.build.passives.includes(passiveId)) {
+                            metAllRequirements = false;
+                        }
+                    });
+
+                    // If the evolved weapon isn't included in the build, check that all required weapons are included.
+                    if (metAllRequirements && !my.build.weapons.includes(weapon.id)) {
+                        (weapon.reqWeapons || []).forEach(weaponId => {
+                            if (!my.build.weapons.includes(weaponId)) {
+                                metAllRequirements = false;
+                            }
+                        });
+                    }
+
+                    entity.dataset.evolution = metAllRequirements ?
+                        'complete' :
+                        // If this isn't a complete evolution, and it already has an evolution synergy indicator, keep
+                        // that indicator. For an example of this, equip Fuwalafuwaloo, and note that without allowing
+                        // it to keep its previous indicator, Bloody Tear gets marked as incomplete, even though it
+                        // would have been evolved into Fuwalafuwaloo.
+                        (entity.dataset.evolution || 'incomplete');
+                });
+            });
+
+            my.requestedEvolutionIndicatorsUpdateFrame = 0;
+        });
+    }
+
+    /**
      * Show the given item in the specified slot, or clear the slot if no item was given.
      *
      * @param {BuildSectionId}         sectionId
@@ -808,7 +952,8 @@ VST.Build = new function () {
             setListEntityAsSelected(section, item.id, true);
         }
 
-        // TODO: Update evolution indicators
+        // Update evolution indicators.
+        updateEvolutionIndicators();
 
         if (!item && incomplete) {
             // Because this may have revealed an item list for the first time at this resolution, update widths.

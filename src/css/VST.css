@@ -489,6 +489,28 @@ a.vs-entity {cursor: pointer}
     top: 0;
 }
 .vs-entity[data-meta-type="item"] .vs-sprite-image {position: relative; z-index: 1}
+.vs-entity[data-meta-type="item"][data-evolution]:after {
+    content: "evo";
+    display: block;
+    font-weight: bold;
+    pointer-events: none;
+    position: absolute;
+    right: 0;
+    text-shadow:
+         0    1px 0 #000,
+         1px  1px 0 #000,
+         1px  0   0 #000,
+         1px -1px 0 #000,
+         0   -1px 0 #000,
+        -1px -1px 0 #000,
+        -1px  0   0 #000,
+        -1px  1px 0 #000;
+    top: -6px;
+}
+.vs-entity[data-meta-type="item"][data-evolution="achieved-synergy"]:after {color: #808080}
+.vs-entity[data-meta-type="item"][data-evolution="available-synergy"]:after {color: #ffa500}
+.vs-entity[data-meta-type="item"][data-evolution="complete"]:after {color: #0b0}
+.vs-entity[data-meta-type="item"][data-evolution="incomplete"]:after {color: #ff0}
 
 /* ****************** */
 /* ***** BUILDS ***** */
