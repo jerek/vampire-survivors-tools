@@ -16,6 +16,7 @@ VST.VS.Passive = new function () {
      * @property {string}    name
      * @property {number}    order       The order that this passive item is displayed in the in-game Collection.
      * @property {VsType}    type        The Passive Item type ID.
+     * @property {boolean}   [hidden]    Whether this passive item isn't shown as an option to put in builds.
      */
 
     /** @typedef {EntityId} PassiveId A passive item's ID. */
@@ -132,29 +133,59 @@ VST.VS.Passive = new function () {
             frameName: 'torrone.png',
             order: 17,
         },
+        // Although these appear among the passive weapons in the in-game collection, they only come from the arcana,
+        // and aren't needed to display in the build tool, so they're marked as hidden.
+        [VS.PASSIVE_ID_CYGNUS]: {
+            name: 'Cygnus',
+            description: 'Bombards in a circling zone.',
+            frameName: 'Silf1_counter.png',
+            hidden: true,
+            order: 18,
+        },
+        [VS.PASSIVE_ID_ZHAR_PTYTSIA]: {
+            name: 'Zhar Ptytsia',
+            description: 'Bombards in a circling zone.',
+            frameName: 'Silf2_counter.png',
+            hidden: true,
+            order: 19,
+        },
+        [VS.PASSIVE_ID_RED_MUSCLE]: {
+            name: 'Red Muscle',
+            description: 'Fires quickly in four fixed directions.',
+            frameName: 'Guns_counter.png',
+            hidden: true,
+            order: 20,
+        },
+        [VS.PASSIVE_ID_TWICE_UPON_A_TIME]: {
+            name: 'Twice Upon a Time',
+            description: 'Fires quickly in four fixed directions.',
+            frameName: 'Guns2_counter.png',
+            hidden: true,
+            order: 21,
+        },
         [VS.PASSIVE_ID_SILVER_RING]: {
             name: 'Silver Ring',
             description: 'Wear ... Clock ...',
             frameName: 'silverring.png',
-            order: 18,
+            order: 22,
         },
         [VS.PASSIVE_ID_GOLD_RING]: {
             name: 'Gold Ring',
             description: '... With ... Lancet',
             frameName: 'goldring.png',
-            order: 19,
+            order: 23,
         },
         [VS.PASSIVE_ID_METAGLIO_LEFT]: {
             name: 'Metaglio Left',
             description: 'Channels dark powers to protect the bearer.',
             frameName: 'bsleft.png',
-            order: 20,
+            order: 24,
         },
         [VS.PASSIVE_ID_METAGLIO_RIGHT]: {
             name: 'Metaglio Right',
             description: 'Channels dark powers to curse the bearer.',
             frameName: 'bsright.png',
-            order: 21,
+            order: 25,
         },
     };
 

@@ -353,6 +353,26 @@ VST.VS.Weapon = new function () {
             frameName: 'larobba.png',
             order: 47,
         },
+        [VS.WEAPON_ID_BRACELET]: {
+            name: 'Bracelet',
+            description: 'Fires three projectiles at a random enemy.',
+            frameName: 'bracelet1.png',
+            order: 48,
+        },
+        [VS.WEAPON_ID_BI_BRACELET]: {
+            name: 'Bi-Bracelet',
+            description: 'Fires three projectiles at a random enemy.',
+            frameName: 'bracelet2.png',
+            order: 49,
+            reqWeapons: [VS.WEAPON_ID_BRACELET],
+        },
+        [VS.WEAPON_ID_TRI_BRACELET]: {
+            name: 'Tri-Bracelet',
+            description: 'Fires three projectiles at a random enemy.',
+            frameName: 'bracelet3.png',
+            order: 50,
+            reqWeapons: [VS.WEAPON_ID_BI_BRACELET],
+        },
     };
 
     /** @type {VsType} The entity type that this class is associated with. */

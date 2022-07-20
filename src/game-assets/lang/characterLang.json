@@ -892,8 +892,7 @@
         "description": "매 레벨마다 1%씩 투사체 속도가 증가합니다."
       },
       "TATANKA": {
-        "name": "오'솔레",
-        "surname": "미오",
+        "name": "오'솔레미오",
         "description": "매 20레벨마다 투사체가 추가됩니다. (최대 +3)"
       },
       "CONCETTA": {
@@ -931,14 +930,13 @@
         "description": "일시적인 공격범위 감소를 가지고 시작합니다.,"
       },
       "AMBROGIO": {
-        "prefix": "경",
-        "charName": "암브로조",
+        "charName": "암브로조 경",
         "description": "매 20레벨 마다 투사체 추가됩니다(최대 +3), 일시적인 투사체 수 증가 보너스를 받고 시작합니다."
       },
       "BOROS": {
-        "name": "Gains",
-        "surname": "Boros",
-        "description": "Gains +2% Growth every level."
+        "name": "가인스",
+        "surname": "보로스",
+        "description": "매 레벨마다 성장보너스가 2%씩 증가합니다.."
       }
     }
   },
@@ -1254,9 +1252,9 @@
         "description": "Получает больше снарядов каждые 20 уровней (макс. +3). Начинает с временным бонусом к Количеству."
       },
       "BOROS": {
-        "name": "Gains",
-        "surname": "Boros",
-        "description": "Gains +2% Growth every level."
+        "name": "Гаинс",
+        "surname": "Борос",
+        "description": "Дает +2% к Приросту с каждым уровнем."
       }
     }
   },

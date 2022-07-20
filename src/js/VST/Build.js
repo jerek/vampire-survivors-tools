@@ -400,6 +400,11 @@ VST.Build = new function () {
         itemClass.getIds().forEach(itemId => {
             let item = itemClass.get(itemId);
 
+            // Some passive items are hidden because they can't be a part of builds (see the "Gemini" arcana).
+            if (item.hidden) {
+                return;
+            }
+
             let box = Item.render(section.entityType, item, {
                 callback: requestListWidthUpdate,
                 mode: Item.DISPLAY_MODE_FRAME,

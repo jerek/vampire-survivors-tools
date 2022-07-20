@@ -441,8 +441,8 @@
     "api": "koreana",
     "translations": {
       "0": {
-        "name": "Game Killer",
-        "description": "Halts XP gain. XP gems turn into exploding projectiles. All Treasures contain at least 3 items."
+        "name": "게임 킬러",
+        "description": "떨어지는 모든 경험치 보석을 폭발하는 발사체로 바꿉니다. 모든 보물 상자에는 최소 3개의 아이템을 보장합니다."
       },
       "3": {
         "name": "III - 공주의 비련",
@@ -615,8 +615,8 @@
     "api": "russian",
     "translations": {
       "0": {
-        "name": "Game Killer",
-        "description": "Halts XP gain. XP gems turn into exploding projectiles. All Treasures contain at least 3 items."
+        "name": "Убийца Игры",
+        "description": "Останавливает прирост опыта. Самоцветы ОПЫТА превращаются во взрывающиеся снаряды. Все Сокровища содержат не менее 3 предметов."
       },
       "3": {
         "name": "III - Трагическая принцесса",

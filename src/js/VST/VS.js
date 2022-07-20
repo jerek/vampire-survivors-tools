@@ -74,6 +74,10 @@ VST.VS = new function () {
     /** @type {PassiveId} */ this.PASSIVE_ID_GOLD_RING = 19;
     /** @type {PassiveId} */ this.PASSIVE_ID_METAGLIO_LEFT = 20;
     /** @type {PassiveId} */ this.PASSIVE_ID_METAGLIO_RIGHT = 21;
+    /** @type {PassiveId} */ this.PASSIVE_ID_CYGNUS = 22;
+    /** @type {PassiveId} */ this.PASSIVE_ID_ZHAR_PTYTSIA = 23;
+    /** @type {PassiveId} */ this.PASSIVE_ID_RED_MUSCLE = 24;
+    /** @type {PassiveId} */ this.PASSIVE_ID_TWICE_UPON_A_TIME = 25;
 
     // Weapons have constants since they're referred to by ID in multiple places.
     /** @type {WeaponId} */ this.WEAPON_ID_WHIP = 1;
@@ -123,6 +127,9 @@ VST.VS = new function () {
     /** @type {WeaponId} */ this.WEAPON_ID_CARRELLO = 45;
     /** @type {WeaponId} */ this.WEAPON_ID_CELESTIAL_DUSTING = 46;
     /** @type {WeaponId} */ this.WEAPON_ID_LA_ROBBA = 47;
+    /** @type {WeaponId} */ this.WEAPON_ID_BRACELET = 48;
+    /** @type {WeaponId} */ this.WEAPON_ID_BI_BRACELET = 49;
+    /** @type {WeaponId} */ this.WEAPON_ID_TRI_BRACELET = 50;
 
     // ********************* //
     // ***** FUNCTIONS ***** //

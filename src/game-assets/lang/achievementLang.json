@@ -2216,13 +2216,13 @@
         "description": "그림 그리모어 발견."
       },
       "FindGouda": {
-        "description": "Find the Ars Gouda."
+        "description": "괴물 도감 발견."
       },
       "FindGGospel": {
-        "description": "Find the Great Gospel."
+        "description": "위대한 복음 발견."
       },
       "DefeatBossChapel2": {
-        "description": "Defeat the final enemy in the Cappella Magna."
+        "description": "마그나 예배당에서 최후의 적을 처치."
       }
     }
   },
@@ -2956,19 +2956,19 @@
         "description": "Откройте 100 предметов в Коллекции."
       },
       "ReachLV100WithAmbrojoe": {
-        "description": "Достигните 100 Уровня с  Сэром Амбро Джо."
+        "description": "Достигните 100 Уровня с Сэром Амбро Джо."
       },
       "FindGrimoire": {
         "description": "Найдите Мрачный Гримуар."
       },
       "FindGouda": {
-        "description": "Find the Ars Gouda."
+        "description": "Найдите Арс Гауду."
       },
       "FindGGospel": {
-        "description": "Find the Great Gospel."
+        "description": "Найдите Великое Евангелие."
       },
       "DefeatBossChapel2": {
-        "description": "Defeat the final enemy in the Cappella Magna."
+        "description": "Победите последнего врага в Капелле Магна."
       }
     }
   },

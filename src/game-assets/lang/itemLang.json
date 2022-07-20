@@ -759,7 +759,7 @@
         "achievementTips": "숨겨진 마법유물."
       },
       "RELIC_GRIMOIRE": {
-        "name": "그림 그리모어",
+        "name": "엄숙한 마도서",
         "description": "일시 정지 메뉴에서 발견한 무기 진화,조합법을 영구적으로 확인할수 있습니다.",
         "achievementTips": "진화목록."
       },
@@ -769,14 +769,14 @@
         "achievementTips": "캐릭터 커스터마이징."
       },
       "RELIC_GOUDA": {
-        "name": "Ars Gouda",
-        "description": "Permanently allows to access the list of defeated enemies from the main menu.",
-        "achievementTips": "Bestiary."
+        "name": "괴물 도감",
+        "description": "메뉴에서 처치한 적 목록을 확인할수 있습니다.",
+        "achievementTips": "도감."
       },
       "RELIC_GGOSPEL": {
-        "name": "Great Gospel",
-        "description": "Permanently allows to level up weapons beyond their limit. Can be enabled in Stage Selection.",
-        "achievementTips": "Limit Break."
+        "name": "위대한 복음",
+        "description": "무기의 한계를 돌파할수 있습니다. 스테이지 선택 화면에서 활성화할 수 있습니다",
+        "achievementTips": "한계 돌파."
       }
     }
   },
@@ -1033,14 +1033,14 @@
         "achievementTips": "кастомизация персонажа."
       },
       "RELIC_GOUDA": {
-        "name": "Ars Gouda",
-        "description": "Permanently allows to access the list of defeated enemies from the main menu.",
-        "achievementTips": "Bestiary."
+        "name": "Арс Гауда",
+        "description": "Дает доступ к списку поверженных врагов из главного меню.",
+        "achievementTips": "Бестиарий."
       },
       "RELIC_GGOSPEL": {
-        "name": "Great Gospel",
-        "description": "Permanently allows to level up weapons beyond their limit. Can be enabled in Stage Selection.",
-        "achievementTips": "Limit Break."
+        "name": "Великое Евангелие",
+        "description": "Позволяет повышать уровень оружия сверх его предела. Может быть включен при выборе этапа.",
+        "achievementTips": "Сверх Предела."
       }
     }
   },

@@ -94,7 +94,7 @@
 					}
 				},
 				{
-					"filename": "icon_gatti.png",
+					"filename": "icon_dust.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -241,7 +241,7 @@
 					}
 				},
 				{
-					"filename": "icon_guns.png",
+					"filename": "icon_gatti.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -1984,7 +1984,7 @@
 					}
 				},
 				{
-					"filename": "icon_peggi.png",
+					"filename": "icon_guns.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -2005,7 +2005,7 @@
 					}
 				},
 				{
-					"filename": "icon_song.png",
+					"filename": "icon_peggi.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -2026,7 +2026,7 @@
 					}
 				},
 				{
-					"filename": "icon_vento.png",
+					"filename": "icon_song.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -2047,6 +2047,27 @@
 					}
 				},
 				{
+					"filename": "icon_vento.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 18,
+						"h": 18
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 18,
+						"h": 18
+					},
+					"frame": {
+						"x": 799,
+						"y": 182,
+						"w": 18,
+						"h": 18
+					}
+				},
+				{
 					"filename": "menu_checkbox_24_checkmark.png",
 					"rotated": false,
 					"trimmed": true,
@@ -2061,27 +2082,6 @@
 						"h": 18
 					},
 					"frame": {
-						"x": 799,
-						"y": 182,
-						"w": 18,
-						"h": 18
-					}
-				},
-				{
-					"filename": "p_ambrojoe.png",
-					"rotated": false,
-					"trimmed": false,
-					"sourceSize": {
-						"w": 18,
-						"h": 18
-					},
-					"spriteSourceSize": {
-						"x": 0,
-						"y": 0,
-						"w": 18,
-						"h": 18
-					},
-					"frame": {
 						"x": 811,
 						"y": 201,
 						"w": 18,
@@ -2089,7 +2089,7 @@
 					}
 				},
 				{
-					"filename": "stage_bone_unlock.png",
+					"filename": "p_ambrojoe.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -2110,7 +2110,7 @@
 					}
 				},
 				{
-					"filename": "stage_chapel_icon.png",
+					"filename": "stage_bone_unlock.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -2131,7 +2131,7 @@
 					}
 				},
 				{
-					"filename": "stage_chapel_unlock.png",
+					"filename": "stage_chapel_icon.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -2152,7 +2152,7 @@
 					}
 				},
 				{
-					"filename": "stage_forest_icon.png",
+					"filename": "stage_chapel_unlock.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -2173,7 +2173,7 @@
 					}
 				},
 				{
-					"filename": "stage_forest_unlock.png",
+					"filename": "stage_forest_icon.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -2194,7 +2194,7 @@
 					}
 				},
 				{
-					"filename": "stage_green_unlock.png",
+					"filename": "stage_forest_unlock.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -2215,7 +2215,7 @@
 					}
 				},
 				{
-					"filename": "stage_library_icon.png",
+					"filename": "stage_green_unlock.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -2488,7 +2488,7 @@
 					}
 				},
 				{
-					"filename": "stage_library_unlock.png",
+					"filename": "stage_library_icon.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -2509,7 +2509,7 @@
 					}
 				},
 				{
-					"filename": "stage_molise_unlock.png",
+					"filename": "stage_library_unlock.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -2593,7 +2593,7 @@
 					}
 				},
 				{
-					"filename": "stage_plant_icon.png",
+					"filename": "stage_molise_unlock.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -2614,7 +2614,7 @@
 					}
 				},
 				{
-					"filename": "stage_plant_unlock.png",
+					"filename": "stage_plant_icon.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -2656,7 +2656,7 @@
 					}
 				},
 				{
-					"filename": "stage_tower_icon.png",
+					"filename": "stage_plant_unlock.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -2677,7 +2677,7 @@
 					}
 				},
 				{
-					"filename": "stage_tower_unlock.png",
+					"filename": "stage_tower_icon.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -2698,7 +2698,7 @@
 					}
 				},
 				{
-					"filename": "stage_water_unlock.png",
+					"filename": "stage_tower_unlock.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -2719,7 +2719,7 @@
 					}
 				},
 				{
-					"filename": "stage_x_unlock.png",
+					"filename": "stage_water_unlock.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -2803,6 +2803,27 @@
 					}
 				},
 				{
+					"filename": "stage_x_unlock.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 18,
+						"h": 18
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 18,
+						"h": 18
+					},
+					"frame": {
+						"x": 978,
+						"y": 490,
+						"w": 18,
+						"h": 18
+					}
+				},
+				{
 					"filename": "p_christine.png",
 					"rotated": false,
 					"trimmed": false,
@@ -2817,7 +2838,7 @@
 						"h": 16
 					},
 					"frame": {
-						"x": 978,
+						"x": 997,
 						"y": 490,
 						"w": 16,
 						"h": 16
@@ -2838,35 +2859,14 @@
 						"h": 16
 					},
 					"frame": {
-						"x": 995,
-						"y": 490,
-						"w": 16,
-						"h": 16
-					}
-				},
-				{
-					"filename": "p_croci.png",
-					"rotated": false,
-					"trimmed": false,
-					"sourceSize": {
-						"w": 16,
-						"h": 16
-					},
-					"spriteSourceSize": {
-						"x": 0,
-						"y": 0,
-						"w": 16,
-						"h": 16
-					},
-					"frame": {
-						"x": 978,
+						"x": 997,
 						"y": 507,
 						"w": 16,
 						"h": 16
 					}
 				},
 				{
-					"filename": "p_dommario.png",
+					"filename": "p_croci.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -2887,7 +2887,7 @@
 					}
 				},
 				{
-					"filename": "p_lama.png",
+					"filename": "p_dommario.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -2908,7 +2908,7 @@
 					}
 				},
 				{
-					"filename": "p_mortaccio.png",
+					"filename": "p_lama.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -2929,28 +2929,7 @@
 					}
 				},
 				{
-					"filename": "p_osole.png",
-					"rotated": false,
-					"trimmed": false,
-					"sourceSize": {
-						"w": 16,
-						"h": 16
-					},
-					"spriteSourceSize": {
-						"x": 0,
-						"y": 0,
-						"w": 16,
-						"h": 16
-					},
-					"frame": {
-						"x": 995,
-						"y": 507,
-						"w": 16,
-						"h": 16
-					}
-				},
-				{
-					"filename": "p_poe.png",
+					"filename": "p_mortaccio.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -2965,13 +2944,34 @@
 					},
 					"frame": {
 						"x": 976,
+						"y": 509,
+						"w": 16,
+						"h": 16
+					}
+				},
+				{
+					"filename": "p_osole.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 16,
+						"h": 16
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 16,
+						"h": 16
+					},
+					"frame": {
+						"x": 993,
 						"y": 524,
 						"w": 16,
 						"h": 16
 					}
 				},
 				{
-					"filename": "p_porta.png",
+					"filename": "p_poe.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -2992,7 +2992,7 @@
 					}
 				},
 				{
-					"filename": "p_ramba.png",
+					"filename": "p_porta.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -3013,7 +3013,7 @@
 					}
 				},
 				{
-					"filename": "portal.png",
+					"filename": "p_ramba.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -3034,6 +3034,27 @@
 					}
 				},
 				{
+					"filename": "portal.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 16,
+						"h": 16
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 16,
+						"h": 16
+					},
+					"frame": {
+						"x": 973,
+						"y": 526,
+						"w": 16,
+						"h": 16
+					}
+				},
+				{
 					"filename": "arrow_01.png",
 					"rotated": false,
 					"trimmed": true,
@@ -3048,8 +3069,8 @@
 						"h": 15
 					},
 					"frame": {
-						"x": 993,
-						"y": 524,
+						"x": 990,
+						"y": 541,
 						"w": 16,
 						"h": 15
 					}
@@ -3097,7 +3118,7 @@
 					}
 				},
 				{
-					"filename": "stage_tower.png",
+					"filename": "stage_rash.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -3118,7 +3139,7 @@
 					}
 				},
 				{
-					"filename": "stage_water.png",
+					"filename": "stage_tower.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -3139,7 +3160,7 @@
 					}
 				},
 				{
-					"filename": "stage_x.png",
+					"filename": "stage_water.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -3160,6 +3181,27 @@
 					}
 				},
 				{
+					"filename": "stage_x.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 156,
+						"h": 96
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 156,
+						"h": 96
+					},
+					"frame": {
+						"x": 315,
+						"y": 641,
+						"w": 156,
+						"h": 96
+					}
+				},
+				{
 					"filename": "sheen04.png",
 					"rotated": false,
 					"trimmed": false,
@@ -3174,8 +3216,8 @@
 						"h": 112
 					},
 					"frame": {
-						"x": 315,
-						"y": 641,
+						"x": 472,
+						"y": 657,
 						"w": 130,
 						"h": 112
 					}
@@ -3237,35 +3279,14 @@
 						"h": 112
 					},
 					"frame": {
-						"x": 446,
-						"y": 657,
+						"x": 289,
+						"y": 738,
 						"w": 130,
 						"h": 112
 					}
 				},
 				{
 					"filename": "sheen08.png",
-					"rotated": false,
-					"trimmed": false,
-					"sourceSize": {
-						"w": 130,
-						"h": 112
-					},
-					"spriteSourceSize": {
-						"x": 0,
-						"y": 0,
-						"w": 130,
-						"h": 112
-					},
-					"frame": {
-						"x": 289,
-						"y": 754,
-						"w": 130,
-						"h": 112
-					}
-				},
-				{
-					"filename": "sheen09.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -3286,7 +3307,7 @@
 					}
 				},
 				{
-					"filename": "sheen10.png",
+					"filename": "sheen09.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -3301,13 +3322,13 @@
 					},
 					"frame": {
 						"x": 263,
-						"y": 867,
+						"y": 851,
 						"w": 130,
 						"h": 112
 					}
 				},
 				{
-					"filename": "sheen11.png",
+					"filename": "sheen10.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -3322,13 +3343,13 @@
 					},
 					"frame": {
 						"x": 394,
-						"y": 867,
+						"y": 851,
 						"w": 130,
 						"h": 112
 					}
 				},
 				{
-					"filename": "sheen12.png",
+					"filename": "sheen11.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -3349,6 +3370,27 @@
 					}
 				},
 				{
+					"filename": "sheen12.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 130,
+						"h": 112
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 130,
+						"h": 112
+					},
+					"frame": {
+						"x": 603,
+						"y": 702,
+						"w": 130,
+						"h": 112
+					}
+				},
+				{
 					"filename": "sheen13.png",
 					"rotated": false,
 					"trimmed": false,
@@ -3363,8 +3405,8 @@
 						"h": 112
 					},
 					"frame": {
-						"x": 577,
-						"y": 702,
+						"x": 525,
+						"y": 815,
 						"w": 130,
 						"h": 112
 					}
@@ -3375,6 +3417,6 @@
 	"meta": {
 		"app": "https://www.codeandweb.com/texturepacker",
 		"version": "3.0",
-		"smartupdate": "$TexturePacker:SmartUpdate:5620c41c315e7b051eb7ea2560bd1332:1969956f7ec614930dfe1e634fec6eb2:4b774b923918ecd961888279dba3ffad$"
+		"smartupdate": "$TexturePacker:SmartUpdate:b3b2b66f925d03a68b568303653dd289:c3b1eb8459a1f206d64687c5df36fb97:4b774b923918ecd961888279dba3ffad$"
 	}
 }
