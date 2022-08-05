@@ -156,6 +156,20 @@
         "name": "Gains",
         "surname": "Boros",
         "description": "Gains +2% Growth every level."
+      },
+      "DRAGOGION": {
+        "name": "Gyorunton",
+        "description": "Gains +1% Curse every level. Can find evolutions in any Treasure."
+      },
+      "PAVONE": {
+        "name": "Cosmo",
+        "surname": "Pavone",
+        "description": "Gains +1 Recovery and +1% Luck every level. Gains +1 Revival every 100 levels. Has hidden weapons."
+      },
+      "PANTALONE": {
+        "prefix": "Big",
+        "name": "Trouser",
+        "description": "Gains +1% Greed every level. Gold Fever lasts longer."
       }
     }
   },
@@ -327,6 +341,20 @@
         "name": "Gains",
         "surname": "Boros",
         "description": "Gains +2% Growth every level."
+      },
+      "DRAGOGION": {
+        "name": "Gyorunton",
+        "description": "Gains +1% Curse every level. Can find evolutions in any Treasure."
+      },
+      "PAVONE": {
+        "name": "Cosmo",
+        "surname": "Pavone",
+        "description": "Gains +1 Recovery and +1% Luck every level. Gains +1 Revival every 100 levels. Has hidden weapons."
+      },
+      "PANTALONE": {
+        "prefix": "Big",
+        "name": "Trouser",
+        "description": "Gains +1% Greed every level. Gold Fever lasts longer."
       }
     }
   },
@@ -480,6 +508,20 @@
         "name": "Gains",
         "surname": "Boros",
         "description": "Gains +2% Growth every level."
+      },
+      "DRAGOGION": {
+        "name": "Gyorunton",
+        "description": "Gains +1% Curse every level. Can find evolutions in any Treasure."
+      },
+      "PAVONE": {
+        "name": "Cosmo",
+        "surname": "Pavone",
+        "description": "Gains +1 Recovery and +1% Luck every level. Gains +1 Revival every 100 levels. Has hidden weapons."
+      },
+      "PANTALONE": {
+        "prefix": "Big",
+        "name": "Trouser",
+        "description": "Gains +1% Greed every level. Gold Fever lasts longer."
       }
     }
   },
@@ -627,6 +669,20 @@
         "name": "Gains",
         "surname": "Boros",
         "description": "Gains +2% Growth every level."
+      },
+      "DRAGOGION": {
+        "name": "Gyorunton",
+        "description": "Gains +1% Curse every level. Can find evolutions in any Treasure."
+      },
+      "PAVONE": {
+        "name": "Cosmo",
+        "surname": "Pavone",
+        "description": "Gains +1 Recovery and +1% Luck every level. Gains +1 Revival every 100 levels. Has hidden weapons."
+      },
+      "PANTALONE": {
+        "prefix": "Big",
+        "name": "Trouser",
+        "description": "Gains +1% Greed every level. Gold Fever lasts longer."
       }
     }
   },
@@ -792,6 +848,20 @@
         "name": "Gains",
         "surname": "Boros",
         "description": "Gains +2% Growth every level."
+      },
+      "DRAGOGION": {
+        "name": "Gyorunton",
+        "description": "Gains +1% Curse every level. Can find evolutions in any Treasure."
+      },
+      "PAVONE": {
+        "name": "Cosmo",
+        "surname": "Pavone",
+        "description": "Gains +1 Recovery and +1% Luck every level. Gains +1 Revival every 100 levels. Has hidden weapons."
+      },
+      "PANTALONE": {
+        "prefix": "Big",
+        "name": "Trouser",
+        "description": "Gains +1% Greed every level. Gold Fever lasts longer."
       }
     }
   },
@@ -830,7 +900,7 @@
       "GERMANA": {
         "charName": "클레리씨",
         "description": "초당 체력회복량 0.5 추가 및 최대 체력 +50. 일시적인 공격범위 보너스를 받고 시작합니다.",
-        "prefix": "시스터"
+        "prefix": "수녀"
       },
       "MORTACCIO": {
         "charName": "모르타치오",
@@ -892,7 +962,8 @@
         "description": "매 레벨마다 1%씩 투사체 속도가 증가합니다."
       },
       "TATANKA": {
-        "name": "오'솔레미오",
+        "name": "오'솔레",
+        "surname": "미오",
         "description": "매 20레벨마다 투사체가 추가됩니다. (최대 +3)"
       },
       "CONCETTA": {
@@ -930,13 +1001,28 @@
         "description": "일시적인 공격범위 감소를 가지고 시작합니다.,"
       },
       "AMBROGIO": {
-        "charName": "암브로조 경",
+        "prefix": "경",
+        "charName": "암브로조",
         "description": "매 20레벨 마다 투사체 추가됩니다(최대 +3), 일시적인 투사체 수 증가 보너스를 받고 시작합니다."
       },
       "BOROS": {
         "name": "가인스",
         "surname": "보로스",
         "description": "매 레벨마다 성장보너스가 2%씩 증가합니다.."
+      },
+      "DRAGOGION": {
+        "name": "교룬톤",
+        "description": "매 레벨당 저주 1% 증가합니다, 모든 보물상자에서 진화 무기를 발견할수 있습니다."
+      },
+      "PAVONE": {
+        "name": "Cosmo",
+        "surname": "Pavone",
+        "description": "Gains +1 Recovery and +1% Luck every level. Gains +1 Revival every 100 levels. Has hidden weapons."
+      },
+      "PANTALONE": {
+        "prefix": "Big",
+        "name": "Trouser",
+        "description": "Gains +1% Greed every level. Gold Fever lasts longer."
       }
     }
   },
@@ -1102,6 +1188,20 @@
         "name": "Gains",
         "surname": "Boros",
         "description": "Gains +2% Growth every level."
+      },
+      "DRAGOGION": {
+        "name": "Gyorunton",
+        "description": "Gains +1% Curse every level. Can find evolutions in any Treasure."
+      },
+      "PAVONE": {
+        "name": "Cosmo",
+        "surname": "Pavone",
+        "description": "Gains +1 Recovery and +1% Luck every level. Gains +1 Revival every 100 levels. Has hidden weapons."
+      },
+      "PANTALONE": {
+        "prefix": "Big",
+        "name": "Trouser",
+        "description": "Gains +1% Greed every level. Gold Fever lasts longer."
       }
     }
   },
@@ -1140,7 +1240,7 @@
       },
       "GENNARO": {
         "charName": "Дженнаро",
-        "description": "Имеет +1 снаряд (все оружие).",
+        "description": "Имеет +1 снаряд (всё оружие).",
         "surname": "Бельпаэзе"
       },
       "GERMANA": {
@@ -1154,7 +1254,7 @@
       },
       "CAMILLO": {
         "charName": "По",
-        "description": "Имеет +25% к радиусу сбора и -30 от Макс. ОЗ.",
+        "description": "Имеет +25% к радиусу сбора и -30 от макс. ОЗ.",
         "surname": "Ратчо"
       },
       "PASQUALINA": {
@@ -1255,6 +1355,20 @@
         "name": "Гаинс",
         "surname": "Борос",
         "description": "Дает +2% к Приросту с каждым уровнем."
+      },
+      "DRAGOGION": {
+        "name": "Гиорунтон",
+        "description": "Дает +1% к Проклятью с каждым уровнем. Можно найти улучшение в любом Сокровище."
+      },
+      "PAVONE": {
+        "name": "Cosmo",
+        "surname": "Pavone",
+        "description": "Gains +1 Recovery and +1% Luck every level. Gains +1 Revival every 100 levels. Has hidden weapons."
+      },
+      "PANTALONE": {
+        "prefix": "Big",
+        "name": "Trouser",
+        "description": "Gains +1% Greed every level. Gold Fever lasts longer."
       }
     }
   },
@@ -1402,6 +1516,20 @@
         "name": "Gains",
         "surname": "Boros",
         "description": "Gains +2% Growth every level."
+      },
+      "DRAGOGION": {
+        "name": "Gyorunton",
+        "description": "Gains +1% Curse every level. Can find evolutions in any Treasure."
+      },
+      "PAVONE": {
+        "name": "Cosmo",
+        "surname": "Pavone",
+        "description": "Gains +1 Recovery and +1% Luck every level. Gains +1 Revival every 100 levels. Has hidden weapons."
+      },
+      "PANTALONE": {
+        "prefix": "Big",
+        "name": "Trouser",
+        "description": "Gains +1% Greed every level. Gold Fever lasts longer."
       }
     }
   },

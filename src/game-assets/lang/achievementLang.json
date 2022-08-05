@@ -370,6 +370,24 @@
       },
       "DefeatBossChapel2": {
         "description": "Defeat the final enemy in the Cappella Magna."
+      },
+      "Unlock5Hypers": {
+        "description": "Unlock Hyper mode for all 5 normal stages."
+      },
+      "Survive15MinutesInBossRash": {
+        "description": "Survive 15 minutes in Boss Rash."
+      },
+      "ReachLV99WithDommario": {
+        "description": "Reach Level 99 with Dommario."
+      },
+      "ReachLV99WithPugnala": {
+        "description": "Reach Level 99 with Pugnala."
+      },
+      "ReachLV99WithChristine": {
+        "description": "Reach Level 99 with Christine."
+      },
+      "FindForbiddenScroll": {
+        "description": "Find the Forbidden Scrolls of Morbane."
       }
     }
   },
@@ -755,6 +773,24 @@
       },
       "DefeatBossChapel2": {
         "description": "Defeat the final enemy in the Cappella Magna."
+      },
+      "Unlock5Hypers": {
+        "description": "Unlock Hyper mode for all 5 normal stages."
+      },
+      "Survive15MinutesInBossRash": {
+        "description": "Survive 15 minutes in Boss Rash."
+      },
+      "ReachLV99WithDommario": {
+        "description": "Reach Level 99 with Dommario."
+      },
+      "ReachLV99WithPugnala": {
+        "description": "Reach Level 99 with Pugnala."
+      },
+      "ReachLV99WithChristine": {
+        "description": "Reach Level 99 with Christine."
+      },
+      "FindForbiddenScroll": {
+        "description": "Find the Forbidden Scrolls of Morbane."
       }
     }
   },
@@ -1122,6 +1158,24 @@
       },
       "DefeatBossChapel2": {
         "description": "Defeat the final enemy in the Cappella Magna."
+      },
+      "Unlock5Hypers": {
+        "description": "Unlock Hyper mode for all 5 normal stages."
+      },
+      "Survive15MinutesInBossRash": {
+        "description": "Survive 15 minutes in Boss Rash."
+      },
+      "ReachLV99WithDommario": {
+        "description": "Reach Level 99 with Dommario."
+      },
+      "ReachLV99WithPugnala": {
+        "description": "Reach Level 99 with Pugnala."
+      },
+      "ReachLV99WithChristine": {
+        "description": "Reach Level 99 with Christine."
+      },
+      "FindForbiddenScroll": {
+        "description": "Find the Forbidden Scrolls of Morbane."
       }
     }
   },
@@ -1483,6 +1537,24 @@
       },
       "DefeatBossChapel2": {
         "description": "Defeat the final enemy in the Cappella Magna."
+      },
+      "Unlock5Hypers": {
+        "description": "Unlock Hyper mode for all 5 normal stages."
+      },
+      "Survive15MinutesInBossRash": {
+        "description": "Survive 15 minutes in Boss Rash."
+      },
+      "ReachLV99WithDommario": {
+        "description": "Reach Level 99 with Dommario."
+      },
+      "ReachLV99WithPugnala": {
+        "description": "Reach Level 99 with Pugnala."
+      },
+      "ReachLV99WithChristine": {
+        "description": "Reach Level 99 with Christine."
+      },
+      "FindForbiddenScroll": {
+        "description": "Find the Forbidden Scrolls of Morbane."
       }
     }
   },
@@ -1862,6 +1934,24 @@
       },
       "DefeatBossChapel2": {
         "description": "Defeat the final enemy in the Cappella Magna."
+      },
+      "Unlock5Hypers": {
+        "description": "Unlock Hyper mode for all 5 normal stages."
+      },
+      "Survive15MinutesInBossRash": {
+        "description": "Survive 15 minutes in Boss Rash."
+      },
+      "ReachLV99WithDommario": {
+        "description": "Reach Level 99 with Dommario."
+      },
+      "ReachLV99WithPugnala": {
+        "description": "Reach Level 99 with Pugnala."
+      },
+      "ReachLV99WithChristine": {
+        "description": "Reach Level 99 with Christine."
+      },
+      "FindForbiddenScroll": {
+        "description": "Find the Forbidden Scrolls of Morbane."
       }
     }
   },
@@ -2223,6 +2313,24 @@
       },
       "DefeatBossChapel2": {
         "description": "마그나 예배당에서 최후의 적을 처치."
+      },
+      "Unlock5Hypers": {
+        "description": "5종류의 맵에서 하이퍼 모드 해금.."
+      },
+      "Survive15MinutesInBossRash": {
+        "description": "보스 러쉬 에서 15분 생존."
+      },
+      "ReachLV99WithDommario": {
+        "description": "돔마리오 99레벨 달성.."
+      },
+      "ReachLV99WithPugnala": {
+        "description": "푸냘라 99레벨 달성."
+      },
+      "ReachLV99WithChristine": {
+        "description": "Reach Level 99 with Christine."
+      },
+      "FindForbiddenScroll": {
+        "description": "Find the Forbidden Scrolls of Morbane."
       }
     }
   },
@@ -2602,6 +2710,24 @@
       },
       "DefeatBossChapel2": {
         "description": "Defeat the final enemy in the Cappella Magna."
+      },
+      "Unlock5Hypers": {
+        "description": "Unlock Hyper mode for all 5 normal stages."
+      },
+      "Survive15MinutesInBossRash": {
+        "description": "Survive 15 minutes in Boss Rash."
+      },
+      "ReachLV99WithDommario": {
+        "description": "Reach Level 99 with Dommario."
+      },
+      "ReachLV99WithPugnala": {
+        "description": "Reach Level 99 with Pugnala."
+      },
+      "ReachLV99WithChristine": {
+        "description": "Reach Level 99 with Christine."
+      },
+      "FindForbiddenScroll": {
+        "description": "Find the Forbidden Scrolls of Morbane."
       }
     }
   },
@@ -2689,7 +2815,7 @@
         "description": "Достигните 20 Уровня в Безумном лесу."
       },
       "DefeatBossLibrary": {
-        "description": "Победите Несуферату в Библиотеке."
+        "description": "Победите Каргу в Библиотеке."
       },
       "Survive5MinutesWithKnife": {
         "description": "Выживите 5 минут с Дженнаро."
@@ -2740,7 +2866,7 @@
         "description": "Улучшите Чеснок."
       },
       "Unlock2Hypers": {
-        "description": "Откройте режим Гипер для двух этапов."
+        "description": "Разблокируйте режим Гипер для двух обычных этапов."
       },
       "EvolveLightning": {
         "description": "Улучшите Кольцо Молний."
@@ -2969,6 +3095,24 @@
       },
       "DefeatBossChapel2": {
         "description": "Победите последнего врага в Капелле Магна."
+      },
+      "Unlock5Hypers": {
+        "description": "Разблокируйте режим Гипер для 5 обычных этапов."
+      },
+      "Survive15MinutesInBossRash": {
+        "description": "Выживите 15 минут в Набег Боссов."
+      },
+      "ReachLV99WithDommario": {
+        "description": "Достигните 99 Уровня с Доммарио."
+      },
+      "ReachLV99WithPugnala": {
+        "description": "Достигните 99 Уровня с Пугналой."
+      },
+      "ReachLV99WithChristine": {
+        "description": "Reach Level 99 with Christine."
+      },
+      "FindForbiddenScroll": {
+        "description": "Find the Forbidden Scrolls of Morbane."
       }
     }
   },
@@ -3330,6 +3474,24 @@
       },
       "DefeatBossChapel2": {
         "description": "Defeat the final enemy in the Cappella Magna."
+      },
+      "Unlock5Hypers": {
+        "description": "Unlock Hyper mode for all 5 normal stages."
+      },
+      "Survive15MinutesInBossRash": {
+        "description": "Survive 15 minutes in Boss Rash."
+      },
+      "ReachLV99WithDommario": {
+        "description": "Reach Level 99 with Dommario."
+      },
+      "ReachLV99WithPugnala": {
+        "description": "Reach Level 99 with Pugnala."
+      },
+      "ReachLV99WithChristine": {
+        "description": "Reach Level 99 with Christine."
+      },
+      "FindForbiddenScroll": {
+        "description": "Find the Forbidden Scrolls of Morbane."
       }
     }
   },

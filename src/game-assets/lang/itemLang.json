@@ -129,6 +129,15 @@
         "name": "Great Gospel",
         "description": "Permanently allows to level up weapons beyond their limit. Can be enabled in Stage Selection.",
         "achievementTips": "Limit Break."
+      },
+      "RELIC_SECRETS": {
+        "name": "Forbidden Scrolls of Morbane",
+        "description": "Permanently allow you to cast spells and to access the list of secrets from the main menu.",
+        "achievementTips": "???"
+      },
+      "PURIFY": {
+        "name": "Flames of Moonspell",
+        "description": "Permanently remove up to 100 random Golden Egg bonuses. This cannot be undone."
       }
     }
   },
@@ -273,6 +282,15 @@
         "name": "Great Gospel",
         "description": "Permanently allows to level up weapons beyond their limit. Can be enabled in Stage Selection.",
         "achievementTips": "Limit Break."
+      },
+      "RELIC_SECRETS": {
+        "name": "Forbidden Scrolls of Morbane",
+        "description": "Permanently allow you to cast spells and to access the list of secrets from the main menu.",
+        "achievementTips": "???"
+      },
+      "PURIFY": {
+        "name": "Flames of Moonspell",
+        "description": "Permanently remove up to 100 random Golden Egg bonuses. This cannot be undone."
       }
     }
   },
@@ -399,6 +417,15 @@
         "name": "Great Gospel",
         "description": "Permanently allows to level up weapons beyond their limit. Can be enabled in Stage Selection.",
         "achievementTips": "Limit Break."
+      },
+      "RELIC_SECRETS": {
+        "name": "Forbidden Scrolls of Morbane",
+        "description": "Permanently allow you to cast spells and to access the list of secrets from the main menu.",
+        "achievementTips": "???"
+      },
+      "PURIFY": {
+        "name": "Flames of Moonspell",
+        "description": "Permanently remove up to 100 random Golden Egg bonuses. This cannot be undone."
       }
     }
   },
@@ -519,6 +546,15 @@
         "name": "Great Gospel",
         "description": "Permanently allows to level up weapons beyond their limit. Can be enabled in Stage Selection.",
         "achievementTips": "Limit Break."
+      },
+      "RELIC_SECRETS": {
+        "name": "Forbidden Scrolls of Morbane",
+        "description": "Permanently allow you to cast spells and to access the list of secrets from the main menu.",
+        "achievementTips": "???"
+      },
+      "PURIFY": {
+        "name": "Flames of Moonspell",
+        "description": "Permanently remove up to 100 random Golden Egg bonuses. This cannot be undone."
       }
     }
   },
@@ -657,6 +693,15 @@
         "name": "Great Gospel",
         "description": "Permanently allows to level up weapons beyond their limit. Can be enabled in Stage Selection.",
         "achievementTips": "Limit Break."
+      },
+      "RELIC_SECRETS": {
+        "name": "Forbidden Scrolls of Morbane",
+        "description": "Permanently allow you to cast spells and to access the list of secrets from the main menu.",
+        "achievementTips": "???"
+      },
+      "PURIFY": {
+        "name": "Flames of Moonspell",
+        "description": "Permanently remove up to 100 random Golden Egg bonuses. This cannot be undone."
       }
     }
   },
@@ -777,6 +822,15 @@
         "name": "위대한 복음",
         "description": "무기의 한계를 돌파할수 있습니다. 스테이지 선택 화면에서 활성화할 수 있습니다",
         "achievementTips": "한계 돌파."
+      },
+      "RELIC_SECRETS": {
+        "name": "Forbidden Scrolls of Morbane",
+        "description": "Permanently allow you to cast spells and to access the list of secrets from the main menu.",
+        "achievementTips": "???"
+      },
+      "PURIFY": {
+        "name": "Flames of Moonspell",
+        "description": "Permanently remove up to 100 random Golden Egg bonuses. This cannot be undone."
       }
     }
   },
@@ -915,6 +969,15 @@
         "name": "Great Gospel",
         "description": "Permanently allows to level up weapons beyond their limit. Can be enabled in Stage Selection.",
         "achievementTips": "Limit Break."
+      },
+      "RELIC_SECRETS": {
+        "name": "Forbidden Scrolls of Morbane",
+        "description": "Permanently allow you to cast spells and to access the list of secrets from the main menu.",
+        "achievementTips": "???"
+      },
+      "PURIFY": {
+        "name": "Flames of Moonspell",
+        "description": "Permanently remove up to 100 random Golden Egg bonuses. This cannot be undone."
       }
     }
   },
@@ -1002,7 +1065,7 @@
       "RELIC_BANGER": {
         "description": "Позволяет изменять музыку во время выбора этапа.",
         "name": "Волшебный Бэнгер",
-        "achievementTips": "Выбор Музыки."
+        "achievementTips": "Выбор музыки."
       },
       "GILDED": {
         "description": "Собирает все золото, оставшееся на земле и начинает Золотую Лихорадку.",
@@ -1030,7 +1093,7 @@
       "RELIC_NOSEGLASSES": {
         "name": "Покоритель Разума",
         "description": "Позволяет изменять внешний вид персонажа (где это применимо) и макс. загрузку оружия.",
-        "achievementTips": "кастомизация персонажа."
+        "achievementTips": "смена облика персонажа."
       },
       "RELIC_GOUDA": {
         "name": "Арс Гауда",
@@ -1039,8 +1102,17 @@
       },
       "RELIC_GGOSPEL": {
         "name": "Великое Евангелие",
-        "description": "Позволяет повышать уровень оружия сверх его предела. Может быть включен при выборе этапа.",
+        "description": "Позволяет повышать уровень оружия сверх его предела. Может быть включено при выборе этапа.",
         "achievementTips": "Сверх Предела."
+      },
+      "RELIC_SECRETS": {
+        "name": "Forbidden Scrolls of Morbane",
+        "description": "Permanently allow you to cast spells and to access the list of secrets from the main menu.",
+        "achievementTips": "???"
+      },
+      "PURIFY": {
+        "name": "Flames of Moonspell",
+        "description": "Permanently remove up to 100 random Golden Egg bonuses. This cannot be undone."
       }
     }
   },
@@ -1161,6 +1233,15 @@
         "name": "Great Gospel",
         "description": "Permanently allows to level up weapons beyond their limit. Can be enabled in Stage Selection.",
         "achievementTips": "Limit Break."
+      },
+      "RELIC_SECRETS": {
+        "name": "Forbidden Scrolls of Morbane",
+        "description": "Permanently allow you to cast spells and to access the list of secrets from the main menu.",
+        "achievementTips": "???"
+      },
+      "PURIFY": {
+        "name": "Flames of Moonspell",
+        "description": "Permanently remove up to 100 random Golden Egg bonuses. This cannot be undone."
       }
     }
   },

@@ -65,6 +65,10 @@
       "CHAPEL": {
         "stageName": "Cappella Magna",
         "description": "Have we gone too far? Could have just camped in the forest with all that chicken, but noooo, we had to go chase some random vampire instead."
+      },
+      "RASH": {
+        "stageName": "Boss Rash",
+        "description": "\"Distinguished guests, the moment we've all be itching for is finally here! Let's watch the Survivors attempt this challenge of recycled assets!\""
       }
     }
   },
@@ -145,6 +149,10 @@
       "CHAPEL": {
         "stageName": "Cappella Magna",
         "description": "Have we gone too far? Could have just camped in the forest with all that chicken, but noooo, we had to go chase some random vampire instead."
+      },
+      "RASH": {
+        "stageName": "Boss Rash",
+        "description": "\"Distinguished guests, the moment we've all be itching for is finally here! Let's watch the Survivors attempt this challenge of recycled assets!\""
       }
     }
   },
@@ -207,6 +215,10 @@
       "CHAPEL": {
         "stageName": "Cappella Magna",
         "description": "Have we gone too far? Could have just camped in the forest with all that chicken, but noooo, we had to go chase some random vampire instead."
+      },
+      "RASH": {
+        "stageName": "Boss Rash",
+        "description": "\"Distinguished guests, the moment we've all be itching for is finally here! Let's watch the Survivors attempt this challenge of recycled assets!\""
       }
     }
   },
@@ -263,6 +275,10 @@
       "CHAPEL": {
         "stageName": "Cappella Magna",
         "description": "Have we gone too far? Could have just camped in the forest with all that chicken, but noooo, we had to go chase some random vampire instead."
+      },
+      "RASH": {
+        "stageName": "Boss Rash",
+        "description": "\"Distinguished guests, the moment we've all be itching for is finally here! Let's watch the Survivors attempt this challenge of recycled assets!\""
       }
     }
   },
@@ -337,6 +353,10 @@
       "CHAPEL": {
         "stageName": "カペラ・マグナ",
         "description": "行き過ぎたかな？ 森でキャンプすることもできたのに チキンを持って...  代わりにヴァンパイアを追わなければならないとはね"
+      },
+      "RASH": {
+        "stageName": "Boss Rash",
+        "description": "\"Distinguished guests, the moment we've all be itching for is finally here! Let's watch the Survivors attempt this challenge of recycled assets!\""
       }
     }
   },
@@ -393,6 +413,10 @@
       "CHAPEL": {
         "stageName": "마그나 예배당",
         "description": "이런 우리가 너무 멀리 왔네요. 쫓아가던 닭과 함께 숲에서 야영을 할 수도 있었지만, 우리는 눈 앞에 있는 뱀파이어를 쫓아 가기로 했습니다."
+      },
+      "RASH": {
+        "stageName": "보스 러쉬",
+        "description": "\"친애하는 내빈 여러분, 우리 모두가 간절히 바라고 있던 순간이 드디어 찾아 왔습니다! 생존자들이 부활한 보스에 도전하여 과연 살아남을수 있을까요? 다같이 축제를 즐깁시다!\""
       }
     }
   },
@@ -467,6 +491,10 @@
       "CHAPEL": {
         "stageName": "Cappella Magna",
         "description": "Have we gone too far? Could have just camped in the forest with all that chicken, but noooo, we had to go chase some random vampire instead."
+      },
+      "RASH": {
+        "stageName": "Boss Rash",
+        "description": "\"Distinguished guests, the moment we've all be itching for is finally here! Let's watch the Survivors attempt this challenge of recycled assets!\""
       }
     }
   },
@@ -483,7 +511,7 @@
     "translations": {
       "FOREST": {
         "stageName": "Безумный Лес",
-        "description": "О Замке, конечно, лгут, но здесь все еще есть бесплатный жареный цыпленок, так что все хорошо.",
+        "description": "О Замке, конечно, лгут, но здесь всё еще есть бесплатный жареный цыпленок, так что все хорошо.",
         "hyperTips": "50% бонус к Золоту"
       },
       "LIBRARY": {
@@ -493,7 +521,7 @@
       },
       "GREENACRES": {
         "stageName": "Зеленые Акры",
-        "description": "Место, куда смертным вход воспрещен! Все может выйти из-под контроля в любой момент.",
+        "description": "Место, куда смертным вход воспрещен! Всё может выйти из-под контроля в любой момент.",
         "tips": "Случайные вражеские волны с обычных этапов.",
         "hyperTips": "50% бонус к Золоту\n10% бонус к Удаче",
         "stagenNumber": "Испытание"
@@ -506,7 +534,7 @@
       "MOLISE": {
         "stageName": "Молизе",
         "description": "Существуют места, которых не существует. Приезжайте отдыхать и наслаждаться жизнью. Увидимся в деревне!",
-        "hyperTips": "50% бонус к Золоту\n20% бонус к Удаче\nЗдоровье Врагов +60%",
+        "hyperTips": "50% бонус к Золоту\n20% бонус к Удаче\nЗдоровье врагов +60%",
         "tips": "Враги не двигаются."
       },
       "TOWER": {
@@ -529,6 +557,10 @@
       "CHAPEL": {
         "stageName": "Капелла Магна",
         "description": "Не зашли ли мы слишком далеко? Можно было бы просто разбить лагерь в лесу со всей этой курицей, но нееет, вместо этого нам пришлось гоняться за каким-то случайным вампиром."
+      },
+      "RASH": {
+        "stageName": "Набег Боссов",
+        "description": "\"Уважаемые гости, момент, которого мы все так ждали, наконец-то настал! Давайте посмотрим, как Выжившие пытаются пройти это испытание с переработанными активами!\""
       }
     }
   },
@@ -585,6 +617,10 @@
       "CHAPEL": {
         "stageName": "Cappella Magna",
         "description": "Have we gone too far? Could have just camped in the forest with all that chicken, but noooo, we had to go chase some random vampire instead."
+      },
+      "RASH": {
+        "stageName": "Boss Rash",
+        "description": "\"Distinguished guests, the moment we've all be itching for is finally here! Let's watch the Survivors attempt this challenge of recycled assets!\""
       }
     }
   },

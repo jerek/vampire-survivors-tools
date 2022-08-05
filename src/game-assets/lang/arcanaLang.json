@@ -21,6 +21,14 @@
         "name": "Game Killer",
         "description": "Halts XP gain. XP gems turn into exploding projectiles. All Treasures contain at least 3 items."
       },
+      "1": {
+        "name": "I - Gemini",
+        "description": "Listed weapons come with a counterpart."
+      },
+      "2": {
+        "name": "II - Twilight Requiem",
+        "description": "Listed weapon projectiles generate explosions when they expire."
+      },
       "3": {
         "name": "III - Tragic Princess",
         "description": "The cooldown of the listed weapons reduces when moving."
@@ -50,12 +58,15 @@
         "description": "Listed weapons get +1 Amount. The character's main weapon and its evolution gain +3 Amount instead."
       },
       "11": {
-        "name": "XI - 珍珠圆舞曲",
-        "description": "列表中武器 射弹 最多获得 3  次反弹。"
+        "name": "XI - 珍珠圆舞曲"
       },
       "12": {
         "name": "XII - Out of Bounds",
         "description": "Freezing enemies generates explosions. Orologions are easier to find."
+      },
+      "13": {
+        "name": "XIII - Wicked Season",
+        "description": "Overall Growth, Luck, Greed, and Curse are doubled at fixed intervals. The character starts gaining +1% Growth, Luck, Greed, and Curse every 2 levels."
       },
       "14": {
         "name": "XIV - Jail of Crystal",
@@ -120,6 +131,14 @@
         "name": "Game Killer",
         "description": "Halts XP gain. XP gems turn into exploding projectiles. All Treasures contain at least 3 items."
       },
+      "1": {
+        "name": "I - Gemini",
+        "description": "Listed weapons come with a counterpart."
+      },
+      "2": {
+        "name": "II - Twilight Requiem",
+        "description": "Listed weapon projectiles generate explosions when they expire."
+      },
       "3": {
         "name": "III - Tragic Princess",
         "description": "The cooldown of the listed weapons reduces when moving."
@@ -130,7 +149,7 @@
       },
       "5": {
         "name": "V - Chaos in the Dark Night",
-        "description": "Overall projectile Speed continuously changes between -50% and +200% over 10 seconds."
+        "description": "Overall projectile Speed continuously changes between -50% and +50% over 10 seconds. The character starts gaining +1% projectile Speed every level."
       },
       "6": {
         "name": "VI - Sarabande of Healing",
@@ -149,12 +168,15 @@
         "description": "Listed weapons get +1 Amount. The character's main weapon and its evolution gain +3 Amount instead."
       },
       "11": {
-        "name": "XI - Waltz of Pearls",
-        "description": "Listed weapon projectiles gain up to 3 bounces."
+        "name": "XI - Waltz of Pearls"
       },
       "12": {
         "name": "XII - Out of Bounds",
         "description": "Freezing enemies generates explosions. Orologions are easier to find."
+      },
+      "13": {
+        "name": "XIII - Wicked Season",
+        "description": "Overall Growth, Luck, Greed, and Curse are doubled at fixed intervals. The character starts gaining +1% Growth, Luck, Greed, and Curse every 2 levels."
       },
       "14": {
         "name": "XIV - Jail of Crystal",
@@ -170,11 +192,11 @@
       },
       "17": {
         "name": "XVII - Lost & Found Painting",
-        "description": "Overall Duration continuously changes between -50% and +200% over 10 seconds."
+        "description": "Overall Duration continuously changes between -50% and +50% over 10 seconds.  The character starts gaining +1% Duration every level."
       },
       "18": {
         "name": "XVIII - Boogaloo of Illusions",
-        "description": "Overall Area continuously changes between -25% and +50% over 10 seconds."
+        "description": "Overall Area continuously changes between -25% and +25% over 10 seconds. The character starts gaining +1% Area every level."
       },
       "19": {
         "name": "XIX - Heart of Fire",
@@ -201,6 +223,14 @@
         "name": "Game Killer",
         "description": "Halts XP gain. XP gems turn into exploding projectiles. All Treasures contain at least 3 items."
       },
+      "1": {
+        "name": "I - Gemini",
+        "description": "Listed weapons come with a counterpart."
+      },
+      "2": {
+        "name": "II - Twilight Requiem",
+        "description": "Listed weapon projectiles generate explosions when they expire."
+      },
       "3": {
         "name": "III - Tragic Princess",
         "description": "The cooldown of the listed weapons reduces when moving."
@@ -211,7 +241,7 @@
       },
       "5": {
         "name": "V - Chaos in the Dark Night",
-        "description": "Overall projectile Speed continuously changes between -50% and +200% over 10 seconds."
+        "description": "Overall projectile Speed continuously changes between -50% and +100% over 10 seconds. The character starts gaining +1% projectile Speed every level."
       },
       "6": {
         "name": "VI - Sarabande of Healing",
@@ -230,12 +260,15 @@
         "description": "Listed weapons get +1 Amount. The character's main weapon and its evolution gain +3 Amount instead."
       },
       "11": {
-        "name": "XI - Waltz of Pearls",
-        "description": "Listed weapon projectiles gain up to 3 bounces."
+        "name": "XI - Waltz of Pearls"
       },
       "12": {
         "name": "XII - Out of Bounds",
         "description": "Freezing enemies generates explosions. Orologions are easier to find."
+      },
+      "13": {
+        "name": "XIII - Wicked Season",
+        "description": "Overall Growth, Luck, Greed, and Curse are doubled at fixed intervals. The character starts gaining +1% Growth, Luck, Greed, and Curse every 2 levels."
       },
       "14": {
         "name": "XIV - Jail of Crystal",
@@ -255,7 +288,7 @@
       },
       "18": {
         "name": "XVIII - Boogaloo of Illusions",
-        "description": "Overall Area continuously changes between -25% and +50% over 10 seconds."
+        "description": "Overall Area continuously changes between -25% and +25% over 10 seconds. The character starts gaining +1% Area every level."
       },
       "19": {
         "name": "XIX - Heart of Fire",
@@ -276,6 +309,14 @@
         "name": "Game Killer",
         "description": "Halts XP gain. XP gems turn into exploding projectiles. All Treasures contain at least 3 items."
       },
+      "1": {
+        "name": "I - Gemini",
+        "description": "Listed weapons come with a counterpart."
+      },
+      "2": {
+        "name": "II - Twilight Requiem",
+        "description": "Listed weapon projectiles generate explosions when they expire."
+      },
       "3": {
         "name": "III - Tragic Princess",
         "description": "The cooldown of the listed weapons reduces when moving."
@@ -286,7 +327,7 @@
       },
       "5": {
         "name": "V - Chaos in the Dark Night",
-        "description": "Overall projectile Speed continuously changes between -50% and +200% over 10 seconds."
+        "description": "Overall projectile Speed continuously changes between -50% and +100% over 10 seconds. The character starts gaining +1% projectile Speed every level."
       },
       "6": {
         "name": "VI - Sarabande of Healing",
@@ -305,12 +346,15 @@
         "description": "Listed weapons get +1 Amount. The character's main weapon and its evolution gain +3 Amount instead."
       },
       "11": {
-        "name": "XI - Waltz of Pearls",
-        "description": "Listed weapon projectiles gain up to 3 bounces."
+        "name": "XI - Waltz of Pearls"
       },
       "12": {
         "name": "XII - Out of Bounds",
         "description": "Freezing enemies generates explosions. Orologions are easier to find."
+      },
+      "13": {
+        "name": "XIII - Wicked Season",
+        "description": "Overall Growth, Luck, Greed, and Curse are doubled at fixed intervals. The character starts gaining +1% Growth, Luck, Greed, and Curse every 2 levels."
       },
       "14": {
         "name": "XIV - Jail of Crystal",
@@ -330,7 +374,7 @@
       },
       "18": {
         "name": "XVIII - Boogaloo of Illusions",
-        "description": "Overall Area continuously changes between -25% and +50% over 10 seconds."
+        "description": "Overall Area continuously changes between -25% and +25% over 10 seconds. The character starts gaining +1% Area every level."
       },
       "19": {
         "name": "XIX - Heart of Fire",
@@ -369,6 +413,14 @@
         "name": "Game Killer",
         "description": "Halts XP gain. XP gems turn into exploding projectiles. All Treasures contain at least 3 items."
       },
+      "1": {
+        "name": "I - Gemini",
+        "description": "Listed weapons come with a counterpart."
+      },
+      "2": {
+        "name": "II - Twilight Requiem",
+        "description": "Listed weapon projectiles generate explosions when they expire."
+      },
       "3": {
         "name": "III - Tragic Princess",
         "description": "The cooldown of the listed weapons reduces when moving."
@@ -398,12 +450,15 @@
         "description": "リストされた武器は+1を得る。 キャラクターのメイン武器とその進化は代わりに+3される。"
       },
       "11": {
-        "name": "XI - 真珠のワルツ",
-        "description": "リストアップされた武器の投射物は、最大で3バウンドを得る。"
+        "name": "XI - 真珠のワルツ"
       },
       "12": {
         "name": "XII - アウト・オブ・バウンズ",
         "description": "敵を凍らせると爆発が発生します。  懐中時計が出やすくなる。"
+      },
+      "13": {
+        "name": "XIII - Wicked Season",
+        "description": "Overall Growth, Luck, Greed, and Curse are doubled at fixed intervals. The character starts gaining +1% Growth, Luck, Greed, and Curse every 2 levels."
       },
       "14": {
         "name": "XIV - クリスタルの牢獄",
@@ -444,6 +499,14 @@
         "name": "게임 킬러",
         "description": "떨어지는 모든 경험치 보석을 폭발하는 발사체로 바꿉니다. 모든 보물 상자에는 최소 3개의 아이템을 보장합니다."
       },
+      "1": {
+        "name": "I - 쌍둥이자리",
+        "description": "목록에 있는 무기가 한 쌍으로 복제 됩니다."
+      },
+      "2": {
+        "name": "II - 황혼의 진혼곡",
+        "description": "목록에 있는 무기의 투사체가 사라질때 주위에 폭파 대미지를 줍니다."
+      },
       "3": {
         "name": "III - 공주의 비련",
         "description": "목록에 있는 무기의 쿨타임이 이동시 대폭 감소합니다."
@@ -473,12 +536,15 @@
         "description": "목록에 있는 무기의 투사체 수 +1 증가. 기본 무기와 그 진화 무기는 투사체수 +3 증가."
       },
       "11": {
-        "name": "XI - 진주의 왈츠",
-        "description": "목록에 있는 무기의 발사체는 최대 3회 튕기며 공격합니다."
+        "name": "XI - 진주의 왈츠"
       },
       "12": {
         "name": "XII - 한도초과",
         "description": "적을 얼리면 그 주위의 적에게 얼음 파편으로 범위 피해를 줍니다, 회중시계를 더욱 쉽게 발견할 수 있습니다."
+      },
+      "13": {
+        "name": "XIII - Wicked Season",
+        "description": "Overall Growth, Luck, Greed, and Curse are doubled at fixed intervals. The character starts gaining +1% Growth, Luck, Greed, and Curse every 2 levels."
       },
       "14": {
         "name": "XIV - 수정 감옥",
@@ -537,6 +603,14 @@
         "name": "Game Killer",
         "description": "Halts XP gain. XP gems turn into exploding projectiles. All Treasures contain at least 3 items."
       },
+      "1": {
+        "name": "I - Gemini",
+        "description": "Listed weapons come with a counterpart."
+      },
+      "2": {
+        "name": "II - Twilight Requiem",
+        "description": "Listed weapon projectiles generate explosions when they expire."
+      },
       "3": {
         "name": "III - Tragic Princess",
         "description": "The cooldown of the listed weapons reduces when moving."
@@ -566,12 +640,15 @@
         "description": "Listed weapons get +1 Amount. The character's main weapon and its evolution gain +3 Amount instead."
       },
       "11": {
-        "name": "XI - Valsa das Pérolas",
-        "description": "Projéteis das armas listadas ganham até 3 ricocheteamentos."
+        "name": "XI - Valsa das Pérolas"
       },
       "12": {
         "name": "XII - Out of Bounds",
         "description": "Freezing enemies generates explosions. Orologions are easier to find."
+      },
+      "13": {
+        "name": "XIII - Wicked Season",
+        "description": "Overall Growth, Luck, Greed, and Curse are doubled at fixed intervals. The character starts gaining +1% Growth, Luck, Greed, and Curse every 2 levels."
       },
       "14": {
         "name": "XIV - Jail of Crystal",
@@ -616,7 +693,15 @@
     "translations": {
       "0": {
         "name": "Убийца Игры",
-        "description": "Останавливает прирост опыта. Самоцветы ОПЫТА превращаются во взрывающиеся снаряды. Все Сокровища содержат не менее 3 предметов."
+        "description": "Останавливает прирост опыта. Самоцветы опыта превращаются во взрывающиеся снаряды. Все Сокровища содержат не менее 3-х предметов."
+      },
+      "1": {
+        "name": "I - Близнецы",
+        "description": "Перечисленное оружие выдается в двух экземплярах."
+      },
+      "2": {
+        "name": "II - Сумеречный Реквием",
+        "description": "Снаряды перечисленные оружия взрываются в момент их исчезновения."
       },
       "3": {
         "name": "III - Трагическая принцесса",
@@ -647,12 +732,15 @@
         "description": "Перечисленное оружие получает +1 к Количеству. Основное оружие персонажа и его улучшенная версия получают +3 к Количеству."
       },
       "11": {
-        "name": "XI - Вальс Жемчужин",
-        "description": "Снаряды перечисленного оружия получают до 3 отскоков."
+        "name": "XI - Вальс Жемчужин"
       },
       "12": {
         "name": "XII - За Пределами",
         "description": "Замораживание врагов порождает взрывы. Часослов легче найти."
+      },
+      "13": {
+        "name": "XIII - Wicked Season",
+        "description": "Overall Growth, Luck, Greed, and Curse are doubled at fixed intervals. The character starts gaining +1% Growth, Luck, Greed, and Curse every 2 levels."
       },
       "14": {
         "name": "XIV - Кристальная Темница",
@@ -693,6 +781,14 @@
         "name": "Game Killer",
         "description": "Halts XP gain. XP gems turn into exploding projectiles. All Treasures contain at least 3 items."
       },
+      "1": {
+        "name": "I - Gemini",
+        "description": "Listed weapons come with a counterpart."
+      },
+      "2": {
+        "name": "II - Twilight Requiem",
+        "description": "Listed weapon projectiles generate explosions when they expire."
+      },
       "3": {
         "name": "III - Tragic Princess",
         "description": "The cooldown of the listed weapons reduces when moving."
@@ -703,7 +799,7 @@
       },
       "5": {
         "name": "V - Chaos in the Dark Night",
-        "description": "Overall projectile Speed continuously changes between -50% and +200% over 10 seconds."
+        "description": "Overall projectile Speed continuously changes between -50% and +100% over 10 seconds. The character starts gaining +1% projectile Speed every level."
       },
       "6": {
         "name": "VI - Sarabande of Healing",
@@ -722,12 +818,15 @@
         "description": "Listed weapons get +1 Amount. The character's main weapon and its evolution gain +3 Amount instead."
       },
       "11": {
-        "name": "XI - Waltz of Pearls",
-        "description": "Listed weapon projectiles gain up to 3 bounces."
+        "name": "XI - Waltz of Pearls"
       },
       "12": {
         "name": "XII - Out of Bounds",
         "description": "Freezing enemies generates explosions. Orologions are easier to find."
+      },
+      "13": {
+        "name": "XIII - Wicked Season",
+        "description": "Overall Growth, Luck, Greed, and Curse are doubled at fixed intervals. The character starts gaining +1% Growth, Luck, Greed, and Curse every 2 levels."
       },
       "14": {
         "name": "XIV - Jail of Crystal",
@@ -743,11 +842,11 @@
       },
       "17": {
         "name": "XVII - Lost & Found Painting",
-        "description": "Overall Duration continuously changes between -50% and +200% over 10 seconds."
+        "description": "Overall Duration continuously changes between -50% and +100% over 10 seconds.  The character starts gaining +1% Duration every level."
       },
       "18": {
         "name": "XVIII - Boogaloo of Illusions",
-        "description": "Overall Area continuously changes between -25% and +50% over 10 seconds."
+        "description": "Overall Area continuously changes between -25% and +25% over 10 seconds. The character starts gaining +1% Area every level."
       },
       "19": {
         "name": "XIX - Heart of Fire",

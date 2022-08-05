@@ -152,7 +152,17 @@ VST.VS.Arcana = new function () {
             items: ['PocketWatch.png'],
             weapons: [VS.WEAPON_ID_CLOCK_LANCET],
         },
-        // 14: {name: '???', description: '???'},
+        14: {
+            name: 'XIII - Wicked Season',
+            description: 'Overall Growth, Luck, Greed, and Curse are doubled at fixed intervals. The characters ' +
+                'starts gaining +1% Growth, Luck, Greed, and Curse every 2 levels.',
+            passives: [
+                VS.PASSIVE_ID_CROWN,
+                VS.PASSIVE_ID_CLOVER,
+                VS.PASSIVE_ID_STONE_MASK,
+                VS.PASSIVE_ID_SKULL_O_MANIAC,
+            ],
+        },
         15: {
             name: 'XIV - Jail of Crystal',
             description: 'Listed weapon projectiles have a chance to freeze enemies.',
