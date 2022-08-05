@@ -380,6 +380,11 @@ a.vs-entity {cursor: pointer}
 .vs-entity[data-type="character"][data-id="21"] > .vst-tooltip {
     width: 166px;
 }
+/* Cosmo Pavone */
+.vs-entity[data-type="character"][data-id="35"] > .vs-entity-content > .vs-char-box-description,
+.vs-entity[data-type="character"][data-id="35"] > .vst-tooltip {
+    width: 190px;
+}
 .vs-char-box-image {bottom: 5px; left: 6px; pointer-events: none}
 .vs-char-box-weapons {
     align-content: flex-end;
