@@ -20,6 +20,7 @@ VST.VS.Character = new function () {
      * @property {VsSpriteFunc} spriteAlt    The sprite that the filename exists in, if different from "characters".
      * @property {string}       spriteName   The filename of the character's image within the "characters" sprite.
      * @property {VsType}       type         The Character type ID.
+     * @property {string[]}     [items]      Filenames of non-weapon non-passive items shown in this char's portrait.
      * @property {PassiveId[]}  [passiveIds] The passive items the character starts with.
      * @property {string}       [prefix]     Text shown before the character's name when showing their full name.
      * @property {string}       [surname]    Text shown after the character's name when showing their full name.
@@ -418,8 +419,8 @@ VST.VS.Character = new function () {
         image.classList.add(`${baseClass}-image`);
         entity.content.appendChild(image);
 
-        // The weapons the character can equip.
-        let weapons = DOM.ce('div', {
+        // The items the character starts with.
+        let items = DOM.ce('div', {
             className: `${baseClass}-weapons`,
             dataset: {
                 count: (char.weaponIds || []).length,
@@ -430,13 +431,25 @@ VST.VS.Character = new function () {
             VS.Item.DISPLAY_MODE_FRAME;
         (char.weaponIds || []).forEach(weaponId => {
             // noinspection JSCheckFunctionSignatures Realistically, this can't actually return undefined.
-            weapons.appendChild(
+            items.appendChild(
                 VS.Item.render(VS.TYPE_WEAPON, VS.Weapon.get(weaponId), {
                     mode: itemDisplayMode,
                     scale: IMAGE_SCALE_CHAR_BOX,
                 }),
             );
         });
+        (char.passiveIds || []).forEach(passiveId => {
+            // noinspection JSCheckFunctionSignatures Realistically, this can't actually return undefined.
+            items.appendChild(
+                VS.Item.render(VS.TYPE_PASSIVE, VS.Passive.get(passiveId), {
+                    mode: itemDisplayMode,
+                    scale: IMAGE_SCALE_CHAR_BOX,
+                }),
+            );
+        });
+        (char.items || []).forEach(filename =>
+            items.appendChild(Img.createImage(Img.ITEMS, filename, IMAGE_SCALE_CHAR_BOX))
+        );
 
         // The description, which is only visible in some modes.
         if (char.description) {
