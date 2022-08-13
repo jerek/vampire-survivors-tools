@@ -66,7 +66,7 @@
       },
       "13": {
         "name": "XIII - Wicked Season",
-        "description": "Overall Growth, Luck, Greed, and Curse are doubled at fixed intervals. The character starts gaining +1% Growth, Luck, Greed, and Curse every 2 levels."
+        "description": "Overall Growth, Luck, Greed, and Curse are doubled at fixed intervals. The characters starts gaining +1% Growth, Luck, Greed, and Curse every 2 levels."
       },
       "14": {
         "name": "XIV - Jail of Crystal",
@@ -176,7 +176,7 @@
       },
       "13": {
         "name": "XIII - Wicked Season",
-        "description": "Overall Growth, Luck, Greed, and Curse are doubled at fixed intervals. The character starts gaining +1% Growth, Luck, Greed, and Curse every 2 levels."
+        "description": "Overall Growth, Luck, Greed, and Curse are doubled at fixed intervals. The characters starts gaining +1% Growth, Luck, Greed, and Curse every 2 levels."
       },
       "14": {
         "name": "XIV - Jail of Crystal",
@@ -268,7 +268,7 @@
       },
       "13": {
         "name": "XIII - Wicked Season",
-        "description": "Overall Growth, Luck, Greed, and Curse are doubled at fixed intervals. The character starts gaining +1% Growth, Luck, Greed, and Curse every 2 levels."
+        "description": "Overall Growth, Luck, Greed, and Curse are doubled at fixed intervals. The characters starts gaining +1% Growth, Luck, Greed, and Curse every 2 levels."
       },
       "14": {
         "name": "XIV - Jail of Crystal",
@@ -354,7 +354,7 @@
       },
       "13": {
         "name": "XIII - Wicked Season",
-        "description": "Overall Growth, Luck, Greed, and Curse are doubled at fixed intervals. The character starts gaining +1% Growth, Luck, Greed, and Curse every 2 levels."
+        "description": "Overall Growth, Luck, Greed, and Curse are doubled at fixed intervals. The characters starts gaining +1% Growth, Luck, Greed, and Curse every 2 levels."
       },
       "14": {
         "name": "XIV - Jail of Crystal",
@@ -458,7 +458,7 @@
       },
       "13": {
         "name": "XIII - Wicked Season",
-        "description": "Overall Growth, Luck, Greed, and Curse are doubled at fixed intervals. The character starts gaining +1% Growth, Luck, Greed, and Curse every 2 levels."
+        "description": "Overall Growth, Luck, Greed, and Curse are doubled at fixed intervals. The characters starts gaining +1% Growth, Luck, Greed, and Curse every 2 levels."
       },
       "14": {
         "name": "XIV - クリスタルの牢獄",
@@ -517,7 +517,7 @@
       },
       "5": {
         "name": "V - 혼돈이 가득한 어두운밤",
-        "description": "매 10초마다 투사체 속도 무작위로 변경 -50% ~ +200%"
+        "description": "전체 발사체 속도를 10초 동안 -50%에서 +50% 사이에서 지속적으로 변경. 캐릭터 레벨마다 투사체 속도가 1% 증가하기 시작합니다."
       },
       "6": {
         "name": "VI - 치유의 사라반드",
@@ -543,8 +543,8 @@
         "description": "적을 얼리면 그 주위의 적에게 얼음 파편으로 범위 피해를 줍니다, 회중시계를 더욱 쉽게 발견할 수 있습니다."
       },
       "13": {
-        "name": "XIII - Wicked Season",
-        "description": "Overall Growth, Luck, Greed, and Curse are doubled at fixed intervals. The character starts gaining +1% Growth, Luck, Greed, and Curse every 2 levels."
+        "name": "XIII - 사악한 계절",
+        "description": "성장, 행운, 탐욕, 저주가 일정 간격으로 2배가 됩니다. 캐릭터는 2레벨마다 성장, 행운, 탐욕, 저주가 1%씩 증가합니다."
       },
       "14": {
         "name": "XIV - 수정 감옥",
@@ -560,11 +560,11 @@
       },
       "17": {
         "name": "XVII - 잃어버린 그림",
-        "description": "매 10초마다 지속시간 무작위로 변경 -50% ~ +200%"
+        "description": "전체 지속 시간을 10초 동안 -50%에서 +50% 사이에서 지속적으로 변경. 캐릭터 레벨마다 지속 시간이 1% 증가하기 시작합니다."
       },
       "18": {
         "name": "XVIII - 환상의 춤",
-        "description": "매 10초마다 공격범위가 -25% 에서 +50% 사이로 무작위 변경."
+        "description": "공격범위가 10초 동안 -25%에서 +25% 사이에서 지속적으로 변경. 캐릭터 레벨마다 면적이 1% 증가하기 시작합니다."
       },
       "19": {
         "name": "XIX - 불의 심장",
@@ -648,7 +648,7 @@
       },
       "13": {
         "name": "XIII - Wicked Season",
-        "description": "Overall Growth, Luck, Greed, and Curse are doubled at fixed intervals. The character starts gaining +1% Growth, Luck, Greed, and Curse every 2 levels."
+        "description": "Overall Growth, Luck, Greed, and Curse are doubled at fixed intervals. The characters starts gaining +1% Growth, Luck, Greed, and Curse every 2 levels."
       },
       "14": {
         "name": "XIV - Jail of Crystal",
@@ -713,7 +713,7 @@
       },
       "5": {
         "name": "V - Хаос в Темной Ночи",
-        "description": "Cкорость всех снарядов непрерывно меняется от -50% до +200% в течение 10 секунд."
+        "description": "Общая Скорость снаряда непрерывно меняется от -50% до +50% в течение 10 секунд. Персонаж начинает набирать по 1% к Скорости снаряда с каждым уровнем."
       },
       "6": {
         "name": "VI - Сарабанда Исцеления",
@@ -739,8 +739,8 @@
         "description": "Замораживание врагов порождает взрывы. Часослов легче найти."
       },
       "13": {
-        "name": "XIII - Wicked Season",
-        "description": "Overall Growth, Luck, Greed, and Curse are doubled at fixed intervals. The character starts gaining +1% Growth, Luck, Greed, and Curse every 2 levels."
+        "name": "XIII - Плохой Сезон",
+        "description": "Общий Прирост, Удача, Жадность и Проклятье удваиваются через определенное время. Персонаж начинает получать +1% к Приосту, Удаче, Жадности и Проклятью каждые 2 уровня."
       },
       "14": {
         "name": "XIV - Кристальная Темница",
@@ -756,11 +756,11 @@
       },
       "17": {
         "name": "XVII - Потерянная и Найденная Картина",
-        "description": "Срок непрерывно меняется от -50% до +200% в течение 10 секунд."
+        "description": "Общий Срок непрерывно меняется от -50% до +50% в течение 10 секунд. Персонаж начинает набирать по 1% к Сроку с каждым уровнем."
       },
       "18": {
         "name": "XVIII - Бугалу Иллюзий",
-        "description": "Размер всех атак непрерывно меняется от -25% до +50% в течение 10 секунд."
+        "description": "Общий Размер непрерывно меняется от -25% до +25% в течение 10 секунд. Персонаж начинает набирать по 1% к Размеру с каждым уровнем."
       },
       "19": {
         "name": "XIX - Сердце Огня",
@@ -826,7 +826,7 @@
       },
       "13": {
         "name": "XIII - Wicked Season",
-        "description": "Overall Growth, Luck, Greed, and Curse are doubled at fixed intervals. The character starts gaining +1% Growth, Luck, Greed, and Curse every 2 levels."
+        "description": "Overall Growth, Luck, Greed, and Curse are doubled at fixed intervals. The characters starts gaining +1% Growth, Luck, Greed, and Curse every 2 levels."
       },
       "14": {
         "name": "XIV - Jail of Crystal",

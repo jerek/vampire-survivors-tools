@@ -1008,21 +1008,21 @@
       "BOROS": {
         "name": "가인스",
         "surname": "보로스",
-        "description": "매 레벨마다 성장보너스가 2%씩 증가합니다.."
+        "description": "매 레벨마다 성장보너스가 2%씩 증가합니다."
       },
       "DRAGOGION": {
         "name": "교룬톤",
         "description": "매 레벨당 저주 1% 증가합니다, 모든 보물상자에서 진화 무기를 발견할수 있습니다."
       },
       "PAVONE": {
-        "name": "Cosmo",
-        "surname": "Pavone",
-        "description": "Gains +1 Recovery and +1% Luck every level. Gains +1 Revival every 100 levels. Has hidden weapons."
+        "name": "코스모",
+        "surname": "파보네",
+        "description": "매 레벨마다 회복 +1 및 행운 +1%가 증가. 100레벨마다 +1 부활을 획득."
       },
       "PANTALONE": {
-        "prefix": "Big",
-        "name": "Trouser",
-        "description": "Gains +1% Greed every level. Gold Fever lasts longer."
+        "prefix": "빅",
+        "name": "트라우저",
+        "description": "레벨마다 탐욕이 1% 증가합. 골드 피버가 더 오랜 시간 지속됩니다."
       }
     }
   },
@@ -1358,17 +1358,17 @@
       },
       "DRAGOGION": {
         "name": "Гиорунтон",
-        "description": "Дает +1% к Проклятью с каждым уровнем. Можно найти улучшение в любом Сокровище."
+        "description": "Получает +1% к Проклятью с каждым уровнем. Можно найти улучшение в любом Сокровище."
       },
       "PAVONE": {
-        "name": "Cosmo",
-        "surname": "Pavone",
-        "description": "Gains +1 Recovery and +1% Luck every level. Gains +1 Revival every 100 levels. Has hidden weapons."
+        "name": "Космо",
+        "surname": "Павоне",
+        "description": "Получает по +1 Регенерации и +1% Удачи с каждым уровнем. Получает +1 Оживление каждые 100 уровней. Имеет скрытое оружие."
       },
       "PANTALONE": {
-        "prefix": "Big",
-        "name": "Trouser",
-        "description": "Gains +1% Greed every level. Gold Fever lasts longer."
+        "prefix": "Большие",
+        "name": "Брюки",
+        "description": "Получает +1% к Жадности с каждым уровнем. Золотая лихорадка длится дольше."
       }
     }
   },

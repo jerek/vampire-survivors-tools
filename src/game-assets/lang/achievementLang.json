@@ -2327,10 +2327,10 @@
         "description": "푸냘라 99레벨 달성."
       },
       "ReachLV99WithChristine": {
-        "description": "Reach Level 99 with Christine."
+        "description": "크리스틴 99레벨 달성."
       },
       "FindForbiddenScroll": {
-        "description": "Find the Forbidden Scrolls of Morbane."
+        "description": "금지된 모르베인의 두루마리 발견."
       }
     }
   },
@@ -3109,10 +3109,10 @@
         "description": "Достигните 99 Уровня с Пугналой."
       },
       "ReachLV99WithChristine": {
-        "description": "Reach Level 99 with Christine."
+        "description": "Достигните 99 Уровня с Кристин."
       },
       "FindForbiddenScroll": {
-        "description": "Find the Forbidden Scrolls of Morbane."
+        "description": "Найдите Запретные Свитки Морбейна."
       }
     }
   },

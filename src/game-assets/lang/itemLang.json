@@ -824,13 +824,13 @@
         "achievementTips": "한계 돌파."
       },
       "RELIC_SECRETS": {
-        "name": "Forbidden Scrolls of Morbane",
-        "description": "Permanently allow you to cast spells and to access the list of secrets from the main menu.",
+        "name": "금지된 모르베인의 두루마리",
+        "description": "주 메뉴에서 숨겨진 목록에 접근할수 있으며. 비밀 목록에서 마법주문을 시전할수 있습니다.",
         "achievementTips": "???"
       },
       "PURIFY": {
-        "name": "Flames of Moonspell",
-        "description": "Permanently remove up to 100 random Golden Egg bonuses. This cannot be undone."
+        "name": "무스펠의 불꽃",
+        "description": "최대 100개의 무작위 황금 알 보너스를 영구적으로 제거합니다."
       }
     }
   },
@@ -1106,13 +1106,13 @@
         "achievementTips": "Сверх Предела."
       },
       "RELIC_SECRETS": {
-        "name": "Forbidden Scrolls of Morbane",
-        "description": "Permanently allow you to cast spells and to access the list of secrets from the main menu.",
+        "name": "Запретные Свитки Морбейна.",
+        "description": "Позволяет вам произносить заклинания и получать доступ к списку секретов из главного меню.",
         "achievementTips": "???"
       },
       "PURIFY": {
-        "name": "Flames of Moonspell",
-        "description": "Permanently remove up to 100 random Golden Egg bonuses. This cannot be undone."
+        "name": "Пламя Лунного Заклинания",
+        "description": "Навсегда удалите до 100 случайных бонусов \"Золотое яйцо\". Это не может быть отменено."
       }
     }
   },

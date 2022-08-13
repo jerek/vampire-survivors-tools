@@ -2250,9 +2250,9 @@
         "tips": "강화 무시: 지속시간"
       },
       "CANDYBOX": {
-        "name": "Candybox",
-        "description": "Allows you to choose any unlocked base weapon.",
-        "tips": "Occurrence in level up options affected by Luck."
+        "name": "사탕상자",
+        "description": "해금한 무기중 한가지를 원하는대로 선택할수 있습니다.",
+        "tips": "행운의 영향을 받는 레벨업 옵션의 발생."
       }
     }
   },
@@ -3006,8 +3006,8 @@
         "tips": "Игнорирует: срок."
       },
       "CANDYBOX": {
-        "name": "Candybox",
-        "description": "Allows you to choose any unlocked base weapon.",
+        "name": "Коробка Конфет",
+        "description": "Позволяет вам выбрать любое разблокированное базовое оружие.",
         "tips": "Occurrence in level up options affected by Luck."
       }
     }
