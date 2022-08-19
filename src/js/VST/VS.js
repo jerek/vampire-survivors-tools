@@ -78,6 +78,7 @@ VST.VS = new function () {
     /** @type {PassiveId} */ this.PASSIVE_ID_ZHAR_PTYTSIA = 23;
     /** @type {PassiveId} */ this.PASSIVE_ID_RED_MUSCLE = 24;
     /** @type {PassiveId} */ this.PASSIVE_ID_TWICE_UPON_A_TIME = 25;
+    /** @type {PassiveId} */ this.PASSIVE_ID_SOLE_SOLUTION = 26;
 
     // Weapons have constants since they're referred to by ID in multiple places.
     /** @type {WeaponId} */ this.WEAPON_ID_WHIP = 1;
@@ -130,6 +131,7 @@ VST.VS = new function () {
     /** @type {WeaponId} */ this.WEAPON_ID_BRACELET = 48;
     /** @type {WeaponId} */ this.WEAPON_ID_BI_BRACELET = 49;
     /** @type {WeaponId} */ this.WEAPON_ID_TRI_BRACELET = 50;
+    /** @type {WeaponId} */ this.WEAPON_ID_VICTORY_SWORD = 51;
 
     // ********************* //
     // ***** FUNCTIONS ***** //

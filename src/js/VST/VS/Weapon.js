@@ -373,6 +373,12 @@ VST.VS.Weapon = new function () {
             order: 50,
             reqWeapons: [VS.WEAPON_ID_BI_BRACELET],
         },
+        [VS.WEAPON_ID_VICTORY_SWORD]: {
+            name: 'Victory Sword',
+            description: 'Strikes with a combo attack at the nearest enemy. Retaliates.',
+            frameName: 'victory1.png',
+            order: 51,
+        },
     };
 
     /** @type {VsType} The entity type that this class is associated with. */

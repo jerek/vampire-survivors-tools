@@ -342,6 +342,14 @@ VST.VS.Character = new function () {
             prefix: 'Mask of the',
             weaponIds: [VS.WEAPON_ID_DEATH_SPIRAL],
         },
+        37: {
+            prefix: 'Queen',
+            name: 'Sigma',
+            description: 'She owns everything.',
+            order: 37,
+            spriteName: 's_01.png',
+            weaponIds: [VS.WEAPON_ID_VICTORY_SWORD],
+        },
         // There's some weird extra character data in the game files. Initially I included it all (just commented out),
         // in the hopes that it would lead to something interesting. After the initial update of 0.7.2 => 0.7.360, it
         // doesn't look like that'll pay off. So I'm going to keep an eye on this data in future patches, but basically

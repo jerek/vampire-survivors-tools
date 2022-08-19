@@ -10,13 +10,15 @@ VST.VS.Passive = new function () {
 
     /**
      * @typedef {EntityData} PassiveData Data describing a passive item.
-     * @property {string}    description
-     * @property {string}    frameName   The filename of the passive item's image within the "items" sprite.
-     * @property {PassiveId} id          This MUST NOT change, because it's used in the URL for saved builds.
-     * @property {string}    name
-     * @property {number}    order       The order that this passive item is displayed in the in-game Collection.
-     * @property {VsType}    type        The Passive Item type ID.
-     * @property {boolean}   [hidden]    Whether this passive item isn't shown as an option to put in builds.
+     * @property {string}      description
+     * @property {string}      frameName     The filename of the passive item's image within the "items" sprite.
+     * @property {PassiveId}   id            This MUST NOT change, because it's used in the URL for saved builds.
+     * @property {string}      name
+     * @property {number}      order         The order that this passive item is displayed in the in-game Collection.
+     * @property {VsType}      type          The Passive Item type ID.
+     * @property {boolean}     [hidden]      Whether this passive item isn't shown as an option to put in builds.
+     * @property {PassiveId[]} [reqPassives] The passive items required to get this passive item.
+     * @property {WeaponId[]}  [reqWeapons]  The weapons required to get this passive item.
      */
 
     /** @typedef {EntityId} PassiveId A passive item's ID. */
@@ -186,6 +188,14 @@ VST.VS.Passive = new function () {
             description: 'Channels dark powers to curse the bearer.',
             frameName: 'bsright.png',
             order: 25,
+        },
+        [VS.PASSIVE_ID_SOLE_SOLUTION]: {
+            name: 'Sole Solution',
+            description: 'Gift of Victory Sword. The more enemies are defeated, the stronger it grows.',
+            frameName: 'solesolution.png',
+            order: 26,
+            reqPassives: [VS.PASSIVE_ID_TORRONAS_BOX],
+            reqWeapons: [VS.WEAPON_ID_VICTORY_SWORD],
         },
     };
 
