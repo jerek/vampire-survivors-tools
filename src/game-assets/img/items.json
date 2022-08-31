@@ -4,7 +4,7 @@
 			"image": "items.png",
 			"format": "RGBA8888",
 			"size": {
-				"w": 484,
+				"w": 485,
 				"h": 338
 			},
 			"scale": 1,
@@ -4210,24 +4210,24 @@
 					}
 				},
 				{
-					"filename": "Gem1.png",
+					"filename": "coin-spin-silver_05.png",
 					"rotated": false,
 					"trimmed": true,
 					"sourceSize": {
 						"w": 16,
-						"h": 16
+						"h": 17
 					},
 					"spriteSourceSize": {
-						"x": 3,
+						"x": 2,
 						"y": 1,
-						"w": 11,
-						"h": 14
+						"w": 12,
+						"h": 16
 					},
 					"frame": {
 						"x": 472,
 						"y": 62,
-						"w": 11,
-						"h": 14
+						"w": 12,
+						"h": 16
 					}
 				},
 				{
@@ -4441,7 +4441,7 @@
 					}
 				},
 				{
-					"filename": "bracelet3.png",
+					"filename": "bracelet2.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -4462,7 +4462,7 @@
 					}
 				},
 				{
-					"filename": "bsleft.png",
+					"filename": "bracelet3.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -4483,7 +4483,7 @@
 					}
 				},
 				{
-					"filename": "bsright.png",
+					"filename": "bsleft.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -4504,7 +4504,7 @@
 					}
 				},
 				{
-					"filename": "candybox.png",
+					"filename": "bsright.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -4546,7 +4546,7 @@
 					}
 				},
 				{
-					"filename": "Gem10.png",
+					"filename": "QuestionMark.png",
 					"rotated": false,
 					"trimmed": true,
 					"sourceSize": {
@@ -4554,20 +4554,20 @@
 						"h": 16
 					},
 					"spriteSourceSize": {
-						"x": 3,
+						"x": 2,
 						"y": 1,
-						"w": 11,
+						"w": 12,
 						"h": 14
 					},
 					"frame": {
 						"x": 472,
 						"y": 126,
-						"w": 11,
+						"w": 12,
 						"h": 14
 					}
 				},
 				{
-					"filename": "cape.png",
+					"filename": "candybox.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -4588,7 +4588,7 @@
 					}
 				},
 				{
-					"filename": "cateye.png",
+					"filename": "candybox2.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -4609,7 +4609,7 @@
 					}
 				},
 				{
-					"filename": "cheese.png",
+					"filename": "cape.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -4630,7 +4630,7 @@
 					}
 				},
 				{
-					"filename": "dummyCart.png",
+					"filename": "cateye.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -4651,7 +4651,7 @@
 					}
 				},
 				{
-					"filename": "dummySarabande.png",
+					"filename": "cheese.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -4672,49 +4672,7 @@
 					}
 				},
 				{
-					"filename": "coin-spin-silver_05.png",
-					"rotated": false,
-					"trimmed": true,
-					"sourceSize": {
-						"w": 16,
-						"h": 17
-					},
-					"spriteSourceSize": {
-						"x": 2,
-						"y": 1,
-						"w": 12,
-						"h": 16
-					},
-					"frame": {
-						"x": 471,
-						"y": 155,
-						"w": 12,
-						"h": 16
-					}
-				},
-				{
-					"filename": "QuestionMark.png",
-					"rotated": false,
-					"trimmed": true,
-					"sourceSize": {
-						"w": 16,
-						"h": 16
-					},
-					"spriteSourceSize": {
-						"x": 2,
-						"y": 1,
-						"w": 12,
-						"h": 14
-					},
-					"frame": {
-						"x": 471,
-						"y": 172,
-						"w": 12,
-						"h": 14
-					}
-				},
-				{
-					"filename": "dummyWindow.png",
+					"filename": "dummyCart.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -4735,7 +4693,7 @@
 					}
 				},
 				{
-					"filename": "flame2.png",
+					"filename": "dummySarabande.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -4756,7 +4714,7 @@
 					}
 				},
 				{
-					"filename": "Curse.png",
+					"filename": "Gem1.png",
 					"rotated": false,
 					"trimmed": true,
 					"sourceSize": {
@@ -4764,20 +4722,62 @@
 						"h": 16
 					},
 					"spriteSourceSize": {
-						"x": 1,
+						"x": 3,
+						"y": 1,
+						"w": 11,
+						"h": 14
+					},
+					"frame": {
+						"x": 471,
+						"y": 155,
+						"w": 11,
+						"h": 14
+					}
+				},
+				{
+					"filename": "Gem10.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 16
+					},
+					"spriteSourceSize": {
+						"x": 3,
+						"y": 1,
+						"w": 11,
+						"h": 14
+					},
+					"frame": {
+						"x": 471,
+						"y": 170,
+						"w": 11,
+						"h": 14
+					}
+				},
+				{
+					"filename": "dummyWindow.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 16,
+						"h": 16
+					},
+					"spriteSourceSize": {
+						"x": 0,
 						"y": 0,
-						"w": 15,
+						"w": 16,
 						"h": 16
 					},
 					"frame": {
 						"x": 468,
 						"y": 240,
-						"w": 15,
+						"w": 16,
 						"h": 16
 					}
 				},
 				{
-					"filename": "flower.png",
+					"filename": "flame2.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -4798,7 +4798,7 @@
 					}
 				},
 				{
-					"filename": "ggospel.png",
+					"filename": "flower.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -4819,7 +4819,7 @@
 					}
 				},
 				{
-					"filename": "goldring.png",
+					"filename": "ggospel.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -4840,7 +4840,7 @@
 					}
 				},
 				{
-					"filename": "grimoire.png",
+					"filename": "goldring.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -4861,7 +4861,7 @@
 					}
 				},
 				{
-					"filename": "merchant.png",
+					"filename": "grimoire.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -4882,7 +4882,7 @@
 					}
 				},
 				{
-					"filename": "mindbender.png",
+					"filename": "merchant.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -4903,7 +4903,7 @@
 					}
 				},
 				{
-					"filename": "pie.png",
+					"filename": "mindbender.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -4924,7 +4924,7 @@
 					}
 				},
 				{
-					"filename": "portal.png",
+					"filename": "pie.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -4945,7 +4945,7 @@
 					}
 				},
 				{
-					"filename": "scrolls.png",
+					"filename": "portal.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -4966,7 +4966,7 @@
 					}
 				},
 				{
-					"filename": "silverring.png",
+					"filename": "scrolls.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -4987,7 +4987,7 @@
 					}
 				},
 				{
-					"filename": "torrone.png",
+					"filename": "silverring.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -5008,7 +5008,7 @@
 					}
 				},
 				{
-					"filename": "trapano2.png",
+					"filename": "torrone.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -5029,7 +5029,7 @@
 					}
 				},
 				{
-					"filename": "victory1.png",
+					"filename": "trapano2.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -5050,7 +5050,7 @@
 					}
 				},
 				{
-					"filename": "victory2.png",
+					"filename": "victory1.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -5092,6 +5092,27 @@
 					}
 				},
 				{
+					"filename": "Curse.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 16
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 0,
+						"w": 15,
+						"h": 16
+					},
+					"frame": {
+						"x": 301,
+						"y": 299,
+						"w": 15,
+						"h": 16
+					}
+				},
+				{
 					"filename": "Dice.png",
 					"rotated": false,
 					"trimmed": true,
@@ -5106,31 +5127,10 @@
 						"h": 16
 					},
 					"frame": {
-						"x": 301,
-						"y": 299,
-						"w": 15,
-						"h": 16
-					}
-				},
-				{
-					"filename": "Nft1.png",
-					"rotated": false,
-					"trimmed": true,
-					"sourceSize": {
-						"w": 16,
-						"h": 16
-					},
-					"spriteSourceSize": {
-						"x": 0,
-						"y": 1,
-						"w": 16,
-						"h": 15
-					},
-					"frame": {
 						"x": 274,
 						"y": 311,
-						"w": 16,
-						"h": 15
+						"w": 15,
+						"h": 16
 					}
 				},
 				{
@@ -5197,7 +5197,7 @@
 					}
 				},
 				{
-					"filename": "Nft2.png",
+					"filename": "Nft1.png",
 					"rotated": false,
 					"trimmed": true,
 					"sourceSize": {
@@ -5211,52 +5211,10 @@
 						"h": 15
 					},
 					"frame": {
-						"x": 291,
+						"x": 290,
 						"y": 316,
 						"w": 16,
 						"h": 15
-					}
-				},
-				{
-					"filename": "Nft4.png",
-					"rotated": false,
-					"trimmed": true,
-					"sourceSize": {
-						"w": 16,
-						"h": 16
-					},
-					"spriteSourceSize": {
-						"x": 0,
-						"y": 1,
-						"w": 16,
-						"h": 15
-					},
-					"frame": {
-						"x": 291,
-						"y": 316,
-						"w": 16,
-						"h": 15
-					}
-				},
-				{
-					"filename": "SkullToken.png",
-					"rotated": false,
-					"trimmed": true,
-					"sourceSize": {
-						"w": 16,
-						"h": 16
-					},
-					"spriteSourceSize": {
-						"x": 3,
-						"y": 3,
-						"w": 11,
-						"h": 10
-					},
-					"frame": {
-						"x": 271,
-						"y": 327,
-						"w": 11,
-						"h": 10
 					}
 				},
 				{
@@ -5281,7 +5239,7 @@
 					}
 				},
 				{
-					"filename": "Nft3.png",
+					"filename": "Nft2.png",
 					"rotated": false,
 					"trimmed": true,
 					"sourceSize": {
@@ -5302,7 +5260,28 @@
 					}
 				},
 				{
-					"filename": "Silf1.png",
+					"filename": "Nft4.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 16
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 1,
+						"w": 16,
+						"h": 15
+					},
+					"frame": {
+						"x": 395,
+						"y": 274,
+						"w": 16,
+						"h": 15
+					}
+				},
+				{
+					"filename": "Nft3.png",
 					"rotated": false,
 					"trimmed": true,
 					"sourceSize": {
@@ -5386,7 +5365,7 @@
 					}
 				},
 				{
-					"filename": "Silf1_counter.png",
+					"filename": "Silf1.png",
 					"rotated": false,
 					"trimmed": true,
 					"sourceSize": {
@@ -5428,6 +5407,27 @@
 					}
 				},
 				{
+					"filename": "Silf1_counter.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 16
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 1,
+						"w": 16,
+						"h": 15
+					},
+					"frame": {
+						"x": 307,
+						"y": 317,
+						"w": 16,
+						"h": 15
+					}
+				},
+				{
 					"filename": "Silf2.png",
 					"rotated": false,
 					"trimmed": true,
@@ -5442,28 +5442,7 @@
 						"h": 15
 					},
 					"frame": {
-						"x": 308,
-						"y": 317,
-						"w": 16,
-						"h": 15
-					}
-				},
-				{
-					"filename": "Silf2_counter.png",
-					"rotated": false,
-					"trimmed": true,
-					"sourceSize": {
-						"w": 16,
-						"h": 16
-					},
-					"spriteSourceSize": {
-						"x": 0,
-						"y": 1,
-						"w": 16,
-						"h": 15
-					},
-					"frame": {
-						"x": 325,
+						"x": 324,
 						"y": 317,
 						"w": 16,
 						"h": 15
@@ -5491,7 +5470,7 @@
 					}
 				},
 				{
-					"filename": "bracelet2.png",
+					"filename": "Silf2_counter.png",
 					"rotated": false,
 					"trimmed": true,
 					"sourceSize": {
@@ -5501,13 +5480,13 @@
 					"spriteSourceSize": {
 						"x": 0,
 						"y": 1,
-						"w": 15,
+						"w": 16,
 						"h": 15
 					},
 					"frame": {
 						"x": 425,
 						"y": 291,
-						"w": 15,
+						"w": 16,
 						"h": 15
 					}
 				},
@@ -5526,7 +5505,7 @@
 						"h": 15
 					},
 					"frame": {
-						"x": 441,
+						"x": 442,
 						"y": 291,
 						"w": 14,
 						"h": 15
@@ -5568,7 +5547,7 @@
 						"h": 15
 					},
 					"frame": {
-						"x": 456,
+						"x": 457,
 						"y": 290,
 						"w": 14,
 						"h": 15
@@ -5610,7 +5589,7 @@
 						"h": 14
 					},
 					"frame": {
-						"x": 456,
+						"x": 457,
 						"y": 306,
 						"w": 14,
 						"h": 14
@@ -5631,7 +5610,7 @@
 						"h": 14
 					},
 					"frame": {
-						"x": 471,
+						"x": 472,
 						"y": 289,
 						"w": 11,
 						"h": 14
@@ -5652,7 +5631,7 @@
 						"h": 14
 					},
 					"frame": {
-						"x": 471,
+						"x": 472,
 						"y": 304,
 						"w": 11,
 						"h": 14
@@ -5673,7 +5652,7 @@
 						"h": 14
 					},
 					"frame": {
-						"x": 471,
+						"x": 472,
 						"y": 319,
 						"w": 11,
 						"h": 14
@@ -5722,6 +5701,27 @@
 					}
 				},
 				{
+					"filename": "bracelet1.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 16
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 1,
+						"w": 14,
+						"h": 14
+					},
+					"frame": {
+						"x": 341,
+						"y": 318,
+						"w": 14,
+						"h": 14
+					}
+				},
+				{
 					"filename": "Garlic.png",
 					"rotated": false,
 					"trimmed": true,
@@ -5732,27 +5732,6 @@
 					"spriteSourceSize": {
 						"x": 2,
 						"y": 2,
-						"w": 13,
-						"h": 13
-					},
-					"frame": {
-						"x": 342,
-						"y": 318,
-						"w": 13,
-						"h": 13
-					}
-				},
-				{
-					"filename": "bracelet1.png",
-					"rotated": false,
-					"trimmed": true,
-					"sourceSize": {
-						"w": 16,
-						"h": 16
-					},
-					"spriteSourceSize": {
-						"x": 0,
-						"y": 3,
 						"w": 13,
 						"h": 13
 					},
@@ -5972,6 +5951,27 @@
 						"w": 11,
 						"h": 14
 					}
+				},
+				{
+					"filename": "SkullToken.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 16
+					},
+					"spriteSourceSize": {
+						"x": 3,
+						"y": 3,
+						"w": 11,
+						"h": 10
+					},
+					"frame": {
+						"x": 438,
+						"y": 322,
+						"w": 11,
+						"h": 10
+					}
 				}
 			]
 		}
@@ -5979,6 +5979,6 @@
 	"meta": {
 		"app": "https://www.codeandweb.com/texturepacker",
 		"version": "3.0",
-		"smartupdate": "$TexturePacker:SmartUpdate:df449b8cc7f6073a3532c132fb37aa0a:a10b883e1fcc14b421e1d79df42396a2:110e074689c9edd2c54833ce2e4d9270$"
+		"smartupdate": "$TexturePacker:SmartUpdate:a878a0449f77bb0ea5c1fd5f3772118d:c55f877cdfabe2731da1da035395a7c0:110e074689c9edd2c54833ce2e4d9270$"
 	}
 }
