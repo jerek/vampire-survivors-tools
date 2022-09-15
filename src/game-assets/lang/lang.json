@@ -22,7 +22,6 @@
       "menu_achievements": "成就",
       "menu_power_up": "道具",
       "menu_start": "开始",
-      "menu_quickstart": "quick start",
       "menu_credit": "制作团队",
       "menu_screen": "屏幕",
       "options_header": "选项",
@@ -255,7 +254,12 @@
       "weaponSelection_header": "Weapon Selection",
       "secrets_header": "Uncovered: %0/%1",
       "secrets_castspell": "Cast Spell",
-      "youramagician": "You are now a magician!"
+      "youramagician": "You are now a magician!",
+      "disableMovingBackground": "Disable moving background?",
+      "gameOver_revivePayout": "And cash-in leftover Revives: %0",
+      "stageConfirm_lockSelected": "Lock Selected",
+      "menu_quickstart": "quick start",
+      "arengijus_aliases": "Aren Gijus,Titto,Chalanda,SHAtsung,Marionello,Birky,Zylaz,Mi Kujino"
     }
   },
   "zh-TW": {
@@ -292,7 +296,6 @@
       "menu_achievements": "ACHIEVEMENTS",
       "menu_power_up": "POWER UP",
       "menu_start": "START",
-      "menu_quickstart": "quick start",
       "menu_credit": "credits",
       "menu_screen": "screen",
       "options_header": "Options",
@@ -367,7 +370,6 @@
       "character_header": "Character Selection",
       "weapon_header": "Collected: %0 of %1",
       "gameOver_bonus": "Bonus Coins: %0",
-      "gameOver_revivePayout": "And cash-in leftover Revives: %0",
       "gameOver_revive": "REVIVE",
       "gameOver_quit": "QUIT",
       "postGame_header": "Results",
@@ -527,7 +529,11 @@
       "secrets_header": "Uncovered: %0/%1",
       "secrets_castspell": "Cast Spell",
       "youramagician": "You are now a magician!",
-      "disableMovingBackground": "Disable Moving background"
+      "disableMovingBackground": "Disable moving background?",
+      "gameOver_revivePayout": "And cash-in leftover Revives: %0",
+      "stageConfirm_lockSelected": "Lock Selected",
+      "menu_quickstart": "quick start",
+      "arengijus_aliases": "Aren Gijus,Titto,Chalanda,SHAtsung,Marionello,Birky,Zylaz,Mi Kujino"
     }
   },
   "fi": {
@@ -546,7 +552,6 @@
       "menu_achievements": "SUCCÈS",
       "menu_power_up": "POWER-UP",
       "menu_start": "COMMENCER",
-      "menu_quickstart": "quick start",
       "menu_credit": "Crédits",
       "menu_screen": "écran",
       "options_header": "Options",
@@ -779,7 +784,12 @@
       "weaponSelection_header": "Weapon Selection",
       "secrets_header": "Uncovered: %0/%1",
       "secrets_castspell": "Cast Spell",
-      "youramagician": "You are now a magician!"
+      "youramagician": "You are now a magician!",
+      "disableMovingBackground": "Disable moving background?",
+      "gameOver_revivePayout": "And cash-in leftover Revives: %0",
+      "stageConfirm_lockSelected": "Lock Selected",
+      "menu_quickstart": "quick start",
+      "arengijus_aliases": "Aren Gijus,Titto,Chalanda,SHAtsung,Marionello,Birky,Zylaz,Mi Kujino"
     }
   },
   "de": {
@@ -792,7 +802,6 @@
       "menu_achievements": "ERFOLGE",
       "menu_power_up": "POWER-UP",
       "menu_start": "START",
-      "menu_quickstart": "quick start",
       "menu_credit": "Credits",
       "menu_screen": "Bildschirm",
       "options_header": "Optionen",
@@ -1025,7 +1034,12 @@
       "weaponSelection_header": "Weapon Selection",
       "secrets_header": "Uncovered: %0/%1",
       "secrets_castspell": "Cast Spell",
-      "youramagician": "You are now a magician!"
+      "youramagician": "You are now a magician!",
+      "disableMovingBackground": "Disable moving background?",
+      "gameOver_revivePayout": "And cash-in leftover Revives: %0",
+      "stageConfirm_lockSelected": "Lock Selected",
+      "menu_quickstart": "quick start",
+      "arengijus_aliases": "Aren Gijus,Titto,Chalanda,SHAtsung,Marionello,Birky,Zylaz,Mi Kujino"
     }
   },
   "el": {
@@ -1056,7 +1070,6 @@
       "menu_achievements": "アチーブメント",
       "menu_power_up": "パワーアップ",
       "menu_start": "開始",
-      "menu_quickstart": "quick start",
       "menu_credit": "クレジット",
       "menu_screen": "メニュー画面",
       "options_header": "オプション設定",
@@ -1289,7 +1302,12 @@
       "weaponSelection_header": "Weapon Selection",
       "secrets_header": "Uncovered: %0/%1",
       "secrets_castspell": "Cast Spell",
-      "youramagician": "You are now a magician!"
+      "youramagician": "You are now a magician!",
+      "disableMovingBackground": "Disable moving background?",
+      "gameOver_revivePayout": "And cash-in leftover Revives: %0",
+      "stageConfirm_lockSelected": "Lock Selected",
+      "menu_quickstart": "quick start",
+      "arengijus_aliases": "Aren Gijus,Titto,Chalanda,SHAtsung,Marionello,Birky,Zylaz,Mi Kujino"
     }
   },
   "ko": {
@@ -1302,7 +1320,6 @@
       "menu_achievements": "업적",
       "menu_power_up": "강화",
       "menu_start": "시작",
-      "menu_quickstart": "quick start",
       "menu_credit": "제작진",
       "menu_screen": "화면",
       "options_header": "옵션",
@@ -1535,7 +1552,12 @@
       "weaponSelection_header": "무기 선택",
       "secrets_header": "발견: %0/%1",
       "secrets_castspell": "주문 시전",
-      "youramagician": "당신은 지금부터 마법사 입니다!"
+      "youramagician": "당신은 지금부터 마법사 입니다!",
+      "disableMovingBackground": "백그라운드 이동을 비활성화하시겠습니까?",
+      "gameOver_revivePayout": "남은 부활 횟수를 금화로 획득: %0",
+      "stageConfirm_lockSelected": "선택 잠금",
+      "menu_quickstart": "빠른 시작",
+      "arengijus_aliases": "아렌 지유스,티토,샬란다,샤츤,마리오넬로,버키,질라즈,미 쿠지노"
     }
   },
   "no": {
@@ -1566,7 +1588,6 @@
       "menu_achievements": "CONQUISTAS",
       "menu_power_up": "APRIMORAMENTOS",
       "menu_start": "INICIAR",
-      "menu_quickstart": "quick start",
       "menu_credit": "Créditos",
       "menu_screen": "Tela",
       "options_header": "Opções",
@@ -1799,7 +1820,12 @@
       "weaponSelection_header": "Weapon Selection",
       "secrets_header": "Uncovered: %0/%1",
       "secrets_castspell": "Cast Spell",
-      "youramagician": "You are now a magician!"
+      "youramagician": "You are now a magician!",
+      "disableMovingBackground": "Disable moving background?",
+      "gameOver_revivePayout": "And cash-in leftover Revives: %0",
+      "stageConfirm_lockSelected": "Lock Selected",
+      "menu_quickstart": "quick start",
+      "arengijus_aliases": "Aren Gijus,Titto,Chalanda,SHAtsung,Marionello,Birky,Zylaz,Mi Kujino"
     }
   },
   "ro": {
@@ -1818,7 +1844,6 @@
       "menu_achievements": "ДОСТИЖЕНИЯ",
       "menu_power_up": "УСИЛЕНИЯ",
       "menu_start": "НАЧАТЬ",
-      "menu_quickstart": "quick start",
       "menu_credit": "авторы",
       "menu_screen": "экран",
       "options_header": "Опции",
@@ -1839,7 +1864,7 @@
       "treasure_header": "Найдено Сокровище!",
       "treasure_open": "ОТКРЫТЬ",
       "levelup_header": "Новый Уровень!",
-      "levelup_footer": "\n\n\nувеличьте свою Удачу и шанс\n\nполучить четвертый вариант",
+      "levelup_footer": "\n\n\nувеличьте свою Удачу и шанс\n\nполучить четвёртый вариант",
       "weapon_name": "Название",
       "weapon_level": "Уровень",
       "weapon_description": "Описание",
@@ -1851,8 +1876,8 @@
       "weaponLevelUp_all": "[Все]",
       "weaponLevelUp_area": "Увеличивает размер на %0%.\n",
       "weaponLevelUp_speed": "Увеличивает скорость на %0%.\n",
-      "weaponLevelUp_projectile": "Выпускает еще %0 снаряд.\n",
-      "weaponLevelUp_projectiles": "Выпускает еще %0 снаряда.\n",
+      "weaponLevelUp_projectile": "Выпускает ещё %0 снаряд.\n",
+      "weaponLevelUp_projectiles": "Выпускает ещё %0 снаряда.\n",
       "weaponLevelUp_enemy": "Проходит сквозь %0 врага.\n",
       "weaponLevelUp_enemies": "Проходит сквозь %0 врагов.\n",
       "weaponLevelUp_charge": "Получает %0 дополнительный заряд.\n",
@@ -1962,7 +1987,7 @@
       "postGame_done1": "ГОТОВО",
       "weaponLevelUp_revivals": "Добавляет %0  Оживление.",
       "preload_warning_title": "ПРЕДУПРЕЖДЕНИЕ О СВЕТОЧУВСТВИТЕЛЬНОСТИ",
-      "preload_warning_text": "В игре есть яркие вспышки света! Если вы испытываете головокружение, ухудшение зрения, подергивания глаз или лица, дрожь в руках или ногах, дезориентацию, спутанность сознания или кратковременные потери сознания, пожалуйста, немедленно прекратите играть и обратитесь к врачу.\n\nЕсли у вас или у кого-либо из ваших родственников в прошлом были эпилептические припадки, проконсультируйтесь с врачом перед игрой.",
+      "preload_warning_text": "В игре есть яркие вспышки света! Если вы испытываете головокружение, ухудшение зрения, подёргивания глаз или лица, дрожь в руках или ногах, дезориентацию, спутанность сознания или кратковременные потери сознания, пожалуйста, немедленно прекратите играть и обратитесь к врачу.\n\nЕсли у вас или у кого-либо из ваших родственников в прошлом были эпилептические припадки, проконсультируйтесь с врачом перед игрой.",
       "credit_translation": "ПЕРЕВОД",
       "levelup_skip": "ПРОПУСК",
       "levelup_reroll": "ПОВТОР",
@@ -2034,7 +2059,7 @@
       "bestiary_power": "Сила :",
       "bestiary_speed": "Скорость:",
       "res_Freeze": "Замораживается",
-      "res_Rosary": "Четки",
+      "res_Rosary": "Чётки",
       "res_Debuffs": "Дебафф",
       "res_Knockback": "Отбрасывание",
       "HPxLevel": "ОЗ x Уровень",
@@ -2047,11 +2072,16 @@
       "limitBreak_passes": "Количество базового оружия +%0",
       "weapon_limit_break_": "Уровень:",
       "healer_header": "Что ты с собой сделал?",
-      "quit_description": "и сохранить свое золото и разблокировки",
+      "quit_description": "и сохранить своё золото и разблокировки",
       "weaponSelection_header": "Выбор Оружия",
       "secrets_header": "Раскрыто: %0/%1",
       "secrets_castspell": "Произнесите Заклинание",
-      "youramagician": "Теперь ты маг!"
+      "youramagician": "Теперь ты маг!",
+      "disableMovingBackground": "Disable moving background?",
+      "gameOver_revivePayout": "And cash-in leftover Revives: %0",
+      "stageConfirm_lockSelected": "Lock Selected",
+      "menu_quickstart": "quick start",
+      "arengijus_aliases": "Aren Gijus,Titto,Chalanda,SHAtsung,Marionello,Birky,Zylaz,Mi Kujino"
     }
   },
   "es": {
@@ -2064,7 +2094,6 @@
       "menu_achievements": "LOGROS",
       "menu_power_up": "MEJORAS",
       "menu_start": "COMENZAR",
-      "menu_quickstart": "quick start",
       "menu_credit": "créditos",
       "menu_screen": "pantalla",
       "options_header": "Opciones",
@@ -2297,7 +2326,12 @@
       "weaponSelection_header": "Weapon Selection",
       "secrets_header": "Uncovered: %0/%1",
       "secrets_castspell": "Cast Spell",
-      "youramagician": "You are now a magician!"
+      "youramagician": "You are now a magician!",
+      "disableMovingBackground": "Disable moving background?",
+      "gameOver_revivePayout": "And cash-in leftover Revives: %0",
+      "stageConfirm_lockSelected": "Lock Selected",
+      "menu_quickstart": "quick start",
+      "arengijus_aliases": "Aren Gijus,Titto,Chalanda,SHAtsung,Marionello,Birky,Zylaz,Mi Kujino"
     }
   },
   "es-419": {

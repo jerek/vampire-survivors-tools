@@ -119,7 +119,25 @@ VST.VS.Arcana = new function () {
             description: 'Every 2 minutes attracts all standard stage items, pickups, and light sources towards the ' +
                 'character.',
         },
-        // 10: {name: '???', description: '???'},
+        10: {
+            name: 'IX - Divine Bloodline',
+            description: 'Armor also affects listed weapons\' damage and reflects enemy damage. Character gains bonus' +
+                ' damage depending on missing Health. Defeating enemies with retaliatory damage gives +0.5 Max Health.',
+            passives: [
+                VS.PASSIVE_ID_ARMOR,
+                VS.PASSIVE_ID_HOLLOW_HEART,
+            ],
+            weapons: [
+                VS.WEAPON_ID_CROSS,
+                VS.WEAPON_ID_KING_BIBLE,
+                VS.WEAPON_ID_GARLIC,
+                VS.WEAPON_ID_SANTA_WATER,
+                VS.WEAPON_ID_LIGHTNING_RING,
+                VS.WEAPON_ID_SONG_OF_MANA,
+                VS.WEAPON_ID_VENTO_SACRO,
+                VS.WEAPON_ID_VICTORY_SWORD,
+            ],
+        },
         11: {
             name: 'X - Beginning',
             description: 'Listed weapons get +1 Amount. The character\'s main weapon and its evolution gain +3 ' +
@@ -224,7 +242,24 @@ VST.VS.Arcana = new function () {
                 'weapon slot left empty.',
             items: ['Dice.png', 'Skip.png', 'Banish.png'],
         },
-        // 22: {name: 'Bloody', description: '???'},
+        22: {
+            name: 'XXI - Blood Astronomia',
+            description: 'Listed weapons also emit special damaging zones affected by Amount and Magnet. Enemies ' +
+                'within Magnet range take damage based on Amount.',
+            passives: [
+                VS.PASSIVE_ID_ATTRACTORB,
+            ],
+            weapons: [
+                VS.WEAPON_ID_GARLIC,
+                VS.WEAPON_ID_SOUL_EATER,
+                VS.WEAPON_ID_PENTAGRAM,
+                VS.WEAPON_ID_GORGEOUS_MOON,
+                VS.WEAPON_ID_SONG_OF_MANA,
+                VS.WEAPON_ID_MANNAJJA,
+                VS.WEAPON_ID_CLOCK_LANCET,
+                VS.WEAPON_ID_LAUREL,
+            ],
+        },
     };
 
     /** @type {number} The standard scaling size of arcana card images. */

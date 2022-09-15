@@ -388,6 +388,15 @@
       },
       "FindForbiddenScroll": {
         "description": "Find the Forbidden Scrolls of Morbane."
+      },
+      "ReachLV99WithClerici": {
+        "description": "Reach Level 99 with Suor Clerici."
+      },
+      "CompleteCollection": {
+        "description": "Complete the Collection."
+      },
+      "Defeat100kWithSigma": {
+        "description": "Defeat 100000 enemies in a single run with Queen Sigma."
       }
     }
   },
@@ -791,6 +800,15 @@
       },
       "FindForbiddenScroll": {
         "description": "Find the Forbidden Scrolls of Morbane."
+      },
+      "ReachLV99WithClerici": {
+        "description": "Reach Level 99 with Suor Clerici."
+      },
+      "CompleteCollection": {
+        "description": "Complete the Collection."
+      },
+      "Defeat100kWithSigma": {
+        "description": "Defeat 100000 enemies in a single run with Queen Sigma."
       }
     }
   },
@@ -1176,6 +1194,15 @@
       },
       "FindForbiddenScroll": {
         "description": "Find the Forbidden Scrolls of Morbane."
+      },
+      "ReachLV99WithClerici": {
+        "description": "Reach Level 99 with Suor Clerici."
+      },
+      "CompleteCollection": {
+        "description": "Complete the Collection."
+      },
+      "Defeat100kWithSigma": {
+        "description": "Defeat 100000 enemies in a single run with Queen Sigma."
       }
     }
   },
@@ -1555,6 +1582,15 @@
       },
       "FindForbiddenScroll": {
         "description": "Find the Forbidden Scrolls of Morbane."
+      },
+      "ReachLV99WithClerici": {
+        "description": "Reach Level 99 with Suor Clerici."
+      },
+      "CompleteCollection": {
+        "description": "Complete the Collection."
+      },
+      "Defeat100kWithSigma": {
+        "description": "Defeat 100000 enemies in a single run with Queen Sigma."
       }
     }
   },
@@ -1952,6 +1988,15 @@
       },
       "FindForbiddenScroll": {
         "description": "Find the Forbidden Scrolls of Morbane."
+      },
+      "ReachLV99WithClerici": {
+        "description": "Reach Level 99 with Suor Clerici."
+      },
+      "CompleteCollection": {
+        "description": "Complete the Collection."
+      },
+      "Defeat100kWithSigma": {
+        "description": "Defeat 100000 enemies in a single run with Queen Sigma."
       }
     }
   },
@@ -2069,10 +2114,10 @@
         "description": "누적 100,000마리의 적을 처치."
       },
       "Recover1000HP": {
-        "description": "누적 1000의 체력을 회복."
+        "description": "누적 1,000의 체력을 회복."
       },
       "Earn5000CoinsInASingleRun": {
-        "description": "한 게임에서 5000골드 획득."
+        "description": "한 게임에서 5,000골드 획득."
       },
       "EvolveSantaWater": {
         "description": "성수 진화."
@@ -2171,7 +2216,7 @@
         "description": "비앙카 람바로 100레벨 달성."
       },
       "Defeat3000Milk": {
-        "description": "누적 3000마리의 우유의 정령 처치."
+        "description": "누적 3,000마리의 우유의 정령 처치."
       },
       "EvolveRunetracer": {
         "description": "룬 트레이서 진화."
@@ -2331,6 +2376,15 @@
       },
       "FindForbiddenScroll": {
         "description": "금지된 모르베인의 두루마리 발견."
+      },
+      "ReachLV99WithClerici": {
+        "description": "수녀 클레리씨 99레벨 달성."
+      },
+      "CompleteCollection": {
+        "description": "컬렉션을 완성하세요."
+      },
+      "Defeat100kWithSigma": {
+        "description": "여왕 시그마로 한게임에서 100,000마리의 적을 처치."
       }
     }
   },
@@ -2728,6 +2782,15 @@
       },
       "FindForbiddenScroll": {
         "description": "Find the Forbidden Scrolls of Morbane."
+      },
+      "ReachLV99WithClerici": {
+        "description": "Reach Level 99 with Suor Clerici."
+      },
+      "CompleteCollection": {
+        "description": "Complete the Collection."
+      },
+      "Defeat100kWithSigma": {
+        "description": "Defeat 100000 enemies in a single run with Queen Sigma."
       }
     }
   },
@@ -2800,7 +2863,7 @@
         "description": "Найдите Часослов."
       },
       "FindARosary": {
-        "description": "Найдите Четки."
+        "description": "Найдите Чётки."
       },
       "Defeat5000Enemies": {
         "description": "Победите в общей сложности 5000 врагов."
@@ -2860,7 +2923,7 @@
         "description": "Улучшите Святую Воду."
       },
       "UniteBirds": {
-        "description": "Объедините Черные Крылья и Голубя."
+        "description": "Объедините Чёрные Крылья и Голубя."
       },
       "EvolveGarlic": {
         "description": "Улучшите Чеснок."
@@ -2875,7 +2938,7 @@
         "description": "Достигните 100 Уровня с Мортаччо."
       },
       "Survive30MinutesInGreenAcres": {
-        "description": "Выживите 30 минут в Зеленых Акрах."
+        "description": "Выживите 30 минут в Зелёных Акрах."
       },
       "Survive20MinutesWithCross": {
         "description": "Выживите 20 минут с Крочи."
@@ -2941,7 +3004,7 @@
         "description": "Достигните 60 Уровня на Молочном Заводе."
       },
       "FindSorceressTears": {
-        "description": "Найдите Слезы Чародейки."
+        "description": "Найдите Слёзы Чародейки."
       },
       "DefeatBossTower": {
         "description": "Победите Гигантского Вражеского Краба в Башне Галло."
@@ -3034,7 +3097,7 @@
         "description": "Откройте 90 предметов в Коллекции."
       },
       "FindYellowSign": {
-        "description": "Найдите Желтый Знак."
+        "description": "Найдите Жёлтый Знак."
       },
       "ObtainTheInfiniteCorridor": {
         "description": "Получите Бесконечный Коридор."
@@ -3070,7 +3133,7 @@
         "description": "Победите Тринакрию в Капелла Магна."
       },
       "Defeat6000StageKillers": {
-        "description": "Победите в общей сложности 6000 Сценических убийц."
+        "description": "Победите в общей сложности 6000 Этапных убийц."
       },
       "ReachLV99WithPorta": {
         "description": "Достигните 99 Уровня с Порта."
@@ -3113,6 +3176,15 @@
       },
       "FindForbiddenScroll": {
         "description": "Найдите Запретные Свитки Морбейна."
+      },
+      "ReachLV99WithClerici": {
+        "description": "Достигните 99 Уровня с Суор Клеричи."
+      },
+      "CompleteCollection": {
+        "description": "Соберите полную Коллекцию."
+      },
+      "Defeat100kWithSigma": {
+        "description": "Победите 100000 врагов за один заход с Королевой Сигмой."
       }
     }
   },
@@ -3492,6 +3564,15 @@
       },
       "FindForbiddenScroll": {
         "description": "Find the Forbidden Scrolls of Morbane."
+      },
+      "ReachLV99WithClerici": {
+        "description": "Reach Level 99 with Suor Clerici."
+      },
+      "CompleteCollection": {
+        "description": "Complete the Collection."
+      },
+      "Defeat100kWithSigma": {
+        "description": "Defeat 100000 enemies in a single run with Queen Sigma."
       }
     }
   },

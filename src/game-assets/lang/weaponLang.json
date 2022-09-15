@@ -329,12 +329,12 @@
         "description": "Union of Vento Sacro and Bloody Tear. Critical hits might generate explosions."
       },
       "PANDORA": {
-        "tips": "Torrona's Box",
+        "name": "Torrona's Box",
         "description": "Cursed item, but increases Might, Projectile Speed, Duration, and Area by 4%.",
         "customDescValue": "Increases Might, Projectile Speed, Duration, and Area by %0%",
         "customOverrideValue": "Cursed item, but increases Might, Projectile Speed, Duration, and Area by 4%"
       },
-      "LAROBBA": {
+      "ROBBA": {
         "tips": "Best with: duration, speed.",
         "description": "Generates bouncing projectiles.",
         "name": "La Robba"
@@ -375,6 +375,16 @@
         "name": "Candybox",
         "description": "Allows you to choose any unlocked base weapon.",
         "tips": "Occurrence in level up options affected by Luck."
+      },
+      "VICTORY": {
+        "name": "Victory Sword",
+        "description": "Strikes with a combo attack at the nearest enemy. Retaliates.",
+        "tips": "Ignores: speed, duration."
+      },
+      "SOLES": {
+        "name": "Sole Solution",
+        "description": "Gift of Victory Sword. The more enemies are defeated, the stronger it grows.",
+        "tips": "Requires Max: Victory Sword, Torrona's Box."
       }
     }
   },
@@ -719,12 +729,12 @@
         "description": "Union of Vento Sacro and Bloody Tear. Critical hits might generate explosions."
       },
       "PANDORA": {
-        "tips": "Torrona's Box",
+        "name": "Torrona's Box",
         "description": "Cursed item, but increases Might, Projectile Speed, Duration, and Area by 4%.",
         "customDescValue": "Increases Might, Projectile Speed, Duration, and Area by %0%",
         "customOverrideValue": "Cursed item, but increases Might, Projectile Speed, Duration, and Area by %0%"
       },
-      "LAROBBA": {
+      "ROBBA": {
         "tips": "Best with: duration, speed.",
         "description": "Generates bouncing projectiles.",
         "name": "La Robba"
@@ -765,6 +775,16 @@
         "name": "Candybox",
         "description": "Allows you to choose any unlocked base weapon.",
         "tips": "Occurrence in level up options affected by Luck."
+      },
+      "VICTORY": {
+        "name": "Victory Sword",
+        "description": "Strikes with a combo attack at the nearest enemy. Retaliates.",
+        "tips": "Ignores: speed, duration."
+      },
+      "SOLES": {
+        "name": "Sole Solution",
+        "description": "Gift of Victory Sword. The more enemies are defeated, the stronger it grows.",
+        "tips": "Requires Max: Victory Sword, Torrona's Box."
       }
     }
   },
@@ -1091,12 +1111,12 @@
         "description": "Union of Vento Sacro and Bloody Tear. Critical hits might generate explosions."
       },
       "PANDORA": {
-        "tips": "Torrona's Box",
+        "name": "Torrona's Box",
         "description": "Cursed item, but increases Might, Projectile Speed, Duration, and Area by 4%.",
         "customDescValue": "Increases Might, Projectile Speed, Duration, and Area by %0%",
         "customOverrideValue": "Cursed item, but increases Might, Projectile Speed, Duration, and Area by 4%"
       },
-      "LAROBBA": {
+      "ROBBA": {
         "tips": "Best with: duration, speed.",
         "description": "Generates bouncing projectiles.",
         "name": "La Robba"
@@ -1137,6 +1157,16 @@
         "name": "Candybox",
         "description": "Allows you to choose any unlocked base weapon.",
         "tips": "Occurrence in level up options affected by Luck."
+      },
+      "VICTORY": {
+        "name": "Victory Sword",
+        "description": "Strikes with a combo attack at the nearest enemy. Retaliates.",
+        "tips": "Ignores: speed, duration."
+      },
+      "SOLES": {
+        "name": "Sole Solution",
+        "description": "Gift of Victory Sword. The more enemies are defeated, the stronger it grows.",
+        "tips": "Requires Max: Victory Sword, Torrona's Box."
       }
     }
   },
@@ -1457,12 +1487,12 @@
         "description": "Union of Vento Sacro and Bloody Tear. Critical hits might generate explosions."
       },
       "PANDORA": {
-        "tips": "Torrona's Box",
+        "name": "Torrona's Box",
         "description": "Cursed item, but increases Might, Projectile Speed, Duration, and Area by 4%.",
         "customDescValue": "Increases Might, Projectile Speed, Duration, and Area by %0%",
         "customOverrideValue": "Cursed item, but increases Might, Projectile Speed, Duration, and Area by 4%"
       },
-      "LAROBBA": {
+      "ROBBA": {
         "tips": "Best with: duration, speed.",
         "description": "Generates bouncing projectiles.",
         "name": "La Robba"
@@ -1503,6 +1533,16 @@
         "name": "Candybox",
         "description": "Allows you to choose any unlocked base weapon.",
         "tips": "Occurrence in level up options affected by Luck."
+      },
+      "VICTORY": {
+        "name": "Victory Sword",
+        "description": "Strikes with a combo attack at the nearest enemy. Retaliates.",
+        "tips": "Ignores: speed, duration."
+      },
+      "SOLES": {
+        "name": "Sole Solution",
+        "description": "Gift of Victory Sword. The more enemies are defeated, the stronger it grows.",
+        "tips": "Requires Max: Victory Sword, Torrona's Box."
       }
     }
   },
@@ -1841,12 +1881,12 @@
         "description": "聖なる風とブラッディー・ティアの合体。 クリティカルで爆発を起こすことがある。"
       },
       "PANDORA": {
-        "tips": "トローナの箱",
+        "name": "トローナの箱",
         "description": "呪われたアイテムだが、 威力、 発射速度、 効果時間、 範囲が4%上昇する.",
         "customDescValue": "Increases Might, Projectile Speed, Duration, and Area by %0%",
         "customOverrideValue": "Cursed item, but increases Might, Projectile Speed, Duration, and Area by 4%"
       },
-      "LAROBBA": {
+      "ROBBA": {
         "tips": "Best with: duration, speed.",
         "description": "Generates bouncing projectiles.",
         "name": "La Robba"
@@ -1887,6 +1927,16 @@
         "name": "Candybox",
         "description": "Allows you to choose any unlocked base weapon.",
         "tips": "Occurrence in level up options affected by Luck."
+      },
+      "VICTORY": {
+        "name": "Victory Sword",
+        "description": "Strikes with a combo attack at the nearest enemy. Retaliates.",
+        "tips": "Ignores: speed, duration."
+      },
+      "SOLES": {
+        "name": "Sole Solution",
+        "description": "Gift of Victory Sword. The more enemies are defeated, the stronger it grows.",
+        "tips": "Requires Max: Victory Sword, Torrona's Box."
       }
     }
   },
@@ -2207,12 +2257,12 @@
         "description": "성스러운 바람과 피눈물의 진화형.치명타 공격시 범위 대미지를 줍니다."
       },
       "PANDORA": {
-        "tips": "토로나의 상자",
+        "name": "토로나의 상자",
         "description": "저주받은 아이템이지만 힘, 투사체 속도, 지속 시간, 공격범위가 4% 증가합니다.",
         "customDescValue": "공격력,투사체 속도,지속시간 및 공격범위를 %0%만큼 증가시킵니다.",
         "customOverrideValue": "저주받은 아이템이지만 공격력,투사체 속도,지속 시간 및 공격범위가 4% 증가합니다."
       },
-      "LAROBBA": {
+      "ROBBA": {
         "tips": "추천조합 : 지속시간,공격속도",
         "description": "통통 튀는 투사체를 소환하여 공격합니다.",
         "name": "라 로바"
@@ -2253,6 +2303,16 @@
         "name": "사탕상자",
         "description": "해금한 무기중 한가지를 원하는대로 선택할수 있습니다.",
         "tips": "행운의 영향을 받는 레벨업 옵션의 발생."
+      },
+      "VICTORY": {
+        "name": "승리의 검",
+        "description": "가장 가까운 적에게 참격을 가합니다. 피격시 자동으로 추가 공격을 가합니다.",
+        "tips": "강화 무시: 속도, 지속 시간."
+      },
+      "SOLES": {
+        "name": "솔 솔루션",
+        "description": "승리의 검의 선물. 적을 처치할수록 성장합니다.",
+        "tips": "획득 조건: 승리의 검, 토로나의 상자 각각 최대 레벨"
       }
     }
   },
@@ -2591,12 +2651,12 @@
         "description": "Union of Vento Sacro and Bloody Tear. Critical hits might generate explosions."
       },
       "PANDORA": {
-        "tips": "Torrona's Box",
+        "name": "Torrona's Box",
         "description": "Cursed item, but increases Might, Projectile Speed, Duration, and Area by 4%.",
         "customDescValue": "Increases Might, Projectile Speed, Duration, and Area by %0%",
         "customOverrideValue": "Cursed item, but increases Might, Projectile Speed, Duration, and Area by 4%"
       },
-      "LAROBBA": {
+      "ROBBA": {
         "tips": "Best with: duration, speed.",
         "description": "Generates bouncing projectiles.",
         "name": "La Robba"
@@ -2637,6 +2697,16 @@
         "name": "Candybox",
         "description": "Allows you to choose any unlocked base weapon.",
         "tips": "Occurrence in level up options affected by Luck."
+      },
+      "VICTORY": {
+        "name": "Victory Sword",
+        "description": "Strikes with a combo attack at the nearest enemy. Retaliates.",
+        "tips": "Ignores: speed, duration."
+      },
+      "SOLES": {
+        "name": "Sole Solution",
+        "description": "Gift of Victory Sword. The more enemies are defeated, the stronger it grows.",
+        "tips": "Requires Max: Victory Sword, Torrona's Box."
       }
     }
   },
@@ -2733,7 +2803,7 @@
       },
       "GARLIC": {
         "name": "Чеснок",
-        "description": "Бьет по ближайшим врагам. Снижает сопротивление к отброске и заморозке.",
+        "description": "Бьёт по ближайшим врагам. Снижает сопротивление к отброске и заморозке.",
         "tips": "Игнорирует: количество, срок, скорость."
       },
       "LAUREL": {
@@ -2743,7 +2813,7 @@
       },
       "LIGHTNING": {
         "name": "Кольцо Молний",
-        "description": "Бьет в случайных врагов.",
+        "description": "Бьёт в случайных врагов.",
         "tips": "Игнорирует: скорость, срок."
       },
       "PENTAGRAM": {
@@ -2758,7 +2828,7 @@
         "tips": "Лучше сочетается с: откат, срок."
       },
       "SILF2": {
-        "name": "Черные Крылья",
+        "name": "Чёрные Крылья",
         "description": "Бомбардирует в кружащейся зоне.",
         "tips": "Лучше сочетается с: откат, срок."
       },
@@ -2768,7 +2838,7 @@
         "tips": "Лучше сочетается с: срок, скорость."
       },
       "LANCET": {
-        "name": "Копье Времени",
+        "name": "Копьё Времени",
         "description": "Шанс временно заморозить врагов.",
         "tips": "Игнорирует: сила, скорость, количество, размер."
       },
@@ -2830,7 +2900,7 @@
       },
       "VORTEX": {
         "name": "Пожиратель Душ",
-        "description": "Улучшенный Чеснок. Крадет сердца. Сила возрастает при регенерации ОЗ.",
+        "description": "Улучшенный Чеснок. Крадёт сердца. Сила возрастает при регенерации ОЗ.",
         "tips": "Требует: Бычье Сердце."
       },
       "BORA": {
@@ -2840,7 +2910,7 @@
       },
       "SILF3": {
         "name": "Вандалист",
-        "description": "Объединение Черных Крыльев и Голубя."
+        "description": "Объединение Чёрных Крыльев и Голубя."
       },
       "REVIVAL": {
         "name": "Тирагису",
@@ -2856,7 +2926,7 @@
         "description": "Увеличивает скорость, ОЗ, кол-во и частоту появления врагов на 10%."
       },
       "CHERRY": {
-        "name": "Вишневая Бомба",
+        "name": "Вишнёвая Бомба",
         "description": "Выпускает отскакивающий снаряд. Иногда взрывается.",
         "tips": "Лучше сочетается с: удача.",
         "customDescValue": "%0% шанс взрыва."
@@ -2878,12 +2948,12 @@
       },
       "GUNS": {
         "name": "Фиера Дер Туфелло",
-        "description": "Стреляет быстро в четырех фиксированных направлениях.",
+        "description": "Стреляет быстро в четырёх фиксированных направлениях.",
         "tips": "Игнорирует: срок."
       },
       "GUNS2": {
         "name": "8-ой Воробей",
-        "description": "Стреляет быстро в четырех фиксированных направлениях.",
+        "description": "Стреляет быстро в четырёх фиксированных направлениях.",
         "tips": "Игнорирует: срок."
       },
       "GUNS3": {
@@ -2904,13 +2974,13 @@
       "GATTI": {
         "name": "Противные Кошки",
         "description": "Вызывает снаряды, взаимодействующие с подбираемыми предметами.",
-        "tips": "Лучше сочетается с: удача, жаренный цыпленок."
+        "tips": "Лучше сочетается с: удача, жаренный цыплёнок."
       },
       "FLOWER": {
         "name": "Небесная Пыль",
         "description": "Бросает отскакивающий снаряд. Время перезарядки уменьшается при движении.",
         "tips": "Лучше сочетается с: Подвижность.",
-        "customDescValue": "Побежденные враги могут уронить сердца."
+        "customDescValue": "Побеждённые враги могут уронить сердца."
       },
       "TRAPANO": {
         "name": "Теневая Шестерня",
@@ -2929,12 +2999,12 @@
       },
       "SHROUD": {
         "name": "Багровый Саван",
-        "description": "Улучшенный Лавр. Уменьшает получаемый урон на 10. При разрядке бьет в ответ.",
+        "description": "Улучшенный Лавр. Уменьшает получаемый урон на 10. При разрядке бьёт в ответ.",
         "tips": "Требует: Метаглио Левый, Метаглио Правый."
       },
       "CORRIDOR": {
         "name": "Бесконечный Коридор",
-        "description": "Улучшенное Копье Времени. Вдвое уменьшает здоровье врагов.",
+        "description": "Улучшенное Копьё Времени. Вдвое уменьшает здоровье врагов.",
         "tips": "Требует: Золотое Кольцо, Серебрянное Кольцо."
       },
       "GOLD": {
@@ -2943,15 +3013,15 @@
       },
       "SILVER": {
         "name": "Серебрянное кольцо",
-        "description": "Носить... Копьем..."
+        "description": "Носить... Копьём..."
       },
       "LEFT": {
         "name": "Метаглио Левый",
-        "description": "Источает темные силы для защиты носителя."
+        "description": "Источает тёмные силы для защиты носителя."
       },
       "RIGHT": {
         "name": "Метаглио Правый",
-        "description": "Источает темные силы, чтобы проклясть носителя."
+        "description": "Источает тёмные силы, чтобы проклясть носителя."
       },
       "VENTO": {
         "name": "Венто Сакро",
@@ -2963,12 +3033,12 @@
         "description": "Объединение Венто Сакро и Кровавой Слезы. Критические попадания могут привести к взрывам."
       },
       "PANDORA": {
-        "tips": "Шкатулка Торроны",
+        "name": "Шкатулка Торроны",
         "description": "Проклятый предмет, но увеличивает Силу, Скорость Снаряда, Срок и Размер на 4%.",
         "customDescValue": "Увеличивает Силу, Скорость, Срок и Размер на %0%",
         "customOverrideValue": "Проклятый предмет, но увеличивает Силу, Скорость, Срок и Размер на 4%"
       },
-      "LAROBBA": {
+      "ROBBA": {
         "tips": "Лучше сочетается с: срок, скорость.",
         "description": "Генерирует отскакивающие снаряды.",
         "name": "Ля Робба"
@@ -2997,18 +3067,28 @@
       },
       "GUNS_COUNTER": {
         "name": "Красная Мышца",
-        "description": "Стреляет быстро в четырех фиксированных направлениях.",
+        "description": "Стреляет быстро в четырёх фиксированных направлениях.",
         "tips": "Игнорирует: срок."
       },
       "GUNS2_COUNTER": {
         "name": "Дважды Давным-Давно",
-        "description": "Стреляет быстро в четырех фиксированных направлениях.",
+        "description": "Стреляет быстро в четырёх фиксированных направлениях.",
         "tips": "Игнорирует: срок."
       },
       "CANDYBOX": {
         "name": "Коробка Конфет",
         "description": "Позволяет вам выбрать любое разблокированное базовое оружие.",
-        "tips": "Occurrence in level up options affected by Luck."
+        "tips": "Появление в окне повышения уровня зависит от Удачи."
+      },
+      "VICTORY": {
+        "name": "Победный Меч",
+        "description": "Наносит комбинированный удары по ближайшему врагу. Наносит ответный удар.",
+        "tips": "Игнорирует: скорость, срок."
+      },
+      "SOLES": {
+        "name": "Единое Решение",
+        "description": "Дар Победного Меча. Чем больше врагов побеждено, тем сильнее он становится.",
+        "tips": "Требует как максимум: Победный Меч, Шкатулка Торроны."
       }
     }
   },
@@ -3329,12 +3409,12 @@
         "description": "Union of Vento Sacro and Bloody Tear. Critical hits might generate explosions."
       },
       "PANDORA": {
-        "tips": "Torrona's Box",
+        "name": "Torrona's Box",
         "description": "Cursed item, but increases Might, Projectile Speed, Duration, and Area by 4%.",
         "customDescValue": "Increases Might, Projectile Speed, Duration, and Area by %0%",
         "customOverrideValue": "Cursed item, but increases Might, Projectile Speed, Duration, and Area by 4%"
       },
-      "LAROBBA": {
+      "ROBBA": {
         "tips": "Best with: duration, speed.",
         "description": "Generates bouncing projectiles.",
         "name": "La Robba"
@@ -3375,6 +3455,16 @@
         "name": "Candybox",
         "description": "Allows you to choose any unlocked base weapon.",
         "tips": "Occurrence in level up options affected by Luck."
+      },
+      "VICTORY": {
+        "name": "Victory Sword",
+        "description": "Strikes with a combo attack at the nearest enemy. Retaliates.",
+        "tips": "Ignores: speed, duration."
+      },
+      "SOLES": {
+        "name": "Sole Solution",
+        "description": "Gift of Victory Sword. The more enemies are defeated, the stronger it grows.",
+        "tips": "Requires Max: Victory Sword, Torrona's Box."
       }
     }
   },

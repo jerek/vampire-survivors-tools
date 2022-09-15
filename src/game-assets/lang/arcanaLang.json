@@ -53,6 +53,10 @@
         "name": "VIII - Mad Groove",
         "description": "Every 2 minutes attracts all standard stage items, pickups, and light sources towards the character."
       },
+      "9": {
+        "name": "IX - Divine Bloodline",
+        "description": "Armor also affects listed weapons' damage and reflects enemy damage. Character gains bonus damage depending on missing Health. Defeating enemies with retaliatory damage gives +0.5 Max Health."
+      },
       "10": {
         "name": "X - Beginning",
         "description": "Listed weapons get +1 Amount. The character's main weapon and its evolution gain +3 Amount instead."
@@ -163,6 +167,10 @@
         "name": "VIII - Mad Groove",
         "description": "Every 2 minutes attracts all standard stage items, pickups, and light sources towards the character."
       },
+      "9": {
+        "name": "IX - Divine Bloodline",
+        "description": "Armor also affects listed weapons' damage and reflects enemy damage. Character gains bonus damage depending on missing Health. Defeating enemies with retaliatory damage gives +0.5 Max Health."
+      },
       "10": {
         "name": "X - Beginning",
         "description": "Listed weapons get +1 Amount. The character's main weapon and its evolution gain +3 Amount instead."
@@ -255,6 +263,10 @@
         "name": "VIII - Mad Groove",
         "description": "Every 2 minutes attracts all standard stage items, pickups, and light sources towards the character."
       },
+      "9": {
+        "name": "IX - Divine Bloodline",
+        "description": "Armor also affects listed weapons' damage and reflects enemy damage. Character gains bonus damage depending on missing Health. Defeating enemies with retaliatory damage gives +0.5 Max Health."
+      },
       "10": {
         "name": "X - Beginning",
         "description": "Listed weapons get +1 Amount. The character's main weapon and its evolution gain +3 Amount instead."
@@ -340,6 +352,10 @@
       "8": {
         "name": "VIII - Mad Groove",
         "description": "Every 2 minutes attracts all standard stage items, pickups, and light sources towards the character."
+      },
+      "9": {
+        "name": "IX - Divine Bloodline",
+        "description": "Armor also affects listed weapons' damage and reflects enemy damage. Character gains bonus damage depending on missing Health. Defeating enemies with retaliatory damage gives +0.5 Max Health."
       },
       "10": {
         "name": "X - Beginning",
@@ -445,6 +461,10 @@
         "name": "VIII - マッド・グルーヴ",
         "description": "2分ごとに標準的なステージアイテム、 ピックアップ、 光源をすべてキャラクターに向かって引き寄せる。"
       },
+      "9": {
+        "name": "IX - Divine Bloodline",
+        "description": "Armor also affects listed weapons' damage and reflects enemy damage. Character gains bonus damage depending on missing Health. Defeating enemies with retaliatory damage gives +0.5 Max Health."
+      },
       "10": {
         "name": "X - ビギニング",
         "description": "リストされた武器は+1を得る。 キャラクターのメイン武器とその進化は代わりに+3される。"
@@ -530,6 +550,10 @@
       "8": {
         "name": "VIII - 광기의 그루브",
         "description": "2분마다 모든 스테이지의 드롭아이템.화로를 캐틱터 주변으로 끌어옵니다."
+      },
+      "9": {
+        "name": "IX - 신성한 혈통",
+        "description": "갑옷과 목록에 있는 무기의 피해에 영향을 미치고 적의 피해를 반영합니다. 캐릭터는 잃은 체력에 따라 추가 피해를 얻습니다. 반사 데미지 로 적을 물리치면 최대 체력이 +0.5 증가합니다."
       },
       "10": {
         "name": "X - 근원",
@@ -635,6 +659,10 @@
         "name": "VIII - Mad Groove",
         "description": "Every 2 minutes attracts all standard stage items, pickups, and light sources towards the character."
       },
+      "9": {
+        "name": "IX - Divine Bloodline",
+        "description": "Armor also affects listed weapons' damage and reflects enemy damage. Character gains bonus damage depending on missing Health. Defeating enemies with retaliatory damage gives +0.5 Max Health."
+      },
       "10": {
         "name": "X - Beginning",
         "description": "Listed weapons get +1 Amount. The character's main weapon and its evolution gain +3 Amount instead."
@@ -697,7 +725,7 @@
       },
       "1": {
         "name": "I - Близнецы",
-        "description": "Перечисленное оружие выдается в двух экземплярах."
+        "description": "Перечисленное оружие выдаётся в двух экземплярах."
       },
       "2": {
         "name": "II - Сумеречный Реквием",
@@ -712,7 +740,7 @@
         "description": "Дает +3 Оживления. Использование Оживления дает +10% к Макс. ОЗ, +1 к Броне, и +5% к Силе, Размеру, Сроку и Подвижности."
       },
       "5": {
-        "name": "V - Хаос в Темной Ночи",
+        "name": "V - Хаос в Тёмной Ночи",
         "description": "Общая Скорость снаряда непрерывно меняется от -50% до +50% в течение 10 секунд. Персонаж начинает набирать по 1% к Скорости снаряда с каждым уровнем."
       },
       "6": {
@@ -727,6 +755,10 @@
         "name": "VIII - Безумный Паз",
         "description": "Каждые 2 минуты притягивает все стандартные предметы этапа, подбираемые предметы и источники света к персонажу."
       },
+      "9": {
+        "name": "IX - Божественная Родословная",
+        "description": "Броня влияет на урон от перечисленного оружия и отражает урон врагов. Персонаж получает доп. урон в зависимости от недостающего Здоровья. Враги поражение ответным уроном дают +0,5 к Макс.ОЗ."
+      },
       "10": {
         "name": "X - Начало",
         "description": "Перечисленное оружие получает +1 к Количеству. Основное оружие персонажа и его улучшенная версия получают +3 к Количеству."
@@ -740,7 +772,7 @@
       },
       "13": {
         "name": "XIII - Плохой Сезон",
-        "description": "Общий Прирост, Удача, Жадность и Проклятье удваиваются через определенное время. Персонаж начинает получать +1% к Приосту, Удаче, Жадности и Проклятью каждые 2 уровня."
+        "description": "Общий Прирост, Удача, Жадность и Проклятье удваиваются через определённое время. Персонаж начинает получать +1% к Приосту, Удаче, Жадности и Проклятью каждые 2 уровня."
       },
       "14": {
         "name": "XIV - Кристальная Темница",
@@ -768,7 +800,7 @@
       },
       "20": {
         "name": "XX - Тихое Старое Святилище",
-        "description": "Дает +3 к Повтору, Пропуску и Исключению. Дает +20% Силы и -8% Отката за каждый активный слот оружия, оставшийся пустым."
+        "description": "Даёт +3 к Повтору, Пропуску и Исключению. Даёт +20% Силы и -8% Отката за каждый активный слот оружия, оставшийся пустым."
       }
     }
   },
@@ -812,6 +844,10 @@
       "8": {
         "name": "VIII - Mad Groove",
         "description": "Every 2 minutes attracts all standard stage items, pickups, and light sources towards the character."
+      },
+      "9": {
+        "name": "IX - Divine Bloodline",
+        "description": "Armor also affects listed weapons' damage and reflects enemy damage. Character gains bonus damage depending on missing Health. Defeating enemies with retaliatory damage gives +0.5 Max Health."
       },
       "10": {
         "name": "X - Beginning",
