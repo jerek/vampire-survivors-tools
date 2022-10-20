@@ -1,0 +1,41 @@
+{
+	"textures": [
+		{
+			"image": "_MISSING.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 518,
+				"h": 518
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "_MISSING.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 512,
+						"h": 512
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 512,
+						"h": 512
+					},
+					"frame": {
+						"x": 3,
+						"y": 3,
+						"w": 512,
+						"h": 512
+					}
+				}
+			]
+		}
+	],
+	"meta": {
+		"app": "https://www.codeandweb.com/texturepacker",
+		"version": "3.0",
+		"smartupdate": "$TexturePacker:SmartUpdate:1c1c88e4a3a8a6448287a54a8168f430:4ddf58895e699f9f121e4b375bee269a:c9f736d46df40e795b9602db38ffe7b5$"
+	}
+}
