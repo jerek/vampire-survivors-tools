@@ -132,6 +132,9 @@ VST.VS = new function () {
     /** @type {WeaponId} */ this.WEAPON_ID_BI_BRACELET = 49;
     /** @type {WeaponId} */ this.WEAPON_ID_TRI_BRACELET = 50;
     /** @type {WeaponId} */ this.WEAPON_ID_VICTORY_SWORD = 51;
+    /** @type {WeaponId} */ this.WEAPON_ID_GREATEST_JUBILEE = 52;
+    /** @type {WeaponId} */ this.WEAPON_ID_FLAMES_OF_MISSPELL = 53;
+    /** @type {WeaponId} */ this.WEAPON_ID_ASHES_OF_MUSPELL = 54;
 
     // ********************* //
     // ***** FUNCTIONS ***** //

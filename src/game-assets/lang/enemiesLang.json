@@ -1,0 +1,5149 @@
+{
+  "xx": {},
+  "ar": {
+    "english": "Arabic",
+    "native": "العربية",
+    "api": "arabic",
+    "translations": {}
+  },
+  "bg": {
+    "english": "Bulgarian",
+    "native": "български език",
+    "api": "bulgarian",
+    "translations": {}
+  },
+  "zh-CN": {
+    "english": "Chinese",
+    "native": "简体中文",
+    "api": "schinese",
+    "translations": {
+      "SKELETON": {
+        "bName": "骨骼",
+        "bDesc": "没有骨骼,  什么黑暗将完成? 他们纪律严明,  令人难以置信的报仇,  并且非常结合!"
+      },
+      "MILK": {
+        "bName": "牛奶元素",
+        "bDesc": "看,  乳酸的亵渎! 这些同质化的恐怖被制定为以其不宽容的牛奶法师的名义粉碎和巴氏杀菌。 任何试图奶油的人最终都会撕成一半……一半! 对于那些喜欢掠夺的人来说,  此条目已被凝结。"
+      },
+      "BUER": {
+        "bName": "狮子头",
+        "bDesc": "有人说,  这些许多束缚的野兽来自地狱的伟大之王,  其领域是康复艺术和哲学。 一个高贵的血统声称明显是一些醉酒的死灵法师和一个缝纫套件的结果。"
+      },
+      "XLDRAGON1": {
+        "bName": "龙虾",
+        "bDesc": "当一只虾渴望成为所有事物上的龙时,  角虾可能会怜悯它,  并赋予最大的形式。 或更确切地说,  一种形式几乎是强大的。 事实证明,  成为所有虾的守护神并不能让您比这更令人生畏,  但是虾很开心!"
+      },
+      "STAGEKILLER": {
+        "bName": "关卡杀手",
+        "bDesc": "“现在有多少英雄堕落了? 有多少次竞选活动为无力的力量而开辟了一条轨道,  并以微弱而可悲的忧虑结束? 如果可以的话,  请与我们战斗,  如果可以的话,  请忘记我们。 您很快将只是我们中的另一个。 被击败。 ”"
+      },
+      "BAT1": {
+        "bName": "蝙蝠",
+        "bDesc": "蝙蝠与吸血鬼之间的文化关联延伸到民间传说本身。 一些人声称看到了吸血鬼勋爵的死亡寒冷,  在这些夜间狂热的漩涡中大相径庭,  但这些人只是想注意。 他们是蝙蝠,  仅此而已。"
+      },
+      "BAT6": {
+        "bName": "血液浴",
+        "bDesc": "犯规的伊科尔似乎从这个生物光滑的皮肤的每一个毛孔中渗出,  使许多人相信它沐浴在新鲜被杀的血液中。 仔细研究表明,  他们的皮毛简直是红色。 他们是蝙蝠,  仅此而已。"
+      },
+      "SKULLINO": {
+        "bName": "小头骨",
+        "bDesc": "巫术实验试图发现骨骼是否曾经动画起来会更有效地劳作,  因为它的头部和身体分为两个独立的实体。 答案是不。 当然不是。 这些前农民无法抬起他们所爱的耙子和ho头,  现在只能以永恒的沉默挫败感来咬牙。"
+      },
+      "SKULOROSSO": {
+        "bName": "红色头骨",
+        "bDesc": "Skullinos渴望在误导的信念中发红,  它们会更快地漂浮。 缺少自己的手,  牙齿之间的Skulorosso握把刷子互相绘画。 最后一个拿着刷子的人通常被放弃,  并以对世界的信心少一些。"
+      },
+      "SKELANGUE": {
+        "bName": "猩红色的骨骼",
+        "bDesc": "骨骼由血液制成。 或由骨头制成的血。 某个地方涉及血液。 这些蓬松的荷兰人会泄漏更多。"
+      },
+      "SKETAMARI": {
+        "bName": "Sketamari",
+        "bDesc": "据说是由于违抗所有含义和逻辑的原因而尝试创建“骨月亮”的结果。 在数百个具有奇异目的的思想的驱动下,  它被吸引到高骨骼活动的地方,  目的是增加其令人愉悦的质量并越来越大。 骨月亮甚至如何工作? 祈祷这种恐怖的荒谬永远不会过去。"
+      },
+      "ZOMBIE": {
+        "bName": "僵尸",
+        "bDesc": "“为什么要简单地将小人物致死? 将它们超越它! ”这是红衣主教的死灵法师,  当他们转向坟墓中寻求需要休息和食物的廉价替代品。 对于他们来说,  可悲的是,  虽然他们的新员工没有睡觉,  但喂养是另一回事。"
+      },
+      "MUDMAN1": {
+        "bName": "泥男人",
+        "bDesc": "疯狂的森林的泥泞曾经是普通的村民,  但是关于在泥泞中掩盖自己的自我并击败传递英雄的文化分歧使他们找到了自己的社会 - 一个社会 - 一个社会可以接受,  在泥泞中掩盖自己的自我是可以接受的。 并击败传递英雄致死。"
+      },
+      "FLOWER": {
+        "bName": "花墙",
+        "bDesc": "据说是在阳光的总食物中首次发芽的,  这些枯萎的花朵在最不需要的时候就会出现,  也就是说它们一直出现。"
+      },
+      "GHOST": {
+        "bName": "鬼",
+        "bDesc": "纯粹的捏造,  充满发烧或无聊的大脑的闲置幻想。 根本没有幽灵之类的东西,  仅仅建议被嘲笑是荒谬的。 这些特殊的幻影可能只是光的窍门。 光的技巧也可以达到生命点!"
+      },
+      "WEREWOLF": {
+        "bName": "狼人",
+        "bDesc": "据说是从笼罩着被困在及时的世界中涌出的恐惧生物进化而来的。 他们的羽扇豆的性质受到了质疑,  但是如果您要求他们的意见,  他们会以最罕见的残酷性将您撕成碎片。 他们必须对此很敏感。"
+      },
+      "MUD": {
+        "bName": "尘埃元素",
+        "bDesc": "如果不知道知识,  那就不再是知识。 嵌入式图书馆对禁忌的大量渴望渴望将自己刻在开放的心中。 几十年来,  只有灰尘才能陪伴,  这是一个自身的家。 幸运的是,  我们认为尘埃元素没有舌头说话。"
+      },
+      "SHADERED": {
+        "bName": "红精神",
+        "bDesc": "主题和含义上有一些难以理解的作品,  以至于读者对现实的掌握非常崩溃。 这些学术的傻瓜是通过对它的难以置信的纯粹力量撕裂的,  只是最后一个远离动荡的遗忘的想法。"
+      },
+      "POLTER": {
+        "bName": "拥有",
+        "bDesc": "为此有一个完美的解释。 也许这些物品是法师欺骗的产物,  或者是加洛 (Gallo) 的Gibbering科学家梦of以求的自动机。 也许每个人都充满了斗气蚂蚁的殖民地,  这些蚂蚁从内部推动。 让我们在提到鬼魂之前消除这些可能性。"
+      },
+      "BOSS_COUNT1": {
+        "bName": "魔女",
+        "bDesc": "这些魔术爱情的族长比自己的奶头冷,  丑陋,  恐怖的克隆。 他们真的无法获得足够的能力。  cackling,  大锅,  年轻的少女的呼唤“我的漂亮”。 如果有刻板印象,  您可以归因于巫婆和基于巫婆的生活方式,  这些妇女就不会感到羞耻。 对他们有好处。"
+      },
+      "BOSS_COUNT2": {
+        "bName": "亡灵向导",
+        "bDesc": "徒劳的抄写员对真理的追求以毫无意义,  但疯狂和疯狂结束。 尽管如此,  有些人声称甚至在他最不稳定的刮擦中都能看到智慧。 无论是骗子还是傻瓜,  都不能质疑,  对于那些有思想的人来说,  疯狂的力量。"
+      },
+      "MUMMY": {
+        "bName": "木乃伊",
+        "bDesc": "他们的巫术创作者在精神上和地理上都没有真正的木乃伊,  这证明了其他不死文化的占理由,  因为他们声称他们真的很喜欢美学,  而真正的木乃伊应该将其视为一种称赞,  而不是一直被冒犯。"
+      },
+      "MEDUSA1": {
+        "bName": "偷偷摸摸的头",
+        "bDesc": "他们在土地上最讨厌的生物中排名最高,  他们发现在最脆弱时从壁架上推动毫无戒心的受害者时,  他们发现了粗暴的运动。 然而,  面对一个既不跳也不爬的敌人,  他们发现自己很无能为力。"
+      },
+      "HARPY": {
+        "bName": "哈皮",
+        "bDesc": "这些竖琴是在加洛塔王冠上的巨大巢穴殖民地中繁殖的,  很高兴将猎物拖到天空中,  并用令人恐惧的强壮爪子将它们撕成吐温。 为了保持这种令人难以置信的下身体力量,  他们从不跳过腿日。"
+      },
+      "ECTO1": {
+        "bName": "苔藓",
+        "bDesc": "被复仇的图书馆员诅咒,  因为他们大声地打喷嚏的罪行,  他们也许是所有可怜的人中最可怜的。 为了永恒而凝结,  杀害这些不成比例的报应的受害者是一种怜悯。 如果有道德系统之类的事情,  您可能会得到很好的业力。"
+      },
+      "IMP": {
+        "bName": "小鬼",
+        "bDesc": "顽皮的恶魔,  专门研究Tomfoolery,  Shenanigans和所有14个废话学科。 以实用的笑话而闻名,  粗鲁的石油和偶尔厚脸皮的大规模谋杀案。"
+      },
+      "DULL0": {
+        "bName": "握手",
+        "bDesc": "由于明显的异常,  他们的外表令人难以置信的自觉。 如果您不幸的是要满足一个,  那么您不应该指出他们没有穿鞋。"
+      },
+      "DEVIL1": {
+        "bName": "魔鬼",
+        "bDesc": "浮士德和愤怒! 低级的魔鬼在地狱武装的敌人上行进了地狱叉子,  以及对最严厉的地方的百科全书知识。"
+      },
+      "XLMAGIO": {
+        "bName": "亡灵法师",
+        "bDesc": "经常将拥有魔幻般的魔法才华的男孩送往加洛著名的炼金术学院。 在这里,  他们磨练自己的力量,  学习毁灭性的咒语,  并完善撕裂的艺术。"
+      },
+      "WITCH1": {
+        "bName": "亡灵女巫",
+        "bDesc": "女巫的姐妹会保留可能推翻王朝的秘密。 这些秘密的五分之一是性丑闻。 高贵的贿赂金钱的涌入可确保没有巫婆没有戴帽子。"
+      },
+      "WITCH2": {
+        "bName": "野蛮的亡灵",
+        "bDesc": "乔瓦纳 (Giovanna) 出生时被分配给法师,  并自豪地拿起扫帚和尖头的帽子。 她的姐妹们声称他们想“保护女巫的空间”,  他发誓要反对她和所有在她身边战斗的人。 也许有一天,  他们会接受任何人真正想成为一个野蛮的女巫。"
+      },
+      "XLARMOR1": {
+        "bName": "剑执政",
+        "bDesc": "这些动画盔甲是科学和巫术的扭曲结果,  是在加洛塔 (Gallo Tower) 制作的,  是其最有利可图的作品之一。 剑的尺寸令人恐惧,  但非常不切实际,  使它变得太重,  无法摇摆。 当它仍然可以捣碎您喜欢某种种族灭性黄油搅拌器时,  这几乎无关紧要。"
+      },
+      "XLARMOR2": {
+        "bName": "碟片",
+        "bDesc": "豪华模型Archon的价格是完全相同的统计数据,  价格是价格的两倍。 作为豪华防御选择,  其巨大的尺寸和令人印象深刻的力量可以掩盖它主要由可回收的步兵头盔和旧水桶制成的事实。"
+      },
+      "XLMEDUSA": {
+        "bName": "美杜莎",
+        "bDesc": "蛇形诱导的催眠凝视也可以吸引最任性的学者到早期的坟墓。"
+      },
+      "XXLBAT": {
+        "bName": "LV128金蝙蝠",
+        "bDesc": "所有闪光的不都是金子。 有时是蝙蝠。 尽管这种罕见的生物似乎似乎是一种真正重要的东西的来临,  但得知,  尽管出场,  但它们是蝙蝠,  仅此而已。"
+      },
+      "XLMANTIS": {
+        "bName": "螳螂",
+        "bDesc": "加洛塔 (Gallo Tower) 的早期园艺实验产生了毫无恐惧的突变体。 这些超大的壁炉架在实验室22中繁殖,  随后在疯狂的森林中丢弃了,  当时他们无法接受训练和味道可怕。"
+      },
+      "XLMUMMY": {
+        "bName": "大木乃伊",
+        "bDesc": "尽管出现了这些尸体,  但每天都会改变绷带。 所有这些包装下发生的一切仍然是一个谜,  但人们认为这是令人作呕的。"
+      },
+      "XLFLOWER": {
+        "bName": "金星",
+        "bDesc": "这朵花的中心具有吸引人的女性形式,  但它不仅仅是一个诱饵,  巧妙地折叠的花瓣,  上面装有食肉花朵的花朵。 那些容易发生思考的人可能会变得容易猎物。"
+      },
+      "FISHMAN_1": {
+        "bName": "梅尔曼",
+        "bDesc": "他们散发着鱼,  到处都是淡盐水,  并带着令人不安的声音交谈。 努力取悦他们的潮湿上帝,  美人与蜥蜴推翻了乳制品植物。"
+      },
+      "LIZARD1_2": {
+        "bName": "蜥蜴棋子",
+        "bDesc": "蜥蜴人对哺乳动物生产牛奶的能力越来越羡慕后,  对奶牛植物的敌对收购却持敌意,  并抓住了泌乳手段。 这些生物杀死了最后的牛奶法师,  煽动了乌德绝望的运动。"
+      },
+      "PILE1": {
+        "bName": "双蛇",
+        "bDesc": "尽管这些险恶的面貌独立思考,  但它们的共同消化系统需要相互依赖彼此。 一个头只能消耗固体。 另一个,  只有液体。"
+      },
+      "LIZARD2_3": {
+        "bName": "蜥蜴车",
+        "bDesc": "没有这些坚定的队长,  爬行动物部队将永远不会发现偷偷摸摸地偷偷溜进乳 制品并刺伤牛奶痴迷的老人所需的铁学科和出色的策略。"
+      },
+      "PILE2": {
+        "bName": "双胞胎恶魔",
+        "bDesc": "双子蛇的恶魔变体,  因此是双胞胎恶魔的名字。 您可以说它们是恶魔,  因为它们有点红。 魔鬼主义的经典案例就在那里。"
+      },
+      "JELLYFISH": {
+        "bName": "海蜇",
+        "bDesc": "偏爱人美人的宠物,  他们倾向于在五码之内刺痛一切,  以及他们完全无视便盆训练的人,  使他们对每个人都不受欢迎。"
+      },
+      "SKELENIN1": {
+        "bName": "骨骼忍者",
+        "bDesc": "这些隐形操作员是亡灵军队中最熟练的人之一。 他们坚持穿着鲜艳的制服,  他们的秘密策略和偷偷摸摸的专业策略将不断降低。"
+      },
+      "XLBAT": {
+        "bName": "巨型蝙蝠",
+        "bDesc": "在阴影中缠绕,  眼睛发红,  夜晚拍打的超大恐怖一定是吸血鬼方法的标志,  是吗? 好吧,  不。 他们是蝙蝠,  仅此而已。 我承认他们真的很流血。"
+      },
+      "PILE3": {
+        "bName": "失去了双胞胎",
+        "bDesc": "通过真正的,  额外的,  超级刺的恶魔来弥补缺乏次要头的! 他们没有过度补偿,  他们是完美的补偿。"
+      },
+      "GOLEM1": {
+        "bName": "梅隆",
+        "bDesc": "乳制品植物的牛奶法师将这些结构设计为动画苍白,  原因只能被描述为愚蠢。 内部完全空心,  可以装满牛奶,  并将货物运送到远处两英里的目的地。 旅程需要几周。"
+      },
+      "MIGNO1_5": {
+        "bName": "牛头怪",
+        "bDesc": "是的,  他们是公牛。 是的,  它们是大多数乳制品牛奶的来源。 不,  你真的不应该问。"
+      },
+      "MIGNO_3_5SWARM": {
+        "bName": "快速牛头怪",
+        "bDesc": "尽管他们的牛奶产量很酸,  但Mignottaur著名的嫩肉在市场上以高价。 当然,  这些生物的屠夫往往会首先成为屠宰。"
+      },
+      "ARMORSPEAR_6": {
+        "bName": "长矛阿奇",
+        "bDesc": "旨在响应各种命令的执政模型,  只要这些命令涉及用长锋利的棍子刺伤东西。"
+      },
+      "ARMOR_6": {
+        "bName": "刀片执政",
+        "bDesc": "在所有执政官中最不喜欢,  但也许是最有效的。 与大斧头和盾牌进行有条不紊的战斗可能很无聊,  但完成了工作。"
+      },
+      "SKELEWING": {
+        "bName": "骨架翼",
+        "bDesc": "面对所有空气动力惯例,  Skelewing无肉无羽毛。 从理论上讲,  Skelewing的无关紧要的附属物是Skullino被丢弃的身体的嫁接残留物。"
+      },
+      "XLTRITON": {
+        "bName": "特里顿",
+        "bDesc": "海洋深度的强大战士,  特里特斯以其令人惊叹的外观和魅力而闻名。 他们神秘的护发习惯是世界上最珍贵的秘密之一,  整个国家都在暴力追求知识中陷入困境。"
+      },
+      "XLCHIMERA": {
+        "bName": "狮子杂种",
+        "bDesc": "一个带有狮子的身体, 蝎子的尾巴和翅膀的翅膀的怨恨生物。 倒钩中包含的毒物具有有效的致幻作用, 他们喜欢有目的地刺痛自己的妄想, 可以飞翔。"
+      },
+      "XLCOCKATRICE": {
+        "bName": "巨型鸡肉",
+        "bDesc": "加洛 (Gallo) 长期以来一直因噩梦从脚到头部慢慢地被吓呆的噩梦所困扰,  但也许更令人恐惧的是他对巨大的掠夺性鸡的梦想。  Gallotrice的诞生是他开始认为科学的亵渎性作为一种情绪疗法的一种形式可能没有帮助任何人。"
+      },
+      "XLGOLEM1": {
+        "bName": "大魔像",
+        "bDesc": "大,  大魔像! 把它放在一起,  你得到什么? 大型魔像建筑! 加载! 卡车! 将其倾倒! 大魔像!"
+      },
+      "XLGOLEM3": {
+        "bName": "肉魔像",
+        "bDesc": "在加洛塔 (Gallo Tower) 被其创始人放弃后,  仍然可以自由地满足他们的每一个好奇心,  无论多么不公正或不卫生。 当“不伤害”变成“你做你”时,  肉魔像是发生了什么。"
+      },
+      "XLARMOR_SWORD": {
+        "bName": "剑监护人",
+        "bDesc": "他们不是携带剑的监护人,  而是剑的监护人。 他们嫉妒地攻击那些看着自己强大的刀片的人,  这实际上是每个人,  因为看着'em的大小!"
+      },
+      "BOSS_XLCRAB]bName": {
+        "undefined": "巨型敌人螃蟹"
+      },
+      "MOLISANO_BASE": {
+        "bName": "悲伤的莫利萨诺",
+        "bDesc": "一个可悲的莫利萨诺。"
+      },
+      "MOLISANO_GIALLO": {
+        "bName": "快乐的莫利萨诺",
+        "bDesc": "一个快乐的莫利萨诺。"
+      },
+      "MOLISANO_BELLO": {
+        "bName": "可爱的莫利萨诺",
+        "bDesc": "您可以向父母介绍的Molisano。"
+      },
+      "MOLISANO_COLONNA": {
+        "bName": "老莫利萨诺",
+        "bDesc": "当您只有高高时,  可以记住的莫利萨诺 (Molisano) 。"
+      },
+      "MOLISANO_VECCHIO": {
+        "bName": "死去的莫利萨诺",
+        "bDesc": "一个莫里萨诺 (Molisano) 真的没有做太多事情,  因为它确实非常死了。"
+      },
+      "PILE4": {
+        "bName": "双头骨",
+        "bDesc": "一对双蛇死后,  他们的骨骼遗骸可能神秘地唤醒。 他们通常对此不满意,  因为成为双胞胎蛇并不是特别激动。 他们看起来很高兴,  所以至少他们不会让心情降低。"
+      },
+      "SKULLNOAURA": {
+        "bName": "骷髅",
+        "bDesc": "没有人知道这些巨大的笑头首先来自哪里。 没有人停下来问,  因为他们是大笑的头骨,  他们吃马。"
+      },
+      "SKELEPANTHER": {
+        "bName": "骨架豹",
+        "bDesc": "当豹的饥饿是如此之大,  以至于甚至没有死亡会饱受狂热的味道,  它再次返回喂食。 它不知道它的肚子长期以来一直腐烂了,  并且永远感到困惑,  因为它为什么无法降低猎物。"
+      },
+      "XLSKELETON": {
+        "bName": "巨型骨骼",
+        "bDesc": "这个问题的答案：“如果骨架很大,  该怎么办? ”红衣主教每天都会以那种发声的语调向他的死灵法师问这个问题,  这表明他真的希望他们做一些,  但太尴尬了,  无法直接要求。 他们最终只是做了一些。"
+      },
+      "SKELETONE": {
+        "bName": "骨骼",
+        "bDesc": "每个骨骼的骨骼更多。 骨骼比平均骨骼硬。 爱好包括是骨骼,  思考骨架的东西以及休闲骨骼。 上帝,  “骨骼”一词很奇怪。"
+      },
+      "MASK_GOLD": {
+        "bName": "太阳亚特兰蒂斯",
+        "bDesc": "种族的强大监护人长期以来灭绝。 它的面具代表着阳光,  生命的赐予者,  崇拜的主题,  以及到处都是冰淇淋销售商的朋友。"
+      },
+      "MASK_SILVER": {
+        "bName": "月亮亚特兰蒂斯",
+        "bDesc": "种族的强大监护人长期以来灭绝。 它的面具代表月球,  潮汐的带来,  神秘的对象以及夜间无聊时要看的东西。"
+      },
+      "MASK_LEFT": {
+        "bName": "亚特兰蒂斯市",
+        "bDesc": "种族的强大监护人长期以来灭绝。 它的面具代表了先进的文明,  掌握世界,  社会秩序和乱扔垃圾。"
+      },
+      "MASK_RIGHT": {
+        "bName": "亚特兰蒂斯火山",
+        "bDesc": "种族的强大监护人长期以来灭绝。 它的面具代表着火与愤怒,  自然世界的愤怒,  对一个叫乔的人的热烈和反对。"
+      },
+      "MOON_SHADEBLUE": {
+        "bName": "蓝精神",
+        "bDesc": "他们的悲惨存在与Sig.ra Rossi相似,  但对此感到更加沮丧。"
+      },
+      "MOON_EYE2": {
+        "bName": "未知",
+        "bDesc": "我看不到他们,  但他们看到了我。 我能感觉到他们。 观看。 总是看着。 他们的凝视压力像坟墓上的地球一样向我推向我。 谁是偏执? 我? 我不是偏执的。 你是偏执的。 谁在那些无处不在的球体后面看着我?"
+      },
+      "MOON_CRABBINO": {
+        "bName": "非巨型敌人螃蟹",
+        "bDesc": "您是否知道,  当您将很多螃蟹放在水桶中时,  他们实际上并不试图互相拉下来以阻止任何一个逃脱的人? 这是我们根据自己的愤世嫉俗和自私的态度投射到他们身上的。 您的卑鄙作者希望挑战反狂欢宣传的另一个例子。"
+      },
+      "MOON_MASK3": {
+        "bName": "月光亚特兰蒂斯人",
+        "bDesc": "美丽但bale昧,  尚不清楚这些Delphic实体是否是真正的活着的亚特兰蒂人,  堕落文明的魔法结构,  或者更好奇。 它们不是鬼,  所以让我们从可能性中消除这种胡说八道。 他们的面具诱人,  但没有人能够在佩戴者的消亡中幸存下来。"
+      },
+      "TRAINEE_ANY": {
+        "bName": "收割者实习生",
+        "bDesc": "永恒的实习生,  除了薪水之外,  他们都会收获任何东西。 真的,  工作经历还不够吗? 许多人是严峻的马切拉 (Maschera) 的学徒,  每个人都希望能够给予死亡,  以至于他们最终可能会收获灵魂。"
+      },
+      "KALI1": {
+        "bName": "四边形",
+        "bDesc": "美丽而致命的勇士,  四个人是卡佩拉·麦格纳 (Cappella Magna) 虔诚统治阶级的脚下的行人。 他们声称他们在战斗中永远不会伏击或惊讶,  因为四臂被预警了。"
+      },
+      "ARMOR_FIRE": {
+        "bName": "火焰执政官",
+        "bDesc": "一个自动化的士兵,  倾向于过热和着火。  Gallo Tower没有解决问题,  而是声称这是一个功能,  而不是一个错误,  并将这些火焰的安全违规行为出售给了一个魔鬼的阴谋,  这些恶魔给了他们出色的用户评论。"
+      },
+      "SUCCUBUS": {
+        "bName": "魅魔",
+        "bDesc": "乌斯木来到卡佩拉·麦格纳 (Capella Magna) ,  希望播种诱人的不和谐并从内部带来最圣洁的秩序。 但是,  他们的努力完全沮丧,  因为您无法破坏已经腐烂的核心。"
+      },
+      "XLARMOR_GREEN": {
+        "bName": "铜执政",
+        "bDesc": "“如有疑问,  使剑更大。 ”这种设计理念是创造rame的关键,  这也具有将剑抬起所需的上半身力量,  而不是一只脚从地面上。"
+      },
+      "DEMON_FAST": {
+        "bName": "恶魔牧师",
+        "bDesc": "当最圣洁的秩序开始命令字面的恶魔时,  一些人建议该系统的完整性受到了损害。 多么愚蠢。 该系统一开始就没有完整性。"
+      },
+      "ANGEL1": {
+        "bName": "堕落的天使",
+        "bDesc": "他们的纯真的拟人化,  他们和谐的合唱曾经唱着天堂的荣耀。 现在,  他们唱着绝望和破坏,  不忠和in亵,  折磨,  酷刑以及将垃圾与回收混合在一起。"
+      },
+      "ANGEL2": {
+        "bName": "钟小天使",
+        "bDesc": "瓷器面临的不断喊叫时,  当别人试图入睡时,  瓷器不断地敲响铃铛。 甚至在转向邪恶之前,  他们就以烦人和有点令人毛骨悚然而闻名。"
+      },
+      "ANGEL3": {
+        "bName": "堕落的宝座",
+        "bDesc": "天使的憎恶,  其美丽掩盖了恶意的意图。 他们的每一个异想天开,  都是对他们曾经赞扬的美德的恶心矛盾。"
+      },
+      "XLARMOR_GOLD": {
+        "bName": "黄金执政官",
+        "bDesc": "镀金的自动机被最圣洁的秩序起草,  以保持和平。 他们并没有那么多地保持和平,  因为他们不断地用无意识的木材打破所有精美的彩色玻璃。 他们看起来像它们一样昂贵。"
+      },
+      "XLDEMON": {
+        "bName": "恶魔野兽",
+        "bDesc": "命令的决定性跌倒后,  搬进了卡佩拉·麦格纳 (Cappella Magna) 。 魔鬼野兽在漫游的地方传播堕落和贬低,  满足跨越淫荡思想的每一个邪恶的欲望。 认真地说,  这些家伙陷入了一些讨厌,  讨厌的东西。"
+      },
+      "XLARCHDEMON": {
+        "bName": "大门",
+        "bDesc": "大的。 红色的。 角质。 确实没有比这更多的恶魔。  Arch Demons努力说明成为恶魔的所有意义,  他们在恶魔般地擅长。 他们也发誓很多。"
+      },
+      "TRINACRIA": {
+        "bName": "特里纳克利亚",
+        "bDesc": "创建是为了到达星星,  但她走了很多,  远不止于此。 她在我们的宇宙中撕下了一个洞,  这是通往另一个维度的门户。 纯混沌的尺寸。 纯粹的邪恶。 看着她,  她不是美丽吗?"
+      },
+      "BOSS_XLDEATH": {
+        "bName": "收割者",
+        "bDesc": "从他身上逃跑。 反抗他。 甚至杀死了他,  如果您证明如此自大。 无论结果如何,  死亡勋爵总是最终获胜。 您可以闭上眼睛,  转过头,  然后尖叫到空白中,  但是随着时间的流逝,  您都将戴上他的面具。"
+      },
+      "BOSS_TRICKSTER_NORMAL": {
+        "bName": "骗子",
+        "bDesc": "一个专门从事幻想谋杀的收割者。 寻宝者尤其是对骗子的致命笑话的犯规,  急切地把它表现出来的宝石袋装出来,  并学习了为时已晚,  以至于他们用超自然的爆炸物塞满了裤子。 喜欢成为党的死亡。"
+      },
+      "BOSS_STALKER_NORMAL": {
+        "bName": "跟踪者",
+        "bDesc": "无法提示的收割者。 一旦他们注视着受害者,  就没有什么能阻止他们摆脱恐怖的痴迷运动。 许多缠扰者的受害者死于疲惫或经过多年的追求后就屈服。 当心应该对您感兴趣。 无论您走到哪里,  都会跟随。"
+      },
+      "BOSS_DROWNER_NORMAL": {
+        "bName": "猎人",
+        "bDesc": "一个喜欢下雨的收割者。 故事声称它曾经这样做了四十天和四十个晚上,  只是为了打动一个男人。 在战斗中,  溺水者是一位湿工作的主人,  更喜欢用大量的虐待来抑制对手的精神。 不要对原始的死池犯规。"
+      },
+      "BOSS_MADDENER_NORMAL": {
+        "bName": "疯狂的",
+        "bDesc": "一个真正形式的收割者超出了理智的边缘。 具有改变现实本身的力量,  存在于混淆和迷失方向,  并以受害者启发的精神痛苦为食。 然而,  当抢劫其迷恋能力时,  它却落在了其他人造成的恐惧和困惑的猎物中,  它的自我意识是纯粹的恐慌。"
+      },
+      "BOSS_ENDER": {
+        "bName": "恩德",
+        "bDesc": "当友谊的力量变得行星时。 遗忘的最终拟人化,  恩德 (Ender) 封装了真正绝望的各个方面 - 死亡,  疯狂,  痴迷,  欺骗和被湿润。 它的到来意味着真正的徒劳,  这是对那些开始进行注定要做的追求的人的最后警告,  并拒绝了解他们在这个世界或下一个世界上不在这里。"
+      },
+      "BOSS_GIANT_MIMIC1": {
+        "bName": "模仿第一季",
+        "bDesc": "您最喜欢的怪物,  就像您以前从未见过的……大!"
+      },
+      "BOSS_GIANT_MIMIC2": {
+        "bName": "模仿第二季",
+        "bDesc": "大怪物的最后一季对您来说还不够大吗? 好吧,  请尝试这些大怪物的尺寸! 他们太大了!"
+      },
+      "BOSS_GIANT_MIMIC3": {
+        "bName": "模仿第三季",
+        "bDesc": "这些怪物有多大的印象如何? 他们太大了!"
+      },
+      "BOSS_DRAGOGION": {
+        "bName": "三主锚",
+        "bDesc": "它的父亲是一只伟大的野兽,  在流星的腹部内到达了这个世界。 它的母亲是一条鱼。 每个人都有自己的个性,  核心价值观和政治隶属关系。"
+      },
+      "MOON_SNEK": {
+        "bName": "蛇藤",
+        "bDesc": "他们在爬行动物专家中被称为“长搬家”,  他们很高兴小面条,  非常可爱。 因此,  没有人必须感到内gui割成成千上万的人,  假设他们真的很喜欢被割下成千上万的人。"
+      },
+      "MOON_GARLIC": {
+        "bName": "蒜",
+        "bDesc": "实验农药的可怕后果。 尽管有名字,  但它们与传统大蒜无关,  使它们无用,  因为病房肯定是不可避免的吸血鬼外观。"
+      },
+      "MOON_NIGHTSHADE": {
+        "bName": "睡衣",
+        "bDesc": "大蒜的分支被三个浆果农民杂交,  既美味又致命。 农民在试图从其有毒沉积物中制作浆果后发现了这一点。 这是他们死亡的荒谬方式。"
+      },
+      "DIRECTER": {
+        "bName": "董事",
+        "bDesc": "无限的礼物。 超越现实的景象。 瞥见不可思议的。"
+      },
+      "BOSS_XLCRAB": {
+        "bDesc": "这些巨大的甲壳类动物有了一个像他们这样的名字,  这是一个不想理解它们的社会的对抗。 得知巨型敌人的螃蟹拥有自己的整个文化,  会让您感到惊讶吗? 哲学学校? 艺术和教育? 偏执确实是一件悲伤,  悲伤的事情。"
+      }
+    }
+  },
+  "zh-TW": {
+    "english": "Chinese (Traditional)",
+    "native": "繁體中文 90%",
+    "api": "tchinese",
+    "translations": {}
+  },
+  "cs": {
+    "english": "Czech",
+    "native": "čeština",
+    "api": "czech",
+    "translations": {}
+  },
+  "da": {
+    "english": "Danish",
+    "native": "Dansk",
+    "api": "danish",
+    "translations": {}
+  },
+  "nl": {
+    "english": "Dutch",
+    "native": "Nederlands",
+    "api": "dutch",
+    "translations": {}
+  },
+  "en": {
+    "english": "English",
+    "native": "English",
+    "api": "english",
+    "translations": {
+      "SKELETON": {
+        "bName": "Skeleton",
+        "bDesc": "What army of darkness would be complete without skeletons? They are highly disciplined, incredibly vengeful, and very unionized!"
+      },
+      "MILK": {
+        "bName": "Milk Elemental",
+        "bDesc": "Behold, the blasphemy of lactomancy! These homogenized horrors were formulated to pulverize and pasteurize in the name of their intolerant Milk Mages. Any who’ve tried to cream them end up torn in half… and half! This entry has been condensed for those who prefer to skim."
+      },
+      "BUER": {
+        "bName": "Lionhead",
+        "bDesc": "Some say these many-limbed beasts descended from a great Lord of Hell, whose domain is the healing arts and philosophy. A noble lineage claimed for what was clearly the result of some drunk necromancers and a sewing kit."
+      },
+      "XLDRAGON1": {
+        "bName": "Dragon Shrimp",
+        "bDesc": "When a shrimp yearns to be a dragon above all things, the Horned Shrimp may take pity on it and bestow a form most mighty. Or rather, a form almost mighty. It turns out that being the patron god of all shrimp doesn’t let you make anything much more intimidating than this, but the shrimp are happy!"
+      },
+      "STAGEKILLER": {
+        "bName": "Stage Killer",
+        "bDesc": "“How many heroes have fallen now? How many campaigns have blazed a trail to power unimaginable and ended with a weak, pathetic bleating? Fight us if you will, forget us if you can. You soon shall be just another one of us. Defeated.”"
+      },
+      "BAT1": {
+        "bName": "Pipeestrello",
+        "bDesc": "The cultural association between bat and vampire stretches back as far as folklore itself. Some claim to have seen the deathly cold visage of a Vampire Lord striding within the swirling maelstrom of these nocturnal nasties, but those people just wanted attention. They’re bats, and nothing more."
+      },
+      "BAT6": {
+        "bName": "Bloodbath",
+        "bDesc": "Foul ichor seems to ooze from every pore of this creature’s slick skin, leading many to believe that it bathes in the blood of the freshly slain. Closer study reveals their fur is simply red, however. They’re bats, and nothing more."
+      },
+      "SKULLINO": {
+        "bName": "Skullino",
+        "bDesc": "Sorcerous experimentation sought to discover if a skeleton, once rendered animate, could toil more efficiently were its head and body split into two separate entities. The answer is no. Of course not. These former farmers, unable to lift the rakes and hoes they so loved, can now only gnash their teeth in eternally silent frustration."
+      },
+      "SKULOROSSO": {
+        "bName": "Skulorosso",
+        "bDesc": "Skullinos that longed to be red in the misguided belief they would float faster. Lacking hands of their own, Skulorosso grip brushes between their teeth and paint each other. The last one holding the brush is usually abandoned, and returns to the ranks of the Skullino with a little less faith in the world."
+      },
+      "SKELANGUE": {
+        "bName": "Scarleton",
+        "bDesc": "Bones made of blood. Or blood made of bones. There’s blood involved somewhere. These rufescent ruffians are out to spill even more of it."
+      },
+      "SKETAMARI": {
+        "bName": "Sketamari",
+        "bDesc": "Said to be the result of attempts to create a “Bone Moon” for reasons that defy all sense and logic. Driven by hundreds of minds with a singular purpose, it is drawn to places of high skeletal activity with the intent of adding to its chittering mass and growing ever bigger. How would a Bone Moon even work? Pray this horrifying absurdity never comes to pass."
+      },
+      "ZOMBIE": {
+        "bName": "Zombie",
+        "bDesc": "“Why simply work the smallfolk to death? Work them beyond it!” This, the Cardinal’s necromancers laughed as they turned to the grave for a cheap alternative to labor that needed rest and food. Sadly for them, while their new workforce slept not, feeding was a whole other matter."
+      },
+      "MUDMAN1": {
+        "bName": "Mudman",
+        "bDesc": "The Mudmen of the Mad Forest were once ordinary villagers, but cultural disagreements over whether it was acceptable to cover one’s self in mud and beat passing heroes to death led them to found their own society - a society where it’s acceptable to cover one’s self in mud and beat passing heroes to death."
+      },
+      "FLOWER": {
+        "bName": "Flower Wall",
+        "bDesc": "Said to have first sprouted during a total eclipse of the sun, these blighted blooms appear when they are least needed, which is to say they appear all the time."
+      },
+      "GHOST": {
+        "bName": "Ghost",
+        "bDesc": "A pure fabrication, the idle fantasy of brains gripped with fever or boredom. There’s simply no such thing as ghosts, and the mere suggestion is to be mocked as ridiculous. These particular apparitions are probably just a trick of the light. Tricks of the light can have hit points too!"
+      },
+      "WEREWOLF": {
+        "bName": "Werewolf",
+        "bDesc": "Said to have evolved from verminous creatures that flocked from a world trapped in time. Their lupine nature has been called into question, but if you ask for their opinion, they’ll tear you to shreds with a most uncommon brutality. They must be sensitive about it."
+      },
+      "MUD": {
+        "bName": "Dust Elemental",
+        "bDesc": "If knowledge is not known, it ceases to be knowledge. The Inlaid Library’s virulent swell of forbidden lore yearns to inscribe itself into an open mind. Left for decades with only dust for company, that lore made a home for itself. Fortunate are we that the Dust Elementals have no tongue to speak it."
+      },
+      "SHADERED": {
+        "bName": "Sig.ra Rossi",
+        "bDesc": "There are works so incomprehensible in theme and meaning as to fracture the reader’s very grasp of reality. Torn from the material world through sheer force of their disbelief in it, these scholarly fools are only one last thought away from volatile oblivion."
+      },
+      "POLTER": {
+        "bName": "Poltergeist",
+        "bDesc": "There’s a perfectly rational explanation for this. Perhaps these items are the product of a mage’s trickery, or automata dreamed up by Gallo’s gibbering scientists. Maybe each one is filled with a colony of vindictive ants that push them around from inside. Let’s eliminate those possibilities before we mention ghosts."
+      },
+      "BOSS_COUNT1": {
+        "bName": "Hag",
+        "bDesc": "Colder than their own teats, these matriarchs of magic love being ugly, terrifying crones. They genuinely can’t get enough of it. The cackling, the cauldrons, the calling of young maidens “my pretty.” If there’s a stereotype you could attribute to hags and the hag-based lifestyle, these women live it without shame. Good for them."
+      },
+      "BOSS_COUNT2": {
+        "bName": "Nesufritto",
+        "bDesc": "The Futile Scribe’s quest for truth ended with nought but babble and madness. Still, there are those that claim to see wisdom in even his most erratic scrawlings. Whether charlatans or fools, it cannot be questioned that, for those with a thought to wield it, there is power in madness."
+      },
+      "MUMMY": {
+        "bName": "Mummy",
+        "bDesc": "Far from true mummies, both spiritually and geographically, their sorcerous creators justify the appropriation of other undead cultures by claiming they just really like the aesthetic and that real mummies should take it as a compliment rather than being so offended all the time."
+      },
+      "MEDUSA1": {
+        "bName": "Sneaky Head",
+        "bDesc": "Ranked among the most detested creatures in the land, they find crude sport in pushing unsuspecting victims from ledges when they’re most vulnerable. Faced with an enemy that neither jumps nor climbs, however, they find themselves rather powerless."
+      },
+      "HARPY": {
+        "bName": "Harzia",
+        "bDesc": "Brooding in vast nest colonies at the crown of Gallo Tower, these harpies delight in dragging prey high into the sky and ripping them in twain with frighteningly strong talons. To maintain this incredible lower body strength, they never skip leg day."
+      },
+      "ECTO1": {
+        "bName": "Musc Musc",
+        "bDesc": "Cursed by vengeful librarians for the crime of sneezing too loudly, they are perhaps the most pitiable of all wretches. Congealed for all eternity, to slay these victims of disproportionate retribution is a mercy. You’d probably get good karma for doing it if there were such thing as a morality system."
+      },
+      "IMP": {
+        "bName": "Impefinger",
+        "bDesc": "Mischievous demons who specialize in tomfoolery, shenanigans, and all fourteen disciplines of nonsense. Known for practical jokes, rude limericks, and the occasional cheeky mass murder."
+      },
+      "DULL0": {
+        "bName": "Testa di Mano",
+        "bDesc": "Incredibly self-conscious about their appearance due to a glaringly obvious abnormality. If you’re unfortunate enough to meet one, on no account should you ever point out they’re not wearing shoes."
+      },
+      "DEVIL1": {
+        "bName": "Ghiavolo",
+        "bDesc": "Faustian and furious! Low ranking Devils march upon the enemies of Hell armed with infernal pitchforks and an encyclopedic knowledge of the harshest places to shove them."
+      },
+      "XLMAGIO": {
+        "bName": "Undead Mage",
+        "bDesc": "Boys possessed of prodigious magical talent are regularly sent to Gallo’s esteemed Academy of Alchemia. Here, they hone their powers, learn devastating spells, and perfect the art of lacemaking."
+      },
+      "WITCH1": {
+        "bName": "Undead Witch",
+        "bDesc": "The Sisterhood of Witches keeps secrets that could topple dynasties. Four fifths of these secrets are sex scandals. The influx of noble bribe money ensures that no witch goes without a fancy hat."
+      },
+      "WITCH2": {
+        "bName": "Undead Sassy Witch",
+        "bDesc": "Giovanna resented being assigned Mage at birth, and proudly took up the way of the broom and pointed hat. Her sisters, who claim they want to “protect witches’ spaces,” have sworn to oppose her and all who fight by her side. Maybe one day they’ll accept that anybody can be a Sassy Witch if they truly want to be."
+      },
+      "XLARMOR1": {
+        "bName": "Archon Spada",
+        "bDesc": "The twisted result of science and sorcery, these animated suits of armor were mass produced at Gallo Tower as one of its most profitable creations. The sword’s size is terrifying, but woefully impractical, rendering it too heavy to be swung. That hardly matters when it can still mash you like some sort of genocidal butter churner."
+      },
+      "XLARMOR2": {
+        "bName": "Archon Disco",
+        "bDesc": "A deluxe model Archon featuring the exact same stats at twice the price. Sold as a luxury defense option, its sheer size and impressive strength do much to hide the fact it’s mostly made of recycled infantry helmets and old buckets."
+      },
+      "XLMEDUSA": {
+        "bName": "Merdusa",
+        "bDesc": "Serpentine seductresses whose hypnotic gaze can lure even the most willful of scholars to an early grave."
+      },
+      "XXLBAT": {
+        "bName": "LV128 Golden Bat",
+        "bDesc": "All that glitters is not gold. Sometimes it’s bats. While such a rare creature might seem to herald the coming of something truly momentous, it might surprise you to learn that, despite appearances, they are bats, and nothing more."
+      },
+      "XLMANTIS": {
+        "bName": "Mantichana",
+        "bDesc": "Gallo Tower’s early horticultural experiments yielded nought but horrifying mutants. These oversized mantids were bred in Lab 22 and subsequently dumped in the Mad Forest when it became apparent they couldn’t be trained and tasted terrible."
+      },
+      "XLMUMMY": {
+        "bName": "Big Mummy",
+        "bDesc": "Despite appearances, these shambling cadavers change their bandages daily. Whatever’s going on underneath all those wrappings remains a mystery, but one presumes it’s thoroughly disgusting."
+      },
+      "XLFLOWER": {
+        "bName": "Venus",
+        "bDesc": "The center of this flower possesses an attractive feminine form, but it’s little more than a lure, cleverly folded petals puppeted by the carnivorous flower that houses it. Those prone to thinking with their britches are likely to become easy prey."
+      },
+      "FISHMAN_1": {
+        "bName": "Merman",
+        "bDesc": "They reek of fish, drip saltwater everywhere, and talk with really off-putting gurgly voices. Striving to please their Damp God, the Mermen joined with the Lizards in their overthrow of the Dairy Plant."
+      },
+      "LIZARD1_2": {
+        "bName": "Lizard Pawn",
+        "bDesc": "Having grown envious of the mammalian ability to produce milk, the Lizard Folk staged a hostile takeover of the Dairy Plant and seized the means of lactation. Having slain the last of the Milk Mages, these creatures have instigated a campaign of udder despair."
+      },
+      "PILE1": {
+        "bName": "Twin Snakes",
+        "bDesc": "While these sinister visages think independently, their shared digestive system necessitates a symbiotic reliance upon each other. One head can only consume solids. The other, only liquids."
+      },
+      "LIZARD2_3": {
+        "bName": "Lizard Rook",
+        "bDesc": "Without these stalwart captains, the reptilian forces would never have found the iron discipline and brilliant strategy needed to sneak into a dairy and stab a load of milk-obsessed old men in their sleep."
+      },
+      "PILE2": {
+        "bName": "Twin Demons",
+        "bDesc": "A demonic variant of the Twin Snakes, hence the name Twin Demons. You can tell they’re demonic because they’re a bit red. Classic case of demonicism right there."
+      },
+      "JELLYFISH": {
+        "bName": "Jellyfish",
+        "bDesc": "Favored pets of the Mermen, their tendency to sting everything within five yards, as well as their complete disregard for potty training, makes them unpopular with literally everybody."
+      },
+      "SKELENIN1": {
+        "bName": "Skeleton Ninja",
+        "bDesc": "These stealth operatives are among the most highly skilled of the undead armies. Their undercover tactics and specialization in sneaking missions are everso slightly undercut by an insistence on wearing brightly colored uniforms."
+      },
+      "XLBAT": {
+        "bName": "Giant Bat",
+        "bDesc": "Wreathed in shadow, eyes glowing red, such oversized terrors that flap in the night must surely be the sign of a vampire’s approach, yes? Well, no. They’re bats, and nothing more. I’ll admit they’re really bloody big, though."
+      },
+      "PILE3": {
+        "bName": "Lost Twin",
+        "bDesc": "Makes up for the lack of a secondary head by being really, extra, super-duper demonic! They’re not overcompensating, they’re perfectly compensating."
+      },
+      "GOLEM1": {
+        "bName": "Melone",
+        "bDesc": "The Milk Mages of the Dairy Plant devised these constructs as animated pales, for reasons that could only be described as stupid. Completely hollow inside, they can be filled with milk and deliver the cargo to destinations as far away as two miles. The journey takes weeks."
+      },
+      "MIGNO1_5": {
+        "bName": "Minotaur",
+        "bDesc": "Yes, they’re bulls. Yes, they’re the source of most of the Dairy Plant’s milk. No, you really shouldn’t ask."
+      },
+      "MIGNO_3_5SWARM": {
+        "bName": "Mignotaur",
+        "bDesc": "While their milk yields are sour, a Mignottaur’s famously tender meat commands a high price at market. Of course, the creatures’ would-be butchers tend to become butchered first."
+      },
+      "ARMORSPEAR_6": {
+        "bName": "Archon Lancia",
+        "bDesc": "An Archon model designed to respond to a wide variety of commands, provided those commands involve stabbing something with a long sharp stick."
+      },
+      "ARMOR_6": {
+        "bName": "Archon Ascia",
+        "bDesc": "The least fancy of all Archons, but perhaps the most effective. Marching methodically into battle with a big axe and shield might be boring, but it gets the job done."
+      },
+      "SKELEWING": {
+        "bName": "Skelewing",
+        "bDesc": "Fleshless and featherless, the Skelewing flies in the face of all aerodynamic convention. It is theorized that a Skelewing’s extraneous appendages are the grafted remnants of a Skullino’s discarded body."
+      },
+      "XLTRITON": {
+        "bName": "Tritont",
+        "bDesc": "Mighty warriors of the oceanic depths, Tritonts are famed for their stunning good looks and charisma. Their enigmatic haircare routine is one of the most treasured secrets in all the world, with entire nations having fallen in violent pursuit of the knowledge."
+      },
+      "XLCHIMERA": {
+        "bName": "Manticore",
+        "bDesc": "A resentful creature with the body of a lion, the tail of a scorpion, and the wings of something with wings. The poison contained within their barbs has a potent hallucinogenic effect, and they like to purposefully sting themselves to maintain their delusions that they can fly."
+      },
+      "XLCOCKATRICE": {
+        "bName": "Gallotrice",
+        "bDesc": "Gallo had long been haunted by frequent nightmares of being petrified slowly from the feet up to the head, but perhaps more frightening were his dreams of a gigantic predatory chicken. The Gallotrice’s birth was the moment he began to consider that scientific blasphemy as a form of emotional therapy might not be helping anybody."
+      },
+      "XLGOLEM1": {
+        "bName": "Big Golem",
+        "bDesc": "Big, Big Golem! Put it together, and what do you get? The Big Big Golem Construction Set! Load it up! Truck along! Dump it out! Big Big Golem!"
+      },
+      "XLGOLEM3": {
+        "bName": "Meat Golem",
+        "bDesc": "Following Gallo Tower’s abandonment by its founder, the scientist-sorcerers that remained were free to satiate their every curiosity, no matter how perverse or unhygienic. The Meat Golem is what happened when “Do No Harm” became “You Do You.”"
+      },
+      "XLARMOR_SWORD": {
+        "bName": "Sword Guardian",
+        "bDesc": "They are not guardians that carry swords, but rather guardians of their swords. They jealously attack anybody who so much as looks at their mighty blades, which is practically everybody because look at the size of ‘em!"
+      },
+      "BOSS_XLCRAB]bName": {
+        "undefined": "Giant Enemy Crab"
+      },
+      "MOLISANO_BASE": {
+        "bName": "Sad Molisano",
+        "bDesc": "A Molisano that’s sad."
+      },
+      "MOLISANO_GIALLO": {
+        "bName": "Happy Molisano",
+        "bDesc": "A Molisano that’s happy."
+      },
+      "MOLISANO_BELLO": {
+        "bName": "Cute Molisano",
+        "bDesc": "A Molisano that you could introduce to your parents."
+      },
+      "MOLISANO_COLONNA": {
+        "bName": "Old Molisano",
+        "bDesc": "A Molisano that remembers when you were only yay high."
+      },
+      "MOLISANO_VECCHIO": {
+        "bName": "Dead Molisano",
+        "bDesc": "A Molisano that doesn’t really do much at all because it’s really, really dead."
+      },
+      "PILE4": {
+        "bName": "Twin Skulls",
+        "bDesc": "After a pair of Twin Snakes die, their skeletal remains may mysteriously reawaken. They’re generally not pleased with this, because being a Twin Snake wasn’t particularly thrilling to begin with. They look happy though, so at least they don’t bring the mood down."
+      },
+      "SKULLNOAURA": {
+        "bName": "Skullone",
+        "bDesc": "Nobody knows where these massive laughing skulls first came from. Nobody’s stopped to ask, because they’re massive laughing skulls and they eat horses."
+      },
+      "SKELEPANTHER": {
+        "bName": "Skeleton Panther",
+        "bDesc": "When a panther’s hunger is so great that not even death can satiate its ravening, it returns to feed once more. It doesn’t know that its tummy has long rotted away, however, and is forever confused as to why it can’t keep down its prey."
+      },
+      "XLSKELETON": {
+        "bName": "Giant Skeleton",
+        "bDesc": "The answer to the question, “What if skeletons were big?” The Cardinal would ask this question daily to his necromancers in that whiny tone of voice that suggested he really wanted them to make some, but was too embarrassed to outright ask for it. They eventually just made some."
+      },
+      "SKELETONE": {
+        "bName": "Skeletone",
+        "bDesc": "More skeleton per skeleton. Skeletons that skeleton harder than the average skeleton. Hobbies include being skeletons, thinking about skeleton stuff, and casual skeletoning. God, the word “skeleton” is weird."
+      },
+      "MASK_GOLD": {
+        "bName": "Sun Atlantean",
+        "bDesc": "Powerful guardian of a race long thought extinct. Its mask represents the Sun, giver of life, subject of worship, and friend to ice cream sellers everywhere."
+      },
+      "MASK_SILVER": {
+        "bName": "Moon Atlantean",
+        "bDesc": "Powerful guardian of a race long thought extinct. Its mask represents the Moon, bringer of tides, object of mystery, and something to look at when you’re bored at night."
+      },
+      "MASK_LEFT": {
+        "bName": "City Atlantean",
+        "bDesc": "Powerful guardian of a race long thought extinct. Its mask represents advanced civilization, mastery of the world, social order, and littering."
+      },
+      "MASK_RIGHT": {
+        "bName": "Volcano Atlantean",
+        "bDesc": "Powerful guardian of a race long thought extinct. Its mask represents fire and fury, the rage of the natural world, seething heat and opposition to a man named Joe."
+      },
+      "MOON_SHADEBLUE": {
+        "bName": "Sig.ra Blu",
+        "bDesc": "Their woeful existences are similar to that of Sig.ra Rossi, but they’re significantly more depressed about it."
+      },
+      "MOON_EYE2": {
+        "bName": "Unknown",
+        "bDesc": "I can’t see them, but they see me. I can feel them. Watching. Always watching. The pressure of their gaze pushes down on me like earth on the grave. Who’s paranoid? Me? I’m not paranoid. You’re paranoid. Who’s looking at me from behind those lidless orbs?"
+      },
+      "MOON_CRABBINO": {
+        "bName": "Non-Giant Enemy Crab",
+        "bDesc": "Did you know that when you put a lot of crabs in a bucket, they actually don’t try to pull each other down to stop any single one from escaping? That was something we projected onto them based on our own cynical and selfish attitudes. Just another example of anti-crab propaganda that your humble author hopes to challenge."
+      },
+      "MOON_MASK3": {
+        "bName": "Moongolow Atlanteans",
+        "bDesc": "Beautiful but baleful, it is unknown whether these delphic entities are true living Atlanteans, magical constructs of a fallen civilization, or something even more curious. They’re not ghosts, so let’s eliminate that nonsense from the possibilities. Their masks are alluring, but none survive the demise of the wearer."
+      },
+      "TRAINEE_ANY": {
+        "bName": "Reaper Trainee",
+        "bDesc": "The Interns of Eternity, they’ll reap anything but a paycheck. Really though, isn’t the work experience enough? Many are the apprentices of the Grim Maschera, each hoping to impress Lord Death enough that they may finally harvest souls on commission."
+      },
+      "KALI1": {
+        "bName": "Tetrabrachia",
+        "bDesc": "Beautiful and deadly warriors, the Tetrabrachia act as footsoldiers for Cappella Magna’s pious ruling class. They claim they can never be ambushed or surprised in a fight, because four-armed is forewarned."
+      },
+      "ARMOR_FIRE": {
+        "bName": "Archon Fiamma",
+        "bDesc": "An automated soldier with a tendency to overheat and catch fire. Rather than fix the problem, Gallo Tower claimed it was a feature instead of a bug, and sold these flame-wreathed safety violations to a cabal of demons who gave them great user reviews."
+      },
+      "SUCCUBUS": {
+        "bName": "Succubus",
+        "bDesc": "The Succubi came to Capella Magna in hopes of sowing seductive discord and bringing down the Most Holy Order from within. Their efforts have been met with complete frustration, however, as you cannot corrupt that which is already rotten to the core."
+      },
+      "XLARMOR_GREEN": {
+        "bName": "Archon Rame",
+        "bDesc": "“When in doubt, make the sword bigger.” This design philosophy was key to the creation of the Rame, which also boasts the upper body strength required to lift said sword more than a foot off the ground."
+      },
+      "DEMON_FAST": {
+        "bName": "Demon Priest",
+        "bDesc": "When the Most Holy Order began ordaining literal demons, some suggested that perhaps the integrity of the system had been compromised. What foolishness. The system had no integrity to begin with."
+      },
+      "ANGEL1": {
+        "bName": "Fallen Cherub",
+        "bDesc": "Former personifications of innocence, their harmonious chorus once sang the glory of the Heavens. Now they sing of despair and destruction, of infidelity and indecency, of torment, torture, and mixing trash with recycling."
+      },
+      "ANGEL2": {
+        "bName": "Fallen Cherubbello",
+        "bDesc": "Porcelain faced miscreants that chant incessantly and ring their bells when others are trying to sleep. Even before their turn to evil, they were famed for being annoying and just a little bit creepy."
+      },
+      "ANGEL3": {
+        "bName": "Fallen Throne",
+        "bDesc": "Angelic abominations whose beauty belies a malevolent intent. Soaked in vice, their every whim is a sick contradiction of the virtues they once extolled."
+      },
+      "XLARMOR_GOLD": {
+        "bName": "Archon Oro",
+        "bDesc": "Gilded automatons drafted into service by the Most Holy Order to keep the peace. They didn’t so much keep the peace as keep breaking all the fancy stained glass with their mindless lumbering. They’re as expensive as they look."
+      },
+      "XLDEMON": {
+        "bName": "Demon Beast",
+        "bDesc": "Moved into Cappella Magna after the Order’s decisive fall. Spreading depravity and debasement wherever they roam, the Demon Beasts satisfy every wicked desire that crosses their lewd minds. Seriously, these guys are into some nasty, nasty stuff."
+      },
+      "XLARCHDEMON": {
+        "bName": "Archdemon",
+        "bDesc": "Big. Red. Horny. It really doesn’t get much more demonic than that. Arch Demons strive to exemplify all that it means to be a demon, and they’re diabolically good at it. They swear a lot, too."
+      },
+      "TRINACRIA": {
+        "bName": "Trinacria",
+        "bDesc": "Created to reach the stars, but she's gone much, much farther than that. She tore a hole in our universe, a gateway to another dimension. A dimension of pure chaos. Pure… evil. Look at her, isn't she beautiful?"
+      },
+      "BOSS_XLDEATH": {
+        "bName": "The Reaper",
+        "bDesc": "Run from him. Defy him. Maybe even kill him, should you prove so arrogant. No matter the outcome, Lord Death always wins in the end. You can close your eyes, turn your head, and scream into the void, but with time you all shall wear his mask."
+      },
+      "BOSS_TRICKSTER_NORMAL": {
+        "bName": "The Trickster",
+        "bDesc": "A Reaper that specializes in murder by illusion. Treasure hunters especially fall foul of the Trickster’s deadly jokes, eagerly pocketing the gems it manifests and learning all too late that they’ve stuffed their pantaloons with supernatural explosives. Loves to be the death of the party."
+      },
+      "BOSS_STALKER_NORMAL": {
+        "bName": "The Stalker",
+        "bDesc": "A Reaper that can’t take a hint. Once they set their eyes on a victim, nothing can dissuade them from an obsessive campaign of terror. Many of the Stalker’s victims die from exhaustion or simply surrender after years of pursuit. Beware should it take an interest in you. Wherever you go, it follows."
+      },
+      "BOSS_DROWNER_NORMAL": {
+        "bName": "The Drowner",
+        "bDesc": "A Reaper that loves to make it rain. Stories claim that it once did so for forty days and forty nights, simply to impress a guy. In battle, the Drowner is a master of wet work, preferring to dampen the spirits of its adversaries with a torrent of abuse. Don’t fall foul of the original dead pool."
+      },
+      "BOSS_MADDENER_NORMAL": {
+        "bName": "The Maddener",
+        "bDesc": "A Reaper whose true form lies beyond the edge of sanity. Bearing the power to alter reality itself, it exists to confuse and disorient, and feeds on the mental anguish inspired in its victims. When robbed of its ability to beguile, however, it falls prey to the very fear and bewilderment it causes in others, its very sense of self overridden by sheer panic."
+      },
+      "BOSS_ENDER": {
+        "bName": "The Ender",
+        "bDesc": "When the power of friendship goes planet. The ultimate personification of oblivion, The Ender encapsulates all aspects of true despair - Death, Madness, Obsession, Deceit, and Being Wet. Its arrival signifies true futility, a final warning to those who’ve embarked on a doomed quest and refuse to understand that what they seek is not here, in this world or the next."
+      },
+      "BOSS_GIANT_MIMIC1": {
+        "bName": "Mimic Season One",
+        "bDesc": "Your favorite monsters like you’ve never seen before… BIG!"
+      },
+      "BOSS_GIANT_MIMIC2": {
+        "bName": "Mimic Season Two",
+        "bDesc": "Was the last season of BIG monsters not BIG enough for you? Well, try these BIG monsters on for size! They’re so BIG!"
+      },
+      "BOSS_GIANT_MIMIC3": {
+        "bName": "Mimic Season Three",
+        "bDesc": "How are you not impressed by how BIG these monsters are? They’re so BIG!"
+      },
+      "BOSS_DRAGOGION": {
+        "bName": "Tri-Anchors",
+        "bDesc": "Its father was a great beast that arrived to this world within the belly of a meteor. Its mother was a fish. Each head has its own personality, core values, and political affiliation."
+      },
+      "MOON_SNEK": {
+        "bName": "Serpentvine",
+        "bDesc": "Known among reptilian experts as “the long mover,” they are happy little noodles and very adorable. So that nobody has to feel guilty mowing them down in the tens of thousands, let’s say they really enjoy being mowed down in the tens of thousands."
+      },
+      "MOON_GARLIC": {
+        "bName": "Garlic",
+        "bDesc": "The ghastly consequences of experimental pesticide. Despite the name, they are not related to traditional garlic, making them useless as wards against the surely inevitable appearance of a vampire."
+      },
+      "MOON_NIGHTSHADE": {
+        "bName": "Nightshade",
+        "bDesc": "Crossbred by a trio of berry farmers, this offshoot of the Garlic is delicious but deadly. The farmers found this out after trying to make berry milk from its poisonous deposits. It was a ridiculous way for them to die."
+      },
+      "DIRECTER": {
+        "bName": "The Directer",
+        "bDesc": "Boundless gifts. Sights beyond reality. Glimpses of the unthinkable."
+      },
+      "BOSS_XLCRAB": {
+        "bDesc": "With a name like theirs, these colossal crustaceans were kind of railroaded into antagonism by a society that didn’t want to understand them. Would it surprise you to learn that Giant Enemy Crabs have an entire culture of their own? Schools of philosophy? Arts and education? Bigotry truly is a sad, sad thing."
+      }
+    }
+  },
+  "fi": {
+    "english": "Finnish",
+    "native": "Suomi",
+    "api": "finnish",
+    "translations": {}
+  },
+  "fr": {
+    "english": "French",
+    "native": "Français",
+    "api": "french",
+    "translations": {
+      "SKELETON": {
+        "bName": "Squelette",
+        "bDesc": " "
+      },
+      "MILK": {
+        "bName": "Lait élémentaire",
+        "bDesc": " "
+      },
+      "BUER": {
+        "bName": "Tête de lion",
+        "bDesc": " "
+      },
+      "XLDRAGON1": {
+        "bName": "Crevette de dragon",
+        "bDesc": " "
+      },
+      "STAGEKILLER": {
+        "bName": "Brutes familières",
+        "bDesc": " "
+      },
+      "BAT1": {
+        "bName": "Chauve souris",
+        "bDesc": " "
+      },
+      "BAT6": {
+        "bName": "bain de sang",
+        "bDesc": " "
+      },
+      "SKULLINO": {
+        "bName": "petit crâne",
+        "bDesc": " "
+      },
+      "SKULOROSSO": {
+        "bName": "crâne Rouge",
+        "bDesc": " "
+      },
+      "SKELANGUE": {
+        "bName": "squelette écarlate",
+        "bDesc": " "
+      },
+      "SKETAMARI": {
+        "bName": "Sketamari",
+        "bDesc": " "
+      },
+      "ZOMBIE": {
+        "bName": "Zombi",
+        "bDesc": " "
+      },
+      "MUDMAN1": {
+        "bName": "Boue",
+        "bDesc": " "
+      },
+      "FLOWER": {
+        "bName": "Mur de fleurs",
+        "bDesc": " "
+      },
+      "GHOST": {
+        "bName": "Fantôme",
+        "bDesc": " "
+      },
+      "WEREWOLF": {
+        "bName": "Loup-garou",
+        "bDesc": " "
+      },
+      "MUD": {
+        "bName": "Poussière élémentaire",
+        "bDesc": " "
+      },
+      "SHADERED": {
+        "bName": "Esprit rouge",
+        "bDesc": " "
+      },
+      "POLTER": {
+        "bName": "Possédé",
+        "bDesc": " "
+      },
+      "BOSS_COUNT1": {
+        "bName": "Vieille sorcière",
+        "bDesc": " "
+      },
+      "BOSS_COUNT2": {
+        "bName": "Sorcier mort-vivant",
+        "bDesc": " "
+      },
+      "MUMMY": {
+        "bName": "Momie",
+        "bDesc": " "
+      },
+      "MEDUSA1": {
+        "bName": "Tête sournoise",
+        "bDesc": " "
+      },
+      "HARPY": {
+        "bName": "Harpie",
+        "bDesc": " "
+      },
+      "ECTO1": {
+        "bName": "Mousse",
+        "bDesc": " "
+      },
+      "IMP": {
+        "bName": "Lutin",
+        "bDesc": " "
+      },
+      "DULL0": {
+        "bName": "Se diriger",
+        "bDesc": " "
+      },
+      "DEVIL1": {
+        "bName": "Diable",
+        "bDesc": " "
+      },
+      "XLMAGIO": {
+        "bName": "Mage mort-vivant",
+        "bDesc": " "
+      },
+      "WITCH1": {
+        "bName": "Sorcière mort-vivante",
+        "bDesc": " "
+      },
+      "WITCH2": {
+        "bName": "Morts impertinents",
+        "bDesc": " "
+      },
+      "XLARMOR1": {
+        "bName": "Archon épée",
+        "bDesc": " "
+      },
+      "XLARMOR2": {
+        "bName": "Disque archon",
+        "bDesc": " "
+      },
+      "XLMEDUSA": {
+        "bName": "Méduse",
+        "bDesc": " "
+      },
+      "XXLBAT": {
+        "bName": "LV128 Golden Bat",
+        "bDesc": " "
+      },
+      "XLMANTIS": {
+        "bName": "Mante",
+        "bDesc": " "
+      },
+      "XLMUMMY": {
+        "bName": "Grande maman",
+        "bDesc": " "
+      },
+      "XLFLOWER": {
+        "bName": "Vénus",
+        "bDesc": " "
+      },
+      "FISHMAN_1": {
+        "bName": "Triton",
+        "bDesc": " "
+      },
+      "LIZARD1_2": {
+        "bName": "Pion de lézard",
+        "bDesc": " "
+      },
+      "PILE1": {
+        "bName": "Serpents jumeaux",
+        "bDesc": " "
+      },
+      "LIZARD2_3": {
+        "bName": "Rook en lézard",
+        "bDesc": " "
+      },
+      "PILE2": {
+        "bName": "Démons jumeaux",
+        "bDesc": " "
+      },
+      "JELLYFISH": {
+        "bName": "Méduse",
+        "bDesc": " "
+      },
+      "SKELENIN1": {
+        "bName": "Squelette ninja",
+        "bDesc": " "
+      },
+      "XLBAT": {
+        "bName": "Chauve-souris géante",
+        "bDesc": " "
+      },
+      "PILE3": {
+        "bName": "Twin perdu",
+        "bDesc": " "
+      },
+      "GOLEM1": {
+        "bName": "Melone",
+        "bDesc": " "
+      },
+      "MIGNO1_5": {
+        "bName": "Minotaure",
+        "bDesc": " "
+      },
+      "MIGNO_3_5SWARM": {
+        "bName": "Minotaure rapide",
+        "bDesc": " "
+      },
+      "ARMORSPEAR_6": {
+        "bName": "Spear Archon",
+        "bDesc": " "
+      },
+      "ARMOR_6": {
+        "bName": "Blade Archon",
+        "bDesc": " "
+      },
+      "SKELEWING": {
+        "bName": "Aile squelette",
+        "bDesc": " "
+      },
+      "XLTRITON": {
+        "bName": "Triton",
+        "bDesc": " "
+      },
+      "XLCHIMERA": {
+        "bName": "Hybride de lion",
+        "bDesc": " "
+      },
+      "XLCOCKATRICE": {
+        "bName": "Poulet géant",
+        "bDesc": " "
+      },
+      "XLGOLEM1": {
+        "bName": "Gros golem",
+        "bDesc": " "
+      },
+      "XLGOLEM3": {
+        "bName": "Golem de viande",
+        "bDesc": " "
+      },
+      "XLARMOR_SWORD": {
+        "bName": "Gardien de l'épée",
+        "bDesc": " "
+      },
+      "BOSS_XLCRAB]bName": {
+        "undefined": "Crabe ennemi géant"
+      },
+      "MOLISANO_BASE": {
+        "bName": "Triste molisano",
+        "bDesc": " "
+      },
+      "MOLISANO_GIALLO": {
+        "bName": "Happy Molisano",
+        "bDesc": " "
+      },
+      "MOLISANO_BELLO": {
+        "bName": "Mignon molisano",
+        "bDesc": " "
+      },
+      "MOLISANO_COLONNA": {
+        "bName": "Vieux molisano",
+        "bDesc": " "
+      },
+      "MOLISANO_VECCHIO": {
+        "bName": "MOLISANO MORT",
+        "bDesc": " "
+      },
+      "PILE4": {
+        "bName": "Crânes jumeaux",
+        "bDesc": " "
+      },
+      "SKULLNOAURA": {
+        "bName": "Crâner",
+        "bDesc": " "
+      },
+      "SKELEPANTHER": {
+        "bName": "Panthère squelette",
+        "bDesc": " "
+      },
+      "XLSKELETON": {
+        "bName": "Squelette géant",
+        "bDesc": " "
+      },
+      "SKELETONE": {
+        "bName": "Squelette",
+        "bDesc": " "
+      },
+      "MASK_GOLD": {
+        "bName": "Soleil Atlanéen",
+        "bDesc": " "
+      },
+      "MASK_SILVER": {
+        "bName": "Moon Atlanteen",
+        "bDesc": " "
+      },
+      "MASK_LEFT": {
+        "bName": "City Atlantean",
+        "bDesc": " "
+      },
+      "MASK_RIGHT": {
+        "bName": "Volcan atlanéen",
+        "bDesc": " "
+      },
+      "MOON_SHADEBLUE": {
+        "bName": "Spiritueux bleu",
+        "bDesc": " "
+      },
+      "MOON_EYE2": {
+        "bName": "Inconnue",
+        "bDesc": " "
+      },
+      "MOON_CRABBINO": {
+        "bName": "Crabe ennemi non giant",
+        "bDesc": " "
+      },
+      "MOON_MASK3": {
+        "bName": "Moongolow Atlanteans",
+        "bDesc": " "
+      },
+      "TRAINEE_ANY": {
+        "bName": "REPER",
+        "bDesc": " "
+      },
+      "KALI1": {
+        "bName": "Tétrabrachie",
+        "bDesc": " "
+      },
+      "ARMOR_FIRE": {
+        "bName": "Flame Archon",
+        "bDesc": " "
+      },
+      "SUCCUBUS": {
+        "bName": "Succube",
+        "bDesc": " "
+      },
+      "XLARMOR_GREEN": {
+        "bName": "Archon en cuivre",
+        "bDesc": " "
+      },
+      "DEMON_FAST": {
+        "bName": "Prêtre démon",
+        "bDesc": " "
+      },
+      "ANGEL1": {
+        "bName": "Chérubin tombé",
+        "bDesc": " "
+      },
+      "ANGEL2": {
+        "bName": "Chérubbello tombé",
+        "bDesc": " "
+      },
+      "ANGEL3": {
+        "bName": "Trône tombé",
+        "bDesc": " "
+      },
+      "XLARMOR_GOLD": {
+        "bName": "Archon doré",
+        "bDesc": " "
+      },
+      "XLDEMON": {
+        "bName": "Bête de démon",
+        "bDesc": " "
+      },
+      "XLARCHDEMON": {
+        "bName": "Archdémon",
+        "bDesc": " "
+      },
+      "TRINACRIA": {
+        "bName": "Trinacrie",
+        "bDesc": " "
+      },
+      "BOSS_XLDEATH": {
+        "bName": "The Reaper",
+        "bDesc": " "
+      },
+      "BOSS_TRICKSTER_NORMAL": {
+        "bName": "The Trickster",
+        "bDesc": " "
+      },
+      "BOSS_STALKER_NORMAL": {
+        "bName": "The Stalker",
+        "bDesc": " "
+      },
+      "BOSS_DROWNER_NORMAL": {
+        "bName": "The Drowner",
+        "bDesc": " "
+      },
+      "BOSS_MADDENER_NORMAL": {
+        "bName": "The Maddener",
+        "bDesc": " "
+      },
+      "BOSS_ENDER": {
+        "bName": "The Ender",
+        "bDesc": " "
+      },
+      "BOSS_GIANT_MIMIC1": {
+        "bName": "Mimic Saison un",
+        "bDesc": " "
+      },
+      "BOSS_GIANT_MIMIC2": {
+        "bName": "Mimic Saison deux",
+        "bDesc": " "
+      },
+      "BOSS_GIANT_MIMIC3": {
+        "bName": "Mimic Saison trois",
+        "bDesc": " "
+      },
+      "BOSS_DRAGOGION": {
+        "bName": "Tri-anciens",
+        "bDesc": " "
+      },
+      "MOON_SNEK": {
+        "bName": "Serpentvine",
+        "bDesc": " "
+      },
+      "MOON_GARLIC": {
+        "bName": "Ail",
+        "bDesc": " "
+      },
+      "MOON_NIGHTSHADE": {
+        "bName": "Morelle noire",
+        "bDesc": " "
+      },
+      "DIRECTER": {
+        "bName": "Le Director",
+        "bDesc": "Cadeaux illimités. Des sites au-delà de la réalité. Aperçu de l'impensable."
+      },
+      "BOSS_XLCRAB": {
+        "bDesc": " "
+      }
+    }
+  },
+  "de": {
+    "english": "German",
+    "native": "Deutsch",
+    "api": "german",
+    "translations": {
+      "SKELETON": {
+        "bName": "Skelett",
+        "bDesc": " "
+      },
+      "MILK": {
+        "bName": "Milchelementar",
+        "bDesc": " "
+      },
+      "BUER": {
+        "bName": "Löwenkopf",
+        "bDesc": " "
+      },
+      "XLDRAGON1": {
+        "bName": "Drachengarnelen",
+        "bDesc": " "
+      },
+      "STAGEKILLER": {
+        "bName": "Stage-Killer",
+        "bDesc": " "
+      },
+      "BAT1": {
+        "bName": "Schläger",
+        "bDesc": " "
+      },
+      "BAT6": {
+        "bName": "Blutbad",
+        "bDesc": " "
+      },
+      "SKULLINO": {
+        "bName": "kleiner Schädel",
+        "bDesc": " "
+      },
+      "SKULOROSSO": {
+        "bName": "roter Schädel",
+        "bDesc": " "
+      },
+      "SKELANGUE": {
+        "bName": "Scarlet Skelett",
+        "bDesc": " "
+      },
+      "SKETAMARI": {
+        "bName": "Sketamari",
+        "bDesc": " "
+      },
+      "ZOMBIE": {
+        "bName": "Zombie",
+        "bDesc": " "
+      },
+      "MUDMAN1": {
+        "bName": "Schlamm Mann",
+        "bDesc": " "
+      },
+      "FLOWER": {
+        "bName": "Blumenwand",
+        "bDesc": " "
+      },
+      "GHOST": {
+        "bName": "Geist",
+        "bDesc": " "
+      },
+      "WEREWOLF": {
+        "bName": "Werwolf",
+        "bDesc": " "
+      },
+      "MUD": {
+        "bName": "Staubelemental",
+        "bDesc": " "
+      },
+      "SHADERED": {
+        "bName": "Roter Geist",
+        "bDesc": " "
+      },
+      "POLTER": {
+        "bName": "Besessen",
+        "bDesc": " "
+      },
+      "BOSS_COUNT1": {
+        "bName": "Hexe",
+        "bDesc": " "
+      },
+      "BOSS_COUNT2": {
+        "bName": "Untote Zauberer",
+        "bDesc": " "
+      },
+      "MUMMY": {
+        "bName": "Mumie",
+        "bDesc": " "
+      },
+      "MEDUSA1": {
+        "bName": "Hinterhältiger Kopf",
+        "bDesc": " "
+      },
+      "HARPY": {
+        "bName": "Harpyie",
+        "bDesc": " "
+      },
+      "ECTO1": {
+        "bName": "Moos",
+        "bDesc": " "
+      },
+      "IMP": {
+        "bName": "Imp",
+        "bDesc": " "
+      },
+      "DULL0": {
+        "bName": "Kopf in Hand",
+        "bDesc": " "
+      },
+      "DEVIL1": {
+        "bName": "Teufel",
+        "bDesc": " "
+      },
+      "XLMAGIO": {
+        "bName": "Untote Magier",
+        "bDesc": " "
+      },
+      "WITCH1": {
+        "bName": "Untote Hexe",
+        "bDesc": " "
+      },
+      "WITCH2": {
+        "bName": "Freche Untote",
+        "bDesc": " "
+      },
+      "XLARMOR1": {
+        "bName": "Schwert Archon",
+        "bDesc": " "
+      },
+      "XLARMOR2": {
+        "bName": "Disc Archon",
+        "bDesc": " "
+      },
+      "XLMEDUSA": {
+        "bName": "Meduse",
+        "bDesc": " "
+      },
+      "XXLBAT": {
+        "bName": "LV128 Goldener Fledermaus",
+        "bDesc": " "
+      },
+      "XLMANTIS": {
+        "bName": "Gottesanbeterin",
+        "bDesc": " "
+      },
+      "XLMUMMY": {
+        "bName": "Big Mama",
+        "bDesc": " "
+      },
+      "XLFLOWER": {
+        "bName": "Venus",
+        "bDesc": " "
+      },
+      "FISHMAN_1": {
+        "bName": "Merman",
+        "bDesc": " "
+      },
+      "LIZARD1_2": {
+        "bName": "Echsenbauer",
+        "bDesc": " "
+      },
+      "PILE1": {
+        "bName": "Zwillingsschlangen",
+        "bDesc": " "
+      },
+      "LIZARD2_3": {
+        "bName": "Echsenanfänger",
+        "bDesc": " "
+      },
+      "PILE2": {
+        "bName": "Zwillingsdämonen",
+        "bDesc": " "
+      },
+      "JELLYFISH": {
+        "bName": "Qualle",
+        "bDesc": " "
+      },
+      "SKELENIN1": {
+        "bName": "Skelett Ninja",
+        "bDesc": " "
+      },
+      "XLBAT": {
+        "bName": "Riesenschläger",
+        "bDesc": " "
+      },
+      "PILE3": {
+        "bName": "Twin verloren",
+        "bDesc": " "
+      },
+      "GOLEM1": {
+        "bName": "Melone",
+        "bDesc": " "
+      },
+      "MIGNO1_5": {
+        "bName": "Minotaur",
+        "bDesc": " "
+      },
+      "MIGNO_3_5SWARM": {
+        "bName": "Schneller Minotaurus",
+        "bDesc": " "
+      },
+      "ARMORSPEAR_6": {
+        "bName": "Speer Archon",
+        "bDesc": " "
+      },
+      "ARMOR_6": {
+        "bName": "Blade Archon",
+        "bDesc": " "
+      },
+      "SKELEWING": {
+        "bName": "Skelettflügel",
+        "bDesc": " "
+      },
+      "XLTRITON": {
+        "bName": "Triton",
+        "bDesc": " "
+      },
+      "XLCHIMERA": {
+        "bName": "Löwe Hybrid",
+        "bDesc": " "
+      },
+      "XLCOCKATRICE": {
+        "bName": "Riesenhuhn",
+        "bDesc": " "
+      },
+      "XLGOLEM1": {
+        "bName": "Big Golem",
+        "bDesc": " "
+      },
+      "XLGOLEM3": {
+        "bName": "Fleischgolem",
+        "bDesc": " "
+      },
+      "XLARMOR_SWORD": {
+        "bName": "Schwertwächter",
+        "bDesc": " "
+      },
+      "BOSS_XLCRAB]bName": {
+        "undefined": "Riesenfeindkrabbe"
+      },
+      "MOLISANO_BASE": {
+        "bName": "Traurige Molisano",
+        "bDesc": " "
+      },
+      "MOLISANO_GIALLO": {
+        "bName": "Happy Molisano",
+        "bDesc": " "
+      },
+      "MOLISANO_BELLO": {
+        "bName": "Süßes Molisano",
+        "bDesc": " "
+      },
+      "MOLISANO_COLONNA": {
+        "bName": "Altes Molisano",
+        "bDesc": " "
+      },
+      "MOLISANO_VECCHIO": {
+        "bName": "Toter Molisano",
+        "bDesc": " "
+      },
+      "PILE4": {
+        "bName": "Zwillingsschädel",
+        "bDesc": " "
+      },
+      "SKULLNOAURA": {
+        "bName": "Schädel",
+        "bDesc": " "
+      },
+      "SKELEPANTHER": {
+        "bName": "Skelett Panther",
+        "bDesc": " "
+      },
+      "XLSKELETON": {
+        "bName": "Riesenskelett",
+        "bDesc": " "
+      },
+      "SKELETONE": {
+        "bName": "Skelett",
+        "bDesc": " "
+      },
+      "MASK_GOLD": {
+        "bName": "Sun Atlantan",
+        "bDesc": " "
+      },
+      "MASK_SILVER": {
+        "bName": "Mond atlantisch",
+        "bDesc": " "
+      },
+      "MASK_LEFT": {
+        "bName": "City Atlantean",
+        "bDesc": " "
+      },
+      "MASK_RIGHT": {
+        "bName": "Vulkanatlantan",
+        "bDesc": " "
+      },
+      "MOON_SHADEBLUE": {
+        "bName": "Blauer Geist",
+        "bDesc": " "
+      },
+      "MOON_EYE2": {
+        "bName": "Unbekannt",
+        "bDesc": " "
+      },
+      "MOON_CRABBINO": {
+        "bName": "Nicht riesige feindliche Krabbe",
+        "bDesc": " "
+      },
+      "MOON_MASK3": {
+        "bName": "Moongolow Atlanter",
+        "bDesc": " "
+      },
+      "TRAINEE_ANY": {
+        "bName": "Reaper Trainee",
+        "bDesc": " "
+      },
+      "KALI1": {
+        "bName": "Tetrabrachia",
+        "bDesc": " "
+      },
+      "ARMOR_FIRE": {
+        "bName": "Flame Archon",
+        "bDesc": " "
+      },
+      "SUCCUBUS": {
+        "bName": "Succubus",
+        "bDesc": " "
+      },
+      "XLARMOR_GREEN": {
+        "bName": "Kupfer Archon",
+        "bDesc": " "
+      },
+      "DEMON_FAST": {
+        "bName": "Dämonpriester",
+        "bDesc": " "
+      },
+      "ANGEL1": {
+        "bName": "Gefallener Cherub",
+        "bDesc": " "
+      },
+      "ANGEL2": {
+        "bName": "Gefallener Cherubbello",
+        "bDesc": " "
+      },
+      "ANGEL3": {
+        "bName": "Gefallener Thron",
+        "bDesc": " "
+      },
+      "XLARMOR_GOLD": {
+        "bName": "Goldener Archon",
+        "bDesc": " "
+      },
+      "XLDEMON": {
+        "bName": "Dämonenbiest",
+        "bDesc": " "
+      },
+      "XLARCHDEMON": {
+        "bName": "Erzdemon",
+        "bDesc": " "
+      },
+      "TRINACRIA": {
+        "bName": "Trinacria",
+        "bDesc": " "
+      },
+      "BOSS_XLDEATH": {
+        "bName": "The Reaper",
+        "bDesc": " "
+      },
+      "BOSS_TRICKSTER_NORMAL": {
+        "bName": "The Trickster",
+        "bDesc": " "
+      },
+      "BOSS_STALKER_NORMAL": {
+        "bName": "The Stalker",
+        "bDesc": " "
+      },
+      "BOSS_DROWNER_NORMAL": {
+        "bName": "The Drowner",
+        "bDesc": " "
+      },
+      "BOSS_MADDENER_NORMAL": {
+        "bName": "The Maddener",
+        "bDesc": " "
+      },
+      "BOSS_ENDER": {
+        "bName": "The Ender",
+        "bDesc": " "
+      },
+      "BOSS_GIANT_MIMIC1": {
+        "bName": "Mimic Staffel 1",
+        "bDesc": " "
+      },
+      "BOSS_GIANT_MIMIC2": {
+        "bName": "Mimic -Staffel zwei",
+        "bDesc": " "
+      },
+      "BOSS_GIANT_MIMIC3": {
+        "bName": "Mimic Staffel Drei",
+        "bDesc": " "
+      },
+      "BOSS_DRAGOGION": {
+        "bName": "Tri-Anchors",
+        "bDesc": " "
+      },
+      "MOON_SNEK": {
+        "bName": "Serpentvine",
+        "bDesc": " "
+      },
+      "MOON_GARLIC": {
+        "bName": "Knoblauch",
+        "bDesc": " "
+      },
+      "MOON_NIGHTSHADE": {
+        "bName": "Nachtschatten",
+        "bDesc": " "
+      },
+      "DIRECTER": {
+        "bName": "The Directer",
+        "bDesc": "Grenzenlose Geschenke. Sehenswürdigkeiten jenseits der Realität. Einblicke des Undenkbaren."
+      },
+      "BOSS_XLCRAB": {
+        "bDesc": " "
+      }
+    }
+  },
+  "el": {
+    "english": "Greek",
+    "native": "Ελληνικά",
+    "api": "greek",
+    "translations": {}
+  },
+  "hu": {
+    "english": "Hungarian",
+    "native": "Magyar",
+    "api": "hungarian",
+    "translations": {}
+  },
+  "it": {
+    "english": "Italian",
+    "native": "Italiano",
+    "api": "italian",
+    "translations": {
+      "SKELETON": {
+        "bName": "Scheletro",
+        "bDesc": " "
+      },
+      "MILK": {
+        "bName": "Elementale Del Latte",
+        "bDesc": " "
+      },
+      "BUER": {
+        "bName": "Testa di Leone",
+        "bDesc": " "
+      },
+      "XLDRAGON1": {
+        "bName": "Gambero Drago",
+        "bDesc": " "
+      },
+      "STAGEKILLER": {
+        "bName": "Carnefici",
+        "bDesc": " "
+      },
+      "BAT1": {
+        "bName": "Pipistrello",
+        "bDesc": " "
+      },
+      "BAT6": {
+        "bName": "Bagno di Sangue",
+        "bDesc": " "
+      },
+      "SKULLINO": {
+        "bName": "Piccolo Cranio",
+        "bDesc": " "
+      },
+      "SKULOROSSO": {
+        "bName": "Cranio Rosso",
+        "bDesc": " "
+      },
+      "SKELANGUE": {
+        "bName": "Scheletro scarlatto",
+        "bDesc": " "
+      },
+      "SKETAMARI": {
+        "bName": "Sketamari",
+        "bDesc": " "
+      },
+      "ZOMBIE": {
+        "bName": "Zombie",
+        "bDesc": " "
+      },
+      "MUDMAN1": {
+        "bName": "Uomo di Fango",
+        "bDesc": " "
+      },
+      "FLOWER": {
+        "bName": "Muro di Fiori",
+        "bDesc": " "
+      },
+      "GHOST": {
+        "bName": "Pantasma",
+        "bDesc": " "
+      },
+      "WEREWOLF": {
+        "bName": "Lupo Mannaro",
+        "bDesc": " "
+      },
+      "MUD": {
+        "bName": "Elementale della Polvere",
+        "bDesc": " "
+      },
+      "SHADERED": {
+        "bName": "Sig.ra Rossi",
+        "bDesc": " "
+      },
+      "POLTER": {
+        "bName": "Poltergeist",
+        "bDesc": " "
+      },
+      "BOSS_COUNT1": {
+        "bName": "Strega",
+        "bDesc": " "
+      },
+      "BOSS_COUNT2": {
+        "bName": "Mago non morto",
+        "bDesc": " "
+      },
+      "MUMMY": {
+        "bName": "Mummia",
+        "bDesc": " "
+      },
+      "MEDUSA1": {
+        "bName": "Testa Subdola",
+        "bDesc": " "
+      },
+      "HARPY": {
+        "bName": "Arpia",
+        "bDesc": " "
+      },
+      "ECTO1": {
+        "bName": "Vidal",
+        "bDesc": " "
+      },
+      "IMP": {
+        "bName": "Impefinger",
+        "bDesc": " "
+      },
+      "DULL0": {
+        "bName": "Testa Di Mano",
+        "bDesc": " "
+      },
+      "DEVIL1": {
+        "bName": "Ghiavolo",
+        "bDesc": " "
+      },
+      "XLMAGIO": {
+        "bName": "Mago non morto",
+        "bDesc": " "
+      },
+      "WITCH1": {
+        "bName": "Strega non morta",
+        "bDesc": " "
+      },
+      "WITCH2": {
+        "bName": "Strefiga non morta",
+        "bDesc": " "
+      },
+      "XLARMOR1": {
+        "bName": "Arconte Spada",
+        "bDesc": " "
+      },
+      "XLARMOR2": {
+        "bName": "Arconte Disco",
+        "bDesc": " "
+      },
+      "XLMEDUSA": {
+        "bName": "Medusa",
+        "bDesc": " "
+      },
+      "XXLBAT": {
+        "bName": "LV128 Golden Bat",
+        "bDesc": " "
+      },
+      "XLMANTIS": {
+        "bName": "Mantide",
+        "bDesc": " "
+      },
+      "XLMUMMY": {
+        "bName": "Grande Mamma",
+        "bDesc": " "
+      },
+      "XLFLOWER": {
+        "bName": "Venere",
+        "bDesc": " "
+      },
+      "FISHMAN_1": {
+        "bName": "Tritone",
+        "bDesc": " "
+      },
+      "LIZARD1_2": {
+        "bName": "Lucertola Pedone",
+        "bDesc": " "
+      },
+      "PILE1": {
+        "bName": "Twin Snakes",
+        "bDesc": " "
+      },
+      "LIZARD2_3": {
+        "bName": "Lucertola Torre",
+        "bDesc": " "
+      },
+      "PILE2": {
+        "bName": "Demoni Gemelli",
+        "bDesc": " "
+      },
+      "JELLYFISH": {
+        "bName": "Medusa",
+        "bDesc": " "
+      },
+      "SKELENIN1": {
+        "bName": "Scheletro Ninja",
+        "bDesc": " "
+      },
+      "XLBAT": {
+        "bName": "Pipistrello Gigante",
+        "bDesc": " "
+      },
+      "PILE3": {
+        "bName": "Gemello Diverso",
+        "bDesc": " "
+      },
+      "GOLEM1": {
+        "bName": "Melone",
+        "bDesc": " "
+      },
+      "MIGNO1_5": {
+        "bName": "Menotauro",
+        "bDesc": " "
+      },
+      "MIGNO_3_5SWARM": {
+        "bName": "Piutauro",
+        "bDesc": " "
+      },
+      "ARMORSPEAR_6": {
+        "bName": "Arconte Lancia",
+        "bDesc": " "
+      },
+      "ARMOR_6": {
+        "bName": "Arconte Ascia",
+        "bDesc": " "
+      },
+      "SKELEWING": {
+        "bName": "Scheletro Ala",
+        "bDesc": " "
+      },
+      "XLTRITON": {
+        "bName": "Uomo Pesce",
+        "bDesc": " "
+      },
+      "XLCHIMERA": {
+        "bName": "Manticora",
+        "bDesc": " "
+      },
+      "XLCOCKATRICE": {
+        "bName": "Pollo gigante",
+        "bDesc": " "
+      },
+      "XLGOLEM1": {
+        "bName": "Big Golem",
+        "bDesc": " "
+      },
+      "XLGOLEM3": {
+        "bName": "Golema di Carne",
+        "bDesc": " "
+      },
+      "XLARMOR_SWORD": {
+        "bName": "Guardiano della Spada",
+        "bDesc": " "
+      },
+      "BOSS_XLCRAB]bName": {
+        "undefined": "Giant Enemy Crab"
+      },
+      "MOLISANO_BASE": {
+        "bName": "Molisano Triste",
+        "bDesc": " "
+      },
+      "MOLISANO_GIALLO": {
+        "bName": "Molisano Felice",
+        "bDesc": " "
+      },
+      "MOLISANO_BELLO": {
+        "bName": "Molisano Carino",
+        "bDesc": " "
+      },
+      "MOLISANO_COLONNA": {
+        "bName": "Molisano Vecchio",
+        "bDesc": " "
+      },
+      "MOLISANO_VECCHIO": {
+        "bName": "Molisano Morto",
+        "bDesc": " "
+      },
+      "PILE4": {
+        "bName": "Teschi Gemelli",
+        "bDesc": " "
+      },
+      "SKULLNOAURA": {
+        "bName": "Teschione",
+        "bDesc": " "
+      },
+      "SKELEPANTHER": {
+        "bName": "Pantera Scheletro",
+        "bDesc": " "
+      },
+      "XLSKELETON": {
+        "bName": "Scheletro Gigante",
+        "bDesc": " "
+      },
+      "SKELETONE": {
+        "bName": "Scheletone",
+        "bDesc": " "
+      },
+      "MASK_GOLD": {
+        "bName": "Atlantideo del Sole",
+        "bDesc": " "
+      },
+      "MASK_SILVER": {
+        "bName": "Atlantideo della Luna",
+        "bDesc": " "
+      },
+      "MASK_LEFT": {
+        "bName": "Atlantideo della Cittá",
+        "bDesc": " "
+      },
+      "MASK_RIGHT": {
+        "bName": "Atlantideo del Vulcano",
+        "bDesc": " "
+      },
+      "MOON_SHADEBLUE": {
+        "bName": "Sig.ra Blu",
+        "bDesc": " "
+      },
+      "MOON_EYE2": {
+        "bName": "Sconosciuto",
+        "bDesc": " "
+      },
+      "MOON_CRABBINO": {
+        "bName": "Non-Giant Enemy Crab",
+        "bDesc": " "
+      },
+      "MOON_MASK3": {
+        "bName": "Antlantideo di Moongolow",
+        "bDesc": " "
+      },
+      "TRAINEE_ANY": {
+        "bName": "Apprendista Reaper",
+        "bDesc": " "
+      },
+      "KALI1": {
+        "bName": "Tetrabrachia",
+        "bDesc": " "
+      },
+      "ARMOR_FIRE": {
+        "bName": "Arconte Fiamma",
+        "bDesc": " "
+      },
+      "SUCCUBUS": {
+        "bName": "Succube",
+        "bDesc": " "
+      },
+      "XLARMOR_GREEN": {
+        "bName": "Arconte di Rame",
+        "bDesc": " "
+      },
+      "DEMON_FAST": {
+        "bName": "Prete Medio",
+        "bDesc": " "
+      },
+      "ANGEL1": {
+        "bName": "Cherubino Caduto",
+        "bDesc": " "
+      },
+      "ANGEL2": {
+        "bName": "Cherubello Caduto",
+        "bDesc": " "
+      },
+      "ANGEL3": {
+        "bName": "Trono Caduto",
+        "bDesc": " "
+      },
+      "XLARMOR_GOLD": {
+        "bName": "Arconte d'Oro",
+        "bDesc": " "
+      },
+      "XLDEMON": {
+        "bName": "Demon Bestia",
+        "bDesc": " "
+      },
+      "XLARCHDEMON": {
+        "bName": "Arcidemone",
+        "bDesc": " "
+      },
+      "TRINACRIA": {
+        "bName": "Trinacria",
+        "bDesc": " "
+      },
+      "BOSS_XLDEATH": {
+        "bName": "The Reaper",
+        "bDesc": " "
+      },
+      "BOSS_TRICKSTER_NORMAL": {
+        "bName": "The Trickster",
+        "bDesc": " "
+      },
+      "BOSS_STALKER_NORMAL": {
+        "bName": "The Stalker",
+        "bDesc": " "
+      },
+      "BOSS_DROWNER_NORMAL": {
+        "bName": "The Drowner",
+        "bDesc": " "
+      },
+      "BOSS_MADDENER_NORMAL": {
+        "bName": "The Maddener",
+        "bDesc": " "
+      },
+      "BOSS_ENDER": {
+        "bName": "The Ender",
+        "bDesc": " "
+      },
+      "BOSS_GIANT_MIMIC1": {
+        "bName": "Mimo prima stagione",
+        "bDesc": " "
+      },
+      "BOSS_GIANT_MIMIC2": {
+        "bName": "Mimo seconda stagione",
+        "bDesc": " "
+      },
+      "BOSS_GIANT_MIMIC3": {
+        "bName": "Mimo terza stagione",
+        "bDesc": " "
+      },
+      "BOSS_DRAGOGION": {
+        "bName": "Dragogion",
+        "bDesc": " "
+      },
+      "MOON_SNEK": {
+        "bName": "Serpentvine",
+        "bDesc": " "
+      },
+      "MOON_GARLIC": {
+        "bName": "Aglio",
+        "bDesc": " "
+      },
+      "MOON_NIGHTSHADE": {
+        "bName": "Nighthade",
+        "bDesc": " "
+      },
+      "DIRECTER": {
+        "bName": "The Directer",
+        "bDesc": "Regali sconfinati. Luoghi oltre la realtà. Scorci di impensabile."
+      },
+      "BOSS_XLCRAB": {
+        "bDesc": " "
+      }
+    }
+  },
+  "ja": {
+    "english": "Japanese",
+    "native": "日本語",
+    "api": "japanese",
+    "translations": {
+      "SKELETON": {
+        "bName": "スケルトン",
+        "bDesc": " "
+      },
+      "MILK": {
+        "bName": "ミルクエレメンタル"
+      },
+      "BUER": {
+        "bName": "ライオンヘッド"
+      },
+      "XLDRAGON1": {
+        "bName": "ドラゴンエビ"
+      },
+      "STAGEKILLER": {
+        "bName": "ステージ・キラー"
+      },
+      "BAT1": {
+        "bName": "バット"
+      },
+      "BAT6": {
+        "bName": "ブラッドバス"
+      },
+      "SKULLINO": {
+        "bName": "小さな頭蓋骨"
+      },
+      "SKULOROSSO": {
+        "bName": "赤い頭蓋骨"
+      },
+      "SKELANGUE": {
+        "bName": "スカーレットスケルトン"
+      },
+      "SKETAMARI": {
+        "bName": "スケタマリ"
+      },
+      "ZOMBIE": {
+        "bName": "ゾンビ"
+      },
+      "MUDMAN1": {
+        "bName": "泥の男"
+      },
+      "FLOWER": {
+        "bName": "花の壁"
+      },
+      "GHOST": {
+        "bName": "幽霊"
+      },
+      "WEREWOLF": {
+        "bName": "人狼"
+      },
+      "MUD": {
+        "bName": "ダストエレメンタル"
+      },
+      "SHADERED": {
+        "bName": "赤い精神"
+      },
+      "POLTER": {
+        "bName": "所有"
+      },
+      "BOSS_COUNT1": {
+        "bName": "ハグ"
+      },
+      "BOSS_COUNT2": {
+        "bName": "アンデッドウィザード"
+      },
+      "MUMMY": {
+        "bName": "ミイラ"
+      },
+      "MEDUSA1": {
+        "bName": "卑劣な頭"
+      },
+      "HARPY": {
+        "bName": "ハーピー"
+      },
+      "ECTO1": {
+        "bName": "モス"
+      },
+      "IMP": {
+        "bName": "インプ"
+      },
+      "DULL0": {
+        "bName": "頭を手に"
+      },
+      "DEVIL1": {
+        "bName": "悪魔"
+      },
+      "XLMAGIO": {
+        "bName": "アンデッドメイジ"
+      },
+      "WITCH1": {
+        "bName": "アンデッドの魔女"
+      },
+      "WITCH2": {
+        "bName": "サッシーアンデッド"
+      },
+      "XLARMOR1": {
+        "bName": "ソード・アルコン"
+      },
+      "XLARMOR2": {
+        "bName": "ディスクアルコン"
+      },
+      "XLMEDUSA": {
+        "bName": "メデューサ"
+      },
+      "XXLBAT": {
+        "bName": "LV128ゴールデンバット"
+      },
+      "XLMANTIS": {
+        "bName": "マンティス"
+      },
+      "XLMUMMY": {
+        "bName": "大きなミイラ"
+      },
+      "XLFLOWER": {
+        "bName": "金星"
+      },
+      "FISHMAN_1": {
+        "bName": "マルマン"
+      },
+      "LIZARD1_2": {
+        "bName": "トカゲポーン"
+      },
+      "PILE1": {
+        "bName": "ツインヘビ"
+      },
+      "LIZARD2_3": {
+        "bName": "トカゲルーク"
+      },
+      "PILE2": {
+        "bName": "双子の悪魔"
+      },
+      "JELLYFISH": {
+        "bName": "クラゲ"
+      },
+      "SKELENIN1": {
+        "bName": "スケルトンニンジャ"
+      },
+      "XLBAT": {
+        "bName": "巨大なコウモリ"
+      },
+      "PILE3": {
+        "bName": "双子を失った"
+      },
+      "GOLEM1": {
+        "bName": "メロン"
+      },
+      "MIGNO1_5": {
+        "bName": "ミノタウロス"
+      },
+      "MIGNO_3_5SWARM": {
+        "bName": "速いミノタウロス"
+      },
+      "ARMORSPEAR_6": {
+        "bName": "スピア・アルコン"
+      },
+      "ARMOR_6": {
+        "bName": "ブレード・アルコン"
+      },
+      "SKELEWING": {
+        "bName": "スケルトンウィング"
+      },
+      "XLTRITON": {
+        "bName": "トリトン"
+      },
+      "XLCHIMERA": {
+        "bName": "ライオンハイブリッド"
+      },
+      "XLCOCKATRICE": {
+        "bName": "巨大な鶏"
+      },
+      "XLGOLEM1": {
+        "bName": "ビッグゴーレム"
+      },
+      "XLGOLEM3": {
+        "bName": "肉ゴーレム"
+      },
+      "XLARMOR_SWORD": {
+        "bName": "ソードガーディアン"
+      },
+      "BOSS_XLCRAB]bName": {
+        "undefined": "巨大な敵のカニ"
+      },
+      "MOLISANO_BASE": {
+        "bName": "悲しいモリサノ"
+      },
+      "MOLISANO_GIALLO": {
+        "bName": "ハッピーモリサノ"
+      },
+      "MOLISANO_BELLO": {
+        "bName": "かわいいモリサノ"
+      },
+      "MOLISANO_COLONNA": {
+        "bName": "古いモリサノ"
+      },
+      "MOLISANO_VECCHIO": {
+        "bName": "死んだモリサノ"
+      },
+      "PILE4": {
+        "bName": "ツインスカル"
+      },
+      "SKULLNOAURA": {
+        "bName": "頭蓋骨"
+      },
+      "SKELEPANTHER": {
+        "bName": "スケルトンパンサー"
+      },
+      "XLSKELETON": {
+        "bName": "巨大なスケルトン"
+      },
+      "SKELETONE": {
+        "bName": "スケルトン"
+      },
+      "MASK_GOLD": {
+        "bName": "サンアトランティアン"
+      },
+      "MASK_SILVER": {
+        "bName": "月アトランティアン"
+      },
+      "MASK_LEFT": {
+        "bName": "市アトランティアン"
+      },
+      "MASK_RIGHT": {
+        "bName": "火山アトランティアン"
+      },
+      "MOON_SHADEBLUE": {
+        "bName": "ブルースピリット"
+      },
+      "MOON_EYE2": {
+        "bName": "わからない"
+      },
+      "MOON_CRABBINO": {
+        "bName": "非巨大な敵のカニ"
+      },
+      "MOON_MASK3": {
+        "bName": "ムーングロウ アトランティス"
+      },
+      "TRAINEE_ANY": {
+        "bName": "死神の研修生"
+      },
+      "KALI1": {
+        "bName": "テトラブラキア"
+      },
+      "ARMOR_FIRE": {
+        "bName": "炎アルコン"
+      },
+      "SUCCUBUS": {
+        "bName": "夢魔"
+      },
+      "XLARMOR_GREEN": {
+        "bName": "銅アルコン"
+      },
+      "DEMON_FAST": {
+        "bName": "悪魔の司祭"
+      },
+      "ANGEL1": {
+        "bName": "倒れたケルブ"
+      },
+      "ANGEL2": {
+        "bName": "倒れたケルベッロ"
+      },
+      "ANGEL3": {
+        "bName": "倒れた王位"
+      },
+      "XLARMOR_GOLD": {
+        "bName": "ゴールデン・アルコン"
+      },
+      "XLDEMON": {
+        "bName": "悪魔の獣"
+      },
+      "XLARCHDEMON": {
+        "bName": "アーチデモン"
+      },
+      "TRINACRIA": {
+        "bName": "トリナクリア"
+      },
+      "BOSS_XLDEATH": {
+        "bName": "死神"
+      },
+      "BOSS_TRICKSTER_NORMAL": {
+        "bName": "トリックスター"
+      },
+      "BOSS_STALKER_NORMAL": {
+        "bName": "ストーカー"
+      },
+      "BOSS_DROWNER_NORMAL": {
+        "bName": "ドラウナー"
+      },
+      "BOSS_MADDENER_NORMAL": {
+        "bName": "狂人"
+      },
+      "BOSS_ENDER": {
+        "bName": "エンダー"
+      },
+      "BOSS_GIANT_MIMIC1": {
+        "bName": "シーズン1を模倣します"
+      },
+      "BOSS_GIANT_MIMIC2": {
+        "bName": "シーズン2を模倣します"
+      },
+      "BOSS_GIANT_MIMIC3": {
+        "bName": "シーズン3を模倣します"
+      },
+      "BOSS_DRAGOGION": {
+        "bName": "トライアンター"
+      },
+      "MOON_SNEK": {
+        "bName": "セルペントヴィン"
+      },
+      "MOON_GARLIC": {
+        "bName": "ニンニク"
+      },
+      "MOON_NIGHTSHADE": {
+        "bName": "ナイトシェード"
+      },
+      "DIRECTER": {
+        "bName": "ディレクター",
+        "bDesc": "無限の贈り物。 現実を超えた光景。 考えられないものを垣間見る。"
+      },
+      "BOSS_XLCRAB": {}
+    }
+  },
+  "ko": {
+    "english": "Korean",
+    "native": "한국어",
+    "api": "koreana",
+    "translations": {
+      "SKELETON": {
+        "bName": "해골",
+        "bDesc": "골격없이 어떤 어둠의 군대가 완성 될까요? 그들은 고도로 훈련을 받고 믿을 수 없을 정도로 복수하며 매우 노동 조합입니다!"
+      },
+      "MILK": {
+        "bName": "우유 원소",
+        "bDesc": "보라, 락토 마크의 신성 모독! 이 균질화 된 공포는 견딜 수없는 우유 마법사의 이름으로 분쇄 및 저온 살균되도록 공식화되었습니다. 크림을하려고했던 사람은 모두 반으로 찢어졌습니다. 이 항목은 탈지하는 것을 선호하는 사람들을 위해 압축되었습니다."
+      },
+      "BUER": {
+        "bName": "라이온 헤드",
+        "bDesc": "어떤 사람들은이 많은 제한이 많은 짐승들이 지옥의 위대한 군주에서 내려 왔다고 말합니다. 고귀한 혈통은 술에 취한 네크로맨서와 재봉 키트의 결과에 대해 명백히 주장했다."
+      },
+      "XLDRAGON1": {
+        "bName": "용 새우",
+        "bDesc": "새우가 모든 것보다 드래곤이되기를 간절히 원할 때, 뿔 새우는 동정심을 가지고 가장 강력한 형태를주었습니다. 또는 오히려, 거의 강력한 형태입니다. 모든 새우의 후원자 신이되는 것은 이보다 훨씬 더 위협적인 것을 만들 수는 없지만 새우는 행복합니다!"
+      },
+      "STAGEKILLER": {
+        "bName": "스테이지 킬러",
+        "bDesc": "“지금 얼마나 많은 영웅이 떨어 졌습니까? 얼마나 많은 캠페인이 상상할 수없는 힘을위한 트레일을 타고 약하고 한심한 블리 링으로 끝났습니까? 당신이 원한다면 우리와 싸우십시오. 가능하다면 우리를 잊어 버리십시오. 당신은 곧 우리 중 하나 일 것입니다. 패배.”"
+      },
+      "BAT1": {
+        "bName": "박쥐",
+        "bDesc": "박쥐와 뱀파이어 사이의 문화적 연관성은 민속 자체까지 뒤로 뻗어 있습니다. 어떤 사람들은 뱀파이어 군주의 죽음의 차가운 얼굴 이이 야행성 nasties의 소용돌이 치는 소용돌이 안에서 벗어나는 것을 보았지만, 그 사람들은 단지주의를 원했습니다. 그들은 박쥐이고 더 이상 아무것도 아닙니다."
+      },
+      "BAT6": {
+        "bName": "혈액 목욕",
+        "bDesc": "파울 이르는이 생물의 매끄러운 피부의 모든 기공에서 튀어 나오는 것처럼 보이며, 많은 사람들이 신선한 살해 된 피의 피에서 목욕을한다고 믿습니다. 면밀한 연구에 따르면 모피는 단순히 빨간색이라는 것이 밝혀졌습니다. 그들은 박쥐이고 더 이상 아무것도 아닙니다."
+      },
+      "SKULLINO": {
+        "bName": "작은 두개골",
+        "bDesc": "Sorcerous Experimationation은 한 번 애니메이션을 렌더링 한 골격이 더 효율적으로 수고 할 수 있는지 여부를 발견하려고 노력했습니다. 내 대답은 아니오 야. 당연히 아니지. 그들이 사랑하는 갈퀴와 괭이를 들어 올릴 수없는이 전 농부들은 이제 영원히 침묵하는 좌절로 이빨을 gnash 수 있습니다."
+      },
+      "SKULOROSSO": {
+        "bName": "붉은 두개골",
+        "bDesc": "잘못된 안내 된 믿음으로 갈망하는 Skullinos는 더 빨리 떠 다니는 것입니다. 스 쿨로 로소는 자신의 손이 부족한 치아 사이에 브러시를 그립하고 서로 페인트합니다. 브러시를 잡고있는 마지막 사람은 일반적으로 버려지고 세상에 대한 믿음이 조금 덜한 두개골의 계급으로 돌아갑니다."
+      },
+      "SKELANGUE": {
+        "bName": "스칼렛 골격",
+        "bDesc": "피로 만든 뼈. 또는 뼈로 만든 피. 어딘가에 피가 관련되어 있습니다. 이 Rufescent Ruffians는 더 많은 것을 쏟아 붓습니다."
+      },
+      "SKETAMARI": {
+        "bName": "Sketamari",
+        "bDesc": "모든 의미와 논리를 무시하는 이유로“뼈 달”을 만들려는 시도의 결과라고 말했습니다. 특이한 목적을 가진 수백 가지의 마음에 의해, 그것은 치터가 덩어리를 더하고 점점 더 커지는 의도로 높은 골격 활동의 장소로 끌려갑니다. 뼈 달은 어떻게 작동할까요? 이 끔찍한 부조리가 결코 지나치지 않도록기도하십시오."
+      },
+      "ZOMBIE": {
+        "bName": "좀비",
+        "bDesc": "“왜 단순히 스몰 포를 죽이기 위해 일하는가? 그것들을 넘어서 일하십시오!” 이것은 추기경의 네크로맨서들이 휴식과 음식이 필요한 노동에 대한 저렴한 대안을 위해 무덤으로 돌아 가면서 웃었다. 슬프게도 그들에게는 새로운 인력이 잤지 만 먹이는 완전히 다른 문제였습니다."
+      },
+      "MUDMAN1": {
+        "bName": "진흙 남자",
+        "bDesc": "미친 숲의 진흙탕은 한때 평범한 마을 사람들 이었지만 진흙 속에서 자아를 덮고 영웅을 죽이는 영웅을 이길 수 있는지에 대한 문화적 불일치는 그들 자신의 사회를 찾게되었습니다. 그리고 지나가는 영웅들을 사망했습니다."
+      },
+      "FLOWER": {
+        "bName": "꽃 벽",
+        "bDesc": "태양의 총 일식 중에 처음 싹이 든다고 말하면,이 멍청한 꽃은 필요하지 않을 때 나타납니다. 즉, 항상 나타납니다."
+      },
+      "GHOST": {
+        "bName": "귀신",
+        "bDesc": "순수한 제작, 뇌의 유휴 판타지는 열이나 지루함으로 움켜 쥐었습니다. 유령과 같은 것은 없으며, 단순한 제안은 말도 안되는 것처럼 조롱해야합니다. 이러한 특별한 유령은 아마도 빛의 속임수 일 것입니다. 조명의 속임수는 히트 포인트를 가질 수 있습니다!"
+      },
+      "WEREWOLF": {
+        "bName": "늑대 인간",
+        "bDesc": "제 시간에 갇힌 세상에서 몰려 들었던 해상 생물에서 진화했다고 말했습니다. 그들의 루핀 본성은 의문의 여지가 있지만, 당신이 그들의 의견을 요구한다면, 그들은 가장 드문 잔인한 잔인한 파쇄에 당신을 찢어 버릴 것입니다. 그것에 대해 민감해야합니다."
+      },
+      "MUD": {
+        "bName": "먼지 원소",
+        "bDesc": "지식이 알려지지 않으면 지식이 아닙니다. 상감 된 도서관의 악의적 인 팽창은 금지 된 지식이 열린 마음에 빠져 들기를 간절히 바라고 있습니다. 회사를위한 먼지만으로 수십 년 동안 떠난 Lore는 그 자체로 집을 만들었습니다. 운 좋게도 우리는 먼지 원소가 말할 혀가 없다는 것입니다."
+      },
+      "SHADERED": {
+        "bName": "붉은 정신",
+        "bDesc": "독자의 현실을 파괴하기 위해 주제와 의미에서 이해할 수없는 작품이 있습니다. 물질 세계에서 불신의 힘을 낸 힘을 통해 찢어진이 학문적 바보들은 휘발성 망각에서 멀어지는 마지막 생각 일뿐입니다."
+      },
+      "POLTER": {
+        "bName": "소유 한",
+        "bDesc": "이에 대한 합리적인 설명이 있습니다. 아마도이 항목들은 Mage의 속임수 또는 Gallo의 습격 과학자들이 꿈꾸는 오토마타의 산물 일 것입니다. 어쩌면 각각은 내부에서 그들을 밀어 넣는 vindictive 개미의 식민지로 가득 차 있습니다. 유령을 언급하기 전에 이러한 가능성을 제거해 봅시다."
+      },
+      "BOSS_COUNT1": {
+        "bName": "추한 노파",
+        "bDesc": "자신의 젖꼭지보다 차갑고,이 마법의 사랑의 모계는 추악하고 끔찍한 크론입니다. 그들은 진정으로 그것을 충분히 얻을 수 없습니다. Cackling, 가마솥, 젊은 처녀들의 부름“나의 예쁜.” 고정 관념이 있다면 HAGS와 HAG 기반 라이프 스타일에 기인 할 수있는 고정 관념이 있다면,이 여성들은 부끄러움없이 그것을 산다. 그들에게 좋습니다."
+      },
+      "BOSS_COUNT2": {
+        "bName": "언데드 마법사",
+        "bDesc": "진실에 대한 헛된 서기관의 탐구는 끝났지 만 멍청하고 광기로 끝났습니다. 그럼에도 불구하고, 그의 가장 불규칙한 스크롤에서도 지혜를 보라고 주장하는 사람들이 있습니다. charlatans 또는 바보이든, 그것을 휘두겠다고 생각하는 사람들에게는 광기에는 힘이 있다고 의문의 여지가 없습니다."
+      },
+      "MUMMY": {
+        "bName": "미라",
+        "bDesc": "영적으로나 지리적으로 진정한 미라와는 거리가 멀지 만, 그들의 마법 제작자들은 미학을 정말 좋아하고 실제 미라는 항상 그렇게 불쾌감을주기보다는 칭찬으로 받아 들여야한다고 주장함으로써 다른 언데드 문화의 예산을 정당화합니다."
+      },
+      "MEDUSA1": {
+        "bName": "비열한 머리",
+        "bDesc": "이 땅에서 가장 혐오스러운 생물 중 한 명으로, 그들은 가장 취약 할 때 의심의 여지가없는 피해자를 선반에서 밀어 붙이는 원유 스포츠를 찾습니다. 그러나 점프 나 등반을하지 않는 적과 직면했지만, 그들은 자신을 다소 힘이 없다는 것을 알게됩니다."
+      },
+      "HARPY": {
+        "bName": "하피",
+        "bDesc": "Gallo Tower의 왕관에서 광대 한 둥지 식민지에서 우울한이 Harpies는 먹이를 하늘로 끌어 당기고 무서운 강한 발톱으로 Twain에서 찢어내는 것을 좋아합니다. 이 놀라운 하체 강도를 유지하기 위해 그들은 다리의 날을 건너 뛰지 않습니다."
+      },
+      "ECTO1": {
+        "bName": "이끼",
+        "bDesc": "너무 큰 소리로 재채기하는 범죄로 복수 된 사서들에 의해 저주를 받았을 것입니다. 영원한 영원에 달려있어,이 불균형적인 보복의 희생자들을 죽이는 것은 자비입니다. 도덕 체계와 같은 것이 있다면 아마도 좋은 업장을 얻을 수있을 것입니다."
+      },
+      "IMP": {
+        "bName": "꼬마 도깨비",
+        "bDesc": "Tomfoolery, Shenanigans 및 14 개의 넌센스 분야를 전문으로하는 장난스러운 악마. 실용적인 농담, 무례한 리머 릭, 가끔 건방진 대량 살인 사건으로 유명합니다."
+      },
+      "DULL0": {
+        "bName": "손을 잡고 머리",
+        "bDesc": "눈부신 명백한 이상으로 인한 외모에 대해 엄청나게 자의식. 만약 당신이 하나를 만나기에 충분히 불행하다면, 당신은 그들이 신발을 신지 않는다는 것을 지적하지 않으면 아무런 계정도 마찬가지입니다."
+      },
+      "DEVIL1": {
+        "bName": "악마",
+        "bDesc": "Faustian and Furious! 낮은 순위의 악마는 지옥의 피치 포크로 무장 한 지옥의 적들과 그들을 밀어 넣을 가장 가혹한 장소에 대한 백과 사전 지식을 향해 행진합니다."
+      },
+      "XLMAGIO": {
+        "bName": "언데드 마법사",
+        "bDesc": "엄청난 마법의 재능을 가진 소년들은 정기적으로 Gallo의 전염성 연금술 아카데미로 보내집니다. 여기서 그들은 힘을 연마하고, 파괴적인 주문을 배우고, 후추마 제조 기술을 완성합니다."
+      },
+      "WITCH1": {
+        "bName": "언데드 마녀",
+        "bDesc": "마녀의 자매 결연은 왕조를 넘어 설 수있는 비밀을 유지합니다. 이 비밀의 4 분의 1은 성 스캔들입니다. 고귀한 뇌물 돈의 유입은 멋진 모자없이 마녀가 가지지 않도록합니다."
+      },
+      "WITCH2": {
+        "bName": "Sassy 언데드",
+        "bDesc": "Giovanna는 태어날 때 마법사를 할당 한 것을 원망했으며 자랑스럽게 빗자루를 타고 모자를 겨냥했습니다. “마녀의 공간을 보호하고 싶다”고 주장하는 그녀의 자매들은 그녀와 그녀의 옆에서 싸우는 모든 사람들을 반대하기로 맹세했습니다. 어쩌면 언젠가 그들은 진정으로 원한다면 누군가가 뚜렷한 마녀가 될 수 있다는 것을 받아 들일 것입니다."
+      },
+      "XLARMOR1": {
+        "bName": "검 아키",
+        "bDesc": "과학과 마법의 뒤틀린 결과,이 애니메이션 갑옷은 Gallo Tower에서 가장 수익성있는 창작물 중 하나로 대량으로 생산되었습니다. 칼의 크기는 끔찍하지만 비현실적으로 비현실적이어서 너무 무겁고 흔들리기에 너무 무겁습니다. 그것은 여전히 ​​일종의 대량 학살 버터 처너처럼 당신을 으깨는 것이 여전히 중요하지 않습니다."
+      },
+      "XLARMOR2": {
+        "bName": "디스크 아치",
+        "bDesc": "Deluxe Model Archon은 가격의 두 배로 동일한 통계를 특징으로합니다. 럭셔리 방어 옵션으로 판매 된 크기와 인상적인 강도는 대부분 재활용 보병 헬멧과 오래된 버킷으로 만든 사실을 숨기는 데 많은 노력을 기울입니다."
+      },
+      "XLMEDUSA": {
+        "bName": "메두사",
+        "bDesc": "최면 시선이 가장 고의적 인 학자들조차도 초기 무덤에 유혹 할 수있는 뱀 유혹자들."
+      },
+      "XXLBAT": {
+        "bName": "LV128 황금 박쥐",
+        "bDesc": "그 모든 반짝이는 금이 아닙니다. 때로는 박쥐입니다. 그러한 희귀 한 생물은 진정으로 순간적인 무언가의 오심을 예고하는 것처럼 보일지 모르지만, 외모에도 불구하고 그들은 박쥐이며 더 이상 아무것도 없다는 것을 알게되어 놀랄 것입니다."
+      },
+      "XLMANTIS": {
+        "bName": "사마귀",
+        "bDesc": "Gallo Tower의 초기 원예 실험은 불가피하지만 끔찍한 돌연변이 체를 산출했습니다. 이 대형 맨티드는 실험실 22에서 자랐으며, 그 후 미친 숲에 훈련을 받고 맛을 볼 수 없다는 것이 분명해졌습니다."
+      },
+      "XLMUMMY": {
+        "bName": "큰 미라",
+        "bDesc": "외모에도 불구 하고이 성가신 시체는 매일 붕대를 바꿉니다. 모든 래핑 아래에서 일어나고있는 것은 미스터리로 남아 있지만 철저히 역겨운 것으로 추정됩니다."
+      },
+      "XLFLOWER": {
+        "bName": "금성",
+        "bDesc": "이 꽃의 중심은 매력적인 여성적인 형태를 가지고 있지만, 그것은 그것을 수용하는 육식적인 꽃에 의해 꼭두각시하는 유혹에 지나지 않습니다. 그들의 브리치로 생각하기 쉬운 사람들은 쉬운 먹이가 될 것입니다."
+      },
+      "FISHMAN_1": {
+        "bName": "인어",
+        "bDesc": "그들은 물고기를 떠올리며, 어디에서나 바닷물을 물고, 정말로 엉뚱한 목소리와 이야기합니다. 젖은 신을 기쁘게하기 위해 노력하면서, 인어는 낙농장의 전복으로 도마뱀과 합류했습니다."
+      },
+      "LIZARD1_2": {
+        "bName": "도마뱀 전당포",
+        "bDesc": "우유를 생산할 수있는 포유류 능력을 부러워 한 도마뱀 사람들은 유제품 공장의 적대적인 인수를하고 수유 수단을 압수했습니다. 우유 마법사의 마지막을 죽인 후,이 생물들은 udder 절망의 캠페인을 시작했습니다."
+      },
+      "PILE1": {
+        "bName": "쌍둥이 뱀",
+        "bDesc": "이러한 불길한 내면은 독립적으로 생각하지만, 공유 소화 시스템은 서로 공생 의존을 필요로합니다. 한 머리는 고체 만 소비 할 수 있습니다. 다른 하나는 액체 만."
+      },
+      "LIZARD2_3": {
+        "bName": "도마뱀 루크",
+        "bDesc": "이 탄탄한 선장이 없다면, 파충류 세력은 결코 유제품에 몰래 들어가서 우유에 집착 한 노인들을 찔러야하는 철 징계와 화려한 전략을 결코 발견하지 못했을 것입니다."
+      },
+      "PILE2": {
+        "bName": "쌍둥이 악마",
+        "bDesc": "쌍둥이 뱀의 악마 변형, 따라서 쌍둥이 악마라는 이름입니다. 당신은 그들이 약간 빨간적이기 때문에 악마라고 말할 수 있습니다. 바로 거기에 악마주의의 고전적인 사례."
+      },
+      "JELLYFISH": {
+        "bName": "해파리",
+        "bDesc": "인어의 애완 동물, 5 야드 이내에 모든 것을 찌르는 경향, 변기 훈련에 대한 완전한 무시는 말 그대로 모든 사람과 인기를 얻지 못하게 만듭니다."
+      },
+      "SKELENIN1": {
+        "bName": "골격 닌자",
+        "bDesc": "이 스텔스 요원들은 언데드 군대 중에서 가장 숙련 된 사람 중 하나입니다. 그들의 비밀 전술과 몰래 임무에 대한 전문화는 밝은 색의 유니폼을 입는 것에 대한 주장에 의해 약간 저하된다."
+      },
+      "XLBAT": {
+        "bName": "거대한 박쥐",
+        "bDesc": "그림자, 눈이 붉게 빛나고, 밤에 펄럭이는 대형 공포에 반드시 뱀파이어의 접근 방식의 표시가되어야합니까? 음 ... 아니. 그들은 박쥐이고 더 이상 아무것도 아닙니다. 그래도 그들이 정말로 피 묻은다는 것을 인정할 것입니다."
+      },
+      "PILE3": {
+        "bName": "잃어버린 쌍둥이",
+        "bDesc": "실제로, 엑스트라, 슈퍼 듀퍼 악마가되어 2 차 헤드가 부족한 것을 보완합니다! 그들은 과도하게 보상하지 않고 완벽하게 보상합니다."
+      },
+      "GOLEM1": {
+        "bName": "멜론",
+        "bDesc": "유제품 식물의 우유 마법사는 이러한 구조물들을 애니메이션 창으로 고안했습니다. 내부는 완전히 속이 빈 우유로 채워져 2 마일 정도 떨어진 곳에화물을 전달할 수 있습니다. 여행에는 몇 주가 걸립니다."
+      },
+      "MIGNO1_5": {
+        "bName": "미노타 우르",
+        "bDesc": "예, 그들은 황소입니다. 그렇습니다. 그들은 대부분의 유제품 공장의 우유의 원천입니다. 아니요, 정말 묻지 말아야합니다."
+      },
+      "MIGNO_3_5SWARM": {
+        "bName": "빠른 미노타 우르",
+        "bDesc": "우유 수익률은 신맛이 있지만 Mignottaur의 유명한 부드러운 고기는 시장에서 높은 가격을 제공합니다. 물론, 피조물의 정육점은 먼저 도살당하는 경향이 있습니다."
+      },
+      "ARMORSPEAR_6": {
+        "bName": "창 아치",
+        "bDesc": "이러한 명령이 길고 날카로운 막대기로 무언가를 찌르는 것을 포함하는 경우, 다양한 명령에 응답하도록 설계된 Archon 모델."
+      },
+      "ARMOR_6": {
+        "bName": "블레이드 아치",
+        "bDesc": "모든 아 갈조의 가장 공상이지만 아마도 가장 효과적입니다. 큰 도끼와 방패로 전투에 체계적으로 행진하는 것은 지루할 수 있지만 작업이 완료됩니다."
+      },
+      "SKELEWING": {
+        "bName": "골격 날개",
+        "bDesc": "육체가없고 깃털이없는 스켈 웨딩은 모든 공기 역학적 협약에 직면하여 날아갑니다. Skelewing의 외부 부속물은 Skullino의 버려진 몸의 이식 된 잔재물이라는 이론이 이론적입니다."
+      },
+      "XLTRITON": {
+        "bName": "트리톤",
+        "bDesc": "바다 깊이의 강력한 전사 인 Tritonts는 멋진 외모와 카리스마로 유명합니다. 그들의 수수께끼의 헤어 케어 루틴은 전 세계에서 가장 소중한 비밀 중 하나이며, 전국이 지식을 폭력적으로 추구하는 데 떨어졌습니다."
+      },
+      "XLCHIMERA": {
+        "bName": "사자 하이브리드",
+        "bDesc": "사자의 몸, 전갈의 꼬리, 날개가 달린 날개를 가진 분개 한 생물. 바브 안에 포함 된 독은 강력한 환각 효과를 가지고 있으며, 날 수있는 망상을 유지하기 위해 의도적으로 쏘는 것을 좋아합니다."
+      },
+      "XLCOCKATRICE": {
+        "bName": "거대한 닭고기",
+        "bDesc": "Gallo는 발에서 머리까지 천천히 석화되는 빈번한 악몽으로 인해 오랫동안 귀신이 있었지만 아마도 더 무서운 것은 거대한 육식 닭의 꿈이었을 것입니다. Gallotrice의 탄생은 감정적 치료의 형태로서 과학적 신성 모독이 아무도 도울 수 없다는 것을 고려하기 시작한 순간이었습니다."
+      },
+      "XLGOLEM1": {
+        "bName": "큰 골렘",
+        "bDesc": "크고 큰 골렘! 그것을 합치면 무엇을 얻습니까? 큰 큰 골렘 건축 세트! 로드하십시오! 트럭을 따라! 버려라! 큰 큰 골렘!"
+      },
+      "XLGOLEM3": {
+        "bName": "고기 골렘",
+        "bDesc": "창립자에 의한 Gallo Tower의 포기에 이어 남은 과학자 소인은 아무리 변하거나 비위생적이든 상관없이 모든 호기심을 자유롭게 만족시킬 수있었습니다. 고기 골렘은“해를 입지 않아”“당신은 당신을해라”가되었을 때 일어난 일입니다."
+      },
+      "XLARMOR_SWORD": {
+        "bName": "검은 고장",
+        "bDesc": "그들은 검을 가지고 다니는 수호자가 아니라 오히려 그들의 검을 수호자입니다. 그들은 강력한 칼날을 보는 것처럼 누군가를 질투하게 공격합니다.‘em!"
+      },
+      "BOSS_XLCRAB]bName": {
+        "undefined": "거대한 적게"
+      },
+      "MOLISANO_BASE": {
+        "bName": "슬픈 몰리 사노",
+        "bDesc": "슬프다."
+      },
+      "MOLISANO_GIALLO": {
+        "bName": "행복한 몰리 사노",
+        "bDesc": "행복한 몰리 사노."
+      },
+      "MOLISANO_BELLO": {
+        "bName": "귀여운 몰리 사노",
+        "bDesc": "부모님을 소개 할 수있는 Molisano."
+      },
+      "MOLISANO_COLONNA": {
+        "bName": "오래된 몰리 사노",
+        "bDesc": "당신이 yay 높은시기를 기억하는 Molisano."
+      },
+      "MOLISANO_VECCHIO": {
+        "bName": "죽은 몰리 사노",
+        "bDesc": "정말로 죽었 기 때문에 전혀 많이하지 않는 Molisano."
+      },
+      "PILE4": {
+        "bName": "쌍둥이 두개골",
+        "bDesc": "한 쌍의 쌍둥이 뱀이 죽은 후에, 그들의 골격 유물은 신비하게 다시 깨어날 수 있습니다. 그들은 쌍둥이 뱀이되는 것이 처음부터 스릴이 아니었기 때문에 일반적으로 이것에 만족하지 않습니다. 그들은 행복해 보이므로 적어도 기분을 무너 뜨리지 않습니다."
+      },
+      "SKULLNOAURA": {
+        "bName": "두개골",
+        "bDesc": "이 거대한 웃음 두개골이 어디에서 왔는지 아무도 모릅니다. 아무도 묻지 않았습니다. 그들은 거대한 웃고있는 두개골이기 때문에 말을 먹습니다."
+      },
+      "SKELEPANTHER": {
+        "bName": "골격 팬더",
+        "bDesc": "팬더의 굶주림이 너무 커서 죽음조차도 열광을 만족시킬 수 없을 때, 한 번 더 먹이를 먹습니다. 그러나 배가 오랫동안 썩어 버렸다는 것을 알지 못하고 왜 먹이를 유지할 수 없는지에 대해 영원히 혼란스러워합니다."
+      },
+      "XLSKELETON": {
+        "bName": "거대한 골격",
+        "bDesc": "질문에 대한 대답은“골격이 크면 어떻게됩니까?” 추기경은이 질문을 매일 그의 네크로맨서들에게 끔찍한 목소리를내는 소리를 냈다. 그들은 결국 방금 일부를 만들었습니다."
+      },
+      "SKELETONE": {
+        "bName": "스켈레톤",
+        "bDesc": "골격 당 더 많은 골격. 골격이 평균 골격보다 단단한 골격. 취미에는 골격, 골격에 대한 생각, 캐주얼 골격이 포함됩니다. 하나님,“골격”이라는 단어는 이상합니다."
+      },
+      "MASK_GOLD": {
+        "bName": "태양의 아틀란 테인",
+        "bDesc": "인종의 강력한 수호자 멸종 된 생각 멸종. 그 마스크는 태양, 생명의 주제, 예배의 주제, 그리고 모든 곳의 아이스크림 판매자에게 친구를 나타냅니다."
+      },
+      "MASK_SILVER": {
+        "bName": "달 아틀란티아",
+        "bDesc": "인종의 강력한 수호자 멸종 된 생각 멸종. 그 마스크는 달, 조수를 가져 오는 사람, 미스터리의 대상, 밤에 지루할 때 볼 무언가를 나타냅니다."
+      },
+      "MASK_LEFT": {
+        "bName": "시티 아틀란티아",
+        "bDesc": "인종의 강력한 수호자 멸종 된 생각 멸종. 마스크는 선진 문명, 세계의 숙달, 사회 질서 및 쓰레기를 나타냅니다."
+      },
+      "MASK_RIGHT": {
+        "bName": "화산의 아틀란티아",
+        "bDesc": "인종의 강력한 수호자 멸종 된 생각 멸종. 그 마스크는 자연계의 분노 인 불과 분노를 나타내며, 조 (조)라는 사람에 대한 열과 반대를 보게됩니다."
+      },
+      "MOON_SHADEBLUE": {
+        "bName": "푸른 정신",
+        "bDesc": "그들의 비참한 존재는 Sig.ra Rossi의 존재와 비슷하지만 그것에 대해 훨씬 더 우울합니다."
+      },
+      "MOON_EYE2": {
+        "bName": "알려지지 않은",
+        "bDesc": "나는 그들을 볼 수 없지만 그들은 나를 봅니다. 나는 그들을 느낄 수 있습니다. 보고있다. 항상보고 있습니다. 그들의 시선의 압력은 무덤에서 땅처럼 나를 밀어냅니다. 편집증은 누구입니까? 나? 나는 편집증이 아닙니다. 당신은 편집증입니다. 누가 그 미끄러지지 않은 오브 뒤에서 나를 바라보고 있습니까?"
+      },
+      "MOON_CRABBINO": {
+        "bName": "비 거인 적게",
+        "bDesc": "당신이 많은 양의 게를 양동이에 넣었을 때, 그들은 실제로 다른 사람이 탈출하는 것을 막기 위해 서로를 끌어 당기려고하지 않는다는 것을 알고 있습니까? 그것은 우리 자신의 냉소적이고 이기적인 태도를 바탕으로 그들에게 투사 한 것입니다. 겸손한 저자가 도전하기를 희망하는 안티 크랩 선전의 또 다른 예."
+      },
+      "MOON_MASK3": {
+        "bName": "달빛 아틀란티스",
+        "bDesc": "아름답지만 베일이 많은이 델파이 단체가 진정한 살아있는 아틀란티스, 타락한 문명의 마법 구조물, 또는 더욱 호기심 많은 것인지는 알 수 없습니다. 그들은 귀신이 아니므로 가능성에서 그 말도 안되는 것을 제거해 봅시다. 그들의 마스크는 매혹적이지만 착용자의 죽음에서 살아남은 것은 없습니다."
+      },
+      "TRAINEE_ANY": {
+        "bName": "사신 연수생",
+        "bDesc": "영원의 인턴들은 급여 외에는 아무것도 거두지 않을 것입니다. 하지만 실제로는 일이 충분하지 않습니까? 많은 사람들이 Grim Maschera의 견습생이며, 각각은 주님의 죽음에 깊은 인상을주기를 희망합니다."
+      },
+      "KALI1": {
+        "bName": "테트라 브라키아",
+        "bDesc": "아름답고 치명적인 전사 인 테트라 브라키아는 카펠라 마그나의 경건한 지배 계급의 발 솔기 역할을합니다. 그들은 4 개의 무기가 미리 경고되기 때문에 싸움에서 매복되거나 놀라게 될 수 없다고 주장합니다."
+      },
+      "ARMOR_FIRE": {
+        "bName": "불꽃 아키",
+        "bDesc": "과열되고 불을 피우는 경향이있는 자동 군인. Gallo Tower는 문제를 해결하기보다는 버그 대신 기능이라고 주장하고 이러한 화염에 휩싸인 안전 위반을 훌륭한 사용자 리뷰를 제공 한 악마의 카발로 판매했습니다."
+      },
+      "SUCCUBUS": {
+        "bName": "서큐버스",
+        "bDesc": "Succubi는 매혹적인 불화를 뿌리고 내부에서 가장 거룩한 질서를 무너 뜨리기 위해 Capella Magna에 왔습니다. 그러나 이미 핵심으로 썩은 것을 부패시킬 수 없기 때문에 그들의 노력은 완전한 좌절감을 느꼈습니다."
+      },
+      "XLARMOR_GREEN": {
+        "bName": "구리 아치",
+        "bDesc": "\"의심스러운 경우 칼을 더 크게 만드십시오.\" 이 디자인 철학은 Rame의 창조의 핵심이었으며, 이는 또한 발을지면에서 발보다 더 많이 들어 올리는 데 필요한 상체 강도를 자랑합니다."
+      },
+      "DEMON_FAST": {
+        "bName": "악마 사제",
+        "bDesc": "가장 거룩한 질서가 문자 그대로의 악마를 성례로 지키기 시작했을 때, 일부는 아마도 시스템의 완전성이 타협되었다고 제안했다. 어리 석음. 시스템은 시작할 무결성이 없었습니다."
+      },
+      "ANGEL1": {
+        "bName": "타락한 체로",
+        "bDesc": "무죄의 이전의 의인화, 그들의 조화로운 코러스는 한때 하늘의 영광을 불렀습니다. 이제 그들은 절망과 파괴, 불충실과 부채, 고문, 고문 및 쓰레기를 재활용과 혼합 한 노래를 부릅니다."
+      },
+      "ANGEL2": {
+        "bName": "벨 케루빔",
+        "bDesc": "도자기는 끊임없이 노래하고 다른 사람들이 잠을 자려고 할 때 종소리를 울리는 잘못된 신인들과 마주 쳤다. 그들의 악으로 돌아 가기 전에도 그들은 성가시고 약간 소름 끼치는 것으로 유명했습니다."
+      },
+      "ANGEL3": {
+        "bName": "쓰러진 왕좌",
+        "bDesc": "아름다움이 악의적 인 의도에 달려있는 천사의 혐오. 악영향을받은 그들의 모든 변덕은 한때 칭찬을받은 미덕의 병에 걸린 모순입니다."
+      },
+      "XLARMOR_GOLD": {
+        "bName": "골든 아치",
+        "bDesc": "금화 된 오토마톤은 평화를 유지하기 위해 가장 거룩한 질서에 의해 서비스에 들어갔다. 그들은 마음이없는 목재로 모든 멋진 스테인드 글라스를 계속 부수면서 평화를 많이 유지하지 않았습니다. 그들은 보는 것만 큼 비싸다."
+      },
+      "XLDEMON": {
+        "bName": "악마 짐승",
+        "bDesc": "주문의 결정적인 가을 후 Cappella Magna로 옮겼습니다. 타락과 탈퇴를 퍼뜨리는 곳마다, 악마 짐승은 음란 한 마음을 가로 지르는 모든 악한 욕망을 만족시킵니다. 진지하게,이 사람들은 불쾌하고 불쾌한 것들에 있습니다."
+      },
+      "XLARCHDEMON": {
+        "bName": "대조",
+        "bDesc": "큰. 빨간색. 흥분합니다. 그보다 훨씬 더 악마를 얻지 못합니다. 아치 악마는 그것이 악마라는 의미를 모두 보여주기 위해 노력하며, 그들은 악마 적으로 능숙합니다. 그들은 또한 많이 맹세합니다."
+      },
+      "TRINACRIA": {
+        "bName": "트리 타리아",
+        "bDesc": "별에 도달하기 위해 만들어졌지만 그녀는 그보다 훨씬 더 멀리 갔다. 그녀는 우리 우주에 구멍을 찢고 다른 차원의 관문입니다. 순수한 혼돈의 차원. 순수 악. 그녀를 봐, 그녀는 아름답 지 않니?"
+      },
+      "BOSS_XLDEATH": {
+        "bName": "사신",
+        "bDesc": "그에게서 도망칩니다. 그를 무시하십시오. 어쩌면 그를 죽일 수도 있습니다. 결과에 관계없이, 주님의 죽음은 항상 결국 승리합니다. 눈을 감고 머리를 돌리고 공허로 비명을 지르지 만 시간이 지남에 따라 모두가 마스크를 착용해야합니다."
+      },
+      "BOSS_TRICKSTER_NORMAL": {
+        "bName": "속임수",
+        "bDesc": "환상에 의한 살인을 전문으로하는 사신. 보물 사냥꾼들은 특히 속임수의 치명적인 농담에 대해 파울을 흘리며, 보석을 간절히 바꾸고 너무 늦게 배우고 초자연적 폭발물로 판탈론을 채워 넣었습니다. 파티의 죽음을 좋아합니다."
+      },
+      "BOSS_STALKER_NORMAL": {
+        "bName": "스토커",
+        "bDesc": "힌트를받을 수없는 사신. 그들이 피해자에게 눈을 돌리면, 강박적인 테러 캠페인에서 그들을 설득 할 수있는 것은 아무것도 없습니다. 스토커의 많은 희생자들은 수년간의 추격 후 피로로 사망하거나 단순히 항복으로 사망합니다. 당신에게 관심을 가져야한다면 조심하십시오. 어디를 가든, 그것은 따라갑니다."
+      },
+      "BOSS_DROWNER_NORMAL": {
+        "bName": "익사",
+        "bDesc": "비가 내리는 것을 좋아하는 사신. 이야기는 40 일과 40 일 동안 한 사람에게 깊은 인상을주기 위해 한 번 그렇게했다고 주장합니다. 전투에서 익사는 젖은 일의 주인으로, 학대의 급류로 적의 정신을 약화시키는 것을 선호합니다. 원래 죽은 수영장에 파울을하지 마십시오."
+      },
+      "BOSS_MADDENER_NORMAL": {
+        "bName": "미치광이",
+        "bDesc": "진정한 형태가 정신의 가장자리를 넘어서는 사신. 현실 자체를 바꾸는 힘을 지니고, 혼란스럽고 혼란스러워하며, 희생자에게서 영감을 얻은 정신적 고통을 먹습니다. 그러나 불쾌감을 줄 수있는 능력이 강탈 당했을 때, 그것은 다른 사람들에게 일으키는 두려움과 당황에 빠지게됩니다."
+      },
+      "BOSS_ENDER": {
+        "bName": "엔더",
+        "bDesc": "우정의 힘이 행성이 갈 때. 망각의 궁극적 인 의인화로, 엔더는 진정한 절망의 모든 측면, 즉 죽음, 광기, 강박 관념, 속임수, 젖은 것을 캡슐화합니다. 그 도착은 진정한 무익함을 나타내며, 파멸 된 퀘스트를 시작한 사람들에게 최종 경고를하고, 그들이 추구하는 것이이 세상이나 다음 세상에 있지 않다는 것을 이해하기를 거부합니다."
+      },
+      "BOSS_GIANT_MIMIC1": {
+        "bName": "시즌 1을 모방합니다",
+        "bDesc": "당신이 전에 본 적이없는 것처럼 좋아하는 괴물…"
+      },
+      "BOSS_GIANT_MIMIC2": {
+        "bName": "시즌 2를 모방합니다",
+        "bDesc": "큰 괴물의 마지막 시즌은 당신에게 충분히 크지 않았습니까? 글쎄,이 큰 괴물들을 크기로 시험해보십시오! 그들은 너무 큽니다!"
+      },
+      "BOSS_GIANT_MIMIC3": {
+        "bName": "시즌 3을 모방합니다",
+        "bDesc": "이 괴물들이 얼마나 큰지 감동하지 않습니까? 그들은 너무 큽니다!"
+      },
+      "BOSS_DRAGOGION": {
+        "bName": "3 일 안개",
+        "bDesc": "아버지는 유성의 배 안에이 세상에 도착한 위대한 짐승이었습니다. 그 어머니는 물고기였습니다. 각 머리에는 고유 한 성격, 핵심 가치 및 정치적 관계가 있습니다."
+      },
+      "MOON_SNEK": {
+        "bName": "뱀덩굴",
+        "bDesc": "파충류 전문가들 사이에서“긴 발동기”로 알려진 그들은 행복한 작은 국수이며 매우 사랑 스럽습니다. 아무도 수만 명이 그들을 깎는 죄책감을 느끼지 않아도된다고 말하면, 그들은 수만 명의 깎기를 즐긴다 고 가정 해 봅시다."
+      },
+      "MOON_GARLIC": {
+        "bName": "마늘",
+        "bDesc": "실험적 살충제의 큰 결과. 이름에도 불구하고, 그들은 전통적인 마늘과 관련이 없으며, 뱀파이어의 불가피한 모습에 대항하여 와드로 쓸모가 없습니다."
+      },
+      "MOON_NIGHTSHADE": {
+        "bName": "나이트 셰이드",
+        "bDesc": "베리 농민의 트리오가 교배 한이 마늘 의이 파생물은 맛있지 만 치명적입니다. 농민들은 독이있는 퇴적물에서 베리 우유를 만들려고 시도한 후 이것을 발견했습니다. 그들이 죽는 것은 말도 안되는 방법이었습니다."
+      },
+      "DIRECTER": {
+        "bName": "ディレクター",
+        "bDesc": "무한한 선물. 현실을 넘어서는 광경. 생각할 수없는 사람들의 엿볼 수 있습니다."
+      },
+      "BOSS_XLCRAB": {
+        "bDesc": "그들의 이름과 같은이 거대한 갑각류는 그들을 이해하고 싶지 않은 사회에 의해 길항 작용으로 철도되었습니다. 거대한 적게가 그들 자신의 전체 문화를 가지고 있다는 것을 알게 된 것이 놀랍습니까? 철학 학교? 예술과 교육? 편견은 진정으로 슬프고 슬픈 일입니다."
+      }
+    }
+  },
+  "no": {
+    "english": "Norwegian",
+    "native": "Norsk",
+    "api": "norwegian",
+    "translations": {}
+  },
+  "pl": {
+    "english": "Polish",
+    "native": "Polski",
+    "api": "polish",
+    "translations": {
+      "SKELETON": {
+        "bName": "Szkielet",
+        "bDesc": " "
+      },
+      "MILK": {
+        "bName": "Mleko żywiołów",
+        "bDesc": " "
+      },
+      "BUER": {
+        "bName": "Głowa lwa",
+        "bDesc": " "
+      },
+      "XLDRAGON1": {
+        "bName": "Krewetki smoka",
+        "bDesc": " "
+      },
+      "STAGEKILLER": {
+        "bName": "Zabójców etapu",
+        "bDesc": " "
+      },
+      "BAT1": {
+        "bName": "Nietoperz",
+        "bDesc": " "
+      },
+      "BAT6": {
+        "bName": "kąpiel krwi",
+        "bDesc": " "
+      },
+      "SKULLINO": {
+        "bName": "Mała czaszka",
+        "bDesc": " "
+      },
+      "SKULOROSSO": {
+        "bName": "czerwona Czaszka",
+        "bDesc": " "
+      },
+      "SKELANGUE": {
+        "bName": "Szkarłatny szkielet",
+        "bDesc": " "
+      },
+      "SKETAMARI": {
+        "bName": "Sketamari",
+        "bDesc": " "
+      },
+      "ZOMBIE": {
+        "bName": "Zambi",
+        "bDesc": " "
+      },
+      "MUDMAN1": {
+        "bName": "Błoto",
+        "bDesc": " "
+      },
+      "FLOWER": {
+        "bName": "Ściana kwiatowa",
+        "bDesc": " "
+      },
+      "GHOST": {
+        "bName": "Duch",
+        "bDesc": " "
+      },
+      "WEREWOLF": {
+        "bName": "Wilkołak",
+        "bDesc": " "
+      },
+      "MUD": {
+        "bName": "Pył żywiołowy",
+        "bDesc": " "
+      },
+      "SHADERED": {
+        "bName": "Czerwony duch",
+        "bDesc": " "
+      },
+      "POLTER": {
+        "bName": "Opętany",
+        "bDesc": " "
+      },
+      "BOSS_COUNT1": {
+        "bName": "Wiedźma",
+        "bDesc": " "
+      },
+      "BOSS_COUNT2": {
+        "bName": "Nieumarły czarodziej",
+        "bDesc": " "
+      },
+      "MUMMY": {
+        "bName": "Mumia",
+        "bDesc": " "
+      },
+      "MEDUSA1": {
+        "bName": "Podstępna głowa",
+        "bDesc": " "
+      },
+      "HARPY": {
+        "bName": "Harpia",
+        "bDesc": " "
+      },
+      "ECTO1": {
+        "bName": "Mech",
+        "bDesc": " "
+      },
+      "IMP": {
+        "bName": "Chochlik",
+        "bDesc": " "
+      },
+      "DULL0": {
+        "bName": "Głowa w ręku",
+        "bDesc": " "
+      },
+      "DEVIL1": {
+        "bName": "Diabeł",
+        "bDesc": " "
+      },
+      "XLMAGIO": {
+        "bName": "Nieumarły mag",
+        "bDesc": " "
+      },
+      "WITCH1": {
+        "bName": "Nieumarła wiedźma",
+        "bDesc": " "
+      },
+      "WITCH2": {
+        "bName": "Sassy nieumarły",
+        "bDesc": " "
+      },
+      "XLARMOR1": {
+        "bName": "Miecz Archon",
+        "bDesc": " "
+      },
+      "XLARMOR2": {
+        "bName": "Archon Disc",
+        "bDesc": " "
+      },
+      "XLMEDUSA": {
+        "bName": "Medusa",
+        "bDesc": " "
+      },
+      "XXLBAT": {
+        "bName": "LV128 Złoty nietoperz",
+        "bDesc": " "
+      },
+      "XLMANTIS": {
+        "bName": "Modliszka",
+        "bDesc": " "
+      },
+      "XLMUMMY": {
+        "bName": "Wielka mama",
+        "bDesc": " "
+      },
+      "XLFLOWER": {
+        "bName": "Wenus",
+        "bDesc": " "
+      },
+      "FISHMAN_1": {
+        "bName": "Merman",
+        "bDesc": " "
+      },
+      "LIZARD1_2": {
+        "bName": "Lizard Pawn",
+        "bDesc": " "
+      },
+      "PILE1": {
+        "bName": "Podwójne węże",
+        "bDesc": " "
+      },
+      "LIZARD2_3": {
+        "bName": "Lizard Rook",
+        "bDesc": " "
+      },
+      "PILE2": {
+        "bName": "Twin Demons",
+        "bDesc": " "
+      },
+      "JELLYFISH": {
+        "bName": "Meduza",
+        "bDesc": " "
+      },
+      "SKELENIN1": {
+        "bName": "Szkielet Ninja",
+        "bDesc": " "
+      },
+      "XLBAT": {
+        "bName": "Giant Bat",
+        "bDesc": " "
+      },
+      "PILE3": {
+        "bName": "Zagubiony bliźniak",
+        "bDesc": " "
+      },
+      "GOLEM1": {
+        "bName": "Melone",
+        "bDesc": " "
+      },
+      "MIGNO1_5": {
+        "bName": "Minotaur",
+        "bDesc": " "
+      },
+      "MIGNO_3_5SWARM": {
+        "bName": "Szybki minotaur",
+        "bDesc": " "
+      },
+      "ARMORSPEAR_6": {
+        "bName": "Archon Spear",
+        "bDesc": " "
+      },
+      "ARMOR_6": {
+        "bName": "Archon Blade",
+        "bDesc": " "
+      },
+      "SKELEWING": {
+        "bName": "Skeletowe skrzydło",
+        "bDesc": " "
+      },
+      "XLTRITON": {
+        "bName": "Tryton",
+        "bDesc": " "
+      },
+      "XLCHIMERA": {
+        "bName": "Lion Hybrid",
+        "bDesc": " "
+      },
+      "XLCOCKATRICE": {
+        "bName": "Olbrzymi kurczak",
+        "bDesc": " "
+      },
+      "XLGOLEM1": {
+        "bName": "Wielki Golem",
+        "bDesc": " "
+      },
+      "XLGOLEM3": {
+        "bName": "Mięso golem",
+        "bDesc": " "
+      },
+      "XLARMOR_SWORD": {
+        "bName": "Strażnik miecza",
+        "bDesc": " "
+      },
+      "BOSS_XLCRAB]bName": {
+        "undefined": "Olbrzymi krab wroga"
+      },
+      "MOLISANO_BASE": {
+        "bName": "Smutny Molisano",
+        "bDesc": " "
+      },
+      "MOLISANO_GIALLO": {
+        "bName": "Happy Molisano",
+        "bDesc": " "
+      },
+      "MOLISANO_BELLO": {
+        "bName": "Śliczny Molisano",
+        "bDesc": " "
+      },
+      "MOLISANO_COLONNA": {
+        "bName": "Old Molisano",
+        "bDesc": " "
+      },
+      "MOLISANO_VECCHIO": {
+        "bName": "Dead Molisano",
+        "bDesc": " "
+      },
+      "PILE4": {
+        "bName": "Bliźniacze czaszki",
+        "bDesc": " "
+      },
+      "SKULLNOAURA": {
+        "bName": "Skullone",
+        "bDesc": " "
+      },
+      "SKELEPANTHER": {
+        "bName": "Szkielet Panther",
+        "bDesc": " "
+      },
+      "XLSKELETON": {
+        "bName": "Gigantyczny szkielet",
+        "bDesc": " "
+      },
+      "SKELETONE": {
+        "bName": "Szkielet",
+        "bDesc": " "
+      },
+      "MASK_GOLD": {
+        "bName": "Sun Atlantaan",
+        "bDesc": " "
+      },
+      "MASK_SILVER": {
+        "bName": "Księżyc Atlantaan",
+        "bDesc": " "
+      },
+      "MASK_LEFT": {
+        "bName": "City Atlantaan",
+        "bDesc": " "
+      },
+      "MASK_RIGHT": {
+        "bName": "Wulkan Atlantaan",
+        "bDesc": " "
+      },
+      "MOON_SHADEBLUE": {
+        "bName": "Niebieski duch",
+        "bDesc": " "
+      },
+      "MOON_EYE2": {
+        "bName": "Nieznany",
+        "bDesc": " "
+      },
+      "MOON_CRABBINO": {
+        "bName": "Krab bez gigantycznego wroga",
+        "bDesc": " "
+      },
+      "MOON_MASK3": {
+        "bName": "Moongolow Atlananowie",
+        "bDesc": " "
+      },
+      "TRAINEE_ANY": {
+        "bName": "REAPER Stahere",
+        "bDesc": " "
+      },
+      "KALI1": {
+        "bName": "Tetrabrachia",
+        "bDesc": " "
+      },
+      "ARMOR_FIRE": {
+        "bName": "Flame Archon",
+        "bDesc": " "
+      },
+      "SUCCUBUS": {
+        "bName": "Suckiebus",
+        "bDesc": " "
+      },
+      "XLARMOR_GREEN": {
+        "bName": "Miedziany archon",
+        "bDesc": " "
+      },
+      "DEMON_FAST": {
+        "bName": "Demon Kapłan",
+        "bDesc": " "
+      },
+      "ANGEL1": {
+        "bName": "Fallen Cherub",
+        "bDesc": " "
+      },
+      "ANGEL2": {
+        "bName": "Fallen Cherubbello",
+        "bDesc": " "
+      },
+      "ANGEL3": {
+        "bName": "Upadły tron",
+        "bDesc": " "
+      },
+      "XLARMOR_GOLD": {
+        "bName": "Złoty Archon",
+        "bDesc": " "
+      },
+      "XLDEMON": {
+        "bName": "Demonowa bestia",
+        "bDesc": " "
+      },
+      "XLARCHDEMON": {
+        "bName": "Archdemon",
+        "bDesc": " "
+      },
+      "TRINACRIA": {
+        "bName": "Trinacria",
+        "bDesc": " "
+      },
+      "BOSS_XLDEATH": {
+        "bName": "The Reaper",
+        "bDesc": " "
+      },
+      "BOSS_TRICKSTER_NORMAL": {
+        "bName": "The Trickster",
+        "bDesc": " "
+      },
+      "BOSS_STALKER_NORMAL": {
+        "bName": "The Stalker",
+        "bDesc": " "
+      },
+      "BOSS_DROWNER_NORMAL": {
+        "bName": "The Drowner",
+        "bDesc": " "
+      },
+      "BOSS_MADDENER_NORMAL": {
+        "bName": "The Maddener",
+        "bDesc": " "
+      },
+      "BOSS_ENDER": {
+        "bName": "The Ender",
+        "bDesc": " "
+      },
+      "BOSS_GIANT_MIMIC1": {
+        "bName": "Naśladuj sezon pierwszy",
+        "bDesc": " "
+      },
+      "BOSS_GIANT_MIMIC2": {
+        "bName": "Naśladuj sezon drugi",
+        "bDesc": " "
+      },
+      "BOSS_GIANT_MIMIC3": {
+        "bName": "Naśladuj sezon trzeci",
+        "bDesc": " "
+      },
+      "BOSS_DRAGOGION": {
+        "bName": "Tri-Anchorzy",
+        "bDesc": " "
+      },
+      "MOON_SNEK": {
+        "bName": "Serpentvine",
+        "bDesc": " "
+      },
+      "MOON_GARLIC": {
+        "bName": "Czosnek",
+        "bDesc": " "
+      },
+      "MOON_NIGHTSHADE": {
+        "bName": "Nocny cień",
+        "bDesc": " "
+      },
+      "DIRECTER": {
+        "bName": "The Directer",
+        "bDesc": "Bezgraniczne prezenty. Zabytki poza rzeczywistością. Rzuty nie do pomyślenia."
+      },
+      "BOSS_XLCRAB": {
+        "bDesc": " "
+      }
+    }
+  },
+  "pt": {
+    "english": "Portuguese",
+    "native": "Português",
+    "api": "portuguese",
+    "translations": {}
+  },
+  "pt-BR": {
+    "english": "Portuguese-Brazil",
+    "native": "Português-Brasil",
+    "api": "brazilian",
+    "translations": {
+      "SKELETON": {
+        "bName": "Esqueleto",
+        "bDesc": " "
+      },
+      "MILK": {
+        "bName": "Leite elementar",
+        "bDesc": " "
+      },
+      "BUER": {
+        "bName": "Cabeça de leão",
+        "bDesc": " "
+      },
+      "XLDRAGON1": {
+        "bName": "Camarão de dragão",
+        "bDesc": " "
+      },
+      "STAGEKILLER": {
+        "bName": "Extermina-fases",
+        "bDesc": " "
+      },
+      "BAT1": {
+        "bName": "Bastão",
+        "bDesc": " "
+      },
+      "BAT6": {
+        "bName": "banho de sangue",
+        "bDesc": " "
+      },
+      "SKULLINO": {
+        "bName": "Pequeno crânio",
+        "bDesc": " "
+      },
+      "SKULOROSSO": {
+        "bName": "caveira Vermelha",
+        "bDesc": " "
+      },
+      "SKELANGUE": {
+        "bName": "Esqueleto escarlate",
+        "bDesc": " "
+      },
+      "SKETAMARI": {
+        "bName": "Sketamari",
+        "bDesc": " "
+      },
+      "ZOMBIE": {
+        "bName": "Zumbi",
+        "bDesc": " "
+      },
+      "MUDMAN1": {
+        "bName": "Homem de lama",
+        "bDesc": " "
+      },
+      "FLOWER": {
+        "bName": "Parede de flores",
+        "bDesc": " "
+      },
+      "GHOST": {
+        "bName": "Fantasma",
+        "bDesc": " "
+      },
+      "WEREWOLF": {
+        "bName": "Lobisomem",
+        "bDesc": " "
+      },
+      "MUD": {
+        "bName": "Poeira elementar",
+        "bDesc": " "
+      },
+      "SHADERED": {
+        "bName": "Espírito vermelho",
+        "bDesc": " "
+      },
+      "POLTER": {
+        "bName": "Possuído",
+        "bDesc": " "
+      },
+      "BOSS_COUNT1": {
+        "bName": "Bruxa",
+        "bDesc": " "
+      },
+      "BOSS_COUNT2": {
+        "bName": "Assistente de mortos -vivos",
+        "bDesc": " "
+      },
+      "MUMMY": {
+        "bName": "Mamãe",
+        "bDesc": " "
+      },
+      "MEDUSA1": {
+        "bName": "Cabeça sorrateira",
+        "bDesc": " "
+      },
+      "HARPY": {
+        "bName": "Harpia",
+        "bDesc": " "
+      },
+      "ECTO1": {
+        "bName": "Musgo",
+        "bDesc": " "
+      },
+      "IMP": {
+        "bName": "Criança levada",
+        "bDesc": " "
+      },
+      "DULL0": {
+        "bName": "Cabeça na mão",
+        "bDesc": " "
+      },
+      "DEVIL1": {
+        "bName": "Diabo",
+        "bDesc": " "
+      },
+      "XLMAGIO": {
+        "bName": "Mago dos mortos -vivos",
+        "bDesc": " "
+      },
+      "WITCH1": {
+        "bName": "Bruxa morta -viva",
+        "bDesc": " "
+      },
+      "WITCH2": {
+        "bName": "Sassy morto -vivo",
+        "bDesc": " "
+      },
+      "XLARMOR1": {
+        "bName": "Arconte de espada",
+        "bDesc": " "
+      },
+      "XLARMOR2": {
+        "bName": "Arconte de disco",
+        "bDesc": " "
+      },
+      "XLMEDUSA": {
+        "bName": "Medusa",
+        "bDesc": " "
+      },
+      "XXLBAT": {
+        "bName": "Lv128 Bat Golden",
+        "bDesc": " "
+      },
+      "XLMANTIS": {
+        "bName": "louva a Deus",
+        "bDesc": " "
+      },
+      "XLMUMMY": {
+        "bName": "Big Mummy",
+        "bDesc": " "
+      },
+      "XLFLOWER": {
+        "bName": "Vênus",
+        "bDesc": " "
+      },
+      "FISHMAN_1": {
+        "bName": "Tritão",
+        "bDesc": " "
+      },
+      "LIZARD1_2": {
+        "bName": "Lizard Pawn",
+        "bDesc": " "
+      },
+      "PILE1": {
+        "bName": "Cobras gêmeas",
+        "bDesc": " "
+      },
+      "LIZARD2_3": {
+        "bName": "Lizard Rook",
+        "bDesc": " "
+      },
+      "PILE2": {
+        "bName": "Demônios gêmeos",
+        "bDesc": " "
+      },
+      "JELLYFISH": {
+        "bName": "Medusa",
+        "bDesc": " "
+      },
+      "SKELENIN1": {
+        "bName": "Ninja de esqueleto",
+        "bDesc": " "
+      },
+      "XLBAT": {
+        "bName": "Bat gigante",
+        "bDesc": " "
+      },
+      "PILE3": {
+        "bName": "Lost Twin",
+        "bDesc": " "
+      },
+      "GOLEM1": {
+        "bName": "Melone",
+        "bDesc": " "
+      },
+      "MIGNO1_5": {
+        "bName": "Minotauro",
+        "bDesc": " "
+      },
+      "MIGNO_3_5SWARM": {
+        "bName": "Minotauro rápido",
+        "bDesc": " "
+      },
+      "ARMORSPEAR_6": {
+        "bName": "Arconte de lança",
+        "bDesc": " "
+      },
+      "ARMOR_6": {
+        "bName": "Blade Archon",
+        "bDesc": " "
+      },
+      "SKELEWING": {
+        "bName": "Asa de esqueleto",
+        "bDesc": " "
+      },
+      "XLTRITON": {
+        "bName": "Triton",
+        "bDesc": " "
+      },
+      "XLCHIMERA": {
+        "bName": "Híbrido de leão",
+        "bDesc": " "
+      },
+      "XLCOCKATRICE": {
+        "bName": "Frango gigante",
+        "bDesc": " "
+      },
+      "XLGOLEM1": {
+        "bName": "Big Golem",
+        "bDesc": " "
+      },
+      "XLGOLEM3": {
+        "bName": "Golem de carne",
+        "bDesc": " "
+      },
+      "XLARMOR_SWORD": {
+        "bName": "Guardião da espada",
+        "bDesc": " "
+      },
+      "BOSS_XLCRAB]bName": {
+        "undefined": "Caranguejo inimigo gigante"
+      },
+      "MOLISANO_BASE": {
+        "bName": "Sad Molisano",
+        "bDesc": " "
+      },
+      "MOLISANO_GIALLO": {
+        "bName": "Feliz molisano",
+        "bDesc": " "
+      },
+      "MOLISANO_BELLO": {
+        "bName": "Molisano fofo",
+        "bDesc": " "
+      },
+      "MOLISANO_COLONNA": {
+        "bName": "Old Molisano",
+        "bDesc": " "
+      },
+      "MOLISANO_VECCHIO": {
+        "bName": "Molisano morto",
+        "bDesc": " "
+      },
+      "PILE4": {
+        "bName": "Crânios duplos",
+        "bDesc": " "
+      },
+      "SKULLNOAURA": {
+        "bName": "Skullone",
+        "bDesc": " "
+      },
+      "SKELEPANTHER": {
+        "bName": "Pantera de esqueleto",
+        "bDesc": " "
+      },
+      "XLSKELETON": {
+        "bName": "Esqueleto gigante",
+        "bDesc": " "
+      },
+      "SKELETONE": {
+        "bName": "Esqueleto",
+        "bDesc": " "
+      },
+      "MASK_GOLD": {
+        "bName": "Sol Atlante",
+        "bDesc": " "
+      },
+      "MASK_SILVER": {
+        "bName": "Lua Atlante",
+        "bDesc": " "
+      },
+      "MASK_LEFT": {
+        "bName": "Cidade atlante",
+        "bDesc": " "
+      },
+      "MASK_RIGHT": {
+        "bName": "Vulcão Atlante",
+        "bDesc": " "
+      },
+      "MOON_SHADEBLUE": {
+        "bName": "Espírito azul",
+        "bDesc": " "
+      },
+      "MOON_EYE2": {
+        "bName": "Desconhecido",
+        "bDesc": " "
+      },
+      "MOON_CRABBINO": {
+        "bName": "Caranguejo inimigo não gigante",
+        "bDesc": " "
+      },
+      "MOON_MASK3": {
+        "bName": "Moongolow Atlanteianos",
+        "bDesc": " "
+      },
+      "TRAINEE_ANY": {
+        "bName": "Reaper Trainee",
+        "bDesc": " "
+      },
+      "KALI1": {
+        "bName": "Tetrabrachia",
+        "bDesc": " "
+      },
+      "ARMOR_FIRE": {
+        "bName": "Arconte de chama",
+        "bDesc": " "
+      },
+      "SUCCUBUS": {
+        "bName": "Succubus",
+        "bDesc": " "
+      },
+      "XLARMOR_GREEN": {
+        "bName": "Arconte de cobre",
+        "bDesc": " "
+      },
+      "DEMON_FAST": {
+        "bName": "Sacerdote demoníaco",
+        "bDesc": " "
+      },
+      "ANGEL1": {
+        "bName": "Querubim caído",
+        "bDesc": " "
+      },
+      "ANGEL2": {
+        "bName": "Cherubbello caído",
+        "bDesc": " "
+      },
+      "ANGEL3": {
+        "bName": "Trono caído",
+        "bDesc": " "
+      },
+      "XLARMOR_GOLD": {
+        "bName": "Arconte de ouro",
+        "bDesc": " "
+      },
+      "XLDEMON": {
+        "bName": "Fera demoníaca",
+        "bDesc": " "
+      },
+      "XLARCHDEMON": {
+        "bName": "Archdemon",
+        "bDesc": " "
+      },
+      "TRINACRIA": {
+        "bName": "Trinacria",
+        "bDesc": " "
+      },
+      "BOSS_XLDEATH": {
+        "bName": "The Reaper",
+        "bDesc": " "
+      },
+      "BOSS_TRICKSTER_NORMAL": {
+        "bName": "The Trickster",
+        "bDesc": " "
+      },
+      "BOSS_STALKER_NORMAL": {
+        "bName": "The Stalker",
+        "bDesc": " "
+      },
+      "BOSS_DROWNER_NORMAL": {
+        "bName": "The Drowner",
+        "bDesc": " "
+      },
+      "BOSS_MADDENER_NORMAL": {
+        "bName": "The Maddener",
+        "bDesc": " "
+      },
+      "BOSS_ENDER": {
+        "bName": "The Ender",
+        "bDesc": " "
+      },
+      "BOSS_GIANT_MIMIC1": {
+        "bName": "Imitar a primeira temporada",
+        "bDesc": " "
+      },
+      "BOSS_GIANT_MIMIC2": {
+        "bName": "Imitar a segunda temporada",
+        "bDesc": " "
+      },
+      "BOSS_GIANT_MIMIC3": {
+        "bName": "MIMICA TEMPORAÇÃO TERMELHA",
+        "bDesc": " "
+      },
+      "BOSS_DRAGOGION": {
+        "bName": "Tri-âncoras",
+        "bDesc": " "
+      },
+      "MOON_SNEK": {
+        "bName": "Serpentvine",
+        "bDesc": " "
+      },
+      "MOON_GARLIC": {
+        "bName": "Alho",
+        "bDesc": " "
+      },
+      "MOON_NIGHTSHADE": {
+        "bName": "Nightshade",
+        "bDesc": " "
+      },
+      "DIRECTER": {
+        "bName": "The Directer",
+        "bDesc": "Presentes sem limites. Vistas além da realidade. Vislumbres do impensável."
+      },
+      "BOSS_XLCRAB": {
+        "bDesc": " "
+      }
+    }
+  },
+  "ro": {
+    "english": "Romanian",
+    "native": "Română",
+    "api": "romanian",
+    "translations": {}
+  },
+  "ru": {
+    "english": "Russian",
+    "native": "Русский",
+    "api": "russian",
+    "translations": {
+      "SKELETON": {
+        "bName": "Скелет",
+        "bDesc": " "
+      },
+      "MILK": {
+        "bName": "Молоко элементал",
+        "bDesc": " "
+      },
+      "BUER": {
+        "bName": "Львиная голова",
+        "bDesc": " "
+      },
+      "XLDRAGON1": {
+        "bName": "Драконки Креветки",
+        "bDesc": " "
+      },
+      "STAGEKILLER": {
+        "bName": "сценических убийц",
+        "bDesc": " "
+      },
+      "BAT1": {
+        "bName": "Летучая мышь",
+        "bDesc": " "
+      },
+      "BAT6": {
+        "bName": "кровяная ванна",
+        "bDesc": " "
+      },
+      "SKULLINO": {
+        "bName": "маленький череп",
+        "bDesc": " "
+      },
+      "SKULOROSSO": {
+        "bName": "Красный Череп",
+        "bDesc": " "
+      },
+      "SKELANGUE": {
+        "bName": "алый скелет",
+        "bDesc": " "
+      },
+      "SKETAMARI": {
+        "bName": "Скетамари",
+        "bDesc": " "
+      },
+      "ZOMBIE": {
+        "bName": "Живой мертвец",
+        "bDesc": " "
+      },
+      "MUDMAN1": {
+        "bName": "Грязь",
+        "bDesc": " "
+      },
+      "FLOWER": {
+        "bName": "Цветочная стена",
+        "bDesc": " "
+      },
+      "GHOST": {
+        "bName": "Призрак",
+        "bDesc": " "
+      },
+      "WEREWOLF": {
+        "bName": "Оборотень",
+        "bDesc": " "
+      },
+      "MUD": {
+        "bName": "Пыль элемент",
+        "bDesc": " "
+      },
+      "SHADERED": {
+        "bName": "Красный дух",
+        "bDesc": " "
+      },
+      "POLTER": {
+        "bName": "Одержимый",
+        "bDesc": " "
+      },
+      "BOSS_COUNT1": {
+        "bName": "Гаг",
+        "bDesc": " "
+      },
+      "BOSS_COUNT2": {
+        "bName": "Волшебник нежити",
+        "bDesc": " "
+      },
+      "MUMMY": {
+        "bName": "мумия",
+        "bDesc": " "
+      },
+      "MEDUSA1": {
+        "bName": "Подлая голова",
+        "bDesc": " "
+      },
+      "HARPY": {
+        "bName": "Гарпий",
+        "bDesc": " "
+      },
+      "ECTO1": {
+        "bName": "Мох",
+        "bDesc": " "
+      },
+      "IMP": {
+        "bName": "Имп",
+        "bDesc": " "
+      },
+      "DULL0": {
+        "bName": "Голова в руке",
+        "bDesc": " "
+      },
+      "DEVIL1": {
+        "bName": "Дьявол",
+        "bDesc": " "
+      },
+      "XLMAGIO": {
+        "bName": "Нежить маг",
+        "bDesc": " "
+      },
+      "WITCH1": {
+        "bName": "Нежить ведьма",
+        "bDesc": " "
+      },
+      "WITCH2": {
+        "bName": "Нахальный нежить",
+        "bDesc": " "
+      },
+      "XLARMOR1": {
+        "bName": "Меч Архон",
+        "bDesc": " "
+      },
+      "XLARMOR2": {
+        "bName": "Диск Архон",
+        "bDesc": " "
+      },
+      "XLMEDUSA": {
+        "bName": "Медуза",
+        "bDesc": " "
+      },
+      "XXLBAT": {
+        "bName": "LV128 Золотая летучая мышь",
+        "bDesc": " "
+      },
+      "XLMANTIS": {
+        "bName": "Богомол",
+        "bDesc": " "
+      },
+      "XLMUMMY": {
+        "bName": "Большая мама",
+        "bDesc": " "
+      },
+      "XLFLOWER": {
+        "bName": "Венера",
+        "bDesc": " "
+      },
+      "FISHMAN_1": {
+        "bName": "Мерман",
+        "bDesc": " "
+      },
+      "LIZARD1_2": {
+        "bName": "Ящеристая пешка",
+        "bDesc": " "
+      },
+      "PILE1": {
+        "bName": "Двойные змеи",
+        "bDesc": " "
+      },
+      "LIZARD2_3": {
+        "bName": "Ящерица Рук",
+        "bDesc": " "
+      },
+      "PILE2": {
+        "bName": "Двойные демоны",
+        "bDesc": " "
+      },
+      "JELLYFISH": {
+        "bName": "Медуза",
+        "bDesc": " "
+      },
+      "SKELENIN1": {
+        "bName": "Скелет ниндзя",
+        "bDesc": " "
+      },
+      "XLBAT": {
+        "bName": "Гигантская летучая мышь",
+        "bDesc": " "
+      },
+      "PILE3": {
+        "bName": "Потерянный близнец",
+        "bDesc": " "
+      },
+      "GOLEM1": {
+        "bName": "Мелоне",
+        "bDesc": " "
+      },
+      "MIGNO1_5": {
+        "bName": "Минотавр",
+        "bDesc": " "
+      },
+      "MIGNO_3_5SWARM": {
+        "bName": "Быстрый минотавр",
+        "bDesc": " "
+      },
+      "ARMORSPEAR_6": {
+        "bName": "Копь Архон",
+        "bDesc": " "
+      },
+      "ARMOR_6": {
+        "bName": "Клинок Архон",
+        "bDesc": " "
+      },
+      "SKELEWING": {
+        "bName": "Крыло скелета",
+        "bDesc": " "
+      },
+      "XLTRITON": {
+        "bName": "Тритон",
+        "bDesc": " "
+      },
+      "XLCHIMERA": {
+        "bName": "Лев гибрид",
+        "bDesc": " "
+      },
+      "XLCOCKATRICE": {
+        "bName": "Гигантская курица",
+        "bDesc": " "
+      },
+      "XLGOLEM1": {
+        "bName": "Большой Голем",
+        "bDesc": " "
+      },
+      "XLGOLEM3": {
+        "bName": "Мясной голем",
+        "bDesc": " "
+      },
+      "XLARMOR_SWORD": {
+        "bName": "Меч -хранитель",
+        "bDesc": " "
+      },
+      "BOSS_XLCRAB]bName": {
+        "undefined": "Гигантский вражеский краб"
+      },
+      "MOLISANO_BASE": {
+        "bName": "Грустный молисано",
+        "bDesc": " "
+      },
+      "MOLISANO_GIALLO": {
+        "bName": "Счастливого молисано",
+        "bDesc": " "
+      },
+      "MOLISANO_BELLO": {
+        "bName": "Симпатичный молисано",
+        "bDesc": " "
+      },
+      "MOLISANO_COLONNA": {
+        "bName": "Старый молисано",
+        "bDesc": " "
+      },
+      "MOLISANO_VECCHIO": {
+        "bName": "Мертвый молисано",
+        "bDesc": " "
+      },
+      "PILE4": {
+        "bName": "Двойные черепа",
+        "bDesc": " "
+      },
+      "SKULLNOAURA": {
+        "bName": "Череп",
+        "bDesc": " "
+      },
+      "SKELEPANTHER": {
+        "bName": "Скелетон Пантера",
+        "bDesc": " "
+      },
+      "XLSKELETON": {
+        "bName": "Гигантский скелет",
+        "bDesc": " "
+      },
+      "SKELETONE": {
+        "bName": "Скелет",
+        "bDesc": " "
+      },
+      "MASK_GOLD": {
+        "bName": "Атланто солнца",
+        "bDesc": " "
+      },
+      "MASK_SILVER": {
+        "bName": "Луна Атлантин",
+        "bDesc": " "
+      },
+      "MASK_LEFT": {
+        "bName": "Город Атлант",
+        "bDesc": " "
+      },
+      "MASK_RIGHT": {
+        "bName": "Вулкан Атлант",
+        "bDesc": " "
+      },
+      "MOON_SHADEBLUE": {
+        "bName": "Синий дух",
+        "bDesc": " "
+      },
+      "MOON_EYE2": {
+        "bName": "Неизвестный",
+        "bDesc": " "
+      },
+      "MOON_CRABBINO": {
+        "bName": "Негигантский вражеский краб",
+        "bDesc": " "
+      },
+      "MOON_MASK3": {
+        "bName": "Мунголоу Атланцы",
+        "bDesc": " "
+      },
+      "TRAINEE_ANY": {
+        "bName": "Жнец стажера",
+        "bDesc": " "
+      },
+      "KALI1": {
+        "bName": "Тетрабрахия",
+        "bDesc": " "
+      },
+      "ARMOR_FIRE": {
+        "bName": "Пламя Архон",
+        "bDesc": " "
+      },
+      "SUCCUBUS": {
+        "bName": "Суккуб",
+        "bDesc": " "
+      },
+      "XLARMOR_GREEN": {
+        "bName": "Медный Архон",
+        "bDesc": " "
+      },
+      "DEMON_FAST": {
+        "bName": "Демон Священник",
+        "bDesc": " "
+      },
+      "ANGEL1": {
+        "bName": "Упал херувим",
+        "bDesc": " "
+      },
+      "ANGEL2": {
+        "bName": "Падший херуббелло",
+        "bDesc": " "
+      },
+      "ANGEL3": {
+        "bName": "Падший престол",
+        "bDesc": " "
+      },
+      "XLARMOR_GOLD": {
+        "bName": "Золотой Архон",
+        "bDesc": " "
+      },
+      "XLDEMON": {
+        "bName": "Демон зверь",
+        "bDesc": " "
+      },
+      "XLARCHDEMON": {
+        "bName": "Архитон",
+        "bDesc": " "
+      },
+      "TRINACRIA": {
+        "bName": "Тринакрия",
+        "bDesc": " "
+      },
+      "BOSS_XLDEATH": {
+        "bName": "Жнец",
+        "bDesc": " "
+      },
+      "BOSS_TRICKSTER_NORMAL": {
+        "bName": "Трикстер",
+        "bDesc": " "
+      },
+      "BOSS_STALKER_NORMAL": {
+        "bName": "Сталкер",
+        "bDesc": " "
+      },
+      "BOSS_DROWNER_NORMAL": {
+        "bName": "Утоплятель",
+        "bDesc": " "
+      },
+      "BOSS_MADDENER_NORMAL": {
+        "bName": "Сумасшедший",
+        "bDesc": " "
+      },
+      "BOSS_ENDER": {
+        "bName": "Эндер",
+        "bDesc": " "
+      },
+      "BOSS_GIANT_MIMIC1": {
+        "bName": "Имитирует первый сезон",
+        "bDesc": " "
+      },
+      "BOSS_GIANT_MIMIC2": {
+        "bName": "Имит второй сезон",
+        "bDesc": " "
+      },
+      "BOSS_GIANT_MIMIC3": {
+        "bName": "Имитирует третий сезон",
+        "bDesc": " "
+      },
+      "BOSS_DRAGOGION": {
+        "bName": "Три-энкоры",
+        "bDesc": " "
+      },
+      "MOON_SNEK": {
+        "bName": "Серпентвин",
+        "bDesc": " "
+      },
+      "MOON_GARLIC": {
+        "bName": "Чеснок",
+        "bDesc": " "
+      },
+      "MOON_NIGHTSHADE": {
+        "bName": "Паслен",
+        "bDesc": " "
+      },
+      "DIRECTER": {
+        "bName": "Директер",
+        "bDesc": "Безграничные подарки. Достопримечательности за пределами реальности. Проблески немыслимого."
+      },
+      "BOSS_XLCRAB": {
+        "bDesc": " "
+      }
+    }
+  },
+  "es": {
+    "english": "Spanish",
+    "native": "Español",
+    "api": "spanish",
+    "translations": {
+      "SKELETON": {
+        "bName": "Esqueleto",
+        "bDesc": " "
+      },
+      "MILK": {
+        "bName": "Leche elemental",
+        "bDesc": " "
+      },
+      "BUER": {
+        "bName": "Cabeza de león",
+        "bDesc": " "
+      },
+      "XLDRAGON1": {
+        "bName": "Camarón de dragón",
+        "bDesc": " "
+      },
+      "STAGEKILLER": {
+        "bName": "doppelgänger",
+        "bDesc": " "
+      },
+      "BAT1": {
+        "bName": "Murciélago",
+        "bDesc": " "
+      },
+      "BAT6": {
+        "bName": "baño de sangre",
+        "bDesc": " "
+      },
+      "SKULLINO": {
+        "bName": "calavera",
+        "bDesc": " "
+      },
+      "SKULOROSSO": {
+        "bName": "craneo Rojo",
+        "bDesc": " "
+      },
+      "SKELANGUE": {
+        "bName": "esqueleto escarlata",
+        "bDesc": " "
+      },
+      "SKETAMARI": {
+        "bName": "Sketamari",
+        "bDesc": " "
+      },
+      "ZOMBIE": {
+        "bName": "Zombi",
+        "bDesc": " "
+      },
+      "MUDMAN1": {
+        "bName": "Hombre de lodo",
+        "bDesc": " "
+      },
+      "FLOWER": {
+        "bName": "Muro de flores",
+        "bDesc": " "
+      },
+      "GHOST": {
+        "bName": "Fantasma",
+        "bDesc": " "
+      },
+      "WEREWOLF": {
+        "bName": "Hombre-lobo",
+        "bDesc": " "
+      },
+      "MUD": {
+        "bName": "Polvo elemental",
+        "bDesc": " "
+      },
+      "SHADERED": {
+        "bName": "Espíritu rojo",
+        "bDesc": " "
+      },
+      "POLTER": {
+        "bName": "Poseído",
+        "bDesc": " "
+      },
+      "BOSS_COUNT1": {
+        "bName": "Bruja",
+        "bDesc": " "
+      },
+      "BOSS_COUNT2": {
+        "bName": "Mago no muerto",
+        "bDesc": " "
+      },
+      "MUMMY": {
+        "bName": "Momia",
+        "bDesc": " "
+      },
+      "MEDUSA1": {
+        "bName": "Cabeza astuta",
+        "bDesc": " "
+      },
+      "HARPY": {
+        "bName": "Arpía",
+        "bDesc": " "
+      },
+      "ECTO1": {
+        "bName": "Musgo",
+        "bDesc": " "
+      },
+      "IMP": {
+        "bName": "Diablillo",
+        "bDesc": " "
+      },
+      "DULL0": {
+        "bName": "Cabeza en la mano",
+        "bDesc": " "
+      },
+      "DEVIL1": {
+        "bName": "Demonio",
+        "bDesc": " "
+      },
+      "XLMAGIO": {
+        "bName": "Mago no muerto",
+        "bDesc": " "
+      },
+      "WITCH1": {
+        "bName": "Bruja no muerta",
+        "bDesc": " "
+      },
+      "WITCH2": {
+        "bName": "No muerto descarado",
+        "bDesc": " "
+      },
+      "XLARMOR1": {
+        "bName": "Arco de la espada",
+        "bDesc": " "
+      },
+      "XLARMOR2": {
+        "bName": "Arco de disco",
+        "bDesc": " "
+      },
+      "XLMEDUSA": {
+        "bName": "Medusa",
+        "bDesc": " "
+      },
+      "XXLBAT": {
+        "bName": "LV128 Bat dorado",
+        "bDesc": " "
+      },
+      "XLMANTIS": {
+        "bName": "Mantis",
+        "bDesc": " "
+      },
+      "XLMUMMY": {
+        "bName": "Momia grande",
+        "bDesc": " "
+      },
+      "XLFLOWER": {
+        "bName": "Venus",
+        "bDesc": " "
+      },
+      "FISHMAN_1": {
+        "bName": "Tritón",
+        "bDesc": " "
+      },
+      "LIZARD1_2": {
+        "bName": "Peón de lagarto",
+        "bDesc": " "
+      },
+      "PILE1": {
+        "bName": "Serpientes gemelas",
+        "bDesc": " "
+      },
+      "LIZARD2_3": {
+        "bName": "Torre de lagarto",
+        "bDesc": " "
+      },
+      "PILE2": {
+        "bName": "Demonios gemelos",
+        "bDesc": " "
+      },
+      "JELLYFISH": {
+        "bName": "Medusa",
+        "bDesc": " "
+      },
+      "SKELENIN1": {
+        "bName": "Esqueleto ninja",
+        "bDesc": " "
+      },
+      "XLBAT": {
+        "bName": "Bate gigante",
+        "bDesc": " "
+      },
+      "PILE3": {
+        "bName": "Gemelo perdido",
+        "bDesc": " "
+      },
+      "GOLEM1": {
+        "bName": "Melón",
+        "bDesc": " "
+      },
+      "MIGNO1_5": {
+        "bName": "Minotauro",
+        "bDesc": " "
+      },
+      "MIGNO_3_5SWARM": {
+        "bName": "Minotauro rápido",
+        "bDesc": " "
+      },
+      "ARMORSPEAR_6": {
+        "bName": "Arco de lanza",
+        "bDesc": " "
+      },
+      "ARMOR_6": {
+        "bName": "Arcón de la cuchilla",
+        "bDesc": " "
+      },
+      "SKELEWING": {
+        "bName": "Ala esquelética",
+        "bDesc": " "
+      },
+      "XLTRITON": {
+        "bName": "Tritón",
+        "bDesc": " "
+      },
+      "XLCHIMERA": {
+        "bName": "León híbrido",
+        "bDesc": " "
+      },
+      "XLCOCKATRICE": {
+        "bName": "Pollo gigante",
+        "bDesc": " "
+      },
+      "XLGOLEM1": {
+        "bName": "Gran golem",
+        "bDesc": " "
+      },
+      "XLGOLEM3": {
+        "bName": "Golem",
+        "bDesc": " "
+      },
+      "XLARMOR_SWORD": {
+        "bName": "Espada tutor",
+        "bDesc": " "
+      },
+      "BOSS_XLCRAB]bName": {
+        "undefined": "Cangrejo enemigo gigante"
+      },
+      "MOLISANO_BASE": {
+        "bName": "Triste molisano",
+        "bDesc": " "
+      },
+      "MOLISANO_GIALLO": {
+        "bName": "Feliz Molisano",
+        "bDesc": " "
+      },
+      "MOLISANO_BELLO": {
+        "bName": "Lindo molisano",
+        "bDesc": " "
+      },
+      "MOLISANO_COLONNA": {
+        "bName": "Viejo Molisano",
+        "bDesc": " "
+      },
+      "MOLISANO_VECCHIO": {
+        "bName": "Molisano muerto",
+        "bDesc": " "
+      },
+      "PILE4": {
+        "bName": "Cráneos gemelos",
+        "bDesc": " "
+      },
+      "SKULLNOAURA": {
+        "bName": "Skullone",
+        "bDesc": " "
+      },
+      "SKELEPANTHER": {
+        "bName": "Pantera de esqueleto",
+        "bDesc": " "
+      },
+      "XLSKELETON": {
+        "bName": "Esqueleto gigante",
+        "bDesc": " "
+      },
+      "SKELETONE": {
+        "bName": "Esqueleto",
+        "bDesc": " "
+      },
+      "MASK_GOLD": {
+        "bName": "Sol Atlante",
+        "bDesc": " "
+      },
+      "MASK_SILVER": {
+        "bName": "Luna atlante",
+        "bDesc": " "
+      },
+      "MASK_LEFT": {
+        "bName": "Ciudad atlante",
+        "bDesc": " "
+      },
+      "MASK_RIGHT": {
+        "bName": "Volcán atlante",
+        "bDesc": " "
+      },
+      "MOON_SHADEBLUE": {
+        "bName": "Espíritu azul",
+        "bDesc": " "
+      },
+      "MOON_EYE2": {
+        "bName": "Desconocido",
+        "bDesc": " "
+      },
+      "MOON_CRABBINO": {
+        "bName": "Cangrejo enemigo no gigante",
+        "bDesc": " "
+      },
+      "MOON_MASK3": {
+        "bName": "Moongolow Atlanteans",
+        "bDesc": " "
+      },
+      "TRAINEE_ANY": {
+        "bName": "Alumno",
+        "bDesc": " "
+      },
+      "KALI1": {
+        "bName": "Tetrabrachia",
+        "bDesc": " "
+      },
+      "ARMOR_FIRE": {
+        "bName": "Arconte de la llama",
+        "bDesc": " "
+      },
+      "SUCCUBUS": {
+        "bName": "Súcubo",
+        "bDesc": " "
+      },
+      "XLARMOR_GREEN": {
+        "bName": "Arco de cobre",
+        "bDesc": " "
+      },
+      "DEMON_FAST": {
+        "bName": "Sacerdote demonio",
+        "bDesc": " "
+      },
+      "ANGEL1": {
+        "bName": "Querubín caído",
+        "bDesc": " "
+      },
+      "ANGEL2": {
+        "bName": "Querubbello caído",
+        "bDesc": " "
+      },
+      "ANGEL3": {
+        "bName": "Trono caído",
+        "bDesc": " "
+      },
+      "XLARMOR_GOLD": {
+        "bName": "Arconte dorado",
+        "bDesc": " "
+      },
+      "XLDEMON": {
+        "bName": "Bestia demoníaca",
+        "bDesc": " "
+      },
+      "XLARCHDEMON": {
+        "bName": "Archidemon",
+        "bDesc": " "
+      },
+      "TRINACRIA": {
+        "bName": "Trinacria",
+        "bDesc": " "
+      },
+      "BOSS_XLDEATH": {
+        "bName": "The Reaper",
+        "bDesc": " "
+      },
+      "BOSS_TRICKSTER_NORMAL": {
+        "bName": "The Trickster",
+        "bDesc": " "
+      },
+      "BOSS_STALKER_NORMAL": {
+        "bName": "The Stalker",
+        "bDesc": " "
+      },
+      "BOSS_DROWNER_NORMAL": {
+        "bName": "The Drowner",
+        "bDesc": " "
+      },
+      "BOSS_MADDENER_NORMAL": {
+        "bName": "The Maddener",
+        "bDesc": " "
+      },
+      "BOSS_ENDER": {
+        "bName": "The Ender",
+        "bDesc": " "
+      },
+      "BOSS_GIANT_MIMIC1": {
+        "bName": "La primera temporada",
+        "bDesc": " "
+      },
+      "BOSS_GIANT_MIMIC2": {
+        "bName": "Temporada de imitación de imitación",
+        "bDesc": " "
+      },
+      "BOSS_GIANT_MIMIC3": {
+        "bName": "Temporada de imitación de imitación",
+        "bDesc": " "
+      },
+      "BOSS_DRAGOGION": {
+        "bName": "Triadas",
+        "bDesc": " "
+      },
+      "MOON_SNEK": {
+        "bName": "Serpentvine",
+        "bDesc": " "
+      },
+      "MOON_GARLIC": {
+        "bName": "Ajo",
+        "bDesc": " "
+      },
+      "MOON_NIGHTSHADE": {
+        "bName": "Hierba mora",
+        "bDesc": " "
+      },
+      "DIRECTER": {
+        "bName": "The Directer",
+        "bDesc": "Regalos sin límites. Vistas más allá de la realidad. Vislumbres de lo impensable."
+      },
+      "BOSS_XLCRAB": {
+        "bDesc": " "
+      }
+    }
+  },
+  "es-419": {
+    "english": "Spanish-Latin America",
+    "native": "Español-Latinoamérica",
+    "api": "latam",
+    "translations": {}
+  },
+  "sv": {
+    "english": "Swedish",
+    "native": "Svenska",
+    "api": "swedish",
+    "translations": {}
+  },
+  "th": {
+    "english": "Thai",
+    "native": "ไทย",
+    "api": "thai",
+    "translations": {}
+  },
+  "tr": {
+    "english": "Turkish",
+    "native": "Türkçe",
+    "api": "turkish",
+    "translations": {
+      "SKELETON": {
+        "bName": "İskelet",
+        "bDesc": " "
+      },
+      "MILK": {
+        "bName": "Süt elemanı",
+        "bDesc": " "
+      },
+      "BUER": {
+        "bName": "Aslan başı",
+        "bDesc": " "
+      },
+      "XLDRAGON1": {
+        "bName": "Ejderha Karides",
+        "bDesc": " "
+      },
+      "STAGEKILLER": {
+        "bName": "Sahne Katili",
+        "bDesc": " "
+      },
+      "BAT1": {
+        "bName": "Yarasa",
+        "bDesc": " "
+      },
+      "BAT6": {
+        "bName": "kan gölü",
+        "bDesc": " "
+      },
+      "SKULLINO": {
+        "bName": "küçük kafatası",
+        "bDesc": " "
+      },
+      "SKULOROSSO": {
+        "bName": "kırmızı kafatası",
+        "bDesc": " "
+      },
+      "SKELANGUE": {
+        "bName": "kırmızı iskelet",
+        "bDesc": " "
+      },
+      "SKETAMARI": {
+        "bName": "Sketamari",
+        "bDesc": " "
+      },
+      "ZOMBIE": {
+        "bName": "Zombi",
+        "bDesc": " "
+      },
+      "MUDMAN1": {
+        "bName": "Çamur adamı",
+        "bDesc": " "
+      },
+      "FLOWER": {
+        "bName": "Çiçek duvarı",
+        "bDesc": " "
+      },
+      "GHOST": {
+        "bName": "Hayalet",
+        "bDesc": " "
+      },
+      "WEREWOLF": {
+        "bName": "Kurt adam",
+        "bDesc": " "
+      },
+      "MUD": {
+        "bName": "Toz element",
+        "bDesc": " "
+      },
+      "SHADERED": {
+        "bName": "Kırmızı ruh",
+        "bDesc": " "
+      },
+      "POLTER": {
+        "bName": "Ele geçirilmiş",
+        "bDesc": " "
+      },
+      "BOSS_COUNT1": {
+        "bName": "Coşkun",
+        "bDesc": " "
+      },
+      "BOSS_COUNT2": {
+        "bName": "Ölümsüz sihirbaz",
+        "bDesc": " "
+      },
+      "MUMMY": {
+        "bName": "Mumya",
+        "bDesc": " "
+      },
+      "MEDUSA1": {
+        "bName": "Sinsi kafa",
+        "bDesc": " "
+      },
+      "HARPY": {
+        "bName": "Harap",
+        "bDesc": " "
+      },
+      "ECTO1": {
+        "bName": "yosun",
+        "bDesc": " "
+      },
+      "IMP": {
+        "bName": "Ivır zıvır",
+        "bDesc": " "
+      },
+      "DULL0": {
+        "bName": "Elde",
+        "bDesc": " "
+      },
+      "DEVIL1": {
+        "bName": "Şeytan",
+        "bDesc": " "
+      },
+      "XLMAGIO": {
+        "bName": "Ölümsüz büyücü",
+        "bDesc": " "
+      },
+      "WITCH1": {
+        "bName": "Ölümsüz cadı",
+        "bDesc": " "
+      },
+      "WITCH2": {
+        "bName": "Sassy ölümsüz",
+        "bDesc": " "
+      },
+      "XLARMOR1": {
+        "bName": "Kılıç Archon",
+        "bDesc": " "
+      },
+      "XLARMOR2": {
+        "bName": "Disk Archon",
+        "bDesc": " "
+      },
+      "XLMEDUSA": {
+        "bName": "Medusa",
+        "bDesc": " "
+      },
+      "XXLBAT": {
+        "bName": "LV128 Altın Yarasa",
+        "bDesc": " "
+      },
+      "XLMANTIS": {
+        "bName": "Manyet",
+        "bDesc": " "
+      },
+      "XLMUMMY": {
+        "bName": "Büyük mumya",
+        "bDesc": " "
+      },
+      "XLFLOWER": {
+        "bName": "Venüs",
+        "bDesc": " "
+      },
+      "FISHMAN_1": {
+        "bName": "Mermer",
+        "bDesc": " "
+      },
+      "LIZARD1_2": {
+        "bName": "Kertenkele",
+        "bDesc": " "
+      },
+      "PILE1": {
+        "bName": "İkiz yılanlar",
+        "bDesc": " "
+      },
+      "LIZARD2_3": {
+        "bName": "Kertenkele",
+        "bDesc": " "
+      },
+      "PILE2": {
+        "bName": "İkiz Şeytanlar",
+        "bDesc": " "
+      },
+      "JELLYFISH": {
+        "bName": "Deniz anası",
+        "bDesc": " "
+      },
+      "SKELENIN1": {
+        "bName": "İskelet ninja",
+        "bDesc": " "
+      },
+      "XLBAT": {
+        "bName": "Devasa yarasa",
+        "bDesc": " "
+      },
+      "PILE3": {
+        "bName": "Kayıp İkiz",
+        "bDesc": " "
+      },
+      "GOLEM1": {
+        "bName": "Melon",
+        "bDesc": " "
+      },
+      "MIGNO1_5": {
+        "bName": "Minotaur",
+        "bDesc": " "
+      },
+      "MIGNO_3_5SWARM": {
+        "bName": "Hızlı Minotaur",
+        "bDesc": " "
+      },
+      "ARMORSPEAR_6": {
+        "bName": "Mızrak archon",
+        "bDesc": " "
+      },
+      "ARMOR_6": {
+        "bName": "Bıçak Archon",
+        "bDesc": " "
+      },
+      "SKELEWING": {
+        "bName": "İskelet kanadı",
+        "bDesc": " "
+      },
+      "XLTRITON": {
+        "bName": "Triton",
+        "bDesc": " "
+      },
+      "XLCHIMERA": {
+        "bName": "Aslan hibrit",
+        "bDesc": " "
+      },
+      "XLCOCKATRICE": {
+        "bName": "Dev tavuk",
+        "bDesc": " "
+      },
+      "XLGOLEM1": {
+        "bName": "Büyük golem",
+        "bDesc": " "
+      },
+      "XLGOLEM3": {
+        "bName": "Et golem",
+        "bDesc": " "
+      },
+      "XLARMOR_SWORD": {
+        "bName": "Kılıç koruyucusu",
+        "bDesc": " "
+      },
+      "BOSS_XLCRAB]bName": {
+        "undefined": "Dev düşman yengeç"
+      },
+      "MOLISANO_BASE": {
+        "bName": "Üzücü molisano",
+        "bDesc": " "
+      },
+      "MOLISANO_GIALLO": {
+        "bName": "Mutlu Molisano",
+        "bDesc": " "
+      },
+      "MOLISANO_BELLO": {
+        "bName": "Sevimli molisano",
+        "bDesc": " "
+      },
+      "MOLISANO_COLONNA": {
+        "bName": "Eski molisano",
+        "bDesc": " "
+      },
+      "MOLISANO_VECCHIO": {
+        "bName": "Ölü molisano",
+        "bDesc": " "
+      },
+      "PILE4": {
+        "bName": "İkiz kafatasları",
+        "bDesc": " "
+      },
+      "SKULLNOAURA": {
+        "bName": "Skullone",
+        "bDesc": " "
+      },
+      "SKELEPANTHER": {
+        "bName": "İskelet panter",
+        "bDesc": " "
+      },
+      "XLSKELETON": {
+        "bName": "Dev iskelet",
+        "bDesc": " "
+      },
+      "SKELETONE": {
+        "bName": "İskelet kağıdı",
+        "bDesc": " "
+      },
+      "MASK_GOLD": {
+        "bName": "Güneş Atlantisi",
+        "bDesc": " "
+      },
+      "MASK_SILVER": {
+        "bName": "Moon Atlantian",
+        "bDesc": " "
+      },
+      "MASK_LEFT": {
+        "bName": "Şehir Atlantisi",
+        "bDesc": " "
+      },
+      "MASK_RIGHT": {
+        "bName": "Volcano Atlantan",
+        "bDesc": " "
+      },
+      "MOON_SHADEBLUE": {
+        "bName": "Mavi ruh",
+        "bDesc": " "
+      },
+      "MOON_EYE2": {
+        "bName": "Bilinmeyen",
+        "bDesc": " "
+      },
+      "MOON_CRABBINO": {
+        "bName": "Dev olmayan düşman yengeç",
+        "bDesc": " "
+      },
+      "MOON_MASK3": {
+        "bName": "Moongolow Atlantiss",
+        "bDesc": " "
+      },
+      "TRAINEE_ANY": {
+        "bName": "Reaper Stajyeri",
+        "bDesc": " "
+      },
+      "KALI1": {
+        "bName": "Tetrabrachia",
+        "bDesc": " "
+      },
+      "ARMOR_FIRE": {
+        "bName": "Alev Archon",
+        "bDesc": " "
+      },
+      "SUCCUBUS": {
+        "bName": "Succubus",
+        "bDesc": " "
+      },
+      "XLARMOR_GREEN": {
+        "bName": "Bakır Archon",
+        "bDesc": " "
+      },
+      "DEMON_FAST": {
+        "bName": "İblis rahip",
+        "bDesc": " "
+      },
+      "ANGEL1": {
+        "bName": "Düşmüş melek",
+        "bDesc": " "
+      },
+      "ANGEL2": {
+        "bName": "Düşen Cherubbello",
+        "bDesc": " "
+      },
+      "ANGEL3": {
+        "bName": "Düşmüş Taht",
+        "bDesc": " "
+      },
+      "XLARMOR_GOLD": {
+        "bName": "Altın Archon",
+        "bDesc": " "
+      },
+      "XLDEMON": {
+        "bName": "İblis canavarı",
+        "bDesc": " "
+      },
+      "XLARCHDEMON": {
+        "bName": "Arşiv",
+        "bDesc": " "
+      },
+      "TRINACRIA": {
+        "bName": "Üçlü",
+        "bDesc": " "
+      },
+      "BOSS_XLDEATH": {
+        "bName": "The Reaper",
+        "bDesc": " "
+      },
+      "BOSS_TRICKSTER_NORMAL": {
+        "bName": "The Trickster",
+        "bDesc": " "
+      },
+      "BOSS_STALKER_NORMAL": {
+        "bName": "The Stalker",
+        "bDesc": " "
+      },
+      "BOSS_DROWNER_NORMAL": {
+        "bName": "The Drowner",
+        "bDesc": " "
+      },
+      "BOSS_MADDENER_NORMAL": {
+        "bName": "The Maddener",
+        "bDesc": " "
+      },
+      "BOSS_ENDER": {
+        "bName": "The Ender",
+        "bDesc": " "
+      },
+      "BOSS_GIANT_MIMIC1": {
+        "bName": "Mimik Sezon Bir",
+        "bDesc": " "
+      },
+      "BOSS_GIANT_MIMIC2": {
+        "bName": "Mimik Sezon İkinci",
+        "bDesc": " "
+      },
+      "BOSS_GIANT_MIMIC3": {
+        "bName": "Üçüncü Sezon Mimik",
+        "bDesc": " "
+      },
+      "BOSS_DRAGOGION": {
+        "bName": "Üçlü",
+        "bDesc": " "
+      },
+      "MOON_SNEK": {
+        "bName": "Serpantvin",
+        "bDesc": " "
+      },
+      "MOON_GARLIC": {
+        "bName": "Sarımsak",
+        "bDesc": " "
+      },
+      "MOON_NIGHTSHADE": {
+        "bName": "İtüzümü",
+        "bDesc": " "
+      },
+      "DIRECTER": {
+        "bName": "The Directer",
+        "bDesc": "Sınırsız hediyeler. Gerçekliğin ötesinde manzaralar. Düşünülemez olanın bakışları."
+      },
+      "BOSS_XLCRAB": {
+        "bDesc": " "
+      }
+    }
+  },
+  "uk": {
+    "english": "Ukrainian",
+    "native": "Українська",
+    "api": "ukrainian",
+    "translations": {}
+  },
+  "vn": {
+    "english": "Vietnamese",
+    "native": "Tiếng Việt",
+    "api": "vietnamese",
+    "translations": {}
+  }
+}
