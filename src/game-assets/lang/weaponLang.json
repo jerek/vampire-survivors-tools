@@ -399,14 +399,19 @@
         "description": "发出火焰锥。"
       },
       "MISSPELL2": {
-        "description": "拼写错误的火焰。敌人被击败越多，它增长越强。",
-        "tips": "需要：托罗娜的魔盒。",
-        "name": "穆斯佩尔的骨灰"
+        "description": "恶咒火焰的强化：击杀的敌人越多，它就变得越强。",
+        "tips": "需要托罗娜的魔盒 （最高级）。",
+        "name": "火焰国的灰烬"
       },
       "GATTI_COUNTER": {
-        "name": "羊群驱逐舰",
-        "description": "召唤一些任性的猫咪, 它们可能与掉落物交互。",
-        "tips": "最佳搭配：运气, 烤鸡。"
+        "name": "小鸟杀手",
+        "description": "召唤一些任性的猫咪，它们可能与掉落物交互。",
+        "tips": "最佳搭配：运气、烤鸡。"
+      },
+      "CANDYBOX2": {
+        "name": "二代升级版超级糖果盒",
+        "description": "糖果盒的附赠宝物：允许你选择任意已解锁的高级武器。",
+        "tips": "需要：糖果盒。"
       }
     }
   },
@@ -829,6 +834,11 @@
         "name": "Flock Destroyer",
         "description": "Summons capricious projectiles. Might interact with pickups.",
         "tips": "Best with: Luck, Floor Chicken."
+      },
+      "CANDYBOX2": {
+        "name": "Super Candybox II Turbo",
+        "description": "Gift of Candybox. Allows to choose among a selection of advanced weapons.",
+        "tips": "Requires: Candybox."
       }
     }
   },
@@ -1225,14 +1235,19 @@
         "description": "Émet des cônes de flammes."
       },
       "MISSPELL2": {
-        "description": "Des flammes évoluées de miss. Plus les ennemis sont vaincus, plus il se forge.",
-        "tips": "Nécessite Max: Torrona's Box.",
-        "name": "Cendres de mouspell"
+        "description": "Évolution des Flammes de Sortisane. Gagne en puissance à chaque ennemi vaincu.",
+        "tips": "Requiert : Boîte de Torrona au max.",
+        "name": "Cendres de Sortichose"
       },
       "GATTI_COUNTER": {
-        "name": "Destructeur de troupeaux",
+        "name": "Crève-nuée",
         "description": "Fait apparaître des projectiles capricieux qui peuvent interagir avec les boosts.",
         "tips": "Efficace avec : chance, Poulet rôti."
+      },
+      "CANDYBOX2": {
+        "name": "Boîte à bonbons II super-turbo",
+        "description": "Cadeau de la Boîte à bonbons. Permet de choisir parmi plusieurs armes avancées.",
+        "tips": "Requiert : Boîte à bonbons."
       }
     }
   },
@@ -1623,14 +1638,19 @@
         "description": "Emittiert Flammenkegel."
       },
       "MISSPELL2": {
-        "description": "Evolved Flames of Misspell. Je mehr Feinde besiegt werden, desto stärker wächst es.",
-        "tips": "Benötigt Max: Torronas Box.",
-        "name": "Asche von Muspell"
+        "description": "Verbesserte Flammen des Fehlzaubers. Je mehr Gegner besiegt werden, desto stärker werden sie.",
+        "tips": "Max. erforderlich: Torronas Kiste",
+        "name": "Fuhlzauber-Asche"
       },
       "GATTI_COUNTER": {
         "name": "Herdenzerstörer",
         "description": "Beschwört kapriziöse Geschosse. Interagiert eventuell mit Pickups.",
         "tips": "Am besten mit: Glück, Brathähnchen."
+      },
+      "CANDYBOX2": {
+        "name": "Super-Süßigkeitenschachtel II Turbo",
+        "description": "Ein süßes Geschenk. Lässt einen aus einer Auswahl fortschrittlicher Waffen wählen.",
+        "tips": "Benötigt: Süßigkeitenschachtel."
       }
     }
   },
@@ -2033,14 +2053,19 @@
         "description": "Emette coni di fiamme."
       },
       "MISSPELL2": {
-        "description": "Fiamme evolute di Misspell. Più nemici vengono sconfitti, più forte cresce.",
-        "tips": "Richiede Max: Torrona's Box.",
-        "name": "Cenere di Muspell"
+        "description": "Fiamme di Disincantesimo. Aumenta la sua potenza in base ai nemici sconfitti.",
+        "tips": "Necessita del massimo di: Vaso di Torrona.",
+        "name": "Ceneri di Misincantesimo"
       },
       "GATTI_COUNTER": {
-        "name": "Distruttore di greggi",
+        "name": "Distruttore di stormi",
         "description": "Evoca proiettili lunatici. Può interagire con i collezionabili.",
         "tips": "Ideale con: Fortuna, Pollo sul pavimento."
+      },
+      "CANDYBOX2": {
+        "name": "Super Scatola di caramelle II Turbo",
+        "description": "Dono della Scatola di caramelle.\nOffre una selezione di diverse armi avanzate.",
+        "tips": "Necessita di: Scatola di caramelle."
       }
     }
   },
@@ -2431,14 +2456,19 @@
         "description": "炎のコーンを放出します。"
       },
       "MISSPELL2": {
-        "description": "ミスペルの進化した炎。より多くの敵が敗北するほど、それは強くなります。",
-        "tips": "マックスが必要：トロナの箱。",
+        "description": "進化したミススペルの炎。 敵を倒せば倒すほど強くなる。",
+        "tips": "最大限が必要： トローナの箱。",
         "name": "マスペルの灰"
       },
       "GATTI_COUNTER": {
-        "name": "群れ駆逐艦",
-        "description": "気まぐれに猫が動き回る。 落ちているアイテムを勝手に拾う時がある。",
-        "tips": "好相性：運, トリ肉"
+        "name": "フロック・デストロイヤー",
+        "description": "気まぐれに猫が動き回る。落ちているアイテムを勝手に拾う時がある。",
+        "tips": "好相性：運、トリ肉"
+      },
+      "CANDYBOX2": {
+        "name": "超絶キャンディボックス改・ターボ",
+        "description": "キャンディボックスのプレゼント。 上級武器のセレクションから選ぶことができる。",
+        "tips": "必要アイテム： キャンディボックス"
       }
     }
   },
@@ -2829,14 +2859,19 @@
         "description": "불꽃의 원뿔을 방출합니다."
       },
       "MISSPELL2": {
-        "description": "틀린 불꽃. 더 많은 적들이 패배할수록 더 강해집니다.",
-        "tips": "맥스가 필요합니다 : 토로나의 상자.",
-        "name": "무슬림의 재"
+        "description": "진화한 잘못된 주문의 불꽃입니다. 더 많은 적을 처치할수록 더 강해집니다.",
+        "tips": "최대치 필요: 토로나의 상자",
+        "name": "잘뭣된 주문의 재"
       },
       "GATTI_COUNTER": {
-        "name": "무리 구축함",
+        "name": "무리 파괴자",
         "description": "변덕이 심한 발사체를 소환합니다. 픽업과 소통할 수도 있습니다.",
         "tips": "추천 조합 : 행운, 치킨"
+      },
+      "CANDYBOX2": {
+        "name": "슈퍼 사탕상자 II 터보",
+        "description": "사탕상자 선물입니다. 고급 무기 중 선택할 수 있습니다.",
+        "tips": "요구 사항: 사탕상자"
       }
     }
   },
@@ -3233,14 +3268,19 @@
         "description": "Emituje stożki płomieni."
       },
       "MISSPELL2": {
-        "description": "Ewoluowane płomienie błędu. Im więcej wrogów jest pokonanych, tym silniejszy rośnie.",
-        "tips": "Wymaga Maxa: Torrona's Box.",
-        "name": "Popioły Muspell"
+        "description": "Ulepszone Płomienie Misspell. Zyskują na sile w miarę pokonywania wrogów.",
+        "tips": "Wymagany maks. poziom: Puszka Torrony.",
+        "name": "Popiół Muspell"
       },
       "GATTI_COUNTER": {
-        "name": "Niszczyciel stada",
+        "name": "Niszczyciel stad",
         "description": "Przywołuje kapryśne pociski. Może wchodzić w interakcje z łupami.",
         "tips": "Działa najlepiej z: Szczęście, Kurczak."
+      },
+      "CANDYBOX2": {
+        "name": "Super Pudełko Cukierków II Turbo",
+        "description": "Dar w postaci pudełka cukierków. Pozwala wybrać dowolną broń zaawansowaną.",
+        "tips": "Wymagania: Pudełko cukierków"
       }
     }
   },
@@ -3637,14 +3677,19 @@
         "description": "Emite cones de chamas."
       },
       "MISSPELL2": {
-        "description": "Chamas evoluídas de Misspell. Quanto mais inimigos são derrotados, mais forte cresce.",
-        "tips": "Requer Max: Torrona's Box.",
-        "name": "Cinzas de Muspell"
+        "description": "Evolução das Chamas do Feitiço Errôneo. Quanto mais inimigos derrotados, mais forte fica.",
+        "tips": "Requer máx. de: Caixa de Torrona.",
+        "name": "Cinzas Inezatas"
       },
       "GATTI_COUNTER": {
-        "name": "Destruidor de rebanho",
+        "name": "Destruidor de Bandos",
         "description": "Invoca projéteis imprevisíveis que podem interagir com coletáveis.",
         "tips": "Melhor com: Sorte, Frango Assado."
+      },
+      "CANDYBOX2": {
+        "name": "Super Presentinho II Turbo",
+        "description": "Presente do Presentinho. Permite escolher dentre uma seleção de armas avançadas.",
+        "tips": "Requer: Presentinho."
       }
     }
   },
@@ -4041,14 +4086,19 @@
         "description": "Излучает конусы пламени."
       },
       "MISSPELL2": {
-        "description": "Эволюционное пламя неправильной ошибки. Чем больше врагов побеждено, тем сильнее он растет.",
-        "tips": "Требуется Макс: коробка Торроны.",
-        "name": "Пепел Муспелла"
+        "description": "Улучшенное пламя оговорки. Чем больше врагов побеждено, тем сильнее оно становится.",
+        "tips": "Требуется макс.: Шкатулка Торроны.",
+        "name": "Пепел ослышки"
       },
       "GATTI_COUNTER": {
-        "name": "Эсминец стада",
+        "name": "Уничтожитель стаи",
         "description": "Вызывает снаряды, взаимодействующие с находками.",
         "tips": "Для лучшего эффекта требуются: удача, жареный цыпленок."
+      },
+      "CANDYBOX2": {
+        "name": "Суперкоробка конфет II Турбо",
+        "description": "Коробка конфет в подарок. Дает выбрать оружие из подборки продвинутого.",
+        "tips": "Требуется: коробка конфет."
       }
     }
   },
@@ -4439,14 +4489,19 @@
         "description": "Emite conos de llamas."
       },
       "MISSPELL2": {
-        "description": "Llamas evolucionadas de lo malo. Cuantos más enemigos se derrotan, más fuerte crece.",
-        "tips": "Requiere Max: la caja de Torrona.",
-        "name": "Cenizas de Muspell"
+        "description": "Llamas de hechizografía evolucionadas. Cuantos más enemigos derrotes, más fuerte se hará.",
+        "tips": "Requiere: caja de Torrona al máximo.",
+        "name": "Cenizas de exizografia"
       },
       "GATTI_COUNTER": {
-        "name": "Destructor de bandadas",
+        "name": "Destructor de rebaños",
         "description": "Invoca proyectiles caprichosos. Puede que interactúen con los objetos.",
         "tips": "Mejor con: suerte, pollo asado."
+      },
+      "CANDYBOX2": {
+        "name": "Caja de dulces II superturbo",
+        "description": "Don de la caja de dulces. Te permite elegir entre una selección de armas avanzadas.",
+        "tips": "Requiere: caja de dulces."
       }
     }
   },
@@ -4855,14 +4910,19 @@
         "description": "Alev konileri yayar."
       },
       "MISSPELL2": {
-        "description": "Evrimleşmiş yanlış alevler. Ne kadar çok düşman yenilirse, o kadar güçlü büyür.",
-        "tips": "Max: Torron'un kutusu gerektirir.",
-        "name": "Muspell Külleri"
+        "description": "Evrimleşmiş Yanlış Büyünün Alevleri. Ne kadar düşman öldürülürse o kadar güçlenir.",
+        "tips": "Maks Gerekir: Torrona'nın Kutusu",
+        "name": "Yalnış Böyünün Külleri"
       },
       "GATTI_COUNTER": {
-        "name": "Yıkıcı Sürüler",
+        "name": "Sürü Dağıtan",
         "description": "Yanardöner fırlatılabilirller çağırır. Toplanabilirleri alabilir.",
         "tips": "İyi gider: Şans, Gezmeyen Tavuk."
+      },
+      "CANDYBOX2": {
+        "name": "Süper Şeker Kutusu II Turbo",
+        "description": "Şeker Kutusu Hediyesi. Gelişmiş silahlar arasından seçim yapmanızı sağlar.",
+        "tips": "Gerekir: Şeker Kutusu."
       }
     }
   },

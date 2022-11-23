@@ -60,9 +60,9 @@
       "weaponLevelUp_enemies": "多穿透%0个敌人。 \n",
       "weaponLevelUp_charge": "获得%0点额外充能。 \n",
       "weaponLevelUp_charges": "获得%0点额外充能。 \n",
-      "weaponLevelUp_effect%": "[全部]效果持续时间+%0%。 \n",
+      "weaponLevelUp_effectPerc": "[全部]效果持续时间+%0%。 \n",
       "weaponLevelUp_effect": "效果持续时间+%0秒。 \n",
-      "weaponLevelUp_cooldown%": "冷却时间-%0%。 \n",
+      "weaponLevelUp_cooldownPerc": "冷却时间-%0%。 \n",
       "weaponLevelUp_cooldown": "冷却时间-%0秒。 \n",
       "weaponLevelUp_health": "生命上限+%0%。 \n",
       "weaponLevelUp_xp": "所获经验值+%0%。 \n",
@@ -287,7 +287,11 @@
       "shop_soldout": "售罄",
       "weapon_evo": "进化：",
       "twitch_selection_header": "Twitch选择",
-      "bestiary_others": "其他"
+      "bestiary_others": "其他",
+      "maxWeapons_selection": "武器上限",
+      "eggs_selection": "金蛋",
+      "seal_header": "已封印:",
+      "seal_cannot": "无法封印。"
     }
   },
   "zh-TW": {
@@ -362,9 +366,9 @@
       "weaponLevelUp_enemies": "Passes through %0 more enemies.\n",
       "weaponLevelUp_charge": "Gains %0 additional charge.\n",
       "weaponLevelUp_charges": "Gains %0 additional charges.\n",
-      "weaponLevelUp_effect%": "[All] Effect lasts %0% longer.\n",
+      "weaponLevelUp_effectPerc": "[All] Effect lasts %0% longer.\n",
       "weaponLevelUp_effect": "Effect lasts %0 seconds longer.\n",
-      "weaponLevelUp_cooldown%": "Cooldown reduced by %0%.\n",
+      "weaponLevelUp_cooldownPerc": "Cooldown reduced by %0%.\n",
       "weaponLevelUp_cooldown": "Cooldown reduced by %0 seconds.\n",
       "weaponLevelUp_health": "Max Health increases by %0%.\n",
       "weaponLevelUp_xp": "XP gain increases by %0%.\n",
@@ -589,7 +593,11 @@
       "shop_soldout": "Sold Out",
       "weapon_evo": "evo:",
       "twitch_selection_header": "Twitch Selection",
-      "bestiary_others": "others"
+      "bestiary_others": "others",
+      "maxWeapons_selection": "MAX WEAPONS",
+      "eggs_selection": "EGGS",
+      "seal_header": "Sealed:",
+      "seal_cannot": "Cannot be sealed."
     }
   },
   "fi": {
@@ -646,9 +654,9 @@
       "weaponLevelUp_enemies": "Transperce %0 ennemis de plus.\n",
       "weaponLevelUp_charge": "Obtient %0 charge bonus.\n",
       "weaponLevelUp_charges": "Obtient %0 charges bonus.\n",
-      "weaponLevelUp_effect%": "[Tout] Durée de l'effet : +%0 %.\n",
+      "weaponLevelUp_effectPerc": "[Tout] Durée de l'effet : +%0 %.\n",
       "weaponLevelUp_effect": "Durée de l'effet : +%0 secondes.\n",
-      "weaponLevelUp_cooldown%": "Recharge : -%0 %.\n",
+      "weaponLevelUp_cooldownPerc": "Recharge : -%0 %.\n",
       "weaponLevelUp_cooldown": "Recharge : -%0 secondes.\n",
       "weaponLevelUp_health": "Santé max : +%0 %.\n",
       "weaponLevelUp_xp": "Gain d'EXP : +%0 %.\n",
@@ -873,7 +881,11 @@
       "shop_soldout": "Rupture de stock",
       "weapon_evo": "Évo :",
       "twitch_selection_header": "Sélection Twitch",
-      "bestiary_others": "autres"
+      "bestiary_others": "autres",
+      "maxWeapons_selection": "ARMES MAX",
+      "eggs_selection": "ŒUFS",
+      "seal_header": "Exclus:",
+      "seal_cannot": "Ne peut pas être exclu."
     }
   },
   "de": {
@@ -924,9 +936,9 @@
       "weaponLevelUp_enemies": "Durchdringt %0 Gegner mehr.\n",
       "weaponLevelUp_charge": "Erhält %0 zusätzliche Ladung.\n",
       "weaponLevelUp_charges": "Erhält %0 zusätzliche Ladungen.\n",
-      "weaponLevelUp_effect%": "[Alle] Effekt hält %0% länger an.\n",
+      "weaponLevelUp_effectPerc": "[Alle] Effekt hält %0% länger an.\n",
       "weaponLevelUp_effect": "Effekt hält %0 Sek. länger an.\n",
-      "weaponLevelUp_cooldown%": "Abklingzeit reduziert um %0%.\n",
+      "weaponLevelUp_cooldownPerc": "Abklingzeit reduziert um %0%.\n",
       "weaponLevelUp_cooldown": "Abklingzeit reduziert um %0 Sek.\n",
       "weaponLevelUp_health": "Max. LP erhöht um %0%.\n",
       "weaponLevelUp_xp": "EP-Gewinn erhöht um %0%.\n",
@@ -1151,7 +1163,11 @@
       "shop_soldout": "Ausverkauft",
       "weapon_evo": "Verb.:",
       "twitch_selection_header": "Twitch-Auswahl",
-      "bestiary_others": "Andere"
+      "bestiary_others": "Andere",
+      "maxWeapons_selection": "MAX. WAFFEN",
+      "eggs_selection": "EIER",
+      "seal_header": "Versiegelt:",
+      "seal_cannot": "Versiegeln unmöglich."
     }
   },
   "el": {
@@ -1214,9 +1230,9 @@
       "weaponLevelUp_enemies": "Trapassa %0 nemici in più.\n",
       "weaponLevelUp_charge": "Guadagna %0 carica aggiuntiva.\n",
       "weaponLevelUp_charges": "Guadagna %0 cariche aggiuntive.\n",
-      "weaponLevelUp_effect%": "[Tutto] Aumento della durata dell'effetto: %0%.\n",
+      "weaponLevelUp_effectPerc": "[Tutto] Aumento della durata dell'effetto: %0%.\n",
       "weaponLevelUp_effect": "L'effetto dura %0 secondi in più.\n",
-      "weaponLevelUp_cooldown%": "Riduzione del Tempo di ricarica: %0%.\n",
+      "weaponLevelUp_cooldownPerc": "Riduzione del Tempo di ricarica: %0%.\n",
       "weaponLevelUp_cooldown": "Tempo di ricarica ridotto di %0 secondi.\n",
       "weaponLevelUp_health": "Aumento della Salute massima: %0%.\n",
       "weaponLevelUp_xp": "Aumento dei PE guadagnati: %0%.\n",
@@ -1441,7 +1457,11 @@
       "shop_soldout": "Esaurito",
       "weapon_evo": "evo:",
       "twitch_selection_header": "Selezione Twitch",
-      "bestiary_others": "altri"
+      "bestiary_others": "altri",
+      "maxWeapons_selection": "Nº MAX ARMI",
+      "eggs_selection": "UOVA",
+      "seal_header": "Sigillati:",
+      "seal_cannot": "Non può essere sigillato."
     }
   },
   "ja": {
@@ -1492,9 +1512,9 @@
       "weaponLevelUp_enemies": "貫通できる敵の数が%0増加\n",
       "weaponLevelUp_charge": "シールド枚数が%0枚増加\n",
       "weaponLevelUp_charges": "シールド枚数が%0枚増加\n",
-      "weaponLevelUp_effect%": "(全) 効果時間が%0%延びる\n",
+      "weaponLevelUp_effectPerc": "(全) 効果時間が%0%延びる\n",
       "weaponLevelUp_effect": "効果時間が%0秒延びる\n",
-      "weaponLevelUp_cooldown%": "クールダウン時間が%0%減少\n",
+      "weaponLevelUp_cooldownPerc": "クールダウン時間が%0%減少\n",
       "weaponLevelUp_cooldown": "クールダウン時間が%0秒減少\n",
       "weaponLevelUp_health": "最大HPが%0%増加\n",
       "weaponLevelUp_xp": "XP獲得量が%0%増加\n",
@@ -1719,7 +1739,11 @@
       "shop_soldout": "完売",
       "weapon_evo": "evo:",
       "twitch_selection_header": "Twitchセレクション",
-      "bestiary_others": "その他"
+      "bestiary_others": "その他",
+      "maxWeapons_selection": "最大武器数",
+      "eggs_selection": "エッグ",
+      "seal_header": "シールド:",
+      "seal_cannot": "封印できない。"
     }
   },
   "ko": {
@@ -1770,9 +1794,9 @@
       "weaponLevelUp_enemies": "적 %0마리를 추가로 관통합니다.\n",
       "weaponLevelUp_charge": "충전을 %0회 추가합니다.\n",
       "weaponLevelUp_charges": "충전을 %0회 추가합니다.\n",
-      "weaponLevelUp_effect%": "[전체] 효과 지속 시간이 %0% 증가합니다.\n",
+      "weaponLevelUp_effectPerc": "[전체] 효과 지속 시간이 %0% 증가합니다.\n",
       "weaponLevelUp_effect": "효과 지속 시간이 %0초 증가합니다.\n",
-      "weaponLevelUp_cooldown%": "쿨타임이 %0% 감소합니다.\n",
+      "weaponLevelUp_cooldownPerc": "쿨타임이 %0% 감소합니다.\n",
       "weaponLevelUp_cooldown": "쿨타임이 %0초 감소합니다.\n",
       "weaponLevelUp_health": "최대 체력이 %0% 증가합니다.\n",
       "weaponLevelUp_xp": "경험치 획득량이 %0% 증가합니다.\n",
@@ -1997,7 +2021,11 @@
       "shop_soldout": "품절",
       "weapon_evo": "진화:",
       "twitch_selection_header": "Twitch 선택",
-      "bestiary_others": "기타"
+      "bestiary_others": "기타",
+      "maxWeapons_selection": "최대 무기",
+      "eggs_selection": "알",
+      "seal_header": "봉인됨:",
+      "seal_cannot": "봉인할 수 없습니다."
     }
   },
   "no": {
@@ -2054,9 +2082,9 @@
       "weaponLevelUp_enemies": "Przechodzi przez większą liczbę wrogów (o %0).\n",
       "weaponLevelUp_charge": "Zapewnia %0 dodatkowy ładunek.\n",
       "weaponLevelUp_charges": "Zapewnia dodatkowe ładunki (%0).\n",
-      "weaponLevelUp_effect%": "[Wszystkie] Efekt trwa o %0% dłużej.\n",
+      "weaponLevelUp_effectPerc": "[Wszystkie] Efekt trwa o %0% dłużej.\n",
       "weaponLevelUp_effect": "Efekt trwa o %0 s dłużej.\n",
-      "weaponLevelUp_cooldown%": "Odnawianie skrócone o %0%.\n",
+      "weaponLevelUp_cooldownPerc": "Odnawianie skrócone o %0%.\n",
       "weaponLevelUp_cooldown": "Odnawianie skrócone o %0 s.\n",
       "weaponLevelUp_health": "Maksymalne zdrowie zwiększone o %0%.\n",
       "weaponLevelUp_xp": "Przyrost PZ zwiększony o %0%.\n",
@@ -2281,7 +2309,11 @@
       "shop_soldout": "Wyprzedane",
       "weapon_evo": "ulep.:",
       "twitch_selection_header": "Wybór konta na Twitchu",
-      "bestiary_others": "inni"
+      "bestiary_others": "inni",
+      "maxWeapons_selection": "MAKS. BRONIE",
+      "eggs_selection": "JAJA",
+      "seal_header": "Zapieczętowano:",
+      "seal_cannot": "Nie można zapieczętować."
     }
   },
   "pt": {
@@ -2338,9 +2370,9 @@
       "weaponLevelUp_enemies": "Atravessa %0 inimigos a mais.\n",
       "weaponLevelUp_charge": "Ganha %0 carga adicional.\n",
       "weaponLevelUp_charges": "Ganha %0 cargas adicionais.\n",
-      "weaponLevelUp_effect%": "[Todos] Efeitos duram %0% a mais.\n",
+      "weaponLevelUp_effectPerc": "[Todos] Efeitos duram %0% a mais.\n",
       "weaponLevelUp_effect": "Efeito dura %0 segundos a mais.\n",
-      "weaponLevelUp_cooldown%": "Recarga reduzida em %0%.\n",
+      "weaponLevelUp_cooldownPerc": "Recarga reduzida em %0%.\n",
       "weaponLevelUp_cooldown": "Recarga reduzida em %0 segundos.\n",
       "weaponLevelUp_health": "Vida Máx. aumenta em %0%.\n",
       "weaponLevelUp_xp": "Ganho de EXP aumenta em %0%.\n",
@@ -2565,7 +2597,11 @@
       "shop_soldout": "Esgotado",
       "weapon_evo": "evo:",
       "twitch_selection_header": "Seleção da Twitch",
-      "bestiary_others": "outros"
+      "bestiary_others": "outros",
+      "maxWeapons_selection": "MÁX. DE ARMAS",
+      "eggs_selection": "OVOS",
+      "seal_header": "Selou:",
+      "seal_cannot": "Não é possível selar."
     }
   },
   "ro": {
@@ -2622,9 +2658,9 @@
       "weaponLevelUp_enemies": "Проходит сквозь еще %0 врагов.\n",
       "weaponLevelUp_charge": "Получает доп. заряд: %0.\n",
       "weaponLevelUp_charges": "Получает доп. заряды: %0.\n",
-      "weaponLevelUp_effect%": "[Все] Продлевает эффект на %0%.\n",
+      "weaponLevelUp_effectPerc": "[Все] Продлевает эффект на %0%.\n",
       "weaponLevelUp_effect": "Продлевает эффект на %0 сек.\n",
-      "weaponLevelUp_cooldown%": "Уменьшает перезарядку на %0%.\n",
+      "weaponLevelUp_cooldownPerc": "Уменьшает перезарядку на %0%.\n",
       "weaponLevelUp_cooldown": "Уменьшает перезарядку на %0 сек.\n",
       "weaponLevelUp_health": "+%0% к макс. ОЗ.\n",
       "weaponLevelUp_xp": "+%0% к получаемому опыту.\n",
@@ -2849,7 +2885,11 @@
       "shop_soldout": "Распродано",
       "weapon_evo": "улучш.:",
       "twitch_selection_header": "Выбор Twitch",
-      "bestiary_others": "другие"
+      "bestiary_others": "другие",
+      "maxWeapons_selection": "МАКСИМУМ ОРУЖИЯ",
+      "eggs_selection": "ЯЙЦА",
+      "seal_header": "Исключено:",
+      "seal_cannot": "Невозможно исключить."
     }
   },
   "es": {
@@ -2900,9 +2940,9 @@
       "weaponLevelUp_enemies": "Atraviesa a %0 enemigos más.\n",
       "weaponLevelUp_charge": "Gana %0 carga más.\n",
       "weaponLevelUp_charges": "Gana %0 cargas más.\n",
-      "weaponLevelUp_effect%": "[Todo] Los efectos duran un %0 % más.\n",
+      "weaponLevelUp_effectPerc": "[Todo] Los efectos duran un %0 % más.\n",
       "weaponLevelUp_effect": "Los efectos duran %0 segundos más.\n",
-      "weaponLevelUp_cooldown%": "Reduce el tiempo de recarga un %0 %.\n",
+      "weaponLevelUp_cooldownPerc": "Reduce el tiempo de recarga un %0 %.\n",
       "weaponLevelUp_cooldown": "Reduce el tiempo de recarga %0 segundos.\n",
       "weaponLevelUp_health": "Aumenta la salud máx. un %0 %.\n",
       "weaponLevelUp_xp": "Aumenta la EXP ganada un %0 %.\n",
@@ -3127,7 +3167,11 @@
       "shop_soldout": "Agotado",
       "weapon_evo": "evo:",
       "twitch_selection_header": "Elegir Twitch",
-      "bestiary_others": "otros"
+      "bestiary_others": "otros",
+      "maxWeapons_selection": "MÁX. DE ARMAS",
+      "eggs_selection": "HUEVOS",
+      "seal_header": "Sellado:",
+      "seal_cannot": "No se puede sellar."
     }
   },
   "es-419": {
@@ -3196,9 +3240,9 @@
       "weaponLevelUp_enemies": "%0 daha fazla düşmanların içinden geçer.\n",
       "weaponLevelUp_charge": "%0 fazladan atak kazandırır.\n",
       "weaponLevelUp_charges": "%0 fazladan ataklar kazandırır.\n",
-      "weaponLevelUp_effect%": "[Hepsi] Tüm etkiler %0% daha uzun sürer.\n",
+      "weaponLevelUp_effectPerc": "[Hepsi] Tüm etkiler %0% daha uzun sürer.\n",
       "weaponLevelUp_effect": "Etki %0 saniye daha uzun sürer.\n",
-      "weaponLevelUp_cooldown%": "Bekleme süresi %0% azaldı.\n",
+      "weaponLevelUp_cooldownPerc": "Bekleme süresi %0% azaldı.\n",
       "weaponLevelUp_cooldown": "Bekleme süresi %0 saniye azaldı.\n",
       "weaponLevelUp_health": "Maks Sağlık %0% arttı.\n",
       "weaponLevelUp_xp": "XP kazanımı %0% arttı.\n",
@@ -3423,7 +3467,11 @@
       "shop_soldout": "Tükendi",
       "weapon_evo": "evrm:",
       "twitch_selection_header": "Twitch Seçimi",
-      "bestiary_others": "diğerleri"
+      "bestiary_others": "diğerleri",
+      "maxWeapons_selection": "MAKS SİLAHLAR",
+      "eggs_selection": "YUMURTALAR",
+      "seal_header": "Mühürlenen:",
+      "seal_cannot": "Mühürlenemez."
     }
   },
   "uk": {

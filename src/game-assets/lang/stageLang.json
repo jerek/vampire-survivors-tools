@@ -60,7 +60,8 @@
         "tips": "更多的关卡物品"
       },
       "STAGEX": {
-        "description": "等下, 你可以看到这个? 这不应该的……"
+        "description": "等下, 你可以看到这个? 这不应该的……",
+        "stageName": "Holy Forbidden"
       },
       "CHAPEL": {
         "stageName": "大教堂",
@@ -72,10 +73,14 @@
       },
       "MACHINE": {
         "stageName": "福地",
-        "description": "通往我们世界边缘的道路。地板是熔岩。"
+        "description": "空间之间的空间。 某事的高潮， 还是仅仅是另一个开始？ 地板是熔岩。"
       },
       "MACHINE2": {
         "stageName": "三重环"
+      },
+      "TOWERBRIDGE": {
+        "stageName": "小桥流水",
+        "description": "两个对立的派别在这座小桥上突然停止了战斗。 毫无疑问， 这种停止的根源将变成无害的。"
       }
     }
   },
@@ -151,7 +156,8 @@
         "tips": "Extra stage items"
       },
       "STAGEX": {
-        "description": "Wait, you can see this too? This isn't right..."
+        "description": "Wait, you can see this too? This isn't right...",
+        "stageName": "Holy Forbidden"
       },
       "CHAPEL": {
         "stageName": "Cappella Magna",
@@ -163,10 +169,14 @@
       },
       "MACHINE": {
         "stageName": "Eudaimonia M.",
-        "description": "A path to the edge of our world. The floor is lava."
+        "description": "A space between spaces. The culmination of something, or simply another beginning? Tag, you’re it."
       },
       "MACHINE2": {
         "stageName": "The Three Circles"
+      },
+      "TOWERBRIDGE": {
+        "stageName": "Tiny Bridge",
+        "description": "Two opposing factions abruptly stopped fighting over this little bridge. No doubt the source of this cessation will turn out to be harmless."
       }
     }
   },
@@ -224,7 +234,8 @@
         "tips": "Objets bonus"
       },
       "STAGEX": {
-        "description": "Attendez, vous pouvez voir ce niveau ? Quelque chose cloche..."
+        "description": "Attendez, vous pouvez voir ce niveau ? Quelque chose cloche...",
+        "stageName": "Holy Forbidden"
       },
       "CHAPEL": {
         "stageName": "Cappella Magna",
@@ -236,10 +247,14 @@
       },
       "MACHINE": {
         "stageName": "M. eudaimoniaque",
-        "description": "Un chemin vers le bord de notre monde. Le sol est de la lave."
+        "description": "Un espace entre les espaces. L'aboutissement de quelque chose, ou simplement un autre commencement ? Le sol est en lave."
       },
       "MACHINE2": {
         "stageName": "Les trois cercles"
+      },
+      "TOWERBRIDGE": {
+        "stageName": "Petit pont",
+        "description": "Deux factions opposées ont brusquement cessé de se battre sur ce petit pont. Nul doute que la source de cet arrêt se révélera inoffensive."
       }
     }
   },
@@ -291,7 +306,8 @@
         "tips": "Extra-Stage-Items"
       },
       "STAGEX": {
-        "description": "Moment, siehst du das auch? Das kann doch nicht stimmen ..."
+        "description": "Moment, siehst du das auch? Das kann doch nicht stimmen ...",
+        "stageName": "Holy Forbidden"
       },
       "CHAPEL": {
         "stageName": "Cappella Magna",
@@ -303,10 +319,14 @@
       },
       "MACHINE": {
         "stageName": "Eudaimonia M.",
-        "description": "Ein Weg zum Rand unserer Welt. Der Boden ist Lava."
+        "description": "Ein Raum zwischen Räumen. Der Höhepunkt von etwas oder einfach ein weiterer Anfang? Der Boden ist Lava."
       },
       "MACHINE2": {
         "stageName": "Die Drei Kreise"
+      },
+      "TOWERBRIDGE": {
+        "stageName": "Winzige Brücke",
+        "description": "Zwei gegnerische Fraktionen haben ihre Kämpfe wegen dieser kleinen Brücke abrupt eingestellt. Die Ursache für diese Unterbrechung wird sich zweifellos als harmlos erweisen."
       }
     }
   },
@@ -370,7 +390,8 @@
         "tips": "Oggetti del livello aggiuntivi"
       },
       "STAGEX": {
-        "description": "Un momento, riesci a vederlo anche tu? C'è qualcosa che non va..."
+        "description": "Un momento, riesci a vederlo anche tu? C'è qualcosa che non va...",
+        "stageName": "Holy Forbidden"
       },
       "CHAPEL": {
         "stageName": "Cappella magna",
@@ -382,10 +403,14 @@
       },
       "MACHINE": {
         "stageName": "M. Eudaimonia",
-        "description": "Un percorso verso il limite del nostro mondo."
+        "description": "Uno spazio tra gli spazi. Il culmine di qualcosa, o semplicemente un altro inizio? Il pavimento è lava."
       },
       "MACHINE2": {
         "stageName": "I tre cerchi"
+      },
+      "TOWERBRIDGE": {
+        "stageName": "Ponticello",
+        "description": "Due fazioni opposte hanno bruscamente smesso di combattere su questo piccolo ponte. Senza dubbio l'origine di questa cessazione si rivelerà innocua."
       }
     }
   },
@@ -437,7 +462,8 @@
         "tips": "ステージアイテムが増える"
       },
       "STAGEX": {
-        "description": "君にもこれが見えるのか? \nそれはまずい……"
+        "description": "君にもこれが見えるのか? \nそれはまずい……",
+        "stageName": "Holy Forbidden"
       },
       "CHAPEL": {
         "stageName": "マグナ礼拝堂",
@@ -449,10 +475,14 @@
       },
       "MACHINE": {
         "stageName": "ユーダイモニアM",
-        "description": "私たちの世界の端への道。床は溶岩です。"
+        "description": "スペース間のスペース。 何かの集大成か、 それとも新たな始まりか?床は溶岩です。"
       },
       "MACHINE2": {
         "stageName": "3つの輪"
+      },
+      "TOWERBRIDGE": {
+        "stageName": "小さな橋",
+        "description": "この小さな橋の上で、 二つの派閥が突然争いを止めたのだ。 その原因はきっと無害なものだろう。"
       }
     }
   },
@@ -504,7 +534,8 @@
         "tips": "많은 마법 유물"
       },
       "STAGEX": {
-        "description": "잠깐 이것도 보인다고? 뭔가 잘못됐어..."
+        "description": "잠깐 이것도 보인다고? 뭔가 잘못됐어...",
+        "stageName": "Holy Forbidden"
       },
       "CHAPEL": {
         "stageName": "마그나 예배당",
@@ -516,10 +547,14 @@
       },
       "MACHINE": {
         "stageName": "에우다이모니아 M.",
-        "description": "우리 세상의 가장자리로가는 길. 바닥은 용암입니다."
+        "description": "공간 사이의 공간.  무언가의 절정인가,  아니면 단순히 또 다른 시작인가? 바닥은 용암입니다."
       },
       "MACHINE2": {
         "stageName": "3개의 원"
+      },
+      "TOWERBRIDGE": {
+        "stageName": "작은 다리",
+        "description": "두 개의 반대 진영이 이 작은 다리를 둘러싼 싸움을 갑자기 중단했습니다. 의심할 여지 없이 이 중지의 원인은 무해한 것으로 판명될 것입니다."
       }
     }
   },
@@ -577,7 +612,8 @@
         "tips": "Dodatkowe przedmioty etapu"
       },
       "STAGEX": {
-        "description": "Poczekaj, też to widzisz? Tak nie powinno być…"
+        "description": "Poczekaj, też to widzisz? Tak nie powinno być…",
+        "stageName": "Holy Forbidden"
       },
       "CHAPEL": {
         "stageName": "Cappella Magna",
@@ -589,10 +625,14 @@
       },
       "MACHINE": {
         "stageName": "Eudajmonia M.",
-        "description": "Ścieżka do krawędzi naszego świata. Podłoga to lawa."
+        "description": "Przestrzeń między spacjami. Kulminacja czegoś, czy po prostu kolejny początek? Podłoga to lawa."
       },
       "MACHINE2": {
         "stageName": "Trzy kręgi"
+      },
+      "TOWERBRIDGE": {
+        "stageName": "Malutki mostek",
+        "description": "Dwie przeciwstawne frakcje nagle przestały walczyć o ten mały mostek. Bez wątpienia źródło tego zaprzestania okaże się niegroźne."
       }
     }
   },
@@ -650,7 +690,8 @@
         "tips": "Itens extras de fases"
       },
       "STAGEX": {
-        "description": "Espera, você também tá vendo isso? Tem alguma coisa errada..."
+        "description": "Espera, você também tá vendo isso? Tem alguma coisa errada...",
+        "stageName": "Holy Forbidden"
       },
       "CHAPEL": {
         "stageName": "Cappella Magna",
@@ -662,10 +703,14 @@
       },
       "MACHINE": {
         "stageName": "M. Eudaimonia",
-        "description": "Um caminho para a borda do nosso mundo. O chão é lava."
+        "description": "Um espaço entre espaços. A culminação de algo, ou simplesmente outro começo? O chão é lava."
       },
       "MACHINE2": {
         "stageName": "Os Três Círculos"
+      },
+      "TOWERBRIDGE": {
+        "stageName": "Pequena ponte",
+        "description": "Duas facções opostas pararam abruptamente de lutar por esta pequena ponte. Sem dúvida, a fonte desta parada se revelará inofensiva."
       }
     }
   },
@@ -723,7 +768,8 @@
         "tips": "Дополнительные предметы этапа"
       },
       "STAGEX": {
-        "description": "Подожди, ты тоже это видишь? Это неправильно..."
+        "description": "Подожди, ты тоже это видишь? Это неправильно...",
+        "stageName": "Holy Forbidden"
       },
       "CHAPEL": {
         "stageName": "Капелла Магна",
@@ -735,10 +781,14 @@
       },
       "MACHINE": {
         "stageName": "Эудамония М.",
-        "description": "Путь к краю нашего мира. Пол лава."
+        "description": "Пространство между пространствами. Кульминация чего-то или просто еще одно начало? Пол - лава."
       },
       "MACHINE2": {
         "stageName": "Три круга"
+      },
+      "TOWERBRIDGE": {
+        "stageName": "Крошечный мост",
+        "description": "Две противоборствующие группировки внезапно прекратили борьбу из-за этого маленького моста. Несомненно, источник этого прекращения окажется безобидным."
       }
     }
   },
@@ -790,7 +840,8 @@
         "tips": "Objetos de fase adicionales"
       },
       "STAGEX": {
-        "description": "Espera, ¿tú también puedes ver esto? Es imposible..."
+        "description": "Espera, ¿tú también puedes ver esto? Es imposible...",
+        "stageName": "Holy Forbidden"
       },
       "CHAPEL": {
         "stageName": "Cappella Magna",
@@ -802,10 +853,14 @@
       },
       "MACHINE": {
         "stageName": "M. de eudemonía",
-        "description": "Un camino hacia el borde de nuestro mundo. El piso es lava."
+        "description": "Un espacio entre espacios. ¿La culminación de algo, o simplemente otro comienzo? El suelo es de lava."
       },
       "MACHINE2": {
         "stageName": "Los tres círculos"
+      },
+      "TOWERBRIDGE": {
+        "stageName": "Pequeño puente",
+        "description": "Dos facciones opuestas dejaron de luchar abruptamente por este pequeño puente. Sin duda, el origen de este cese resultará ser inofensivo."
       }
     }
   },
@@ -875,7 +930,8 @@
         "tips": "Bölümdeki ekstra eşyalar"
       },
       "STAGEX": {
-        "description": "Dur, sen de mi bunu görüyorsun? Bir terslik var…"
+        "description": "Dur, sen de mi bunu görüyorsun? Bir terslik var…",
+        "stageName": "Holy Forbidden"
       },
       "CHAPEL": {
         "stageName": "Cappella Magna",
@@ -887,10 +943,14 @@
       },
       "MACHINE": {
         "stageName": "Eudaimonia M.",
-        "description": "Dünyamızın kenarına giden bir yol. Zemin lav."
+        "description": "Boşluklar arasında bir boşluk. Bir şeyin doruk noktası mı yoksa sadece başka bir başlangıç ​​mı? Zemin lav."
       },
       "MACHINE2": {
         "stageName": "Üç Çemberler"
+      },
+      "TOWERBRIDGE": {
+        "stageName": "Küçük köprü",
+        "description": "İki karşıt grup bu küçük köprü üzerinde savaşmayı aniden bıraktı. Hiç şüphe yok ki bu duraklamanın kaynağı zararsız çıkacaktır."
       }
     }
   },

@@ -125,7 +125,7 @@
       },
       "PINO": {
         "charName": "加洛",
-        "suffix": "伊瓜纳",
+        "prefix": "伊瓜纳",
         "surname": "瓦勒托",
         "description": "开局时, 等级额外+1。 每5级, 成长+10%, 最多+50%。"
       },
@@ -194,12 +194,16 @@
         "description": "开局时, 有额外的秘能 XIX - 烈火之心。 每升一级会变得更强, 但是会更加难以把控。"
       },
       "PANINI": {
-        "description": "这么多的潜力。",
-        "charName": "吐司"
+        "description": "潜力无穷。",
+        "charName": "托阿斯蒂"
       },
       "SMITH": {
         "description": "古怪的白熊。",
         "charName": "史密斯四世"
+      },
+      "SCOREJ": {
+        "charName": "谱尼-奥尼",
+        "description": "每8级获得一个隐藏的闪电环 （最多6级）， 在失去健康时也会开火。"
       }
     }
   },
@@ -340,7 +344,7 @@
       },
       "PINO": {
         "charName": "Gallo",
-        "suffix": "Iguana",
+        "prefix": "Iguana",
         "surname": "Valletto",
         "description": "Starts with 1 extra level. Gains +10% Growth every 5 levels (max +50%)."
       },
@@ -415,6 +419,10 @@
       "SMITH": {
         "description": "The quirky white bear.",
         "charName": "Smith IV"
+      },
+      "SCOREJ": {
+        "charName": "Scorej-Oni",
+        "description": "Gains a hidden Lightning Ring every 8 levels (max 6) that also fires when losing health."
       }
     }
   },
@@ -537,7 +545,7 @@
       },
       "PINO": {
         "charName": "Gallo",
-        "suffix": "Iguana",
+        "prefix": "Iguana",
         "surname": "Valletto",
         "description": "Commence avec 1 niveau bonus. Obtient +10 d'expertise tous les 5 niveaux (+50 max)."
       },
@@ -606,12 +614,16 @@
         "description": "Commence avec l'arcane XIX - Cœur enflammé. Gagne en puissance à chaque niveau, mais perd progressivement le contrôle."
       },
       "PANINI": {
-        "description": "Tant de potentiel.",
-        "charName": "Toasti"
+        "description": "Il a tellement de potentiel.",
+        "charName": "Toastie"
       },
       "SMITH": {
-        "description": "L'ours blanc original.",
+        "description": "Un ours blanc excentrique.",
         "charName": "Smith IV"
+      },
+      "SCOREJ": {
+        "charName": "Scorej-Oni",
+        "description": "Gagne un anneau de tonnerre caché tous les 8 niveaux (max 6) qui se déclenche également en cas de perte de santé."
       }
     }
   },
@@ -728,7 +740,7 @@
       },
       "PINO": {
         "charName": "Gallo",
-        "suffix": "Iguana",
+        "prefix": "Iguana",
         "surname": "Valletto",
         "description": "Beginnt mit 1 extra Level. Erhält alle 5 Level +10% Entwicklung (max. +50%)."
       },
@@ -797,12 +809,16 @@
         "description": "Beginnt mit extra Arcana XIX - Herz aus Feuer. Wird mit jedem Level stärker, aber auch schlechter kontrollierbar."
       },
       "PANINI": {
-        "description": "So viel Potenzial.",
+        "description": "Jede Menge Potenzial.",
         "charName": "Toastie"
       },
       "SMITH": {
         "description": "Der schrullige weiße Bär.",
         "charName": "Smith IV"
+      },
+      "SCOREJ": {
+        "charName": "Scorej-Oni",
+        "description": "Erhält alle 8 Stufen (max. 6) einen versteckten Blitzring, der auch feuert, wenn er Lebenspunkte verliert."
       }
     }
   },
@@ -931,7 +947,7 @@
       },
       "PINO": {
         "charName": "Gallo",
-        "suffix": "Iguana",
+        "prefix": "Iguana",
         "surname": "Valletto",
         "description": "Comincia con 1 livello aggiuntivo. Guadagna +10% di Crescita ogni 5 livelli (max +50%)."
       },
@@ -1000,12 +1016,16 @@
         "description": "Inizia con l'Arcano extra XIX - Cuore di fuoco. Aumenta la potenza a ogni livello, ma perde anche controllo."
       },
       "PANINI": {
-        "description": "Così tanto potenziale.",
+        "description": "Quanto potenziale.",
         "charName": "Toastie"
       },
       "SMITH": {
-        "description": "L'orso bianco eccentrico.",
+        "description": "Lo strano orsetto polare.",
         "charName": "Smith IV"
+      },
+      "SCOREJ": {
+        "charName": "Scorej-Oni",
+        "description": "Guadagna un anello del fulmine nascosto ogni 8 livelli (massimo 6) che scatta anche quando si perde salute."
       }
     }
   },
@@ -1122,7 +1142,7 @@
       },
       "PINO": {
         "charName": "ガロ",
-        "suffix": "イグアナ",
+        "prefix": "イグアナ",
         "surname": "ヴァレット",
         "description": "レベルが1上がった状態でゲーム開始。 5レベルごとに成長効率+10% (最大+50%) 。"
       },
@@ -1191,12 +1211,16 @@
         "description": "エクストラアルカナXIX - 炎の心臓を持ってスタート。 レベルごとに強くなっていくが, コントロールを失う。"
       },
       "PANINI": {
-        "description": "非常に多くの可能性。",
-        "charName": "トースト"
+        "description": "潜在能力のかたまり。",
+        "charName": "トースティー"
       },
       "SMITH": {
-        "description": "風変わりな白いクマ。",
-        "charName": "スミスIV"
+        "description": "ちょっと変わった白熊。",
+        "charName": "スミス四世"
+      },
+      "SCOREJ": {
+        "charName": "スコアジ・オニ",
+        "description": "8レベル （最大6レベル） ごとにライトニングリングを獲得し、 ヘルスが失われたときにも発光する。"
       }
     }
   },
@@ -1313,7 +1337,7 @@
       },
       "PINO": {
         "charName": "갈로",
-        "suffix": "이구아나",
+        "prefix": "이구아나",
         "surname": "발레토",
         "description": "1개의 추가 레벨로 시작합니다. 5개 레벨마다 +10%의 성장 보너스를 획득합니다(최대 +50%)."
       },
@@ -1382,12 +1406,16 @@
         "description": "추가 아르카나인 XIX - 불의 심장으로 시작합니다. 레벨마다 점점 강해지지만 제어력을 잃습니다."
       },
       "PANINI": {
-        "description": "너무 많은 잠재력.",
-        "charName": "토스트"
+        "description": "너무나 큰 잠재력을 품고 있습니다.",
+        "charName": "토스티"
       },
       "SMITH": {
-        "description": "기발한 백인.",
-        "charName": "스미스 IV"
+        "description": "별난 흰 곰입니다.",
+        "charName": "스미스 4세"
+      },
+      "SCOREJ": {
+        "charName": "스코어제이오니",
+        "description": "체력을 잃을 때도 발사되는 8레벨(최대 6)마다 숨겨진 번개 반지를 얻습니다."
       }
     }
   },
@@ -1510,7 +1538,7 @@
       },
       "PINO": {
         "charName": "Gallo",
-        "suffix": "Iguana",
+        "prefix": "Iguana",
         "surname": "Valletto",
         "description": "Zaczyna z 1 dodatkowym poziomem. Otrzymuje +10% Rozwoju co 5 poziomów (maks. +50%)."
       },
@@ -1579,12 +1607,16 @@
         "description": "Zaczyna z dodatkową Arkaną XIX – Serce ognia. Rośnie w siłę z każdym poziomem, lecz także traci panowanie."
       },
       "PANINI": {
-        "description": "Tak duży potencjał.",
-        "charName": "Toastie"
+        "description": "Taki potencjał!",
+        "charName": "Tościk"
       },
       "SMITH": {
-        "description": "Dziwaczny biały niedźwiedź.",
+        "description": "Dziwaczny biały miś.",
         "charName": "Smith IV"
+      },
+      "SCOREJ": {
+        "charName": "Scorej-Oni",
+        "description": "Co 8 poziomów (maks. 6) zyskuje ukryty Pierścień Błyskawicy, który strzela także przy utracie zdrowia."
       }
     }
   },
@@ -1707,7 +1739,7 @@
       },
       "PINO": {
         "charName": "Gallo",
-        "suffix": "Iguana",
+        "prefix": "Iguana",
         "surname": "Valletto",
         "description": "Começa com 1 nível extra. Ganha +10% de Crescimento a cada 5 níveis (máx. de +50%)."
       },
@@ -1780,8 +1812,12 @@
         "charName": "Toastie"
       },
       "SMITH": {
-        "description": "O urso branco peculiar.",
+        "description": "O urso branco excêntrico.",
         "charName": "Smith IV"
+      },
+      "SCOREJ": {
+        "charName": "Scorej-Oni",
+        "description": "Ganha um anel de relâmpago escondido a cada 8 níveis (máx. 6) que também dispara quando perde a saúde."
       }
     }
   },
@@ -1904,7 +1940,7 @@
       },
       "PINO": {
         "charName": "Галло",
-        "suffix": "Игуана",
+        "prefix": "Игуана",
         "surname": "Валлетто",
         "description": "Начинает с 1 доп. уровнем. Получает +10% к развитию каждые 5 уровней (макс. +50%)."
       },
@@ -1973,12 +2009,16 @@
         "description": "Начинает с дополнительной Арканой «XIX — Пламенный мотор». С каждым уровнем становится сильнее, но также теряет контроль."
       },
       "PANINI": {
-        "description": "Так много потенциала.",
-        "charName": "Тости"
+        "description": "Какой потенциал.",
+        "charName": "Тостик"
       },
       "SMITH": {
-        "description": "Причудливый белый медведь.",
+        "description": "Странный белый медведь.",
         "charName": "Смит IV"
+      },
+      "SCOREJ": {
+        "charName": "Scorej-Oni",
+        "description": "Каждые 8 уровней (максимум 6) получает скрытое кольцо молний, которое также стреляет при потере здоровья."
       }
     }
   },
@@ -2095,7 +2135,7 @@
       },
       "PINO": {
         "charName": "Gallo",
-        "suffix": "Iguana",
+        "prefix": "Iguana",
         "surname": "Valletto",
         "description": "Comienza con 1 nivel adicional. Gana +10 % de crecimiento cada 5 niveles (máx.: +50 %)."
       },
@@ -2164,12 +2204,16 @@
         "description": "Comienza con el arcano adicional XIX: Corazón de fuego. Se hace más fuerte cada nivel, pero también pierde control."
       },
       "PANINI": {
-        "description": "Tanto potencial.",
-        "charName": "Tostada"
+        "description": "Cuánto potencial...",
+        "charName": "Toastie"
       },
       "SMITH": {
-        "description": "El peculiar oso blanco.",
+        "description": "Un oso blanco poco convencional.",
         "charName": "Smith IV"
+      },
+      "SCOREJ": {
+        "charName": "Scorej-Oni",
+        "description": "Obtiene un anillo de relámpago oculto cada 8 niveles (máximo 6) que también se dispara al perder salud."
       }
     }
   },
@@ -2304,7 +2348,7 @@
       },
       "PINO": {
         "charName": "Gallo",
-        "suffix": "Iguana",
+        "prefix": "Iguana",
         "surname": "Valletto",
         "description": "Fazladan 1 level ile başlar. Her 5 seviyede +%10 Büyüme kazanır (maks +%50)."
       },
@@ -2373,12 +2417,16 @@
         "description": "Fazladan bir Arcana, XIX - Ateşin Kalbi ile başlar. Her seviyede daha da güçlenir ama kontrolü de kaybeder."
       },
       "PANINI": {
-        "description": "Çok fazla potansiyel.",
+        "description": "Ne potansiyel var ama.",
         "charName": "Toastie"
       },
       "SMITH": {
-        "description": "İlginç beyaz ayı.",
+        "description": "Garip beyaz ayı.",
         "charName": "Smith IV"
+      },
+      "SCOREJ": {
+        "charName": "Scorej-Oni",
+        "description": "Her 8 seviyede bir (maksimum 6) can kaybederken de ateşleyen gizli bir Yıldırım Yüzüğü kazanır."
       }
     }
   },

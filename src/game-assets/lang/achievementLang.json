@@ -436,6 +436,12 @@
       },
       "EvolveBracelet": {
         "description": "进化魔环, 之后再继续进化双魔环。"
+      },
+      "Banish10Items": {
+        "description": "在一场比赛中禁止使用10种以上的武器。"
+      },
+      "ReachLV80InverseTower": {
+        "description": "在擎天塔中升到80级 (翻转)。"
       }
     }
   },
@@ -887,6 +893,12 @@
       },
       "EvolveBracelet": {
         "description": "Evolve the Bracelet and then the Bi-Bracelet."
+      },
+      "Banish10Items": {
+        "description": "Banish 10 or more weapons in a single run."
+      },
+      "ReachLV80InverseTower": {
+        "description": "Reach Level 80 in Inverse Gallo Tower."
       }
     }
   },
@@ -1320,6 +1332,12 @@
       },
       "EvolveBracelet": {
         "description": "Faites évoluer le Bracelet, puis le Bi-bracelet."
+      },
+      "Banish10Items": {
+        "description": "Bannissez 10 armes ou plus en une seule manche."
+      },
+      "ReachLV80InverseTower": {
+        "description": "Atteignez le niveau 80 dans la Tour de Gallo (Inverser)."
       }
     }
   },
@@ -1747,6 +1765,12 @@
       },
       "EvolveBracelet": {
         "description": "Verbessere das Armband und dann das Bi-Armband."
+      },
+      "Banish10Items": {
+        "description": "Verbieten Sie 10 oder mehr Waffen in einem Durchgang."
+      },
+      "ReachLV80InverseTower": {
+        "description": "Erreiche Level 80 im Gallo-Turm (Umkehren)."
       }
     }
   },
@@ -2186,6 +2210,12 @@
       },
       "EvolveBracelet": {
         "description": "Fai evolvere il Bracciale e poi il Bi-bracciale."
+      },
+      "Banish10Items": {
+        "description": "Vieta 10 o più armi in una singola partita."
+      },
+      "ReachLV80InverseTower": {
+        "description": "Raggiungi il livello 80 nella Torre dell'Uccello (Invertito)."
       }
     }
   },
@@ -2613,6 +2643,12 @@
       },
       "EvolveBracelet": {
         "description": "ブレスレットを進化させ, さらにバイブレスレットを進化する。"
+      },
+      "Banish10Items": {
+        "description": "1試合で10個以上の武器を使用することを禁止する。"
+      },
+      "ReachLV80InverseTower": {
+        "description": "ガロの塔でレベル80に到達する(反転) 。"
       }
     }
   },
@@ -3040,6 +3076,12 @@
       },
       "EvolveBracelet": {
         "description": "팔찌와 이중 팔찌를 진화시킵니다."
+      },
+      "Banish10Items": {
+        "description": "단일 게임에서 10개 이상의 무기를 금지하십시오."
+      },
+      "ReachLV80InverseTower": {
+        "description": "갈로의 탑에서 레벨 80에 도달합니다 (반전)."
       }
     }
   },
@@ -3473,6 +3515,12 @@
       },
       "EvolveBracelet": {
         "description": "Ulepsz Bransoletę, a następnie Dwój-bransoletę."
+      },
+      "Banish10Items": {
+        "description": "Wygnaj 10 lub więcej broni w jednym biegu."
+      },
+      "ReachLV80InverseTower": {
+        "description": "Osiągnij 80. poziom w Wieży Gallo (Odwrócone)."
       }
     }
   },
@@ -3906,6 +3954,12 @@
       },
       "EvolveBracelet": {
         "description": "Evolua a Pulseira e depois a Bipulseira."
+      },
+      "Banish10Items": {
+        "description": "Banir 10 ou mais armas de uma só vez."
+      },
+      "ReachLV80InverseTower": {
+        "description": "Alcance o nível 80 na Torre de Gallo (Invertido)."
       }
     }
   },
@@ -4339,6 +4393,12 @@
       },
       "EvolveBracelet": {
         "description": "Улучшите браслет, а затем би-браслет."
+      },
+      "Banish10Items": {
+        "description": "Запретить 10 и более единиц оружия в одной игре."
+      },
+      "ReachLV80InverseTower": {
+        "description": "Достигните 80 уровня в Башне Галло (Инверсия)."
       }
     }
   },
@@ -4766,6 +4826,12 @@
       },
       "EvolveBracelet": {
         "description": "Haz evolucionar el brazalete y luego el brazalete doble."
+      },
+      "Banish10Items": {
+        "description": "Prohibir 10 o más armas en una sola partida."
+      },
+      "ReachLV80InverseTower": {
+        "description": "Alcanza el nivel 80 en la Torre de Gallo (Reflejo)."
       }
     }
   },
@@ -5211,6 +5277,12 @@
       },
       "EvolveBracelet": {
         "description": "Bilezik'i ve sonrasında Çift-Bilezik'i evrilt."
+      },
+      "Banish10Items": {
+        "description": "Tek bir oyunda 10 veya daha fazla silahı yasaklayın."
+      },
+      "ReachLV80InverseTower": {
+        "description": "Galya Kulesi'nde Seviye 80'e ulaş (Tersine Çevir)."
       }
     }
   },

@@ -150,14 +150,34 @@
         "achievementTips": "翻转模式。"
       },
       "ALWAYS_COINBAG2": {
-        "name": "[总是] 大钱袋",
+        "name": "[全局]大钱袋",
         "description": "你的金币总数+25。",
-        "tips": "在其余的跑步中总是选择。"
+        "tips": "在本轮游戏中始终选取大钱袋。"
       },
       "ALWAYS_ROAST": {
-        "name": "[总是] 烤鸡",
+        "name": "[全局]烤鸡",
         "description": "生命值+30。",
-        "tips": "在其余的跑步中，如果缺失健康，总是会选择硬币。"
+        "tips": "在本轮游戏中， 如果已经受伤， 则始终选择烤鸡； 否则选取大钱袋。"
+      },
+      "DUMMY_SKIP": {
+        "name": "跳过",
+        "description": "本轮游戏的跳过机会+1。"
+      },
+      "DUMMY_BANISH": {
+        "name": "排除",
+        "description": "本轮游戏的排除机会+1。"
+      },
+      "DUMMY_REROLL": {
+        "name": "重选",
+        "description": "本轮游戏的重选机会+1。"
+      },
+      "DUMMY_REVIVAL": {
+        "name": "复活",
+        "description": "本轮游戏的复活机会+1。"
+      },
+      "DUMMY_ARC": {
+        "name": "选牌",
+        "description": "本轮游戏获得一张额外的秘法牌。"
       }
     }
   },
@@ -331,6 +351,26 @@
         "name": "[Always] Floor Chicken",
         "description": "Restores 30 Health points.",
         "tips": "Always picked over coins if missing health, for the rest of the run."
+      },
+      "DUMMY_SKIP": {
+        "name": "Skip",
+        "description": "Gives +1 Skip for this run."
+      },
+      "DUMMY_BANISH": {
+        "name": "Banish",
+        "description": "Gives +1 Banish for this run."
+      },
+      "DUMMY_REROLL": {
+        "name": "Reroll",
+        "description": "Gives +1 Reroll for this run."
+      },
+      "DUMMY_REVIVAL": {
+        "name": "Revival",
+        "description": "Gives +1 Revival for this run."
+      },
+      "DUMMY_ARC": {
+        "name": "Pick a Card",
+        "description": "Gives an extra Arcana for this run."
       }
     }
   },
@@ -478,14 +518,34 @@
         "achievementTips": "Mode inversé."
       },
       "ALWAYS_COINBAG2": {
-        "name": "[Toujours] Sac d'or",
+        "name": "[Persistant] Sac d'or",
         "description": "Obtenez 25 pièces d'or.",
-        "tips": "Toujours choisi, pour le reste de la course."
+        "tips": "Ce choix sera mémorisé pour toute la partie."
       },
       "ALWAYS_ROAST": {
-        "name": "[Toujours] Poulet rôti",
-        "description": "Rend 30 points de vie.",
-        "tips": "Toujours choisi sur des pièces en cas de santé, pour le reste de la course."
+        "name": "[Persistant] Poulet rôti",
+        "description": "Obtenez 30 points de vie.",
+        "tips": "Ce choix sera mémorisé pour toute la partie, sauf quand vos PV sont au max."
+      },
+      "DUMMY_SKIP": {
+        "name": "Snobisme",
+        "description": "+1 Passer pour cette partie."
+      },
+      "DUMMY_BANISH": {
+        "name": "Répulsion",
+        "description": "+1 Bannir pour cette partie."
+      },
+      "DUMMY_REROLL": {
+        "name": "Caprice",
+        "description": "+1 Retenter pour cette partie."
+      },
+      "DUMMY_REVIVAL": {
+        "name": "Résurrection",
+        "description": "+1 Résurrection pour cette partie."
+      },
+      "DUMMY_ARC": {
+        "name": "Pioche",
+        "description": "Arcane bonus pour cette partie."
       }
     }
   },
@@ -627,14 +687,34 @@
         "achievementTips": "Umgekehrt-Modus."
       },
       "ALWAYS_COINBAG2": {
-        "name": "[Stets] Großer Münzsack",
+        "name": "[Immer] Großer Münzsack",
         "description": "Erhöht die Anzahl deiner Goldmünzen um 25.",
-        "tips": "Immer gepflückt, für den Rest des Laufs."
+        "tips": "Wird für den Rest des Laufs immer gewählt."
       },
       "ALWAYS_ROAST": {
-        "name": "[Stets] Brathähnchen",
+        "name": "[Immer] Brathähnchen",
         "description": "Stellt 30 Lebenspunkte wieder her.",
-        "tips": "Für den Rest des Laufs immer Münzen übernommen, wenn sie Gesundheit fehlt."
+        "tips": "Wird bei niedriger Gesundheit für den Rest des Laufs immer statt Münzen gewählt."
+      },
+      "DUMMY_SKIP": {
+        "name": "Überspringen",
+        "description": "Gewährt +1 Überspringen für diesen Lauf."
+      },
+      "DUMMY_BANISH": {
+        "name": "Verbannen",
+        "description": "Gewährt +1 Verbannen für diesen Lauf."
+      },
+      "DUMMY_REROLL": {
+        "name": "Neuwahl",
+        "description": "Gewährt +1 Neuwahl für diesen Lauf."
+      },
+      "DUMMY_REVIVAL": {
+        "name": "Wiederbeleben",
+        "description": "Gewährt +1 Wiederbeleben für diesen Lauf."
+      },
+      "DUMMY_ARC": {
+        "name": "Karte ziehen",
+        "description": "Gewährt ein extra Arcana für diesen Lauf."
       }
     }
   },
@@ -790,12 +870,32 @@
       "ALWAYS_COINBAG2": {
         "name": "[Sempre] Sacchetto colmo d'oro",
         "description": "Aggiunge 25 monete d'oro al tuo totale.",
-        "tips": "Toujours Choisi, Pour le Reste de la Course."
+        "tips": "Raccolto sempre, per il resto della partita."
       },
       "ALWAYS_ROAST": {
         "name": "[Sempre] Pollo sul pavimento",
         "description": "Ripristina 30 punti di salute.",
-        "tips": "Sempre scelto se mancano HP, per il resto della partita."
+        "tips": "Sempre raccolto al posto delle monete in caso la salute non sia al massimo, per il resto della partita."
+      },
+      "DUMMY_SKIP": {
+        "name": "Esenzione",
+        "description": "Conferisce +1 Esenzione per questa partita."
+      },
+      "DUMMY_BANISH": {
+        "name": "Esclusione",
+        "description": "Conferisce +1 Esclusione per questa partita."
+      },
+      "DUMMY_REROLL": {
+        "name": "Risorteggio",
+        "description": "Conferisce +1 Risorteggio per questa partita."
+      },
+      "DUMMY_REVIVAL": {
+        "name": "Resurrezione",
+        "description": "Conferisce +1 Resurrezione per questa partita."
+      },
+      "DUMMY_ARC": {
+        "name": "Scegli una carta",
+        "description": "Fornisce un Arcano aggiuntivo per questa partita."
       }
     }
   },
@@ -937,14 +1037,34 @@
         "achievementTips": "反転モード"
       },
       "ALWAYS_COINBAG2": {
-        "name": "[いつも] 大きな金貨袋",
-        "description": "金貨が25枚増える。",
-        "tips": "残りのランのために、常に選んだ。"
+        "name": "[常時]大きな金貨袋",
+        "description": "合計金貨が25枚増える。",
+        "tips": "ランの残り時間、 常時取得する。"
       },
       "ALWAYS_ROAST": {
-        "name": "[いつも] トリ肉",
+        "name": "[常時]トリ肉",
         "description": "HPが30回復する。",
-        "tips": "残りの走りのために、健康が欠けている場合は常にコインを選んでください。"
+        "tips": "ランの残り時間、 ライフが不足している場合は常時コインを取得する。"
+      },
+      "DUMMY_SKIP": {
+        "name": "スキップ",
+        "description": "このランのスキップが1増える。"
+      },
+      "DUMMY_BANISH": {
+        "name": "削除",
+        "description": "このランの削除が1増える。"
+      },
+      "DUMMY_REROLL": {
+        "name": "リロール",
+        "description": "このランのリロールが1増える。"
+      },
+      "DUMMY_REVIVAL": {
+        "name": "復活",
+        "description": "このランの復活が1増える。"
+      },
+      "DUMMY_ARC": {
+        "name": "カードを1枚取る",
+        "description": "このランのアルカナが1増える。"
       }
     }
   },
@@ -1086,14 +1206,34 @@
         "achievementTips": "반전 모드입니다."
       },
       "ALWAYS_COINBAG2": {
-        "name": "[언제나] 큰 금화 주머니",
+        "name": "[항상] 큰 금화 주머니",
         "description": "25골드를 획득합니다.",
-        "tips": "나머지 달리기를 위해 항상 골라 냈습니다."
+        "tips": "나머지 게임 동안 항상 선택됩니다."
       },
       "ALWAYS_ROAST": {
-        "name": "[언제나] 치킨",
+        "name": "[항상] 치킨",
         "description": "체력을 30 회복합니다.",
-        "tips": "나머지 달리기 동안 건강이 누락되면 항상 동전을 골랐습니다."
+        "tips": "체력을 잃은 경우 나머지 게임 동안 코인이 아닌 이 아이템이 항상 선택됩니다."
+      },
+      "DUMMY_SKIP": {
+        "name": "건너뛰기",
+        "description": "이 게임에 대해 건너뛰기를 +1 부여합니다."
+      },
+      "DUMMY_BANISH": {
+        "name": "지우기",
+        "description": "이 게임에 대해 지우기를 +1 부여합니다."
+      },
+      "DUMMY_REROLL": {
+        "name": "새로고침",
+        "description": "이 게임에 대해 새로고침을 +1 부여합니다."
+      },
+      "DUMMY_REVIVAL": {
+        "name": "부활",
+        "description": "이 게임에 대해 부활을 +1 부여합니다."
+      },
+      "DUMMY_ARC": {
+        "name": "카드 선택",
+        "description": "이번 게임에서 추가 아르카나를 부여합니다."
       }
     }
   },
@@ -1242,13 +1382,33 @@
       },
       "ALWAYS_COINBAG2": {
         "name": "[Zawsze] Duży worek monet",
-        "description": "Dodaje 25 do sumy Złotych monet.",
-        "tips": "Zawsze wybierane przez resztę biegu."
+        "description": "Dodaje 25 do sumy złotych monet.",
+        "tips": "Ta opcja będzie wybierana za każdym razem do końca tej rozgrywki."
       },
       "ALWAYS_ROAST": {
         "name": "[Zawsze] Kurczak",
-        "description": "Przywraca 30 Punktów życia.",
-        "tips": "Zawsze wybierałem monety, jeśli brakuje zdrowia, przez resztę biegu."
+        "description": "Przywraca 30 Punktów zdrowia.",
+        "tips": "Zawsze wybierany zamiast monet, jeśli brakuje ci zdrowia. Obowiązuje do końca tej rozgrywki."
+      },
+      "DUMMY_SKIP": {
+        "name": "Pominięcie",
+        "description": "Daje +1 Pominięcie w tej rozgrywce."
+      },
+      "DUMMY_BANISH": {
+        "name": "Odrzucenie",
+        "description": "Daje +1 Odrzucenie w tej rozgrywce."
+      },
+      "DUMMY_REROLL": {
+        "name": "Zmiana",
+        "description": "Daje +1 Zmianę w tej rozgrywce."
+      },
+      "DUMMY_REVIVAL": {
+        "name": "Wskrzeszenie",
+        "description": "Daje +1 Wskrzeszenie w tej rozgrywce."
+      },
+      "DUMMY_ARC": {
+        "name": "Wybierz kartę",
+        "description": "Daje dodatkową Arkanę w tej rozgrywce."
       }
     }
   },
@@ -1396,14 +1556,34 @@
         "achievementTips": "Modo Invertido."
       },
       "ALWAYS_COINBAG2": {
-        "name": "[Sempre]Bolsona de Moedas",
+        "name": "[Sempre] Bolsona de Moedas",
         "description": "Adiciona 25 moedas de ouro ao total.",
-        "tips": "Sempre escolhido, pelo resto da corrida."
+        "tips": "Sempre escolher isso, até o fim da partida."
       },
       "ALWAYS_ROAST": {
         "name": "[Sempre] Frango Assado",
         "description": "Restaura 30 pontos de Vida.",
-        "tips": "Sempre escolhido por moedas se perder a saúde, pelo resto da corrida."
+        "tips": "Se perder Vida, sempre escolher isso até o fim da partida, em vez de moedas."
+      },
+      "DUMMY_SKIP": {
+        "name": "Adiar",
+        "description": "Concede +1 Adiar para a partida."
+      },
+      "DUMMY_BANISH": {
+        "name": "Banir",
+        "description": "Concede +1 Banir para a partida."
+      },
+      "DUMMY_REROLL": {
+        "name": "Rolar Nov.",
+        "description": "Concede +1 Rolar Nov. para a partida."
+      },
+      "DUMMY_REVIVAL": {
+        "name": "Ressurreição",
+        "description": "Concede +1 Ressurreição para a partida."
+      },
+      "DUMMY_ARC": {
+        "name": "Escolha uma Carta",
+        "description": "Concede uma Arcana extra para a partida."
       }
     }
   },
@@ -1553,12 +1733,32 @@
       "ALWAYS_COINBAG2": {
         "name": "[Всегда] Большой мешок денег",
         "description": "Добавляет 25 к запасу золотых монет.",
-        "tips": "Всегда выбирается, для остальной части пробега."
+        "tips": "Всегда выбрано до конца забега."
       },
       "ALWAYS_ROAST": {
         "name": "[Всегда] Жареный цыпленок",
         "description": "Восстанавливает 30 ОЗ.",
-        "tips": "Всегда выбирают монеты, если пропустить здоровье, для остальной части пробега."
+        "tips": "Вы будете собирать его вместо монет, если не хватает здоровья, до конца забега."
+      },
+      "DUMMY_SKIP": {
+        "name": "Пропуск",
+        "description": "Дает +1 пропуск в этом забеге."
+      },
+      "DUMMY_BANISH": {
+        "name": "Изгнание",
+        "description": "Дает +1 изгнание в этом забеге."
+      },
+      "DUMMY_REROLL": {
+        "name": "Повтор",
+        "description": "Дает +1 повтор в этом забеге."
+      },
+      "DUMMY_REVIVAL": {
+        "name": "Оживление",
+        "description": "Дает +1 оживление в этом забеге."
+      },
+      "DUMMY_ARC": {
+        "name": "Выбрать карту",
+        "description": "Дает дополнительную Аркану в этом забеге."
       }
     }
   },
@@ -1702,12 +1902,32 @@
       "ALWAYS_COINBAG2": {
         "name": "[Siempre] Saco de monedas",
         "description": "25 monedas de oro.",
-        "tips": "Siempre elegido, por el resto de la carrera."
+        "tips": "Siempre se escoge durante el resto de la partida."
       },
       "ALWAYS_ROAST": {
         "name": "[Siempre] Pollo asado",
         "description": "Recupera 30 puntos de salud.",
-        "tips": "Siempre recogía monedas si faltan salud, por el resto de la carrera."
+        "tips": "Siempre se escoge en lugar de las monedas durante el resto de la partida si te falta salud."
+      },
+      "DUMMY_SKIP": {
+        "name": "Saltar",
+        "description": "Otorga +1 uso de saltar para esta partida."
+      },
+      "DUMMY_BANISH": {
+        "name": "Eliminar",
+        "description": "Otorga +1 uso de eliminar para esta partida."
+      },
+      "DUMMY_REROLL": {
+        "name": "Cambiar",
+        "description": "Otorga +1 uso de cambiar para esta partida."
+      },
+      "DUMMY_REVIVAL": {
+        "name": "Resurrección",
+        "description": "Otorga +1 resurrección para esta partida."
+      },
+      "DUMMY_ARC": {
+        "name": "Elige una carta",
+        "description": "Otorga un arcano adicional para esta partida."
       }
     }
   },
@@ -1867,14 +2087,34 @@
         "achievementTips": "Ters mod."
       },
       "ALWAYS_COINBAG2": {
-        "name": "[Hep] Büyük Akçe Çuvalı",
-        "description": "Toplam Altın Akçeni 25 arttırır.",
-        "tips": "Koşunun geri kalanı için her zaman seçildi."
+        "name": "[Her Zaman] Büyük Akçe Çuvalı",
+        "description": "Toplam altın akçenizi 25 arttırır.",
+        "tips": "Oyunun geri kalanı için kalıcı olarak seçildi."
       },
       "ALWAYS_ROAST": {
-        "name": "[Hep] Gezmeyen Tavuk",
+        "name": "[Her Zaman] Gezmeyen Tavuk",
         "description": "30 Sağlık puanı yeniler.",
-        "tips": "Koşunun geri kalanı için her zaman sağlıksızsa paraları seçti."
+        "tips": "Sağlık az ise akçelerin yerine oyunun geri kalanı için kalıcı olarak seçildi."
+      },
+      "DUMMY_SKIP": {
+        "name": "Atla",
+        "description": "Bu oyun için +1 Atlama verir."
+      },
+      "DUMMY_BANISH": {
+        "name": "Çıkarma",
+        "description": "Bu oyun için +1 Çıkarma verir."
+      },
+      "DUMMY_REROLL": {
+        "name": "Tekrar Atma",
+        "description": "Bu oyun için +1 Tekrar Atma verir."
+      },
+      "DUMMY_REVIVAL": {
+        "name": "Canlanma",
+        "description": "Bu oyun için +1 Canlanma verir."
+      },
+      "DUMMY_ARC": {
+        "name": "Bir Kart Seç",
+        "description": "Bu oyun için fazladan bir Arcana verir."
       }
     }
   },

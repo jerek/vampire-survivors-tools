@@ -272,8 +272,7 @@ VST.VS.Character = new function () {
             weaponIds: [VS.WEAPON_ID_PEACHONE],
         },
         27: {
-            name: 'Smith',
-            surname: 'IV',
+            name: 'Smith IV',
             description: 'The quirky white bear.',
             order: 28,
             spriteName: 'nExdash_01.png',
@@ -373,32 +372,13 @@ VST.VS.Character = new function () {
             spriteName: 's_01.png',
             weaponIds: [VS.WEAPON_ID_VICTORY_SWORD],
         },
-        // There's some weird extra character data in the game files. Initially I included it all (just commented out),
-        // in the hopes that it would lead to something interesting. After the initial update of 0.7.2 => 0.7.360, it
-        // doesn't look like that'll pay off. So I'm going to keep an eye on this data in future patches, but basically
-        // just leave this data here to rot and remind me to watch for anything meaningful.
-        // 22: {name: 'LATODISOTTO', description: 'LATOEVEST', passiveIds: [VS.PASSIVE_ID_DUPLICATOR]},
-        // 23: {name: 'LATOEVEST  ', description: '', passiveIds: [VS.PASSIVE_ID_DUPLICATOR]},
-        // 24: {name: 'LATODILATO ', description: 'MARIANNA', passiveIds: [VS.PASSIVE_ID_DUPLICATOR]},
-        // 25: {name: 'LATOEVEST  ', description: 'SIGMA', passiveIds: [VS.PASSIVE_ID_DUPLICATOR]},
-        // 28: {name: 'LATODISOPRO', description: '', passiveIds: [VS.PASSIVE_ID_DUPLICATOR]},
-        // 29: {name: 'LATODISOTTO', description: 'ODDEEO', passiveIds: [VS.PASSIVE_ID_DUPLICATOR]},
-        // 30: {name: 'LATODISOTTO', description: 'VOID', passiveIds: [VS.PASSIVE_ID_DUPLICATOR]},
-        // 31: {name: 'LATODILATO ', description: 'RED', passiveIds: [VS.PASSIVE_ID_DUPLICATOR]},
-        // 32: {name: '', description: 'IOLO', passiveIds: [VS.PASSIVE_ID_DUPLICATOR]},
-        // 37: {name: 'LATODILATO ', description: '', passiveIds: [VS.PASSIVE_ID_DUPLICATOR]},
-        // 38: {name: 'LATODISOTTO', description: 'FINO', passiveIds: [VS.PASSIVE_ID_DUPLICATOR]},
-        // 39: {name: 'LATODILATO ', description: 'LATODILATO', passiveIds: [VS.PASSIVE_ID_DUPLICATOR]},
-        // 43: {name: 'LATODISOTTO', description: 'DEATH', passiveIds: [VS.PASSIVE_ID_DUPLICATOR]},
-        // 44: {name: 'LATODILATO ', description: '', passiveIds: [VS.PASSIVE_ID_DUPLICATOR]},
-        // 45: {name: 'LATODISOTTO', description: '', passiveIds: [VS.PASSIVE_ID_DUPLICATOR]},
-        // 46: {name: 'LATOEVEST  ', description: '', passiveIds: [VS.PASSIVE_ID_DUPLICATOR]},
-        // 47: {name: 'LATODISOTTO', description: '', passiveIds: [VS.PASSIVE_ID_DUPLICATOR]},
-        // 48: {name: 'LATOEVEST  ', description: '', passiveIds: [VS.PASSIVE_ID_DUPLICATOR]},
-        // 49: {name: 'LATODILATO ', description: 'PENTA', passiveIds: [VS.PASSIVE_ID_DUPLICATOR]},
-        // 50: {name: 'LATODILATO ', description: '', passiveIds: [VS.PASSIVE_ID_DUPLICATOR]},
-        // 51: {name: 'LATODILATO ', description: '', passiveIds: [VS.PASSIVE_ID_DUPLICATOR]},
-        // 52: {name: 'LATODISOPRO', description: '', passiveIds: [VS.PASSIVE_ID_DUPLICATOR]},
+        41: {
+            name: 'Scorej-Oni',
+            description: 'Gains a hidden Lightning Ring every 8 levels (max 6) that also fires when losing health.',
+            order: 41,
+            spriteName: 'Scorej_01.png',
+            weaponIds: [],
+        },
     };
 
     /** @type {number} The scaling size of the character and weapon images in the standard character boxes. */
