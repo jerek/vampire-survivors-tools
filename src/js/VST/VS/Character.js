@@ -352,7 +352,7 @@ VST.VS.Character = new function () {
             name: 'Gains',
             description: 'Gains +2% Growth every level.',
             order: 38,
-            spriteName: 'XLDragon1_i01.png',
+            spriteName: 'Gains_01.png',
             surname: 'Boros',
             weaponIds: [VS.WEAPON_ID_HEAVEN_SWORD],
         },
