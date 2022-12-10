@@ -4399,7 +4399,7 @@
 					}
 				},
 				{
-					"filename": "BoxOpen.png",
+					"filename": "BoxArcana.png",
 					"rotated": false,
 					"trimmed": true,
 					"sourceSize": {
@@ -5071,7 +5071,7 @@
 					}
 				},
 				{
-					"filename": "BoxOpen2.png",
+					"filename": "BoxOpen.png",
 					"rotated": false,
 					"trimmed": true,
 					"sourceSize": {
@@ -5407,7 +5407,7 @@
 					}
 				},
 				{
-					"filename": "BoxOpen3.png",
+					"filename": "BoxOpen2.png",
 					"rotated": false,
 					"trimmed": true,
 					"sourceSize": {
@@ -5428,7 +5428,7 @@
 					}
 				},
 				{
-					"filename": "HeartBlack.png",
+					"filename": "BoxOpen3.png",
 					"rotated": false,
 					"trimmed": true,
 					"sourceSize": {
@@ -5437,7 +5437,7 @@
 					},
 					"spriteSourceSize": {
 						"x": 0,
-						"y": 0,
+						"y": 1,
 						"w": 16,
 						"h": 15
 					},
@@ -5512,7 +5512,7 @@
 					}
 				},
 				{
-					"filename": "Nft1.png",
+					"filename": "HeartBlack.png",
 					"rotated": false,
 					"trimmed": true,
 					"sourceSize": {
@@ -5521,7 +5521,7 @@
 					},
 					"spriteSourceSize": {
 						"x": 0,
-						"y": 1,
+						"y": 0,
 						"w": 16,
 						"h": 15
 					},
@@ -5596,28 +5596,7 @@
 					}
 				},
 				{
-					"filename": "Nft2.png",
-					"rotated": false,
-					"trimmed": true,
-					"sourceSize": {
-						"w": 16,
-						"h": 16
-					},
-					"spriteSourceSize": {
-						"x": 0,
-						"y": 1,
-						"w": 16,
-						"h": 15
-					},
-					"frame": {
-						"x": 423,
-						"y": 205,
-						"w": 16,
-						"h": 15
-					}
-				},
-				{
-					"filename": "Nft4.png",
+					"filename": "Nft1.png",
 					"rotated": false,
 					"trimmed": true,
 					"sourceSize": {
@@ -5659,7 +5638,28 @@
 					}
 				},
 				{
-					"filename": "Nft3.png",
+					"filename": "Nft2.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 16
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 1,
+						"w": 16,
+						"h": 15
+					},
+					"frame": {
+						"x": 429,
+						"y": 188,
+						"w": 16,
+						"h": 15
+					}
+				},
+				{
+					"filename": "Nft4.png",
 					"rotated": false,
 					"trimmed": true,
 					"sourceSize": {
@@ -5722,7 +5722,7 @@
 					}
 				},
 				{
-					"filename": "Silf1.png",
+					"filename": "Nft3.png",
 					"rotated": false,
 					"trimmed": true,
 					"sourceSize": {
@@ -5743,7 +5743,7 @@
 					}
 				},
 				{
-					"filename": "Silf1_counter.png",
+					"filename": "Silf1.png",
 					"rotated": false,
 					"trimmed": true,
 					"sourceSize": {
@@ -5785,7 +5785,7 @@
 					}
 				},
 				{
-					"filename": "Silf2.png",
+					"filename": "Silf1_counter.png",
 					"rotated": false,
 					"trimmed": true,
 					"sourceSize": {
@@ -5806,7 +5806,7 @@
 					}
 				},
 				{
-					"filename": "Silf2_counter.png",
+					"filename": "Silf2.png",
 					"rotated": false,
 					"trimmed": true,
 					"sourceSize": {
@@ -5827,7 +5827,7 @@
 					}
 				},
 				{
-					"filename": "OrbOrange.png",
+					"filename": "Silf2_counter.png",
 					"rotated": false,
 					"trimmed": true,
 					"sourceSize": {
@@ -5835,15 +5835,15 @@
 						"h": 16
 					},
 					"spriteSourceSize": {
-						"x": 1,
+						"x": 0,
 						"y": 1,
-						"w": 14,
+						"w": 16,
 						"h": 15
 					},
 					"frame": {
 						"x": 419,
 						"y": 287,
-						"w": 14,
+						"w": 16,
 						"h": 15
 					}
 				},
@@ -5869,7 +5869,7 @@
 					}
 				},
 				{
-					"filename": "dummyBlood.png",
+					"filename": "OrbOrange.png",
 					"rotated": false,
 					"trimmed": true,
 					"sourceSize": {
@@ -5890,7 +5890,7 @@
 					}
 				},
 				{
-					"filename": "dummyDivine.png",
+					"filename": "dummyBlood.png",
 					"rotated": false,
 					"trimmed": true,
 					"sourceSize": {
@@ -5908,6 +5908,90 @@
 						"y": 253,
 						"w": 14,
 						"h": 15
+					}
+				},
+				{
+					"filename": "dummyDivine.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 16
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 1,
+						"w": 14,
+						"h": 15
+					},
+					"frame": {
+						"x": 435,
+						"y": 269,
+						"w": 14,
+						"h": 15
+					}
+				},
+				{
+					"filename": "Gem8.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 16
+					},
+					"spriteSourceSize": {
+						"x": 3,
+						"y": 1,
+						"w": 11,
+						"h": 14
+					},
+					"frame": {
+						"x": 444,
+						"y": 237,
+						"w": 11,
+						"h": 14
+					}
+				},
+				{
+					"filename": "Gem9.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 16
+					},
+					"spriteSourceSize": {
+						"x": 3,
+						"y": 1,
+						"w": 11,
+						"h": 14
+					},
+					"frame": {
+						"x": 444,
+						"y": 252,
+						"w": 11,
+						"h": 14
+					}
+				},
+				{
+					"filename": "05.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 10,
+						"h": 10
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 10,
+						"h": 10
+					},
+					"frame": {
+						"x": 445,
+						"y": 221,
+						"w": 10,
+						"h": 10
 					}
 				},
 				{
@@ -5953,7 +6037,7 @@
 					}
 				},
 				{
-					"filename": "05.png",
+					"filename": "10.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -6009,111 +6093,6 @@
 						"h": 14
 					},
 					"frame": {
-						"x": 434,
-						"y": 287,
-						"w": 14,
-						"h": 14
-					}
-				},
-				{
-					"filename": "TimeToken.png",
-					"rotated": false,
-					"trimmed": true,
-					"sourceSize": {
-						"w": 16,
-						"h": 16
-					},
-					"spriteSourceSize": {
-						"x": 1,
-						"y": 1,
-						"w": 14,
-						"h": 14
-					},
-					"frame": {
-						"x": 435,
-						"y": 269,
-						"w": 14,
-						"h": 14
-					}
-				},
-				{
-					"filename": "Gem8.png",
-					"rotated": false,
-					"trimmed": true,
-					"sourceSize": {
-						"w": 16,
-						"h": 16
-					},
-					"spriteSourceSize": {
-						"x": 3,
-						"y": 1,
-						"w": 11,
-						"h": 14
-					},
-					"frame": {
-						"x": 444,
-						"y": 237,
-						"w": 11,
-						"h": 14
-					}
-				},
-				{
-					"filename": "Gem9.png",
-					"rotated": false,
-					"trimmed": true,
-					"sourceSize": {
-						"w": 16,
-						"h": 16
-					},
-					"spriteSourceSize": {
-						"x": 3,
-						"y": 1,
-						"w": 11,
-						"h": 14
-					},
-					"frame": {
-						"x": 444,
-						"y": 252,
-						"w": 11,
-						"h": 14
-					}
-				},
-				{
-					"filename": "10.png",
-					"rotated": false,
-					"trimmed": false,
-					"sourceSize": {
-						"w": 10,
-						"h": 10
-					},
-					"spriteSourceSize": {
-						"x": 0,
-						"y": 0,
-						"w": 10,
-						"h": 10
-					},
-					"frame": {
-						"x": 445,
-						"y": 221,
-						"w": 10,
-						"h": 10
-					}
-				},
-				{
-					"filename": "TimeToken2.png",
-					"rotated": false,
-					"trimmed": true,
-					"sourceSize": {
-						"w": 16,
-						"h": 16
-					},
-					"spriteSourceSize": {
-						"x": 1,
-						"y": 1,
-						"w": 14,
-						"h": 14
-					},
-					"frame": {
 						"x": 420,
 						"y": 318,
 						"w": 14,
@@ -6121,7 +6100,7 @@
 					}
 				},
 				{
-					"filename": "bracelet1.png",
+					"filename": "TimeToken.png",
 					"rotated": false,
 					"trimmed": true,
 					"sourceSize": {
@@ -6142,7 +6121,7 @@
 					}
 				},
 				{
-					"filename": "icon_plus.png",
+					"filename": "TimeToken2.png",
 					"rotated": false,
 					"trimmed": true,
 					"sourceSize": {
@@ -6163,7 +6142,7 @@
 					}
 				},
 				{
-					"filename": "GemBlue.png",
+					"filename": "bracelet1.png",
 					"rotated": false,
 					"trimmed": true,
 					"sourceSize": {
@@ -6171,36 +6150,15 @@
 						"h": 16
 					},
 					"spriteSourceSize": {
-						"x": 3,
+						"x": 1,
 						"y": 1,
-						"w": 11,
+						"w": 14,
 						"h": 14
 					},
 					"frame": {
 						"x": 429,
 						"y": 348,
-						"w": 11,
-						"h": 14
-					}
-				},
-				{
-					"filename": "GemGreen.png",
-					"rotated": false,
-					"trimmed": true,
-					"sourceSize": {
-						"w": 16,
-						"h": 16
-					},
-					"spriteSourceSize": {
-						"x": 3,
-						"y": 1,
-						"w": 11,
-						"h": 14
-					},
-					"frame": {
-						"x": 441,
-						"y": 348,
-						"w": 11,
+						"w": 14,
 						"h": 14
 					}
 				},
@@ -6247,6 +6205,69 @@
 					}
 				},
 				{
+					"filename": "icon_plus.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 16
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 1,
+						"w": 14,
+						"h": 14
+					},
+					"frame": {
+						"x": 435,
+						"y": 303,
+						"w": 14,
+						"h": 14
+					}
+				},
+				{
+					"filename": "GemBlue.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 16
+					},
+					"spriteSourceSize": {
+						"x": 3,
+						"y": 1,
+						"w": 11,
+						"h": 14
+					},
+					"frame": {
+						"x": 436,
+						"y": 285,
+						"w": 11,
+						"h": 14
+					}
+				},
+				{
+					"filename": "GemGreen.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 16
+					},
+					"spriteSourceSize": {
+						"x": 3,
+						"y": 1,
+						"w": 11,
+						"h": 14
+					},
+					"frame": {
+						"x": 435,
+						"y": 318,
+						"w": 11,
+						"h": 14
+					}
+				},
+				{
 					"filename": "GemRed.png",
 					"rotated": false,
 					"trimmed": true,
@@ -6261,8 +6282,8 @@
 						"h": 14
 					},
 					"frame": {
-						"x": 435,
-						"y": 302,
+						"x": 444,
+						"y": 333,
 						"w": 11,
 						"h": 14
 					}
@@ -6273,6 +6294,6 @@
 	"meta": {
 		"app": "https://www.codeandweb.com/texturepacker",
 		"version": "3.0",
-		"smartupdate": "$TexturePacker:SmartUpdate:53bf19e071d0459d5abbbb20e3bb5987:549afca05c18cc762be8e6fe9d764dbf:110e074689c9edd2c54833ce2e4d9270$"
+		"smartupdate": "$TexturePacker:SmartUpdate:f2b64e77791c9d7a7e9bfb70199338c6:8573b15ea1572c717c231fa283e3d6ca:110e074689c9edd2c54833ce2e4d9270$"
 	}
 }

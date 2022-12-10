@@ -597,7 +597,8 @@
       "maxWeapons_selection": "MAX WEAPONS",
       "eggs_selection": "EGGS",
       "seal_header": "Sealed:",
-      "seal_cannot": "Cannot be sealed."
+      "seal_cannot": "Cannot be sealed.",
+      "active":"Active"
     }
   },
   "fi": {
