@@ -291,7 +291,9 @@
       "maxWeapons_selection": "武器上限",
       "eggs_selection": "金蛋",
       "seal_header": "已封印:",
-      "seal_cannot": "无法封印。"
+      "seal_cannot": "无法封印。",
+      "active": "激活",
+      "open_dlc_page": "商店有可用的新内容"
     }
   },
   "zh-TW": {
@@ -598,7 +600,8 @@
       "eggs_selection": "EGGS",
       "seal_header": "Sealed:",
       "seal_cannot": "Cannot be sealed.",
-      "active":"Active"
+      "active": "Active",
+      "open_dlc_page": "New content available in store"
     }
   },
   "fi": {
@@ -886,7 +889,9 @@
       "maxWeapons_selection": "ARMES MAX",
       "eggs_selection": "ŒUFS",
       "seal_header": "Exclus:",
-      "seal_cannot": "Ne peut pas être exclu."
+      "seal_cannot": "Ne peut pas être exclu.",
+      "active": "Actif",
+      "open_dlc_page": "Nouveau contenu disponible"
     }
   },
   "de": {
@@ -1168,7 +1173,9 @@
       "maxWeapons_selection": "MAX. WAFFEN",
       "eggs_selection": "EIER",
       "seal_header": "Versiegelt:",
-      "seal_cannot": "Versiegeln unmöglich."
+      "seal_cannot": "Versiegeln unmöglich.",
+      "active": "Aktiv",
+      "open_dlc_page": "Neue Inhalte im Store erhältlich"
     }
   },
   "el": {
@@ -1462,7 +1469,9 @@
       "maxWeapons_selection": "Nº MAX ARMI",
       "eggs_selection": "UOVA",
       "seal_header": "Sigillati:",
-      "seal_cannot": "Non può essere sigillato."
+      "seal_cannot": "Non può essere sigillato.",
+      "active": "Attivo",
+      "open_dlc_page": "Nuovi contenuti disponibili nel negozio"
     }
   },
   "ja": {
@@ -1744,7 +1753,9 @@
       "maxWeapons_selection": "最大武器数",
       "eggs_selection": "エッグ",
       "seal_header": "シールド:",
-      "seal_cannot": "封印できない。"
+      "seal_cannot": "封印できない。",
+      "active": "効果中",
+      "open_dlc_page": "追加コンテンツがストアで配信中"
     }
   },
   "ko": {
@@ -2026,7 +2037,9 @@
       "maxWeapons_selection": "최대 무기",
       "eggs_selection": "알",
       "seal_header": "봉인됨:",
-      "seal_cannot": "봉인할 수 없습니다."
+      "seal_cannot": "봉인할 수 없습니다.",
+      "active": "활성화",
+      "open_dlc_page": "상점에서 새 콘텐츠 이용 가능"
     }
   },
   "no": {
@@ -2314,7 +2327,9 @@
       "maxWeapons_selection": "MAKS. BRONIE",
       "eggs_selection": "JAJA",
       "seal_header": "Zapieczętowano:",
-      "seal_cannot": "Nie można zapieczętować."
+      "seal_cannot": "Nie można zapieczętować.",
+      "active": "Aktywne",
+      "open_dlc_page": "W sklepie dostępna jest nowa zawartość"
     }
   },
   "pt": {
@@ -2602,7 +2617,9 @@
       "maxWeapons_selection": "MÁX. DE ARMAS",
       "eggs_selection": "OVOS",
       "seal_header": "Selou:",
-      "seal_cannot": "Não é possível selar."
+      "seal_cannot": "Não é possível selar.",
+      "active": "Ativo",
+      "open_dlc_page": "Conteúdo novo disponível na loja"
     }
   },
   "ro": {
@@ -2890,7 +2907,9 @@
       "maxWeapons_selection": "МАКСИМУМ ОРУЖИЯ",
       "eggs_selection": "ЯЙЦА",
       "seal_header": "Исключено:",
-      "seal_cannot": "Невозможно исключить."
+      "seal_cannot": "Невозможно исключить.",
+      "active": "Активно",
+      "open_dlc_page": "В магазине появились новинки"
     }
   },
   "es": {
@@ -3172,7 +3191,9 @@
       "maxWeapons_selection": "MÁX. DE ARMAS",
       "eggs_selection": "HUEVOS",
       "seal_header": "Sellado:",
-      "seal_cannot": "No se puede sellar."
+      "seal_cannot": "No se puede sellar.",
+      "active": "Activo",
+      "open_dlc_page": "Nuevo contenido disponible en la tienda"
     }
   },
   "es-419": {
@@ -3472,7 +3493,9 @@
       "maxWeapons_selection": "MAKS SİLAHLAR",
       "eggs_selection": "YUMURTALAR",
       "seal_header": "Mühürlenen:",
-      "seal_cannot": "Mühürlenemez."
+      "seal_cannot": "Mühürlenemez.",
+      "active": "Aktif",
+      "open_dlc_page": "Mağazada yeni içerik mevcut"
     }
   },
   "uk": {

@@ -438,10 +438,61 @@
         "description": "进化魔环, 之后再继续进化双魔环。"
       },
       "Banish10Items": {
-        "description": "在一场比赛中禁止使用10种以上的武器。"
+        "description": "在一局中排除掉10种或更多的武器。"
       },
       "ReachLV80InverseTower": {
-        "description": "在擎天塔中升到80级 (翻转)。"
+        "description": "在擎天塔的翻转模式中升到80级。"
+      },
+      "MOON01_FindCoffin": {
+        "description": "在月咒山中找到并打开棺材。"
+      },
+      "MOON02_Survive15Miang": {
+        "description": "使用月咒米昂存活15分钟。"
+      },
+      "MOON03_EvolveSilverWind": {
+        "description": "进化银风。"
+      },
+      "MOON04_Survive15Menya": {
+        "description": "使用月咒门亚存活15分钟。"
+      },
+      "MOON05_EvolveFourSeasons": {
+        "description": "进化天有四时。"
+      },
+      "MOON06_Survive15Syuuto": {
+        "description": "使用月咒脩杜存活15分钟。"
+      },
+      "MOON07_EvolveSummonNight": {
+        "description": "进化晦夜引。"
+      },
+      "MOON08_Survive15BabiOnna": {
+        "description": "使用芭比女存活15分钟。"
+      },
+      "MOON09_EvolveMirageRobe": {
+        "description": "进化幻无垢。"
+      },
+      "MOON10_Survive15McCoy": {
+        "description": "使用麦科伊鬼存活15分钟。"
+      },
+      "MOON11_Defeat100kVanya": {
+        "description": "在一轮游戏中， 使用月咒门亚击败100000名敌人。"
+      },
+      "MOON12_Defeat100kVadjouel": {
+        "description": "在一轮游戏中， 使用月咒脩杜击败100000名敌人。"
+      },
+      "MOON13_Defeat6kWater": {
+        "description": "击败6000个河童。"
+      },
+      "MOON14_FindNightSword": {
+        "description": "找到太宵一文字。"
+      },
+      "MOON15_EvolveNightSword": {
+        "description": "进化太宵一文字。"
+      },
+      "MOON16_DefeatBossRuins": {
+        "description": "在月咒山击败大蛇丸里奥。"
+      },
+      "MOON17_EvolveBubbles": {
+        "description": "进化乱气蓝泡。"
       }
     }
   },
@@ -899,6 +950,57 @@
       },
       "ReachLV80InverseTower": {
         "description": "Reach Level 80 in Inverse Gallo Tower."
+      },
+      "MOON01_FindCoffin": {
+        "description": "Find and open the coffin in Mt.Moonspell."
+      },
+      "MOON02_Survive15Miang": {
+        "description": "Survive 15 minutes with Miang Moonspell."
+      },
+      "MOON03_EvolveSilverWind": {
+        "description": "Evolve the Silver Wind."
+      },
+      "MOON04_Survive15Menya": {
+        "description": "Survive 15 minutes with Menya Moonspell."
+      },
+      "MOON05_EvolveFourSeasons": {
+        "description": "Evolve the Four Seasons."
+      },
+      "MOON06_Survive15Syuuto": {
+        "description": "Survive 15 minutes with Syuuto Moonspell."
+      },
+      "MOON07_EvolveSummonNight": {
+        "description": "Evolve the Summon Night."
+      },
+      "MOON08_Survive15BabiOnna": {
+        "description": "Survive 15 minutes with Babi-Onna."
+      },
+      "MOON09_EvolveMirageRobe": {
+        "description": "Evolve the Mirage Robe."
+      },
+      "MOON10_Survive15McCoy": {
+        "description": "Survive 15 minutes with McCoy-Oni."
+      },
+      "MOON11_Defeat100kVanya": {
+        "description": "Defeat 100000 enemies in a single run with Menya Moonspell."
+      },
+      "MOON12_Defeat100kVadjouel": {
+        "description": "Defeat 100000 enemies in a single run with Syuuto Moonspell."
+      },
+      "MOON13_Defeat6kWater": {
+        "description": "Defeat 6000 Kappa."
+      },
+      "MOON14_FindNightSword": {
+        "description": "Find a Night Sword."
+      },
+      "MOON15_EvolveNightSword": {
+        "description": "Evolve the Night Sword."
+      },
+      "MOON16_DefeatBossRuins": {
+        "description": "Defeat the Orochimario in Mt.Moonspell."
+      },
+      "MOON17_EvolveBubbles": {
+        "description": "Evolve the Mille Bolle Blu."
       }
     }
   },
@@ -1334,10 +1436,61 @@
         "description": "Faites évoluer le Bracelet, puis le Bi-bracelet."
       },
       "Banish10Items": {
-        "description": "Bannissez 10 armes ou plus en une seule manche."
+        "description": "Bannissez au moins 10 armes en une seule partie."
       },
       "ReachLV80InverseTower": {
-        "description": "Atteignez le niveau 80 dans la Tour de Gallo (Inverser)."
+        "description": "Atteignez le niveau 80 dans la Tour de Gallo inversée."
+      },
+      "MOON01_FindCoffin": {
+        "description": "Trouvez et ouvrez le cercueil au Pic de Sortilune."
+      },
+      "MOON02_Survive15Miang": {
+        "description": "Survivez 15 minutes avec Miang Sortilune."
+      },
+      "MOON03_EvolveSilverWind": {
+        "description": "Faites évoluer le Vent argenté."
+      },
+      "MOON04_Survive15Menya": {
+        "description": "Survivez 15 minutes avec Menya Sortilune."
+      },
+      "MOON05_EvolveFourSeasons": {
+        "description": "Faites évoluer les Quatre saisons."
+      },
+      "MOON06_Survive15Syuuto": {
+        "description": "Survivez 15 minutes avec Syuuto Sortilune."
+      },
+      "MOON07_EvolveSummonNight": {
+        "description": "Faites évoluer le Sombre appel."
+      },
+      "MOON08_Survive15BabiOnna": {
+        "description": "Survivez 15 minutes avec Babi-Onna."
+      },
+      "MOON09_EvolveMirageRobe": {
+        "description": "Faites évoluer la Robe-mirage."
+      },
+      "MOON10_Survive15McCoy": {
+        "description": "Survivez 15 minutes avec McCoy-Oni."
+      },
+      "MOON11_Defeat100kVanya": {
+        "description": "Éliminez 100 000 ennemis en une seule partie avec Menya Sortilune."
+      },
+      "MOON12_Defeat100kVadjouel": {
+        "description": "Éliminez 100 000 ennemis en une seule partie avec Syuuto Sortilune."
+      },
+      "MOON13_Defeat6kWater": {
+        "description": "Éliminez 6 000 Kappas."
+      },
+      "MOON14_FindNightSword": {
+        "description": "Trouvez une Épée nocturne."
+      },
+      "MOON15_EvolveNightSword": {
+        "description": "Faites évoluer l'Épée nocturne."
+      },
+      "MOON16_DefeatBossRuins": {
+        "description": "Éliminez l'Orochimario au Pic de Sortilune."
+      },
+      "MOON17_EvolveBubbles": {
+        "description": "Faites évoluer la Mille Bolle Blu."
       }
     }
   },
@@ -1767,10 +1920,61 @@
         "description": "Verbessere das Armband und dann das Bi-Armband."
       },
       "Banish10Items": {
-        "description": "Verbieten Sie 10 oder mehr Waffen in einem Durchgang."
+        "description": "Verbanne 10 oder mehr Waffen in einem Lauf."
       },
       "ReachLV80InverseTower": {
-        "description": "Erreiche Level 80 im Gallo-Turm (Umkehren)."
+        "description": "Erreiche Level 80 im Umgekehrten Gallo-Turm."
+      },
+      "MOON01_FindCoffin": {
+        "description": "Finde und öffne den Sarg in Mondzauberberg."
+      },
+      "MOON02_Survive15Miang": {
+        "description": "Überlebe 15 Minuten mit Miang Mondzauber."
+      },
+      "MOON03_EvolveSilverWind": {
+        "description": "Verbessere den Silberwind."
+      },
+      "MOON04_Survive15Menya": {
+        "description": "Überlebe 15 Minuten mit Menya Mondzauber."
+      },
+      "MOON05_EvolveFourSeasons": {
+        "description": "Verbessere die Vier Jahreszeiten."
+      },
+      "MOON06_Survive15Syuuto": {
+        "description": "Überlebe 15 Minuten mit Syuuto Mondzauber."
+      },
+      "MOON07_EvolveSummonNight": {
+        "description": "Verbessere Nachtbeschwörung."
+      },
+      "MOON08_Survive15BabiOnna": {
+        "description": "Überlebe 15 Minuten mit Babi-Onna."
+      },
+      "MOON09_EvolveMirageRobe": {
+        "description": "Verbessere die Wunderrobe."
+      },
+      "MOON10_Survive15McCoy": {
+        "description": "Überlebe 15 Minuten mit McCoy-Oni."
+      },
+      "MOON11_Defeat100kVanya": {
+        "description": "Besiege 100.000 Gegner in einem Lauf mit Menya Mondzauber."
+      },
+      "MOON12_Defeat100kVadjouel": {
+        "description": "Besiege 100.000 Gegner in einem Lauf mit Syuuto Mondzauber."
+      },
+      "MOON13_Defeat6kWater": {
+        "description": "Besiege 6.000 Kappas."
+      },
+      "MOON14_FindNightSword": {
+        "description": "Finde ein Nachtschwert."
+      },
+      "MOON15_EvolveNightSword": {
+        "description": "Verbessere das Nachtschwert."
+      },
+      "MOON16_DefeatBossRuins": {
+        "description": "Besiege den Orochimario in Mondzauberberg."
+      },
+      "MOON17_EvolveBubbles": {
+        "description": "Verbessere die Mille Bolle Blu."
       }
     }
   },
@@ -2212,10 +2416,61 @@
         "description": "Fai evolvere il Bracciale e poi il Bi-bracciale."
       },
       "Banish10Items": {
-        "description": "Vieta 10 o più armi in una singola partita."
+        "description": "Escludi 10 o più armi in una singola partita."
       },
       "ReachLV80InverseTower": {
-        "description": "Raggiungi il livello 80 nella Torre dell'Uccello (Invertito)."
+        "description": "Raggiungi il livello 80 nella Torre dell'uccello invertita."
+      },
+      "MOON01_FindCoffin": {
+        "description": "Trova e apri la bara sul Monte Lunamagica."
+      },
+      "MOON02_Survive15Miang": {
+        "description": "Sopravvivi per 15 minuti con Miang Lunamagica."
+      },
+      "MOON03_EvolveSilverWind": {
+        "description": "Migliora il Vento argentato."
+      },
+      "MOON04_Survive15Menya": {
+        "description": "Sopravvivi per 15 minuti con Menya Lunamagica."
+      },
+      "MOON05_EvolveFourSeasons": {
+        "description": "Migliora le Quattro stagioni."
+      },
+      "MOON06_Survive15Syuuto": {
+        "description": "Sopravvivi per 15 minuti con Syuuto Lunamagica."
+      },
+      "MOON07_EvolveSummonNight": {
+        "description": "Migliora la Notte d'evocazione."
+      },
+      "MOON08_Survive15BabiOnna": {
+        "description": "Sopravvivi per 15 minuti con Babi-Onna."
+      },
+      "MOON09_EvolveMirageRobe": {
+        "description": "Migliora la Veste del miraggio."
+      },
+      "MOON10_Survive15McCoy": {
+        "description": "Sopravvivi per 15 minuti con McCoy-Oni."
+      },
+      "MOON11_Defeat100kVanya": {
+        "description": "Sconfiggi 100.000 nemici in una partita con Menya Lunamagica."
+      },
+      "MOON12_Defeat100kVadjouel": {
+        "description": "Sconfiggi 100.000 nemici in una partita con Syuuto Lunamagica."
+      },
+      "MOON13_Defeat6kWater": {
+        "description": "Sconfiggi 6.000 kappa."
+      },
+      "MOON14_FindNightSword": {
+        "description": "Trova una Spada notturna."
+      },
+      "MOON15_EvolveNightSword": {
+        "description": "Migliora la Spada notturna."
+      },
+      "MOON16_DefeatBossRuins": {
+        "description": "Sconfiggi l'Orochimario sul Monte Lunamagica."
+      },
+      "MOON17_EvolveBubbles": {
+        "description": "Migliora la Mille Bolle Blu."
       }
     }
   },
@@ -2645,10 +2900,61 @@
         "description": "ブレスレットを進化させ, さらにバイブレスレットを進化する。"
       },
       "Banish10Items": {
-        "description": "1試合で10個以上の武器を使用することを禁止する。"
+        "description": "1回のプレイで10個以上の武器を消去する。"
       },
       "ReachLV80InverseTower": {
-        "description": "ガロの塔でレベル80に到達する(反転) 。"
+        "description": "インバース・ガロの塔でレベル80に到達する。"
+      },
+      "MOON01_FindCoffin": {
+        "description": "ムーンスペル山で棺桶を探し、開ける。"
+      },
+      "MOON02_Survive15Miang": {
+        "description": "ミアン・ムーンスペルで15分間生き残る。"
+      },
+      "MOON03_EvolveSilverWind": {
+        "description": "銀の風を進化させる。"
+      },
+      "MOON04_Survive15Menya": {
+        "description": "メンヤ・ムーンスペルで15分間生き残る。"
+      },
+      "MOON05_EvolveFourSeasons": {
+        "description": "春夏秋冬を進化させる。"
+      },
+      "MOON06_Survive15Syuuto": {
+        "description": "シュート・ムーンスペルで15分間生き残る。"
+      },
+      "MOON07_EvolveSummonNight": {
+        "description": "夜の召喚を進化させる。"
+      },
+      "MOON08_Survive15BabiOnna": {
+        "description": "バビ・オーナで15分生き残る。"
+      },
+      "MOON09_EvolveMirageRobe": {
+        "description": "ミラージュ・ローブを進化させる。"
+      },
+      "MOON10_Survive15McCoy": {
+        "description": "マッコイ・オニで15分間生き残る。"
+      },
+      "MOON11_Defeat100kVanya": {
+        "description": "メンヤ・ムーンスペルで100,000体の敵を1回のプレイで倒す。"
+      },
+      "MOON12_Defeat100kVadjouel": {
+        "description": "メンヤ・ムーンスペルで100,000体の敵を1回のプレイで倒す。"
+      },
+      "MOON13_Defeat6kWater": {
+        "description": "6,000匹の河童を倒す。"
+      },
+      "MOON14_FindNightSword": {
+        "description": "夜の剣を探す。"
+      },
+      "MOON15_EvolveNightSword": {
+        "description": "夜の剣を進化させる。"
+      },
+      "MOON16_DefeatBossRuins": {
+        "description": "ムーンスペル山でオロチマリオを倒す。"
+      },
+      "MOON17_EvolveBubbles": {
+        "description": "藍の泡進化させる"
       }
     }
   },
@@ -3078,10 +3384,61 @@
         "description": "팔찌와 이중 팔찌를 진화시킵니다."
       },
       "Banish10Items": {
-        "description": "단일 게임에서 10개 이상의 무기를 금지하십시오."
+        "description": "한 게임에서 10개 이상의 무기를 지웁니다."
       },
       "ReachLV80InverseTower": {
-        "description": "갈로의 탑에서 레벨 80에 도달합니다 (반전)."
+        "description": "반전 갈로의 탑에서 80레벨에 도달합니다."
+      },
+      "MOON01_FindCoffin": {
+        "description": "문스펠산에서 관을 찾아서 엽니다."
+      },
+      "MOON02_Survive15Miang": {
+        "description": "미앙 문스펠로 15분 생존합니다."
+      },
+      "MOON03_EvolveSilverWind": {
+        "description": "은색 바람을 진화합니다."
+      },
+      "MOON04_Survive15Menya": {
+        "description": "멘야 문스펠로 15분 생존합니다."
+      },
+      "MOON05_EvolveFourSeasons": {
+        "description": "사계절을 진화합니다."
+      },
+      "MOON06_Survive15Syuuto": {
+        "description": "슈토 문스펠로 15분 생존합니다."
+      },
+      "MOON07_EvolveSummonNight": {
+        "description": "밤 소환을 진화합니다."
+      },
+      "MOON08_Survive15BabiOnna": {
+        "description": "바비 온나로 15분 생존합니다."
+      },
+      "MOON09_EvolveMirageRobe": {
+        "description": "신기루 로브를 진화합니다."
+      },
+      "MOON10_Survive15McCoy": {
+        "description": "맥코이 오니로 15분 생존합니다."
+      },
+      "MOON11_Defeat100kVanya": {
+        "description": "멘야 문스펠로 한 게임에서 적을 100000명 처치합니다."
+      },
+      "MOON12_Defeat100kVadjouel": {
+        "description": "슈토 문스펠로 한 게임에서 적을 100000명 처치합니다."
+      },
+      "MOON13_Defeat6kWater": {
+        "description": "갓파를 6000마리 처치합니다."
+      },
+      "MOON14_FindNightSword": {
+        "description": "밤의 검을 발견합니다."
+      },
+      "MOON15_EvolveNightSword": {
+        "description": "밤의 검을 진화합니다."
+      },
+      "MOON16_DefeatBossRuins": {
+        "description": "문스펠산에서 오로치마리오를 처치합니다."
+      },
+      "MOON17_EvolveBubbles": {
+        "description": "밀레 볼레 블루 진화합니다."
       }
     }
   },
@@ -3517,10 +3874,61 @@
         "description": "Ulepsz Bransoletę, a następnie Dwój-bransoletę."
       },
       "Banish10Items": {
-        "description": "Wygnaj 10 lub więcej broni w jednym biegu."
+        "description": "Odrzuć co najmniej 10 broni w jednej rozgrywce."
       },
       "ReachLV80InverseTower": {
-        "description": "Osiągnij 80. poziom w Wieży Gallo (Odwrócone)."
+        "description": "Osiągnij 80. poziom w odwróconej Wieży Gallo."
+      },
+      "MOON01_FindCoffin": {
+        "description": "Znajdź i otwórz trumnę w Mount Moonspell."
+      },
+      "MOON02_Survive15Miang": {
+        "description": "Przeżyj 15 minut jako Miang Moonspell."
+      },
+      "MOON03_EvolveSilverWind": {
+        "description": "Ulepsz Srebrny wiatr."
+      },
+      "MOON04_Survive15Menya": {
+        "description": "Przeżyj 15 minut jako Menya Moonspell."
+      },
+      "MOON05_EvolveFourSeasons": {
+        "description": "Ulepsz Cztery pory roku."
+      },
+      "MOON06_Survive15Syuuto": {
+        "description": "Przeżyj 15 minut jako Syuuto Moonspell."
+      },
+      "MOON07_EvolveSummonNight": {
+        "description": "Ulepsz Przywołaną noc"
+      },
+      "MOON08_Survive15BabiOnna": {
+        "description": "Przeżyj 15 minut jako Babi-Onna."
+      },
+      "MOON09_EvolveMirageRobe": {
+        "description": "Ulepsz Szatamorganę."
+      },
+      "MOON10_Survive15McCoy": {
+        "description": "Przeżyj 15 minut jako McCoy-Oni."
+      },
+      "MOON11_Defeat100kVanya": {
+        "description": "Pokonaj 100 000 wrogów w jednej rozgrywce jako Menya Moonspell."
+      },
+      "MOON12_Defeat100kVadjouel": {
+        "description": "Pokonaj 100 000 wrogów w jednej rozgrywce jako Syuuto Moonspell."
+      },
+      "MOON13_Defeat6kWater": {
+        "description": "Pokonaj 6000 Kapp."
+      },
+      "MOON14_FindNightSword": {
+        "description": "Znajdź Miecz nocy."
+      },
+      "MOON15_EvolveNightSword": {
+        "description": "Ulepsz Miecz nocy."
+      },
+      "MOON16_DefeatBossRuins": {
+        "description": "Pokonaj Orochimario w Mount Moonspell."
+      },
+      "MOON17_EvolveBubbles": {
+        "description": "Ulepsz Mille Bolle Blu."
       }
     }
   },
@@ -3956,10 +4364,61 @@
         "description": "Evolua a Pulseira e depois a Bipulseira."
       },
       "Banish10Items": {
-        "description": "Banir 10 ou mais armas de uma só vez."
+        "description": "Use Banir em 10 ou mais armas na mesma partida."
       },
       "ReachLV80InverseTower": {
-        "description": "Alcance o nível 80 na Torre de Gallo (Invertido)."
+        "description": "Alcance o nível 80 na Torre de Gallo invertida."
+      },
+      "MOON01_FindCoffin": {
+        "description": "Encontre e abra o caixão no Monte Feitiço Lunar."
+      },
+      "MOON02_Survive15Miang": {
+        "description": "Sobreviva por 15 minutos com Miang Feitiço Lunar."
+      },
+      "MOON03_EvolveSilverWind": {
+        "description": "Evolua o Vento Prateado."
+      },
+      "MOON04_Survive15Menya": {
+        "description": "Sobreviva por 15 minutos com Menya Feitiço Lunar."
+      },
+      "MOON05_EvolveFourSeasons": {
+        "description": "Evolua as Quatro Estações."
+      },
+      "MOON06_Survive15Syuuto": {
+        "description": "Sobreviva por 15 minutos com Syuuto Feitiço Lunar."
+      },
+      "MOON07_EvolveSummonNight": {
+        "description": "Evolua a Noite da Invocação."
+      },
+      "MOON08_Survive15BabiOnna": {
+        "description": "Sobreviva por 15 minutos com Babi-Onna."
+      },
+      "MOON09_EvolveMirageRobe": {
+        "description": "Evolua o Manto da Miragem."
+      },
+      "MOON10_Survive15McCoy": {
+        "description": "Sobreviva por 15 minutos com McCoy-Oni."
+      },
+      "MOON11_Defeat100kVanya": {
+        "description": "Derrote 100 mil inimigos em uma só partida com Menya Feit. Lunar."
+      },
+      "MOON12_Defeat100kVadjouel": {
+        "description": "Derrote 100 mil inimigos em uma só partida com Syuuto Fei. Lunar."
+      },
+      "MOON13_Defeat6kWater": {
+        "description": "Derrote 6.000 Kappa."
+      },
+      "MOON14_FindNightSword": {
+        "description": "Encontre uma Espada da Noite."
+      },
+      "MOON15_EvolveNightSword": {
+        "description": "Evolua a Espada da Noite."
+      },
+      "MOON16_DefeatBossRuins": {
+        "description": "Derrote o Orochimario no Monte Feitiço Lunar."
+      },
+      "MOON17_EvolveBubbles": {
+        "description": "Evolua o Mille Bolle Blu."
       }
     }
   },
@@ -4395,10 +4854,61 @@
         "description": "Улучшите браслет, а затем би-браслет."
       },
       "Banish10Items": {
-        "description": "Запретить 10 и более единиц оружия в одной игре."
+        "description": "Изгоните 10 или более орудий за один забег."
       },
       "ReachLV80InverseTower": {
-        "description": "Достигните 80 уровня в Башне Галло (Инверсия)."
+        "description": "Достигните 80 уровня в инвертированной Башне Галло."
+      },
+      "MOON01_FindCoffin": {
+        "description": "Найдите и откройте гроб на Горе Луночар."
+      },
+      "MOON02_Survive15Miang": {
+        "description": "Продержитесь 15 минут, играя за Мианг Луночар."
+      },
+      "MOON03_EvolveSilverWind": {
+        "description": "Улучшите Серебряный ветер."
+      },
+      "MOON04_Survive15Menya": {
+        "description": "Продержитесь 15 минут, играя за Менъю Луночар."
+      },
+      "MOON05_EvolveFourSeasons": {
+        "description": "Улучшите Четыре сезона."
+      },
+      "MOON06_Survive15Syuuto": {
+        "description": "Продержитесь 15 минут, играя за Сьюто Луночара."
+      },
+      "MOON07_EvolveSummonNight": {
+        "description": "Улучшите Призыв ночи."
+      },
+      "MOON08_Survive15BabiOnna": {
+        "description": "Продержитесь 15 минут, играя за Баби-онну."
+      },
+      "MOON09_EvolveMirageRobe": {
+        "description": "Улучшите Одеяние миража."
+      },
+      "MOON10_Survive15McCoy": {
+        "description": "Продержитесь 15 минут, играя за Маккой-они."
+      },
+      "MOON11_Defeat100kVanya": {
+        "description": "Победите 100 000 врагов за один заход с Мэнъей Луночар."
+      },
+      "MOON12_Defeat100kVadjouel": {
+        "description": "Победите 100 000 врагов за один заход со Сьюто Луночаром."
+      },
+      "MOON13_Defeat6kWater": {
+        "description": "Победите 6000 капп."
+      },
+      "MOON14_FindNightSword": {
+        "description": "Найдите Меч ночи."
+      },
+      "MOON15_EvolveNightSword": {
+        "description": "Улучшите Меч ночи."
+      },
+      "MOON16_DefeatBossRuins": {
+        "description": "Победите Оротимарио на Горе Луночар."
+      },
+      "MOON17_EvolveBubbles": {
+        "description": "Улучшите Милли-булли-блу."
       }
     }
   },
@@ -4828,10 +5338,61 @@
         "description": "Haz evolucionar el brazalete y luego el brazalete doble."
       },
       "Banish10Items": {
-        "description": "Prohibir 10 o más armas en una sola partida."
+        "description": "Elimina 10 armas o más en una sola partida."
       },
       "ReachLV80InverseTower": {
-        "description": "Alcanza el nivel 80 en la Torre de Gallo (Reflejo)."
+        "description": "Alcanza el nivel 80 en el reflejo de la Torre de Gallo."
+      },
+      "MOON01_FindCoffin": {
+        "description": "Encuentra y abre el ataúd del Monte Hechizoluna."
+      },
+      "MOON02_Survive15Miang": {
+        "description": "Sobrevive 15 minutos con Miang Hechizoluna."
+      },
+      "MOON03_EvolveSilverWind": {
+        "description": "Haz evolucionar el viento argénteo."
+      },
+      "MOON04_Survive15Menya": {
+        "description": "Sobrevive 15 minutos con Menya Hechizoluna."
+      },
+      "MOON05_EvolveFourSeasons": {
+        "description": "Haz evolucionar las cuatro estaciones."
+      },
+      "MOON06_Survive15Syuuto": {
+        "description": "Sobrevive 15 minutos con Syuuto Hechizoluna."
+      },
+      "MOON07_EvolveSummonNight": {
+        "description": "Haz evolucionar el invocanoches."
+      },
+      "MOON08_Survive15BabiOnna": {
+        "description": "Sobrevive 15 minutos con Babi-Onna."
+      },
+      "MOON09_EvolveMirageRobe": {
+        "description": "Haz evolucionar la túnica milagrosa."
+      },
+      "MOON10_Survive15McCoy": {
+        "description": "Sobrevive 15 minutos con McCoy-Oni."
+      },
+      "MOON11_Defeat100kVanya": {
+        "description": "Derrota a 100 000 enemigos en una sola partida con Menya Hechizoluna."
+      },
+      "MOON12_Defeat100kVadjouel": {
+        "description": "Derrota a 100 000 enemigos en una sola partida con Syuuto Hechizoluna."
+      },
+      "MOON13_Defeat6kWater": {
+        "description": "Derrota a 6000 kappa."
+      },
+      "MOON14_FindNightSword": {
+        "description": "Encuentra una espada de la noche."
+      },
+      "MOON15_EvolveNightSword": {
+        "description": "Haz evolucionar la espada de la noche."
+      },
+      "MOON16_DefeatBossRuins": {
+        "description": "Derrota a Orochimario en el Monte Hechizoluna."
+      },
+      "MOON17_EvolveBubbles": {
+        "description": "Haz evolucionar la Mille Bolle Blu."
       }
     }
   },
@@ -5279,10 +5840,61 @@
         "description": "Bilezik'i ve sonrasında Çift-Bilezik'i evrilt."
       },
       "Banish10Items": {
-        "description": "Tek bir oyunda 10 veya daha fazla silahı yasaklayın."
+        "description": "Tek seferde 10 veya daha fazla silahı çıkar."
       },
       "ReachLV80InverseTower": {
-        "description": "Galya Kulesi'nde Seviye 80'e ulaş (Tersine Çevir)."
+        "description": "Ters Çevrilmiş Galya Kulesi'nde Seviye 80'e ulaş."
+      },
+      "MOON01_FindCoffin": {
+        "description": "Aybüyüsü Dağı'ndaki tabutu bul ve aç."
+      },
+      "MOON02_Survive15Miang": {
+        "description": "Miang Aybüyüsü ile 15 dakika hayatta kal."
+      },
+      "MOON03_EvolveSilverWind": {
+        "description": "Gümüş Rüzgâr'ı evrilt."
+      },
+      "MOON04_Survive15Menya": {
+        "description": "Menya Aybüyüsü ile 15 dakika hayatta kal."
+      },
+      "MOON05_EvolveFourSeasons": {
+        "description": "Dört Mevsim'i evrilt."
+      },
+      "MOON06_Survive15Syuuto": {
+        "description": "Syuuto Aybüyüsü ile 15 dakika hayatta kal."
+      },
+      "MOON07_EvolveSummonNight": {
+        "description": "Summon Night'ı evrilt."
+      },
+      "MOON08_Survive15BabiOnna": {
+        "description": "Babi-Onna ile 15 dakika hayatta kal."
+      },
+      "MOON09_EvolveMirageRobe": {
+        "description": "Serap Cübbesi'ni evrilt."
+      },
+      "MOON10_Survive15McCoy": {
+        "description": "McCoy-Oni ile 15 dakika hayatta kal."
+      },
+      "MOON11_Defeat100kVanya": {
+        "description": "Menya Aybüyüsü ile tek seferde 100000 düşman öldür."
+      },
+      "MOON12_Defeat100kVadjouel": {
+        "description": "Syuuto Aybüyüsü ile tek seferde 100000 düşman öldür."
+      },
+      "MOON13_Defeat6kWater": {
+        "description": "6000 Kappa öldür."
+      },
+      "MOON14_FindNightSword": {
+        "description": "Bir Gece Kılıcı bul."
+      },
+      "MOON15_EvolveNightSword": {
+        "description": "Gece Kılıcı'nı evrilt."
+      },
+      "MOON16_DefeatBossRuins": {
+        "description": "Aybüyüsü Dağı'ndaki Orochimario'yu öldür."
+      },
+      "MOON17_EvolveBubbles": {
+        "description": "Mille Bolle Blu evrilt."
       }
     }
   },

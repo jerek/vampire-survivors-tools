@@ -178,6 +178,10 @@
       "DUMMY_ARC": {
         "name": "选牌",
         "description": "本轮游戏获得一张额外的秘法牌。"
+      },
+      "PURIFY2": {
+        "name": "佛斯卡利的灯笼",
+        "description": "针对移动速度，永久移除所有金蛋加成，此操作不可撤销。"
       }
     }
   },
@@ -371,6 +375,10 @@
       "DUMMY_ARC": {
         "name": "Pick a Card",
         "description": "Gives an extra Arcana for this run."
+      },
+      "PURIFY2": {
+        "name": "Lantern of Foscari",
+        "description": "Permanently removes all Golden Egg bonuses on Move Speed. This cannot be undone."
       }
     }
   },
@@ -546,6 +554,10 @@
       "DUMMY_ARC": {
         "name": "Pioche",
         "description": "Arcane bonus pour cette partie."
+      },
+      "PURIFY2": {
+        "name": "Lanterne de Foscari",
+        "description": "Supprime tous les bonus d'Œuf doré pour le déplacement. Cette action est irréversible."
       }
     }
   },
@@ -715,6 +727,10 @@
       "DUMMY_ARC": {
         "name": "Karte ziehen",
         "description": "Gewährt ein extra Arcana für diesen Lauf."
+      },
+      "PURIFY2": {
+        "name": "Laterne von Foscari",
+        "description": "Entfernt dauerhaft alle Goldenes-Ei-Boni aufs Bewegungstempo. Kann nicht rückgängig gemacht werden."
       }
     }
   },
@@ -896,6 +912,10 @@
       "DUMMY_ARC": {
         "name": "Scegli una carta",
         "description": "Fornisce un Arcano aggiuntivo per questa partita."
+      },
+      "PURIFY2": {
+        "name": "Lanterna di Foscari",
+        "description": "Rimuove definitivamente tutti i bonus Uovo d'oro alla Velocità di movimento. Quest'azione è irreversibile."
       }
     }
   },
@@ -1065,6 +1085,10 @@
       "DUMMY_ARC": {
         "name": "カードを1枚取る",
         "description": "このランのアルカナが1増える。"
+      },
+      "PURIFY2": {
+        "name": "フォスカリの灯籠",
+        "description": "黄金の卵で上昇した移動速度が永続的に失われる。取り消し不可。"
       }
     }
   },
@@ -1234,6 +1258,10 @@
       "DUMMY_ARC": {
         "name": "카드 선택",
         "description": "이번 게임에서 추가 아르카나를 부여합니다."
+      },
+      "PURIFY2": {
+        "name": "포스카리의 등불",
+        "description": "이동 속도에 대한 모든 황금알 보너스를 영구적으로 제거합니다. 이는 실행 취소할 수 없습니다."
       }
     }
   },
@@ -1409,6 +1437,10 @@
       "DUMMY_ARC": {
         "name": "Wybierz kartę",
         "description": "Daje dodatkową Arkanę w tej rozgrywce."
+      },
+      "PURIFY2": {
+        "name": "Latarnia Foscari",
+        "description": "Na stałe usuwa wszystkie premie do Prędkości ruchu ze Złotych jaj. Nie można tego cofnąć."
       }
     }
   },
@@ -1584,6 +1616,10 @@
       "DUMMY_ARC": {
         "name": "Escolha uma Carta",
         "description": "Concede uma Arcana extra para a partida."
+      },
+      "PURIFY2": {
+        "name": "Luminária de Foscari",
+        "description": "Remove permanentemente todos os bônus de Ovos Dourados na Velocidade de Movimento. Não pode ser desfeito."
       }
     }
   },
@@ -1759,6 +1795,10 @@
       "DUMMY_ARC": {
         "name": "Выбрать карту",
         "description": "Дает дополнительную Аркану в этом забеге."
+      },
+      "PURIFY2": {
+        "name": "Фонарь Фоскари",
+        "description": "Убирает все бонусы золотых яиц для скорости движения. Нельзя отменить."
       }
     }
   },
@@ -1928,6 +1968,10 @@
       "DUMMY_ARC": {
         "name": "Elige una carta",
         "description": "Otorga un arcano adicional para esta partida."
+      },
+      "PURIFY2": {
+        "name": "Farol de Foscari",
+        "description": "Elimina de forma permanente todas las bonificaciones de huevo de oro a la vel. de movimiento. No se puede deshacer."
       }
     }
   },
@@ -2115,6 +2159,10 @@
       "DUMMY_ARC": {
         "name": "Bir Kart Seç",
         "description": "Bu oyun için fazladan bir Arcana verir."
+      },
+      "PURIFY2": {
+        "name": "Foscari'nin Feneri",
+        "description": "HareketHızı'ndaki tüm Altın Yumurta bonuslarını kalıcı olarak kaldırır. Geri dönüşü yoktur."
       }
     }
   },

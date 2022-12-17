@@ -202,8 +202,47 @@
         "charName": "史密斯四世"
       },
       "SCOREJ": {
-        "charName": "谱尼-奥尼",
-        "description": "每8级获得一个隐藏的闪电环 （最多6级）， 在失去健康时也会开火。"
+        "charName": "斯寇瑞鬼",
+        "description": "每8级，获得一枚隐藏的闪电戒指，最多6枚，受伤时也会发出闪电。"
+      },
+      "MIANG": {
+        "charName": "米昂",
+        "surname": "月咒",
+        "description": "生命恢复时， 所有的治疗手段效果翻倍。 过度治疗的部分可以增加些许生命上限。"
+      },
+      "MENYA": {
+        "charName": "门亚",
+        "surname": "月咒",
+        "description": "击败一大波敌人后， 会按照固定的间隔变得更强大且免疫伤害。"
+      },
+      "SYUUTO": {
+        "charName": "脩杜",
+        "surname": "月咒",
+        "description": "开局时， 有秘密武器太宵一文字。 当基础武器进化后， 能变成更强的形态。"
+      },
+      "ONNA": {
+        "charName": "芭比女",
+        "description": "无视武器的冷却时间。 当移动时， 武器按照固定的间隔发动攻击。"
+      },
+      "MCCOY": {
+        "charName": "麦科伊鬼",
+        "description": "攻击范围按照固定的间隔暂时增加。"
+      },
+      "MEGAMENYA": {
+        "prefix": "极恶",
+        "charName": "门亚",
+        "surname": "月咒",
+        "description": "不会承受伤害， 但当到达时限后会消失。 开局时， 有隐藏武器108地滚球玉。"
+      },
+      "MEGASYUUTO": {
+        "prefix": "极恶",
+        "charName": "脩杜",
+        "surname": "月咒",
+        "description": "每一级, 力量+1%。"
+      },
+      "TONY": {
+        "charName": "贾伟鬼",
+        "description": "每20级， 飞射物增加， 最多+4。"
       }
     }
   },
@@ -423,6 +462,45 @@
       "SCOREJ": {
         "charName": "Scorej-Oni",
         "description": "Gains a hidden Lightning Ring every 8 levels (max 6) that also fires when losing health."
+      },
+      "MIANG": {
+        "charName": "Miang",
+        "surname": "Moonspell",
+        "description": "Recovery also multiplies all healing sources. Over-healing slightly increases Max Health."
+      },
+      "MENYA": {
+        "charName": "Menya",
+        "surname": "Moonspell",
+        "description": "Becomes stronger and invincible for a fixed interval after defeating a large amount of enemies."
+      },
+      "SYUUTO": {
+        "charName": "Syuuto",
+        "surname": "Moonspell",
+        "description": "Starts with hidden Night Sword. Morphs into a stronger version when his base weapon evolves."
+      },
+      "ONNA": {
+        "charName": "Babi-Onna",
+        "description": "Ignores weapons cooldown. Weapons fire at a fixed interval when moving."
+      },
+      "MCCOY": {
+        "charName": "McCoy-Oni",
+        "description": "Area temporarily increases at fixed intervals."
+      },
+      "MEGAMENYA": {
+        "prefix": "Megalo",
+        "charName": "Menya",
+        "surname": "Moonspell",
+        "description": "Cannot be damaged, but disappears after reaching the current Time Limit. Starts with hidden 108 Bocce."
+      },
+      "MEGASYUUTO": {
+        "prefix": "Megalo",
+        "charName": "Syuuto",
+        "surname": "Moonspell",
+        "description": "Gains +1% Might every level."
+      },
+      "TONY": {
+        "charName": "Gav'Et-Oni",
+        "description": "Gets more projectiles every 20 levels (max+4)."
       }
     }
   },
@@ -623,7 +701,46 @@
       },
       "SCOREJ": {
         "charName": "Scorej-Oni",
-        "description": "Gagne un anneau de tonnerre caché tous les 8 niveaux (max 6) qui se déclenche également en cas de perte de santé."
+        "description": "Obtient un Anneau du tonnerre caché tous les 8 niv. (6 max) qui tire aussi en cas de perte de PV."
+      },
+      "MIANG": {
+        "charName": "Miang",
+        "surname": "Moonspell",
+        "description": "La guérison multiplie aussi les sources de soin. Le trop-plein augmente légèrement la santé max."
+      },
+      "MENYA": {
+        "charName": "Menya",
+        "surname": "Moonspell",
+        "description": "Devient provisoirement invincible et plus puissante après avoir éliminé une grande quantité d'ennemis."
+      },
+      "SYUUTO": {
+        "charName": "Syuuto",
+        "surname": "Moonspell",
+        "description": "Commence avec l'Épée nocturne. Devient plus puissant lors de l'évolution de son arme de base."
+      },
+      "ONNA": {
+        "charName": "Babi-Onna",
+        "description": "Ignore la recharge des armes. Elles tirent à intervalles réguliers lors des déplacements."
+      },
+      "MCCOY": {
+        "charName": "McCoy-Oni",
+        "description": "La portée augmente temporairement à intervalles réguliers."
+      },
+      "MEGAMENYA": {
+        "prefix": "Méga",
+        "charName": "Menya",
+        "surname": "Moonspell",
+        "description": "Ne subit aucun dégât, mais disparaît après la limite de temps actuelle. Commence avec 108 Boules cachées."
+      },
+      "MEGASYUUTO": {
+        "prefix": "Méga",
+        "charName": "Syuuto",
+        "surname": "Moonspell",
+        "description": "Obtient +1 % de puissance à chaque niveau."
+      },
+      "TONY": {
+        "charName": "Gav'Et-Oni",
+        "description": "Obtient des projectiles bonus tous les 20 niveaux (+4 max)."
       }
     }
   },
@@ -818,7 +935,46 @@
       },
       "SCOREJ": {
         "charName": "Scorej-Oni",
-        "description": "Erhält alle 8 Stufen (max. 6) einen versteckten Blitzring, der auch feuert, wenn er Lebenspunkte verliert."
+        "description": "Erhält alle 8 Level einen versteckten Blitzring (max. 6), der auch feuert, wenn man LP verliert."
+      },
+      "MIANG": {
+        "charName": "Miang",
+        "surname": "Moonspell",
+        "description": "Erholung vervielfacht auch alle Heilquellen. Über-Heilung erhöht zudem die Max. LP."
+      },
+      "MENYA": {
+        "charName": "Menya",
+        "surname": "Moonspell",
+        "description": "Wird, nachdem man eine große Anzahl Feinde besiegt hat, für eine feste Zeitspanne stärker und unbesiegbar."
+      },
+      "SYUUTO": {
+        "charName": "Syuuto",
+        "surname": "Moonspell",
+        "description": "Startet mit verstecktem Nachtschwert. Verwandelt sich in eine stärkere Version, wenn die Basiswaffe sich verbessert."
+      },
+      "ONNA": {
+        "charName": "Babi-Onna",
+        "description": "Ignoriert Waffen-Abklingzeit. Waffen feuern in Bewegung in einem festen Intervall."
+      },
+      "MCCOY": {
+        "charName": "McCoy-Oni",
+        "description": "Bereich vergrößert sich vorübergehend in festen Intervallen."
+      },
+      "MEGAMENYA": {
+        "prefix": "Megalo",
+        "charName": "Menya",
+        "surname": "Moonspell",
+        "description": "Kann nicht beschädigt werden, verschwindet aber, wenn man das aktuelle Zeitlimit erreicht. Startet mit verstecktem 108 Bocce."
+      },
+      "MEGASYUUTO": {
+        "prefix": "Megalo",
+        "charName": "Syuuto",
+        "surname": "Moonspell",
+        "description": "Erhält +1% Macht jedes Level."
+      },
+      "TONY": {
+        "charName": "Gav'Et-Oni",
+        "description": "Erhält alle 20 Level mehr Geschosse (max. +4)."
       }
     }
   },
@@ -1025,7 +1181,46 @@
       },
       "SCOREJ": {
         "charName": "Scorej-Oni",
-        "description": "Guadagna un anello del fulmine nascosto ogni 8 livelli (massimo 6) che scatta anche quando si perde salute."
+        "description": "Ottiene un Anello del fulmine nascosto ogni 8 livelli (6 al massimo). L'Anello spara anche quando si subiscono danni."
+      },
+      "MIANG": {
+        "charName": "Miang",
+        "surname": "Moonspell",
+        "description": "Il recupero moltiplica anche tutte le fonti di guarigione. Il recupero di salute in eccesso aumenta leggermente la Salute massima."
+      },
+      "MENYA": {
+        "charName": "Menya",
+        "surname": "Moonspell",
+        "description": "Dopo aver sconfitto un gran numero di nemici, diventa più forte e invulnerabile per un periodo di tempo prestabilito."
+      },
+      "SYUUTO": {
+        "charName": "Syuuto",
+        "surname": "Moonspell",
+        "description": "Comincia con una Spada notturna nascosta. Si trasforma in una versione più forte quando la sua arma di base si evolve."
+      },
+      "ONNA": {
+        "charName": "Babi-Onna",
+        "description": "Ignora il Tempo di ricarica delle armi. Quando si muove, le armi sparano a intervalli di tempo prestabiliti."
+      },
+      "MCCOY": {
+        "charName": "McCoy-Oni",
+        "description": "L'area aumenta temporaneamente a intervalli di tempo prestabiliti."
+      },
+      "MEGAMENYA": {
+        "prefix": "Megalo",
+        "charName": "Menya",
+        "surname": "Moonspell",
+        "description": "Non subisce danni, ma scompare dopo aver raggiunto il Limite di tempo attuale. Comincia con 108 bocce nascoste."
+      },
+      "MEGASYUUTO": {
+        "prefix": "Megalo",
+        "charName": "Syuuto",
+        "surname": "Moonspell",
+        "description": "Guadagna +1% di Potenza con ogni livello."
+      },
+      "TONY": {
+        "charName": "Gav'Et-Oni",
+        "description": "Ottiene proiettili aggiuntivi ogni 20 livelli (max +4)."
       }
     }
   },
@@ -1219,8 +1414,47 @@
         "charName": "スミス四世"
       },
       "SCOREJ": {
-        "charName": "スコアジ・オニ",
-        "description": "8レベル （最大6レベル） ごとにライトニングリングを獲得し、 ヘルスが失われたときにも発光する。"
+        "charName": "スコージ・オニ",
+        "description": "レベル8（最大6）ごとに隠し装備の雷の指輪を獲得し、HPが失われたときにも攻撃する。"
+      },
+      "MIANG": {
+        "charName": "ミアン",
+        "surname": "ムーンスペル",
+        "description": "また、 回復はすべてのヒーリングソースに作用する。 オーバーヒーリングは最大HPをわずかに増加させる。"
+      },
+      "MENYA": {
+        "charName": "メイヤ",
+        "surname": "ムーンスペル",
+        "description": "大量に敵を倒すと一定の期間強くなり、 無敵になる。"
+      },
+      "SYUUTO": {
+        "charName": "シュウト",
+        "surname": "ムーンスペル",
+        "description": "隠された夜の剣でスタートする。 ベースとなる武器が進化すると、 より強力なバージョンへと変化する。"
+      },
+      "ONNA": {
+        "charName": "バビ・オーナ",
+        "description": "武器のクールダウンが無効になる。 移動中、 一定の間隔で攻撃する。"
+      },
+      "MCCOY": {
+        "charName": "真鬼",
+        "description": "攻撃範囲が一定間隔で拡大する。"
+      },
+      "MEGAMENYA": {
+        "prefix": "メガロ",
+        "charName": "メイヤ",
+        "surname": "ムーンスペル",
+        "description": "ダメージは受けないが、 制限時間を超えると消滅する。 隠された108 ボッチェでスタートする。"
+      },
+      "MEGASYUUTO": {
+        "prefix": "メガロ",
+        "charName": "シュウト",
+        "surname": "ムーンスペル",
+        "description": "1レベルごとに攻撃力が+1%増加。"
+      },
+      "TONY": {
+        "charName": "ガブエト・オニ",
+        "description": "レベル20ごとに弾数が上がる(最大+4)。"
       }
     }
   },
@@ -1414,8 +1648,47 @@
         "charName": "스미스 4세"
       },
       "SCOREJ": {
-        "charName": "스코어제이오니",
-        "description": "체력을 잃을 때도 발사되는 8레벨(최대 6)마다 숨겨진 번개 반지를 얻습니다."
+        "charName": "스코레지 오니",
+        "description": "8레벨마다 숨겨진 번개 반지를 획득합니다(최대 6개). 체력을 잃을 때도 발사됩니다."
+      },
+      "MIANG": {
+        "charName": "미앙",
+        "surname": "문스펠",
+        "description": "회복 시 모든 치유의 근원을 배가합니다. 초과 치유 시 최대 체력이 약간 증가합니다."
+      },
+      "MENYA": {
+        "charName": "멘야",
+        "surname": "문스펠",
+        "description": "다수의 적을 처치하면 일정 시간 더 강해지고 무적 상태가 됩니다."
+      },
+      "SYUUTO": {
+        "charName": "슈토",
+        "surname": "문스펠",
+        "description": "숨겨진 밤의 검으로 시작합니다. 기본 무기가 진화하면 더 강한 버전으로 변합니다."
+      },
+      "ONNA": {
+        "charName": "바비 온나",
+        "description": "무기 쿨타임을 무시합니다. 이동 시 무기가 일정한 간격으로 발사됩니다."
+      },
+      "MCCOY": {
+        "charName": "맥코이 오니",
+        "description": "일정한 간격으로 공격 범위가 일시적으로 증가합니다."
+      },
+      "MEGAMENYA": {
+        "prefix": "강력한",
+        "charName": "멘야",
+        "surname": "문스펠",
+        "description": "피해를 가할 수는 없지만 현재 제한 시간에 도달한 후 사라집니다. 숨겨진 108 보체와 함께 시작합니다."
+      },
+      "MEGASYUUTO": {
+        "prefix": "강력한",
+        "charName": "슈토",
+        "surname": "문스펠",
+        "description": "레벨마다 피해량이 1%씩 증가합니다."
+      },
+      "TONY": {
+        "charName": "가베트오니",
+        "description": "20개 레벨마다 투사체가 추가됩니다(최대 +4)."
       }
     }
   },
@@ -1616,7 +1889,46 @@
       },
       "SCOREJ": {
         "charName": "Scorej-Oni",
-        "description": "Co 8 poziomów (maks. 6) zyskuje ukryty Pierścień Błyskawicy, który strzela także przy utracie zdrowia."
+        "description": "Zyskuje ukryty Pierścień gromu co 8 poziomów (maks. 6), który wystrzeliwuje także przy utracie zdrowia."
+      },
+      "MIANG": {
+        "charName": "Miang",
+        "surname": "Moonspell",
+        "description": "Odzyskiwanie wpływa także na inne źródła leczenia. Gdy masz już pełne zdrowie, leczenie nieco zwiększa Maksymalne zdrowie."
+      },
+      "MENYA": {
+        "charName": "Menya",
+        "surname": "Moonspell",
+        "description": "Pokonanie dużej liczby wrogów zapewnia tymczasowy przypływ siły i nieśmiertelność."
+      },
+      "SYUUTO": {
+        "charName": "Syuuto",
+        "surname": "Moonspell",
+        "description": "Zaczyna z ukrytym Mieczem nocy. Ulepszenie broni bazowej przemienia go w silniejszą wersję."
+      },
+      "ONNA": {
+        "charName": "Babi-Onna",
+        "description": "Ignoruje Odnawianie. Bronie wystrzeliwują w równych odstępach, gdy się poruszasz."
+      },
+      "MCCOY": {
+        "charName": "McCoy-Oni",
+        "description": "Obszar zostaje tymczasowo zwiększony w równych odstępach."
+      },
+      "MEGAMENYA": {
+        "prefix": "Megalo",
+        "charName": "Menya",
+        "surname": "Moonspell",
+        "description": "Nie odnosi obrażeń, ale znika po osiągnięciu Limitu czasu. Zaczyna z ukrytymi 108 Bocce."
+      },
+      "MEGASYUUTO": {
+        "prefix": "Megalo",
+        "charName": "Syuuto",
+        "surname": "Moonspell",
+        "description": "Otrzymuje +1% Mocy na każdym poziomie."
+      },
+      "TONY": {
+        "charName": "Gav'Et-Oni",
+        "description": "Zyskuje więcej pocisków co 20 poziomów (maks. +4)."
       }
     }
   },
@@ -1817,7 +2129,46 @@
       },
       "SCOREJ": {
         "charName": "Scorej-Oni",
-        "description": "Ganha um anel de relâmpago escondido a cada 8 níveis (máx. 6) que também dispara quando perde a saúde."
+        "description": "A cada 8 níveis, ganha um Anel de Raios oculto (máx. de 6) que também dispara ao perder Vida."
+      },
+      "MIANG": {
+        "charName": "Miang",
+        "surname": "Feitiço Lunar",
+        "description": "Recuperação também multiplica todas as fontes de cura. Curar além da Vida Máx. aumenta ligeiramente a Vida Máx."
+      },
+      "MENYA": {
+        "charName": "Menya",
+        "surname": "Feitiço Lunar",
+        "description": "Após derrotar uma quantidade grande de inimigos, fica mais forte e invencível por um intervalo fixo."
+      },
+      "SYUUTO": {
+        "charName": "Syuuto",
+        "surname": "Feitiço Lunar",
+        "description": "Começa com uma Espada da Noite oculta. Transforma-se em uma versão mais forte quando evolui a arma de base."
+      },
+      "ONNA": {
+        "charName": "Babi-Onna",
+        "description": "Ignora a recarga das armas. Ao se mover, armas disparam a um intervalo fixo."
+      },
+      "MCCOY": {
+        "charName": "McCoy-Oni",
+        "description": "Área aumenta a intervalos fixos temporariamente."
+      },
+      "MEGAMENYA": {
+        "prefix": "Megalo",
+        "charName": "Menya",
+        "surname": "Feitiço Lunar",
+        "description": "Não pode sofrer dano, mas desaparece após alcançar o Limite de Tempo corrente. Começa com 108 Bocha oculto."
+      },
+      "MEGASYUUTO": {
+        "prefix": "Megalo",
+        "charName": "Syuuto",
+        "surname": "Feitiço Lunar",
+        "description": "Ganha +1% de Poder a cada nível."
+      },
+      "TONY": {
+        "charName": "Gav'Et-Oni",
+        "description": "Ganha mais projéteis a cada 20 níveis (máx. de +4)."
       }
     }
   },
@@ -2017,8 +2368,47 @@
         "charName": "Смит IV"
       },
       "SCOREJ": {
-        "charName": "Scorej-Oni",
-        "description": "Каждые 8 уровней (максимум 6) получает скрытое кольцо молний, которое также стреляет при потере здоровья."
+        "charName": "Скорей-они",
+        "description": "Получает скрытое кольцо молний каждые 8 уровней (максимум 6), которое также стреляет при потере здоровья."
+      },
+      "MIANG": {
+        "charName": "Мианг",
+        "surname": "Луночар",
+        "description": "Регенерация также умножает все виды исцеления. Чрезмерное исцеление слегка повышает макс. ОЗ."
+      },
+      "MENYA": {
+        "charName": "Мэнъя",
+        "surname": "Луночар",
+        "description": "Победив большое количество врагов, на определенное время становится сильнее и неуязвимей."
+      },
+      "SYUUTO": {
+        "charName": "Сьюто",
+        "surname": "Луночар",
+        "description": "Начинает с Мечом ночи. Преображается в более сильную версию себя, когда улучшается его базовое оружие."
+      },
+      "ONNA": {
+        "charName": "Баби-онна",
+        "description": "Игнорирует перезарядку оружия. При движении оружие стреляет через определенные промежутки времени."
+      },
+      "MCCOY": {
+        "charName": "Маккой-они",
+        "description": "Через определенные промежутки времени ненадолго увеличивает область."
+      },
+      "MEGAMENYA": {
+        "prefix": "Мегало",
+        "charName": "Мэнъя",
+        "surname": "Луночар",
+        "description": "Не может получать урон, но исчезает при достижении текущего ограничения по времени. Начинает со скрытым 108 Бочче."
+      },
+      "MEGASYUUTO": {
+        "prefix": "Мегало",
+        "charName": "Сьюто",
+        "surname": "Луночар",
+        "description": "Получает +1% к силе с каждым уровнем."
+      },
+      "TONY": {
+        "charName": "Габ'Эт-они",
+        "description": "Получает больше снарядов за каждые 20 уровней (макс. +4)."
       }
     }
   },
@@ -2213,7 +2603,46 @@
       },
       "SCOREJ": {
         "charName": "Scorej-Oni",
-        "description": "Obtiene un anillo de relámpago oculto cada 8 niveles (máximo 6) que también se dispara al perder salud."
+        "description": "Gana un anillo relámpago oculto cada 8 niveles (máx. de 6) que también se activa al perder salud."
+      },
+      "MIANG": {
+        "charName": "Miang",
+        "surname": "Moonspell",
+        "description": "Recuperación también multiplica las fuentes de curación. Aumenta ligeramente su salud máx. al curarse con la salud llena."
+      },
+      "MENYA": {
+        "charName": "Menya",
+        "surname": "Moonspell",
+        "description": "Se hace más fuerte e invencible durante un intervalo de tiempo tras derrotar a un grupo numeroso de enemigos."
+      },
+      "SYUUTO": {
+        "charName": "Syuuto",
+        "surname": "Moonspell",
+        "description": "Comienza con espada de la noche oculta. Se transforma en una versión más fuerte cuando su arma base evoluciona."
+      },
+      "ONNA": {
+        "charName": "Babi-Onna",
+        "description": "Ignora la recarga de las armas. Las armas disparan en un intervalo fijo al moverse."
+      },
+      "MCCOY": {
+        "charName": "McCoy-Oni",
+        "description": "El área de efecto aumenta de forma temporal a intervalos fijos."
+      },
+      "MEGAMENYA": {
+        "prefix": "Megalo",
+        "charName": "Menya",
+        "surname": "Moonspell",
+        "description": "No recibe daño, pero desaparece al llegar al límite de tiempo actual. Comienza con 108 bocce."
+      },
+      "MEGASYUUTO": {
+        "prefix": "Megalo",
+        "charName": "Syuuto",
+        "surname": "Moonspell",
+        "description": "Gana +1 % de poder cada nivel."
+      },
+      "TONY": {
+        "charName": "Gav'Et-Oni",
+        "description": "Consigue más proyectiles cada 20 niveles (máx. +4)."
       }
     }
   },
@@ -2426,7 +2855,46 @@
       },
       "SCOREJ": {
         "charName": "Scorej-Oni",
-        "description": "Her 8 seviyede bir (maksimum 6) can kaybederken de ateşleyen gizli bir Yıldırım Yüzüğü kazanır."
+        "description": "Her 8 seviyede, (maksimum 6) bir gizli Yıldırım Yüzüğü kazanır, ayrıca sağlık kaybederken de saldırı yapar."
+      },
+      "MIANG": {
+        "charName": "Miang",
+        "surname": "Moonspell",
+        "description": "İyileşme ayrıca tüm şifa kaynaklarını çoğaltır. Aşırı iyileşme, Maksimum Sağlığı biraz artırır."
+      },
+      "MENYA": {
+        "charName": "Menya",
+        "surname": "Moonspell",
+        "description": "Çok sayıda düşmanı öldürdükten sonra belirli bir süreliğine daha güçlü ve yenilmez olur."
+      },
+      "SYUUTO": {
+        "charName": "Syuuto",
+        "surname": "Moonspell",
+        "description": "Gizli Gece Kılıcı ile başlar. Temel silahı geliştikçe daha güçlü bir versiyona dönüşür."
+      },
+      "ONNA": {
+        "charName": "Babi-Onna",
+        "description": "Silahların bekleme süresini yok sayar. Silahlar, hareket ederken belirli aralıklarla ateşlenir."
+      },
+      "MCCOY": {
+        "charName": "McCoy-Oni",
+        "description": "Alan belirli aralıklarla geçici olarak artar."
+      },
+      "MEGAMENYA": {
+        "prefix": "Megalo",
+        "charName": "Menya",
+        "surname": "Moonspell",
+        "description": "Hasar verilemez, ancak mevcut Zaman Sınırına ulaşıldığında kaybolur. Gizli 108 Bocce ile başlar."
+      },
+      "MEGASYUUTO": {
+        "prefix": "Megalo",
+        "charName": "Syuuto",
+        "surname": "Moonspell",
+        "description": "Her level'da +1% Kuvvet kazanır."
+      },
+      "TONY": {
+        "charName": "Gav'Et-Oni",
+        "description": "Her 20 seviyede daha fazla fırlatılabilir alır (maks: +4)."
       }
     }
   },

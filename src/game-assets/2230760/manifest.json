@@ -1,0 +1,44 @@
+{
+    "dlc_type": "Moonspell",
+    "json": [],
+    "image": [
+        { "key": "introBG_MS", "path": "assets/img/introBG_MS.png" }
+    ],
+    "atlas": [],
+    "multiatlas": [
+        { "key": "moonspellChars", "data": "assets/img/moonspellChars.json", "path": "assets/img" }
+    ],
+    "audio": [
+        { "key": "BMG_Moonspell",   "path": "assets/sfx/bgm_moonspell_theme.ogg" },
+        { "key": "BGM_Silver",      "path": "assets/sfx/bgm_elrond_miang.ogg" },
+        { "key": "BGM_FourSeasons", "path": "assets/sfx/bgm_elrond_kachara.ogg" },
+        { "key": "BGM_Night1",      "path": "assets/sfx/bgm_elrond_night1.ogg" },
+        { "key": "BGM_Night2",      "path": "assets/sfx/bgm_elrond_night2.ogg" },
+        { "key": "BGM_Mirage",      "path": "assets/sfx/bgm_elrond_mirage.ogg" }
+    ],
+    "glsl": [],
+    "weapon_data": [
+        { "key": "weaponData_Moonspell", "path": "scripts/data/weaponData_Moonspell.js" }
+    ],
+    "stage_data": [
+        { "key": "stageData_Moonspell", "path": "scripts/data/stageData_Moonspell.js" }
+    ],
+    "character_data": [
+        { "key": "characterData_Moonspell", "path": "scripts/data/characterData_Moonspell.js" }
+    ],
+    "achievement_data": [
+        { "key": "achievementData_Moonspell", "path": "scripts/data/achievementData_Moonspell.js" }
+    ],
+    "enemy_data": [
+        { "key": "enemyData_Moonspell", "path": "scripts/data/enemyData_Moonspell.js" }
+    ],
+    "secret_data": [
+        { "key": "secretData_Moonspell", "path": "scripts/data/secretData_Moonspell.js" }
+    ],
+    "music_data": [
+        { "key": "musicData_Moonspell", "path": "scripts/data/musicData_Moonspell.js" }
+    ],
+    "limitbreak_data": [
+        { "key": "limitBreakData_Moonspell", "path": "scripts/data/limitBreakData_Moonspell.js" }
+    ]
+}

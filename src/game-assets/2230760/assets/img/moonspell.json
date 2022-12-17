@@ -1,0 +1,8021 @@
+{
+	"textures": [
+		{
+			"image": "moonspell.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 1024,
+				"h": 1024
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "tsuchigumo016.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 104,
+						"h": 82
+					},
+					"spriteSourceSize": {
+						"x": 24,
+						"y": 13,
+						"w": 104,
+						"h": 82
+					},
+					"frame": {
+						"x": 1,
+						"y": 1,
+						"w": 104,
+						"h": 82
+					}
+				},
+				{
+					"filename": "tsuchigumo013.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 97,
+						"h": 80
+					},
+					"spriteSourceSize": {
+						"x": 26,
+						"y": 15,
+						"w": 97,
+						"h": 80
+					},
+					"frame": {
+						"x": 107,
+						"y": 1,
+						"w": 97,
+						"h": 80
+					}
+				},
+				{
+					"filename": "tsuchigumo012.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 94,
+						"h": 83
+					},
+					"spriteSourceSize": {
+						"x": 27,
+						"y": 11,
+						"w": 94,
+						"h": 83
+					},
+					"frame": {
+						"x": 206,
+						"y": 1,
+						"w": 94,
+						"h": 83
+					}
+				},
+				{
+					"filename": "tsuchigumo018.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 89,
+						"h": 83
+					},
+					"spriteSourceSize": {
+						"x": 25,
+						"y": 12,
+						"w": 89,
+						"h": 83
+					},
+					"frame": {
+						"x": 107,
+						"y": 83,
+						"w": 89,
+						"h": 83
+					}
+				},
+				{
+					"filename": "yamamba2_14.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 4,
+						"h": 10
+					},
+					"spriteSourceSize": {
+						"x": 64,
+						"y": 53,
+						"w": 4,
+						"h": 10
+					},
+					"frame": {
+						"x": 198,
+						"y": 83,
+						"w": 4,
+						"h": 10
+					}
+				},
+				{
+					"filename": "tsuchigumo010.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 89,
+						"h": 77
+					},
+					"spriteSourceSize": {
+						"x": 27,
+						"y": 16,
+						"w": 89,
+						"h": 77
+					},
+					"frame": {
+						"x": 1,
+						"y": 85,
+						"w": 89,
+						"h": 77
+					}
+				},
+				{
+					"filename": "oni2_16.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 13,
+						"h": 9
+					},
+					"spriteSourceSize": {
+						"x": 53,
+						"y": 49,
+						"w": 13,
+						"h": 9
+					},
+					"frame": {
+						"x": 92,
+						"y": 85,
+						"w": 13,
+						"h": 9
+					}
+				},
+				{
+					"filename": "oni_wind_16.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 4,
+						"h": 5
+					},
+					"spriteSourceSize": {
+						"x": 86,
+						"y": 60,
+						"w": 4,
+						"h": 5
+					},
+					"frame": {
+						"x": 92,
+						"y": 96,
+						"w": 4,
+						"h": 5
+					}
+				},
+				{
+					"filename": "Tengu026.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 3,
+						"h": 3
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 3,
+						"h": 3
+					},
+					"frame": {
+						"x": 98,
+						"y": 96,
+						"w": 3,
+						"h": 3
+					}
+				},
+				{
+					"filename": "Tengu027.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 3,
+						"h": 3
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 3,
+						"h": 3
+					},
+					"frame": {
+						"x": 98,
+						"y": 96,
+						"w": 3,
+						"h": 3
+					}
+				},
+				{
+					"filename": "Tengu028.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 3,
+						"h": 3
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 3,
+						"h": 3
+					},
+					"frame": {
+						"x": 98,
+						"y": 96,
+						"w": 3,
+						"h": 3
+					}
+				},
+				{
+					"filename": "Tengu029.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 3,
+						"h": 3
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 3,
+						"h": 3
+					},
+					"frame": {
+						"x": 98,
+						"y": 96,
+						"w": 3,
+						"h": 3
+					}
+				},
+				{
+					"filename": "mikoshinyudo023.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 3,
+						"h": 3
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 3,
+						"h": 3
+					},
+					"frame": {
+						"x": 98,
+						"y": 96,
+						"w": 3,
+						"h": 3
+					}
+				},
+				{
+					"filename": "mikoshinyudo024.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 3,
+						"h": 3
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 3,
+						"h": 3
+					},
+					"frame": {
+						"x": 98,
+						"y": 96,
+						"w": 3,
+						"h": 3
+					}
+				},
+				{
+					"filename": "mikoshinyudo025.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 3,
+						"h": 3
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 3,
+						"h": 3
+					},
+					"frame": {
+						"x": 98,
+						"y": 96,
+						"w": 3,
+						"h": 3
+					}
+				},
+				{
+					"filename": "mikoshinyudo026.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 3,
+						"h": 3
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 3,
+						"h": 3
+					},
+					"frame": {
+						"x": 98,
+						"y": 96,
+						"w": 3,
+						"h": 3
+					}
+				},
+				{
+					"filename": "mikoshinyudo027.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 3,
+						"h": 3
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 3,
+						"h": 3
+					},
+					"frame": {
+						"x": 98,
+						"y": 96,
+						"w": 3,
+						"h": 3
+					}
+				},
+				{
+					"filename": "mikoshinyudo028.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 3,
+						"h": 3
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 3,
+						"h": 3
+					},
+					"frame": {
+						"x": 98,
+						"y": 96,
+						"w": 3,
+						"h": 3
+					}
+				},
+				{
+					"filename": "mikoshinyudo029.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 3,
+						"h": 3
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 3,
+						"h": 3
+					},
+					"frame": {
+						"x": 98,
+						"y": 96,
+						"w": 3,
+						"h": 3
+					}
+				},
+				{
+					"filename": "oni2_17.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 3,
+						"h": 3
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 3,
+						"h": 3
+					},
+					"frame": {
+						"x": 98,
+						"y": 96,
+						"w": 3,
+						"h": 3
+					}
+				},
+				{
+					"filename": "oni2_18.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 3,
+						"h": 3
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 3,
+						"h": 3
+					},
+					"frame": {
+						"x": 98,
+						"y": 96,
+						"w": 3,
+						"h": 3
+					}
+				},
+				{
+					"filename": "oni2_19.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 3,
+						"h": 3
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 3,
+						"h": 3
+					},
+					"frame": {
+						"x": 98,
+						"y": 96,
+						"w": 3,
+						"h": 3
+					}
+				},
+				{
+					"filename": "oni2_20.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 3,
+						"h": 3
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 3,
+						"h": 3
+					},
+					"frame": {
+						"x": 98,
+						"y": 96,
+						"w": 3,
+						"h": 3
+					}
+				},
+				{
+					"filename": "oni2_21.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 3,
+						"h": 3
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 3,
+						"h": 3
+					},
+					"frame": {
+						"x": 98,
+						"y": 96,
+						"w": 3,
+						"h": 3
+					}
+				},
+				{
+					"filename": "oni2_22.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 3,
+						"h": 3
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 3,
+						"h": 3
+					},
+					"frame": {
+						"x": 98,
+						"y": 96,
+						"w": 3,
+						"h": 3
+					}
+				},
+				{
+					"filename": "oni2_23.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 3,
+						"h": 3
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 3,
+						"h": 3
+					},
+					"frame": {
+						"x": 98,
+						"y": 96,
+						"w": 3,
+						"h": 3
+					}
+				},
+				{
+					"filename": "oni2_24.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 3,
+						"h": 3
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 3,
+						"h": 3
+					},
+					"frame": {
+						"x": 98,
+						"y": 96,
+						"w": 3,
+						"h": 3
+					}
+				},
+				{
+					"filename": "oni2_25.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 3,
+						"h": 3
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 3,
+						"h": 3
+					},
+					"frame": {
+						"x": 98,
+						"y": 96,
+						"w": 3,
+						"h": 3
+					}
+				},
+				{
+					"filename": "oni2_26.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 3,
+						"h": 3
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 3,
+						"h": 3
+					},
+					"frame": {
+						"x": 98,
+						"y": 96,
+						"w": 3,
+						"h": 3
+					}
+				},
+				{
+					"filename": "oni2_27.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 3,
+						"h": 3
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 3,
+						"h": 3
+					},
+					"frame": {
+						"x": 98,
+						"y": 96,
+						"w": 3,
+						"h": 3
+					}
+				},
+				{
+					"filename": "oni2_28.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 3,
+						"h": 3
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 3,
+						"h": 3
+					},
+					"frame": {
+						"x": 98,
+						"y": 96,
+						"w": 3,
+						"h": 3
+					}
+				},
+				{
+					"filename": "oni2_29.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 3,
+						"h": 3
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 3,
+						"h": 3
+					},
+					"frame": {
+						"x": 98,
+						"y": 96,
+						"w": 3,
+						"h": 3
+					}
+				},
+				{
+					"filename": "oni_17.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 3,
+						"h": 3
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 3,
+						"h": 3
+					},
+					"frame": {
+						"x": 98,
+						"y": 96,
+						"w": 3,
+						"h": 3
+					}
+				},
+				{
+					"filename": "oni_18.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 3,
+						"h": 3
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 3,
+						"h": 3
+					},
+					"frame": {
+						"x": 98,
+						"y": 96,
+						"w": 3,
+						"h": 3
+					}
+				},
+				{
+					"filename": "oni_19.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 3,
+						"h": 3
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 3,
+						"h": 3
+					},
+					"frame": {
+						"x": 98,
+						"y": 96,
+						"w": 3,
+						"h": 3
+					}
+				},
+				{
+					"filename": "oni_20.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 3,
+						"h": 3
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 3,
+						"h": 3
+					},
+					"frame": {
+						"x": 98,
+						"y": 96,
+						"w": 3,
+						"h": 3
+					}
+				},
+				{
+					"filename": "oni_21.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 3,
+						"h": 3
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 3,
+						"h": 3
+					},
+					"frame": {
+						"x": 98,
+						"y": 96,
+						"w": 3,
+						"h": 3
+					}
+				},
+				{
+					"filename": "oni_22.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 3,
+						"h": 3
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 3,
+						"h": 3
+					},
+					"frame": {
+						"x": 98,
+						"y": 96,
+						"w": 3,
+						"h": 3
+					}
+				},
+				{
+					"filename": "oni_23.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 3,
+						"h": 3
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 3,
+						"h": 3
+					},
+					"frame": {
+						"x": 98,
+						"y": 96,
+						"w": 3,
+						"h": 3
+					}
+				},
+				{
+					"filename": "oni_24.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 3,
+						"h": 3
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 3,
+						"h": 3
+					},
+					"frame": {
+						"x": 98,
+						"y": 96,
+						"w": 3,
+						"h": 3
+					}
+				},
+				{
+					"filename": "oni_25.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 3,
+						"h": 3
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 3,
+						"h": 3
+					},
+					"frame": {
+						"x": 98,
+						"y": 96,
+						"w": 3,
+						"h": 3
+					}
+				},
+				{
+					"filename": "oni_26.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 3,
+						"h": 3
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 3,
+						"h": 3
+					},
+					"frame": {
+						"x": 98,
+						"y": 96,
+						"w": 3,
+						"h": 3
+					}
+				},
+				{
+					"filename": "oni_27.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 3,
+						"h": 3
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 3,
+						"h": 3
+					},
+					"frame": {
+						"x": 98,
+						"y": 96,
+						"w": 3,
+						"h": 3
+					}
+				},
+				{
+					"filename": "oni_28.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 3,
+						"h": 3
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 3,
+						"h": 3
+					},
+					"frame": {
+						"x": 98,
+						"y": 96,
+						"w": 3,
+						"h": 3
+					}
+				},
+				{
+					"filename": "oni_29.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 3,
+						"h": 3
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 3,
+						"h": 3
+					},
+					"frame": {
+						"x": 98,
+						"y": 96,
+						"w": 3,
+						"h": 3
+					}
+				},
+				{
+					"filename": "oni_wind_18.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 3,
+						"h": 3
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 3,
+						"h": 3
+					},
+					"frame": {
+						"x": 98,
+						"y": 96,
+						"w": 3,
+						"h": 3
+					}
+				},
+				{
+					"filename": "oni_wind_19.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 3,
+						"h": 3
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 3,
+						"h": 3
+					},
+					"frame": {
+						"x": 98,
+						"y": 96,
+						"w": 3,
+						"h": 3
+					}
+				},
+				{
+					"filename": "oni_wind_20.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 3,
+						"h": 3
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 3,
+						"h": 3
+					},
+					"frame": {
+						"x": 98,
+						"y": 96,
+						"w": 3,
+						"h": 3
+					}
+				},
+				{
+					"filename": "oni_wind_21.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 3,
+						"h": 3
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 3,
+						"h": 3
+					},
+					"frame": {
+						"x": 98,
+						"y": 96,
+						"w": 3,
+						"h": 3
+					}
+				},
+				{
+					"filename": "oni_wind_22.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 3,
+						"h": 3
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 3,
+						"h": 3
+					},
+					"frame": {
+						"x": 98,
+						"y": 96,
+						"w": 3,
+						"h": 3
+					}
+				},
+				{
+					"filename": "oni_wind_23.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 3,
+						"h": 3
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 3,
+						"h": 3
+					},
+					"frame": {
+						"x": 98,
+						"y": 96,
+						"w": 3,
+						"h": 3
+					}
+				},
+				{
+					"filename": "oni_wind_24.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 3,
+						"h": 3
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 3,
+						"h": 3
+					},
+					"frame": {
+						"x": 98,
+						"y": 96,
+						"w": 3,
+						"h": 3
+					}
+				},
+				{
+					"filename": "oni_wind_25.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 3,
+						"h": 3
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 3,
+						"h": 3
+					},
+					"frame": {
+						"x": 98,
+						"y": 96,
+						"w": 3,
+						"h": 3
+					}
+				},
+				{
+					"filename": "oni_wind_26.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 3,
+						"h": 3
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 3,
+						"h": 3
+					},
+					"frame": {
+						"x": 98,
+						"y": 96,
+						"w": 3,
+						"h": 3
+					}
+				},
+				{
+					"filename": "oni_wind_27.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 3,
+						"h": 3
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 3,
+						"h": 3
+					},
+					"frame": {
+						"x": 98,
+						"y": 96,
+						"w": 3,
+						"h": 3
+					}
+				},
+				{
+					"filename": "oni_wind_28.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 3,
+						"h": 3
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 3,
+						"h": 3
+					},
+					"frame": {
+						"x": 98,
+						"y": 96,
+						"w": 3,
+						"h": 3
+					}
+				},
+				{
+					"filename": "tsuchigumo028.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 3,
+						"h": 3
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 3,
+						"h": 3
+					},
+					"frame": {
+						"x": 98,
+						"y": 96,
+						"w": 3,
+						"h": 3
+					}
+				},
+				{
+					"filename": "tsuchigumo029.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 3,
+						"h": 3
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 3,
+						"h": 3
+					},
+					"frame": {
+						"x": 98,
+						"y": 96,
+						"w": 3,
+						"h": 3
+					}
+				},
+				{
+					"filename": "yamamba2_15.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 3,
+						"h": 3
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 3,
+						"h": 3
+					},
+					"frame": {
+						"x": 98,
+						"y": 96,
+						"w": 3,
+						"h": 3
+					}
+				},
+				{
+					"filename": "yamamba2_16.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 3,
+						"h": 3
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 3,
+						"h": 3
+					},
+					"frame": {
+						"x": 98,
+						"y": 96,
+						"w": 3,
+						"h": 3
+					}
+				},
+				{
+					"filename": "yamamba2_17.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 3,
+						"h": 3
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 3,
+						"h": 3
+					},
+					"frame": {
+						"x": 98,
+						"y": 96,
+						"w": 3,
+						"h": 3
+					}
+				},
+				{
+					"filename": "yamamba2_18.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 3,
+						"h": 3
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 3,
+						"h": 3
+					},
+					"frame": {
+						"x": 98,
+						"y": 96,
+						"w": 3,
+						"h": 3
+					}
+				},
+				{
+					"filename": "yamamba2_19.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 3,
+						"h": 3
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 3,
+						"h": 3
+					},
+					"frame": {
+						"x": 98,
+						"y": 96,
+						"w": 3,
+						"h": 3
+					}
+				},
+				{
+					"filename": "yamamba2_20.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 3,
+						"h": 3
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 3,
+						"h": 3
+					},
+					"frame": {
+						"x": 98,
+						"y": 96,
+						"w": 3,
+						"h": 3
+					}
+				},
+				{
+					"filename": "yamamba2_21.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 3,
+						"h": 3
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 3,
+						"h": 3
+					},
+					"frame": {
+						"x": 98,
+						"y": 96,
+						"w": 3,
+						"h": 3
+					}
+				},
+				{
+					"filename": "yamamba2_22.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 3,
+						"h": 3
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 3,
+						"h": 3
+					},
+					"frame": {
+						"x": 98,
+						"y": 96,
+						"w": 3,
+						"h": 3
+					}
+				},
+				{
+					"filename": "yamamba2_23.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 3,
+						"h": 3
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 3,
+						"h": 3
+					},
+					"frame": {
+						"x": 98,
+						"y": 96,
+						"w": 3,
+						"h": 3
+					}
+				},
+				{
+					"filename": "yamamba2_24.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 3,
+						"h": 3
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 3,
+						"h": 3
+					},
+					"frame": {
+						"x": 98,
+						"y": 96,
+						"w": 3,
+						"h": 3
+					}
+				},
+				{
+					"filename": "yamamba2_25.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 3,
+						"h": 3
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 3,
+						"h": 3
+					},
+					"frame": {
+						"x": 98,
+						"y": 96,
+						"w": 3,
+						"h": 3
+					}
+				},
+				{
+					"filename": "yamamba2_26.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 3,
+						"h": 3
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 3,
+						"h": 3
+					},
+					"frame": {
+						"x": 98,
+						"y": 96,
+						"w": 3,
+						"h": 3
+					}
+				},
+				{
+					"filename": "yamamba2_27.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 3,
+						"h": 3
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 3,
+						"h": 3
+					},
+					"frame": {
+						"x": 98,
+						"y": 96,
+						"w": 3,
+						"h": 3
+					}
+				},
+				{
+					"filename": "yamamba2_28.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 3,
+						"h": 3
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 3,
+						"h": 3
+					},
+					"frame": {
+						"x": 98,
+						"y": 96,
+						"w": 3,
+						"h": 3
+					}
+				},
+				{
+					"filename": "yamamba2_29.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 3,
+						"h": 3
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 3,
+						"h": 3
+					},
+					"frame": {
+						"x": 98,
+						"y": 96,
+						"w": 3,
+						"h": 3
+					}
+				},
+				{
+					"filename": "yamamba_16.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 3,
+						"h": 3
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 3,
+						"h": 3
+					},
+					"frame": {
+						"x": 98,
+						"y": 96,
+						"w": 3,
+						"h": 3
+					}
+				},
+				{
+					"filename": "yamamba_17.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 3,
+						"h": 3
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 3,
+						"h": 3
+					},
+					"frame": {
+						"x": 98,
+						"y": 96,
+						"w": 3,
+						"h": 3
+					}
+				},
+				{
+					"filename": "yamamba_18.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 3,
+						"h": 3
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 3,
+						"h": 3
+					},
+					"frame": {
+						"x": 98,
+						"y": 96,
+						"w": 3,
+						"h": 3
+					}
+				},
+				{
+					"filename": "yamamba_19.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 3,
+						"h": 3
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 3,
+						"h": 3
+					},
+					"frame": {
+						"x": 98,
+						"y": 96,
+						"w": 3,
+						"h": 3
+					}
+				},
+				{
+					"filename": "yamamba_20.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 3,
+						"h": 3
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 3,
+						"h": 3
+					},
+					"frame": {
+						"x": 98,
+						"y": 96,
+						"w": 3,
+						"h": 3
+					}
+				},
+				{
+					"filename": "yamamba_21.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 3,
+						"h": 3
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 3,
+						"h": 3
+					},
+					"frame": {
+						"x": 98,
+						"y": 96,
+						"w": 3,
+						"h": 3
+					}
+				},
+				{
+					"filename": "yamamba_22.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 3,
+						"h": 3
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 3,
+						"h": 3
+					},
+					"frame": {
+						"x": 98,
+						"y": 96,
+						"w": 3,
+						"h": 3
+					}
+				},
+				{
+					"filename": "yamamba_23.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 3,
+						"h": 3
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 3,
+						"h": 3
+					},
+					"frame": {
+						"x": 98,
+						"y": 96,
+						"w": 3,
+						"h": 3
+					}
+				},
+				{
+					"filename": "yamamba_24.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 3,
+						"h": 3
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 3,
+						"h": 3
+					},
+					"frame": {
+						"x": 98,
+						"y": 96,
+						"w": 3,
+						"h": 3
+					}
+				},
+				{
+					"filename": "yamamba_25.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 3,
+						"h": 3
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 3,
+						"h": 3
+					},
+					"frame": {
+						"x": 98,
+						"y": 96,
+						"w": 3,
+						"h": 3
+					}
+				},
+				{
+					"filename": "yamamba_26.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 3,
+						"h": 3
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 3,
+						"h": 3
+					},
+					"frame": {
+						"x": 98,
+						"y": 96,
+						"w": 3,
+						"h": 3
+					}
+				},
+				{
+					"filename": "yamamba_27.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 3,
+						"h": 3
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 3,
+						"h": 3
+					},
+					"frame": {
+						"x": 98,
+						"y": 96,
+						"w": 3,
+						"h": 3
+					}
+				},
+				{
+					"filename": "yamamba_28.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 3,
+						"h": 3
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 3,
+						"h": 3
+					},
+					"frame": {
+						"x": 98,
+						"y": 96,
+						"w": 3,
+						"h": 3
+					}
+				},
+				{
+					"filename": "yamamba_29.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 3,
+						"h": 3
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 3,
+						"h": 3
+					},
+					"frame": {
+						"x": 98,
+						"y": 96,
+						"w": 3,
+						"h": 3
+					}
+				},
+				{
+					"filename": "oni_16.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 3,
+						"h": 3
+					},
+					"spriteSourceSize": {
+						"x": 70,
+						"y": 77,
+						"w": 3,
+						"h": 3
+					},
+					"frame": {
+						"x": 98,
+						"y": 101,
+						"w": 3,
+						"h": 3
+					}
+				},
+				{
+					"filename": "tsuchigumo027.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 3,
+						"h": 3
+					},
+					"spriteSourceSize": {
+						"x": 38,
+						"y": 55,
+						"w": 3,
+						"h": 3
+					},
+					"frame": {
+						"x": 92,
+						"y": 103,
+						"w": 3,
+						"h": 3
+					}
+				},
+				{
+					"filename": "yamamba_15.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 3,
+						"h": 3
+					},
+					"spriteSourceSize": {
+						"x": 63,
+						"y": 73,
+						"w": 3,
+						"h": 3
+					},
+					"frame": {
+						"x": 97,
+						"y": 106,
+						"w": 3,
+						"h": 3
+					}
+				},
+				{
+					"filename": "tsuchigumo015.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 87,
+						"h": 80
+					},
+					"spriteSourceSize": {
+						"x": 27,
+						"y": 15,
+						"w": 87,
+						"h": 80
+					},
+					"frame": {
+						"x": 1,
+						"y": 164,
+						"w": 87,
+						"h": 80
+					}
+				},
+				{
+					"filename": "yamamba_14.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 15,
+						"h": 14
+					},
+					"spriteSourceSize": {
+						"x": 63,
+						"y": 73,
+						"w": 15,
+						"h": 14
+					},
+					"frame": {
+						"x": 90,
+						"y": 164,
+						"w": 15,
+						"h": 14
+					}
+				},
+				{
+					"filename": "tsuchigumo014.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 84,
+						"h": 82
+					},
+					"spriteSourceSize": {
+						"x": 27,
+						"y": 13,
+						"w": 84,
+						"h": 82
+					},
+					"frame": {
+						"x": 302,
+						"y": 1,
+						"w": 84,
+						"h": 82
+					}
+				},
+				{
+					"filename": "tsuchigumo008.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 84,
+						"h": 67
+					},
+					"spriteSourceSize": {
+						"x": 27,
+						"y": 23,
+						"w": 84,
+						"h": 67
+					},
+					"frame": {
+						"x": 388,
+						"y": 1,
+						"w": 84,
+						"h": 67
+					}
+				},
+				{
+					"filename": "tsuchigumo017.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 82,
+						"h": 87
+					},
+					"spriteSourceSize": {
+						"x": 28,
+						"y": 8,
+						"w": 82,
+						"h": 87
+					},
+					"frame": {
+						"x": 474,
+						"y": 1,
+						"w": 82,
+						"h": 87
+					}
+				},
+				{
+					"filename": "tsuchigumo011.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 82,
+						"h": 79
+					},
+					"spriteSourceSize": {
+						"x": 28,
+						"y": 14,
+						"w": 82,
+						"h": 79
+					},
+					"frame": {
+						"x": 388,
+						"y": 70,
+						"w": 82,
+						"h": 79
+					}
+				},
+				{
+					"filename": "tsuchigumo009.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 82,
+						"h": 71
+					},
+					"spriteSourceSize": {
+						"x": 27,
+						"y": 19,
+						"w": 82,
+						"h": 71
+					},
+					"frame": {
+						"x": 302,
+						"y": 85,
+						"w": 82,
+						"h": 71
+					}
+				},
+				{
+					"filename": "Tengu011.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 81,
+						"h": 73
+					},
+					"spriteSourceSize": {
+						"x": 26,
+						"y": 33,
+						"w": 81,
+						"h": 73
+					},
+					"frame": {
+						"x": 204,
+						"y": 86,
+						"w": 81,
+						"h": 73
+					}
+				},
+				{
+					"filename": "tsuchigumo007.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 80,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 28,
+						"y": 25,
+						"w": 80,
+						"h": 64
+					},
+					"frame": {
+						"x": 558,
+						"y": 1,
+						"w": 80,
+						"h": 64
+					}
+				},
+				{
+					"filename": "tsuchigumo021.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 79,
+						"h": 66
+					},
+					"spriteSourceSize": {
+						"x": 30,
+						"y": 28,
+						"w": 79,
+						"h": 66
+					},
+					"frame": {
+						"x": 640,
+						"y": 1,
+						"w": 79,
+						"h": 66
+					}
+				},
+				{
+					"filename": "Tengu007.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 76,
+						"h": 69
+					},
+					"spriteSourceSize": {
+						"x": 27,
+						"y": 32,
+						"w": 76,
+						"h": 69
+					},
+					"frame": {
+						"x": 558,
+						"y": 67,
+						"w": 76,
+						"h": 69
+					}
+				},
+				{
+					"filename": "tsuchigumo025.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 76,
+						"h": 42
+					},
+					"spriteSourceSize": {
+						"x": 20,
+						"y": 39,
+						"w": 76,
+						"h": 42
+					},
+					"frame": {
+						"x": 472,
+						"y": 90,
+						"w": 76,
+						"h": 42
+					}
+				},
+				{
+					"filename": "tsuchigumo019.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 75,
+						"h": 81
+					},
+					"spriteSourceSize": {
+						"x": 28,
+						"y": 13,
+						"w": 75,
+						"h": 81
+					},
+					"frame": {
+						"x": 472,
+						"y": 134,
+						"w": 75,
+						"h": 81
+					}
+				},
+				{
+					"filename": "Tengu010.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 74,
+						"h": 73
+					},
+					"spriteSourceSize": {
+						"x": 26,
+						"y": 32,
+						"w": 74,
+						"h": 73
+					},
+					"frame": {
+						"x": 386,
+						"y": 151,
+						"w": 74,
+						"h": 73
+					}
+				},
+				{
+					"filename": "Tengu012.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 74,
+						"h": 73
+					},
+					"spriteSourceSize": {
+						"x": 26,
+						"y": 33,
+						"w": 74,
+						"h": 73
+					},
+					"frame": {
+						"x": 287,
+						"y": 158,
+						"w": 74,
+						"h": 73
+					}
+				},
+				{
+					"filename": "yamamba2_11.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 21,
+						"h": 37
+					},
+					"spriteSourceSize": {
+						"x": 57,
+						"y": 52,
+						"w": 21,
+						"h": 37
+					},
+					"frame": {
+						"x": 363,
+						"y": 158,
+						"w": 21,
+						"h": 37
+					}
+				},
+				{
+					"filename": "yamamba2_12.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 20,
+						"h": 28
+					},
+					"spriteSourceSize": {
+						"x": 58,
+						"y": 53,
+						"w": 20,
+						"h": 28
+					},
+					"frame": {
+						"x": 363,
+						"y": 197,
+						"w": 20,
+						"h": 28
+					}
+				},
+				{
+					"filename": "Tengu008.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 73,
+						"h": 71
+					},
+					"spriteSourceSize": {
+						"x": 26,
+						"y": 32,
+						"w": 73,
+						"h": 71
+					},
+					"frame": {
+						"x": 198,
+						"y": 161,
+						"w": 73,
+						"h": 71
+					}
+				},
+				{
+					"filename": "oni_wind_10.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 72,
+						"h": 81
+					},
+					"spriteSourceSize": {
+						"x": 30,
+						"y": 18,
+						"w": 72,
+						"h": 81
+					},
+					"frame": {
+						"x": 107,
+						"y": 168,
+						"w": 72,
+						"h": 81
+					}
+				},
+				{
+					"filename": "Tengu013.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 72,
+						"h": 72
+					},
+					"spriteSourceSize": {
+						"x": 28,
+						"y": 33,
+						"w": 72,
+						"h": 72
+					},
+					"frame": {
+						"x": 1,
+						"y": 246,
+						"w": 72,
+						"h": 72
+					}
+				},
+				{
+					"filename": "onna_15.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 30,
+						"h": 36
+					},
+					"spriteSourceSize": {
+						"x": 8,
+						"y": 4,
+						"w": 30,
+						"h": 36
+					},
+					"frame": {
+						"x": 75,
+						"y": 246,
+						"w": 30,
+						"h": 36
+					}
+				},
+				{
+					"filename": "tsuchigumo020.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 72,
+						"h": 63
+					},
+					"spriteSourceSize": {
+						"x": 23,
+						"y": 31,
+						"w": 72,
+						"h": 63
+					},
+					"frame": {
+						"x": 721,
+						"y": 1,
+						"w": 72,
+						"h": 63
+					}
+				},
+				{
+					"filename": "tsuchigumo006.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 72,
+						"h": 61
+					},
+					"spriteSourceSize": {
+						"x": 33,
+						"y": 28,
+						"w": 72,
+						"h": 61
+					},
+					"frame": {
+						"x": 795,
+						"y": 1,
+						"w": 72,
+						"h": 61
+					}
+				},
+				{
+					"filename": "oni_wind_12.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 71,
+						"h": 83
+					},
+					"spriteSourceSize": {
+						"x": 30,
+						"y": 16,
+						"w": 71,
+						"h": 83
+					},
+					"frame": {
+						"x": 869,
+						"y": 1,
+						"w": 71,
+						"h": 83
+					}
+				},
+				{
+					"filename": "tsuchigumo005.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 71,
+						"h": 57
+					},
+					"spriteSourceSize": {
+						"x": 32,
+						"y": 32,
+						"w": 71,
+						"h": 57
+					},
+					"frame": {
+						"x": 795,
+						"y": 64,
+						"w": 71,
+						"h": 57
+					}
+				},
+				{
+					"filename": "oni_wind_11.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 70,
+						"h": 82
+					},
+					"spriteSourceSize": {
+						"x": 30,
+						"y": 17,
+						"w": 70,
+						"h": 82
+					},
+					"frame": {
+						"x": 721,
+						"y": 66,
+						"w": 70,
+						"h": 82
+					}
+				},
+				{
+					"filename": "oni_wind_9.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 69,
+						"h": 80
+					},
+					"spriteSourceSize": {
+						"x": 31,
+						"y": 19,
+						"w": 69,
+						"h": 80
+					},
+					"frame": {
+						"x": 942,
+						"y": 1,
+						"w": 69,
+						"h": 80
+					}
+				},
+				{
+					"filename": "oni_wind_8.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 69,
+						"h": 78
+					},
+					"spriteSourceSize": {
+						"x": 32,
+						"y": 21,
+						"w": 69,
+						"h": 78
+					},
+					"frame": {
+						"x": 942,
+						"y": 83,
+						"w": 69,
+						"h": 78
+					}
+				},
+				{
+					"filename": "oni_wind_7.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 69,
+						"h": 77
+					},
+					"spriteSourceSize": {
+						"x": 31,
+						"y": 22,
+						"w": 69,
+						"h": 77
+					},
+					"frame": {
+						"x": 868,
+						"y": 86,
+						"w": 69,
+						"h": 77
+					}
+				},
+				{
+					"filename": "Tengu009.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 69,
+						"h": 72
+					},
+					"spriteSourceSize": {
+						"x": 30,
+						"y": 32,
+						"w": 69,
+						"h": 72
+					},
+					"frame": {
+						"x": 793,
+						"y": 123,
+						"w": 69,
+						"h": 72
+					}
+				},
+				{
+					"filename": "tsuchigumo022.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 69,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 27,
+						"y": 30,
+						"w": 69,
+						"h": 64
+					},
+					"frame": {
+						"x": 636,
+						"y": 69,
+						"w": 69,
+						"h": 64
+					}
+				},
+				{
+					"filename": "oni_wind_6.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 68,
+						"h": 75
+					},
+					"spriteSourceSize": {
+						"x": 32,
+						"y": 24,
+						"w": 68,
+						"h": 75
+					},
+					"frame": {
+						"x": 636,
+						"y": 135,
+						"w": 68,
+						"h": 75
+					}
+				},
+				{
+					"filename": "Tengu006.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 68,
+						"h": 67
+					},
+					"spriteSourceSize": {
+						"x": 30,
+						"y": 33,
+						"w": 68,
+						"h": 67
+					},
+					"frame": {
+						"x": 939,
+						"y": 163,
+						"w": 68,
+						"h": 67
+					}
+				},
+				{
+					"filename": "Tengu014.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 66,
+						"h": 75
+					},
+					"spriteSourceSize": {
+						"x": 33,
+						"y": 33,
+						"w": 66,
+						"h": 75
+					},
+					"frame": {
+						"x": 864,
+						"y": 165,
+						"w": 66,
+						"h": 75
+					}
+				},
+				{
+					"filename": "oni_wind_5.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 66,
+						"h": 73
+					},
+					"spriteSourceSize": {
+						"x": 33,
+						"y": 26,
+						"w": 66,
+						"h": 73
+					},
+					"frame": {
+						"x": 706,
+						"y": 150,
+						"w": 66,
+						"h": 73
+					}
+				},
+				{
+					"filename": "Tengu004.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 66,
+						"h": 62
+					},
+					"spriteSourceSize": {
+						"x": 33,
+						"y": 35,
+						"w": 66,
+						"h": 62
+					},
+					"frame": {
+						"x": 549,
+						"y": 138,
+						"w": 66,
+						"h": 62
+					}
+				},
+				{
+					"filename": "tsuchigumo023.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 66,
+						"h": 54
+					},
+					"spriteSourceSize": {
+						"x": 30,
+						"y": 40,
+						"w": 66,
+						"h": 54
+					},
+					"frame": {
+						"x": 549,
+						"y": 202,
+						"w": 66,
+						"h": 54
+					}
+				},
+				{
+					"filename": "Tengu015.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 65,
+						"h": 74
+					},
+					"spriteSourceSize": {
+						"x": 34,
+						"y": 33,
+						"w": 65,
+						"h": 74
+					},
+					"frame": {
+						"x": 462,
+						"y": 217,
+						"w": 65,
+						"h": 74
+					}
+				},
+				{
+					"filename": "oni_wind_4.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 65,
+						"h": 70
+					},
+					"spriteSourceSize": {
+						"x": 33,
+						"y": 29,
+						"w": 65,
+						"h": 70
+					},
+					"frame": {
+						"x": 385,
+						"y": 226,
+						"w": 65,
+						"h": 70
+					}
+				},
+				{
+					"filename": "yamamba2_13.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 20,
+						"h": 20
+					},
+					"spriteSourceSize": {
+						"x": 58,
+						"y": 53,
+						"w": 20,
+						"h": 20
+					},
+					"frame": {
+						"x": 363,
+						"y": 227,
+						"w": 20,
+						"h": 20
+					}
+				},
+				{
+					"filename": "Tengu005.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 65,
+						"h": 65
+					},
+					"spriteSourceSize": {
+						"x": 34,
+						"y": 34,
+						"w": 65,
+						"h": 65
+					},
+					"frame": {
+						"x": 617,
+						"y": 212,
+						"w": 65,
+						"h": 65
+					}
+				},
+				{
+					"filename": "tsuchigumo004.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 65,
+						"h": 53
+					},
+					"spriteSourceSize": {
+						"x": 35,
+						"y": 35,
+						"w": 65,
+						"h": 53
+					},
+					"frame": {
+						"x": 529,
+						"y": 258,
+						"w": 65,
+						"h": 53
+					}
+				},
+				{
+					"filename": "tsuchigumo024.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 65,
+						"h": 41
+					},
+					"spriteSourceSize": {
+						"x": 31,
+						"y": 40,
+						"w": 65,
+						"h": 41
+					},
+					"frame": {
+						"x": 452,
+						"y": 293,
+						"w": 65,
+						"h": 41
+					}
+				},
+				{
+					"filename": "oni_wind_15.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 64,
+						"h": 73
+					},
+					"spriteSourceSize": {
+						"x": 33,
+						"y": 26,
+						"w": 64,
+						"h": 73
+					},
+					"frame": {
+						"x": 273,
+						"y": 233,
+						"w": 64,
+						"h": 73
+					}
+				},
+				{
+					"filename": "Tengu023.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 44,
+						"h": 59
+					},
+					"spriteSourceSize": {
+						"x": 48,
+						"y": 32,
+						"w": 44,
+						"h": 59
+					},
+					"frame": {
+						"x": 339,
+						"y": 249,
+						"w": 44,
+						"h": 59
+					}
+				},
+				{
+					"filename": "Tengu016.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 64,
+						"h": 66
+					},
+					"spriteSourceSize": {
+						"x": 34,
+						"y": 33,
+						"w": 64,
+						"h": 66
+					},
+					"frame": {
+						"x": 385,
+						"y": 298,
+						"w": 64,
+						"h": 66
+					}
+				},
+				{
+					"filename": "oni_wind_3.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 63,
+						"h": 67
+					},
+					"spriteSourceSize": {
+						"x": 35,
+						"y": 32,
+						"w": 63,
+						"h": 67
+					},
+					"frame": {
+						"x": 774,
+						"y": 197,
+						"w": 63,
+						"h": 67
+					}
+				},
+				{
+					"filename": "oni_wind_2.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 63,
+						"h": 63
+					},
+					"spriteSourceSize": {
+						"x": 35,
+						"y": 35,
+						"w": 63,
+						"h": 63
+					},
+					"frame": {
+						"x": 684,
+						"y": 225,
+						"w": 63,
+						"h": 63
+					}
+				},
+				{
+					"filename": "Tengu003.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 62,
+						"h": 62
+					},
+					"spriteSourceSize": {
+						"x": 36,
+						"y": 35,
+						"w": 62,
+						"h": 62
+					},
+					"frame": {
+						"x": 596,
+						"y": 279,
+						"w": 62,
+						"h": 62
+					}
+				},
+				{
+					"filename": "Tengu002.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 62,
+						"h": 58
+					},
+					"spriteSourceSize": {
+						"x": 36,
+						"y": 38,
+						"w": 62,
+						"h": 58
+					},
+					"frame": {
+						"x": 519,
+						"y": 313,
+						"w": 62,
+						"h": 58
+					}
+				},
+				{
+					"filename": "mikoshinyudo016.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 62,
+						"h": 54
+					},
+					"spriteSourceSize": {
+						"x": 35,
+						"y": 33,
+						"w": 62,
+						"h": 54
+					},
+					"frame": {
+						"x": 451,
+						"y": 336,
+						"w": 62,
+						"h": 54
+					}
+				},
+				{
+					"filename": "Gash_body_i01.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 62,
+						"h": 50
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 12,
+						"w": 62,
+						"h": 50
+					},
+					"frame": {
+						"x": 181,
+						"y": 234,
+						"w": 62,
+						"h": 50
+					}
+				},
+				{
+					"filename": "oni_wind_17.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 26,
+						"h": 29
+					},
+					"spriteSourceSize": {
+						"x": 67,
+						"y": 45,
+						"w": 26,
+						"h": 29
+					},
+					"frame": {
+						"x": 245,
+						"y": 234,
+						"w": 26,
+						"h": 29
+					}
+				},
+				{
+					"filename": "spirit_des_i01.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 25,
+						"h": 30
+					},
+					"spriteSourceSize": {
+						"x": 3,
+						"y": 2,
+						"w": 25,
+						"h": 30
+					},
+					"frame": {
+						"x": 245,
+						"y": 265,
+						"w": 25,
+						"h": 30
+					}
+				},
+				{
+					"filename": "mikoshinyudo014.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 61,
+						"h": 65
+					},
+					"spriteSourceSize": {
+						"x": 34,
+						"y": 33,
+						"w": 61,
+						"h": 65
+					},
+					"frame": {
+						"x": 107,
+						"y": 251,
+						"w": 61,
+						"h": 65
+					}
+				},
+				{
+					"filename": "onna_16.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 30,
+						"h": 36
+					},
+					"spriteSourceSize": {
+						"x": 7,
+						"y": 4,
+						"w": 30,
+						"h": 36
+					},
+					"frame": {
+						"x": 75,
+						"y": 284,
+						"w": 30,
+						"h": 36
+					}
+				},
+				{
+					"filename": "mikoshinyudo013.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 61,
+						"h": 62
+					},
+					"spriteSourceSize": {
+						"x": 34,
+						"y": 33,
+						"w": 61,
+						"h": 62
+					},
+					"frame": {
+						"x": 1,
+						"y": 320,
+						"w": 61,
+						"h": 62
+					}
+				},
+				{
+					"filename": "mikoshinyudo012.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 60,
+						"h": 63
+					},
+					"spriteSourceSize": {
+						"x": 34,
+						"y": 33,
+						"w": 60,
+						"h": 63
+					},
+					"frame": {
+						"x": 170,
+						"y": 286,
+						"w": 60,
+						"h": 63
+					}
+				},
+				{
+					"filename": "Gash_head_i01.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 39,
+						"h": 54
+					},
+					"spriteSourceSize": {
+						"x": 8,
+						"y": 0,
+						"w": 39,
+						"h": 54
+					},
+					"frame": {
+						"x": 232,
+						"y": 297,
+						"w": 39,
+						"h": 54
+					}
+				},
+				{
+					"filename": "Tengu001.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 60,
+						"h": 55
+					},
+					"spriteSourceSize": {
+						"x": 37,
+						"y": 41,
+						"w": 60,
+						"h": 55
+					},
+					"frame": {
+						"x": 107,
+						"y": 318,
+						"w": 60,
+						"h": 55
+					}
+				},
+				{
+					"filename": "mikoshinyudo001.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 41,
+						"h": 41
+					},
+					"spriteSourceSize": {
+						"x": 47,
+						"y": 45,
+						"w": 41,
+						"h": 41
+					},
+					"frame": {
+						"x": 64,
+						"y": 322,
+						"w": 41,
+						"h": 41
+					}
+				},
+				{
+					"filename": "onna_04.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 41,
+						"h": 34
+					},
+					"spriteSourceSize": {
+						"x": 2,
+						"y": 6,
+						"w": 41,
+						"h": 34
+					},
+					"frame": {
+						"x": 64,
+						"y": 365,
+						"w": 41,
+						"h": 34
+					}
+				},
+				{
+					"filename": "onna_05.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 41,
+						"h": 34
+					},
+					"spriteSourceSize": {
+						"x": 2,
+						"y": 6,
+						"w": 41,
+						"h": 34
+					},
+					"frame": {
+						"x": 64,
+						"y": 365,
+						"w": 41,
+						"h": 34
+					}
+				},
+				{
+					"filename": "mikoshinyudo011.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 59,
+						"h": 62
+					},
+					"spriteSourceSize": {
+						"x": 35,
+						"y": 33,
+						"w": 59,
+						"h": 62
+					},
+					"frame": {
+						"x": 1,
+						"y": 384,
+						"w": 59,
+						"h": 62
+					}
+				},
+				{
+					"filename": "oni_wind_1.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 59,
+						"h": 61
+					},
+					"spriteSourceSize": {
+						"x": 38,
+						"y": 36,
+						"w": 59,
+						"h": 61
+					},
+					"frame": {
+						"x": 169,
+						"y": 351,
+						"w": 59,
+						"h": 61
+					}
+				},
+				{
+					"filename": "Tengu019.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 59,
+						"h": 59
+					},
+					"spriteSourceSize": {
+						"x": 33,
+						"y": 33,
+						"w": 59,
+						"h": 59
+					},
+					"frame": {
+						"x": 107,
+						"y": 375,
+						"w": 59,
+						"h": 59
+					}
+				},
+				{
+					"filename": "Tengu022.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 43,
+						"h": 55
+					},
+					"spriteSourceSize": {
+						"x": 49,
+						"y": 36,
+						"w": 43,
+						"h": 55
+					},
+					"frame": {
+						"x": 62,
+						"y": 401,
+						"w": 43,
+						"h": 55
+					}
+				},
+				{
+					"filename": "Tengu020.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 59,
+						"h": 58
+					},
+					"spriteSourceSize": {
+						"x": 33,
+						"y": 34,
+						"w": 59,
+						"h": 58
+					},
+					"frame": {
+						"x": 1,
+						"y": 448,
+						"w": 59,
+						"h": 58
+					}
+				},
+				{
+					"filename": "tsuchigumo003.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 59,
+						"h": 51
+					},
+					"spriteSourceSize": {
+						"x": 38,
+						"y": 38,
+						"w": 59,
+						"h": 51
+					},
+					"frame": {
+						"x": 273,
+						"y": 308,
+						"w": 59,
+						"h": 51
+					}
+				},
+				{
+					"filename": "Tengu_i04.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 49,
+						"h": 54
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 2,
+						"w": 49,
+						"h": 54
+					},
+					"frame": {
+						"x": 334,
+						"y": 310,
+						"w": 49,
+						"h": 54
+					}
+				},
+				{
+					"filename": "Gash_head_i03.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 40,
+						"h": 54
+					},
+					"spriteSourceSize": {
+						"x": 7,
+						"y": 0,
+						"w": 40,
+						"h": 54
+					},
+					"frame": {
+						"x": 230,
+						"y": 353,
+						"w": 40,
+						"h": 54
+					}
+				},
+				{
+					"filename": "oni_wind_14.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 58,
+						"h": 85
+					},
+					"spriteSourceSize": {
+						"x": 35,
+						"y": 14,
+						"w": 58,
+						"h": 85
+					},
+					"frame": {
+						"x": 272,
+						"y": 361,
+						"w": 58,
+						"h": 85
+					}
+				},
+				{
+					"filename": "yamamba_4.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 40,
+						"h": 43
+					},
+					"spriteSourceSize": {
+						"x": 44,
+						"y": 44,
+						"w": 40,
+						"h": 43
+					},
+					"frame": {
+						"x": 230,
+						"y": 409,
+						"w": 40,
+						"h": 43
+					}
+				},
+				{
+					"filename": "oni_wind_13.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 57,
+						"h": 84
+					},
+					"spriteSourceSize": {
+						"x": 37,
+						"y": 15,
+						"w": 57,
+						"h": 84
+					},
+					"frame": {
+						"x": 168,
+						"y": 414,
+						"w": 57,
+						"h": 84
+					}
+				},
+				{
+					"filename": "mikoshinyudo010.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 57,
+						"h": 61
+					},
+					"spriteSourceSize": {
+						"x": 36,
+						"y": 33,
+						"w": 57,
+						"h": 61
+					},
+					"frame": {
+						"x": 107,
+						"y": 436,
+						"w": 57,
+						"h": 61
+					}
+				},
+				{
+					"filename": "yamamba_6.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 43,
+						"h": 46
+					},
+					"spriteSourceSize": {
+						"x": 43,
+						"y": 43,
+						"w": 43,
+						"h": 46
+					},
+					"frame": {
+						"x": 62,
+						"y": 458,
+						"w": 43,
+						"h": 46
+					}
+				},
+				{
+					"filename": "mikoshinyudo009.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 57,
+						"h": 60
+					},
+					"spriteSourceSize": {
+						"x": 36,
+						"y": 33,
+						"w": 57,
+						"h": 60
+					},
+					"frame": {
+						"x": 107,
+						"y": 499,
+						"w": 57,
+						"h": 60
+					}
+				},
+				{
+					"filename": "onna_03.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 43,
+						"h": 33
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 7,
+						"w": 43,
+						"h": 33
+					},
+					"frame": {
+						"x": 62,
+						"y": 506,
+						"w": 43,
+						"h": 33
+					}
+				},
+				{
+					"filename": "Tengu017.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 57,
+						"h": 59
+					},
+					"spriteSourceSize": {
+						"x": 36,
+						"y": 33,
+						"w": 57,
+						"h": 59
+					},
+					"frame": {
+						"x": 1,
+						"y": 508,
+						"w": 57,
+						"h": 59
+					}
+				},
+				{
+					"filename": "yamamba_9.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 45,
+						"h": 49
+					},
+					"spriteSourceSize": {
+						"x": 43,
+						"y": 42,
+						"w": 45,
+						"h": 49
+					},
+					"frame": {
+						"x": 60,
+						"y": 541,
+						"w": 45,
+						"h": 49
+					}
+				},
+				{
+					"filename": "Tengu021.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 57,
+						"h": 55
+					},
+					"spriteSourceSize": {
+						"x": 36,
+						"y": 36,
+						"w": 57,
+						"h": 55
+					},
+					"frame": {
+						"x": 1,
+						"y": 569,
+						"w": 57,
+						"h": 55
+					}
+				},
+				{
+					"filename": "Gash_arm_i04.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 57,
+						"h": 51
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 2,
+						"w": 57,
+						"h": 51
+					},
+					"frame": {
+						"x": 932,
+						"y": 232,
+						"w": 57,
+						"h": 51
+					}
+				},
+				{
+					"filename": "onna_10.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 32,
+						"h": 40
+					},
+					"spriteSourceSize": {
+						"x": 5,
+						"y": 0,
+						"w": 32,
+						"h": 40
+					},
+					"frame": {
+						"x": 991,
+						"y": 232,
+						"w": 32,
+						"h": 40
+					}
+				},
+				{
+					"filename": "onna_11.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 32,
+						"h": 40
+					},
+					"spriteSourceSize": {
+						"x": 5,
+						"y": 0,
+						"w": 32,
+						"h": 40
+					},
+					"frame": {
+						"x": 991,
+						"y": 232,
+						"w": 32,
+						"h": 40
+					}
+				},
+				{
+					"filename": "yamamba2_4.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 32,
+						"h": 39
+					},
+					"spriteSourceSize": {
+						"x": 47,
+						"y": 47,
+						"w": 32,
+						"h": 39
+					},
+					"frame": {
+						"x": 991,
+						"y": 274,
+						"w": 32,
+						"h": 39
+					}
+				},
+				{
+					"filename": "Gash_arm_i05.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 57,
+						"h": 48
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 6,
+						"w": 57,
+						"h": 48
+					},
+					"frame": {
+						"x": 839,
+						"y": 242,
+						"w": 57,
+						"h": 48
+					}
+				},
+				{
+					"filename": "vanCharged_01.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 32,
+						"h": 35
+					},
+					"spriteSourceSize": {
+						"x": 2,
+						"y": 0,
+						"w": 32,
+						"h": 35
+					},
+					"frame": {
+						"x": 898,
+						"y": 242,
+						"w": 32,
+						"h": 35
+					}
+				},
+				{
+					"filename": "vanCharged_02.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 32,
+						"h": 35
+					},
+					"spriteSourceSize": {
+						"x": 2,
+						"y": 0,
+						"w": 32,
+						"h": 35
+					},
+					"frame": {
+						"x": 898,
+						"y": 279,
+						"w": 32,
+						"h": 35
+					}
+				},
+				{
+					"filename": "mikoshinyudo008.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 56,
+						"h": 58
+					},
+					"spriteSourceSize": {
+						"x": 37,
+						"y": 34,
+						"w": 56,
+						"h": 58
+					},
+					"frame": {
+						"x": 932,
+						"y": 285,
+						"w": 56,
+						"h": 58
+					}
+				},
+				{
+					"filename": "yamamba2_7.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 33,
+						"h": 41
+					},
+					"spriteSourceSize": {
+						"x": 47,
+						"y": 47,
+						"w": 33,
+						"h": 41
+					},
+					"frame": {
+						"x": 990,
+						"y": 315,
+						"w": 33,
+						"h": 41
+					}
+				},
+				{
+					"filename": "oni_wind_0.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 56,
+						"h": 57
+					},
+					"spriteSourceSize": {
+						"x": 38,
+						"y": 38,
+						"w": 56,
+						"h": 57
+					},
+					"frame": {
+						"x": 749,
+						"y": 266,
+						"w": 56,
+						"h": 57
+					}
+				},
+				{
+					"filename": "Gabet_i01.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 30,
+						"h": 30
+					},
+					"spriteSourceSize": {
+						"x": 2,
+						"y": 2,
+						"w": 30,
+						"h": 30
+					},
+					"frame": {
+						"x": 807,
+						"y": 266,
+						"w": 30,
+						"h": 30
+					}
+				},
+				{
+					"filename": "Tengu000.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 56,
+						"h": 55
+					},
+					"spriteSourceSize": {
+						"x": 39,
+						"y": 42,
+						"w": 56,
+						"h": 55
+					},
+					"frame": {
+						"x": 839,
+						"y": 292,
+						"w": 56,
+						"h": 55
+					}
+				},
+				{
+					"filename": "onna_09.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 33,
+						"h": 40
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 0,
+						"w": 33,
+						"h": 40
+					},
+					"frame": {
+						"x": 897,
+						"y": 316,
+						"w": 33,
+						"h": 40
+					}
+				},
+				{
+					"filename": "hitotsumekozo_i03.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 30,
+						"h": 30
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 2,
+						"w": 30,
+						"h": 30
+					},
+					"frame": {
+						"x": 807,
+						"y": 298,
+						"w": 30,
+						"h": 30
+					}
+				},
+				{
+					"filename": "Gash_arm_i03.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 55,
+						"h": 54
+					},
+					"spriteSourceSize": {
+						"x": 3,
+						"y": 3,
+						"w": 55,
+						"h": 54
+					},
+					"frame": {
+						"x": 932,
+						"y": 345,
+						"w": 55,
+						"h": 54
+					}
+				},
+				{
+					"filename": "mikoshinyudo_i04.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 34,
+						"h": 35
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 1,
+						"w": 34,
+						"h": 35
+					},
+					"frame": {
+						"x": 989,
+						"y": 358,
+						"w": 34,
+						"h": 35
+					}
+				},
+				{
+					"filename": "vadBeast_01.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 34,
+						"h": 35
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 0,
+						"w": 34,
+						"h": 35
+					},
+					"frame": {
+						"x": 989,
+						"y": 395,
+						"w": 34,
+						"h": 35
+					}
+				},
+				{
+					"filename": "tsuchigumo002.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 55,
+						"h": 48
+					},
+					"spriteSourceSize": {
+						"x": 40,
+						"y": 41,
+						"w": 55,
+						"h": 48
+					},
+					"frame": {
+						"x": 660,
+						"y": 290,
+						"w": 55,
+						"h": 48
+					}
+				},
+				{
+					"filename": "kappa_i01.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 30,
+						"h": 30
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 2,
+						"w": 30,
+						"h": 30
+					},
+					"frame": {
+						"x": 717,
+						"y": 290,
+						"w": 30,
+						"h": 30
+					}
+				},
+				{
+					"filename": "hitotsumekozo_i02.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 30,
+						"h": 29
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 3,
+						"w": 30,
+						"h": 29
+					},
+					"frame": {
+						"x": 717,
+						"y": 322,
+						"w": 30,
+						"h": 29
+					}
+				},
+				{
+					"filename": "mikoshinyudo007.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 54,
+						"h": 57
+					},
+					"spriteSourceSize": {
+						"x": 38,
+						"y": 34,
+						"w": 54,
+						"h": 57
+					},
+					"frame": {
+						"x": 660,
+						"y": 340,
+						"w": 54,
+						"h": 57
+					}
+				},
+				{
+					"filename": "mikoshinyudo006.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 54,
+						"h": 54
+					},
+					"spriteSourceSize": {
+						"x": 39,
+						"y": 35,
+						"w": 54,
+						"h": 54
+					},
+					"frame": {
+						"x": 749,
+						"y": 325,
+						"w": 54,
+						"h": 54
+					}
+				},
+				{
+					"filename": "yamamba2_10.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 31,
+						"h": 43
+					},
+					"spriteSourceSize": {
+						"x": 49,
+						"y": 46,
+						"w": 31,
+						"h": 43
+					},
+					"frame": {
+						"x": 716,
+						"y": 353,
+						"w": 31,
+						"h": 43
+					}
+				},
+				{
+					"filename": "vanCharged_03.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 32,
+						"h": 35
+					},
+					"spriteSourceSize": {
+						"x": 2,
+						"y": 0,
+						"w": 32,
+						"h": 35
+					},
+					"frame": {
+						"x": 805,
+						"y": 330,
+						"w": 32,
+						"h": 35
+					}
+				},
+				{
+					"filename": "Gash_arm_i02.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 54,
+						"h": 53
+					},
+					"spriteSourceSize": {
+						"x": 6,
+						"y": 5,
+						"w": 54,
+						"h": 53
+					},
+					"frame": {
+						"x": 839,
+						"y": 349,
+						"w": 54,
+						"h": 53
+					}
+				},
+				{
+					"filename": "yamamba_12.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 35,
+						"h": 46
+					},
+					"spriteSourceSize": {
+						"x": 44,
+						"y": 46,
+						"w": 35,
+						"h": 46
+					},
+					"frame": {
+						"x": 895,
+						"y": 358,
+						"w": 35,
+						"h": 46
+					}
+				},
+				{
+					"filename": "vanCharged_04.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 32,
+						"h": 35
+					},
+					"spriteSourceSize": {
+						"x": 2,
+						"y": 0,
+						"w": 32,
+						"h": 35
+					},
+					"frame": {
+						"x": 805,
+						"y": 367,
+						"w": 32,
+						"h": 35
+					}
+				},
+				{
+					"filename": "Gash_arm_i01.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 54,
+						"h": 51
+					},
+					"spriteSourceSize": {
+						"x": 5,
+						"y": 6,
+						"w": 54,
+						"h": 51
+					},
+					"frame": {
+						"x": 749,
+						"y": 381,
+						"w": 54,
+						"h": 51
+					}
+				},
+				{
+					"filename": "yamamba2_8.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 31,
+						"h": 42
+					},
+					"spriteSourceSize": {
+						"x": 49,
+						"y": 46,
+						"w": 31,
+						"h": 42
+					},
+					"frame": {
+						"x": 716,
+						"y": 398,
+						"w": 31,
+						"h": 42
+					}
+				},
+				{
+					"filename": "oni2_i04.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 54,
+						"h": 46
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 8,
+						"w": 54,
+						"h": 46
+					},
+					"frame": {
+						"x": 932,
+						"y": 401,
+						"w": 54,
+						"h": 46
+					}
+				},
+				{
+					"filename": "oni2_14.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 35,
+						"h": 42
+					},
+					"spriteSourceSize": {
+						"x": 53,
+						"y": 47,
+						"w": 35,
+						"h": 42
+					},
+					"frame": {
+						"x": 988,
+						"y": 432,
+						"w": 35,
+						"h": 42
+					}
+				},
+				{
+					"filename": "oni_i04.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 54,
+						"h": 46
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 8,
+						"w": 54,
+						"h": 46
+					},
+					"frame": {
+						"x": 583,
+						"y": 343,
+						"w": 54,
+						"h": 46
+					}
+				},
+				{
+					"filename": "mikoshinyudo015.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 53,
+						"h": 61
+					},
+					"spriteSourceSize": {
+						"x": 43,
+						"y": 33,
+						"w": 53,
+						"h": 61
+					},
+					"frame": {
+						"x": 515,
+						"y": 373,
+						"w": 53,
+						"h": 61
+					}
+				},
+				{
+					"filename": "Tengu018.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 53,
+						"h": 59
+					},
+					"spriteSourceSize": {
+						"x": 39,
+						"y": 33,
+						"w": 53,
+						"h": 59
+					},
+					"frame": {
+						"x": 805,
+						"y": 404,
+						"w": 53,
+						"h": 59
+					}
+				},
+				{
+					"filename": "yamamba2_5.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 33,
+						"h": 40
+					},
+					"spriteSourceSize": {
+						"x": 47,
+						"y": 47,
+						"w": 33,
+						"h": 40
+					},
+					"frame": {
+						"x": 860,
+						"y": 404,
+						"w": 33,
+						"h": 40
+					}
+				},
+				{
+					"filename": "yamamba2_2.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 35,
+						"h": 37
+					},
+					"spriteSourceSize": {
+						"x": 48,
+						"y": 48,
+						"w": 35,
+						"h": 37
+					},
+					"frame": {
+						"x": 895,
+						"y": 406,
+						"w": 35,
+						"h": 37
+					}
+				},
+				{
+					"filename": "yamamba_1.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 35,
+						"h": 37
+					},
+					"spriteSourceSize": {
+						"x": 47,
+						"y": 47,
+						"w": 35,
+						"h": 37
+					},
+					"frame": {
+						"x": 895,
+						"y": 445,
+						"w": 35,
+						"h": 37
+					}
+				},
+				{
+					"filename": "yamamba2_1.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 33,
+						"h": 36
+					},
+					"spriteSourceSize": {
+						"x": 49,
+						"y": 48,
+						"w": 33,
+						"h": 36
+					},
+					"frame": {
+						"x": 860,
+						"y": 446,
+						"w": 33,
+						"h": 36
+					}
+				},
+				{
+					"filename": "oni2_i03.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 53,
+						"h": 47
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 7,
+						"w": 53,
+						"h": 47
+					},
+					"frame": {
+						"x": 932,
+						"y": 449,
+						"w": 53,
+						"h": 47
+					}
+				},
+				{
+					"filename": "onna_19.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 36,
+						"h": 33
+					},
+					"spriteSourceSize": {
+						"x": 8,
+						"y": 7,
+						"w": 36,
+						"h": 33
+					},
+					"frame": {
+						"x": 987,
+						"y": 476,
+						"w": 36,
+						"h": 33
+					}
+				},
+				{
+					"filename": "onna_20.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 36,
+						"h": 33
+					},
+					"spriteSourceSize": {
+						"x": 8,
+						"y": 7,
+						"w": 36,
+						"h": 33
+					},
+					"frame": {
+						"x": 987,
+						"y": 476,
+						"w": 36,
+						"h": 33
+					}
+				},
+				{
+					"filename": "oni_i03.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 53,
+						"h": 47
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 7,
+						"w": 53,
+						"h": 47
+					},
+					"frame": {
+						"x": 749,
+						"y": 434,
+						"w": 53,
+						"h": 47
+					}
+				},
+				{
+					"filename": "tsuchigumo000.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 53,
+						"h": 47
+					},
+					"spriteSourceSize": {
+						"x": 40,
+						"y": 46,
+						"w": 53,
+						"h": 47
+					},
+					"frame": {
+						"x": 804,
+						"y": 465,
+						"w": 53,
+						"h": 47
+					}
+				},
+				{
+					"filename": "mikoshinyudo017.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 53,
+						"h": 43
+					},
+					"spriteSourceSize": {
+						"x": 45,
+						"y": 38,
+						"w": 53,
+						"h": 43
+					},
+					"frame": {
+						"x": 859,
+						"y": 484,
+						"w": 53,
+						"h": 43
+					}
+				},
+				{
+					"filename": "mikoshinyudo020.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 53,
+						"h": 42
+					},
+					"spriteSourceSize": {
+						"x": 46,
+						"y": 38,
+						"w": 53,
+						"h": 42
+					},
+					"frame": {
+						"x": 914,
+						"y": 498,
+						"w": 53,
+						"h": 42
+					}
+				},
+				{
+					"filename": "mikoshinyudo021.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 53,
+						"h": 42
+					},
+					"spriteSourceSize": {
+						"x": 46,
+						"y": 38,
+						"w": 53,
+						"h": 42
+					},
+					"frame": {
+						"x": 969,
+						"y": 511,
+						"w": 53,
+						"h": 42
+					}
+				},
+				{
+					"filename": "mikoshinyudo019.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 53,
+						"h": 41
+					},
+					"spriteSourceSize": {
+						"x": 46,
+						"y": 39,
+						"w": 53,
+						"h": 41
+					},
+					"frame": {
+						"x": 570,
+						"y": 391,
+						"w": 53,
+						"h": 41
+					}
+				},
+				{
+					"filename": "mikoshinyudo_i03.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 33,
+						"h": 35
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 1,
+						"w": 33,
+						"h": 35
+					},
+					"frame": {
+						"x": 625,
+						"y": 391,
+						"w": 33,
+						"h": 35
+					}
+				},
+				{
+					"filename": "tsuchigumo026.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 53,
+						"h": 26
+					},
+					"spriteSourceSize": {
+						"x": 38,
+						"y": 39,
+						"w": 53,
+						"h": 26
+					},
+					"frame": {
+						"x": 660,
+						"y": 399,
+						"w": 53,
+						"h": 26
+					}
+				},
+				{
+					"filename": "Tengu_i02.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 52,
+						"h": 52
+					},
+					"spriteSourceSize": {
+						"x": 3,
+						"y": 4,
+						"w": 52,
+						"h": 52
+					},
+					"frame": {
+						"x": 660,
+						"y": 427,
+						"w": 52,
+						"h": 52
+					}
+				},
+				{
+					"filename": "yamamba_0.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 33,
+						"h": 35
+					},
+					"spriteSourceSize": {
+						"x": 48,
+						"y": 48,
+						"w": 33,
+						"h": 35
+					},
+					"frame": {
+						"x": 714,
+						"y": 442,
+						"w": 33,
+						"h": 35
+					}
+				},
+				{
+					"filename": "mia_03.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 33,
+						"h": 34
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 0,
+						"w": 33,
+						"h": 34
+					},
+					"frame": {
+						"x": 714,
+						"y": 479,
+						"w": 33,
+						"h": 34
+					}
+				},
+				{
+					"filename": "mikoshinyudo_i02.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 33,
+						"h": 34
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 2,
+						"w": 33,
+						"h": 34
+					},
+					"frame": {
+						"x": 625,
+						"y": 428,
+						"w": 33,
+						"h": 34
+					}
+				},
+				{
+					"filename": "Tengu_i01.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 52,
+						"h": 51
+					},
+					"spriteSourceSize": {
+						"x": 2,
+						"y": 5,
+						"w": 52,
+						"h": 51
+					},
+					"frame": {
+						"x": 749,
+						"y": 483,
+						"w": 52,
+						"h": 51
+					}
+				},
+				{
+					"filename": "oni2_8.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 52,
+						"h": 51
+					},
+					"spriteSourceSize": {
+						"x": 39,
+						"y": 44,
+						"w": 52,
+						"h": 51
+					},
+					"frame": {
+						"x": 570,
+						"y": 434,
+						"w": 52,
+						"h": 51
+					}
+				},
+				{
+					"filename": "vadBeast_02.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 34,
+						"h": 35
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 0,
+						"w": 34,
+						"h": 35
+					},
+					"frame": {
+						"x": 624,
+						"y": 464,
+						"w": 34,
+						"h": 35
+					}
+				},
+				{
+					"filename": "McCoy_i03.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 52,
+						"h": 50
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 2,
+						"w": 52,
+						"h": 50
+					},
+					"frame": {
+						"x": 660,
+						"y": 481,
+						"w": 52,
+						"h": 50
+					}
+				},
+				{
+					"filename": "E_0.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 33,
+						"h": 33
+					},
+					"spriteSourceSize": {
+						"x": 6,
+						"y": 15,
+						"w": 33,
+						"h": 33
+					},
+					"frame": {
+						"x": 714,
+						"y": 515,
+						"w": 33,
+						"h": 33
+					}
+				},
+				{
+					"filename": "E_i01.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 33,
+						"h": 33
+					},
+					"spriteSourceSize": {
+						"x": 6,
+						"y": 15,
+						"w": 33,
+						"h": 33
+					},
+					"frame": {
+						"x": 714,
+						"y": 515,
+						"w": 33,
+						"h": 33
+					}
+				},
+				{
+					"filename": "McCoy_i04.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 52,
+						"h": 50
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 2,
+						"w": 52,
+						"h": 50
+					},
+					"frame": {
+						"x": 803,
+						"y": 514,
+						"w": 52,
+						"h": 50
+					}
+				},
+				{
+					"filename": "Tanuki_i03.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 52,
+						"h": 50
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 2,
+						"w": 52,
+						"h": 50
+					},
+					"frame": {
+						"x": 749,
+						"y": 536,
+						"w": 52,
+						"h": 50
+					}
+				},
+				{
+					"filename": "Tanuki_i04.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 52,
+						"h": 50
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 2,
+						"w": 52,
+						"h": 50
+					},
+					"frame": {
+						"x": 857,
+						"y": 529,
+						"w": 52,
+						"h": 50
+					}
+				},
+				{
+					"filename": "oni2_2.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 52,
+						"h": 50
+					},
+					"spriteSourceSize": {
+						"x": 39,
+						"y": 44,
+						"w": 52,
+						"h": 50
+					},
+					"frame": {
+						"x": 803,
+						"y": 566,
+						"w": 52,
+						"h": 50
+					}
+				},
+				{
+					"filename": "oni_3.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 52,
+						"h": 50
+					},
+					"spriteSourceSize": {
+						"x": 39,
+						"y": 44,
+						"w": 52,
+						"h": 50
+					},
+					"frame": {
+						"x": 911,
+						"y": 542,
+						"w": 52,
+						"h": 50
+					}
+				},
+				{
+					"filename": "McCoy_i01.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 52,
+						"h": 49
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 3,
+						"w": 52,
+						"h": 49
+					},
+					"frame": {
+						"x": 857,
+						"y": 581,
+						"w": 52,
+						"h": 49
+					}
+				},
+				{
+					"filename": "McCoy_i02.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 52,
+						"h": 49
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 3,
+						"w": 52,
+						"h": 49
+					},
+					"frame": {
+						"x": 965,
+						"y": 555,
+						"w": 52,
+						"h": 49
+					}
+				},
+				{
+					"filename": "McCoy_i05.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 52,
+						"h": 49
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 3,
+						"w": 52,
+						"h": 49
+					},
+					"frame": {
+						"x": 911,
+						"y": 594,
+						"w": 52,
+						"h": 49
+					}
+				},
+				{
+					"filename": "Tanuki_i01.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 52,
+						"h": 49
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 3,
+						"w": 52,
+						"h": 49
+					},
+					"frame": {
+						"x": 965,
+						"y": 606,
+						"w": 52,
+						"h": 49
+					}
+				},
+				{
+					"filename": "Tanuki_i02.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 52,
+						"h": 49
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 3,
+						"w": 52,
+						"h": 49
+					},
+					"frame": {
+						"x": 332,
+						"y": 366,
+						"w": 52,
+						"h": 49
+					}
+				},
+				{
+					"filename": "Tanuki_i05.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 52,
+						"h": 49
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 3,
+						"w": 52,
+						"h": 49
+					},
+					"frame": {
+						"x": 386,
+						"y": 366,
+						"w": 52,
+						"h": 49
+					}
+				},
+				{
+					"filename": "mikoshinyudo018.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 52,
+						"h": 49
+					},
+					"spriteSourceSize": {
+						"x": 46,
+						"y": 32,
+						"w": 52,
+						"h": 49
+					},
+					"frame": {
+						"x": 440,
+						"y": 392,
+						"w": 52,
+						"h": 49
+					}
+				},
+				{
+					"filename": "oni2_i02.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 52,
+						"h": 48
+					},
+					"spriteSourceSize": {
+						"x": 2,
+						"y": 6,
+						"w": 52,
+						"h": 48
+					},
+					"frame": {
+						"x": 494,
+						"y": 436,
+						"w": 52,
+						"h": 48
+					}
+				},
+				{
+					"filename": "oni_i02.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 52,
+						"h": 48
+					},
+					"spriteSourceSize": {
+						"x": 2,
+						"y": 6,
+						"w": 52,
+						"h": 48
+					},
+					"frame": {
+						"x": 332,
+						"y": 417,
+						"w": 52,
+						"h": 48
+					}
+				},
+				{
+					"filename": "tsuchigumo001.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 52,
+						"h": 48
+					},
+					"spriteSourceSize": {
+						"x": 41,
+						"y": 43,
+						"w": 52,
+						"h": 48
+					},
+					"frame": {
+						"x": 386,
+						"y": 417,
+						"w": 52,
+						"h": 48
+					}
+				},
+				{
+					"filename": "oni2_i05.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 52,
+						"h": 47
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 7,
+						"w": 52,
+						"h": 47
+					},
+					"frame": {
+						"x": 440,
+						"y": 443,
+						"w": 52,
+						"h": 47
+					}
+				},
+				{
+					"filename": "oni_i05.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 52,
+						"h": 47
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 7,
+						"w": 52,
+						"h": 47
+					},
+					"frame": {
+						"x": 272,
+						"y": 448,
+						"w": 52,
+						"h": 47
+					}
+				},
+				{
+					"filename": "yamamba_10.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 42,
+						"h": 50
+					},
+					"spriteSourceSize": {
+						"x": 43,
+						"y": 41,
+						"w": 42,
+						"h": 50
+					},
+					"frame": {
+						"x": 227,
+						"y": 454,
+						"w": 42,
+						"h": 50
+					}
+				},
+				{
+					"filename": "mikoshinyudo005.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 51,
+						"h": 53
+					},
+					"spriteSourceSize": {
+						"x": 41,
+						"y": 35,
+						"w": 51,
+						"h": 53
+					},
+					"frame": {
+						"x": 166,
+						"y": 500,
+						"w": 51,
+						"h": 53
+					}
+				},
+				{
+					"filename": "oni2_5.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 51,
+						"h": 52
+					},
+					"spriteSourceSize": {
+						"x": 39,
+						"y": 43,
+						"w": 51,
+						"h": 52
+					},
+					"frame": {
+						"x": 494,
+						"y": 486,
+						"w": 51,
+						"h": 52
+					}
+				},
+				{
+					"filename": "oni2_3.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 51,
+						"h": 51
+					},
+					"spriteSourceSize": {
+						"x": 39,
+						"y": 43,
+						"w": 51,
+						"h": 51
+					},
+					"frame": {
+						"x": 547,
+						"y": 487,
+						"w": 51,
+						"h": 51
+					}
+				},
+				{
+					"filename": "oni2_4.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 51,
+						"h": 51
+					},
+					"spriteSourceSize": {
+						"x": 39,
+						"y": 43,
+						"w": 51,
+						"h": 51
+					},
+					"frame": {
+						"x": 600,
+						"y": 501,
+						"w": 51,
+						"h": 51
+					}
+				},
+				{
+					"filename": "oni_4.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 51,
+						"h": 51
+					},
+					"spriteSourceSize": {
+						"x": 39,
+						"y": 43,
+						"w": 51,
+						"h": 51
+					},
+					"frame": {
+						"x": 653,
+						"y": 533,
+						"w": 51,
+						"h": 51
+					}
+				},
+				{
+					"filename": "Gash_head_i02.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 39,
+						"h": 54
+					},
+					"spriteSourceSize": {
+						"x": 8,
+						"y": 0,
+						"w": 39,
+						"h": 54
+					},
+					"frame": {
+						"x": 706,
+						"y": 550,
+						"w": 39,
+						"h": 54
+					}
+				},
+				{
+					"filename": "oni_5.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 51,
+						"h": 51
+					},
+					"spriteSourceSize": {
+						"x": 39,
+						"y": 43,
+						"w": 51,
+						"h": 51
+					},
+					"frame": {
+						"x": 747,
+						"y": 588,
+						"w": 51,
+						"h": 51
+					}
+				},
+				{
+					"filename": "oni_6.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 51,
+						"h": 51
+					},
+					"spriteSourceSize": {
+						"x": 39,
+						"y": 44,
+						"w": 51,
+						"h": 51
+					},
+					"frame": {
+						"x": 800,
+						"y": 618,
+						"w": 51,
+						"h": 51
+					}
+				},
+				{
+					"filename": "oni_wind_29.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 51,
+						"h": 51
+					},
+					"spriteSourceSize": {
+						"x": 40,
+						"y": 41,
+						"w": 51,
+						"h": 51
+					},
+					"frame": {
+						"x": 853,
+						"y": 632,
+						"w": 51,
+						"h": 51
+					}
+				},
+				{
+					"filename": "oni_wind_i03.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 51,
+						"h": 51
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 1,
+						"w": 51,
+						"h": 51
+					},
+					"frame": {
+						"x": 906,
+						"y": 645,
+						"w": 51,
+						"h": 51
+					}
+				},
+				{
+					"filename": "oni_wind_i04.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 51,
+						"h": 51
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 1,
+						"w": 51,
+						"h": 51
+					},
+					"frame": {
+						"x": 959,
+						"y": 657,
+						"w": 51,
+						"h": 51
+					}
+				},
+				{
+					"filename": "oni_1.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 51,
+						"h": 50
+					},
+					"spriteSourceSize": {
+						"x": 40,
+						"y": 44,
+						"w": 51,
+						"h": 50
+					},
+					"frame": {
+						"x": 326,
+						"y": 467,
+						"w": 51,
+						"h": 50
+					}
+				},
+				{
+					"filename": "oni_2.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 51,
+						"h": 50
+					},
+					"spriteSourceSize": {
+						"x": 40,
+						"y": 44,
+						"w": 51,
+						"h": 50
+					},
+					"frame": {
+						"x": 271,
+						"y": 497,
+						"w": 51,
+						"h": 50
+					}
+				},
+				{
+					"filename": "Tengu_i03.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 50,
+						"h": 54
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 2,
+						"w": 50,
+						"h": 54
+					},
+					"frame": {
+						"x": 219,
+						"y": 506,
+						"w": 50,
+						"h": 54
+					}
+				},
+				{
+					"filename": "oni_wind_i01.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 51,
+						"h": 50
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 2,
+						"w": 51,
+						"h": 50
+					},
+					"frame": {
+						"x": 166,
+						"y": 555,
+						"w": 51,
+						"h": 50
+					}
+				},
+				{
+					"filename": "oni_wind_i02.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 51,
+						"h": 50
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 2,
+						"w": 51,
+						"h": 50
+					},
+					"frame": {
+						"x": 107,
+						"y": 561,
+						"w": 51,
+						"h": 50
+					}
+				},
+				{
+					"filename": "yamamba_7.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 45,
+						"h": 48
+					},
+					"spriteSourceSize": {
+						"x": 42,
+						"y": 42,
+						"w": 45,
+						"h": 48
+					},
+					"frame": {
+						"x": 60,
+						"y": 592,
+						"w": 45,
+						"h": 48
+					}
+				},
+				{
+					"filename": "oni2_0.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 51,
+						"h": 49
+					},
+					"spriteSourceSize": {
+						"x": 40,
+						"y": 44,
+						"w": 51,
+						"h": 49
+					},
+					"frame": {
+						"x": 1,
+						"y": 626,
+						"w": 51,
+						"h": 49
+					}
+				},
+				{
+					"filename": "oni2_1.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 51,
+						"h": 49
+					},
+					"spriteSourceSize": {
+						"x": 40,
+						"y": 44,
+						"w": 51,
+						"h": 49
+					},
+					"frame": {
+						"x": 379,
+						"y": 467,
+						"w": 51,
+						"h": 49
+					}
+				},
+				{
+					"filename": "oni_0.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 51,
+						"h": 49
+					},
+					"spriteSourceSize": {
+						"x": 40,
+						"y": 44,
+						"w": 51,
+						"h": 49
+					},
+					"frame": {
+						"x": 432,
+						"y": 492,
+						"w": 51,
+						"h": 49
+					}
+				},
+				{
+					"filename": "oni2_i01.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 51,
+						"h": 48
+					},
+					"spriteSourceSize": {
+						"x": 2,
+						"y": 6,
+						"w": 51,
+						"h": 48
+					},
+					"frame": {
+						"x": 379,
+						"y": 518,
+						"w": 51,
+						"h": 48
+					}
+				},
+				{
+					"filename": "oni_i01.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 51,
+						"h": 48
+					},
+					"spriteSourceSize": {
+						"x": 2,
+						"y": 6,
+						"w": 51,
+						"h": 48
+					},
+					"frame": {
+						"x": 324,
+						"y": 519,
+						"w": 51,
+						"h": 48
+					}
+				},
+				{
+					"filename": "Tengu_i05.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 50,
+						"h": 53
+					},
+					"spriteSourceSize": {
+						"x": 3,
+						"y": 3,
+						"w": 50,
+						"h": 53
+					},
+					"frame": {
+						"x": 271,
+						"y": 549,
+						"w": 50,
+						"h": 53
+					}
+				},
+				{
+					"filename": "oni2_6.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 50,
+						"h": 52
+					},
+					"spriteSourceSize": {
+						"x": 39,
+						"y": 43,
+						"w": 50,
+						"h": 52
+					},
+					"frame": {
+						"x": 219,
+						"y": 562,
+						"w": 50,
+						"h": 52
+					}
+				},
+				{
+					"filename": "oni_9.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 50,
+						"h": 52
+					},
+					"spriteSourceSize": {
+						"x": 39,
+						"y": 43,
+						"w": 50,
+						"h": 52
+					},
+					"frame": {
+						"x": 160,
+						"y": 607,
+						"w": 50,
+						"h": 52
+					}
+				},
+				{
+					"filename": "oni2_10.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 50,
+						"h": 51
+					},
+					"spriteSourceSize": {
+						"x": 38,
+						"y": 44,
+						"w": 50,
+						"h": 51
+					},
+					"frame": {
+						"x": 107,
+						"y": 613,
+						"w": 50,
+						"h": 51
+					}
+				},
+				{
+					"filename": "oni2_7.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 50,
+						"h": 51
+					},
+					"spriteSourceSize": {
+						"x": 39,
+						"y": 44,
+						"w": 50,
+						"h": 51
+					},
+					"frame": {
+						"x": 54,
+						"y": 642,
+						"w": 50,
+						"h": 51
+					}
+				},
+				{
+					"filename": "oni2_9.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 50,
+						"h": 51
+					},
+					"spriteSourceSize": {
+						"x": 41,
+						"y": 44,
+						"w": 50,
+						"h": 51
+					},
+					"frame": {
+						"x": 1,
+						"y": 677,
+						"w": 50,
+						"h": 51
+					}
+				},
+				{
+					"filename": "oni_7.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 50,
+						"h": 51
+					},
+					"spriteSourceSize": {
+						"x": 39,
+						"y": 44,
+						"w": 50,
+						"h": 51
+					},
+					"frame": {
+						"x": 485,
+						"y": 540,
+						"w": 50,
+						"h": 51
+					}
+				},
+				{
+					"filename": "oni_8.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 50,
+						"h": 51
+					},
+					"spriteSourceSize": {
+						"x": 39,
+						"y": 44,
+						"w": 50,
+						"h": 51
+					},
+					"frame": {
+						"x": 432,
+						"y": 543,
+						"w": 50,
+						"h": 51
+					}
+				},
+				{
+					"filename": "mikoshinyudo004.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 50,
+						"h": 50
+					},
+					"spriteSourceSize": {
+						"x": 42,
+						"y": 37,
+						"w": 50,
+						"h": 50
+					},
+					"frame": {
+						"x": 377,
+						"y": 568,
+						"w": 50,
+						"h": 50
+					}
+				},
+				{
+					"filename": "oni_10.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 49,
+						"h": 52
+					},
+					"spriteSourceSize": {
+						"x": 40,
+						"y": 43,
+						"w": 49,
+						"h": 52
+					},
+					"frame": {
+						"x": 323,
+						"y": 569,
+						"w": 49,
+						"h": 52
+					}
+				},
+				{
+					"filename": "tsuchigumo_i03.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 48,
+						"h": 45
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 3,
+						"w": 48,
+						"h": 45
+					},
+					"frame": {
+						"x": 271,
+						"y": 604,
+						"w": 48,
+						"h": 45
+					}
+				},
+				{
+					"filename": "tsuchigumo_i04.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 48,
+						"h": 45
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 3,
+						"w": 48,
+						"h": 45
+					},
+					"frame": {
+						"x": 212,
+						"y": 616,
+						"w": 48,
+						"h": 45
+					}
+				},
+				{
+					"filename": "tsuchigumo_i02.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 48,
+						"h": 44
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 4,
+						"w": 48,
+						"h": 44
+					},
+					"frame": {
+						"x": 159,
+						"y": 661,
+						"w": 48,
+						"h": 44
+					}
+				},
+				{
+					"filename": "tsuchigumo_i01.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 48,
+						"h": 43
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 5,
+						"w": 48,
+						"h": 43
+					},
+					"frame": {
+						"x": 106,
+						"y": 666,
+						"w": 48,
+						"h": 43
+					}
+				},
+				{
+					"filename": "oni_11.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 47,
+						"h": 52
+					},
+					"spriteSourceSize": {
+						"x": 42,
+						"y": 43,
+						"w": 47,
+						"h": 52
+					},
+					"frame": {
+						"x": 53,
+						"y": 695,
+						"w": 47,
+						"h": 52
+					}
+				},
+				{
+					"filename": "yamamba_11.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 47,
+						"h": 51
+					},
+					"spriteSourceSize": {
+						"x": 42,
+						"y": 41,
+						"w": 47,
+						"h": 51
+					},
+					"frame": {
+						"x": 1,
+						"y": 730,
+						"w": 47,
+						"h": 51
+					}
+				},
+				{
+					"filename": "oni_12.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 47,
+						"h": 50
+					},
+					"spriteSourceSize": {
+						"x": 42,
+						"y": 43,
+						"w": 47,
+						"h": 50
+					},
+					"frame": {
+						"x": 537,
+						"y": 540,
+						"w": 47,
+						"h": 50
+					}
+				},
+				{
+					"filename": "mikoshinyudo003.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 47,
+						"h": 47
+					},
+					"spriteSourceSize": {
+						"x": 44,
+						"y": 40,
+						"w": 47,
+						"h": 47
+					},
+					"frame": {
+						"x": 586,
+						"y": 554,
+						"w": 47,
+						"h": 47
+					}
+				},
+				{
+					"filename": "oni_13.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 47,
+						"h": 45
+					},
+					"spriteSourceSize": {
+						"x": 42,
+						"y": 43,
+						"w": 47,
+						"h": 45
+					},
+					"frame": {
+						"x": 537,
+						"y": 592,
+						"w": 47,
+						"h": 45
+					}
+				},
+				{
+					"filename": "oni_14.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 47,
+						"h": 33
+					},
+					"spriteSourceSize": {
+						"x": 42,
+						"y": 48,
+						"w": 47,
+						"h": 33
+					},
+					"frame": {
+						"x": 484,
+						"y": 593,
+						"w": 47,
+						"h": 33
+					}
+				},
+				{
+					"filename": "oni2_11.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 46,
+						"h": 49
+					},
+					"spriteSourceSize": {
+						"x": 42,
+						"y": 44,
+						"w": 46,
+						"h": 49
+					},
+					"frame": {
+						"x": 429,
+						"y": 596,
+						"w": 46,
+						"h": 49
+					}
+				},
+				{
+					"filename": "yamamba_8.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 46,
+						"h": 48
+					},
+					"spriteSourceSize": {
+						"x": 41,
+						"y": 42,
+						"w": 46,
+						"h": 48
+					},
+					"frame": {
+						"x": 374,
+						"y": 620,
+						"w": 46,
+						"h": 48
+					}
+				},
+				{
+					"filename": "oni2_12.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 46,
+						"h": 47
+					},
+					"spriteSourceSize": {
+						"x": 42,
+						"y": 44,
+						"w": 46,
+						"h": 47
+					},
+					"frame": {
+						"x": 321,
+						"y": 623,
+						"w": 46,
+						"h": 47
+					}
+				},
+				{
+					"filename": "oni2_13.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 45,
+						"h": 45
+					},
+					"spriteSourceSize": {
+						"x": 43,
+						"y": 44,
+						"w": 45,
+						"h": 45
+					},
+					"frame": {
+						"x": 262,
+						"y": 651,
+						"w": 45,
+						"h": 45
+					}
+				},
+				{
+					"filename": "mikoshinyudo002.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 45,
+						"h": 44
+					},
+					"spriteSourceSize": {
+						"x": 45,
+						"y": 42,
+						"w": 45,
+						"h": 44
+					},
+					"frame": {
+						"x": 209,
+						"y": 663,
+						"w": 45,
+						"h": 44
+					}
+				},
+				{
+					"filename": "yamamba_5.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 42,
+						"h": 44
+					},
+					"spriteSourceSize": {
+						"x": 43,
+						"y": 44,
+						"w": 42,
+						"h": 44
+					},
+					"frame": {
+						"x": 156,
+						"y": 707,
+						"w": 42,
+						"h": 44
+					}
+				},
+				{
+					"filename": "Gash_head_i04.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 39,
+						"h": 54
+					},
+					"spriteSourceSize": {
+						"x": 8,
+						"y": 0,
+						"w": 39,
+						"h": 54
+					},
+					"frame": {
+						"x": 102,
+						"y": 711,
+						"w": 39,
+						"h": 54
+					}
+				},
+				{
+					"filename": "Gash_head_i05.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 39,
+						"h": 53
+					},
+					"spriteSourceSize": {
+						"x": 8,
+						"y": 0,
+						"w": 39,
+						"h": 53
+					},
+					"frame": {
+						"x": 50,
+						"y": 749,
+						"w": 39,
+						"h": 53
+					}
+				},
+				{
+					"filename": "yamamba_3.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 39,
+						"h": 41
+					},
+					"spriteSourceSize": {
+						"x": 45,
+						"y": 45,
+						"w": 39,
+						"h": 41
+					},
+					"frame": {
+						"x": 1,
+						"y": 783,
+						"w": 39,
+						"h": 41
+					}
+				},
+				{
+					"filename": "Tengu024.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 39,
+						"h": 12
+					},
+					"spriteSourceSize": {
+						"x": 39,
+						"y": 56,
+						"w": 39,
+						"h": 12
+					},
+					"frame": {
+						"x": 477,
+						"y": 628,
+						"w": 39,
+						"h": 12
+					}
+				},
+				{
+					"filename": "yamamba2_6.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 38,
+						"h": 41
+					},
+					"spriteSourceSize": {
+						"x": 47,
+						"y": 47,
+						"w": 38,
+						"h": 41
+					},
+					"frame": {
+						"x": 635,
+						"y": 586,
+						"w": 38,
+						"h": 41
+					}
+				},
+				{
+					"filename": "oni2_15.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 29,
+						"h": 42
+					},
+					"spriteSourceSize": {
+						"x": 53,
+						"y": 47,
+						"w": 29,
+						"h": 42
+					},
+					"frame": {
+						"x": 675,
+						"y": 586,
+						"w": 29,
+						"h": 42
+					}
+				},
+				{
+					"filename": "mikoshinyudo000.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 38,
+						"h": 38
+					},
+					"spriteSourceSize": {
+						"x": 47,
+						"y": 49,
+						"w": 38,
+						"h": 38
+					},
+					"frame": {
+						"x": 706,
+						"y": 606,
+						"w": 38,
+						"h": 38
+					}
+				},
+				{
+					"filename": "yamamba_2.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 37,
+						"h": 39
+					},
+					"spriteSourceSize": {
+						"x": 46,
+						"y": 46,
+						"w": 37,
+						"h": 39
+					},
+					"frame": {
+						"x": 586,
+						"y": 603,
+						"w": 37,
+						"h": 39
+					}
+				},
+				{
+					"filename": "mikoshinyudo022.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 37,
+						"h": 26
+					},
+					"spriteSourceSize": {
+						"x": 63,
+						"y": 54,
+						"w": 37,
+						"h": 26
+					},
+					"frame": {
+						"x": 625,
+						"y": 629,
+						"w": 37,
+						"h": 26
+					}
+				},
+				{
+					"filename": "G_0.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 35,
+						"h": 34
+					},
+					"spriteSourceSize": {
+						"x": 5,
+						"y": 13,
+						"w": 35,
+						"h": 34
+					},
+					"frame": {
+						"x": 664,
+						"y": 630,
+						"w": 35,
+						"h": 34
+					}
+				},
+				{
+					"filename": "G_i01.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 35,
+						"h": 34
+					},
+					"spriteSourceSize": {
+						"x": 5,
+						"y": 13,
+						"w": 35,
+						"h": 34
+					},
+					"frame": {
+						"x": 664,
+						"y": 630,
+						"w": 35,
+						"h": 34
+					}
+				},
+				{
+					"filename": "onna_18.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 35,
+						"h": 34
+					},
+					"spriteSourceSize": {
+						"x": 8,
+						"y": 6,
+						"w": 35,
+						"h": 34
+					},
+					"frame": {
+						"x": 746,
+						"y": 641,
+						"w": 35,
+						"h": 34
+					}
+				},
+				{
+					"filename": "onna_06.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 35,
+						"h": 29
+					},
+					"spriteSourceSize": {
+						"x": 8,
+						"y": 11,
+						"w": 35,
+						"h": 29
+					},
+					"frame": {
+						"x": 701,
+						"y": 646,
+						"w": 35,
+						"h": 29
+					}
+				},
+				{
+					"filename": "vadBeast_03.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 34,
+						"h": 35
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 0,
+						"w": 34,
+						"h": 35
+					},
+					"frame": {
+						"x": 518,
+						"y": 639,
+						"w": 34,
+						"h": 35
+					}
+				},
+				{
+					"filename": "D_0.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 30,
+						"h": 24
+					},
+					"spriteSourceSize": {
+						"x": 7,
+						"y": 24,
+						"w": 30,
+						"h": 24
+					},
+					"frame": {
+						"x": 554,
+						"y": 639,
+						"w": 30,
+						"h": 24
+					}
+				},
+				{
+					"filename": "D_i01.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 30,
+						"h": 24
+					},
+					"spriteSourceSize": {
+						"x": 7,
+						"y": 24,
+						"w": 30,
+						"h": 24
+					},
+					"frame": {
+						"x": 554,
+						"y": 639,
+						"w": 30,
+						"h": 24
+					}
+				},
+				{
+					"filename": "vadBeast_04.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 34,
+						"h": 35
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 0,
+						"w": 34,
+						"h": 35
+					},
+					"frame": {
+						"x": 586,
+						"y": 644,
+						"w": 34,
+						"h": 35
+					}
+				},
+				{
+					"filename": "tsuchinoko_i03.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 30,
+						"h": 22
+					},
+					"spriteSourceSize": {
+						"x": 2,
+						"y": 10,
+						"w": 30,
+						"h": 22
+					},
+					"frame": {
+						"x": 554,
+						"y": 665,
+						"w": 30,
+						"h": 22
+					}
+				},
+				{
+					"filename": "vadBeast_05.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 34,
+						"h": 35
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 0,
+						"w": 34,
+						"h": 35
+					},
+					"frame": {
+						"x": 477,
+						"y": 642,
+						"w": 34,
+						"h": 35
+					}
+				},
+				{
+					"filename": "B_0.png", 
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 34,
+						"h": 34
+					},
+					"spriteSourceSize": {
+						"x": 5,
+						"y": 14,
+						"w": 34,
+						"h": 34
+					},
+					"frame": {
+						"x": 513,
+						"y": 676,
+						"w": 34,
+						"h": 34
+					}
+				},
+				{
+					"filename": "B_i01.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 34,
+						"h": 34
+					},
+					"spriteSourceSize": {
+						"x": 5,
+						"y": 14,
+						"w": 34,
+						"h": 34
+					},
+					"frame": {
+						"x": 513,
+						"y": 676,
+						"w": 34,
+						"h": 34
+					}
+				},
+				{
+					"filename": "mia_01.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 34,
+						"h": 34
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 34,
+						"h": 34
+					},
+					"frame": {
+						"x": 622,
+						"y": 657,
+						"w": 34,
+						"h": 34
+					}
+				},
+				{
+					"filename": "mia_02.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 34,
+						"h": 34
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 34,
+						"h": 34
+					},
+					"frame": {
+						"x": 586,
+						"y": 681,
+						"w": 34,
+						"h": 34
+					}
+				},
+				{
+					"filename": "mia_04.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 34,
+						"h": 34
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 34,
+						"h": 34
+					},
+					"frame": {
+						"x": 549,
+						"y": 689,
+						"w": 34,
+						"h": 34
+					}
+				},
+				{
+					"filename": "mikoshinyudo_i01.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 34,
+						"h": 34
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 2,
+						"w": 34,
+						"h": 34
+					},
+					"frame": {
+						"x": 658,
+						"y": 666,
+						"w": 34,
+						"h": 34
+					}
+				},
+				{
+					"filename": "vad_01.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 34,
+						"h": 34
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 34,
+						"h": 34
+					},
+					"frame": {
+						"x": 622,
+						"y": 693,
+						"w": 34,
+						"h": 34
+					}
+				},
+				{
+					"filename": "vad_02.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 34,
+						"h": 34
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 34,
+						"h": 34
+					},
+					"frame": {
+						"x": 585,
+						"y": 717,
+						"w": 34,
+						"h": 34
+					}
+				},
+				{
+					"filename": "vad_03.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 34,
+						"h": 34
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 34,
+						"h": 34
+					},
+					"frame": {
+						"x": 422,
+						"y": 647,
+						"w": 34,
+						"h": 34
+					}
+				},
+				{
+					"filename": "vad_04.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 34,
+						"h": 34
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 34,
+						"h": 34
+					},
+					"frame": {
+						"x": 369,
+						"y": 670,
+						"w": 34,
+						"h": 34
+					}
+				},
+				{
+					"filename": "onna_07.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 34,
+						"h": 30
+					},
+					"spriteSourceSize": {
+						"x": 8,
+						"y": 10,
+						"w": 34,
+						"h": 30
+					},
+					"frame": {
+						"x": 458,
+						"y": 679,
+						"w": 34,
+						"h": 30
+					}
+				},
+				{
+					"filename": "onna_08.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 34,
+						"h": 30
+					},
+					"spriteSourceSize": {
+						"x": 8,
+						"y": 10,
+						"w": 34,
+						"h": 30
+					},
+					"frame": {
+						"x": 458,
+						"y": 679,
+						"w": 34,
+						"h": 30
+					}
+				},
+				{
+					"filename": "C_0.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 34,
+						"h": 29
+					},
+					"spriteSourceSize": {
+						"x": 5,
+						"y": 19,
+						"w": 34,
+						"h": 29
+					},
+					"frame": {
+						"x": 405,
+						"y": 683,
+						"w": 34,
+						"h": 29
+					}
+				},
+				{
+					"filename": "C_i01.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 34,
+						"h": 29
+					},
+					"spriteSourceSize": {
+						"x": 5,
+						"y": 19,
+						"w": 34,
+						"h": 29
+					},
+					"frame": {
+						"x": 405,
+						"y": 683,
+						"w": 34,
+						"h": 29
+					}
+				},
+				{
+					"filename": "F_0.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 33,
+						"h": 33
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 15,
+						"w": 33,
+						"h": 33
+					},
+					"frame": {
+						"x": 309,
+						"y": 672,
+						"w": 33,
+						"h": 33
+					}
+				},
+				{
+					"filename": "F_i01.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 33,
+						"h": 33
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 15,
+						"w": 33,
+						"h": 33
+					},
+					"frame": {
+						"x": 309,
+						"y": 672,
+						"w": 33,
+						"h": 33
+					}
+				},
+				{
+					"filename": "yamamba2_0.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 32,
+						"h": 35
+					},
+					"spriteSourceSize": {
+						"x": 49,
+						"y": 48,
+						"w": 32,
+						"h": 35
+					},
+					"frame": {
+						"x": 256,
+						"y": 698,
+						"w": 32,
+						"h": 35
+					}
+				},
+				{
+					"filename": "hitotsumekozo_i05.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 32,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 32,
+						"h": 32
+					},
+					"frame": {
+						"x": 200,
+						"y": 709,
+						"w": 32,
+						"h": 32
+					}
+				},
+				{
+					"filename": "van_01.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 32,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 32,
+						"h": 32
+					},
+					"frame": {
+						"x": 344,
+						"y": 706,
+						"w": 32,
+						"h": 32
+					}
+				},
+				{
+					"filename": "spirit_i01.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 25,
+						"h": 30
+					},
+					"spriteSourceSize": {
+						"x": 3,
+						"y": 2,
+						"w": 25,
+						"h": 30
+					},
+					"frame": {
+						"x": 378,
+						"y": 706,
+						"w": 25,
+						"h": 30
+					}
+				},
+				{
+					"filename": "van_02.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 32,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 32,
+						"h": 32
+					},
+					"frame": {
+						"x": 290,
+						"y": 707,
+						"w": 32,
+						"h": 32
+					}
+				},
+				{
+					"filename": "van_03.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 32,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 32,
+						"h": 32
+					},
+					"frame": {
+						"x": 234,
+						"y": 735,
+						"w": 32,
+						"h": 32
+					}
+				},
+				{
+					"filename": "van_04.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 32,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 32,
+						"h": 32
+					},
+					"frame": {
+						"x": 200,
+						"y": 743,
+						"w": 32,
+						"h": 32
+					}
+				},
+				{
+					"filename": "yamamba2_i01.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 32,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 32,
+						"h": 32
+					},
+					"frame": {
+						"x": 143,
+						"y": 753,
+						"w": 32,
+						"h": 32
+					}
+				},
+				{
+					"filename": "yamamba2_i02.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 32,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 32,
+						"h": 32
+					},
+					"frame": {
+						"x": 91,
+						"y": 767,
+						"w": 32,
+						"h": 32
+					}
+				},
+				{
+					"filename": "yamamba2_i03.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 32,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 32,
+						"h": 32
+					},
+					"frame": {
+						"x": 783,
+						"y": 671,
+						"w": 32,
+						"h": 32
+					}
+				},
+				{
+					"filename": "yamamba_i01.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 32,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 32,
+						"h": 32
+					},
+					"frame": {
+						"x": 817,
+						"y": 671,
+						"w": 32,
+						"h": 32
+					}
+				},
+				{
+					"filename": "yamamba_i02.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 32,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 32,
+						"h": 32
+					},
+					"frame": {
+						"x": 851,
+						"y": 685,
+						"w": 32,
+						"h": 32
+					}
+				},
+				{
+					"filename": "yamamba_i03.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 32,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 32,
+						"h": 32
+					},
+					"frame": {
+						"x": 441,
+						"y": 711,
+						"w": 32,
+						"h": 32
+					}
+				},
+				{
+					"filename": "yamamba2_i05.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 32,
+						"h": 31
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 1,
+						"w": 32,
+						"h": 31
+					},
+					"frame": {
+						"x": 405,
+						"y": 714,
+						"w": 32,
+						"h": 31
+					}
+				},
+				{
+					"filename": "A_0.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 25,
+						"h": 29
+					},
+					"spriteSourceSize": {
+						"x": 11,
+						"y": 19,
+						"w": 25,
+						"h": 29
+					},
+					"frame": {
+						"x": 378,
+						"y": 738,
+						"w": 25,
+						"h": 29
+					}
+				},
+				{
+					"filename": "A_i01.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 25,
+						"h": 29
+					},
+					"spriteSourceSize": {
+						"x": 11,
+						"y": 19,
+						"w": 25,
+						"h": 29
+					},
+					"frame": {
+						"x": 378,
+						"y": 738,
+						"w": 25,
+						"h": 29
+					}
+				},
+				{
+					"filename": "yamamba_i05.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 32,
+						"h": 31
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 1,
+						"w": 32,
+						"h": 31
+					},
+					"frame": {
+						"x": 475,
+						"y": 711,
+						"w": 32,
+						"h": 31
+					}
+				},
+				{
+					"filename": "yamamba2_i04.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 32,
+						"h": 30
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 2,
+						"w": 32,
+						"h": 30
+					},
+					"frame": {
+						"x": 509,
+						"y": 712,
+						"w": 32,
+						"h": 30
+					}
+				},
+				{
+					"filename": "yamamba_i04.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 32,
+						"h": 30
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 2,
+						"w": 32,
+						"h": 30
+					},
+					"frame": {
+						"x": 543,
+						"y": 725,
+						"w": 32,
+						"h": 30
+					}
+				},
+				{
+					"filename": "yamamba2_9.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 31,
+						"h": 42
+					},
+					"spriteSourceSize": {
+						"x": 49,
+						"y": 46,
+						"w": 31,
+						"h": 42
+					},
+					"frame": {
+						"x": 324,
+						"y": 740,
+						"w": 31,
+						"h": 42
+					}
+				},
+				{
+					"filename": "yamamba2_3.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 31,
+						"h": 37
+					},
+					"spriteSourceSize": {
+						"x": 48,
+						"y": 48,
+						"w": 31,
+						"h": 37
+					},
+					"frame": {
+						"x": 268,
+						"y": 741,
+						"w": 31,
+						"h": 37
+					}
+				},
+				{
+					"filename": "hitotsumekozo_i04.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 31,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 31,
+						"h": 32
+					},
+					"frame": {
+						"x": 234,
+						"y": 769,
+						"w": 31,
+						"h": 32
+					}
+				},
+				{
+					"filename": "H_0.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 31,
+						"h": 31
+					},
+					"spriteSourceSize": {
+						"x": 6,
+						"y": 17,
+						"w": 31,
+						"h": 31
+					},
+					"frame": {
+						"x": 267,
+						"y": 780,
+						"w": 31,
+						"h": 31
+					}
+				},
+				{
+					"filename": "H_i01.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 31,
+						"h": 31
+					},
+					"spriteSourceSize": {
+						"x": 6,
+						"y": 17,
+						"w": 31,
+						"h": 31
+					},
+					"frame": {
+						"x": 267,
+						"y": 780,
+						"w": 31,
+						"h": 31
+					}
+				},
+				{
+					"filename": "hitotsumekozo_i01.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 31,
+						"h": 30
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 2,
+						"w": 31,
+						"h": 30
+					},
+					"frame": {
+						"x": 177,
+						"y": 777,
+						"w": 31,
+						"h": 30
+					}
+				},
+				{
+					"filename": "tsuchinoko_i02.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 31,
+						"h": 22
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 10,
+						"w": 31,
+						"h": 22
+					},
+					"frame": {
+						"x": 125,
+						"y": 787,
+						"w": 31,
+						"h": 22
+					}
+				},
+				{
+					"filename": "onna_17.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 29,
+						"h": 35
+					},
+					"spriteSourceSize": {
+						"x": 8,
+						"y": 5,
+						"w": 29,
+						"h": 35
+					},
+					"frame": {
+						"x": 91,
+						"y": 801,
+						"w": 29,
+						"h": 35
+					}
+				},
+				{
+					"filename": "oni_15.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 29,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 50,
+						"y": 48,
+						"w": 29,
+						"h": 32
+					},
+					"frame": {
+						"x": 42,
+						"y": 804,
+						"w": 29,
+						"h": 32
+					}
+				},
+				{
+					"filename": "Gabet_i02.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 29,
+						"h": 31
+					},
+					"spriteSourceSize": {
+						"x": 2,
+						"y": 1,
+						"w": 29,
+						"h": 31
+					},
+					"frame": {
+						"x": 1,
+						"y": 826,
+						"w": 29,
+						"h": 31
+					}
+				},
+				{
+					"filename": "Gabet_i04.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 29,
+						"h": 31
+					},
+					"spriteSourceSize": {
+						"x": 2,
+						"y": 1,
+						"w": 29,
+						"h": 31
+					},
+					"frame": {
+						"x": 210,
+						"y": 803,
+						"w": 29,
+						"h": 31
+					}
+				},
+				{
+					"filename": "kappa_i02.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 29,
+						"h": 31
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 1,
+						"w": 29,
+						"h": 31
+					},
+					"frame": {
+						"x": 158,
+						"y": 809,
+						"w": 29,
+						"h": 31
+					}
+				},
+				{
+					"filename": "kappa_i04.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 29,
+						"h": 31
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 1,
+						"w": 29,
+						"h": 31
+					},
+					"frame": {
+						"x": 122,
+						"y": 811,
+						"w": 29,
+						"h": 31
+					}
+				},
+				{
+					"filename": "tsuchinoko_i01.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 29,
+						"h": 23
+					},
+					"spriteSourceSize": {
+						"x": 2,
+						"y": 9,
+						"w": 29,
+						"h": 23
+					},
+					"frame": {
+						"x": 475,
+						"y": 744,
+						"w": 29,
+						"h": 23
+					}
+				},
+				{
+					"filename": "tsuchinoko_i04.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 29,
+						"h": 23
+					},
+					"spriteSourceSize": {
+						"x": 2,
+						"y": 9,
+						"w": 29,
+						"h": 23
+					},
+					"frame": {
+						"x": 439,
+						"y": 745,
+						"w": 29,
+						"h": 23
+					}
+				},
+				{
+					"filename": "Tengu025.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 29,
+						"h": 17
+					},
+					"spriteSourceSize": {
+						"x": 49,
+						"y": 56,
+						"w": 29,
+						"h": 17
+					},
+					"frame": {
+						"x": 405,
+						"y": 747,
+						"w": 29,
+						"h": 17
+					}
+				},
+				{
+					"filename": "Gabet_i03.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 28,
+						"h": 30
+					},
+					"spriteSourceSize": {
+						"x": 2,
+						"y": 2,
+						"w": 28,
+						"h": 30
+					},
+					"frame": {
+						"x": 405,
+						"y": 766,
+						"w": 28,
+						"h": 30
+					}
+				},
+				{
+					"filename": "kappa_i03.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 28,
+						"h": 30
+					},
+					"spriteSourceSize": {
+						"x": 2,
+						"y": 2,
+						"w": 28,
+						"h": 30
+					},
+					"frame": {
+						"x": 506,
+						"y": 744,
+						"w": 28,
+						"h": 30
+					}
+				},
+				{
+					"filename": "onna_21.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 27,
+						"h": 36
+					},
+					"spriteSourceSize": {
+						"x": 8,
+						"y": 4,
+						"w": 27,
+						"h": 36
+					},
+					"frame": {
+						"x": 470,
+						"y": 769,
+						"w": 27,
+						"h": 36
+					}
+				},
+				{
+					"filename": "onna_01.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 27,
+						"h": 35
+					},
+					"spriteSourceSize": {
+						"x": 8,
+						"y": 5,
+						"w": 27,
+						"h": 35
+					},
+					"frame": {
+						"x": 435,
+						"y": 770,
+						"w": 27,
+						"h": 35
+					}
+				},
+				{
+					"filename": "onna_02.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 27,
+						"h": 35
+					},
+					"spriteSourceSize": {
+						"x": 8,
+						"y": 5,
+						"w": 27,
+						"h": 35
+					},
+					"frame": {
+						"x": 435,
+						"y": 770,
+						"w": 27,
+						"h": 35
+					}
+				},
+				{
+					"filename": "onna_13.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 27,
+						"h": 34
+					},
+					"spriteSourceSize": {
+						"x": 8,
+						"y": 6,
+						"w": 27,
+						"h": 34
+					},
+					"frame": {
+						"x": 357,
+						"y": 769,
+						"w": 27,
+						"h": 34
+					}
+				},
+				{
+					"filename": "onna_14.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 27,
+						"h": 34
+					},
+					"spriteSourceSize": {
+						"x": 8,
+						"y": 6,
+						"w": 27,
+						"h": 34
+					},
+					"frame": {
+						"x": 357,
+						"y": 769,
+						"w": 27,
+						"h": 34
+					}
+				},
+				{
+					"filename": "onna_12.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 27,
+						"h": 33
+					},
+					"spriteSourceSize": {
+						"x": 8,
+						"y": 7,
+						"w": 27,
+						"h": 33
+					},
+					"frame": {
+						"x": 386,
+						"y": 798,
+						"w": 27,
+						"h": 33
+					}
+				},
+				{
+					"filename": "yamamba_13.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 27,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 63,
+						"y": 55,
+						"w": 27,
+						"h": 32
+					},
+					"frame": {
+						"x": 300,
+						"y": 784,
+						"w": 27,
+						"h": 32
+					}
+				},
+				{
+					"filename": "spirit_des_i02.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 27,
+						"h": 30
+					},
+					"spriteSourceSize": {
+						"x": 2,
+						"y": 2,
+						"w": 27,
+						"h": 30
+					},
+					"frame": {
+						"x": 329,
+						"y": 805,
+						"w": 27,
+						"h": 30
+					}
+				},
+				{
+					"filename": "spirit_des_i03.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 27,
+						"h": 30
+					},
+					"spriteSourceSize": {
+						"x": 2,
+						"y": 1,
+						"w": 27,
+						"h": 30
+					},
+					"frame": {
+						"x": 241,
+						"y": 813,
+						"w": 27,
+						"h": 30
+					}
+				},
+				{
+					"filename": "spirit_des_i04.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 27,
+						"h": 30
+					},
+					"spriteSourceSize": {
+						"x": 3,
+						"y": 1,
+						"w": 27,
+						"h": 30
+					},
+					"frame": {
+						"x": 270,
+						"y": 813,
+						"w": 27,
+						"h": 30
+					}
+				},
+				{
+					"filename": "spirit_i02.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 27,
+						"h": 30
+					},
+					"spriteSourceSize": {
+						"x": 2,
+						"y": 2,
+						"w": 27,
+						"h": 30
+					},
+					"frame": {
+						"x": 299,
+						"y": 818,
+						"w": 27,
+						"h": 30
+					}
+				},
+				{
+					"filename": "spirit_i03.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 27,
+						"h": 30
+					},
+					"spriteSourceSize": {
+						"x": 2,
+						"y": 1,
+						"w": 27,
+						"h": 30
+					},
+					"frame": {
+						"x": 189,
+						"y": 836,
+						"w": 27,
+						"h": 30
+					}
+				},
+				{
+					"filename": "spirit_i04.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 27,
+						"h": 30
+					},
+					"spriteSourceSize": {
+						"x": 3,
+						"y": 1,
+						"w": 27,
+						"h": 30
+					},
+					"frame": {
+						"x": 153,
+						"y": 842,
+						"w": 27,
+						"h": 30
+					}
+				}
+			]
+		}
+	],
+	"meta": {
+		"app": "https://www.codeandweb.com/texturepacker",
+		"version": "3.0",
+		"smartupdate": "$TexturePacker:SmartUpdate:b1035dd6f05a43ebd25eaf6f7694ee31:1228d0279f32f4775442c6ca95385926:9330b3b6a731179a34f5278c1241a3e1$"
+	}
+}

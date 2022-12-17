@@ -436,6 +436,74 @@
       "ZOMBIE": {
         "bDesc": "“为什么累死小喽啰？ 小喽啰才是我们累的原因吧！ ”这是红衣主教的死灵法师们的玩笑话， 他们一边说， 一边转向坟墓， 为需要休息和食物的工人寻找廉价的替代品。 可悲的是， 虽然他们的新苦力不用睡觉， 但填饱肚子就比较费事了。",
         "bName": "僵尸"
+      },
+      "MS_MIKOS": {
+        "bName": "见越入道",
+        "bDesc": "喜欢吃人的伪装者， 生性凶残。 这些奸诈的生物会装扮成僧侣的模样， 在路上诱骗前往神社的信徒。 你以为那根一米二长的脖子会让它露馅， 但等你撒腿逃跑时就会大吃一惊了， 瞬间就能粉碎你的求生信念。"
+      },
+      "MS_HITOT": {
+        "bName": "一目小僧",
+        "bDesc": "这种妖怪会用被诅咒的灯笼或一碟幸运豆腐来接近小村庄的居民。 尽管它天性喜欢玩闹， 但它不喜欢追跑抓人一类的游戏——因为它没有景深感知。"
+      },
+      "MS_KAPPA": {
+        "bName": "河童",
+        "bDesc": "它们浑身黏滑， 是妖怪世界中最低贱的成员， 就连其他的魔物也会被其苔藓味的口气、 滑腻的皮肤和淫荡的爱好所吓到。 虽然从前的人们可以用鞠躬的方式骗河童洒出头顶的水， 来使它们丧失战斗力， 但现代的河童已经非常粗鄙， 不可能鞠躬回礼的。"
+      },
+      "MS_TSUCHINOKO": {
+        "bName": "槌之子",
+        "bDesc": "喔， 丰满小蛇， 你的身世如此神秘。 你如此令人垂涎， 盘卧的模样又如此讨喜， 你是身披鳞片的诱人秘宝。 如果我不能拥有你， 那么愿你被其他幸存者用石头砸死， 叫你摆架子！"
+      },
+      "MS_YAMAMBA1": {
+        "bName": "山姥",
+        "bDesc": "巫婆、 怪物、 失望妻子中的勇士。 据说她来自大山， 会臭骂施暴的父亲、 丈夫和僧人。 也许由于这些人的识字率较高， 她最终获得了邪恶生物的名声。"
+      },
+      "MS_KAMAITACHI": {
+        "bName": "镰鼬",
+        "bDesc": "个头小小， 脾气大大， 更为人所知的是它总能“切中要害”的头脑。 咳咳， 真的可以“切中要害”。 说实话， 有关它的传闻其实很无聊， 但谁要是真的指出这一点了， 下场往往是被砍断双脚， 你可以试试。"
+      },
+      "MS_RAIJU": {
+        "bName": "雷兽",
+        "bDesc": "一只神奇的小动物， 来自另一个现实维度， 在闪电中降临到地球。 它们来自哪里？它的发源地又能比我们这个世界糟到哪里去？这些问题尚待解答。"
+      },
+      "MS_ONI1": {
+        "bName": "大鬼",
+        "bDesc": "尽管红皮肤的它们常常被人类以貌取鬼， 但其实大鬼是所有恶鬼之中最闲散也是最善交际的一类。 哪怕有时会拿小孩打牙祭， 但身为体面鬼， 它们给对方父母的开价也算公道。"
+      },
+      "MS_ONITHUNDER": {
+        "bName": "霹雳鬼",
+        "bDesc": "鬼主意多， 脾气又差， 还小心眼——就为了一点芝麻绿豆大的事儿， 这些恶鬼不惜翻山越岭、 飘洋过海去寻找仇人。 还好， 对于大多数受害者来说， 它们糟糕的寻路技能通常意味着完全找错了方向。"
+      },
+      "MS_ONIWIND": {
+        "bName": "烈风鬼",
+        "bDesc": "恶鬼之中最接近智者的成员， 这些笨重的怪物在其厚实的脑袋里塞满了各种晦涩的小知识。 当然， 值得注意的是， 大部分知识都与如何最好地杀死和吃掉其他生物有关。"
+      },
+      "MS_TSUCHIGUMO": {
+        "bName": "土蜘蛛",
+        "bDesc": "据说这是那些猝然离世的人所变的， 他们被诅咒变成这副怪物模样， 长出了足够多的手脚完成工作好打破记录。 这本该是一个诅咒， 但它们中的大部分似乎觉得这还挺方便的。"
+      },
+      "MS_TANUKI": {
+        "bName": "狸妖",
+        "bDesc": "狡猾的小骗子， 总能看到它把尾巴扛在肩上。 等一下， 我刚收到一张纸条……哦， 其实那不是它的尾巴。 也许你最好自己去调查一番。"
+      },
+      "MS_TENGU": {
+        "bName": "天狗",
+        "bDesc": "这位爱管凡人闲事的神秘武士来自山上。 不管是敌是友， 它凡事都爱横插一杠， 什么事都逃不过那敏锐的大鼻子。"
+      },
+      "MS_GOSHADOKURO": {
+        "bName": "饥饿髑髅",
+        "bDesc": "这是一个超大的骷髅。 你想要一个大骷髅？走过路过不要错过， 伙计， 这就是一个大骷髅。 你以为已经见识过大骷髅了？朋友， 那真不算什么， 没有比这骷髅更大的了。 看谁家的骷髅比这个大， 我们比一比就知道是不是吹牛了。"
+      },
+      "MS_OROCHIMARIO": {
+        "bName": "大蛇丸里奥",
+        "bDesc": "古代传说中的龙， 具有惊人的力量和智慧。 它有八颗头， 八条尾， 喜欢喝八倍烈的红葡萄酒。 如果它晚上邀请你出去耍朋友， 最好拒绝——带它过夜绝对是一场噩梦。"
+      },
+      "MS_NINETYNINE": {
+        "bName": "九十九夜",
+        "bDesc": "九十九夜是森林中狡猾的捣蛋鬼， 它保护着太宵一文字不会落入没有资格的人手中。 谁都不知道它究竟有多少条尾巴， 因为所有想要数清的人都在数到五十左右就会被它烧死。"
+      },
+      "MS_SPIRIT1": {
+        "bName": "迷你幽灵",
+        "bDesc": "根本就没有鬼这样的东西。 这可能只是一只被雪覆盖的蝙蝠， 除此之外别无其他。"
       }
     }
   },
@@ -887,6 +955,74 @@
       "ZOMBIE": {
         "bDesc": "“Why simply work the smallfolk to death? Work them beyond it!” This, the Cardinal’s necromancers laughed as they turned to the grave for a cheap alternative to labor that needed rest and food. Sadly for them, while their new workforce slept not, feeding was a whole other matter.",
         "bName": "Zombie"
+      },
+      "MS_MIKOS": {
+        "bName": "Mikoshi-nyudo",
+        "bDesc": "Fiendish trickers with a taste for human flesh, these duplicitous creatures pose as monks in order to deceive pilgrims on their paths to the holy temple. You’d think that the four foot long necks would be a giveaway, but you’d be surprised what you get away with, with a little bit of confidence."
+      },
+      "MS_HITOT": {
+        "bName": "Hitotsume-kozo",
+        "bDesc": "A yokai which solicits the residents of small villages either with cursed lanterns or trays of lucky tofu. Despite its usually playful demeanour, it despises games of catch - no depth perception."
+      },
+      "MS_KAPPA": {
+        "bName": "Kappa",
+        "bDesc": "The slimy bottom-feeders of the yokai world, even other magical creatures are put off by their mossy breath, clammy skin and lewd predilections. Though Kappas could once be disarmed by forcing them to bow and spill their head water, the modern variety is far too uncouth to return such courtesies."
+      },
+      "MS_TSUCHINOKO": {
+        "bName": "Tsuchinoko",
+        "bDesc": "Oh, plump wyrm of such mysterious origin. So coveted, so pleasingly squat, a delicious secret in scaly form. If I cannot have you, then may you be dashed upon the rocks by a survivor, aloof serpent!"
+      },
+      "MS_YAMAMBA1": {
+        "bName": "Yamamba",
+        "bDesc": "Witch, monster, champion of frustrated wives; said to descend from the mountains to curse abusive fathers, husbands and monks. Perhaps due to the higher literacy rates among such people, she has nonetheless garnered a reputation as an evil creature."
+      },
+      "MS_KAMAITACHI": {
+        "bName": "Kamaitachi",
+        "bDesc": "Diminutive creature with a colossal temper and known for its cutting wit. Well, just for cutting really. Frankly, its anecdotes are quite boring, but those who point this out tend to have the legs cut out from under them, one way or another."
+      },
+      "MS_RAIJU": {
+        "bName": "Raiju",
+        "bDesc": "A magical critter which descends to the earth inside lightning bolts, hailing from another plane of existence. Where they come from, and how exactly it’s a worse place to be than this particular reality, remains a mystery."
+      },
+      "MS_ONI1": {
+        "bName": "Big Oni",
+        "bDesc": "Despite the assumptions people make from their scarlet hide, red oni are amongst the most laid back and sociable of their kind. While they may sometimes devour children, they’re usually decent enough to pay the parents an appropriate price."
+      },
+      "MS_ONITHUNDER": {
+        "bName": "Thunderous Oni",
+        "bDesc": "Cunning, violent and vindictive - these demons have been known to cross mountains, seas and grand steppes in order to enact their petty revenge. Thankfully for most of their victims their poor pathfinding skills usually mean these treks are in the wrong direction."
+      },
+      "MS_ONIWIND": {
+        "bName": "Windy Oni",
+        "bDesc": "The closest thing oni-kind have to a sage, these portly monsters hold in their thick skulls all manner of obscure ephemera. It’s worth noting, of course, that most of this lore is related to how best to kill and eat various other creatures."
+      },
+      "MS_TSUCHIGUMO": {
+        "bName": "Tsuchigumo",
+        "bDesc": "Said to be formed from the souls of those who died in haste, cursed by a monstrous form that has enough arms to complete tasks in record speed. It’s supposed to be a curse, anyway, most of them seem to find it rather convenient."
+      },
+      "MS_TANUKI": {
+        "bName": "Tanuki",
+        "bDesc": "Rotund trickster, always seen carrying his tail over his shoulder. Hang on, I’m getting a note passed to me. Oh. Actually it’s not his tail. Probably best you look this up yourself."
+      },
+      "MS_TENGU": {
+        "bName": "Tengu",
+        "bDesc": "Mysterious warriors that descend from the mountaintops to meddle in the affairs of mortals. Friend or foe, they’re always putting their nose in where it doesn’t belong."
+      },
+      "MS_GOSHADOKURO": {
+        "bName": "Goshadokuro",
+        "bDesc": "It’s a big skeleton. You want a big skeleton? Look no further buddy, this here is a big skeleton. You think you’ve seen big skeletons already? Friend, you’ve seen nothing. Don’t get no bigger than this skeleton here. Show us someone with a bigger skeleton, and we’ll show you a liar."
+      },
+      "MS_OROCHIMARIO": {
+        "bName": "Orochimario",
+        "bDesc": "Ancient legendary dragon of immense power and wisdom. With eight heads, eight tails, and a love for eightfold strong red wine, if you’re invited for a night out by it, best decline. It’ll be a nightmare to carry home."
+      },
+      "MS_NINETYNINE": {
+        "bName": "Ninety-Nine Nights",
+        "bDesc": "Foxy trickster of the forests, the Ninety-Nine Nights defends the Night Sword from unworthy wielders. It is yet to be determined how many tails it actually has, as all who try to count get to around fifty before being incinerated."
+      },
+      "MS_SPIRIT1": {
+        "bName": "Spiritello",
+        "bDesc": "There 's simply no such thing as ghosts. This is probably just a bat covered in snow, and nothing else."
       }
     }
   },
@@ -1320,6 +1456,74 @@
       "ZOMBIE": {
         "bDesc": "« Pourquoi exploiter les petites gens jusqu'à leur mort ? Nous devrions les exploiter encore plus longtemps ! » C'est ainsi que les nécromanciens du Cardinal trouvèrent une alternative économique aux travailleurs humains. Malheureusement pour eux, leur nouvelle main-d'œuvre n'avait certes pas besoin de dormir, mais elle ne manquait pas d'appétit.",
         "bName": "Zombie"
+      },
+      "MS_MIKOS": {
+        "bName": "Mikoshi-nyûdô",
+        "bDesc": "Ces diables fourbes mordus de chair humaine se font passer pour des moines afin de berner les pèlerins qui se rendent au temple sacré. On pourrait penser que leur cou d'1m20 les trahirait, mais leur charisme les place au-dessus de tout soupçon."
+      },
+      "MS_HITOT": {
+        "bName": "Hitotsume-kozô",
+        "bDesc": "Un yôkai qui tourmente les villageois avec des lanternes maudites ou des plateaux de tofu. Il a un côté espiègle, mais son absence de perception de la profondeur l'empêche de jouer à la balle."
+      },
+      "MS_KAPPA": {
+        "bName": "Kappa",
+        "bDesc": "Les charognards du monde des yôkais. Leur haleine putride, leur peau humide et leurs penchants scabreux répugnent même les autres monstres. On pouvait jadis les forcer à faire une révérence et à renverser leur eau, mais les jeunes de nos jours sont trop rustres pour faire des courbettes."
+      },
+      "MS_TSUCHINOKO": {
+        "bName": "Tsuchinoko",
+        "bDesc": "Un serpent potelé d'origine inconnue. Tout le monde convoite cette créature étroite, ce délicieux secret écailleux. Si je ne peux t'avoir, un survivant se chargera de t'écraser, vil reptile !"
+      },
+      "MS_YAMAMBA1": {
+        "bName": "Yamanba",
+        "bDesc": "Une sorcière monstrueuse, reine des épouses contrariées. On raconte qu'elle est descendue des montagnes pour maudire les pères, époux et moines violents. C'est peut-être le taux d'alphabétisation élevé chez ces messieurs qui lui a valu la réputation de créature malfaisante."
+      },
+      "MS_KAMAITACHI": {
+        "bName": "Kamaitachi",
+        "bDesc": "Un petit être doté d'un tempérament colossal et d'un esprit acéré. Enfin, ce sont surtout ses lames qui sont acérées... Ses anecdotes sont plutôt inintéressantes, mais ceux qui oseront lui dire se feront découper les jambes ni une ni deux."
+      },
+      "MS_RAIJU": {
+        "bName": "Raijû",
+        "bDesc": "Une bestiole magique, originaire d'un autre plan d'existence, qui vient sur Terre grâce aux éclairs. Nul ne sait d'où elle arrive ni pourquoi la vie dans sa réalité d'origine est pire que celle d'ici-bas."
+      },
+      "MS_ONI1": {
+        "bName": "Oni imposant",
+        "bDesc": "Malgré ce que leur peau rouge laisse à penser, les onis rouges sont les plus décontractés et sociables de leur espèce. Il leur arrive de dévorer des enfants, mais seulement après avoir versé une somme digne de ce nom aux parents."
+      },
+      "MS_ONITHUNDER": {
+        "bName": "Oni tonitruant",
+        "bDesc": "Ces démons malins, violents et vindicatifs sont prêts à franchir des montagnes, des mers et de grandes steppes dans l'unique but d'assouvir leur vengeance. Heureusement pour la majorité des victimes, leur sens de l'orientation est catastrophique."
+      },
+      "MS_ONIWIND": {
+        "bName": "Oni aérien",
+        "bDesc": "Ce qui se rapproche le plus d'un sage chez les onis. Ces monstres corpulents renferment dans leur crâne toutes sortes d'informations éphémères, notamment quant aux meilleures façons de tuer et manger d'autres créatures."
+      },
+      "MS_TSUCHIGUMO": {
+        "bName": "Tsuchigumo",
+        "bDesc": "On dit que ce monstre se compose d'âmes mortes dans la hâte et que ses multiples pattes sont le fruit d'une malédiction. Il faut tout de même reconnaître que cette malédiction est bien pratique, puisqu'elle lui permet de travailler en un temps record."
+      },
+      "MS_TANUKI": {
+        "bName": "Tanuki",
+        "bDesc": "Un farceur rondelet qui porte tout le temps sa queue sur l'épaule. Attendez, on vient de m'apprendre que ce n'est pas sa queue, tout compte fait. Vous n'avez qu'à vous renseigner vous-même."
+      },
+      "MS_TENGU": {
+        "bName": "Tengu",
+        "bDesc": "Ces guerriers énigmatiques viennent des sommets pour s'immiscer dans les affaires des mortels. Sont-ils des alliés ou des ennemis ? En tout cas, ils se mêlent toujours de ce qui ne les regarde pas."
+      },
+      "MS_GOSHADOKURO": {
+        "bName": "Gashadokuro",
+        "bDesc": "C'est un gros squelette. Vous voulez un gros squelette ? Ne cherchez pas plus loin, en voici un. Vous pensez avoir déjà vu de gros squelettes ? Ce n'était rien à côté de celui-ci. On ne fait pas plus gros que ce squelette-là. Si quelqu'un prétend en avoir un plus gros, il ment."
+      },
+      "MS_OROCHIMARIO": {
+        "bName": "Orochimario",
+        "bDesc": "Un ancien dragon légendaire à la puissance et la sagesse incommensurables. Avec ses huit têtes, ses huit queues et son faible pour le vin rouge, mieux vaut éviter les soirées en sa compagnie. Vous aurez bien du mal à le ramener chez lui."
+      },
+      "MS_NINETYNINE": {
+        "bName": "Nuitée de minuit",
+        "bDesc": "Ce renard des forêts rusé défend l'Épée nocturne contre ceux qui ne sont pas dignes de la manier. Nous ignorons encore combien de queues il possède, puisque toute tentative de comptage s'est soldée par une incinération après le chiffre cinquante."
+      },
+      "MS_SPIRIT1": {
+        "bName": "Petit fantôme",
+        "bDesc": "Il n'y a tout simplement pas de fantômes. C'est probablement juste une chauve-souris couverte de neige, et rien d'autre."
       }
     }
   },
@@ -1747,6 +1951,74 @@
       "ZOMBIE": {
         "bDesc": "„Warum die kleinen Leute sich nur zu Tode arbeiten lassen? Und nicht über den Tod hinaus?“ So höhnten die Nekromanten des Kardinals und öffneten die Gräber, um Arbeiter herbeizuschaffen, die weder Ruhe noch Nahrung brauchten. Die Neuen schliefen tatsächlich nicht. Das mit der Ernährung war allerdings doch ein Problem.",
         "bName": "Zombie"
+      },
+      "MS_MIKOS": {
+        "bName": "Mikoshi-nyudo",
+        "bDesc": "Feindselige, verschlagene Wesen, die Menschenfleisch lieben. Diese Heuchler tarnen sich als Mönche, um ahnungslose Pilger zu täuschen, die auf dem Weg zum heiligen Tempel sind. Man sollte meinen, dass ihre über einen Meter langen Hälse sie verraten, aber nichts da. Womit man durchkommt, wenn man nur dreist genug ist!"
+      },
+      "MS_HITOT": {
+        "bName": "Hitotsume-kozo",
+        "bDesc": "Ein Yokai, der die Einwohner kleiner Dörfer entweder mit verfluchten Laternen oder Tabletts mit Glückstofu bedrängt. Obwohl von verspieltem Wesen, verabscheut er alle Fangspiele, denn er besitzt keine Tiefenwahrnehmung."
+      },
+      "MS_KAPPA": {
+        "bName": "Kappa",
+        "bDesc": "Der schleimige Bodensatz der Welt der Yokai. Sogar die anderen magischen Wesen fühlen sich abgestoßen von ihrem feuchten Odem, der klammen Haut und den lüsternen Anwandlungen. Altmodische Kappas konnte man entwaffnen, indem man sie zwang, sich zu verbeugen, wobei sie ihr Kopfwasser verschütteten. Die moderne Variante ist dafür viel zu ungehobelt."
+      },
+      "MS_TSUCHINOKO": {
+        "bName": "Tsuchinoko",
+        "bDesc": "Oh, plumper Lindwurm mysteriöser Abkunft. So heiß begehrt, so erfreulich drall in der Gestalt, ein köstliches Geheimnis im Schuppengewand. Kann ich dich nicht haben, sollst du auf einem Stein zerschmettert werden, hochmütige Schlange!"
+      },
+      "MS_YAMAMBA1": {
+        "bName": "Yamamba",
+        "bDesc": "Hexe, Ungeheuer, Heldin der frustrierten Ehefrau. Soll von den Bergen herabgestiegen sein, um gewalttätige Väter, Ehemänner und Mönche zu verfluchen. Vielleicht weil in solchen Kreisen mehr Menschen lesen können, gilt sie heute als böses Wesen."
+      },
+      "MS_KAMAITACHI": {
+        "bName": "Kamaitachi",
+        "bDesc": "Ein kleines Wesen mit einem gigantischen Temperament, bekannt für seinen schneidenden Witz. Eher fürs Schneiden, ohne Witz. Ehrlich gesagt sind seine Anekdoten ziemlich langweilig, aber wer es wagt, diesbezüglich etwas anzudeuten, der hat seine Beine schon verloren."
+      },
+      "MS_RAIJU": {
+        "bName": "Raiju",
+        "bDesc": "Ein magisches Wesen aus einer anderen Dimension des Seins, das im Inneren von Blitzen zur Erde reist. Woher genau sie stammen, und wie es dort schlimmer sein kann als in dieser Realität, bleibt ihr Geheimnis."
+      },
+      "MS_ONI1": {
+        "bName": "Großer Oni",
+        "bDesc": "Anders als ihre scharlachrote Haut vermuten lässt, sind diese Oni die wohl entspanntesten und sozialsten ihrer Art. Obwohl sie manchmal gern Kinder fressen, sind sie für gewöhnlich anständig genug, den Eltern einen angemessenen Preis zu bezahlen."
+      },
+      "MS_ONITHUNDER": {
+        "bName": "Donnernder Oni",
+        "bDesc": "Verschlagen, gewalttätig und nachtragend – diese Dämonen erklimmen Berge, durchschwimmen Ozeane und durchwandern ganze Steppen, um ihre kleinliche Rache zu üben. Glücklicherweise haben sie einen miserablen Orientierungssinn und laufen meistens in die falsche Richtung."
+      },
+      "MS_ONIWIND": {
+        "bName": "Windiger Oni",
+        "bDesc": "Korpulente Ungeheuer, die in ihren klobigen Schädeln allerhand obskures Wissen mit sich herumtragen. Das meiste Wissen hat natürlich damit zu tun, wie man andere Kreaturen am besten tötet und dann frisst."
+      },
+      "MS_TSUCHIGUMO": {
+        "bName": "Tsuchigumo",
+        "bDesc": "Soll gewirkt sein aus den Seelen jener, die in Hast gestorben sind. Gestraft mit einer monströsen Gestalt und genügend Armen, um jede Aufgabe in Rekordtempo zu erledigen. Eigentlich soll das ja ein Fluch sein. Aber die meisten von ihnen finden es ziemlich praktisch."
+      },
+      "MS_TANUKI": {
+        "bName": "Tanuki",
+        "bDesc": "Rundlicher Ganove, der stets seinen Schwanz lässig über der Schulter trägt. Moment mal, ich kriege gerade eine Nachricht. Oh. Eigentlich ist das gar nicht sein Schwanz. Am besten sollte das jeder selbst herausfinden."
+      },
+      "MS_TENGU": {
+        "bName": "Tengu",
+        "bDesc": "Geheimnisvolle Krieger, die von den Bergen herabsteigen, um sich in die Angelegenheiten der Lebenden zu mischen. Ob Freund oder Feind, sie stecken ihre Nase ungebeten überall rein."
+      },
+      "MS_GOSHADOKURO": {
+        "bName": "Goshadokuro",
+        "bDesc": "Ein großes Skelett. Du willst ein großes Skelett? Deine Suche hat ein Ende, Kumpel, hier ist ein großes Skelett. Du glaubst, du hättest schon große Skelette gesehen? Mein Freund, das hier hast du noch nicht gesehen. Größer wird ein Skelett einfach nicht. Zeig uns jemanden mit einem größeren Skelett und wir zeigen dir einen Lügner."
+      },
+      "MS_OROCHIMARIO": {
+        "bName": "Orochimario",
+        "bDesc": "Uralter legendärer Drache von unfassbarer Stärke und Weisheit. Er besitzt acht Köpfe, acht Schwänze und hat eine Schwäche für achtfach starken Rotwein. Wenn er dich auf eine Sauftour einlädt, dann lehn lieber ab, sonst musst du ihn nach Hause schleppen."
+      },
+      "MS_NINETYNINE": {
+        "bName": "Neunundneunzig Nächte",
+        "bDesc": "Der gerissene Gauner aus den Wäldern verhindert, dass Unwürdige das Nachtschwert führen. Noch weiß man nicht, wie viele Schwänze dieses Wesen wirklich besitzt Alle, die versucht haben, sie zu zählen, kamen nur bis ungefähr fünfzig, bis sie verbrannten."
+      },
+      "MS_SPIRIT1": {
+        "bName": "KleinGeist",
+        "bDesc": "Es gibt einfach keine Geister. Das ist wahrscheinlich nur eine schneebedeckte Fledermaus und sonst nichts."
       }
     }
   },
@@ -2186,6 +2458,74 @@
       "ZOMBIE": {
         "bDesc": "Perché sfruttare la plebe solo fino alla morte? Sfruttiamola anche dopo! È con questa spassosa idea in testa che i negromanti del Cardinale si rivolsero alle tombe per trovare un'alternativa economica a una forza lavoro che necessita di cibo e riposo. Purtroppo per loro, sebbene la loro nuova manodopera non avesse bisogno di dormire, il cibo fu un altro paio di maniche.",
         "bName": "Zombi"
+      },
+      "MS_MIKOS": {
+        "bName": "Mikoshi-nyudo",
+        "bDesc": "Queste ingannevoli e infide creature con una passione per la carne umana assumono le sembianze di monaci per ingannare i pellegrini in visita al tempio sacro. Basterebbe notare il loro collo di oltre un metro per sospettare qualcosa di strano, ma non avete idea di cosa si possa ottenere con un pizzico di fiducia in sé."
+      },
+      "MS_HITOT": {
+        "bName": "Hitotsume-kozo",
+        "bDesc": "Uno yokai che esorta gli abitanti dei piccoli villaggi, talvolta con lanterne maledette, talvolta con vassoi di tofu della buona sorte. Nonostante il suo atteggiamento allegro, non ama giocare ad acchiapparella, forse per via della scarsa percezione della profondità."
+      },
+      "MS_KAPPA": {
+        "bName": "Kappa",
+        "bDesc": "I viscidi opportunisti del mondo degli yokai; perfino le altre creature magiche sono disgustate dal loro fetido alito, dalla loro pelle umidiccia e dai loro indecenti diletti. Nonostante un tempo fosse possibile rendere inermi i kappa semplicemente persuadendoli a chinarsi e versare l'acqua accumulata sul loro capo, la variante moderna è troppo rozza per profondersi in tali salamelecchi."
+      },
+      "MS_TSUCHINOKO": {
+        "bName": "Tsuchinoko",
+        "bDesc": "O, boffice serpente vermiforme dalle misteriose origini. Così agognato, così piacevolmente tozzo, un delizioso segreto dall'apparenza squamosa. Se non posso averti, che tu possa essere scagliata contro le rocce da un sopravvissuto, serpe arrogante!"
+      },
+      "MS_YAMAMBA1": {
+        "bName": "Yamamba",
+        "bDesc": "Strega, creatura mostruosa, paladina delle mogli frustrate; la leggenda vuole che scenda dalle montagne per maledire padri, mariti e monaci violenti. È probabile che l'alto tasso di alfabetizzazione di tali categorie le abbia fatto guadagnare la reputazione di perfida creatura."
+      },
+      "MS_KAMAITACHI": {
+        "bName": "Kamaitachi",
+        "bDesc": "Una minuta creatura dal temperamento possente, nota per il suo spirito tagliente. Anzi, è proprio lei a essere tagliente. A essere onesti, i suoi aneddoti sono piuttosto noiosi, ma chi osa ammetterlo è solito ritrovarsi con le gambe all'aria, per qualche motivo."
+      },
+      "MS_RAIJU": {
+        "bName": "Raiju",
+        "bDesc": "Una creatura magica che, direttamente da un altro piano di esistenza, scende sulla terra per mezzo dei fulmini. La sua provenienza, così come il motivo per cui tale luogo sia meno gradevole di questa realtà, resta un mistero."
+      },
+      "MS_ONI1": {
+        "bName": "Grande Oni",
+        "bDesc": "Contrariamente alle supposizioni della gente, basate sul colore scarlatto della loro carnagione, gli Oni rossi sono tra i più flemmatici e socievoli della loro categoria. Certo, talvolta si dilettano a divorare infanti, ma solitamente hanno la buona creanza di risarcire le famiglie delle vittime con un importo congruo."
+      },
+      "MS_ONITHUNDER": {
+        "bName": "Oni del tuono",
+        "bDesc": "Subdoli, violenti e vendicativi; pur di mettere in atto la loro meschina vendetta, questi demoni sono disposti ad attraversare mari, monti e vaste steppe. Fortunatamente per le vittime, le loro scarse capacità di orientamento li conducono spesso nella direzione sbagliata, vanificando le loro scarpinate."
+      },
+      "MS_ONIWIND": {
+        "bName": "Oni del vento",
+        "bDesc": "Questi mostri corpulenti, i più prossimi alla figura di un saggio tra tutti gli Oni, custodiscono nei loro spessi crani le più disparate e indecifrabili collezioni di cianfrusaglie. Vale la pena notare, ovviamente, che la maggior parte di queste ha a che fare con i modi migliori per uccidere e cibarsi di varie e numerose creature."
+      },
+      "MS_TSUCHIGUMO": {
+        "bName": "Tsuchigumo",
+        "bDesc": "Si dice che sia composto dalle anime di chi, perseguitato da una creatura mostruosa con abbastanza braccia da poter portare a termine compiti a velocità record, è morto a causa dell'eccessiva fretta. Dovrebbe essere una maledizione, eppure la maggior parte delle persone lo trova piuttosto conveniente."
+      },
+      "MS_TANUKI": {
+        "bName": "Tanuki",
+        "bDesc": "Un rotondetto impostore che spesso trasporta la sua coda in spalla. Oh, un momento. Mi hanno passato un foglietto. Ah. Pare che non sia la sua coda. Uhm, forse è meglio che approfondiate la cosa per conto vostro."
+      },
+      "MS_TENGU": {
+        "bName": "Tengu",
+        "bDesc": "Dei misteriosi guerrieri che scendono dai monti per immischiarsi nelle questioni dei mortali. Amici o nemici che siano, ficcano continuamente il naso laddove non dovrebbero."
+      },
+      "MS_GOSHADOKURO": {
+        "bName": "Goshadokuro",
+        "bDesc": "Uno scheletro enorme. Ti serve uno scheletro enorme? Non serve cercare altrove: questo è lo scheletrone che fa al caso tuo! Pensavi di aver già visto scheletri enormi? Tesoro, ti sbagli di grosso. Non ci sono scheletri più grossi di questo. Presentaci chiunque dica di avere uno scheletro più grosso, e lo sbugiarderemo."
+      },
+      "MS_OROCHIMARIO": {
+        "bName": "Orochimario",
+        "bDesc": "Un antico drago leggendario estremamente potente e saggio. Ha otto teste, otto code, ama l'ottovolante, è campione di giavellotto, suona l'ottavino, sonnecchia su un'ottomana e accumula monete d'ottone."
+      },
+      "MS_NINETYNINE": {
+        "bName": "Novantanove notti",
+        "bDesc": "Le Novantanove notti, le volpine imbroglione delle foreste, difendono la Spada notturna dai pretendenti indegni. Non è ancora chiaro quante code abbia, dal momento che chiunque tenti di contarle finisce incenerito intorno alla cinquantesima."
+      },
+      "MS_SPIRIT1": {
+        "bName": "Spiritello",
+        "bDesc": "I fantasmi non esistono, punto. Probabilmente sono solo dei pipistrelli coperti di neve."
       }
     }
   },
@@ -2613,6 +2953,74 @@
       "ZOMBIE": {
         "bDesc": "「矮小なる者たちを、なぜ死ぬまで働かせるのだ？ 死んでも働かせればよい！」 これを聞いて、 枢機卿のネクロマンサーたちは笑ったものだ。 そして彼らは墓場に目を向けた。 休息と食事が必要な労働力の代わりの安価な代替品として。 悲しいかな、 この新たな労働力は眠りはしなかったが、 食事は必要だった。",
         "bName": "ゾンビ"
+      },
+      "MS_MIKOS": {
+        "bName": "見越し入道",
+        "bDesc": "人肉を好み悪賢いこの生き物は、 聖なる寺院への道中で巡礼者を欺くために僧侶のふりをする。 4フィートの長い首が特徴的だが、 少し自信を持てば、 驚くほど簡単に逃れることができる。"
+      },
+      "MS_HITOT": {
+        "bName": "一つ目小僧",
+        "bDesc": "小さな村の住人を呪いの灯籠や 縁起物の豆腐のお盆で勧誘する妖怪。 普段はひょうきんな性格だが、 奥行知覚を持たないためキャッチボールは苦手である。"
+      },
+      "MS_KAPPA": {
+        "bName": "河童",
+        "bDesc": "妖怪の世界では底辺のヌルヌルした卑劣な存在で、 苔むした息や湿った肌、 スケベな性癖に他の妖怪もドン引きしている。 かつてはお辞儀をさせたり、 頭に水をかけたりして、 河童をやっつけることができたが、 現代の河童はあまりにも野蛮で、 そのような行為は通用しない。"
+      },
+      "MS_TSUCHINOKO": {
+        "bName": "ツチノコ",
+        "bDesc": "あぁ、 神秘的な起源を持つ、 ふっくらとした伝説の生き物よ。  憧れの的、 美しい姿、 うろこ模様がおいしい秘密だ。  もし私が手に入れられないなら、 生き残ったよそよそしい蛇によって岩に打ち付けられろ！"
+      },
+      "MS_YAMAMBA1": {
+        "bName": "山姥",
+        "bDesc": "魔女、 妖怪、 欲求不満の妻の代表。 山から降りてきて、 虐待する父親や夫、 僧侶を呪うと言われている。 そのような人々の識字率が高いためか、 彼女は邪悪な生物という評判を集めている。"
+      },
+      "MS_KAMAITACHI": {
+        "bName": "カマイタチ",
+        "bDesc": "小柄でありながら気性が荒く、 機転が利くことで知られる生物。 というか、 本当にめっちゃ斬れる。 正直言ってその逸話は非常につまらないのだが、 それを指摘した人は、 あれやこれやで足を下から切り落とされる。"
+      },
+      "MS_RAIJU": {
+        "bName": "雷獣",
+        "bDesc": "稲妻に包まれて地上に降り立つ謎の生物で、 別の次元からやってきた。  どこから来たのか、 またそれがこの現実よりどのように邪悪な場所なのかは謎のままである。"
+      },
+      "MS_ONI1": {
+        "bName": "大鬼",
+        "bDesc": "赤鬼は、 その緋色の皮膚からくるイメージとは裏腹に、 最も穏やかで社交的な生き物である。  時には子供を食い殺すこともあるが、 大抵は親に相応の代償を払うほどまっとうである。"
+      },
+      "MS_ONITHUNDER": {
+        "bName": "雷鬼",
+        "bDesc": "狡猾で暴力的、 そして執念深いこの悪魔たちは、 些細な復讐を果たすために山や海、 広大な草原を渡ってくることが知られている。 幸いなことに、 彼らの犠牲者の多くは道案内が下手なため、 間違った方向に進んでしまうことがほとんどである。"
+      },
+      "MS_ONIWIND": {
+        "bName": "風鬼",
+        "bDesc": "鬼族の賢者に最も近い存在であり、 その分厚い頭蓋の中には、 あらゆる曖昧な伝承が詰まっている。 注目すべきはもちろん、 そのほとんどがベストな生き物の殺し方、 食べ方に関するものであるということだ。"
+      },
+      "MS_TSUCHIGUMO": {
+        "bName": "土蜘蛛",
+        "bDesc": "急死者の魂から形成されたと言われ、 記録的なスピードで仕事をこなすのに十分な腕を持つ怪物のような姿として、 呪いをかけられている。 呪われた姿であるのに、 ほとんどの人はそれを便利と思っているようだ。"
+      },
+      "MS_TANUKI": {
+        "bName": "狸",
+        "bDesc": "丸い悪戯ものは、 いつも尻尾を肩に担いでいるのが特徴。 ちょっと待て、 今、 メモが回ってきたぞ。 あ、 実は尻尾じゃないんだ。 自分自身でググるのが一番かも。"
+      },
+      "MS_TENGU": {
+        "bName": "天狗",
+        "bDesc": "山頂から降りてきて、 人間たちの問題に干渉する謎の戦士。 敵か味方かわからないが、 いつも関係ないところに鼻を突っ込んでくる。"
+      },
+      "MS_GOSHADOKURO": {
+        "bName": "がしゃ髑髏",
+        "bDesc": "大きな骸骨だよ。 大きな骸骨が欲しいって？これ以上探す必要はない、 これが大きな骸骨だ。 すでに大きな骸骨を見たことがある？友人よ、 何をみてるんだ？この骸骨より大きいのはないって。 もっと大きな骨格の持ち主を見せてみろよ、 君が嘘つきだって証明してやっから。"
+      },
+      "MS_OROCHIMARIO": {
+        "bName": "オロチマリオ",
+        "bDesc": "巨大なパワーと知恵を持つ古代の伝説的なドラゴン。 8つの頭と8つの尾を備え、 8倍もの強い赤ワインを愛するが、 もしこのドラゴンに夜遊びに誘われたら、 断ったほうがいいよ。 家に持ち帰るのが大変なことになるから。"
+      },
+      "MS_NINETYNINE": {
+        "bName": "九十九の夜",
+        "bDesc": "森の狐のような悪戯もので、 不適切なヤツから夜の剣を守っている。 尾が何本あるかはまだ不明で、 誰かが数えようとすると50本くらいになったところで焼かれてしまうんだよね。"
+      },
+      "MS_SPIRIT1": {
+        "bName": "小さな幽霊",
+        "bDesc": "幽霊のようなものはありません。 これはおそらく雪に覆われたコウモリであり、 他には何もありません。"
       }
     }
   },
@@ -3040,6 +3448,74 @@
       "ZOMBIE": {
         "bDesc": "왜 죽을 만큼 일을 시키는 거죠? 그 이상으로 일을 시키세요! 추기경의 네크로맨서들은 묘비 속 존재를 휴식과 음식을 필요로 하던 노동력에 대한 값싼 대안으로 바꾸고서는 웃음을 터뜨렸습니다. 안타깝게도 이 새로운 노동력은 잠은 자지 않지만 음식 부분에 있어서는 완전히 다른 문제가 있었죠.",
         "bName": "좀비"
+      },
+      "MS_MIKOS": {
+        "bName": "미코시뉴도",
+        "bDesc": "인육을 좋아하는 이 사악하고 교활한 생명체는 신성한 사원으로 길을 떠난 순례자를 속이기 위해 수도승의 모습을 하고 있습니다. 1m도 넘는 긴 목을 보면 당연히 알 수 있지 않나 싶겠지만, 약간의 자신감으로 그 상황을 모면하는 모습을 보면 놀라울 겁니다."
+      },
+      "MS_HITOT": {
+        "bName": "히토츠메코조",
+        "bDesc": "저주받은 등불이나 행운의 두부 접시를 들고 작은 마을의 주민들을 유혹하는 요괴입니다. 꽤 장난기 많은 모습을 보여주지만, 뭔가를 잡는 걸 싫어합니다. 거리 감각이 없기 때문이죠."
+      },
+      "MS_KAPPA": {
+        "bName": "갓파",
+        "bDesc": "요괴 세계에서 지위가 낮은 미끄러운 요괴입니다. 심지어 다른 마법 생명체도 갓파의 이끼 낀 숨결, 축축한 피부, 음탕한 취향 때문에 갓파를 멀리합니다. 갓파는 한때 억지로 절하게 만들어 머리에 있는 물을 쏟아버림으로써 무장 해제할 수 있었지만, 요즘의 변형된 갓파는 머리를 숙이는 예의를 보이기에는 너무 무례합니다."
+      },
+      "MS_TSUCHINOKO": {
+        "bName": "츠치노코",
+        "bDesc": "아, 그 기원을 알 수 없는 통통한 뱀이여. 비늘 돋은 형상 안에 달콤한 비밀을 지닌 채, 갈망하며, 기분 좋게 웅크려 있네. 내가 그대를 꺾지 못한대도, 살아남은 냉정한 뱀이 그대를 바위에 내려쳐 버릴 수도 있지!"
+      },
+      "MS_YAMAMBA1": {
+        "bName": "야맘바",
+        "bDesc": "마녀, 괴물, 좌절한 아내의 챔피언입니다. 학대하는 아버지, 남편, 수도승을 저주하기 위해 산에서 내려왔다는 이야기가 있습니다. 어쩌면 사람들 사이의 문맹률이 높아 사악한 생명체라는 평판을 얻었을 겁니다."
+      },
+      "MS_KAMAITACHI": {
+        "bName": "카마이타치",
+        "bDesc": "성질이 매우 급하고, 날카로운 재치가 있는 아주 작은 생물입니다. 실제로 날카롭게 자른다고 하죠. 솔직히 이 일화는 꽤 지루하지만, 이를 지적하는 이들은 어떤 식으로든 다리가 잘리게 되는 경향이 있습니다."
+      },
+      "MS_RAIJU": {
+        "bName": "라이주",
+        "bDesc": "다른 차원의 출신으로, 번개를 타고 지구로 내려온 마법의 생물입니다. 이들이 온 곳이 지금 이 세계보다 얼마나 나쁜지는 미스터리로 남아 있습니다."
+      },
+      "MS_ONI1": {
+        "bName": "거대 오니",
+        "bDesc": "이들의 진홍색 가죽을 보고 사람들이 추측한 것과 다르게, 붉은 오니는 동족 중 가장 느긋하고 사교적인 축에 속합니다. 때때로 아이들을 잡아먹기도 하지만, 보통은 그 부모에게 적절한 대가를 지불할 만큼의 품위를 지니고 있습니다."
+      },
+      "MS_ONITHUNDER": {
+        "bName": "천둥 오니",
+        "bDesc": "교활하고, 폭력적이며, 복수심이 강한 이 악마는 작은 복수를 위해 산과 바다, 거대한 초원까지 건너온다고 합니다. 하지만 길 찾기 실력이 매우 나빠 잘못된 방향으로 가는 일이 많으니 복수의 대상에게는 다행한 일이죠."
+      },
+      "MS_ONIWIND": {
+        "bName": "바람 오니",
+        "bDesc": "오니 종족에서 가장 현자에 가까운 이 두툼한 괴물은 두꺼운 두개골 뼈 안에 온갖 이야기를 뒤죽박죽 담고 있습니다. 물론 대부분이 어떻게 다른 생물을 제대로 죽이고 먹는지에 대한 이야기라는 것에는 주목할 가치가 있겠죠."
+      },
+      "MS_TSUCHIGUMO": {
+        "bName": "츠치구모",
+        "bDesc": "기록적인 속도로 일을 마칠 수 있을 만큼 이 팔이 많은 괴물의 형태는 서두르다 목숨을 잃은 이들의 영혼으로 형성되었다고 합니다. 일종의 저주라고 볼 수 있겠지만, 대부분은 이를 편리하다고 생각하는 것 같습니다."
+      },
+      "MS_TANUKI": {
+        "bName": "타누키",
+        "bDesc": "항상 어깨에 꼬리를 걸치고 다니는 통통한 사기꾼입니다. 잠깐만요, 쪽지가 왔군요. 아, 사실 그건 꼬리가 아니라고 합니다. 이 부분은 직접 찾아보시는 게 좋겠군요."
+      },
+      "MS_TENGU": {
+        "bName": "텐구",
+        "bDesc": "필멸자의 일에 개입하고자 산꼭대기에서 내려오는 신비한 전사입니다. 친구든 적이든, 이들은 항상 자기 일이 아닌 곳에 끼어듭니다."
+      },
+      "MS_GOSHADOKURO": {
+        "bName": "고샤도쿠로",
+        "bDesc": "커다란 해골입니다. 커다란 해골을 원하시나요? 그럼 더 이상 볼 거 없습니다, 친구. 여기 커다란 해골이 있으니까요. 이미 커다란 해골은 많이 봤다고요? 친구, 당신은 아무것도 못 본 거예요. 여기 있는 해골이 제일 크니까요. 이것보다 큰 해골이 있다고 주장하는 사람을 알려주시죠. 그럼 난 당신에게 거짓말쟁이를 알려줄 테니까."
+      },
+      "MS_OROCHIMARIO": {
+        "bName": "오로치마리오",
+        "bDesc": "엄청난 힘과 지혜를 지닌 고대 전설의 드래곤입니다. 머리와 꼬리가 8개씩이며, 8배 강한 레드 와인을 사랑하죠. 그러니 함께 밤 외출을 나가자고 초대를 받는다면 거절하는 게 제일입니다. 악몽이 될 테니까요."
+      },
+      "MS_NINETYNINE": {
+        "bName": "99미호",
+        "bDesc": "숲에서 살아가는 여우 같은 괴물인 99미호는 자격 없는 사람이 밤의 검을 가져갈 수 없도록 방어하고 있습니다. 정확히 몇 개인지는 밝혀지지 않았으며, 그 꼬리를 세려던 사람들은 50개쯤에서 불에 타버리고 맙니다."
+      },
+      "MS_SPIRIT1": {
+        "bName": "작은 유령",
+        "bDesc": "단순히 유령 같은 것은 없습니다. 이것은 아마도 눈으로 뒤덮인 박쥐 일 뿐이고 다른 것은 아닙니다."
       }
     }
   },
@@ -3473,6 +3949,74 @@
       "ZOMBIE": {
         "bDesc": "„Dlaczego niby wieśniacy mają harować tylko do śmierci? Niech harują i po niej!”. Tak właśnie rzekli nekromanci Kardynała, zwracając się ku grobom w poszukiwaniu taniej, alternatywnej siły robotniczej, która nie wymagała odpoczynku ani pożywienia. Na nieszczęście, choć nowi pracownicy nie musieli spać, kwestia wyżywienia stała się nieco problematyczna.",
         "bName": "Zombie"
+      },
+      "MS_MIKOS": {
+        "bName": "Mikoshi-nyudo",
+        "bDesc": "Złowieszczy żartownisie gustujący w ludzkim mięsie. Te zwodnicze stworzenia podszywają się pod mnichów, by wabić na manowce pielgrzymów zmierzających do świątyni. Można by pomyśleć, że ich ponadmetrowe szyje powinny zdradzić ich prawdziwą naturę, ale odrobina pewności siebie czyni cuda."
+      },
+      "MS_HITOT": {
+        "bName": "Hitotsume-kozo",
+        "bDesc": "Yokai, które oferują mieszkańcom wiosek przeklęte latarnie bądź tofu mające przynieść im szczęście. Choć lubują się w zabawach, brak percepcji głębi sprawia, iż nie cierpią gier zręcznościowych."
+      },
+      "MS_KAPPA": {
+        "bName": "Kappa",
+        "bDesc": "Ci szubrawcy wśród yokai odstręczają nawet inne magiczne istoty swoim omszałym oddechem, wilgotną skórą i lubieżnymi upodobaniami. Niegdyś Kappy można było obezwładnić, zmuszając je do ukłonu, przez co z ich głów wylewała się woda, lecz współczesna odmiana jest o wiele zbyt bezczelna, by odwzajemnić ten gest."
+      },
+      "MS_TSUCHINOKO": {
+        "bName": "Tsuchinoko",
+        "bDesc": "Ach, pulchny gadzie tajemniczego pochodzenia. Tak pożądany, tak przyjemnie przysadzisty, przepyszna wręcz tajemnico okryta łuskami. Jeśli nie mogę cię mieć, niech jeden z ocalałych rozbije cię o skały, wyniosły wężu!"
+      },
+      "MS_YAMAMBA1": {
+        "bName": "Yamamba",
+        "bDesc": "Wiedźma, potwór, bohaterka sfrustrowanych żon. Mówi się, że schodzi ze szczytów gór, by rzucać klątwy na ojców, mężów i mnichów znęcających się nad innymi. Być może właśnie ze względu na wysoki poziom piśmienności wśród tych grup zdobyła reputację złego stworzenia."
+      },
+      "MS_KAMAITACHI": {
+        "bName": "Kamaitachi",
+        "bDesc": "Istoty niewielkie, lecz kolosalnie temperamentne, znane ze swoich ciętych języków. No dobra, po prostu z cięć. Szczerze mówiąc, to ich anegdoty są dość nudne, ale wiedzą, jak podciąć skrzydła bądź inne odnóża tym, którzy mają czelność zwrócić im na to uwagę."
+      },
+      "MS_RAIJU": {
+        "bName": "Raiju",
+        "bDesc": "Magiczne stworzenia, które trafiają na ziemię wewnątrz piorunów. Pochodzą z innego wymiaru egzystencji, choć jego dokładne położenie i wiedza o tym, co czyni go gorszym miejscem od tej konkretnej rzeczywistości, pozostają tajemnicą."
+      },
+      "MS_ONI1": {
+        "bName": "Duży oni",
+        "bDesc": "Pomimo tego, co wielu ludzi zakłada na podstawie ich szkarłatnej skóry, czerwone oni są jednymi z najspokojniejszych i najbardziej uspołecznionych ze swojego gatunku. Choć czasami pożerają dzieci, przeważnie są przynajmniej na tyle uprzejme, by zapłacić rodzicom odpowiednią kwotę."
+      },
+      "MS_ONITHUNDER": {
+        "bName": "Piorunujący oni",
+        "bDesc": "Sprytne, brutalne i mściwe — te demony są skłonne pokonać góry, morza i wielkie stepy, by pomścić nawet najmniejsze uczynione im krzywdy. Ich ofiary mogą jednak przeważnie spać spokojnie, gdyż ich brak orientacji w terenie nierzadko sprawia, że odbywają te podróże w niewłaściwym kierunku."
+      },
+      "MS_ONIWIND": {
+        "bName": "Wietrzny oni",
+        "bDesc": "Najbliższy odpowiednik mędrców wśród oni. Te otyłe bestie przechowują w swych twardych łbach wiele niemal zapomnianej wiedzy. Warto zauważyć, iż oczywiście większość tej wiedzy sprowadza się do najlepszych sposobów na zabijanie i pożeranie innych istot."
+      },
+      "MS_TSUCHIGUMO": {
+        "bName": "Tsuchigumo",
+        "bDesc": "Mówi się, że zostały stworzone z dusz tych, którzy zginęli w pośpiechu, przeklętych potworną formą z wieloma ramionami, która jest w stanie wypełniać zadania w rekordowym czasie. W praktyce marna z tego klątwa, większość z nich uważa tę umiejętność za dość przydatną."
+      },
+      "MS_TANUKI": {
+        "bName": "Tanuki",
+        "bDesc": "Pulchne nicponie, które praktycznie zawsze noszą swój ogon przewieszony przez ramię. Czekajcie, podają mi tutaj notatkę. Och. To jednak nie ogon. Lepiej sprawdźcie to sami."
+      },
+      "MS_TENGU": {
+        "bName": "Tengu",
+        "bDesc": "Tajemniczy wojownicy, którzy zstępują z gór, by ingerować w sprawy śmiertelników. Nieważne, czy jako przyjaciel, czy wróg, zawsze wtykają nos w nie swoje sprawy."
+      },
+      "MS_GOSHADOKURO": {
+        "bName": "Goshadokuro",
+        "bDesc": "To wielki szkielet. Chcesz wielki szkielet? Ależ proszę bardzo, oto i wielki szkielet. Myślisz, że inne szkielety też były wielkie? To nic w porównaniu z tym. Większych szkieletów niż ten tutaj nie ma. Pokaż nam kogoś z większym szkieletem, a my pokażemy ci kłamcę."
+      },
+      "MS_OROCHIMARIO": {
+        "bName": "Orochimario",
+        "bDesc": "Legendarny, starożytny smok o niezwykłej potędze i mądrości. Ma osiem głów, osiem ogonów i zamiłowanie do ośmiokrotnie destylowanego czerwonego wina, więc jeśli zaprosi cię na nocny wypad na miasto, lepiej odmówić. Niesienie go do domu to istny koszmar."
+      },
+      "MS_NINETYNINE": {
+        "bName": "Dziewięćdziesiąt dziewięć nocy",
+        "bDesc": "Sprytny niczym leśny lis Dziewięćdziesiąt dziewięć nocy chroni Miecz nocy przed niegodnymi ludźmi. Nadal nie ustalono, ile dokładnie posiada ogonów, gdyż wszyscy, którzy próbowali je zliczyć, zostali spopieleni, gdy doliczyli do około pięćdziesięciu."
+      },
+      "MS_SPIRIT1": {
+        "bName": "Mały duch",
+        "bDesc": "Po prostu nie ma czegoś takiego jak duchy. To prawdopodobnie tylko nietoperz pokryty śniegiem i nic więcej."
       }
     }
   },
@@ -3906,6 +4450,74 @@
       "ZOMBIE": {
         "bDesc": "Por que explorar trabalhadores só até a morte? Eles também podem trabalhar depois dela! Necromantes do Cardeal riam ao buscar nos túmulos uma alternativa para a mão de obra que necessita de descanso e alimentação. Para o azar deles, a nova mão de obra podia até não dormir, mas comer já era outra história.",
         "bName": "Zumbi"
+      },
+      "MS_MIKOS": {
+        "bName": "Mikoshi-nyudo",
+        "bDesc": "Demônios vigaristas que adoram carne humana. Estas traiçoeiras criaturas se passam por monges para enganar peregrinos a caminho do templo sagrado. Talvez você imagine que os pescoções de dois metros evidenciariam a fraude, mas um pouco de confiança é tudo."
+      },
+      "MS_HITOT": {
+        "bName": "Hitotsume-kozo",
+        "bDesc": "Um yokai que atrai os residentes de pequenos vilarejos com lanternas amaldiçoadas ou bandejas de tofu da sorte. Apesar do comportamento brincalhão, ele não gosta de pique-esconde: falta noção de profundidade."
+      },
+      "MS_KAPPA": {
+        "bName": "Kappa",
+        "bDesc": "A verdadeira ralé do mundo dos yokai. Até outras criaturas mágicas detestam seu hálito pantanoso, pele pegajosa e predileções libertinas. No passado, os Kappa ficavam desarmados se baixassem a cabeça o suficiente para derramar a água, mas sua versão moderna é rude demais para aderir a tais cortesias."
+      },
+      "MS_TSUCHINOKO": {
+        "bName": "Tsuchinoko",
+        "bDesc": "Ó serpe roliça de origem misteriosa. Tão cobiçada, tão agradavelmente atarracada, um segredo delicioso de forma escamosa. Se não posso te ter, que seja destruída nas rochas por um sobrevivente, altiva serpente!"
+      },
+      "MS_YAMAMBA1": {
+        "bName": "Yamamba",
+        "bDesc": "Bruxa, monstro, defensora das esposas frustradas. Supostamente desceu das montanhas para amaldiçoar pais, maridos e monges abusivos. Talvez por conta da alta taxa de alfabetismo entre essas pessoas, ela tenha adquirido a reputação de criatura maligna."
+      },
+      "MS_KAMAITACHI": {
+        "bName": "Kamaitachi",
+        "bDesc": "Criatura diminuta com um temperamento colossal e conhecida pela perspicácia afiada. Mas mais pela parte \"afiada\". Sinceramente, suas anedotas são bem chatas, mas quem traz isso à tona tende a ficar mal das pernas (ou sem perna nenhuma)."
+      },
+      "MS_RAIJU": {
+        "bName": "Raiju",
+        "bDesc": "Uma criatura mágica que entra na terra dentro de raios vindos de outro plano. De onde eles vêm e como tal lugar pode ser pior que esta realidade ainda é um mistério."
+      },
+      "MS_ONI1": {
+        "bName": "Oni Grande",
+        "bDesc": "Apesar das presunções que fazem a respeito do seu couro escarlate, os oni vermelhos estão entre os mais relaxados e sociáveis da espécie. Embora às vezes devorem crianças, eles geralmente são decentes o suficiente para pagar um preço justo aos pais."
+      },
+      "MS_ONITHUNDER": {
+        "bName": "Oni Trovejante",
+        "bDesc": "Astutos, violentos e vingativos. Esses demônios são conhecidos por atravessar montanhas, mares e grandes estepes para concretizar vinganças triviais. Para a sorte da maioria das vítimas, eles têm péssimo senso de direção, então geralmente viajam na direção errada."
+      },
+      "MS_ONIWIND": {
+        "bName": "Oni Ventoso",
+        "bDesc": "O oni que mais se aproxima de ser um sábio. Esses monstros corpulentos guardam todo tipo de miscelânea obscura nos espessos crânios. Vale enfatizar, claro, que a maior parte deste conhecimento é sobre as melhores maneiras de matar e comer diversas criaturas."
+      },
+      "MS_TSUCHIGUMO": {
+        "bName": "Tsuchigumo",
+        "bDesc": "Supostamente formado das almas daqueles que morreram com pressa, amaldiçoados por uma forma monstruosa que tem braços suficientes para realizar tarefas em tempo recorde. Embora fosse pra ser encarado como maldição, a maioria acha isso muito conveniente."
+      },
+      "MS_TANUKI": {
+        "bName": "Tanuki",
+        "bDesc": "Trapaceiro rechonchudo, está sempre carregando a cauda nos ombros. Pera aí, acabei de receber um bilhete. Eita. Na verdade, não é a cauda dele. É melhor você pesquisar por conta própria."
+      },
+      "MS_TENGU": {
+        "bName": "Tengu",
+        "bDesc": "Guerreiros misteriosos que descem do topo das montanhas para interferir na vida dos mortais. Amistosos ou não, estão sempre se intrometendo onde não foram chamados."
+      },
+      "MS_GOSHADOKURO": {
+        "bName": "Goshadokuro",
+        "bDesc": "É um esqueleto grande. Tá procurando um esqueleto grande? Pode parar, camarada, já achou um esqueleto grande. Você acha que já viu esqueletos grandes? Chapa, você não viu nada. Não tem esqueleto maior que esse aqui. Se você me mostrar alguém com um esqueleto maior, é fraude na certa."
+      },
+      "MS_OROCHIMARIO": {
+        "bName": "Orochimario",
+        "bDesc": "Antigo dragão lendário de imenso poder e sabedoria. Com oito cabeças, oito caudas e um amor por vinhos tintos de oito anos, se ele te convidar pra uma festa, é melhor recusar. Vai ser um pesadelo carregá-lo pra casa."
+      },
+      "MS_NINETYNINE": {
+        "bName": "Noventa e Nove Noites",
+        "bDesc": "Velhaca astuta das florestas, a Noventa e Nove Noites defende a Espada da Noite de usuários indignos. Ainda não se sabe quantas caudas ela tem: geralmente, quem chega na 50ª morre incinerado."
+      },
+      "MS_SPIRIT1": {
+        "bName": "Pequeno fantasma",
+        "bDesc": "Simplesmente não existem fantasmas. Este é provavelmente apenas um morcego coberto de neve e nada mais."
       }
     }
   },
@@ -4339,6 +4951,74 @@
       "ZOMBIE": {
         "bDesc": "«Зачем заставлять простых людей работать до смерти? Выйдем за рамки возможного!». Так смеялись некроманты кардинала, гуляя на кладбище в поисках дешевой рабочей силы, которую не надо поить и кормить. К их сожалению, работники все хорошо слышали и были голодны как никогда.",
         "bName": "Зомби"
+      },
+      "MS_MIKOS": {
+        "bName": "Микоси-нюдо",
+        "bDesc": "Демоны-плуты с тягой к человечинке. Коварно выдают себя за монахов, чтобы заманивать в логово паломников по пути к святому храму. Казалось бы, эти метровые шеи должны навести на подозрения, но вы поразитесь, сколько людей можно обвести вокруг пальца, если просто вести себя достаточно нагло и уверенно."
+      },
+      "MS_HITOT": {
+        "bName": "Хитоцумэ-козо",
+        "bDesc": "Демон-ёкай, заманивающий жителей мелких деревень или проклятыми фонарями, или подносами с приносящим удачу тофу. Несмотря на обычно игривый нрав, он терпеть не может играть в мячик из-за зрительных патологий с восприятием глубины."
+      },
+      "MS_KAPPA": {
+        "bName": "Каппа",
+        "bDesc": "Скользкая мелкая сошка мира демонов. Даже других магических существ отталкивает болотное дыхание, осклизлая кожа и распутство капп. Хотя раньше их можно было обезоружить, заставив поклониться и разлить воду с головы, современные каппы совсем отбились от рук, и от них не дождешься и обычной вежливости, не то что поклонов."
+      },
+      "MS_TSUCHINOKO": {
+        "bName": "Цутиноко",
+        "bDesc": "Толстенький змей загадочного-презагадочного происхождения. Такой обожаемый, такой коренастенький, такой вкусный чешуйчатый секретик! А если не будешь моим, то не доставайся же ты никому, злюка! Пусть выживший убьет тебя об скалу!"
+      },
+      "MS_YAMAMBA1": {
+        "bName": "Ямамба",
+        "bDesc": "Ведьма, чудовище, икона задерганных домохозяек. Говорят, она спустилась с вершины горы, чтобы проклясть отцов, мужей и монахов, которые любили распускать руки. Но тем не менее ей удалось снискать репутацию злодейки. Возможно, благодаря высокому уровню грамотности среди ее врагов."
+      },
+      "MS_KAMAITACHI": {
+        "bName": "Камайтати",
+        "bDesc": "Миниатюрное создание с грозным нравом, известное за свой острый ум. Точнее даже не ум — шуточки у него, по правде говоря, такие себе — но всякий, кто посмеет сказать об этом вслух, рискует быстро лишиться конечностей от двух взмахов острых клинков."
+      },
+      "MS_RAIJU": {
+        "bName": "Райдзю",
+        "bDesc": "Магическое существо, спускающееся на землю внутри молний из другого измерения. Откуда именно и почему им даже здесь лучше, чем там, остается загадкой."
+      },
+      "MS_ONI1": {
+        "bName": "Большой они",
+        "bDesc": "Несмотря на первое впечатление, которое производит их красная шкура, на самом деле, среди остального народа демонов-они красные славятся своей общительностью и беззаботностью. Пусть они иногда и пожирают детей, но обычно им хватает порядочности заплатить при этом достойную виру родителям."
+      },
+      "MS_ONITHUNDER": {
+        "bName": "Они грома",
+        "bDesc": "Хитрые, жестокие и мстительные демоны. Известны случаи, когда они пересекали горы, моря и великие степи только ради того, чтобы поквитаться с мелким обидчиком. К счастью для большинства их жертв, эти демоны страдают таким топографическим кретинизмом, что часто уходят в неправильном направлении."
+      },
+      "MS_ONIWIND": {
+        "bName": "Они ветра",
+        "bDesc": "Ближайшее подобие мудреца среди они. В твердолобых головах этих дородных монстров хранятся всевозможные малоизвестные и мимолетные знания. Стоит, конечно, отметить, что большинство их составляют наилучшие способы убийства и поедания различных существ."
+      },
+      "MS_TSUCHIGUMO": {
+        "bName": "Цутигумо",
+        "bDesc": "Говорят, они появляются из душ поспешно умерших, а некое проклятие дало им монструозную многорукую форму, чтобы выполнять задачи в рекордные сроки. Ну, вроде бы изначально это предполагалось как проклятие, но сами цутигумо против него, кажется, ничего не имеют."
+      },
+      "MS_TANUKI": {
+        "bName": "Тануки",
+        "bDesc": "Толстенький проказник, вечно укладывающий хвост себе на плечо. А, стоп, мне что-то подсказывают... О. На самом деле, это у него не хвост. В общем, лучше погуглите."
+      },
+      "MS_TENGU": {
+        "bName": "Тэнгу",
+        "bDesc": "Загадочные воины, которые спустились с горных вершин, чтобы лезть в жизнь смертных. И неважно, друг вы им или враг — они все равно будут совать свои длинные носы в чужие дела."
+      },
+      "MS_GOSHADOKURO": {
+        "bName": "Госядокуро",
+        "bDesc": "Большой скелет н-надо?. Тогда вы пришли по адресу. Думаете, что вас большими скелетами уже не удивить? Э, нет, дорогие мои, таких больших скелетов вы точно не видали. А если кто-то говорит, что у него больше, покажите мне этого лжеца, а я покажу, насколько он ошибается."
+      },
+      "MS_OROCHIMARIO": {
+        "bName": "Оротимарио",
+        "bDesc": "Легендарный древний дракон, что обладает невиданной силой и мудростью. Восемь голов, восемь хвостов и любовь к восьмикратно крепленому красному вину. Если когда-нибудь он позовет вас выпить, лучше откажитесь. Вы же не хотите тащить потом такое домой на своем горбу?"
+      },
+      "MS_NINETYNINE": {
+        "bName": "Девяносто девять ночей",
+        "bDesc": "Хитрая бесовская лисица. Живет в лесах и охраняет меч ночи от рук недостойных. Пока еще не удалось выяснить, сколько же у нее хвостов, поскольку всех считающих испепеляют, когда они доходят примерно до пятидесятого."
+      },
+      "MS_SPIRIT1": {
+        "bName": "Маленький призрак",
+        "bDesc": "Призраков просто не существует. Вероятно, это просто летучая мышь, засыпанная снегом, и ничего больше."
       }
     }
   },
@@ -4766,6 +5446,74 @@
       "ZOMBIE": {
         "bDesc": "«¿Por qué explotar a la plebe hasta la muerte cuando puedes seguir haciéndolo después?». Al oír esto, los nigromantes del cardenal se partieron de risa mientras iban al cementerio buscando una alternativa barata a los trabajadores que necesitan descanso y comida. Por desgracia para ellos, aunque sus nuevos empleados no dormían, su alimentación era una cuestión muy diferente.",
         "bName": "Zombi"
+      },
+      "MS_MIKOS": {
+        "bName": "Mikoshi-nyudo",
+        "bDesc": "Estas criaturas son farsantes demoniacos a los que les encanta el sabor de la carne humana. Se transforman en monjes para engañar a los peregrinos que se dirigen al templo sagrado. Te preguntarás si no los delata el cuello de metro y medio, pero te sorprenderías de hasta dónde se puede llegar con un poco de confianza."
+      },
+      "MS_HITOT": {
+        "bName": "Hitotsume-kozō",
+        "bDesc": "Un yōkai que mendiga por aldeas pequeñas con faroles malditos o bandejas de tofu. A pesar de su comportamiento juguetón, no le gustan nada los juegos con pelota, es lo que tiene no percibir la profundidad."
+      },
+      "MS_KAPPA": {
+        "bName": "Kappa",
+        "bDesc": "Estos limpiafondos viscosos del mundo de los yōkai asquean incluso a otras criaturas mágicas con su aliento pantanoso, su piel húmeda y sus gustos indecentes. Aunque solía ser fácil librarte de ellos haciendo que se inclinaran en reverencia, esta variedad moderna es demasiado maleducada para devolverte el gesto."
+      },
+      "MS_TSUCHINOKO": {
+        "bName": "Tsuchinoko",
+        "bDesc": "Oh, serpiente rolliza de origen desconocido. Tan codiciada, tan rechoncha... Un secreto exquisito envuelto en escamas. ¡Si no eres mía, que algún superviviente te lance por un acantilado, víbora arisca!"
+      },
+      "MS_YAMAMBA1": {
+        "bName": "Yamamba",
+        "bDesc": "Bruja, monstruo, campeadora de las esposas frustradas... Dicen que baja de las montañas para maldecir a padres, maridos y monjes violentos. Sin embargo, se ha ganado la reputación de criatura vil y malvada, probablemente, por la posición de poder de sus víctimas."
+      },
+      "MS_KAMAITACHI": {
+        "bName": "Kamaitachi",
+        "bDesc": "Una criatura diminuta con un gran temperamento conocida por sus opiniones tajantes. Bueno, lo verdaderamente tajante son las cuchillas que lleva. A decir verdad, sus opiniones no le importan a nadie, pero quien no se corta en decírselo termina con más de una cuchillada."
+      },
+      "MS_RAIJU": {
+        "bName": "Raijū",
+        "bDesc": "Una criatura mágica que baja a la tierra dentro de relámpagos desde otro plano de existencia. El lugar de donde viene y por qué prefiere esta realidad en particular sigue siendo un misterio."
+      },
+      "MS_ONI1": {
+        "bName": "Oni grande",
+        "bDesc": "A pesar de las suposiciones que la gente hace debido a su piel escarlata, los oni rojos son los más relajados y sociables de su especie. Aunque a veces devoran niños, normalmente tienen la decencia de pagarles una cantidad apropiada a los padres."
+      },
+      "MS_ONITHUNDER": {
+        "bName": "Oni atronador",
+        "bDesc": "Según cuentan, estos demonios astutos, violentos y vengativos son capaces de remover el cielo y la tierra para llevar a cabo hasta la más insignificante venganza. Por suerte para la mayoría de sus víctimas, su falta de orientación siempre los lleva por el camino equivocado."
+      },
+      "MS_ONIWIND": {
+        "bName": "Oni huracanado",
+        "bDesc": "Estos monstruos corpulentos son lo más parecido a un sabio que tienen los oni. Sus duras cabezas contienen todo tipo de recuerdos macabros. He de decir que casi todo el conocimiento que poseen tiene que ver con matar y comer diversas criaturas."
+      },
+      "MS_TSUCHIGUMO": {
+        "bName": "Tsuchigumo",
+        "bDesc": "Dicen que se compone de las almas de aquellos que mueren rápidamente y está maldita con una apariencia monstruosa que le permite hacer lo que sea a una velocidad récord. Se supone que es una maldición, pero la mayoría de ellas lo consideran una ventaja."
+      },
+      "MS_TANUKI": {
+        "bName": "Tanuki",
+        "bDesc": "Estos embusteros hasta la médula siempre llevan la cola al hombro. Un momento, me acaban de pasar información importante. Vaya, resulta que no es su cola. Será mejor que lo busques por tu cuenta."
+      },
+      "MS_TENGU": {
+        "bName": "Tengu",
+        "bDesc": "Estos guerreros misteriosos descienden de las montañas para entrometerse en los asuntos de los mortales. Amigos o enemigos, siempre meten las narices donde no deben."
+      },
+      "MS_GOSHADOKURO": {
+        "bName": "Goshadokuro",
+        "bDesc": "Es un esqueleto gigante. ¿Querías un esqueleto colosal? Pues aquí tienes el tuyo. ¿Creías que ya habías visto esqueletos enormes? No tienes ni idea, colega. No hay esqueletos más grandes que este. Y cualquiera que diga que ha visto un esqueleto más grande... miente."
+      },
+      "MS_OROCHIMARIO": {
+        "bName": "Orochimario",
+        "bDesc": "Un dragón legendario ancestral con una sabiduría y un poder infinitos. Tiene ocho cabezas, ocho colas y una gran debilidad por el vino tinto fuerte de 8 años. Si un día te invita a tomar una copa, no aceptes. Llevarlo a casa se convertirá en tu peor pesadilla."
+      },
+      "MS_NINETYNINE": {
+        "bName": "Noventa y Nueve Noches",
+        "bDesc": "Este zorro embaucador de los bosques defiende la espada de la noche frente a los indignos que la quieran empuñar. Aún no se sabe con certeza la cantidad de colas que tiene realmente, los que han intentado contarlas no suelen pasar de la número 50 sin quedar totalmente calcinados."
+      },
+      "MS_SPIRIT1": {
+        "bName": "Pequeño fantasma",
+        "bDesc": "Simplemente no existen los fantasmas. Probablemente sea solo un murciélago cubierto de nieve, y nada más."
       }
     }
   },
@@ -5211,6 +5959,74 @@
       "ZOMBIE": {
         "bDesc": "Neden fakir halkı ölümüne çalıştıralım ki? Ölümden beter oluncaya kadar çalıştıralım! Kardinal'in ölüm büyücüleri, dinlenmeye ve yiyeceğe ihtiyaç duyan iş gücüne ucuz bir alternatif aramak için mezara doğru yönelirken gülüştüler. Ne yazık ki yeni iş güçleri uykuya ihtiyaç duymazken, onları beslemek başlı başına bir dertti.",
         "bName": "Zombi"
+      },
+      "MS_MIKOS": {
+        "bName": "Mikoshi-nyudo",
+        "bDesc": "İnsan etine bayılan şeytani düzenbazlar. Bu ikiyüzlü yaratıklar kutsal tapınağa giden yolda hacıları kandırmak için keşiş kılığına girerler. Bir metre uzunluğundaki boyunlarının kendilerini ele vereceğini düşünebilirsiniz, ancak biraz özgüvenle birlikte neler yapabileceklerine şaşar kalırsınız."
+      },
+      "MS_HITOT": {
+        "bName": "Hitotsume-kozo",
+        "bDesc": "Küçük köylerin sakinlerini ya lanetli fenerlerle ya da şanslı tofu tepsileriyle darlayan bir yokai. Genelde oyunbaz olmasına rağmen, ebelemece oyunlarından pek haz etmez, anlayışı kıttır."
+      },
+      "MS_KAPPA": {
+        "bName": "Kappa",
+        "bDesc": "Yokai dünyasının sümüksü leşçilleri, diğer büyülü yaratıklar bile yosunsu nefesleri, yapışkan ciltleri ve uçarı tercihleri yüzünden bunlardan bıkmış durumda. Kappalar, bir zamanlar eğilerek selamlamaya ve kafa sularını dökmeye zorlanarak etkisiz hâle getirilebilse de modern kesim bu tür nezaketlere karşılık vermek için pek de kılını kıpırdatmıyor."
+      },
+      "MS_TSUCHINOKO": {
+        "bName": "Tsuchinoko",
+        "bDesc": "Oh, böylesine gizemli bir kökene sahip tıknaz bir ejder. Ağızların suyunu akıtan, adamı bir hoş eden çömelişiyle pullara bürünmüş lezzetli bir sır. Eğer ben sana sahip olamazsam hayatta kalanlardan biri seni dağlara taşlara vurur, yabani sürüngen!"
+      },
+      "MS_YAMAMBA1": {
+        "bName": "Yamamba",
+        "bDesc": "Cadı, canavar, hüsrana uğramış eşlerin şampiyonu; tacizci babaları, kocaları ve keşişleri lanetlemek için dağlardan indiği söylenir. Belki de bu tür insanlar arasında daha yüksek okuryazarlık olmasından dolayı bir şekilde kötü bir yaratık olarak ün kazandı."
+      },
+      "MS_KAMAITACHI": {
+        "bName": "Kamaitachi",
+        "bDesc": "Müthiş bir öfkesi olan ve keskin zekâsıyla tanınan minik yaratık. Cidden çok keskin bir zekâya sahip. Açıkçası, anekdotları oldukça bayıcı ama bunu ifade edenlerin bacakları öyle ya da böyle gövdesinden ayrılıyor."
+      },
+      "MS_RAIJU": {
+        "bName": "Raiju",
+        "bDesc": "Şimşeklerin içinde dünyaya inen, başka bir varoluş düzleminden gelen büyülü bir yaratık. Nereden geldikleri ve geldikleri yerin bu kendine has mekândan nasıl daha beter bir yer olduğu da ayrı bir gizem."
+      },
+      "MS_ONI1": {
+        "bName": "Koca Oni",
+        "bDesc": "İnsanların kızıl postlarından dolayı yaptıkları varsayımlara rağmen, kızıl oniler kendi türlerinin en rahat ve sosyal türleri arasındadır. Bazen çocukları mideye indirseler de, genellikle ebeveynlere münasip bir kan parası ödeyecek kadar da iyi kalplilerdir."
+      },
+      "MS_ONITHUNDER": {
+        "bName": "Gürleyen Oni",
+        "bDesc": "Kurnaz, hiddetli ve kindar olan bu iblislerin önemsiz intikamlarını almak için dağları, denizleri ve büyük bozkırları aştığı biliniyor. Neyse ki kurbanlarının çoğunun yön bulma becerileri berbat olduğundan, genellikle bu intikam seferlerinin yanlış yönde olduğunu söyleyebiliriz."
+      },
+      "MS_ONIWIND": {
+        "bName": "Geveze Oni",
+        "bDesc": "Oni-türü içerisinde bir bilgeye en yakın şey olan bu iri yarı canavarlardır, kalın kafataslarında her türden belirsiz efemera barındırırlar. Elbette, bu bilginin çoğunun diğer çeşitli yaratıkların en iyi nasıl öldürülüp yenileceğiyle ilgili olduğunu belirtmekte fayda var."
+      },
+      "MS_TSUCHIGUMO": {
+        "bName": "Tsuchigumo",
+        "bDesc": "Aceleyle ölenlerin ruhlarından var olduğu söylenir, görevleri rekor hızda tamamlamak için yeterli kolları olan canavarca bir form ile lanetlenmiştir. Aslında bunun bir lanet olması gerekiyordu, ancak çoğu bunu oldukça kullanışlı buluyor gibi görünüyor."
+      },
+      "MS_TANUKI": {
+        "bName": "Tanuki",
+        "bDesc": "Tombul düzenbaz, her zaman kuyruğunu omzunun üzerinden taşırken görülür. Bekle, bana bir not iletildi. Hadi ya. Kuyruk aslında kendi kuyruğu değilmiş. Bunu sen araştırsan daha iyi olacak gibi."
+      },
+      "MS_TENGU": {
+        "bName": "Tengu",
+        "bDesc": "Fanilerin işlerine karışmak için dağların tepelerinden inen gizemli savaşçılar. Dost ya da düşman olsun, her zaman burunlarını üzerlerine vazife olmayan işlere sokarlar."
+      },
+      "MS_GOSHADOKURO": {
+        "bName": "Goshadokuro",
+        "bDesc": "Bu büyük bir iskelet. Büyük bir iskelet ister misin? Başka bir yere bakmana gerek yok dostum, buradaki büyük bir iskelet. Daha büyük iskeletler gördüğünü mü düşünüyorsun? Dostum, sen hiçbir şey görmedin. Buradaki iskeletten daha büyük iskelet yok. Bize daha büyük bir iskeleti olan birini göster, biz de sana bir yalancı gösterelim."
+      },
+      "MS_OROCHIMARIO": {
+        "bName": "Orochimario",
+        "bDesc": "Muazzam güç ve bilgeliğe sahip antik efsanevi ejderha. Sekiz kafa, sekiz kuyruk ve sekiz kat sert kırmızı şaraba olan düşkünlüğüyle, sizi dışarıda bir geceye davet ettiyse, iyisi mi reddedin gitsin. Çünkü eve taşıması tam bir kabus olacaktır."
+      },
+      "MS_NINETYNINE": {
+        "bName": "Doksan Dokuz Gece",
+        "bDesc": "Ormanların kurnaz düzenbazı Doksan Dokuz Gece, Gece Kılıcını nalayık kullanıcılara karşı korur. Gerçekte kaç kuyruğu olduğu henüz belirlenmemiştir, çünkü saymaya çalışan herkes 50'ye falan kadar saydıktan sonra yanıp küle dönmüştür."
+      },
+      "MS_SPIRIT1": {
+        "bName": "küçük hayalet",
+        "bDesc": "Hayalet diye bir şey yoktur. Bu muhtemelen sadece karla kaplı bir yarasa ve başka bir şey değil."
       }
     }
   },

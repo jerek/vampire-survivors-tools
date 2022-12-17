@@ -412,6 +412,70 @@
         "name": "二代升级版超级糖果盒",
         "description": "糖果盒的附赠宝物：允许你选择任意已解锁的高级武器。",
         "tips": "需要：糖果盒。"
+      },
+      "SILVERWIND": {
+        "name": "银风",
+        "description": "被击败的敌人可能掉落红心。"
+      },
+      "SILVERWIND2": {
+        "name": "激荡",
+        "description": "进化后的银风， 可以削弱敌人的防御。",
+        "tips": "需要愈伤番茄  （最高级）。"
+      },
+      "FOURSEASONS": {
+        "name": "天有四时",
+        "description": "引发4次爆炸， 伤害受发射数量和持续时间的影响。",
+        "tips": "无关：速度。"
+      },
+      "FOURSEASONS2": {
+        "name": "法正五度",
+        "description": "进化后的天有四时， 引发一次额外的爆炸。",
+        "tips": "需要菠菜 （最高级）、 烛台 （最高级）。"
+      },
+      "SUMMONNIGHT": {
+        "name": "晦夜引",
+        "description": "在角色上方生成伤害性区域。",
+        "tips": "无关：速度。"
+      },
+      "SUMMONNIGHT2": {
+        "name": "流音长夜",
+        "description": "进化后的晦夜引， 在角色下方也生成伤害性区域。",
+        "tips": "需要双鸾宝镯 （最高级）。"
+      },
+      "MIRAGEROBE": {
+        "name": "幻无垢",
+        "description": "生成冰冻的静态飞射物， 有一定几率爆炸。",
+        "tips": "无关：速度。",
+        "customDescValue": "%0％的几率发生爆炸。"
+      },
+      "MIRAGEROBE2": {
+        "name": "臭物",
+        "description": "进化后的幻无垢， 飞射物可以移动并扰乱敌人。",
+        "tips": "需要念力法球 （最高级）。"
+      },
+      "BUBBLES": {
+        "name": "乱气蓝泡",
+        "description": "发射飘荡的飞射物。"
+      },
+      "BUBBLES2": {
+        "name": "噼里啪啦",
+        "description": "进化后的乱气蓝泡， 飞射物可以多次命中同一个敌人。",
+        "tips": "需要咒缚盒 （最高级）。"
+      },
+      "NIGHTSWORD": {
+        "name": "太宵一文字",
+        "description": "向最近的敌人发动连续刺击， 可以返还伤害， 有一定几率偷心。",
+        "tips": "无关：速度、 持续时间。"
+      },
+      "NIGHTSWORD2": {
+        "name": "村正",
+        "description": "进化后的太宵一文字， 飞射物可以多次命中同一个敌人， 可以吸取生命。",
+        "tips": "需要石面具 （最高级）。"
+      },
+      "BOCCE": {
+        "name": "108地滚球玉",
+        "description": "其实只有8颗地滚球而已， 会对周围的敌人造成伤害。",
+        "tips": "无关：发射数量、 持续时间、 速度。"
       }
     }
   },
@@ -839,6 +903,70 @@
         "name": "Super Candybox II Turbo",
         "description": "Gift of Candybox. Allows to choose among a selection of advanced weapons.",
         "tips": "Requires: Candybox."
+      },
+      "SILVERWIND": {
+        "name": "Silver Wind",
+        "description": "Defeated enemies might drop hearts."
+      },
+      "SILVERWIND2": {
+        "name": "Festive Winds",
+        "description": "Evolved Silver Wind. Weakens enemies defenses.",
+        "tips": "Requires Max: Pummarola."
+      },
+      "FOURSEASONS": {
+        "name": "Four Seasons",
+        "description": "Generates 4 explosions. Amount and Duration affect damage instead.",
+        "tips": "Ignores: Speed."
+      },
+      "FOURSEASONS2": {
+        "name": "Godai Shuffle",
+        "description": "Evolved Four Seasons. Generates an additional explosion.",
+        "tips": "Requires Max: Spinach, Candelabrador."
+      },
+      "SUMMONNIGHT": {
+        "name": "Summon Night",
+        "description": "Generates damaging zones above the character.",
+        "tips": "Ignores: Speed."
+      },
+      "SUMMONNIGHT2": {
+        "name": "Echo Night",
+        "description": "Evolved Summon Night. Also generates damaging zones below the character.",
+        "tips": "Requires Max: Duplicator."
+      },
+      "MIRAGEROBE": {
+        "name": "Mirage Robe",
+        "description": "Generates freezing static projectiles with a chance to explode.",
+        "tips": "Ignores: Speed.",
+        "customDescValue": "%0% chance to explode."
+      },
+      "MIRAGEROBE2": {
+        "name": "J'Odore",
+        "description": "Evolved Mirage Robe. Projectiles move and confuse enemies.",
+        "tips": "Requires Max: Magnet."
+      },
+      "BUBBLES": {
+        "name": "Mille Bolle Blu",
+        "description": "Fires lingering projectiles."
+      },
+      "BUBBLES2": {
+        "name": "Boo Roo Boolle",
+        "description": "Evolved Mille Bolle Blu. Projectiles can hit the same target more than once.",
+        "tips": "Requires Max: Spellbinder."
+      },
+      "NIGHTSWORD": {
+        "name": "Night Sword",
+        "description": "Dangerous, cursed weapon. Retaliates. Might steal hearts.",
+        "tips": "Ignores: Speed, Duration."
+      },
+      "NIGHTSWORD2": {
+        "name": "Muramasa",
+        "description": "Evolved Night Sword. Enables critical hits and combo finisher. Drains Health.",
+        "tips": "Requires Max: Stone Mask."
+      },
+      "BOCCE": {
+        "name": "108 Bocce",
+        "description": "Actually it's just 8. Damage affected by the difference between Curse and Luck.",
+        "tips": "Ignores: Amount, Duration, Speed."
       }
     }
   },
@@ -1248,6 +1376,70 @@
         "name": "Boîte à bonbons II super-turbo",
         "description": "Cadeau de la Boîte à bonbons. Permet de choisir parmi plusieurs armes avancées.",
         "tips": "Requiert : Boîte à bonbons."
+      },
+      "SILVERWIND": {
+        "name": "Vent argenté",
+        "description": "Les ennemis vaincus peuvent donner de la vie."
+      },
+      "SILVERWIND2": {
+        "name": "Vents festifs",
+        "description": "Évolution du Vent argenté. Affaiblit la défense adverse.",
+        "tips": "Requiert : Pummarola au max."
+      },
+      "FOURSEASONS": {
+        "name": "Quatre saisons",
+        "description": "Déclenche 4 explosions. La quantité et la durée affectent les dégâts.",
+        "tips": "Ignore : vitesse."
+      },
+      "FOURSEASONS2": {
+        "name": "Godai",
+        "description": "Évolution des Quatre saisons. Déclenche une explosion de plus.",
+        "tips": "Requiert : Épinard au max, Candélabrador au max."
+      },
+      "SUMMONNIGHT": {
+        "name": "Sombre appel",
+        "description": "Génère des zones de dégâts au-dessus du personnage.",
+        "tips": "Ignore : vitesse."
+      },
+      "SUMMONNIGHT2": {
+        "name": "Sombre écho",
+        "description": "Évolution du Sombre appel. Génère aussi des zones de dégâts en dessous du personnage.",
+        "tips": "Requiert : Duplicateur au max."
+      },
+      "MIRAGEROBE": {
+        "name": "Robe-mirage",
+        "description": "Génère des projectiles statiques qui immobilisent et peuvent exploser.",
+        "tips": "Ignore : vitesse.",
+        "customDescValue": "%0 % de chances d'exploser."
+      },
+      "MIRAGEROBE2": {
+        "name": "J'Odore",
+        "description": "Évolution de la Robe-mirage. Les projectiles bougent et troublent les ennemis.",
+        "tips": "Requiert : Orbe d'attraction au max."
+      },
+      "BUBBLES": {
+        "name": "Mille Bolle Blu",
+        "description": "Lance des projectiles persistants."
+      },
+      "BUBBLES2": {
+        "name": "Boo Roo Boolle",
+        "description": "Évolution du Mille Bolle Blu. Les projectiles peuvent frapper plusieurs fois une cible.",
+        "tips": "Requiert : Reliure magique au max."
+      },
+      "NIGHTSWORD": {
+        "name": "Épée nocturne",
+        "description": "Assène un combo d'attaques à l'ennemi le plus proche. Rend coup pour coup et peut voler des cœurs.",
+        "tips": "Ignore : vitesse, durée."
+      },
+      "NIGHTSWORD2": {
+        "name": "Muramasa",
+        "description": "Évolution de l'Épée nocturne. Inflige des coups critiques et combos décisifs. Draine votre vie.",
+        "tips": "Requiert : Masque de pierre au max"
+      },
+      "BOCCE": {
+        "name": "108 Boules",
+        "description": "En fait, il n'y en a que 8... Inflige des dégâts aux ennemis à proximité.",
+        "tips": "Ignore : quantité, durée, vitesse."
       }
     }
   },
@@ -1651,6 +1843,70 @@
         "name": "Super-Süßigkeitenschachtel II Turbo",
         "description": "Ein süßes Geschenk. Lässt einen aus einer Auswahl fortschrittlicher Waffen wählen.",
         "tips": "Benötigt: Süßigkeitenschachtel."
+      },
+      "SILVERWIND": {
+        "name": "Silberwind",
+        "description": "Besiegte Gegner können Herzen fallen lassen."
+      },
+      "SILVERWIND2": {
+        "name": "Festliche Winde",
+        "description": "Verbesserter Silberwind. Schwächt die Verteidigung des Feindes.",
+        "tips": "Max. erforderlich: Pummarola."
+      },
+      "FOURSEASONS": {
+        "name": "Vier Jahreszeiten",
+        "description": "Erzeugt 4 Explosionen. Menge und Dauer betreffen stattdessen Schaden.",
+        "tips": "Ignoriert: Tempo."
+      },
+      "FOURSEASONS2": {
+        "name": "Godai-Shuffle",
+        "description": "Verbesserte Vier Jahreszeiten. Erzeugt eine zusätzliche Explosion.",
+        "tips": "Max. erforderlich: Spinat, Kandelabrador."
+      },
+      "SUMMONNIGHT": {
+        "name": "Nachtbeschwörung",
+        "description": "Erzeugt Schadenszonen über dem Spielcharakter.",
+        "tips": "Ignoriert: Tempo."
+      },
+      "SUMMONNIGHT2": {
+        "name": "Echonacht",
+        "description": "Verbesserte Nachtbeschwörung. Erzeugt zudem Schadenszonen unter dem Spielcharakter.",
+        "tips": "Max. erforderlich: Verdoppler."
+      },
+      "MIRAGEROBE": {
+        "name": "Wunderrobe",
+        "description": "Erzeugt gefrierende statische Geschosse, die explodieren können.",
+        "tips": "Ignoriert: Tempo.",
+        "customDescValue": "%0% Chance zu explodieren."
+      },
+      "MIRAGEROBE2": {
+        "name": "J'Odore",
+        "description": "Verbesserte Wunderrobe. Geschosse bewegen und verwirren den Feind.",
+        "tips": "Max. erforderlich: Magnet."
+      },
+      "BUBBLES": {
+        "name": "Mille Bolle Blu",
+        "description": "Feuert verweilende Geschosse ab."
+      },
+      "BUBBLES2": {
+        "name": "Boo Roo Boolle",
+        "description": "Verbesserter Mille Bolle Blu. Geschosse können dasselbe Ziel mehrmals treffen.",
+        "tips": "Max. erforderlich: Zauberbinder."
+      },
+      "NIGHTSWORD": {
+        "name": "Nachtschwert",
+        "description": "Greift den nächsten Gegner mit einer Kombo an. Übt Vergeltung. Kann Herzen stehlen.",
+        "tips": "Ignoriert: Tempo, Dauer."
+      },
+      "NIGHTSWORD2": {
+        "name": "Muramasa",
+        "description": "Verbessertes Nachtschwert. Aktiviert kritische Treffer und Kombo-Finisher. Verbraucht Gesundheit.",
+        "tips": "Max. erforderlich: Steinmaske."
+      },
+      "BOCCE": {
+        "name": "108 Bocce",
+        "description": "Eigentlich nur 8. Schädigt nahe Gegner.",
+        "tips": "Ignoriert: Menge, Dauer, Tempo."
       }
     }
   },
@@ -2066,6 +2322,70 @@
         "name": "Super Scatola di caramelle II Turbo",
         "description": "Dono della Scatola di caramelle.\nOffre una selezione di diverse armi avanzate.",
         "tips": "Necessita di: Scatola di caramelle."
+      },
+      "SILVERWIND": {
+        "name": "Vento argentato",
+        "description": "I nemici sconfitti potrebbero rilasciare cuori."
+      },
+      "SILVERWIND2": {
+        "name": "Vento festivo",
+        "description": "Evoluzione del Vento argentato. Indebolisce le difese nemiche.",
+        "tips": "Necessita del massimo di: Pummarola."
+      },
+      "FOURSEASONS": {
+        "name": "Quattro stagioni",
+        "description": "Genera 4 esplosioni. Quantità e Durata influenzano i danni.",
+        "tips": "Ignora: Velocità."
+      },
+      "FOURSEASONS2": {
+        "name": "Godai shuffle",
+        "description": "Evoluzione di Quattro stagioni. Genera un'esplosione aggiuntiva.",
+        "tips": "Necessita del massimo di: Spinaci, Candelabrador."
+      },
+      "SUMMONNIGHT": {
+        "name": "Notte d'evocazione",
+        "description": "Crea zone di danno sopra il personaggio.",
+        "tips": "Ignora: Velocità."
+      },
+      "SUMMONNIGHT2": {
+        "name": "Notte d'eco",
+        "description": "Evoluzione di Notte d'evocazione. Crea anche zone di danno sotto il personaggio.",
+        "tips": "Necessita del massimo di: Duplicatore."
+      },
+      "MIRAGEROBE": {
+        "name": "Veste del miraggio",
+        "description": "Crea proiettili statici congelanti che hanno una probabilità di esplodere.",
+        "tips": "Ignora: Velocità.",
+        "customDescValue": "%0% di probabilità di esplodere."
+      },
+      "MIRAGEROBE2": {
+        "name": "J'Odore",
+        "description": "Evoluzione di Veste del miraggio. I proiettili si muovono e confondono i nemici.",
+        "tips": "Necessita del massimo di: Magnetosfera."
+      },
+      "BUBBLES": {
+        "name": "Mille Bolle Blu",
+        "description": "Spara proiettili persistenti."
+      },
+      "BUBBLES2": {
+        "name": "Boo Roo Boolle",
+        "description": "Evoluzione di Mille Bolle Blu. I proiettili possono colpire lo stesso bersaglio più volte.",
+        "tips": "Necessita del massimo di: Estendincanto."
+      },
+      "NIGHTSWORD": {
+        "name": "Spada notturna",
+        "description": "Colpisce con una combo il nemico più vicino. Contrattacca. Probabilità di rubare cuori.",
+        "tips": "Ignora: Velocità, Durata."
+      },
+      "NIGHTSWORD2": {
+        "name": "Muramasa",
+        "description": "Evoluzione di Spada notturna. Può infliggere colpi critici e le combo di colpi di grazia. Prosciuga la salute.",
+        "tips": "Necessita del massimo di: Maschera di pietra."
+      },
+      "BOCCE": {
+        "name": "108 bocce",
+        "description": "In realtà sono solo 8. Infliggono danni ai nemici circostanti.",
+        "tips": "Ignora: Quantità, Durata, Velocità."
       }
     }
   },
@@ -2469,6 +2789,70 @@
         "name": "超絶キャンディボックス改・ターボ",
         "description": "キャンディボックスのプレゼント。 上級武器のセレクションから選ぶことができる。",
         "tips": "必要アイテム： キャンディボックス"
+      },
+      "SILVERWIND": {
+        "name": "銀の風",
+        "description": "倒した敵がハートを落とすことがある。"
+      },
+      "SILVERWIND2": {
+        "name": "お祝いの風",
+        "description": "銀の風を進化させたもの。 敵の防御力を低下させる。",
+        "tips": "最大限が必要：命のトマト。"
+      },
+      "FOURSEASONS": {
+        "name": "春夏秋冬",
+        "description": "爆発を4回発生させる。 ダメージに発射弾数と効果時間が影響する。",
+        "tips": "弾速はこの武器に効果をもたらさない。"
+      },
+      "FOURSEASONS2": {
+        "name": "五行乱舞",
+        "description": "春夏秋冬が進化したもの。 追加で爆発を発生させる。",
+        "tips": "最大限が必要：ほうれん草、 ロウソク。"
+      },
+      "SUMMONNIGHT": {
+        "name": "夜の召喚",
+        "description": "キャラクターの真上にダメージゾーンを発生させる。",
+        "tips": "弾速はこの武器に効果をもたらさない。"
+      },
+      "SUMMONNIGHT2": {
+        "name": "山彦の夜",
+        "description": "夜の召喚を進化させたもの。 また、 キャラクターの真下にダメージゾーンを発生させる。",
+        "tips": "最大限が必要：複写の輪。"
+      },
+      "MIRAGEROBE": {
+        "name": "幻惑の着物",
+        "description": "敵の動きを止める弾を放つ。 確率で爆発も発生する。",
+        "tips": "弾速はこの武器に効果をもたらさない。",
+        "customDescValue": "%0%の確率で爆発する。"
+      },
+      "MIRAGEROBE2": {
+        "name": "ジョドーレ",
+        "description": "ミラージュ・ローブを進化させたもの。 弾数が移動し、 敵を混乱させる。",
+        "tips": "最大限が必要：回収範囲。"
+      },
+      "BUBBLES": {
+        "name": "藍の泡",
+        "description": "ステージに滞留する弾を放つ。"
+      },
+      "BUBBLES2": {
+        "name": "無尽の泡",
+        "description": "無尽の泡を進化させたもの。 発射物が同じ敵に複数回ヒットする。",
+        "tips": "最大限が必要：封魔の書。"
+      },
+      "NIGHTSWORD": {
+        "name": "夜の剣",
+        "description": "最も近くにいる敵に連続攻撃を仕掛ける。 反撃する。 攻撃力でハートを奪う。",
+        "tips": "弾速、 効果時間はこの武器に効果をもたらさない。"
+      },
+      "NIGHTSWORD2": {
+        "name": "ムラマサ",
+        "description": "夜の剣を進化させたもの。 クリティカルヒットとコンボフィニッシャーができる。 HPを消費する。",
+        "tips": "最大限が必要：石の仮面。"
+      },
+      "BOCCE": {
+        "name": "百八つの数珠",
+        "description": "実は、 8個だけ。 近くの敵にダメージを与える。",
+        "tips": "発射弾数、 効果時間、 弾速はこの武器に効果をもたらさない。"
       }
     }
   },
@@ -2872,6 +3256,70 @@
         "name": "슈퍼 사탕상자 II 터보",
         "description": "사탕상자 선물입니다. 고급 무기 중 선택할 수 있습니다.",
         "tips": "요구 사항: 사탕상자"
+      },
+      "SILVERWIND": {
+        "name": "은색 바람",
+        "description": "처치한 적이 체력을 드롭할 수도 있습니다."
+      },
+      "SILVERWIND2": {
+        "name": "축제의 바람",
+        "description": "진화한 은색 바람입니다. 적의 방어도를 약화합니다.",
+        "tips": "붉은 심장 최대 레벨이 필요합니다."
+      },
+      "FOURSEASONS": {
+        "name": "사계절",
+        "description": "4회 폭발을 일으킵니다. 대신 수량과 지속시간이 피해량에 영향을 미칩니다.",
+        "tips": "강화 무시: 투사체 속도"
+      },
+      "FOURSEASONS2": {
+        "name": "고다이 셔플",
+        "description": "진화한 사계절입니다. 추가 폭발을 1회 생성합니다.",
+        "tips": "시금치, 촛대 최대 레벨이 필요합니다."
+      },
+      "SUMMONNIGHT": {
+        "name": "밤 소환",
+        "description": "캐릭터 위에 피해 구역을 생성합니다.",
+        "tips": "강화 무시: 투사체 속도"
+      },
+      "SUMMONNIGHT2": {
+        "name": "밤 메아리",
+        "description": "진화한 밤 소환입니다. 캐릭터 아래에 피해 구역을 생성합니다.",
+        "tips": "복제 반지 최대 레벨이 필요합니다."
+      },
+      "MIRAGEROBE": {
+        "name": "신기루 로브",
+        "description": "폭발할 확률이 있는 정적인 동결 투사체를 생성합니다.",
+        "tips": "강화 무시: 투사체 속도",
+        "customDescValue": "%0% 확률로 폭발합니다."
+      },
+      "MIRAGEROBE2": {
+        "name": "조도르",
+        "description": "진화한 신기루 로브입니다. 투사체가 이동하며 적을 혼란에 빠뜨립니다.",
+        "tips": "자석 최대 레벨이 필요합니다."
+      },
+      "BUBBLES": {
+        "name": "밀레 볼레 블루",
+        "description": "지연형 투사체를 발사합니다."
+      },
+      "BUBBLES2": {
+        "name": "부 루 불레",
+        "description": "진화한 밀레 불레 블루입니다. 투사체가 동일한 대상을 2번 이상 적중할 수 없습니다.",
+        "tips": "주문속박기 최대 레벨이 필요합니다."
+      },
+      "NIGHTSWORD": {
+        "name": "밤의 검",
+        "description": "가장 가까운 적에게 콤보 공격을 가합니다. 반격이 가능합니다. 하트를 훔칠 수 있습니다.",
+        "tips": "강화 무시: 투사체 속도, 지속시간"
+      },
+      "NIGHTSWORD2": {
+        "name": "무라마사",
+        "description": "진화한 밤의 검입니다. 치명타와 콤보 피니셔를 활성화합니다. 체력을 흡수합니다.",
+        "tips": "돌가면 최대 레벨이 필요합니다."
+      },
+      "BOCCE": {
+        "name": "108 보체",
+        "description": "사실은 그냥 8입니다. 근처 적에게 피해를 가합니다.",
+        "tips": "강화 무시: 투사체 수, 지속시간, 투사체 속도"
       }
     }
   },
@@ -3281,6 +3729,70 @@
         "name": "Super Pudełko Cukierków II Turbo",
         "description": "Dar w postaci pudełka cukierków. Pozwala wybrać dowolną broń zaawansowaną.",
         "tips": "Wymagania: Pudełko cukierków"
+      },
+      "SILVERWIND": {
+        "name": "Srebrny wiatr",
+        "description": "Pokonani wrogowie mogą pozostawiać serca."
+      },
+      "SILVERWIND2": {
+        "name": "Uroczyste wiatry",
+        "description": "Ulepszony Srebrny wiatr. Osłabia obronę wrogów.",
+        "tips": "Wymagany maks. poziom: Pummarola."
+      },
+      "FOURSEASONS": {
+        "name": "Cztery pory roku",
+        "description": "Wytwarza 4 eksplozje. Ilość i Czas trwania wpływają na obrażenia.",
+        "tips": "Ignoruje: Prędkość."
+      },
+      "FOURSEASONS2": {
+        "name": "Sztuczka Godai",
+        "description": "Ulepszone Cztery pory roku. Wytwarza dodatkową eksplozję.",
+        "tips": "Wymagany maks. poziom: Szpinak, Kandelabrador."
+      },
+      "SUMMONNIGHT": {
+        "name": "Przywołana noc",
+        "description": "Wytwarza strefy obrażeń nad postacią.",
+        "tips": "Ignoruje: Prędkość."
+      },
+      "SUMMONNIGHT2": {
+        "name": "Echo nocy",
+        "description": "Ulepszona Przywołana noc. Wytwarza strefy obrażeń także pod postacią.",
+        "tips": "Wymagany maks. poziom: Duplikator."
+      },
+      "MIRAGEROBE": {
+        "name": "Szatamorgana",
+        "description": "Wytwarza nieruchome zamrażające pociski, które mogą eksplodować.",
+        "tips": "Ignoruje: Prędkość.",
+        "customDescValue": "%0% szansy na eksplozję."
+      },
+      "MIRAGEROBE2": {
+        "name": "J'Odore",
+        "description": "Ulepszona Szatamorgana. Pociski poruszają się i dezorientują wrogów.",
+        "tips": "Wymagany maks. poziom: Magnes."
+      },
+      "BUBBLES": {
+        "name": "Mille Bolle Blu",
+        "description": "Wystrzeliwuje długotrwałe pociski."
+      },
+      "BUBBLES2": {
+        "name": "Boo Roo Boolle",
+        "description": "Ulepszone Mille Bolle Blu. Pociski mogą trafić ten sam cel więcej niż raz.",
+        "tips": "Wymagany maks. poziom: Zaklinacz."
+      },
+      "NIGHTSWORD": {
+        "name": "Miecz nocy",
+        "description": "Atakuje najbliższego wroga kombinacją cięć. Zadaje obrażenia odwetowe. Może wykraść serca.",
+        "tips": "Ignoruje: Prędkość i Czas trwania."
+      },
+      "NIGHTSWORD2": {
+        "name": "Muramasa",
+        "description": "Ulepszony Miecz nocy. Umożliwia trafienia krytyczne i ataki kończące. Wysysa Zdrowie.",
+        "tips": "Wymagany maks. poziom: Kamienna maska"
+      },
+      "BOCCE": {
+        "name": "108 Bocce",
+        "description": "Tak naprawdę to tylko 8. Zadaje obrażenia pobliskim wrogom.",
+        "tips": "Ignoruje: Ilość, Czas trwania, Prędkość."
       }
     }
   },
@@ -3690,6 +4202,70 @@
         "name": "Super Presentinho II Turbo",
         "description": "Presente do Presentinho. Permite escolher dentre uma seleção de armas avançadas.",
         "tips": "Requer: Presentinho."
+      },
+      "SILVERWIND": {
+        "name": "Vento Prateado",
+        "description": "Inimigos derrotados podem deixar corações."
+      },
+      "SILVERWIND2": {
+        "name": "Ventos Festivos",
+        "description": "Evolução do Vento Prateado. Enfraquece as defesas dos inimigos.",
+        "tips": "Requer máx. de: Pummarola."
+      },
+      "FOURSEASONS": {
+        "name": "Quatro Estações",
+        "description": "Gera 4 explosões. Quantidade e Duração passam a afetar dano.",
+        "tips": "Ignora: Velocidade."
+      },
+      "FOURSEASONS2": {
+        "name": "Gesto Godai",
+        "description": "Evolução das Quatro Estações. Gera uma explosão adicional.",
+        "tips": "Requer máx. de: Espinafre, Candelabrador."
+      },
+      "SUMMONNIGHT": {
+        "name": "Noite da Invocação",
+        "description": "Gera acima do personagem zonas que causam dano.",
+        "tips": "Ignora: Velocidade."
+      },
+      "SUMMONNIGHT2": {
+        "name": "Noite do Eco",
+        "description": "Evolução da Noite da Invocação. Também gera abaixo do personagem zonas que causam dano.",
+        "tips": "Requer máx. de: Duplicador."
+      },
+      "MIRAGEROBE": {
+        "name": "Manto da Miragem",
+        "description": "Gera projéteis estáticos e paralisantes que têm a chance de explodir.",
+        "tips": "Ignora: Velocidade.",
+        "customDescValue": "%0% de chance de explodir."
+      },
+      "MIRAGEROBE2": {
+        "name": "J'Odore",
+        "description": "Evolução do Manto da Miragem. Projéteis se movimentam e confundem inimigos.",
+        "tips": "Requer máx. de: Orbímã."
+      },
+      "BUBBLES": {
+        "name": "Mille Bolle Blu",
+        "description": "Dispara projéteis duradouros."
+      },
+      "BUBBLES2": {
+        "name": "Boo Roo Boolle",
+        "description": "Evolução de Mille Bolle Blu. Projéteis podem atingir o mesmo alvo mais de uma vez.",
+        "tips": "Requer máx. de: Magicatalisador."
+      },
+      "NIGHTSWORD": {
+        "name": "Espada da Noite",
+        "description": "Golpeia o inimigo mais próximo com um combo de ataques. Retalia. Pode roubar corações.",
+        "tips": "Ignora: Velocidade, Duração."
+      },
+      "NIGHTSWORD2": {
+        "name": "Muramasa",
+        "description": "Evolução da Espada da Noite. Ativa acertos críticos e finalizador de combo. Consome Vida.",
+        "tips": "Requer máx. de: Máscara de Pedra."
+      },
+      "BOCCE": {
+        "name": "108 Bocha",
+        "description": "Na verdade, é só 8. Causa dano a inimigos próximos.",
+        "tips": "Ignora: Quantidade, Duração, Velocidade."
       }
     }
   },
@@ -4099,6 +4675,70 @@
         "name": "Суперкоробка конфет II Турбо",
         "description": "Коробка конфет в подарок. Дает выбрать оружие из подборки продвинутого.",
         "tips": "Требуется: коробка конфет."
+      },
+      "SILVERWIND": {
+        "name": "Серебряный ветер",
+        "description": "Побежденные враги могут давать сердца."
+      },
+      "SILVERWIND2": {
+        "name": "Праздничный ветер",
+        "description": "Улучшенный Серебряный ветер. Ослабляет защиту врагов.",
+        "tips": "Требуется макс.: Бычье сердце."
+      },
+      "FOURSEASONS": {
+        "name": "Четыре сезона",
+        "description": "Генерирует четыре взрыва. Боезапас и продолжительность влияют на урон.",
+        "tips": "Игнорирует: скорость."
+      },
+      "FOURSEASONS2": {
+        "name": "Пятый элемент",
+        "description": "Улучшенные Четыре сезона. Генерирует дополнительный взрыв.",
+        "tips": "Требуется макс.: шпинат, Канделябрадор."
+      },
+      "SUMMONNIGHT": {
+        "name": "Призыв ночи",
+        "description": "Создает над персонажем зоны, наносящие урон.",
+        "tips": "Игнорирует: скорость."
+      },
+      "SUMMONNIGHT2": {
+        "name": "Эхо ночи",
+        "description": "Улучшенный Призыв ночи. Создает зоны, наносящие урон, и под персонажем.",
+        "tips": "Требуется макс.: дупликатор."
+      },
+      "MIRAGEROBE": {
+        "name": "Одеяние миража",
+        "description": "Создает замораживающие статические снаряды, которые могут взорваться.",
+        "tips": "Игнорирует: скорость.",
+        "customDescValue": "Шанс взрыва — %0%."
+      },
+      "MIRAGEROBE2": {
+        "name": "Ж'або",
+        "description": "Улучшенное Одеяние миража. Снаряды движутся и дезориентируют врагов.",
+        "tips": "Требуется макс.: магнит."
+      },
+      "BUBBLES": {
+        "name": "Милли-булли-блу",
+        "description": "Выпускает снаряды продолжительного действия."
+      },
+      "BUBBLES2": {
+        "name": "Бу-ру-булле",
+        "description": "Улучшенный Милли-булли-блу. Снаряды могут несколько раз попадать по одной и той же цели.",
+        "tips": "Требуется макс.: заклинатель."
+      },
+      "NIGHTSWORD": {
+        "name": "Меч ночи",
+        "description": "Наносит комбинированные удары по ближайшему врагу. Наносит ответный удар. Может красть сердца.",
+        "tips": "Игнорирует: скорость, продолжительность."
+      },
+      "NIGHTSWORD2": {
+        "name": "Мурамаса",
+        "description": "Улучшенный Меч ночи. Позволяет наносить критические удары и добивающее комбо. Расходует здоровье.",
+        "tips": "Требуется макс.: Каменная маска"
+      },
+      "BOCCE": {
+        "name": "108 Бочче",
+        "description": "На самом деле всего 8. Наносит урон врагам поблизости.",
+        "tips": "Игнорирует: количество, продолжительность, скорость."
       }
     }
   },
@@ -4502,6 +5142,70 @@
         "name": "Caja de dulces II superturbo",
         "description": "Don de la caja de dulces. Te permite elegir entre una selección de armas avanzadas.",
         "tips": "Requiere: caja de dulces."
+      },
+      "SILVERWIND": {
+        "name": "Viento argénteo",
+        "description": "Puede que los enemigos suelten corazones."
+      },
+      "SILVERWIND2": {
+        "name": "Vientos festivos",
+        "description": "Evolución del viento argénteo. Debilita las defensas de los enemigos.",
+        "tips": "Requiere: pummarola al máximo."
+      },
+      "FOURSEASONS": {
+        "name": "Cuatro estaciones",
+        "description": "Genera 4 explosiones. La cantidad y la duración afectan al daño.",
+        "tips": "Ignora: velocidad."
+      },
+      "FOURSEASONS2": {
+        "name": "Combinación godai",
+        "description": "Evolución de las cuatro estaciones. Genera una explosión adicional.",
+        "tips": "Requiere: espinaca y candelabrador al máximo."
+      },
+      "SUMMONNIGHT": {
+        "name": "Invocanoches",
+        "description": "Genera zonas de daño encima del personaje.",
+        "tips": "Ignora: velocidad."
+      },
+      "SUMMONNIGHT2": {
+        "name": "Noche resonante",
+        "description": "Evolución de invocanoches. También genera zonas de daño debajo el personaje.",
+        "tips": "Requiere: duplicador al máximo."
+      },
+      "MIRAGEROBE": {
+        "name": "Túnica milagrosa",
+        "description": "Genera proyectiles estáticos que congelan y puede que exploten.",
+        "tips": "Ignora: velocidad.",
+        "customDescValue": "%0% de prob. de explotar."
+      },
+      "MIRAGEROBE2": {
+        "name": "J'odore",
+        "description": "Evolución de túnica milagrosa. Los proyectiles se mueven y confunden a los enemigos.",
+        "tips": "Requiere: orbe magnético al máximo."
+      },
+      "BUBBLES": {
+        "name": "Mille bolle blu",
+        "description": "Dispara proyectiles persistentes."
+      },
+      "BUBBLES2": {
+        "name": "Boo roo boolle",
+        "description": "Evolución de Mille Bolle Blu. Los proyectiles pueden impactar en el mismo objetivo más de una vez.",
+        "tips": "Requiere: potenciahechizos al máximo."
+      },
+      "NIGHTSWORD": {
+        "name": "Espada de la noche",
+        "description": "Golpea al enemigo más cercano con un combo. Refleja el daño. Puede robar corazones.",
+        "tips": "Ignora: velocidad, duración."
+      },
+      "NIGHTSWORD2": {
+        "name": "Muramasa",
+        "description": "Evolución de espada de la noche. Activa golpes críticos y un remate de combo. Absorbe salud.",
+        "tips": "Requiere: máscara de piedra al máximo."
+      },
+      "BOCCE": {
+        "name": "108 bocce",
+        "description": "En realidad solo son 8. Daña a los enemigos cercanos.",
+        "tips": "Ignora: cantidad, duración, velocidad."
       }
     }
   },
@@ -4923,6 +5627,70 @@
         "name": "Süper Şeker Kutusu II Turbo",
         "description": "Şeker Kutusu Hediyesi. Gelişmiş silahlar arasından seçim yapmanızı sağlar.",
         "tips": "Gerekir: Şeker Kutusu."
+      },
+      "SILVERWIND": {
+        "name": "Gümüş Rüzgâr",
+        "description": "Öldürülen düşmanlar kalp düşürebilir."
+      },
+      "SILVERWIND2": {
+        "name": "Festival Rüzgârları",
+        "description": "Evrilmiş Gümüş Rüzgâr. Düşmanların savunmasını zayıflatır.",
+        "tips": "Maks Gerektirir: Pummarola"
+      },
+      "FOURSEASONS": {
+        "name": "Dört Mevsim",
+        "description": "4 patlama oluşturur. Miktar ve Tesir Süresi direkt hasarı etkiler.",
+        "tips": "Yok sayar: Hız."
+      },
+      "FOURSEASONS2": {
+        "name": "Godai Karışımı",
+        "description": "Evrilmiş Dört Mevsim. Fazladan bir patlama oluşturur.",
+        "tips": "Maks Gerektirir: Ispanak, Şamdan."
+      },
+      "SUMMONNIGHT": {
+        "name": "Summon Night",
+        "description": "Karakterin üzerinde hasar veren bölgeler oluşturur.",
+        "tips": "Yok sayar: Hız."
+      },
+      "SUMMONNIGHT2": {
+        "name": "Echo Night",
+        "description": "Evrilmiş Summon Night.",
+        "tips": "Maks Gerektirir: Çoğaltıcı."
+      },
+      "MIRAGEROBE": {
+        "name": "Serap Cübbesi",
+        "description": "Patlama şansı olan dondurucu statik fırlatılabilirler oluşturur.",
+        "tips": "Yok sayar: Hız.",
+        "customDescValue": "%0% patlama şansı."
+      },
+      "MIRAGEROBE2": {
+        "name": "J'Odore",
+        "description": "Evrilmiş Serap Cübbesi. Fırlatılabilirler hareket edip düşmanı şaşırtır.",
+        "tips": "Maks Gerektirir: Mıknatıs."
+      },
+      "BUBBLES": {
+        "name": "Mille Bolle Blu",
+        "description": "Yavaş fırlatılabilirler atar."
+      },
+      "BUBBLES2": {
+        "name": "Boo Roo Boolle",
+        "description": "Evrilmiş Mille Bolle Blu. Fırlatılabilirler aynı hedefi birden fazla kez vurabilir.",
+        "tips": "Maks Gerektirir: Büyübağlayan."
+      },
+      "NIGHTSWORD": {
+        "name": "Gece Kılıcı",
+        "description": "En yakın düşmana kombo saldırı ile vurur. Misilleme yapar. Kalpleri çalabilir.",
+        "tips": "Yok Sayar: Hız, Tesir Süresi."
+      },
+      "NIGHTSWORD2": {
+        "name": "Muramasa",
+        "description": "Evrilmiş Gece Kılıcı. Kritik vuruşları ve kombo bitiriciyi etkinleştirir. Sağlığı tüketir.",
+        "tips": "Maks Gerektirir: Taş Maske."
+      },
+      "BOCCE": {
+        "name": "108 Bocce",
+        "description": "Aslında sadece 8. Yakındaki düşmanlara hasar verir.",
+        "tips": "Yok sayar: Miktar, Tesir Süresi, Hız."
       }
     }
   },
