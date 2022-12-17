@@ -61,7 +61,7 @@ html, body {
     padding: 0;
 }
 /* A gradient that imitates the BG a little: linear-gradient(180deg, #800106 0%, #120303 100%) */
-html {background: #4a0106 url(../game-assets/img/introBG.png) top / cover fixed}
+html {background: #4a0106 url(../game-assets/resources/app/.webpack/renderer/assets/img/introBG.png) top / cover fixed}
 body {padding: var(--page-padding)}
 
 h1, h2, h3, h4, h5, h6 {font-weight: normal; margin: 10px 0; text-align: center}
@@ -144,27 +144,27 @@ footer a:hover {color: var(--vs-yellow)}
 /* ====== */
 
 .vs-button[data-color="blue"] {
-    border-image: url(../game-assets/img/UI/button_c9_normal_x2.png) var(--vs-button-border-size) fill;
+    border-image: url(../game-assets/resources/app/.webpack/renderer/assets/img/UI/button_c9_normal_x2.png) var(--vs-button-border-size) fill;
 }
 .vs-button[data-color="blue"]:hover {
-    border-image: url(../game-assets/img/UI/button_c9_mouseover_x2.png) var(--vs-button-border-size) fill;
+    border-image: url(../game-assets/resources/app/.webpack/renderer/assets/img/UI/button_c9_mouseover_x2.png) var(--vs-button-border-size) fill;
 }
 .vs-button[data-color="blue"]:active {
-    border-image: url(../game-assets/img/UI/button_c9_pressed_x2.png) var(--vs-button-border-size) fill;
+    border-image: url(../game-assets/resources/app/.webpack/renderer/assets/img/UI/button_c9_pressed_x2.png) var(--vs-button-border-size) fill;
 }
 
 .vs-button[data-color="green"] {
-    border-image: url(../game-assets/img/UI/button_c5_normal_x2.png) var(--vs-button-border-size) fill;
+    border-image: url(../game-assets/resources/app/.webpack/renderer/assets/img/UI/button_c5_normal_x2.png) var(--vs-button-border-size) fill;
 }
 .vs-button[data-color="green"]:hover {
-    border-image: url(../game-assets/img/UI/button_c5_mouseover_x2.png) var(--vs-button-border-size) fill;
+    border-image: url(../game-assets/resources/app/.webpack/renderer/assets/img/UI/button_c5_mouseover_x2.png) var(--vs-button-border-size) fill;
 }
 .vs-button[data-color="green"]:active {
-    border-image: url(../game-assets/img/UI/button_c5_pressed_x2.png) var(--vs-button-border-size) fill;
+    border-image: url(../game-assets/resources/app/.webpack/renderer/assets/img/UI/button_c5_pressed_x2.png) var(--vs-button-border-size) fill;
 }
 
 .vs-button[data-color="red"] {
-    border-image: url(../game-assets/img/UI/button_c8_normal_x2.png) var(--vs-button-border-size) fill;
+    border-image: url(../game-assets/resources/app/.webpack/renderer/assets/img/UI/button_c8_normal_x2.png) var(--vs-button-border-size) fill;
 }
 
 /* ====== */
@@ -212,7 +212,7 @@ footer a:hover {color: var(--vs-yellow)}
 .vst:before {
     --border-offset: -4px;
     border: 15px solid transparent;
-    border-image: url(../game-assets/img/UI/frame5_c4.png) 15 fill;
+    border-image: url(../game-assets/resources/app/.webpack/renderer/assets/img/UI/frame5_c4.png) 15 fill;
     bottom: var(--border-offset);
     content: "";
     display: block;
@@ -255,7 +255,7 @@ a.vs-entity {cursor: pointer}
     --border-size-px: 12px;
     --offset: -2px;
     border: var(--border-size-px) solid transparent;
-    border-image: url(../game-assets/img/UI/selectionSquareActive_01.png) var(--border-size) fill;
+    border-image: url(../game-assets/resources/app/.webpack/renderer/assets/img/UI/selectionSquareActive_01.png) var(--border-size) fill;
     bottom: var(--offset);
     content: "";
     display: block;
@@ -298,7 +298,7 @@ a.vs-entity {cursor: pointer}
 
 .vst-tooltip:after {
     border: var(--vs-generic-border-size-px) solid transparent;
-    border-image: url(../game-assets/img/UI/frame1_c4.png) var(--vs-generic-border-size) fill;
+    border-image: url(../game-assets/resources/app/.webpack/renderer/assets/img/UI/frame1_c4.png) var(--vs-generic-border-size) fill;
     bottom: 0;
     content: "";
     display: block;
@@ -350,7 +350,7 @@ a.vs-entity {cursor: pointer}
 .vs-entity[data-type="character"] > .vs-entity-content > * {position: absolute}
 .vs-char-box-bg {
     border: var(--vs-generic-border-size-px) solid transparent;
-    border-image: url(../game-assets/img/UI/frame1_c2.png) var(--vs-generic-border-size) fill;
+    border-image: url(../game-assets/resources/app/.webpack/renderer/assets/img/UI/frame1_c2.png) var(--vs-generic-border-size) fill;
     bottom: 0;
     left: 0;
     pointer-events: none;
@@ -489,7 +489,7 @@ a.vs-entity {cursor: pointer}
     width: var(--vs-char-weapon-frame-size);
 }
 .vs-entity[data-meta-type="item"]:not([data-mode="default"]) > .vs-entity-content:before {
-    background: url(../game-assets/img/UI/frameB.png) center / 100% 100%;
+    background: url(../game-assets/resources/app/.webpack/renderer/assets/img/UI/frameB.png) center / 100% 100%;
     bottom: 0;
     content: "";
     display: block;
@@ -580,10 +580,10 @@ section[data-selected="true"] .vst-build-list {display: none}
 }
 
 .vst-build-selected[data-section="weapons"] .vs-entity > .vs-entity-content:before {
-    background: url(../game-assets/img/UI/weaponBG.png) no-repeat center / 38px 38px;
+    background: url(../game-assets/resources/app/.webpack/renderer/assets/img/UI/weaponBG.png) no-repeat center / 38px 38px;
 }
 .vst-build-selected[data-section="passives"] .vs-entity > .vs-entity-content:before {
-    background: url(../game-assets/img/UI/passiveBG.png) no-repeat center / 38px 38px;
+    background: url(../game-assets/resources/app/.webpack/renderer/assets/img/UI/passiveBG.png) no-repeat center / 38px 38px;
 }
 
 /* *************************** */
@@ -598,5 +598,5 @@ section[data-selected="true"] .vst-build-list {display: none}
 }
 
 .vst-build-selected[data-section="arcanas"] .vst-build-selected-slot:empty {
-    background: url(../game-assets/img/randomazzo/back.png) center / 100% 100%;
+    background: url(../game-assets/resources/app/.webpack/renderer/assets/img/randomazzo/back.png) center / 100% 100%;
 }

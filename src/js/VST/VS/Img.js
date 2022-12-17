@@ -501,7 +501,7 @@ VST.VS.Img = new function () {
      * @return {string} A path to the given sprite, relative to the tool's root.
      */
     function getSpritePath(sprite, extension) {
-        return '/game-assets/img/' + sprite + '.' + extension;
+        return '/game-assets/resources/app/.webpack/renderer/assets/img/' + sprite + '.' + extension;
     }
 
     /**
