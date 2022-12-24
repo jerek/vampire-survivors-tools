@@ -12,8 +12,8 @@ VST.VS.Character = new function () {
     // *********************** //
 
     /**
-     * @typedef {EntityData} CharacterData Data describing a character.
-     * @property {CharacterId}  id           This MUST NOT change, because it's used in the URL for saved builds.
+     * @typedef {EntityData} CharData Data describing a character.
+     * @property {CharId}       id           This MUST NOT change, because it's used in the URL for saved builds.
      * @property {string}       name         The character's common name.
      * @property {string}       description  The character's in-game description.
      * @property {number}       order        The order that this character is shown in.
@@ -27,7 +27,7 @@ VST.VS.Character = new function () {
      * @property {WeaponId[]}   [weaponIds]  The weapons the character starts with.
      */
 
-    /** @typedef {EntityId} CharacterId A character's ID. */
+    /** @typedef {EntityId} CharId A character's ID. */
 
     /** @typedef {string} CharDisplayMode What style of display a character box should be. */
 
@@ -50,12 +50,8 @@ VST.VS.Character = new function () {
 
     // noinspection JSValidateTypes Types and IDs are filled during initialization, so ignore warnings here.
     /**
-     * @type {Object<CharacterId, CharacterData>} A custom representation of the game's character data. This includes a
-     * lot of odd character data that is represented how I found it in the game data. For example, there are seven
-     * characters named "LATODISOTTO", which are not all identical. Some of the odd character data includes manual key
-     * strings that appear to contain what's intended to eventually be the name of a character in that slot, which I've
-     * carried over in the description fields.
-     * @property {CharacterId[]} sortedIds
+     * @type {Object<CharId, CharData>} A map of character IDs to character data.
+     * @property {CharId[]} sortedIds
      */
     const DATA = {
         1: {
@@ -394,15 +390,15 @@ VST.VS.Character = new function () {
     /**
      * Returns the character with the given ID.
      *
-     * @param {CharacterId} id
-     * @return {CharacterData|undefined}
+     * @param {CharId} id
+     * @return {CharData|undefined}
      */
     this.get = id => DATA[id];
 
     /**
      * Returns a list of all character IDs.
      *
-     * @return {CharacterId[]}
+     * @return {CharId[]}
      */
     this.getIds = () => DATA.sortedIds;
 
@@ -412,7 +408,7 @@ VST.VS.Character = new function () {
      * If both the buttonText and buttonAction optional params are supplied, a blue button will be added to the
      * bottom-right of the character box. The button may still not be visible, depending on the mode.
      *
-     * @param {CharacterData}   char
+     * @param {CharData}        char
      * @param {CharDisplayMode} mode            What style of display this character box should be.
      * @param {string}          [tagName="div"] The tag name to use for the element.
      * @param {string}          [buttonText]    The text to display on the optional button.

@@ -24,7 +24,7 @@ VST.Build = new function () {
     /**
      * @typedef {Object} Build All data describing a build.
      * @property {BuildIdList} arcanas         A list of the selected arcanas' IDs.
-     * @property {CharacterId} character       The ID of the currently selected character.
+     * @property {CharId}      character       The ID of the currently selected character.
      * @property {number}      maxWeapons      The maximum number of weapons allowed in the build.
      * @property {BuildIdList} passives        A list of the selected passive items' IDs.
      * @property {BuildIdList} passives-backup A list of the selected backup passive items' IDs, which will
@@ -354,7 +354,7 @@ VST.Build = new function () {
 
         Character.getIds().forEach(characterId => {
             // noinspection JSValidateTypes Realistically, this can't actually return undefined.
-            /** @type {CharacterData} */
+            /** @type {CharData} */
             let character = Character.get(characterId);
 
             let box = Character.renderBox(
@@ -549,13 +549,13 @@ VST.Build = new function () {
     /**
      * Set the given character's ID as the current character.
      *
-     * @param {CharacterId} characterId
-     * @param {boolean}     [fromBuild] Whether this is from a build, and therefore weapons should not be modified.
+     * @param {CharId}  characterId
+     * @param {boolean} [fromBuild] Whether this is from a build, and therefore weapons should not be modified.
      */
     function setCharacter(characterId, fromBuild) {
         let section = SECTIONS[SECTION_CHARACTER];
 
-        /** @type {CharacterData} */
+        /** @type {CharData} */
         let character;
         if (characterId !== self.EMPTY_ID) {
             character = Character.get(characterId);

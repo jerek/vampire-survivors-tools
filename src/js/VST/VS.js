@@ -174,7 +174,7 @@ VST.VS = new function () {
     /**
      * Create a tooltip with the given content.
      *
-     * @param {EntityData|CharacterData|WeaponData} entity Any entity data; listing others for unique properties.
+     * @param {EntityData|CharData|WeaponData} entity Any entity data; listing others for unique properties.
      * @return {HTMLDivElement}
      */
     this.createTooltip = function (entity) {
