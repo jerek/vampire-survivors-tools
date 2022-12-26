@@ -1447,22 +1447,22 @@ VST.VS.Character = new function () {
             weaponIds: [VS.WEAPON_ID_DEATH_SPIRAL],
             levelUpStats: [], // No level-up stats, not even the weird VS experience mangling.
             stats: {
-                maxHp: 0x1,
-                armor: 0x0,
-                regen: 0x0,
-                moveSpeed: 0x0,
-                power: 0x1,
-                cooldown: 0x1,
-                area: 0x1,
-                speed: 0x1,
-                duration: 0x1,
-                amount: 0x1,
-                luck: 0x1,
-                growth: 0x1,
-                greed: 0x1,
-                curse: 0x1,
-                magnet: 0x1,
-                revival: 0x0,
+                maxHp: '-2.5‥97.5',
+                armor: '0‥+2',
+                regen: '-0.5‥0.5',
+                moveSpeed: '-200%‥0%',
+                power: '-120%‥+80%',
+                cooldown: '-120%‥+80%',
+                area: '-140%‥+260%',
+                speed: '-120%‥+80%',
+                duration: '-130%‥+170%',
+                amount: '0‥+2',
+                luck: '-120%‥+80%',
+                growth: '-120%‥+80%',
+                greed: '-120%‥+80%',
+                curse: '-105%‥+95%',
+                magnet: '-120%‥+80%',
+                revivals: '0‥+2',
                 rerolls: 0x0,
                 skips: 0x0,
                 banish: 0x0,
@@ -1846,6 +1846,10 @@ VST.VS.Character = new function () {
             tooltip.appendChild(table);
 
             levelUpStats.forEach(stats => appendStatRowsToTable(table, stats, {isLevelUpBonus: true}));
+        } else if (character.name === 'Random') {
+            DOM.ce('div', {className: 'vst-tooltip-heading'}, tooltip, DOM.ct('Level-Up Stats'));
+            DOM.ce('div', undefined, tooltip, DOM.ct('It\'s complicated.'));
+            DOM.ce('div', undefined, tooltip, DOM.ct('See the wiki for a detailed explanation.'));
         }
     };
 
@@ -2127,7 +2131,10 @@ VST.VS.Character = new function () {
      * @return {HTMLTableElement}
      */
     function getStatsTable() {
-        return DOM.ce('table', {className: 'vst-stat-table'});
+        return DOM.ce('table', {
+            className: 'vst-stat-table',
+            style: {whiteSpace: 'nowrap'},
+        });
     }
 
     // ************************** //
