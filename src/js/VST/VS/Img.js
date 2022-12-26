@@ -395,10 +395,10 @@ VST.VS.Img = new function () {
         }
 
         loadData(sprite, /** @param {TexturePacker3Data} data */ data => {
-            data.textures.some(tp3Sprite => {
+            let success = data.textures.some(tp3Sprite => {
                 scale *= tp3Sprite.scale;
 
-                tp3Sprite.frames.some(frame => {
+                return tp3Sprite.frames.some(frame => {
                     if (frame.filename === filename) {
                         let sizePos = frame.frame;
                         let bgSizeScale = (tp3Sprite.size.w / sizePos.w) * 100;
@@ -418,6 +418,10 @@ VST.VS.Img = new function () {
                     }
                 });
             });
+
+            if (!success) {
+                VST.warn(`Could not load image filename [${filename}] from sprite [${sprite}].`);
+            }
         });
     }
 
