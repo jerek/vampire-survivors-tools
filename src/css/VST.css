@@ -97,6 +97,9 @@ a {color: var(--vs-yellow); text-decoration: none}
 a:hover {color: #fff}
 a:focus-visible {outline: none; text-decoration: underline}
 
+table {border-spacing: 0}
+td {padding: 0; vertical-align: top}
+
 /* ********************** */
 /* ***** THE FOOTER ***** */
 /* ********************** */
@@ -338,6 +341,10 @@ a.vs-entity {cursor: pointer}
 .vst-tooltip[data-meta-type="arcana"] .vst-tooltip-items-row {justify-content: center}
 .vst-tooltip[data-meta-type="item"] .vst-tooltip-items-row .vs-entity {padding: 2px}
 
+.vst-stat-table {width: 100%}
+.vst-stat-table .vst-stat-icon {float: left; margin-right: 3px; text-align:center; width: 13px}
+.vst-stat-table .vst-stat-icon .vs-sprite-image {display: inline-block; vertical-align: center}
+
 /* ********************** */
 /* ***** CHARACTERS ***** */
 /* ********************** */
@@ -409,6 +416,9 @@ a.vs-entity {cursor: pointer}
 
 /* Only allow hovering over the character's weapons for tooltips in the large detail view. */
 .vs-entity[data-type="character"]:not([data-mode="details"]) .vs-entity[data-meta-type="item"] {pointer-events: none}
+
+/* Lama Ladonna's tooltip is huge with her level-up stats, and goes off the screen, so squish it down a little. */
+.vs-entity[data-type="character"][data-id="7"] .vst-tooltip {line-height: 1}
 
 /* ============= */
 /* MODE: DEFAULT */

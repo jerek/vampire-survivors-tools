@@ -258,6 +258,18 @@ VST.VS = new function () {
         });
         data.sortedIds = ids;
 
+        // Custom data manipulations by type.
+        switch (type) {
+            case self.TYPE_CHARACTER:
+                // Sort each character's level-up stats.
+                data.sortedIds.forEach(id => {
+                    if (data[id].levelUpStats) {
+                        data[id].levelUpStats.sort((a, b) => a.level - b.level);
+                    }
+                });
+                break;
+        }
+
         // Freeze the data object, so it can't be accidentally modified.
         Object.freeze(data);
     };
