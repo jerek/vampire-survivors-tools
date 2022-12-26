@@ -185,7 +185,7 @@ VST.VS = new function () {
         //      //
 
         let name = DOM.ce('div', {
-            className: 'vst-tooltip-name',
+            className: 'vst-tooltip-heading',
         });
         if (entity.type === self.TYPE_CHARACTER && entity.prefix) {
             name.appendChild(DOM.ct(entity.prefix + ' '));

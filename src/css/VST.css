@@ -313,8 +313,9 @@ a.vs-entity {cursor: pointer}
     display: block;
 }
 
-.vst-tooltip-name {font-size: 14px; font-weight: 600}
-.vst-tooltip-name:not(:last-child) {margin-bottom: 10px}
+.vst-tooltip-heading {font-size: 14px; font-weight: 600}
+.vst-tooltip-heading:first-child {margin-bottom: 10px}
+.vst-tooltip-heading:not(:first-child) {margin-top: 10px}
 
 .vst-tooltip-items {font-weight: bold; margin-top: 10px}
 .vst-tooltip-items-row {align-items: center; display: flex; flex-wrap: wrap}
