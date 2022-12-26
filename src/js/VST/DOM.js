@@ -37,6 +37,7 @@ VST.DOM = new function () {
      * @param {object} [properties] Properties to assign to the element. Can be multi-level, such as for style props.
      * @param {Node}   [appendTo]   The parent to append the created element to.
      * @param {Node}   [childNode]  A node to append to the created element.
+     * @return {HTMLElement}
      */
     this.ce = (tag, properties, appendTo, childNode) => {
         let element = document.createElement(tag);
