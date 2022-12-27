@@ -20,6 +20,8 @@ VST.VS = new function () {
 
     /** @typedef {number} EntityId An entity's ID. */
 
+    /** @typedef {string} VsId A VS entity's string ID. Typically a shorthand of the entity's name in all caps. */
+
     /** @typedef {string} VsType A Vampire Survivors entity type. E.g. character, weapon, stage, etc. */
 
     // ********************* //
