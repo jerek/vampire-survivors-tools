@@ -79,6 +79,7 @@ VST.VS = new function () {
     /** @type {PassiveId} */ this.PASSIVE_ID_RED_MUSCLE = 24;
     /** @type {PassiveId} */ this.PASSIVE_ID_TWICE_UPON_A_TIME = 25;
     /** @type {PassiveId} */ this.PASSIVE_ID_SOLE_SOLUTION = 26;
+    /** @type {PassiveId} */ this.PASSIVE_ID_FLOCK_DESTROYER = 27;
 
     // Weapons have constants since they're referred to by ID in multiple places.
     /** @type {WeaponId} */ this.WEAPON_ID_WHIP = 1;
