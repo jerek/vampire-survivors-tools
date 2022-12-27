@@ -22,10 +22,10 @@ VST.VS.Item = new function () {
 
     /** @type {Object} Private object-scope variables. */
     const my = {
-        /** @type {Object<PassiveId, WeaponId>} A generated map of passive IDs to weapons that they can evolve into. */
+        /** @type {Object<PassiveId, Array<WeaponId>>} A map of passive IDs to weapons that they can evolve into. */
         passiveEvolutions: undefined,
 
-        /** @type {Object<WeaponId, WeaponId>} A generated map of weapon IDs to weapons that they can evolve into. */
+        /** @type {Object<WeaponId, WeaponId>} A map of weapon IDs to weapons that they can evolve into. */
         weaponEvolutions: undefined,
     };
 
@@ -84,14 +84,14 @@ VST.VS.Item = new function () {
             evolutions.push(item);
         }
         if (item.type === VS.TYPE_WEAPON) {
-            let evolution = Weapon.getEvolution(item.id);
-            if (evolution) {
-                evolutions.push(evolution);
+            let weaponEvolution = Weapon.getEvolution(item.id);
+            if (weaponEvolution) {
+                evolutions.push(weaponEvolution);
             }
         } else if (item.type === VS.TYPE_PASSIVE) {
-            let evolution = Passive.getEvolution(item.id);
-            if (evolution) {
-                evolutions.push(evolution);
+            let passiveEvolutions = Passive.getEvolutions(item.id);
+            if (passiveEvolutions) {
+                passiveEvolutions.forEach(passiveEvolution => evolutions.push(passiveEvolution));
             }
         }
 
@@ -142,7 +142,7 @@ VST.VS.Item = new function () {
     /**
      * Returns an ID map of passives to the weapons that they can evolve into.
      *
-     * @return {Object<PassiveId, WeaponId>}
+     * @return {Object<PassiveId, Array<WeaponId>>}
      */
     this.getPassiveEvolutionMap = () => my.passiveEvolutions;
 
@@ -219,7 +219,10 @@ VST.VS.Item = new function () {
         Weapon.getIds().forEach(weaponId => {
             let weapon = Weapon.get(weaponId);
             (weapon.reqWeapons || []).forEach(requiredWeaponId => my.weaponEvolutions[requiredWeaponId] = weaponId);
-            (weapon.reqPassives || []).forEach(requiredPassiveId => my.passiveEvolutions[requiredPassiveId] = weaponId);
+            (weapon.reqPassives || []).forEach(requiredPassiveId => {
+                my.passiveEvolutions[requiredPassiveId] = my.passiveEvolutions[requiredPassiveId] || [];
+                my.passiveEvolutions[requiredPassiveId].push(weaponId);
+            });
         });
 
         Object.freeze(my.weaponEvolutions);

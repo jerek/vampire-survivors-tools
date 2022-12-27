@@ -277,12 +277,12 @@ VST.VS.Passive = new function () {
      * Returns the weapon that can result from evolving the given passive item.
      *
      * @param {PassiveId} id
-     * @return {WeaponData|undefined}
+     * @return {Array<WeaponData>|undefined}
      */
-    this.getEvolution = id => {
-        let evolutionId = VS.Item.getPassiveEvolutionMap()[id];
-        if (evolutionId) {
-            return VS.Weapon.get(evolutionId);
+    this.getEvolutions = id => {
+        let evolutionIds = VS.Item.getPassiveEvolutionMap()[id];
+        if (evolutionIds) {
+            return evolutionIds.map(evolutionId => VS.Weapon.get(evolutionId));
         }
     };
 

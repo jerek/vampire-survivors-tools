@@ -816,10 +816,12 @@ VST.Build = new function () {
                     passives.add(passive);
                 }
 
-                let evolution = Passive.getEvolution(passive.id);
-                if (evolution) {
-                    evolutions.add(evolution);
-                    addSynergies(evolution);
+                let passiveEvolutions = Passive.getEvolutions(passive.id);
+                if (passiveEvolutions) {
+                    passiveEvolutions.forEach(passiveEvolution => {
+                        evolutions.add(passiveEvolution);
+                        addSynergies(passiveEvolution);
+                    });
                 }
             };
 
