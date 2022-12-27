@@ -247,9 +247,11 @@ VST.VS.Passive = new function () {
     /**
      * Returns a list of all passive item IDs.
      *
+     * When called during initialization, this may not be in the final order.
+     *
      * @return {PassiveId[]}
      */
-    this.getIds = () => DATA.sortedIds;
+    this.getIds = () => VS.getSortedIds(DATA);
 
     // ************************** //
     // ***** INITIALIZATION ***** //

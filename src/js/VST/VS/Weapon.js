@@ -461,9 +461,11 @@ VST.VS.Weapon = new function () {
     /**
      * Returns a list of all weapon IDs.
      *
+     * When called during initialization, this may not be in the final order.
+     *
      * @return {WeaponId[]}
      */
-    this.getIds = () => DATA.sortedIds;
+    this.getIds = () => VS.getSortedIds(DATA);
 
     // ************************** //
     // ***** INITIALIZATION ***** //

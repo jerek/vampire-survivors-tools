@@ -189,9 +189,11 @@ VST.VS.Stage = new function () {
     /**
      * Returns a list of all stage IDs.
      *
+     * When called during initialization, this may not be in the final order.
+     *
      * @return {StageId[]}
      */
-    this.getIds = () => DATA.sortedIds;
+    this.getIds = () => VS.getSortedIds(DATA);
 
     // ************************** //
     // ***** INITIALIZATION ***** //

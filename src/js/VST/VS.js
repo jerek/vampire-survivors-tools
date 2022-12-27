@@ -290,6 +290,16 @@ VST.VS = new function () {
     };
 
     /**
+     * Returns a list of all entity IDs in the given data map.
+     *
+     * When called during initialization, this may not be in the final order.
+     *
+     * @param {Object<EntityId, EntityData>} data
+     * @return {EntityId[]}
+     */
+    this.getSortedIds = data => data.sortedIds || Object.keys(data).map(id => parseInt(id));
+
+    /**
      * Returns the class associated with the given type.
      *
      * @param {VsType} type

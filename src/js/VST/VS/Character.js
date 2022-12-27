@@ -1864,9 +1864,11 @@ VST.VS.Character = new function () {
     /**
      * Returns a list of all character IDs.
      *
+     * When called during initialization, this may not be in the final order.
+     *
      * @return {CharId[]}
      */
-    this.getIds = () => DATA.sortedIds;
+    this.getIds = () => VS.getSortedIds(DATA);
 
     /**
      * Returns elements created to display a character box.

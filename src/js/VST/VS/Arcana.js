@@ -334,9 +334,11 @@ VST.VS.Arcana = new function () {
     /**
      * Returns a list of all arcana IDs.
      *
+     * When called during initialization, this may not be in the final order.
+     *
      * @return {ArcanaId[]}
      */
-    this.getIds = () => DATA.sortedIds;
+    this.getIds = () => VS.getSortedIds(DATA);
 
     /**
      * Returns elements created to display an arcana card.
