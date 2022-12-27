@@ -70,9 +70,11 @@ VST.VS.Img = new function () {
 
     // Constants to identify sprites. The constants' names are the name returned from this.getSpriteNames() in all
     // uppercase, and the values are their filenames without an extension.
+    /** @type {VsSprite} */ this._MISSING      = '_MISSING';
     /** @type {VsSprite} */ this.ANGEL         = 'angel';
     /** @type {VsSprite} */ this.ARCANA        = 'randomazzo';
     /** @type {VsSprite} */ this.BACKGROUND_4  = 'background4';
+    /** @type {VsSprite} */ this.BACKGROUND_6  = 'background6';
     /** @type {VsSprite} */ this.BACKGROUND_W  = 'backgroundW';
     /** @type {VsSprite} */ this.BACKGROUND_X  = 'backgroundX';
     /** @type {VsSprite} */ this.CHARACTERS    = 'characters';
@@ -354,9 +356,11 @@ VST.VS.Img = new function () {
      */
     this.getSpriteNames = () => {
         return [
+            '_MISSING',
             'Angel',
             'Arcana',
             'Background 4',
+            'Background 6',
             'Background W',
             'Background X',
             'Characters',
