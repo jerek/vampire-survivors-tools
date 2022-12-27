@@ -18,7 +18,6 @@ VST.VS.Character = new function () {
      * @property {string}       description      The character's in-game description.
      * @property {CharLevels[]} levelUpStats     A list of the bonuses you get at particular levels.
      * @property {number}       order            The order that the character is shown in.
-     * @property {VsSpriteFunc} spriteAlt        The sprite that the filename exists in, if different from "characters".
      * @property {string}       spriteName       The filename of the character's image within the "characters" sprite.
      * @property {CharStats}    stats            The character's stat bonuses at level 1.
      * @property {VsType}       type             The Character type ID.
@@ -26,6 +25,7 @@ VST.VS.Character = new function () {
      * @property {CharStats}    [onEveryLevelUp] The bonus stats that the character gets on each level increase.
      * @property {PassiveId[]}  [passiveIds]     The passive items the character starts with.
      * @property {string}       [prefix]         Text shown before the character's name when showing their full name.
+     * @property {VsSprite|VsSpriteFunc} [spriteAlt] The sprite that `spriteName` is in, if different from "characters".
      * @property {string}       [surname]        Text shown after the character's name when showing their full name.
      * @property {WeaponId[]}   [weaponIds]      The weapons the character starts with.
      */
