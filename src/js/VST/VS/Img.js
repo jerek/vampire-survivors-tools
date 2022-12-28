@@ -90,6 +90,8 @@ VST.VS.Img = new function () {
     /** @type {VsSprite} */ this.VFX           = 'vfx';
 
     // DLC-specific sprites.
+    /** @type {VsSprite} */ this.DLC_MOONSPELL       = 'moonspell';
+    /** @type {VsSprite} */ this.DLC_MOONSPELL_CHARS = 'moonspellChars';
 
     // ------- //
     // PRIVATE //
@@ -103,6 +105,8 @@ VST.VS.Img = new function () {
 
     /** @type {Object<VsSprite, DlcId>} A sparse map of sprites to their associated DLC, if they have one. */
     const SPRITE_DLC = {
+        [this.DLC_MOONSPELL]:       VS.DLC_LEGACY_OF_THE_MOONSPELL,
+        [this.DLC_MOONSPELL_CHARS]: VS.DLC_LEGACY_OF_THE_MOONSPELL,
     };
 
     // ********************* //

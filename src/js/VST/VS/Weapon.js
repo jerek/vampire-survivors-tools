@@ -461,6 +461,21 @@ VST.VS.Weapon = new function () {
 
     /** @type {Object<DlcId, Array<{id: WeaponId, vsId: WeaponVsId}>>} The weapons to import from each DLC, in order. */
     const DLC_WEAPONS = {
+        [VS.DLC_LEGACY_OF_THE_MOONSPELL]: [
+            {id: 55, vsId: 'SILVERWIND'},
+            {id: 56, vsId: 'SILVERWIND2'},
+            {id: 57, vsId: 'FOURSEASONS'},
+            {id: 58, vsId: 'FOURSEASONS2'},
+            {id: 59, vsId: 'SUMMONNIGHT'},
+            {id: 60, vsId: 'SUMMONNIGHT2'},
+            {id: 61, vsId: 'MIRAGEROBE'},
+            {id: 62, vsId: 'MIRAGEROBE2'},
+            {id: 63, vsId: 'NIGHTSWORD'},
+            {id: 64, vsId: 'NIGHTSWORD2'},
+            {id: 65, vsId: 'BUBBLES'},
+            {id: 66, vsId: 'BUBBLES2'},
+            {id: 67, vsId: 'BOCCE'},
+        ],
     };
 
     /** @type {VsType} The entity type that this class is associated with. */

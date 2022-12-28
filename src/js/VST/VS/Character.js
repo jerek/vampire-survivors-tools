@@ -1616,6 +1616,16 @@ VST.VS.Character = new function () {
 
     /** @type {Object<DlcId, Array<{id: CharId, vsId: CharVsId}>>} The characters to import from each DLC, in order. */
     const DLC_CHARACTERS = {
+        [VS.DLC_LEGACY_OF_THE_MOONSPELL]: [
+            {id: 42, vsId: 'MIANG'},
+            {id: 43, vsId: 'MENYA'},
+            {id: 44, vsId: 'SYUUTO'},
+            {id: 45, vsId: 'ONNA'},
+            {id: 46, vsId: 'MCCOY'},
+            {id: 47, vsId: 'MEGAMENYA'},
+            {id: 48, vsId: 'MEGASYUUTO'},
+            {id: 49, vsId: 'TONY'},
+        ],
     };
 
     /** @type {string} What's displayed when a stat is increased each time the character levels up. */

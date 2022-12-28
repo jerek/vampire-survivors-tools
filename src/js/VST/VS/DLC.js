@@ -28,6 +28,10 @@ VST.VS.DLC = new function () {
      * @property {DlcId[]} sortedIds
      */
     const DATA = {
+        [VS.DLC_LEGACY_OF_THE_MOONSPELL]: {
+            name: 'Legacy of the Moonspell',
+            shorthand: 'Moonspell',
+        },
     };
 
     /** @type {VsType} The entity type that this class is associated with. */
@@ -66,6 +70,7 @@ VST.VS.DLC = new function () {
      */
     this.getCharacterSprite = id => {
         return {
+            [VS.DLC_LEGACY_OF_THE_MOONSPELL]: VS.Img.DLC_MOONSPELL_CHARS,
         }[id];
     };
 
