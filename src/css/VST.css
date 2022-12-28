@@ -376,27 +376,7 @@ a.vs-entity {cursor: pointer}
 .vs-char-box-description {left: 120px; top: 37px}
 .vs-char-box-description,
 .vs-entity[data-type="character"] > .vst-tooltip {
-    width: 159px;
-}
-/* Arca Ladonna */
-.vs-entity[data-type="character"][data-id="5"] > .vs-entity-content > .vs-char-box-description,
-.vs-entity[data-type="character"][data-id="5"] > .vst-tooltip {
-    width: 158px;
-}
-/* Sir Ambrojoe */
-.vs-entity[data-type="character"][data-id="21"] > .vs-entity-content > .vs-char-box-description,
-.vs-entity[data-type="character"][data-id="21"] > .vst-tooltip {
-    width: 166px;
-}
-/* Cosmo Pavone */
-.vs-entity[data-type="character"][data-id="35"] > .vs-entity-content > .vs-char-box-description,
-.vs-entity[data-type="character"][data-id="35"] > .vst-tooltip {
-    width: 190px;
-}
-/* Avatar Infernas */
-.vs-entity[data-type="character"][data-id="40"] > .vs-entity-content > .vs-char-box-description,
-.vs-entity[data-type="character"][data-id="40"] > .vst-tooltip {
-    width: 190px;
+    width: 220px;
 }
 .vs-char-box-image {bottom: 5px; left: 6px; pointer-events: none}
 .vs-char-box-weapons {
@@ -434,7 +414,7 @@ a.vs-entity {cursor: pointer}
 .vs-entity[data-type="character"][data-mode="details"],
 .vs-entity[data-type="character"][data-mode="details"] > .vs-entity-content {
     height: 100px;
-    max-width: 400px;
+    max-width: 450px;
     width: 100%;
 }
 @media screen and (max-width: 419px) {
