@@ -92,6 +92,7 @@ $jsFiles = [
     'VST/Util',
     'VST/DOM',
     'VST/VS',
+    'VST/VS/DLC',
     'VST/VS/Img',
     'VST/VS/Arcana',
     'VST/VS/Character',

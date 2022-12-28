@@ -5,6 +5,7 @@ VST.VS.Img = new function () {
     const self = this;
     const DOM = VST.DOM;
     const Util = VST.Util;
+    const VS = VST.VS;
 
     // *********************** //
     // ***** DEFINITIONS ***** //
@@ -88,6 +89,8 @@ VST.VS.Img = new function () {
     /** @type {VsSprite} */ this.UI            = 'UI';
     /** @type {VsSprite} */ this.VFX           = 'vfx';
 
+    // DLC-specific sprites.
+
     // ------- //
     // PRIVATE //
     // ------- //
@@ -97,6 +100,10 @@ VST.VS.Img = new function () {
 
     /** @type {number} The default 1-base scale at which images should be displayed. */
     const DEFAULT_DISPLAY_SCALE = 2;
+
+    /** @type {Object<VsSprite, DlcId>} A sparse map of sprites to their associated DLC, if they have one. */
+    const SPRITE_DLC = {
+    };
 
     // ********************* //
     // ***** VARIABLES ***** //
@@ -509,7 +516,7 @@ VST.VS.Img = new function () {
      * @return {string} A path to the given sprite, relative to the tool's root.
      */
     function getSpritePath(sprite, extension) {
-        return '/game-assets/resources/app/.webpack/renderer/assets/img/' + sprite + '.' + extension;
+        return `${VS.getAssetsPath(SPRITE_DLC[sprite])}/img/${sprite}.${extension}`;
     }
 
     /**

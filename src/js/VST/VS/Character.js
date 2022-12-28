@@ -21,6 +21,7 @@ VST.VS.Character = new function () {
      * @property {string}       spriteName       The filename of the character's image within the "characters" sprite.
      * @property {CharStats}    stats            The character's stat bonuses at level 1.
      * @property {VsType}       type             The Character type ID.
+     * @property {DlcId}        [dlc]            The DLC that includes this character, if it's a DLC character.
      * @property {string[]}     [items]          Filenames of non-weapon non-passive items shown in the char's portrait.
      * @property {CharStats}    [onEveryLevelUp] The bonus stats that the character gets on each level increase.
      * @property {PassiveId[]}  [passiveIds]     The passive items the character starts with.
@@ -77,6 +78,8 @@ VST.VS.Character = new function () {
      * @property {boolean}       [noPlusSymbol] Whether the base stat has no plus symbol for positive numbers.
      * @property {number}        [precision]    How many decimal places of precision should always be shown.
      */
+
+    /** @typedef {VsId} CharVsId A character's VS entity string ID. */
 
     // ********************* //
     // ***** CONSTANTS ***** //
@@ -1611,6 +1614,10 @@ VST.VS.Character = new function () {
         },
     };
 
+    /** @type {Object<DlcId, Array<{id: CharId, vsId: CharVsId}>>} The characters to import from each DLC, in order. */
+    const DLC_CHARACTERS = {
+    };
+
     /** @type {string} What's displayed when a stat is increased each time the character levels up. */
     const EVERY_LEVEL_INDICATOR = '∞';
 
@@ -1793,6 +1800,12 @@ VST.VS.Character = new function () {
      * @param {CharData}       character
      */
     this.addTooltipContent = function (tooltip, character) {
+        //     //
+        // DLC //
+        //     //
+
+        VS.DLC.addTooltipContent(tooltip, character.dlc);
+
         //            //
         // BASE STATS //
         //            //
@@ -1869,6 +1882,82 @@ VST.VS.Character = new function () {
      * @return {CharId[]}
      */
     this.getIds = () => VS.getSortedIds(DATA);
+
+    /**
+     * Import the given character data.
+     *
+     * @param {DlcId} dlc
+     * @param {Object<CharVsId, Array<Object<string, *>>>} data
+     */
+    this.importDlcData = (dlc, data) => {
+        const DLC = VS.DLC;
+        const Passive = VS.Passive;
+        const Weapon = VS.Weapon;
+
+        let characterSprite = DLC.getCharacterSprite(dlc);
+
+        // Find the highest order that's been used so far. The added data will increase from there.
+        let order = 0;
+        self.getIds().forEach(id => {
+            order = Math.max(order, DATA[id].order);
+        });
+
+        DLC_CHARACTERS[dlc].forEach(dlcChar => {
+            /** @type {Array<Object<string, *>>} Data from the DLC's JSON files. Base data, then level-up data. */
+            let dlcData = data[dlcChar.vsId];
+            let baseData = dlcData[0];
+
+            /** @type {CharData} */
+            let charData = {
+                name: baseData.charName,
+                description: baseData.description,
+                dlc: dlc,
+                id: dlcChar.id,
+                levelUpStats: dlcData.slice(1),
+                order: ++order,
+                spriteAlt: characterSprite,
+                spriteName: baseData.spriteName,
+                stats: (() => {
+                    let stats = {};
+
+                    Object.keys(STAT_DATA).forEach(stat => {
+                        if (baseData.hasOwnProperty(stat)) {
+                            stats[stat] = baseData[stat];
+                        }
+                    });
+
+                    return stats;
+                })(),
+                type: TYPE,
+            };
+
+            if (Object.keys(baseData.onEveryLevelUp).length) {
+                charData.onEveryLevelUp = baseData.onEveryLevelUp;
+            }
+
+            if (baseData.prefix) {
+                charData.prefix = baseData.prefix;
+            }
+
+            if (baseData.surname) {
+                charData.surname = baseData.surname;
+            }
+
+            if (baseData.startingWeapon) {
+                let weapon = Weapon.getIdByStringId(baseData.startingWeapon);
+                if (weapon) {
+                    charData.weaponIds = [weapon];
+                } else {
+                    let passive = Passive.getIdByStringId(baseData.startingWeapon);
+                    if (passive) {
+                        charData.passiveIds = [passive];
+                    }
+                }
+            }
+
+            DATA[dlcChar.id] = charData;
+        });
+    };
 
     /**
      * Returns elements created to display a character box.

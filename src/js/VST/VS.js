@@ -41,6 +41,9 @@ VST.VS = new function () {
     /** @type {VsType} A character that the player can play as. */
     this.TYPE_CHARACTER = 'character';
 
+    /** @type {VsType} A DLC that players can purchase with additional content. */
+    this.TYPE_DLC = 'dlc';
+
     /** @type {VsType} A passive item that a character can equip. */
     this.TYPE_PASSIVE = 'passive';
 
@@ -53,6 +56,8 @@ VST.VS = new function () {
     //     //
     // IDS //
     //     //
+
+    // DLCs that have additional data to load.
 
     // Passive Items have constants since they're referred to by ID in multiple places.
     /** @type {PassiveId} */ this.PASSIVE_ID_SPINACH = 1;
@@ -278,6 +283,28 @@ VST.VS = new function () {
     };
 
     /**
+     * Returns the path to the assets directory, for standard or DLC data.
+     *
+     * @param {DlcId} [dlc]
+     * @return {string}
+     */
+    this.getAssetsPath = dlc => {
+        return dlc ?
+            `/game-assets/${dlc}/assets` :
+            '/game-assets/resources/app/.webpack/renderer/assets';
+    };
+
+    /**
+     * Returns the path to the assets directory, for standard or DLC data, with a trailing slash.
+     *
+     * @param {DlcId} dlc
+     * @return {string}
+     */
+    this.getDataPath = dlc => {
+        return `/game-assets/${dlc}/scripts/data`;
+    };
+
+    /**
      * Returns the meta type of the given type.
      *
      * @param {VsType} type
@@ -315,5 +342,73 @@ VST.VS = new function () {
             case self.TYPE_STAGE:     return self.Stage;
             case self.TYPE_WEAPON:    return self.Weapon;
         }
+    };
+
+    /**
+     * Loads all DLC data, then executes the given callback.
+     *
+     * @param {function} callback
+     */
+    this.loadDlcData = callback => {
+        const DLC = self.DLC;
+        const Character = self.Character;
+        const Weapon = self.Weapon;
+
+        let dlcIds = DLC.getIds();
+        let dlcCount = dlcIds.length;
+        let dlcLoaded = 0;
+        /** @type {Object<DlcId, Array<{class: Object, data: Object}>>} A map of DLC ID => a list of data to import. */
+        let entityData = {};
+        let finishDlc = () => {
+            dlcLoaded++;
+            if (dlcLoaded === dlcCount) {
+                // All data has been loaded for all DLCs; import the data, then execute the callback.
+
+                dlcIds.forEach(dlcId => {
+                    entityData[dlcId].forEach(importData => {
+                        importData.class.importDlcData(dlcId, importData.data);
+                    });
+                });
+
+                callback();
+            }
+        };
+
+        // Load the data for each DLC.
+        dlcIds.forEach(dlcId => {
+            entityData[dlcId] = [];
+            let entitiesCount = 2;
+            let finishEntity = () => {
+                if (entityData[dlcId].length === entitiesCount) {
+                    // All entity data for this DLC has been loaded; mark it as ready for import.
+                    finishDlc();
+                }
+            };
+
+            let dataPath = self.getDataPath(dlcId);
+            let shorthand = DLC.getShorthand(dlcId);
+            let weaponsJsonPath = `${dataPath}/weaponData_${shorthand}.json`;
+            let charactersJsonPath = `${dataPath}/characterData_${shorthand}.json`;
+
+            // Weapons
+            fetch(weaponsJsonPath).then(response => {
+                response.json().then(data => {
+                    // This uses unshift because weapons have to be imported first.
+                    entityData[dlcId].unshift({class: Weapon, data: data});
+
+                    finishEntity();
+                });
+            });
+
+            // Characters
+            fetch(charactersJsonPath).then(response => {
+                response.json().then(data => {
+                    // This uses push because characters have to be imported after weapons.
+                    entityData[dlcId].push({class: Character, data: data});
+
+                    finishEntity();
+                });
+            });
+        });
     };
 };

@@ -6,6 +6,8 @@
  *   are distinguishable from temporary console calls.
  */
 window.VST = new function () {
+    const self = this;
+
     // ********************* //
     // ***** CONSTANTS ***** //
     // ********************* //
@@ -150,11 +152,14 @@ window.VST = new function () {
      * Sets up the core library code.
      */
     function init() {
-        // Call any registered callbacks, now that everything on the page is available.
-        my.initCallbacks.forEach(callback => callback());
+        // Load DLC data.
+        self.VS.loadDlcData(() => {
+            // Call any registered callbacks, now that everything on the page is available.
+            my.initCallbacks.forEach(callback => callback());
 
-        // Set up the page.
-        VST.Page.init();
+            // Set up the page.
+            VST.Page.init();
+        });
     }
 
     // ************************** //

@@ -3,6 +3,7 @@
  */
 VST.VS.Weapon = new function () {
     const self = this;
+    const Passive = VST.VS.Passive;
     const VS = VST.VS;
 
     // *********************** //
@@ -18,6 +19,7 @@ VST.VS.Weapon = new function () {
      * @property {number}      order         The order that this weapon is displayed in the in-game Collection.
      * @property {VsType}      type          The Weapon type ID.
      * @property {WeaponVsId}  vsId          The weapon's VS entity string ID.
+     * @property {DlcId}       [dlc]         The DLC that includes this weapon, if it's a DLC weapon.
      * @property {PassiveId[]} [reqPassives] The passive items required to get this evolved weapon.
      * @property {WeaponId[]}  [reqWeapons]  The weapons required to get this evolved weapon.
      */
@@ -457,6 +459,10 @@ VST.VS.Weapon = new function () {
         },
     };
 
+    /** @type {Object<DlcId, Array<{id: WeaponId, vsId: WeaponVsId}>>} The weapons to import from each DLC, in order. */
+    const DLC_WEAPONS = {
+    };
+
     /** @type {VsType} The entity type that this class is associated with. */
     const TYPE = VS.TYPE_WEAPON;
 
@@ -535,6 +541,55 @@ VST.VS.Weapon = new function () {
      * @return {WeaponId[]}
      */
     this.getIds = () => VS.getSortedIds(DATA);
+
+    /**
+     * Import the given weapon data.
+     *
+     * @param {DlcId} dlc
+     * @param {Object<WeaponVsId, Array<Object<string, *>>>} data
+     */
+    this.importDlcData = (dlc, data) => {
+        // Find the highest order that's been used so far. The added data will increase from there.
+        let order = 0;
+        self.getIds().forEach(id => {
+            order = Math.max(order, DATA[id].order);
+        });
+
+        /** @type {Object<WeaponVsId, WeaponVsId>} A map of base items to their evolutions. */
+        DLC_WEAPONS[dlc].forEach(dlcWeapon => {
+            /** @type {Array<Object<string, *>>} Data from the DLC's JSON files. Base data, then level-up data. */
+            let dlcData = data[dlcWeapon.vsId];
+            let baseData = dlcData[0];
+
+            /** @type {WeaponData} */
+            let weaponData = {
+                name: baseData.name,
+                description: baseData.description,
+                dlc: dlc,
+                frameName: baseData.frameName,
+                id: dlcWeapon.id,
+                order: ++order,
+                type: TYPE,
+                vsId: dlcWeapon.vsId,
+            };
+
+            if (baseData.evolvesFrom && baseData.evolvesFrom.length) {
+                weaponData.reqWeapons = [];
+                baseData.evolvesFrom.forEach(fromVsId => {
+                    weaponData.reqWeapons.push(self.getIdByStringId(fromVsId));
+                });
+            }
+
+            if (baseData.requires && baseData.requires.length) {
+                weaponData.reqPassives = [];
+                baseData.requires.forEach(fromVsId => {
+                    weaponData.reqPassives.push(Passive.getIdByStringId(fromVsId));
+                });
+            }
+
+            DATA[dlcWeapon.id] = weaponData;
+        });
+    };
 
     // ************************** //
     // ***** INITIALIZATION ***** //

@@ -74,6 +74,12 @@ VST.VS.Item = new function () {
      * @param {PassiveData|WeaponData} item
      */
     this.addTooltipContent = function (tooltip, item) {
+        //     //
+        // DLC //
+        //     //
+
+        VS.DLC.addTooltipContent(tooltip, item.dlc);
+
         //            //
         // EVOLUTIONS //
         //            //
