@@ -182,7 +182,10 @@
       "PURIFY2": {
         "name": "佛斯卡利的灯笼",
         "description": "针对移动速度，永久移除所有金蛋加成，此操作不可撤销。"
-      }
+      },
+      "DUMMY_GOLDENEGG_MAX": {},
+      "RELIC_MALACHITE": {},
+      "RELIC_CHARM": {}
     }
   },
   "zh-TW": {
@@ -379,6 +382,20 @@
       "PURIFY2": {
         "name": "Lantern of Foscari",
         "description": "Permanently removes all Golden Egg bonuses on Move Speed. This cannot be undone."
+      },
+      "DUMMY_GOLDENEGG_MAX": {
+        "name": "MAX EGGS",
+        "description": "Spend as much gold as possible to buy Golden Eggs."
+      },
+      "RELIC_MALACHITE": {
+        "name": "Chaos Malachite",
+        "description": "Allows Mortaccio to morph when reaching Level 80.",
+        "achievementTips": "Anima of Mortaccio."
+      },
+      "RELIC_CHARM": {
+        "name": "Apoplexy",
+        "description": "Allows to buy the Charm PowerUp.",
+        "achievementTips": "Charm PowerUp."
       }
     }
   },
@@ -558,7 +575,10 @@
       "PURIFY2": {
         "name": "Lanterne de Foscari",
         "description": "Supprime tous les bonus d'Œuf doré pour le déplacement. Cette action est irréversible."
-      }
+      },
+      "DUMMY_GOLDENEGG_MAX": {},
+      "RELIC_MALACHITE": {},
+      "RELIC_CHARM": {}
     }
   },
   "de": {
@@ -731,7 +751,10 @@
       "PURIFY2": {
         "name": "Laterne von Foscari",
         "description": "Entfernt dauerhaft alle Goldenes-Ei-Boni aufs Bewegungstempo. Kann nicht rückgängig gemacht werden."
-      }
+      },
+      "DUMMY_GOLDENEGG_MAX": {},
+      "RELIC_MALACHITE": {},
+      "RELIC_CHARM": {}
     }
   },
   "el": {
@@ -916,7 +939,10 @@
       "PURIFY2": {
         "name": "Lanterna di Foscari",
         "description": "Rimuove definitivamente tutti i bonus Uovo d'oro alla Velocità di movimento. Quest'azione è irreversibile."
-      }
+      },
+      "DUMMY_GOLDENEGG_MAX": {},
+      "RELIC_MALACHITE": {},
+      "RELIC_CHARM": {}
     }
   },
   "ja": {
@@ -1089,7 +1115,10 @@
       "PURIFY2": {
         "name": "フォスカリの灯籠",
         "description": "黄金の卵で上昇した移動速度が永続的に失われる。取り消し不可。"
-      }
+      },
+      "DUMMY_GOLDENEGG_MAX": {},
+      "RELIC_MALACHITE": {},
+      "RELIC_CHARM": {}
     }
   },
   "ko": {
@@ -1262,7 +1291,10 @@
       "PURIFY2": {
         "name": "포스카리의 등불",
         "description": "이동 속도에 대한 모든 황금알 보너스를 영구적으로 제거합니다. 이는 실행 취소할 수 없습니다."
-      }
+      },
+      "DUMMY_GOLDENEGG_MAX": {},
+      "RELIC_MALACHITE": {},
+      "RELIC_CHARM": {}
     }
   },
   "no": {
@@ -1441,7 +1473,10 @@
       "PURIFY2": {
         "name": "Latarnia Foscari",
         "description": "Na stałe usuwa wszystkie premie do Prędkości ruchu ze Złotych jaj. Nie można tego cofnąć."
-      }
+      },
+      "DUMMY_GOLDENEGG_MAX": {},
+      "RELIC_MALACHITE": {},
+      "RELIC_CHARM": {}
     }
   },
   "pt": {
@@ -1620,7 +1655,10 @@
       "PURIFY2": {
         "name": "Luminária de Foscari",
         "description": "Remove permanentemente todos os bônus de Ovos Dourados na Velocidade de Movimento. Não pode ser desfeito."
-      }
+      },
+      "DUMMY_GOLDENEGG_MAX": {},
+      "RELIC_MALACHITE": {},
+      "RELIC_CHARM": {}
     }
   },
   "ro": {
@@ -1799,7 +1837,10 @@
       "PURIFY2": {
         "name": "Фонарь Фоскари",
         "description": "Убирает все бонусы золотых яиц для скорости движения. Нельзя отменить."
-      }
+      },
+      "DUMMY_GOLDENEGG_MAX": {},
+      "RELIC_MALACHITE": {},
+      "RELIC_CHARM": {}
     }
   },
   "es": {
@@ -1972,7 +2013,10 @@
       "PURIFY2": {
         "name": "Farol de Foscari",
         "description": "Elimina de forma permanente todas las bonificaciones de huevo de oro a la vel. de movimiento. No se puede deshacer."
-      }
+      },
+      "DUMMY_GOLDENEGG_MAX": {},
+      "RELIC_MALACHITE": {},
+      "RELIC_CHARM": {}
     }
   },
   "es-419": {
@@ -2163,7 +2207,10 @@
       "PURIFY2": {
         "name": "Foscari'nin Feneri",
         "description": "HareketHızı'ndaki tüm Altın Yumurta bonuslarını kalıcı olarak kaldırır. Geri dönüşü yoktur."
-      }
+      },
+      "DUMMY_GOLDENEGG_MAX": {},
+      "RELIC_MALACHITE": {},
+      "RELIC_CHARM": {}
     }
   },
   "uk": {

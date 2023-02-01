@@ -104,7 +104,8 @@
       "SEAL": {
         "name": "封印",
         "description": "允许你在升级时排除一个物品， 或排除光源中的掉落物； 需在藏品菜单中使用。"
-      }
+      },
+      "CHARM": {}
     }
   },
   "zh-TW": {
@@ -223,6 +224,10 @@
       "SEAL": {
         "name": "Seal",
         "description": "Allows to Banish an item from level up choices, or a pickup from light sources. Use in COLLECTION menu."
+      },
+      "CHARM": {
+        "name": "Charm",
+        "description": "Increases enemies spawn quantity by 20 per rank (max +100)."
       }
     }
   },
@@ -324,7 +329,8 @@
       "SEAL": {
         "name": "Exclusion",
         "description": "Permet de bannir un objet des choix du passage de niveau ou un boost issu des sources de lumière depuis le menu COLLECTION."
-      }
+      },
+      "CHARM": {}
     }
   },
   "de": {
@@ -419,7 +425,8 @@
       "SEAL": {
         "name": "Siegel",
         "description": "Ermöglicht das Verbannen eines Items aus der Levelaufstieg-Auswahl oder eines Pickup aus Lichtquellen. Im Menü SAMMLUNG verwenden."
-      }
+      },
+      "CHARM": {}
     }
   },
   "el": {
@@ -526,7 +533,8 @@
       "SEAL": {
         "name": "Sigillo",
         "description": "Permette di Escludere un oggetto dalle scelte del passaggio al nuovo livello o un collezionabile dalle fonti di luce. Puoi usarlo nel menu COLLEZIONE."
-      }
+      },
+      "CHARM": {}
     }
   },
   "ja": {
@@ -621,7 +629,8 @@
       "SEAL": {
         "name": "シール",
         "description": "レベルアップ選択肢からアイテムを削除できる、 または明かりからピックアップが得られる。 コレクションメニューで使う。"
-      }
+      },
+      "CHARM": {}
     }
   },
   "ko": {
@@ -716,7 +725,8 @@
       "SEAL": {
         "name": "봉인",
         "description": "레벨업 선택지에서 아이템 하나를 지우거나, 광원에서 획득합니다. 컬렉션 메뉴에서 사용하세요."
-      }
+      },
+      "CHARM": {}
     }
   },
   "no": {
@@ -817,7 +827,8 @@
       "SEAL": {
         "name": "Zapieczętowanie",
         "description": "Pozwala na odrzucenie przedmiotu z puli przyznawanej przy awansie na wyższy poziom lub łupu ze źródeł światła. Użyj w menu KOLEKCJA."
-      }
+      },
+      "CHARM": {}
     }
   },
   "pt": {
@@ -918,7 +929,8 @@
       "SEAL": {
         "name": "Selar",
         "description": "Permite Banir um item das escolhas ao subir de nível ou um coletável das fontes de luz. Para uso no menu COLEÇÃO."
-      }
+      },
+      "CHARM": {}
     }
   },
   "ro": {
@@ -1019,7 +1031,8 @@
       "SEAL": {
         "name": "Исключение",
         "description": "Позволяет убрать предмет из вариантов при повышении уровня или находку из источников света. Используйте в меню «КОЛЛЕКЦИЯ»."
-      }
+      },
+      "CHARM": {}
     }
   },
   "es": {
@@ -1114,7 +1127,8 @@
       "SEAL": {
         "name": "Sellar",
         "description": "Te permite eliminar un objeto de la selección al subir de nivel o un objeto de las fuentes de luz. Se usa en el menú COLECCIÓN."
-      }
+      },
+      "CHARM": {}
     }
   },
   "es-419": {
@@ -1227,7 +1241,8 @@
       "SEAL": {
         "name": "Mühür",
         "description": "Seviye atlama seçeneklerinden bir eşyayı veya ışık kaynaklarından bir toplanabilir'i ÇIKARMAYA izin verir. KOLEKSİYON menüsünde kullanın."
-      }
+      },
+      "CHARM": {}
     }
   },
   "uk": {

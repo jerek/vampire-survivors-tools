@@ -459,8 +459,7 @@
       },
       "BUBBLES2": {
         "name": "噼里啪啦",
-        "description": "进化后的乱气蓝泡， 飞射物可以多次命中同一个敌人。",
-        "tips": "需要咒缚盒 （最高级）。"
+        "description": "进化后的乱气蓝泡， 飞射物可以多次命中同一个敌人。"
       },
       "NIGHTSWORD": {
         "name": "太宵一文字",
@@ -476,7 +475,8 @@
         "name": "108地滚球玉",
         "description": "其实只有8颗地滚球而已， 会对周围的敌人造成伤害。",
         "tips": "无关：发射数量、 持续时间、 速度。"
-      }
+      },
+      "BONE2": {}
     }
   },
   "zh-TW": {
@@ -951,7 +951,7 @@
       "BUBBLES2": {
         "name": "Boo Roo Boolle",
         "description": "Evolved Mille Bolle Blu. Projectiles can hit the same target more than once.",
-        "tips": "Requires Max: Spellbinder."
+        "tips": "Requires: Tetraforce."
       },
       "NIGHTSWORD": {
         "name": "Night Sword",
@@ -967,6 +967,10 @@
         "name": "108 Bocce",
         "description": "Actually it's just 8. Damage affected by the difference between Curse and Luck.",
         "tips": "Ignores: Amount, Duration, Speed."
+      },
+      "BONE2": {
+        "name": "Anima of Mortaccio",
+        "description": "Evolved Bone. Projectiles accelerate when bouncing."
       }
     }
   },
@@ -1423,8 +1427,7 @@
       },
       "BUBBLES2": {
         "name": "Boo Roo Boolle",
-        "description": "Évolution du Mille Bolle Blu. Les projectiles peuvent frapper plusieurs fois une cible.",
-        "tips": "Requiert : Reliure magique au max."
+        "description": "Évolution du Mille Bolle Blu. Les projectiles peuvent frapper plusieurs fois une cible."
       },
       "NIGHTSWORD": {
         "name": "Épée nocturne",
@@ -1440,7 +1443,8 @@
         "name": "108 Boules",
         "description": "En fait, il n'y en a que 8... Inflige des dégâts aux ennemis à proximité.",
         "tips": "Ignore : quantité, durée, vitesse."
-      }
+      },
+      "BONE2": {}
     }
   },
   "de": {
@@ -1890,8 +1894,7 @@
       },
       "BUBBLES2": {
         "name": "Boo Roo Boolle",
-        "description": "Verbesserter Mille Bolle Blu. Geschosse können dasselbe Ziel mehrmals treffen.",
-        "tips": "Max. erforderlich: Zauberbinder."
+        "description": "Verbesserter Mille Bolle Blu. Geschosse können dasselbe Ziel mehrmals treffen."
       },
       "NIGHTSWORD": {
         "name": "Nachtschwert",
@@ -1907,7 +1910,8 @@
         "name": "108 Bocce",
         "description": "Eigentlich nur 8. Schädigt nahe Gegner.",
         "tips": "Ignoriert: Menge, Dauer, Tempo."
-      }
+      },
+      "BONE2": {}
     }
   },
   "el": {
@@ -2369,8 +2373,7 @@
       },
       "BUBBLES2": {
         "name": "Boo Roo Boolle",
-        "description": "Evoluzione di Mille Bolle Blu. I proiettili possono colpire lo stesso bersaglio più volte.",
-        "tips": "Necessita del massimo di: Estendincanto."
+        "description": "Evoluzione di Mille Bolle Blu. I proiettili possono colpire lo stesso bersaglio più volte."
       },
       "NIGHTSWORD": {
         "name": "Spada notturna",
@@ -2386,7 +2389,8 @@
         "name": "108 bocce",
         "description": "In realtà sono solo 8. Infliggono danni ai nemici circostanti.",
         "tips": "Ignora: Quantità, Durata, Velocità."
-      }
+      },
+      "BONE2": {}
     }
   },
   "ja": {
@@ -2836,8 +2840,7 @@
       },
       "BUBBLES2": {
         "name": "無尽の泡",
-        "description": "無尽の泡を進化させたもの。 発射物が同じ敵に複数回ヒットする。",
-        "tips": "最大限が必要：封魔の書。"
+        "description": "無尽の泡を進化させたもの。 発射物が同じ敵に複数回ヒットする。"
       },
       "NIGHTSWORD": {
         "name": "夜の剣",
@@ -2853,7 +2856,8 @@
         "name": "百八つの数珠",
         "description": "実は、 8個だけ。 近くの敵にダメージを与える。",
         "tips": "発射弾数、 効果時間、 弾速はこの武器に効果をもたらさない。"
-      }
+      },
+      "BONE2": {}
     }
   },
   "ko": {
@@ -3303,8 +3307,7 @@
       },
       "BUBBLES2": {
         "name": "부 루 불레",
-        "description": "진화한 밀레 불레 블루입니다. 투사체가 동일한 대상을 2번 이상 적중할 수 없습니다.",
-        "tips": "주문속박기 최대 레벨이 필요합니다."
+        "description": "진화한 밀레 불레 블루입니다. 투사체가 동일한 대상을 2번 이상 적중할 수 없습니다."
       },
       "NIGHTSWORD": {
         "name": "밤의 검",
@@ -3320,7 +3323,8 @@
         "name": "108 보체",
         "description": "사실은 그냥 8입니다. 근처 적에게 피해를 가합니다.",
         "tips": "강화 무시: 투사체 수, 지속시간, 투사체 속도"
-      }
+      },
+      "BONE2": {}
     }
   },
   "no": {
@@ -3776,8 +3780,7 @@
       },
       "BUBBLES2": {
         "name": "Boo Roo Boolle",
-        "description": "Ulepszone Mille Bolle Blu. Pociski mogą trafić ten sam cel więcej niż raz.",
-        "tips": "Wymagany maks. poziom: Zaklinacz."
+        "description": "Ulepszone Mille Bolle Blu. Pociski mogą trafić ten sam cel więcej niż raz."
       },
       "NIGHTSWORD": {
         "name": "Miecz nocy",
@@ -3793,7 +3796,8 @@
         "name": "108 Bocce",
         "description": "Tak naprawdę to tylko 8. Zadaje obrażenia pobliskim wrogom.",
         "tips": "Ignoruje: Ilość, Czas trwania, Prędkość."
-      }
+      },
+      "BONE2": {}
     }
   },
   "pt": {
@@ -4249,8 +4253,7 @@
       },
       "BUBBLES2": {
         "name": "Boo Roo Boolle",
-        "description": "Evolução de Mille Bolle Blu. Projéteis podem atingir o mesmo alvo mais de uma vez.",
-        "tips": "Requer máx. de: Magicatalisador."
+        "description": "Evolução de Mille Bolle Blu. Projéteis podem atingir o mesmo alvo mais de uma vez."
       },
       "NIGHTSWORD": {
         "name": "Espada da Noite",
@@ -4266,7 +4269,8 @@
         "name": "108 Bocha",
         "description": "Na verdade, é só 8. Causa dano a inimigos próximos.",
         "tips": "Ignora: Quantidade, Duração, Velocidade."
-      }
+      },
+      "BONE2": {}
     }
   },
   "ro": {
@@ -4722,8 +4726,7 @@
       },
       "BUBBLES2": {
         "name": "Бу-ру-булле",
-        "description": "Улучшенный Милли-булли-блу. Снаряды могут несколько раз попадать по одной и той же цели.",
-        "tips": "Требуется макс.: заклинатель."
+        "description": "Улучшенный Милли-булли-блу. Снаряды могут несколько раз попадать по одной и той же цели."
       },
       "NIGHTSWORD": {
         "name": "Меч ночи",
@@ -4739,7 +4742,8 @@
         "name": "108 Бочче",
         "description": "На самом деле всего 8. Наносит урон врагам поблизости.",
         "tips": "Игнорирует: количество, продолжительность, скорость."
-      }
+      },
+      "BONE2": {}
     }
   },
   "es": {
@@ -5189,8 +5193,7 @@
       },
       "BUBBLES2": {
         "name": "Boo roo boolle",
-        "description": "Evolución de Mille Bolle Blu. Los proyectiles pueden impactar en el mismo objetivo más de una vez.",
-        "tips": "Requiere: potenciahechizos al máximo."
+        "description": "Evolución de Mille Bolle Blu. Los proyectiles pueden impactar en el mismo objetivo más de una vez."
       },
       "NIGHTSWORD": {
         "name": "Espada de la noche",
@@ -5206,7 +5209,8 @@
         "name": "108 bocce",
         "description": "En realidad solo son 8. Daña a los enemigos cercanos.",
         "tips": "Ignora: cantidad, duración, velocidad."
-      }
+      },
+      "BONE2": {}
     }
   },
   "es-419": {
@@ -5674,8 +5678,7 @@
       },
       "BUBBLES2": {
         "name": "Boo Roo Boolle",
-        "description": "Evrilmiş Mille Bolle Blu. Fırlatılabilirler aynı hedefi birden fazla kez vurabilir.",
-        "tips": "Maks Gerektirir: Büyübağlayan."
+        "description": "Evrilmiş Mille Bolle Blu. Fırlatılabilirler aynı hedefi birden fazla kez vurabilir."
       },
       "NIGHTSWORD": {
         "name": "Gece Kılıcı",
@@ -5691,7 +5694,8 @@
         "name": "108 Bocce",
         "description": "Aslında sadece 8. Yakındaki düşmanlara hasar verir.",
         "tips": "Yok sayar: Miktar, Tesir Süresi, Hız."
-      }
+      },
+      "BONE2": {}
     }
   },
   "uk": {

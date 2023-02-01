@@ -293,7 +293,15 @@
       "seal_header": "已封印:",
       "seal_cannot": "无法封印。",
       "active": "激活",
-      "open_dlc_page": "商店有可用的新内容"
+      "open_dlc_page": "商店有可用的新内容",
+      "ad_revive": "看视频复活",
+      "ad_gold": "观看视频奖金金",
+      "analytics_consent_header": "让您的广告更具相关性",
+      "analytics_consent_description": "您是否同意在 Vampire Survivors 中使用和导出分析服务？",
+      "analytics_consent_opt_in": "选择参加",
+      "analytics_consent_opt_out": "选择退出",
+      "context_description": "通过允许跟踪获得更相关的广告并支持保持此游戏免费。",
+      "context_next": "下一个"
     }
   },
   "zh-TW": {
@@ -601,7 +609,15 @@
       "seal_header": "Sealed:",
       "seal_cannot": "Cannot be sealed.",
       "active": "Active",
-      "open_dlc_page": "New content available in store"
+      "open_dlc_page": "New content available in store",
+      "ad_revive": "Watch Ad Revive",
+      "ad_gold": "Watch Video Bonus Gold",
+      "analytics_consent_header": "Make your ads more relevant",
+      "analytics_consent_description": "Do you provide consent to the use and export of analytics services within Vampire Survivors?",
+      "analytics_consent_opt_in": "Opt In",
+      "analytics_consent_opt_out": "Opt Out",
+      "context_description": "Get ads that are more relevant and support keeping this game free by allowing tracking.",
+      "context_next": "Next"
     }
   },
   "fi": {
@@ -891,7 +907,15 @@
       "seal_header": "Exclus:",
       "seal_cannot": "Ne peut pas être exclu.",
       "active": "Actif",
-      "open_dlc_page": "Nouveau contenu disponible"
+      "open_dlc_page": "Nouveau contenu disponible",
+      "ad_revive": "Regarder l'annonce revivre",
+      "ad_gold": "Regarder la vidéo Bonus Or",
+      "analytics_consent_header": "Rendez vos annonces plus pertinentes",
+      "analytics_consent_description": "Donnez-vous votre consentement à l'utilisation et à l'exportation de services d'analyse au sein de Vampire Survivors ?",
+      "analytics_consent_opt_in": "S'inscrire",
+      "analytics_consent_opt_out": "Se désengager",
+      "context_description": "Obtenez des publicités plus pertinentes et aidez à garder ce jeu gratuit en autorisant le suivi.",
+      "context_next": "Prochain"
     }
   },
   "de": {
@@ -1175,7 +1199,15 @@
       "seal_header": "Versiegelt:",
       "seal_cannot": "Versiegeln unmöglich.",
       "active": "Aktiv",
-      "open_dlc_page": "Neue Inhalte im Store erhältlich"
+      "open_dlc_page": "Neue Inhalte im Store erhältlich",
+      "ad_revive": "Video wiederbeleben ansehen",
+      "ad_gold": "Video Bonus Gold ansehen",
+      "analytics_consent_header": "Machen Sie Ihre Anzeigen relevanter",
+      "analytics_consent_description": "Stimmen Sie der Nutzung und dem Export von Analysediensten innerhalb von Vampire Survivors zu?",
+      "analytics_consent_opt_in": "Anmelden",
+      "analytics_consent_opt_out": "Ablehnen",
+      "context_description": "Erhalten Sie relevantere Anzeigen und unterstützen Sie, dieses Spiel kostenlos zu halten, indem Sie Tracking zulassen.",
+      "context_next": "Nächste"
     }
   },
   "el": {
@@ -1471,7 +1503,15 @@
       "seal_header": "Sigillati:",
       "seal_cannot": "Non può essere sigillato.",
       "active": "Attivo",
-      "open_dlc_page": "Nuovi contenuti disponibili nel negozio"
+      "open_dlc_page": "Nuovi contenuti disponibili nel negozio",
+      "ad_revive": "Guarda il video rinascita",
+      "ad_gold": "Guarda il video Bonus Oro",
+      "analytics_consent_header": "Rendi i tuoi annunci più pertinenti",
+      "analytics_consent_description": "Fornisci il consenso all'uso e all'esportazione dei servizi di analisi all'interno di Vampire Survivors?",
+      "analytics_consent_opt_in": "Attiva",
+      "analytics_consent_opt_out": "Decidere di uscire",
+      "context_description": "Ottieni annunci più pertinenti e aiuta a mantenere questo gioco gratuito consentendo il monitoraggio.",
+      "context_next": "Prossimo"
     }
   },
   "ja": {
@@ -1755,7 +1795,15 @@
       "seal_header": "シールド:",
       "seal_cannot": "封印できない。",
       "active": "効果中",
-      "open_dlc_page": "追加コンテンツがストアで配信中"
+      "open_dlc_page": "追加コンテンツがストアで配信中",
+      "ad_revive": "ビデオを見る",
+      "ad_gold": "ビデオボーナスゴールドを見る",
+      "analytics_consent_header": "広告の関連性を高める",
+      "analytics_consent_description": "Vampire Survivors 内での分析サービスの使用とエクスポートに同意しますか?",
+      "analytics_consent_opt_in": "オプトイン",
+      "analytics_consent_opt_out": "身を引く",
+      "context_description": "追跡を許可することで、より関連性の高い広告を取得し、このゲームを無料に保つことをサポートします。",
+      "context_next": "次"
     }
   },
   "ko": {
@@ -2039,7 +2087,15 @@
       "seal_header": "봉인됨:",
       "seal_cannot": "봉인할 수 없습니다.",
       "active": "활성화",
-      "open_dlc_page": "상점에서 새 콘텐츠 이용 가능"
+      "open_dlc_page": "상점에서 새 콘텐츠 이용 가능",
+      "ad_revive": "동영상 재생 보기",
+      "ad_gold": "비디오 보너스 골드 보기",
+      "analytics_consent_header": "광고의 관련성을 높이세요",
+      "analytics_consent_description": "Vampire Survivors 내에서 분석 서비스의 사용 및 내보내기에 동의하십니까?",
+      "analytics_consent_opt_in": "옵트",
+      "analytics_consent_opt_out": "옵트아웃",
+      "context_description": "관련성이 더 높은 광고를 받고 추적을 허용하여 이 게임을 무료로 유지할 수 있도록 지원하세요.",
+      "context_next": "다음"
     }
   },
   "no": {
@@ -2329,7 +2385,15 @@
       "seal_header": "Zapieczętowano:",
       "seal_cannot": "Nie można zapieczętować.",
       "active": "Aktywne",
-      "open_dlc_page": "W sklepie dostępna jest nowa zawartość"
+      "open_dlc_page": "W sklepie dostępna jest nowa zawartość",
+      "ad_revive": "Obejrzyj wideo reanimacja",
+      "ad_gold": "Obejrzyj wideo Bonusowe złoto",
+      "analytics_consent_header": "Spraw, by Twoje reklamy były trafniejsze",
+      "analytics_consent_description": "Czy wyrażasz zgodę na korzystanie i eksport usług analitycznych w ramach Vampire Survivors?",
+      "analytics_consent_opt_in": "Zgłoś się",
+      "analytics_consent_opt_out": "Zrezygnuj",
+      "context_description": "Otrzymuj reklamy, które są bardziej trafne i wspieraj utrzymanie tej gry za darmo, umożliwiając śledzenie.",
+      "context_next": "Następny"
     }
   },
   "pt": {
@@ -2613,13 +2677,21 @@
       "shop_soldout": "Esgotado",
       "weapon_evo": "evo:",
       "twitch_selection_header": "Seleção da Twitch",
-      "bestiary_others": "outros",
+      "bestiary_others": "outras",
       "maxWeapons_selection": "MÁX. DE ARMAS",
       "eggs_selection": "OVOS",
       "seal_header": "Selou:",
       "seal_cannot": "Não é possível selar.",
       "active": "Ativo",
-      "open_dlc_page": "Conteúdo novo disponível na loja"
+      "open_dlc_page": "Conteúdo novo disponível na loja",
+      "ad_revive": "Assista ao vídeo reviver",
+      "ad_gold": "Assistir Vídeo Bônus Ouro",
+      "analytics_consent_header": "Torne seus anúncios mais relevantes",
+      "analytics_consent_description": "Você fornece consentimento para o uso e exportação de serviços analíticos dentro do Vampire Survivors?",
+      "analytics_consent_opt_in": "Aceitar",
+      "analytics_consent_opt_out": "Excluir",
+      "context_description": "Obtenha anúncios mais relevantes e suporte para manter este jogo gratuito, permitindo o rastreamento.",
+      "context_next": "Próximo"
     }
   },
   "ro": {
@@ -2909,7 +2981,15 @@
       "seal_header": "Исключено:",
       "seal_cannot": "Невозможно исключить.",
       "active": "Активно",
-      "open_dlc_page": "В магазине появились новинки"
+      "open_dlc_page": "В магазине появились новинки",
+      "ad_revive": "Смотреть видео оживить",
+      "ad_gold": "Смотреть видео Золотой бонус",
+      "analytics_consent_header": "Сделайте вашу рекламу более релевантной",
+      "analytics_consent_description": "Даете ли вы согласие на использование и экспорт аналитических услуг в Vampire Survivors?",
+      "analytics_consent_opt_in": "Выбрать в",
+      "analytics_consent_opt_out": "Уклоняться",
+      "context_description": "Получите более релевантную рекламу и поддержите сохранение бесплатной игры, разрешив отслеживание.",
+      "context_next": "Следующий"
     }
   },
   "es": {
@@ -3193,7 +3273,15 @@
       "seal_header": "Sellado:",
       "seal_cannot": "No se puede sellar.",
       "active": "Activo",
-      "open_dlc_page": "Nuevo contenido disponible en la tienda"
+      "open_dlc_page": "Nuevo contenido disponible en la tienda",
+      "ad_revive": "ver video revivir",
+      "ad_gold": "Ver Video Bono Oro",
+      "analytics_consent_header": "Haz que tus anuncios sean más relevantes",
+      "analytics_consent_description": "¿Proporciona su consentimiento para el uso y la exportación de servicios de análisis dentro de Vampire Survivors?",
+      "analytics_consent_opt_in": "Optar en",
+      "analytics_consent_opt_out": "Optar por no",
+      "context_description": "Obtenga anuncios que sean más relevantes y ayuden a mantener este juego gratuito al permitir el seguimiento.",
+      "context_next": "Próximo"
     }
   },
   "es-419": {
@@ -3495,7 +3583,15 @@
       "seal_header": "Mühürlenen:",
       "seal_cannot": "Mühürlenemez.",
       "active": "Aktif",
-      "open_dlc_page": "Mağazada yeni içerik mevcut"
+      "open_dlc_page": "Mağazada yeni içerik mevcut",
+      "ad_revive": "canlanma videosunu izle",
+      "ad_gold": "Videoyu İzle Bonus Altın",
+      "analytics_consent_header": "Reklamlarınızı daha alakalı hale getirin",
+      "analytics_consent_description": "Analiz hizmetlerinin Vampire Survivors içinde kullanılmasına ve dışa aktarılmasına izin veriyor musunuz?",
+      "analytics_consent_opt_in": "Etkinleştir",
+      "analytics_consent_opt_out": "Vazgeçmek",
+      "context_description": "Daha alakalı reklamlar alın ve izlemeye izin vererek bu oyunu ücretsiz tutmayı destekleyin.",
+      "context_next": "Sonraki"
     }
   },
   "uk": {

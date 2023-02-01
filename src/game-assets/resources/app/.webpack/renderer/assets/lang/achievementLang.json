@@ -493,7 +493,10 @@
       },
       "MOON17_EvolveBubbles": {
         "description": "进化乱气蓝泡。"
-      }
+      },
+      "ReachLV80InverseForest": {},
+      "FindApoplexy": {},
+      "FindChaosMalachite": {}
     }
   },
   "zh-TW": {
@@ -898,7 +901,7 @@
         "description": "Reach Level 50 with Suor Clerici."
       },
       "CompleteCollection": {
-        "description": "Complete the Collection."
+        "description": "Complete the 1.0 Collection."
       },
       "Defeat100kWithSigma": {
         "description": "Defeat 100000 enemies in a single run with Queen Sigma."
@@ -1001,6 +1004,15 @@
       },
       "MOON17_EvolveBubbles": {
         "description": "Evolve the Mille Bolle Blu."
+      },
+      "ReachLV80InverseForest": {
+        "description": "Reach Level 80 in Inverse Mad Forest."
+      },
+      "FindApoplexy": {
+        "description": "Find the Apoplexy at minute 09:00 in Bat Country."
+      },
+      "FindChaosMalachite": {
+        "description": "Find the Chaos Malachite at minute 18:00 in Bat Country."
       }
     }
   },
@@ -1491,7 +1503,10 @@
       },
       "MOON17_EvolveBubbles": {
         "description": "Faites évoluer la Mille Bolle Blu."
-      }
+      },
+      "ReachLV80InverseForest": {},
+      "FindApoplexy": {},
+      "FindChaosMalachite": {}
     }
   },
   "de": {
@@ -1975,7 +1990,10 @@
       },
       "MOON17_EvolveBubbles": {
         "description": "Verbessere die Mille Bolle Blu."
-      }
+      },
+      "ReachLV80InverseForest": {},
+      "FindApoplexy": {},
+      "FindChaosMalachite": {}
     }
   },
   "el": {
@@ -2471,7 +2489,10 @@
       },
       "MOON17_EvolveBubbles": {
         "description": "Migliora la Mille Bolle Blu."
-      }
+      },
+      "ReachLV80InverseForest": {},
+      "FindApoplexy": {},
+      "FindChaosMalachite": {}
     }
   },
   "ja": {
@@ -2955,7 +2976,10 @@
       },
       "MOON17_EvolveBubbles": {
         "description": "藍の泡進化させる"
-      }
+      },
+      "ReachLV80InverseForest": {},
+      "FindApoplexy": {},
+      "FindChaosMalachite": {}
     }
   },
   "ko": {
@@ -3439,7 +3463,10 @@
       },
       "MOON17_EvolveBubbles": {
         "description": "밀레 볼레 블루 진화합니다."
-      }
+      },
+      "ReachLV80InverseForest": {},
+      "FindApoplexy": {},
+      "FindChaosMalachite": {}
     }
   },
   "no": {
@@ -3929,7 +3956,10 @@
       },
       "MOON17_EvolveBubbles": {
         "description": "Ulepsz Mille Bolle Blu."
-      }
+      },
+      "ReachLV80InverseForest": {},
+      "FindApoplexy": {},
+      "FindChaosMalachite": {}
     }
   },
   "pt": {
@@ -4419,7 +4449,10 @@
       },
       "MOON17_EvolveBubbles": {
         "description": "Evolua o Mille Bolle Blu."
-      }
+      },
+      "ReachLV80InverseForest": {},
+      "FindApoplexy": {},
+      "FindChaosMalachite": {}
     }
   },
   "ro": {
@@ -4909,7 +4942,10 @@
       },
       "MOON17_EvolveBubbles": {
         "description": "Улучшите Милли-булли-блу."
-      }
+      },
+      "ReachLV80InverseForest": {},
+      "FindApoplexy": {},
+      "FindChaosMalachite": {}
     }
   },
   "es": {
@@ -5393,7 +5429,10 @@
       },
       "MOON17_EvolveBubbles": {
         "description": "Haz evolucionar la Mille Bolle Blu."
-      }
+      },
+      "ReachLV80InverseForest": {},
+      "FindApoplexy": {},
+      "FindChaosMalachite": {}
     }
   },
   "es-419": {
@@ -5895,7 +5934,10 @@
       },
       "MOON17_EvolveBubbles": {
         "description": "Mille Bolle Blu evrilt."
-      }
+      },
+      "ReachLV80InverseForest": {},
+      "FindApoplexy": {},
+      "FindChaosMalachite": {}
     }
   },
   "uk": {

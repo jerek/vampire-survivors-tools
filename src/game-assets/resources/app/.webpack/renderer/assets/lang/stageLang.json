@@ -85,7 +85,8 @@
       "MOONSPELL": {
         "stageName": "月咒山",
         "description": "一个没落家族的发源地，  如今这里遍地都是妖怪和恶鬼。 这个世界没有太阳， 黑夜统治着一切。"
-      }
+      },
+      "BATCOUNTRY": {}
     }
   },
   "zh-TW": {
@@ -185,6 +186,11 @@
       "MOONSPELL": {
         "stageName": "Mt.Moonspell",
         "description": "Ancestral home of a fallen clan, now overrun by yokai and oni. In this world where the sun doesn't shine, the night is victorious."
+      },
+      "BATCOUNTRY": {
+        "stageName": "Bat Country",
+        "description": "We can't stop here.",
+        "tips": "Enemies grow stronger over time."
       }
     }
   },
@@ -267,7 +273,8 @@
       "MOONSPELL": {
         "stageName": "Pic Moonspell",
         "description": "Le foyer ancestral d'un clan déchu, désormais infesté de yôkais et autres onis. La nuit triomphe dans ce monde sans soleil."
-      }
+      },
+      "BATCOUNTRY": {}
     }
   },
   "de": {
@@ -343,7 +350,8 @@
       "MOONSPELL": {
         "stageName": "Moonspellberg",
         "description": "Angestammte Heimat einer gefallenen Sippe, nun von Yokai und Oni überrannt. In dieser Welt, in der die Sonne niemals scheint, siegt die Nacht."
-      }
+      },
+      "BATCOUNTRY": {}
     }
   },
   "el": {
@@ -431,7 +439,8 @@
       "MOONSPELL": {
         "stageName": "Monte Moonspell",
         "description": "L'ancestrale dimora di un clan decaduto ora invasa da yokai e oni. In questo mondo mai illuminato dal sole, la notte impera."
-      }
+      },
+      "BATCOUNTRY": {}
     }
   },
   "ja": {
@@ -507,7 +516,8 @@
       "MOONSPELL": {
         "stageName": "ムーンスペル山",
         "description": "没落した一族の土地は今、 妖怪や鬼があふれている。 夜だけが延々と続くこの世界では、 陽の差す余地さえない。"
-      }
+      },
+      "BATCOUNTRY": {}
     }
   },
   "ko": {
@@ -583,7 +593,8 @@
       "MOONSPELL": {
         "stageName": "문스펠산",
         "description": "몰락한 일족의 선조가 살던 고향으로, 이제 요괴와 오니에게 점령당했습니다. 태양이 빛나지 않는 이 세계에서는 밤이 승리합니다."
-      }
+      },
+      "BATCOUNTRY": {}
     }
   },
   "no": {
@@ -665,7 +676,8 @@
       "MOONSPELL": {
         "stageName": "Mount Moonspell",
         "description": "Rodzinny dom upadłego klanu, który teraz opanowały yokai i oni. Noc króluje w tym świecie, do którego słońce nie dochodzi."
-      }
+      },
+      "BATCOUNTRY": {}
     }
   },
   "pt": {
@@ -747,7 +759,8 @@
       "MOONSPELL": {
         "stageName": "Monte Moonspell",
         "description": "Lar ancestral de um clã extinto, agora infestado de yokai e oni. Neste mundo, onde o sol não brilha, a noite é vitoriosa."
-      }
+      },
+      "BATCOUNTRY": {}
     }
   },
   "ro": {
@@ -829,7 +842,8 @@
       "MOONSPELL": {
         "stageName": "Гора Луночар",
         "description": "Фамильное гнездо павшего клана, которое теперь кишит демонами-ёкаями и они. В этом мире там, куда не доходят лучи солнца, правит вечная ночь."
-      }
+      },
+      "BATCOUNTRY": {}
     }
   },
   "es": {
@@ -905,7 +919,8 @@
       "MOONSPELL": {
         "stageName": "Monte Moonspell",
         "description": "Hogar ancestral de una dinastía derrocada que ahora está infestado de yōkai y oni. En este mundo que jamás ve el sol, la noche reina victoriosa."
-      }
+      },
+      "BATCOUNTRY": {}
     }
   },
   "es-419": {
@@ -999,7 +1014,8 @@
       "MOONSPELL": {
         "stageName": "Moonspell Dağı",
         "description": "Yitik bir klanın eski yuvası, artık Yokai ve Oni tarafından istila edilmiş durumda. Güneşin parlamadığı bu dünyada, galip gelen gecedir."
-      }
+      },
+      "BATCOUNTRY": {}
     }
   },
   "uk": {
