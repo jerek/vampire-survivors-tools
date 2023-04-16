@@ -1,0 +1,41 @@
+{
+	"textures": [
+		{
+			"image": "background.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 460,
+				"h": 346
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "bg_foscari.psd",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 456,
+						"h": 342
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 456,
+						"h": 342
+					},
+					"frame": {
+						"x": 2,
+						"y": 2,
+						"w": 456,
+						"h": 342
+					}
+				}
+			]
+		}
+	],
+	"meta": {
+		"app": "https://www.codeandweb.com/texturepacker",
+		"version": "3.0",
+		"smartupdate": "$TexturePacker:SmartUpdate:c2de1bfaac326b2963e36a671971588d:351d77f53b0b9bcf601d6291485112fa:fce28decc19871f1b29a31f38a424610$"
+	}
+}

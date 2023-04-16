@@ -86,7 +86,19 @@
         "stageName": "月咒山",
         "description": "一个没落家族的发源地，  如今这里遍地都是妖怪和恶鬼。 这个世界没有太阳， 黑夜统治着一切。"
       },
-      "BATCOUNTRY": {}
+      "BATCOUNTRY": {
+        "stageName": "蝙蝠国",
+        "description": "我们不能在这里停留。",
+        "tips": "随时间推移，敌人会越来越强大。"
+      },
+      "FOSCARI": {
+        "stageName": "佛斯卡里湖",
+        "description": "一处神秘的森林， 遍地都是你能在任何一款角色扮演游戏中见到的奇珍异兽、 神话精灵和妖魔鬼怪。 简单粗暴的内容， 平平无奇的冒险， 就是这么直接。"
+      },
+      "FOSCARI2": {
+        "stageName": "佛斯卡里深渊",
+        "description": "在上古时期， 为了扼制其中的黑暗力量， 卢米纳尔封印了这处深渊。 而如今这些地下遗迹再次重见天日， 这也意味着地表世界也暴露在了来自地渊的魔物面前。"
+      }
     }
   },
   "zh-TW": {
@@ -191,6 +203,14 @@
         "stageName": "Bat Country",
         "description": "We can't stop here.",
         "tips": "Enemies grow stronger over time."
+      },
+      "FOSCARI": {
+        "stageName": "Lake Foscari",
+        "description": "An enchanted forest stuffed with fae mysteries and mythological entities. The perfect place to have an average adventure with zero complications."
+      },
+      "FOSCARI2": {
+        "stageName": "Abyss Foscari",
+        "description": "Sealed by Luminaire in ancient times to contain the darkness within, these underground ruins are now accessible, but so is the outside world to the evil from the depths."
       }
     }
   },
@@ -274,7 +294,19 @@
         "stageName": "Pic Moonspell",
         "description": "Le foyer ancestral d'un clan déchu, désormais infesté de yôkais et autres onis. La nuit triomphe dans ce monde sans soleil."
       },
-      "BATCOUNTRY": {}
+      "BATCOUNTRY": {
+        "stageName": "Voie vampirique",
+        "description": "Chauve qui peut !",
+        "tips": "Les ennemis sont de plus en plus puissants."
+      },
+      "FOSCARI": {
+        "stageName": "Lac Foscari",
+        "description": "Une forêt enchantée remplie de mystères féeriques et d'entités mythologiques. Venez y vivre une aventure ordinaire et sans prise de tête."
+      },
+      "FOSCARI2": {
+        "stageName": "Abîme Foscari",
+        "description": "Dans les temps anciens, ces ruines souterraines furent scellées par Luminaire afin d'y enfermer les ténèbres. Elles sont désormais accessibles, tout comme les forces du mal en leur sein."
+      }
     }
   },
   "de": {
@@ -351,7 +383,19 @@
         "stageName": "Moonspellberg",
         "description": "Angestammte Heimat einer gefallenen Sippe, nun von Yokai und Oni überrannt. In dieser Welt, in der die Sonne niemals scheint, siegt die Nacht."
       },
-      "BATCOUNTRY": {}
+      "BATCOUNTRY": {
+        "stageName": "Fledermausland",
+        "description": "Wir können hier nicht anhalten.",
+        "tips": "Gegner werden mit der Zeit stärker."
+      },
+      "FOSCARI": {
+        "stageName": "See Foscari",
+        "description": "Ein verzauberter Wald voller Feengeheimnisse und mythologischer Wesen. Der perfekte Ort für ein durchschnittliches, unkompliziertes Abenteuer."
+      },
+      "FOSCARI2": {
+        "stageName": "Foscari-Abgrund",
+        "description": "Diese unterirdischen Ruinen wurden von Luminaire vor langer Zeit versiegelt, um die Dunkelheit, die sich darin befindet, einzusperren. Sie sind nun zugänglich, aber auch das Böse aus den Tiefen kann nun in die Welt oben entkommen."
+      }
     }
   },
   "el": {
@@ -440,7 +484,19 @@
         "stageName": "Monte Moonspell",
         "description": "L'ancestrale dimora di un clan decaduto ora invasa da yokai e oni. In questo mondo mai illuminato dal sole, la notte impera."
       },
-      "BATCOUNTRY": {}
+      "BATCOUNTRY": {
+        "stageName": "Terra dei pipistrelli",
+        "description": "Non possiamo fermarci qui.",
+        "tips": "I nemici diventano gradualmente più forti."
+      },
+      "FOSCARI": {
+        "stageName": "Lago Foscari",
+        "description": "Una foresta incantata brulicante di misteri fatati, entità mitologiche e mostri tipici di qualsiasi bestiario GdR. Il luogo perfetto in cui partire all'avventura certi di non incappare in alcuna complicazione."
+      },
+      "FOSCARI2": {
+        "stageName": "Abisso Foscari",
+        "description": "Rovine sotterranee sigillate da tempo immemore da Luminaire per confinare l'oscurità al loro interno. Ora è possibile accedervi, ma anche il male che alberga nelle loro profondità può ora propagarsi al resto del mondo."
+      }
     }
   },
   "ja": {
@@ -517,7 +573,19 @@
         "stageName": "ムーンスペル山",
         "description": "没落した一族の土地は今、 妖怪や鬼があふれている。 夜だけが延々と続くこの世界では、 陽の差す余地さえない。"
       },
-      "BATCOUNTRY": {}
+      "BATCOUNTRY": {
+        "stageName": "バットカントリー",
+        "description": "ここでは止まれない。",
+        "tips": "敵は時間経過とともに強くなる。"
+      },
+      "FOSCARI": {
+        "stageName": "フォスカリ湖",
+        "description": "フェイの謎と神話的存在で溢れる魔法の森。 複雑な要素ゼロのシンプルな冒険を楽しみたい人に最適。"
+      },
+      "FOSCARI2": {
+        "stageName": "アビス・フォスカリ",
+        "description": "太古の昔、 ルミネールによって内なる闇が封印された地下遺跡。 そこへの道が開かれた今、 奥底に潜む悪も外の世界へ這い出せるようになってしまった。"
+      }
     }
   },
   "ko": {
@@ -594,7 +662,19 @@
         "stageName": "문스펠산",
         "description": "몰락한 일족의 선조가 살던 고향으로, 이제 요괴와 오니에게 점령당했습니다. 태양이 빛나지 않는 이 세계에서는 밤이 승리합니다."
       },
-      "BATCOUNTRY": {}
+      "BATCOUNTRY": {
+        "stageName": "박쥐 나라",
+        "description": "우리는 여기서 멈출 수 없습니다.",
+        "tips": "적은 시간이 지남에 따라 더 강해집니다."
+      },
+      "FOSCARI": {
+        "stageName": "Foscari 호수",
+        "description": "신비로운 요정의 미스터리, 신화 속에서 탄생한 존재가 가득한 마법에 걸린 숲입니다. 복잡함을 탈피하여 평범한 모험을 즐기기에 완벽한 장소죠."
+      },
+      "FOSCARI2": {
+        "stageName": "Foscari 심연",
+        "description": "고대에 루미네어가 어둠을 봉인해두었던 지하 유적입니다. 이제 비로소 접근할 수 있게 되었지만, 동시에 깊은 곳에 봉인되었던 악의 세력도 바깥 세계에 접근할 수 있게 되었죠."
+      }
     }
   },
   "no": {
@@ -677,7 +757,19 @@
         "stageName": "Mount Moonspell",
         "description": "Rodzinny dom upadłego klanu, który teraz opanowały yokai i oni. Noc króluje w tym świecie, do którego słońce nie dochodzi."
       },
-      "BATCOUNTRY": {}
+      "BATCOUNTRY": {
+        "stageName": "Kraina nietoperzy",
+        "description": "Nie możemy się tu zatrzymywać.",
+        "tips": "Wrogowie stają się z czasem silniejsi."
+      },
+      "FOSCARI": {
+        "stageName": "Jezioro Foscari",
+        "description": "Zaczarowany las pełen magicznych tajemnic i mitycznych bytów. Idealne miejsce, by przeżyć przeciętną przygodę bez żadnych komplikacji."
+      },
+      "FOSCARI2": {
+        "stageName": "Otchłań Foscari",
+        "description": "Te podziemne ruiny, zapieczętowane przez Luminaire w starodawnych czasach, znów są otwarte, ale wraz z nimi dla zła czającego się pod ziemią otwarty został świat zewnętrzny."
+      }
     }
   },
   "pt": {
@@ -760,7 +852,19 @@
         "stageName": "Monte Moonspell",
         "description": "Lar ancestral de um clã extinto, agora infestado de yokai e oni. Neste mundo, onde o sol não brilha, a noite é vitoriosa."
       },
-      "BATCOUNTRY": {}
+      "BATCOUNTRY": {
+        "stageName": "País Morcego",
+        "description": "Não podemos parar aqui.",
+        "tips": "Os inimigos ficam mais fortes com o tempo."
+      },
+      "FOSCARI": {
+        "stageName": "Lago Foscari",
+        "description": "Uma floresta encantada, repleta de mistérios feéricos e entidades mitológicas. O lugar perfeito para uma aventura corriqueira, sem complicação alguma."
+      },
+      "FOSCARI2": {
+        "stageName": "Abismo Foscari",
+        "description": "Seladas por Luminaire na antiguidade a fim de conter a escuridão que lá havia, essas ruínas subterrâneas estão acessíveis agora. Porém, o mundo externo também está acessível para as forças malignas de suas profundezas."
+      }
     }
   },
   "ro": {
@@ -843,7 +947,19 @@
         "stageName": "Гора Луночар",
         "description": "Фамильное гнездо павшего клана, которое теперь кишит демонами-ёкаями и они. В этом мире там, куда не доходят лучи солнца, правит вечная ночь."
       },
-      "BATCOUNTRY": {}
+      "BATCOUNTRY": {
+        "stageName": "Страна нетопырей",
+        "description": "Останавливаться нельзя.",
+        "tips": "Враги со временем становятся сильнее."
+      },
+      "FOSCARI": {
+        "stageName": "Озеро Фоскари",
+        "description": "Заколдованный лес, до самой опушки забитый феями и мифологическими существами. Идеальное место для типичного приключения без обязательств."
+      },
+      "FOSCARI2": {
+        "stageName": "Бездна Фоскари",
+        "description": "В древние времена Люминера запечатала здесь тьму, но теперь у подземных руин появился вход, открыв путь наружу и злу из глубин."
+      }
     }
   },
   "es": {
@@ -920,7 +1036,19 @@
         "stageName": "Monte Moonspell",
         "description": "Hogar ancestral de una dinastía derrocada que ahora está infestado de yōkai y oni. En este mundo que jamás ve el sol, la noche reina victoriosa."
       },
-      "BATCOUNTRY": {}
+      "BATCOUNTRY": {
+        "stageName": "Murcilandia",
+        "description": "No podemos parar aquí.",
+        "tips": "Los enemigos se vuelven más fuertes gradualmente."
+      },
+      "FOSCARI": {
+        "stageName": "Lago Foscari",
+        "description": "Un bosque encantado repleto de misterios feéricos y seres mitológicos. La ubicación perfecta para vivir la típica aventura con cero complicaciones."
+      },
+      "FOSCARI2": {
+        "stageName": "Abismo Foscari",
+        "description": "Ya se puede entrar a estas ruinas subterráneas que Luminaire selló para aprisionar la oscuridad en su interior. Aunque eso significa que las fuerzas malignas de sus profundidades también pueden salir al mundo exterior."
+      }
     }
   },
   "es-419": {
@@ -1015,7 +1143,19 @@
         "stageName": "Moonspell Dağı",
         "description": "Yitik bir klanın eski yuvası, artık Yokai ve Oni tarafından istila edilmiş durumda. Güneşin parlamadığı bu dünyada, galip gelen gecedir."
       },
-      "BATCOUNTRY": {}
+      "BATCOUNTRY": {
+        "stageName": "Yarasa Diyarı",
+        "description": "Burada duramayız.",
+        "tips": "Düşmanlar zamanla güçlenir."
+      },
+      "FOSCARI": {
+        "stageName": "Foscari Gölü",
+        "description": "Peri gizemleri ve mitolojik varlıklarla dolu büyülü bir orman. Sıfır sorunla ortalama bir macera yaşamak için mükemmel bir yer."
+      },
+      "FOSCARI2": {
+        "stageName": "Foscari Uçurumu",
+        "description": "Antik çağlarda barındırdığı karanlığı zapt etmek için Luminaire tarafından mühürlenen bu yeraltı kalıntıları artık erişilebilir, ancak derinliklerden gelen kötülük de dış dünyaya doğru biletini almıştır."
+      }
     }
   },
   "uk": {

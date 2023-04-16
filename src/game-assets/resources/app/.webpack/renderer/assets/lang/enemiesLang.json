@@ -502,8 +502,180 @@
         "bDesc": "九十九夜是森林中狡猾的捣蛋鬼， 它保护着太宵一文字不会落入没有资格的人手中。 谁都不知道它究竟有多少条尾巴， 因为所有想要数清的人都在数到五十左右就会被它烧死。"
       },
       "MS_SPIRIT1": {
-        "bName": "迷你幽灵",
-        "bDesc": "根本就没有鬼这样的东西。 这可能只是一只被雪覆盖的蝙蝠， 除此之外别无其他。"
+        "bName": "小幽灵",
+        "bDesc": "根本就没有鬼这样的东西。 这可能只是一只被雪覆盖的蝙蝠， 仅此而已。"
+      },
+      "FS_GOBLIN": {
+        "bName": "切切",
+        "bDesc": "哥布林们厌倦了一直被人们误解为背后捅刀子的卑鄙鼠辈。 别怪我没提醒你， 如果你打算说它们坏话， 它们可能会悄悄地跟着你， 在背后捅上一刀， 然后顺走你的钱包。"
+      },
+      "FS_SALMON": {
+        "bName": "维斯帕克",
+        "bDesc": "维斯帕克是最早在林湖安家的珍兽之一， 它们或许比其它精怪更熟悉这里的秘密和奥妙。 那还真是讽刺， 因为偶尔看到它们的人只是将其视为离开水的鱼。"
+      },
+      "FS_SELKIE": {
+        "bName": "纳特梅格",
+        "bDesc": "从它们的面部触须、 沉重的扁平脑袋和奇特的进食习惯可以看出， 它们似乎是鲶鱼的后代。 它们伪装成未经人事的少女， 引诱放松警惕的色胚子进入它们不祥的巢穴。"
+      },
+      "FS_WULVER": {
+        "bName": "乌威沃",
+        "bDesc": "不要傻呵呵地以为这些毛茸茸的渔夫和普通的狼人有什么关联， 你什么时候见过狼人抓到过大嘴鲈鱼的？  没有， 那一次不算。"
+      },
+      "FS_LAMB": {
+        "bName": "羊怪",
+        "bDesc": "这是传说中的植物羊神的后代， 那是一只吊在半空中的绵羊， 它的脐带连接着一根强大的植物茎秆。 它的身体会孕育出更多的绵羊， 就像是罕见的羊毛水果一样。 我这位卑微的民俗学家绝对没有瞎编， 我是说真的， 书上都写着呢。 都散了吧， 民俗传说， 你喝几杯了？"
+      },
+      "FS_HTROW": {
+        "bName": "山魔妖",
+        "bDesc": "曾经是一支战无不克的嗜战族群， 直到它们了解到自己的奇幻外表对人类儿童有多大吸引力。 自那以后， 它们隐藏了血腥的过去， 并让全世界相信自己就不过是一系列可爱娃娃的灵感来源。 这才是统治世界的方式——不是通过战争， 而是通过带货。"
+      },
+      "FS_STROW": {
+        "bName": "海魔妖",
+        "bDesc": "不同于它们住在山上的亲戚们， 海魔妖的可怕程度既不足以化身战争机器， 而可爱程度也无法掀起玩具风潮。 它们接受了自己无法逃避的平庸命运， 便用各种兴趣爱好将自己包装成斜杠青年， 整日整日地涂装手办和逛海滩。"
+      },
+      "FS_CLOWN": {
+        "bName": "黄昏小丑山姆",
+        "bDesc": "哎呀哎呀别皱眉， 小丑来了要倒霉。 太阳下山黄昏到， 小丑山姆呵呵笑。 看见山姆不要怕， 只管傻笑别说话。 别说话啊别说话， 山姆把你头拧下。 山姆跳舞笑哈哈， 人人脑袋都搬家。 哎呀哎呀别皱眉， 小丑来了你倒霉。"
+      },
+      "FS_CAKE": {
+        "bName": "毛毛虫小山姆",
+        "bDesc": "这是Vampire Survivors(™)出品的毛毛虫蛋糕， 属于Vampire Survivors系列产品之一。 如果你的年龄在30岁以上， 那么你就应该为自己准备一个毛毛虫小山姆作为生日蛋糕， 你就应该为*我们*准备一个毛毛虫小山姆作为生日蛋糕。 毛毛虫小山姆属于Vampire Survivors(™)旗下商标， 不适用于年龄1至29岁的儿童。 本产品不可食用。"
+      },
+      "FS_BROWN": {
+        "bName": "棕精灵",
+        "bDesc": "这是曾经在人类家园享受安宁生活的精灵。 它们开开心心地操持各种家务活， 仅仅需要一点表扬作为回报。 这样的和谐共处一直持续着， 直到房东协会为了收取更多租金而将棕精灵判定为额外租户， 纠结的村民们不得不将无数棕精灵扫地出门。 它们手中的扫帚曾是打扫卫生的工具， 如今正蓄势待发准备大杀四方， 或至少要打到你鼻青脸肿。"
+      },
+      "FS_GREEN": {
+        "bName": "绿骑士",
+        "bDesc": "最早的绿骑士会让勇士随便殴打自己身体的任何部位， 但发誓它会在一年后回来， 并悉数回敬对方。 这些黄绿色的骗子深谙先辈的传说， 就用同样的挑战引诱敌人靠近， 然后一脚踢到对方的蛋蛋上， 再趁对方晕头转向的时候砍掉他们的脑袋。"
+      },
+      "FS_AILLEN": {
+        "bName": "竖琴妖精",
+        "bDesc": "它的魔法竖琴可以让无数人陷入沉睡， 它的肠胃爆气可以让无数人从沉睡中臭醒。 这个哥布林可以说是一肚子毒气， 但它雷打不动的打屁特质， 倒是给每一个不小心被其罪恶的摇篮曲所迷倒的人提供了一点相对的安全。"
+      },
+      "FS_DUERG": {
+        "bnAME": "德鲁加",
+        "bDesc": "他们是矮人， 就是常见的那种矮人。 你还想要怎样？  想要在耳熟能详的民间传说上巧妙改编？  还是处处藏着双关和毫不掩饰的政治讽喻的匠心戏仿？  不好意思了， 我只能回答一句无可奉告， 不过他们支持免费的全宇宙医保政策。"
+      },
+      "FS_GLORY": {
+        "bName": "荣耀之手",
+        "bDesc": "这些从毛贼囚犯身上剁下来的手经过腌制后， 靠捏、 打和反复扒窃来传播危险的痛苦。 此外， 它们真的好可怕而且好恶心， 呕！"
+      },
+      "FS_MARI": {
+        "bName": "玛隆纳",
+        "bDesc": "关于此种来自威尔士的神话生物是否会捕食基督徒存在大量争议， 但显然它会， 否则发现它的第一则记录就会是这么写的：“耶稣基督啊， 那是被上帝抛弃的何种造物？  ”"
+      },
+      "FS_NJUGG": {
+        "bName": "纳尤格",
+        "bDesc": "一匹美丽而恶毒的骏马， 巧妙地利用着自身两种组成形态的优势， 同时又没有各自的弱点——马的体型、 力量和耐力配上鳟鱼那无与伦比的残忍。 任何一个敢骑上它的人都会被迅速拖到湖底， 似乎不知道他们本可以直接下马游上岸的。"
+      },
+      "FS_HAG": {
+        "bName": "普通妖婆",
+        "bDesc": "如果你想赢得这个模范妖婆的好感， 你必须准备她最喜欢的食物——妖婆莓炖妖婆鱼， 再配上妖婆派。 不过， 你不能把这样的菜作为免费的礼物送给她们， 因为她们会为这件事一直婆婆妈妈。"
+      },
+      "FS_MUSH_HP": {
+        "bName": "菌人",
+        "bDesc": "菌人的生物合成技能可以让它在5秒内恢复250点生命值， 在此期间， 治疗光束技能会使其生命值增加50%。 孢子之云可以造成134点伤害， 并使所有进入其半径的敌人减速4秒。 虽然很明显菌人是为战斗而生的， 但事实上它们在战斗中并没有做这些事情， 这就让它变得相当废柴了。"
+      },
+      "FS_GGHOST": {
+        "bName": "幽影",
+        "bDesc": "这是一个货真价实、 如假包换、 童叟无欺的鬼， 哎， 开玩笑， 世界上根本没有鬼， 以后也不会有。 我现在就管这玩意儿叫吸血鬼好了， 不是鬼， 而且我也没见过吸血鬼。"
+      },
+      "FS_BOSS_AGAEA": {
+        "bName": "盖伊化身",
+        "bDesc": "在最紧要的关头， 当自然的秩序受到威胁时， 万物生灵的仁爱之心将合而为一， 具化成形。 它是一种如此优雅和美丽的存在， 以至于各个文明都对其顶礼膜拜。 这是美德和真实最纯粹的化身， 是星球心脏所赋予的形态。 曾经有一个人往林湖里撒尿就被它一蹄子踢中脑门， 现场到处都是鲜血和骨头碎片。"
+      },
+      "FS_CAULD": {
+        "bName": "冷魔",
+        "bDesc": "你是否会觉得冷， 心是否还有余温。 疲倦的灵魂撑过黑暗， 也等不到黎明的安稳。 你是否也觉得冷， 心是否也在降温。 无言的路灯撑过黑暗， 也撑不到永恒。"
+      },
+      "REDUSA": {
+        "bName": "红杜莎之颅",
+        "bDesc": "对于一般的英雄而言， 看到这样一个飘在半空中的蛇发脑袋已经不是什么稀奇事了， 有了多年的血泪经验后还会觉得这相当平淡无奇。 但红杜莎可不一般， 它更可怕、 更致命、 更恶上加恶。 首先， 它是红色的， 如果这还不够吓人的话， 那我也没辙了， 真是不好意思。"
+      },
+      "RELLYFISH": {
+        "bName": "红水母",
+        "bDesc": "长期以来， 人类一直将红色与暴力、 激情和危险联系在一起。 这种如同鲜血的颜色唤醒了我们最原始的恐惧， 也唤醒了我们最本能的渴望。 当看到一群醉酒的水母在晚上闯入一家商店并喝光了所有的番茄酱时， 你既不会恐惧也不会有任何欲望（这就是水母如何学会醉酒的故事）。"
+      },
+      "HEMO": {
+        "bName": "血苔",
+        "bDesc": "它们不停地从地狱的大肠里排出， 不断螺旋攻击。 不要放松警惕， 不要以为它们会轻易离开， 要时刻当心你的菊花， 因为它们的运动会形成一坨坨的㞎㞎， 让你焦躁不已， 甚至不禁屎喷如注。 只有神选的使者才敢对抗这样的敌人， 只有[此处还需要一个屎的双关]在等待着落荒而逃的战士。 （备注：交稿给发行商时不要用这段文本， 太屎了。 ）"
+      },
+      "BOSS_XLBLINDER": {
+        "bName": "禁视魇",
+        "bDesc": "一个自认为真正有远见的死神。 只要是被它漆黑的手指所触碰的英雄， 周身都将被一层黑暗的面纱所包围， 但当每次它出现在战斗中时， 战场上已经充满了各种粒子、 颜色和特效， 反正什么东西都已经看不清了。"
+      },
+      "FS_ROTGHOUL": {
+        "bName": "腐臭尸鬼",
+        "bDesc": "死亡的恶臭在这些可怜虫所经过的每一寸土地上挥之不去。 它们曾经是无辜的村民， 被腐朽僧侣扭曲而成了后者的马前卒。 它们会严格听从衰萎执事所说的每一句话， 前提是它们真能听懂的话。"
+      },
+      "FS_FLAMINGSKULL": {
+        "bName": "魔焰飞颅",
+        "bDesc": "尽管它们的战斗力很强， 但它们主要是为焚烧垃圾这一相当无聊的目的服务。 这是因为死灵法师高傲到离谱， 甚至不能像一个讲道理的成年人那样在垃圾日清理垃圾。 尽管如此， 如果不把它们当回事儿， 就准备被烤脑子吧。"
+      },
+      "FS_WORM": {
+        "bName": "错过教堂虫",
+        "bDesc": "这种带毒的虫子会作为天罚， 从它们的河边住处潜入渎神者的船上。 一旦上船， 它们就会毫不留情地释放出一阵接一阵的传教声和吉他原声音乐。"
+      },
+      "FS_SNAK1": {
+        "bName": "虵",
+        "bDesc": "本图鉴已经有一个关于蛇的条目了， 只是基因相同但颜色不同。 我这位卑微的民俗学家忘记了自己有合同义务将某些东西称为虵， 就请好好欣赏此多余的内容吧！"
+      },
+      "FS_SHOOTER1": {
+        "bName": "独头蛇",
+        "bDesc": "谁知道怪物是如何或为什么会有这么多颜色变种的？  是变异？  是巫术？  还是手提一桶油漆的邪魔图鉴作者企图多水一些字数？  鬼才晓得。"
+      },
+      "FS_MEATBALL": {
+        "bName": "肉球",
+        "bDesc": "辣味。"
+      },
+      "FS_MEATY": {
+        "bName": "佛拉韦",
+        "bDesc": "一个来自遥远国度的法师发誓， 它冷若冰霜的脸就像之前一位曾抛弃了自己高塔的伟大学者。 他大胆地和这个生物交谈， 并这样做了几个小时。 没有人敢打扰他们， 甚至在夜里空气凝固的时候， 法师也跟着凝固了。 人们说， 当他眼中的泪水变成冰时， 他说出了最后一句话：“她在那里活了下去。 ”"
+      },
+      "FS_EDNA": {
+        "bName": "艾德纳",
+        "bDesc": "乍一看， 它可能看起来像一个偷懒的死灵法师把一个头骨钉在了一只被砍掉头颅的螳螂身上， 然后就拍拍屁股收工了。 但多看两眼就会发现， 还是和第一眼没什么差别。 但雷纳多发毒誓这不是他干的， 就凭这一点， 艾德纳就是一个值得记录的真正怪物。"
+      },
+      "FS_HORCAULD": {
+        "bName": "冰冷魔",
+        "bDesc": "冷冷的冰雨在脸上胡乱的拍， 暖暖的眼泪跟寒雨混成一块， 眼前的色彩忽然被掩盖。 你的影子无情在身边徘徊， 你就像一个刽子手把我出卖， 我的心彷佛被剌刀狠狠地宰， 悬崖上的爱， 谁会愿意接受最痛的意外。"
+      },
+      "FS_HORWORM": {
+        "bName": "井蛇",
+        "bDesc": "这个充满正能量的怪物会主动向任何从它称之为家的坑洞里取水的人给出关于健康和正念的建议——多么善良的好精怪啊。"
+      },
+      "FS_HORNJUGG": {
+        "bName": "泡水纳尤格",
+        "bDesc": "你要弄得多湿才能被认为是已经湿了的东西的泡水版？  说到“泡水纳尤格”的湿， 这种水生马把“多喝水”这句话发挥到了极致。 尽管它们深谙补水之道， 但残酷的讽刺是， 它们的主要死因竟是溺水。 不管怎么说， 它们宁愿死在水里， 也不愿意干巴巴地活着， 因为它们一汪无前。"
+      },
+      "FS_HORAILLEN": {
+        "bName": "竖琴食人魔",
+        "bDesc": "一个食人魔， 总是喋喋不休地谈论它有多热辣。 想来也是， 因为它是这里最性感的珍兽之一。 它连续三年赢得了佛斯卡里深渊年度泳装比赛， 并且是迄今为止OnlyFangs网站上最受欢迎的模特， 这是一份为好色的怪物们创作的月刊读物。 深谙灵异生物学的学者们花了好些年时间研究这个令人垂涎的大块头， 想了解它为何如此受人追捧， 但此等禁忌的学识显然已经把他们逼到了理智的边缘。 他们狂热的写写画画只不过是在无意地模仿一位名为大美女的异神的祷文。"
+      },
+      "FS_HORDUERG": {
+        "bName": "平静德鲁加",
+        "bDesc": "每一个都坚称他们绝对是真正的矮人， 而不是那种把鞋子绑在膝盖上， 假装比自己矮很多的人类。 哪怕没人开口问他们， 他们也爱大声宣布自己绝不是伪装成矮人才好享受他们的医疗服务， 而矮人的医疗服务一般被认为是更加先进50%并且100%非利益驱动。"
+      },
+      "FS_HORGLORY": {
+        "bName": "荣耀之手套",
+        "bDesc": "来， 给你一只大手。 它喜欢收集毛绒娃娃， 并通过强大的手指轻轻一个响指赋予它们生命。 它高兴地看着自己的作品贴身肉搏， 然后高兴地一拳砸死赢家。 准备好和这家伙来一场真正的战斗吧——它是来搞破坏的。"
+      },
+      "FS_HORMARI": {
+        "bName": "玛隆纳米亚",
+        "bDesc": "想象一下， 这个东西会在晚上从你的窗户爬进来， 一边颤巍巍地上楼， 一边低声喘息着。 它走近你的卧室， 用颤抖的手紧紧抓住脖子上的铃铛， 从门缝中盯着你， 观察着， 等待着， 在你睡觉时欣赏你。 一小时后， 也许是两小时后， 它再也忍不住了， 从缝隙中溜走， 没有移动门一点一寸。 它来了， 它是来舔你的眉毛的。 它想要营养， 就是你的眉毛中所隐藏的矿物质。 在一年之中， 每个星期三晚上它都回来找你。"
+      },
+      "FS_FMCETHLENN": {
+        "bName": "弗莫尔族",
+        "bDesc": "嵔？  嵔？  沵躱茬哪里？  沵厾哪里孒？  趉孒嬤？  趉孒？  莪們茬菿處找沵。 沵説沵茬痌楛營哋， 泹沵芣茬哪里！沵説沵茬泹莪們找芣菿沵！\n\n噢， 等①芐， 沵茬適里啊！\n\n找菿沵孒！！"
+      },
+      "FS_BOSS_JENEVIV": {
+        "bName": "不死让纳维",
+        "bDesc": "可怕的吞噬者， 强大的饕餮猛兽， 诸界的捕食者。 它已经品尝了所有的创造物， 所有的创造物都反映在了它贪婪的形态上。 它有一部分是人类， 一部分是怪物， 一部分是亡灵， 一部分是恶魔， 一部分是畸形儿。 它不是吸血鬼， 它还没有遇到一个吸血鬼， 它非常想吃掉一个吸血鬼， 它想知道你是否见过任何吸血鬼。 它会急着吃掉你和你周围的一切有形物体， 也不会问你是否见过吸血鬼。"
+      },
+      "FS_GEF": {
+        "bName": "彻佛塞",
+        "bDesc": "据说这些笨手笨脚的哺乳动物在各个领域的表现都堪称最聪明的生物之一。 然而， 人们对这种说法持怀疑态度， 因为它们似乎除了无意识地成群结队地跑向它们的敌人之外， 并未做出任何更聪明的事情。 彻佛塞海战术什么时候起过作用？"
       }
     }
   },
@@ -1023,6 +1195,178 @@
       "MS_SPIRIT1": {
         "bName": "Spiritello",
         "bDesc": "There 's simply no such thing as ghosts. This is probably just a bat covered in snow, and nothing else."
+      },
+      "FS_GOBLIN": {
+        "bName": "Chompo",
+        "bDesc": "Poor little goblins who are tired of being misrepresented as sneaky backstabbing thieves. Be warned, for if you choose to slander them, they might just sneak up on you, stab you in the back, and swipe your purse."
+      },
+      "FS_SALMON": {
+        "bName": "Wiseparke",
+        "bDesc": "Among the very first beings to make their home in the Great Lake, they understand its secrets and mysteries better than perhaps any other. It’s a great irony, then, that casual observers only see them as fish out of water."
+      },
+      "FS_SELKIE": {
+        "bName": "Nutmeg",
+        "bDesc": "It seems they are descended from catfish, as suggested by their facial whiskers, heavy flattened heads, and curious feeding habits in which they pose as virginal maidens and lure gullible lotharios to their lairs."
+      },
+      "FS_WULVER": {
+        "bName": "Vulvio",
+        "bDesc": "Do not be fooled into thinking these furry fishermen are related in any way to the common werewolf. Have you ever seen a werewolf catch a largemouth bass? No, that one time doesn’t count."
+      },
+      "FS_LAMB": {
+        "bName": "Lammuga",
+        "bDesc": "Descended from the legendary Vegetable Lamb, a sheep suspended above the ground by a mighty plant stalk connected through an umbilical cord. It sprouts other sheep from its body like bizarre woolen fruit. Your humble Lorekeeper is not making this one up. Seriously, it’s in books. Go home, folklore, you’re drunk."
+      },
+      "FS_HTROW": {
+        "bName": "Hill Trow",
+        "bDesc": "Once a feared race of conquering warmongers until they learned how appealing their whimsical appearance was to human children. They’ve since erased their bloody past and convinced the world they’re nothing but the fictional inspiration for a line of adorable dolls. This is how you rule the world - not through war, but through merchandising opportunities."
+      },
+      "FS_STROW": {
+        "bName": "Sea Trow",
+        "bDesc": "Unlike their hillier cousins, the Sea Trow are neither fearsome enough for war nor cute enough to become the next big toy fad. Embracing their inescapable mediocrity, they’ve become keen hobbyists, spending most of their days painting figurines and beachcombing."
+      },
+      "FS_CLOWN": {
+        "bName": "Sam the Sandown Clown",
+        "bDesc": "Don’t frown, don’t frown, it’s Sam the Sundown Clown! When dusk draws near, it’s him you’ll hear, but feel no fear should Sam appear. Just smile and laugh with the merry mooncalf, just smile and laugh while he tears you in half. He’ll dance, he’ll prance, he’ll slaughter whole families, given the chance. Don’t frown, don’t frown, for the Sundown Clown has come to your town."
+      },
+      "FS_CAKE": {
+        "bName": "Sammy the Caterpillar",
+        "bDesc": "It’s the caterpillar cake from Vampire Survivors(™) and the Vampire Survivors family of products! If you’re aged 30+, you owe it to yourself to have Sammy the Caterpillar for your birthday cake.Sammy the Caterpillar is a trademark of the Vampire Survivors(™) brand. Sammy the Caterpillar is not suitable for children of ages 1-29. Sammy the Caterpillar is not edible. Sammy the Caterpillar is not responsible for any Sammy the Caterpillar related injuries."
+      },
+      "FS_BROWN": {
+        "bName": "Brownie",
+        "bDesc": "Once friendly fae folk who lived harmoniously in human homes and merilly performed household chores asking only kindness in return. This peaceful coexistence continued until landlords started counting Brownies as additional occupants for rent calculation purposes, forcing poor villagers to turn them out in droves. Their brooms, once wielded in the name of domestic cleanliness, are now poised to draw blood… or at least cause moderate bruising."
+      },
+      "FS_GREEN": {
+        "bName": "Green Knight",
+        "bDesc": "The original Green Knight would challenge brave warriors to freely strike him anywhere on his body, but vowed he’d return a year later and return the blow in kind. These chartreuse charlatans are well versed in the legend of their progenitor, using his fabled challenge to lure enemies close before kicking them right in the plums and chopping their bewildered heads off."
+      },
+      "FS_AILLEN": {
+        "bName": "Crocifriggitore",
+        "bDesc": "Its magic harp can put people to sleep in their hundreds. Its fiery gastrointestinal outbursts can wake people up in their thousands. The consistently compulsive nature of this gaseous goblin’s explosive expulsions provides relative safety for any who may fall foul of its lowery lullaby."
+      },
+      "FS_DUERG": {
+        "bnAME": "Notadam",
+        "bDesc": "They’re dwarves. Just regular ol’ dwarves. What more do you want, exactly? Some sort of clever twist on familiar folklore? A delightful parody full of puns and unsubtle political allegories? Sorry, but I’ve Notadam thing to say about them other than the fact they’re dwarves and they believe in free universal healthcare."
+      },
+      "FS_GLORY": {
+        "bName": "Hand of Glory",
+        "bDesc": "The pickled paws of purloining prisoners propagate perilous pains with pinches, punches, and plenty of picked pockets. Also they’re just really creepy and gross, EEW!"
+      },
+      "FS_MARI": {
+        "bName": "Maronna",
+        "bDesc": "There is much debate as to whether or not this creature of Welsh myth predates Christianity. Clearly it does, otherwise the first historical record of its sighting would definitely have read, “Jesus Christ, what is that Godforsaken thing?”"
+      },
+      "FS_NJUGG": {
+        "bName": "Njuggles",
+        "bDesc": "A beautiful but malicious steed with all the strengths of its two compositing forms and none of the weaknesses. The size, strength, and stamina of a horse paired with the unrivaled cruelty of a trout. Those who dare mount it are swiftly dragged to the bottom of the lake, seemingly unaware that they could just get off and swim away."
+      },
+      "FS_HAG": {
+        "bName": "Average Hag",
+        "bDesc": "If you wish to win favor with this consummate hag, you must prepare its favorite meal - hagberry and hagfish stew with a side of haggis. You can’t just present the dish as a freely given gift, however, since they’ll insist on haggling for it."
+      },
+      "FS_MUSH_HP": {
+        "bName": "Fungoman",
+        "bDesc": "The Biosynthesis skill allows Fungoman to restore 250 HP over 5 seconds, during which time its Healing Beam ability grants 50% more health. Cloud of Spores deals 134 damage and slows all enemies that enter its radius for four seconds. While clearly born for battle, the fact Fungoman does none of these things in a fight renders it rather useless."
+      },
+      "FS_GGHOST": {
+        "bName": "Ghostly Apparition",
+        "bDesc": "A genuine, bonafide, honest-to-goodness ghost. Only kidding. Ghosts aren’t real, and never will be. I’d sooner call this thing a vampire than an actual ghost, and I haven’t seen one of those yet either."
+      },
+      "FS_BOSS_AGAEA": {
+        "bName": "Avatar of Gaea",
+        "bDesc": "When the very natural order is under threat, a great coalescence of all life’s benevolence manifests in corporeality a being of such grace and beauty as to bring civilizations to their knees in awe. The purest embodiment of that which is virtuous and true, the very heart of the planet given form. It once caved a man’s head in with its hoof for peeing in the lake. Blood and bits of skull everywhere."
+      },
+      "FS_CAULD": {
+        "bName": "Cauld",
+        "bDesc": "He’s as cold as ice, he’s willing to sacrifice our love. He never takes advice, someday he’ll pay the price, I know. I’ve seen it before, it happens all the time, he’s closing the door, he leaves the world behind. He’s digging for gold, he’s throwing away a fortune in feelings, but someday he’ll pay."
+      },
+      "REDUSA": {
+        "bName": "Redusa Head",
+        "bDesc": "To the average hero, such sights as a floating gorgon head are hardly strange anymore, rendered practically mundane by years of harrowing experiences. The Redusa is something greater, something altogether more dire, deadly, and downright diabolical. For a start, it’s red. If that isn’t terrifying enough for you, I don’t have a second thing. Sorry."
+      },
+      "RELLYFISH": {
+        "bName": "Rellyfish",
+        "bDesc": "Humanity has long associated the color red with violence, passion, and danger. The color of blood, it awakens both our most primal fears and our most instinctive desires. Neither fear nor desire is stirred when witnessing a gang of drunk jellyfish break into a shop at night and guzzle all the ketchup (which is how jellyfish get drunk, if you didn’t know)."
+      },
+      "HEMO": {
+        "bName": "Blood Moss",
+        "bDesc": "Ceaselessly discharged from the bowels of Hell and coiled to strike. Don’t relax and pooh-pooh them as a passing threat or you’ll be caught short, for their motions lay waste without relief and force thousands to evacuate. Flushing them out is a big job that takes guts, and only the bravest have ever wrecked ‘em. (Note to self: void this log before dumping it on the publisher. It’s crap)"
+      },
+      "BOSS_XLBLINDER": {
+        "bName": "The Blinder",
+        "bDesc": "A Reaper that considers itself a true visionary. It’s able to cast a veil of darkness around any hero it lays an obsidian finger upon, but every time it turns up for a fight the battlefield is already so full of particles, colors, and special effects that nobody can see a damn thing anyway. It contents itself by watching those heroes desperately hunt for floor chickens amidst the colorful chaos."
+      },
+      "FS_ROTGHOUL": {
+        "bName": "Rotting Ghoul",
+        "bDesc": "The stench of decomposition clings to every foul inch of these pestilential wretches. Once innocent villagers, they were twisted by the Priesthood of Putrefaction to serve as their foot soldiers. They’d cling on every word their Decayed Deacons say, if any of them had enough fingers left with which to cling."
+      },
+      "FS_FLAMINGSKULL": {
+        "bName": "Burning Skull",
+        "bDesc": "Despite their combat prowess, they primarily serve the rather boring purpose of incinerating trash. This is because necromancers are absurdly extra and can’t even do garbage day like a sensible adult. Still, to not take these cremating craniums seriously is to burn with the rest of the rubbish."
+      },
+      "FS_WORM": {
+        "bName": "Missing Church",
+        "bDesc": "Poisonous worms that slither from their river lairs aboard the boats of blasphemers to deliver divine intervention. Once on deck, they unleash a torrent of merciless proselytizing and acoustic guitar music in the name of their god. They’ve not managed to win the Squirm Mother very many converts this way, since they inevitably kill and eat any prospective new worshippers."
+      },
+      "FS_SNAK1": {
+        "bName": "Snek",
+        "bDesc": "This tome already has an entry for a genetically identical snake with a different color. Since your humble Lorekeeper forgot they’re contractually obligated to call something a Snek, please enjoy this superfluous content."
+      },
+      "FS_SHOOTER1": {
+        "bName": "Lost Head",
+        "bDesc": "Who can say how or why monsters come with so many color variants. Mutation? Sorcery? A bestiary writer with a bucket of paint trying to up their word count? Nobody knows for sure."
+      },
+      "FS_MEATBALL": {
+        "bName": "Meatball",
+        "bDesc": "Spicy."
+      },
+      "FS_MEATY": {
+        "bName": "Followa",
+        "bDesc": "A mage from a distant realm swore its cold face resembled a great scholar who abandoned her tower and disappeared without a trace. He boldly dared to speak with the creature, and did so for hours. None dared intervene, even as the night air froze and the mage, transfixed, froze with it. Witnesses say he uttered one last thing as the tears in his eyes turned to ice: “She is alive there.”"
+      },
+      "FS_EDNA": {
+        "bName": "Edna",
+        "bDesc": "At first glance, it may look like a lazy necromancer bolted a skull onto a decapitated mantis and called it a day. At second and third glance, it may still look like that. Renardo absolutely swears that’s not what he did though, and that Edna is a valid monster worthy of record."
+      },
+      "FS_HORCAULD": {
+        "bName": "Cold Cauld",
+        "bDesc": "In his life there’s been heartache and pain. He don’t know if he can face it again. Can’t stop now, he’s traveled so far, to change this lonely life… never gonna give you up, never gonna let you down, never gonna run around and desert you."
+      },
+      "FS_HORWORM": {
+        "bName": "Well Dweller",
+        "bDesc": "This motivational monster screams unsolicited advice about health and mindfulness to any who draw water from the hole it calls its home. It’s a wellbeing well being."
+      },
+      "FS_HORNJUGG": {
+        "bName": "Wet Njuggles",
+        "bDesc": "How wet do you have to get in order to be considered a wet version of something that was already wet? About as wet as the Wet Njuggles, an aqueous equine that took the phrase “stay hydrated” to its soggy extreme. Despite their mastery of moisture, the cruel irony is that the leading cause of death among them is drowning. They’d rather a watery grave than to live high and dry, for they understand that wetter is better."
+      },
+      "FS_HORAILLEN": {
+        "bName": "Crocifiggitone",
+        "bDesc": "An ogre that’s always harping on about how hot it is. Can’t say it’s lying though, given its status as one of the sexiest beasts around. Scholars well versed in the biology of aberrant creatures have spent years studying this desirable behemoth to understand exactly why it’s so lusted after, but such forbidden knowledge has clearly driven them off the edge of sanity. Their fevered writings are little more than insensible mantras full of references to an eldritch god named Dummy Thicc."
+      },
+      "FS_HORDUERG": {
+        "bName": "Still Notadam",
+        "bDesc": "Each one swears they’re definitely a real dwarf and not a human who’s done that thing where you strap your shoes to your knees and pretend you’re a lot shorter than you are. Prone to loudly professing that they’re not disguised as dwarves to access their healthcare, which is generally considered 50% more advanced and 100% less profit motivated."
+      },
+      "FS_HORGLORY": {
+        "bName": "Glove of Glory",
+        "bDesc": "Here to give you a big hand. It likes to collect plush dolls and impart life upon them with a snap of its mighty fingers, watching with glee as they brutalize each other in a violent melee before spitefully bringing a fist down on the winner. Prepare for a real brawl with this one - it likes to smash."
+      },
+      "FS_HORMARI": {
+        "bName": "Maronna Meea",
+        "bDesc": "Imagine this thing crawling in through your window at night, wheezing with a whispered rasp as it shudders its way up the stairs. It approaches your bedroom, clutching the bell around its neck with a trembling hand, staring through a crack in the door. Watching. Waiting. Admiring you while you sleep. After an hour, maybe two, it cannot resist any longer and it wriggles into the room without moving the door an inch. It’s here. It’s here to lick your eyebrows. It wants the nutrients, you see, the minerals your eyebrows hide. It’s going to do this every Wednesday for a year."
+      },
+      "FS_FMCETHLENN": {
+        "bName": "Fomorians",
+        "bDesc": "H3lloo0! H@llo?/? whERe r U hiDiNG?  whEEEEEEEre ha..ve u g0n? GONE? goNnNnNnNNNnNnNN??? W3 h@ve LoOKeD loooooked evERyWhERe for yoU. SaID you w3re AT Base Camp Pain but u WEREn’t th33333re! sAid u wErE DEEEEEEE EL CEEEEEEEEE but W3 C@nT f111111nD u! \n\nOh… wait… there you are. \n\nFOunD Y0000000000000000000000000000000000000000000000000000000000000000000U!"
+      },
+      "FS_BOSS_JENEVIV": {
+        "bName": "Je-Ne-Viv",
+        "bDesc": "The dread devourer, the grand consumer, the eater of worlds. It has tasted all that creation has to offer, and all of creation is reflected in its ravening form. It is part human. Part monster. Part undead. Part demon. Part abomination. It is not a vampire. It is yet to meet a vampire. It would very much like to eat a vampire. It wants to know if you’ve seen any vampires. It will be far too busy eating you and everything around you to ask."
+      },
+      "FS_GEF": {
+        "bName": "Ceffoose",
+        "bDesc": "It’s said these handsy mammals are among the most intelligent creatures in all the realms. One is skeptical of such a claim, however, as they seem to do nothing more clever than run mindlessly toward their enemies in droves. When has that ever worked?"
       }
     }
   },
@@ -1523,7 +1867,179 @@
       },
       "MS_SPIRIT1": {
         "bName": "Petit fantôme",
-        "bDesc": "Il n'y a tout simplement pas de fantômes. C'est probablement juste une chauve-souris couverte de neige, et rien d'autre."
+        "bDesc": "Tout le monde sait que les fantômes n'existent pas. C'est juste une chauve-souris polaire, voyons."
+      },
+      "FS_GOBLIN": {
+        "bName": "Chompo",
+        "bDesc": "Ces petits gobelins en ont plus qu'assez de leur réputation de voleurs sournois et perfides ! Si vous les calomniez, ils pourraient bien se faufiler derrière vous et vous planter un couteau dans le dos avant de faucher votre porte-monnaie."
+      },
+      "FS_SALMON": {
+        "bName": "Saumonstre",
+        "bDesc": "Puisqu'il est l'une des premières créatures à avoir élu domicile au Lac, il comprend ses secrets et ses mystères mieux que quiconque. Pourtant, la plupart des gens pensent juste qu'il est malheureux comme un poisson hors de l'eau."
+      },
+      "FS_SELKIE": {
+        "bName": "Muscade",
+        "bDesc": "Leurs vibrisses et leur tête plate laissent entendre qu'elles descendent des poissons-chats. Ça, et leurs miaulements incessants qui attirent les âmes égarées jusque dans leurs tanières."
+      },
+      "FS_WULVER": {
+        "bName": "Vulvio",
+        "bDesc": "N'allez pas vous imaginer que ces pêcheurs poilus ont quelque chose à voir avec les loups-garous. Avez-vous déjà vu un loup-garou attraper un achigan à grande bouche ? Et non, une fois, ça ne compte pas."
+      },
+      "FS_LAMB": {
+        "bName": "Lammuga",
+        "bDesc": "Un mouton suspendu dans les airs par la tige d'une plante reliée à son cordon ombilical, descendant du légendaire agneau tartare. Il fait éclore d'autres moutons, comme autant d'étranges fruits de laine. Je n'invente rien, hein. Il y a vraiment des livres qui en parlent. Le folklore, ça vous gagne."
+      },
+      "FS_HTROW": {
+        "bName": "Trow des collines",
+        "bDesc": "Jadis une race de bellicistes redoutés, ils se sont un jour rendu compte que leur apparence fantaisiste plaisait aux enfants humains. Dès lors, ils ont effacé leur passé sanglant et prétendu n'être qu'une légende à l'origine d'une gamme de jolies poupées. C'est ainsi qu'on domine le monde : non pas avec la guerre, mais grâce aux produits dérivés."
+      },
+      "FS_STROW": {
+        "bName": "Trow des mers",
+        "bDesc": "Contrairement à leurs cousins des collines, les Trows des mers ne sont pas assez effroyables pour faire la guerre et pas assez choupinous pour devenir la nouvelle sensation du monde ludique. Ils acceptent donc leur médiocrité et s'adonnent à divers passe-temps, notamment la peinture de figurines et la recherche de trésors."
+      },
+      "FS_CLOWN": {
+        "bName": "Sam le Clown du Couchant",
+        "bDesc": "Voici venir Sam le Clown du Couchant, clopin-clopant et tambour battant ! Plus personne ne rit à la tombée de la nuit, car Sam est de sortie. Souriez de toutes vos dents quand il use de son tranchant et fait couler le sang. Il sautille, se tortille et massacre des familles. Voici venir Sam le Clown du Couchant, il n'est pas si méchant !"
+      },
+      "FS_CAKE": {
+        "bName": "Sammy la Chenille",
+        "bDesc": "Le gâteau-chenille de Vampire Survivors™ et de la gamme de produits Vampire Survivors™ ! Si vous avez plus de 30 ans, Sammy la Chenille sera votre gâteau d'anniversaire. Vous nous devez bien ça ! Sammy la Chenille est une marque déposée de Vampire Survivors™. Sammy la Chenille ne convient pas aux enfants entre 1 et 29 ans. Sammy la Chenille est non comestible. Sammy la Chenille ne saurait être tenue responsable de Sammy la Chenille et des blessures occasionnées par Sammy la Chenille."
+      },
+      "FS_BROWN": {
+        "bName": "Brownie",
+        "bDesc": "Un peuple de fées jadis amical qui vivait chez les humains et faisait leurs tâches ménagères en échange d'un peu de gentillesse. Cette coexistence pacifique dura jusqu'à ce que la Guilde des proprios décide de compter le Brownies comme locataires et d'augmenter les loyers en conséquence. Les villageois sans le sou expulsèrent alors des milliers de Brownies. Depuis ce jour, leurs balais ne leur servent plus à faire le ménage, mais à faire très très mal, ou tout du moins à infliger quelques ecchymoses."
+      },
+      "FS_GREEN": {
+        "bName": "Chevalier vert",
+        "bDesc": "Le Chevalier vert originel mit de courageux guerriers au défi de le frapper n'importe où, mais fit le vœu de revenir un an plus tard pour rendre coup sur coup. Ces charlatans couleur vert jaune ne connaissent que trop bien la légende de leur ancêtre. Ils se servent du mythique défi pour appâter leurs adversaires et couper leur tête éberluée."
+      },
+      "FS_AILLEN": {
+        "bName": "Crocifriggitore",
+        "bDesc": "Sa harpe magique endort les gens par centaines. Ses éructations gastro-intestinales les réveillent par milliers. Les expulsions explosives de ce gobelin gazeux offrent une protection relativement efficace à quiconque se prend au piège de sa berceuse barbifiante."
+      },
+      "FS_DUERG": {
+        "bnAME": "Nainconnu",
+        "bDesc": "Ce sont de simples nains, c'est tout. Qu'attendez-vous de plus ? Du folklore revisité ? Une succession de jeux de mots bien pensés et d'allégories politiques flagrantes ? Outre le fait que ce sont de parfaits Nainconnus, on sait que leur gouvernement a instauré le départ à la retraite à 54 ans."
+      },
+      "FS_GLORY": {
+        "bName": "Main de la Gloire",
+        "bDesc": "Ces petites pattes de prisonniers et de pendus punis posent problème, persécutent et provoquent. En plus de ça, elles sont toutes glauques et dégoûtantes, BEURK !"
+      },
+      "FS_MARI": {
+        "bName": "Maronna",
+        "bDesc": "Cette créature mythologique galloise est-elle née avant le christianisme ? La question fait débat, mais il semble évident que oui. Sinon, la réaction à sa toute première apparition dans l'Histoire aurait clairement été : « Dieu tout puissant, d'où sort ce suppôt de Satan ? »"
+      },
+      "FS_NJUGG": {
+        "bName": "Nuggle",
+        "bDesc": "Un beau destrier plein de malice. Il maîtrise les pouvoirs de ses deux formes, sans leurs faiblesses respectives. La taille, la force et l'endurance d'un cheval couplées à la barbarie sans égal d'une truite. Les personnes qui ont eu l'audace de le chevaucher ont fini au fond du lac... alors qu'elles auraient pu simplement descendre et repartir à la nage."
+      },
+      "FS_HAG": {
+        "bName": "Sorcière lambda",
+        "bDesc": "Pour gagner les faveurs de cette sorcière accomplie, préparez-lui son plat préféré : les tranches de sorciflard cuites au chaudron. Ah, et n'oubliez surtout pas le saucier à riz !"
+      },
+      "FS_MUSH_HP": {
+        "bName": "Homme-fongus",
+        "bDesc": "La compétence Biosynthèse permet à l'Homme-fongus de récupérer 250 PV en 5 secondes. Sa capacité Rayon guérisseur lui octroie 50 % de vie supplémentaire. Nuage de spores inflige 134 dégâts et ralentit les ennemis pendant 4 secondes. L'Homme-fongus est né pour le combat... mais comme il ne se sert jamais de ses compétences, il est finalement assez inutile."
+      },
+      "FS_GGHOST": {
+        "bName": "Spectre",
+        "bDesc": "Un véritable fantôme ! Si si, un vrai de vrai... ou pas. Les fantômes n'existent pas et ce n'est pas près de changer. Je préférerais qualifier cette chose de vampire plutôt que de fantôme, alors que je n'ai même pas encore vu un seul vampire."
+      },
+      "FS_BOSS_AGAEA": {
+        "bName": "Avatar de Gaïa",
+        "bDesc": "Dans les moments éprouvants, lorsque l'ordre naturel est mis à mal, la bienveillance de toute forme de vie prend l'apparence d'un être si gracieux et si splendide qu'il impressionne petits et grands. Il est l'incarnation la plus pure de la vertu et de la vérité, le symbole du cœur même de la planète. Un jour, il a écrasé la tête d'un homme sous son sabot, car il avait uriné dans le Lac. Il y avait du sang et des morceaux de crâne partout."
+      },
+      "FS_CAULD": {
+        "bName": "Glagla",
+        "bDesc": "Toi le voyageur, toi toujours ailleurs... Ton paysage te suit partout. Moi, quand je veux faire le tour de la Terre, je ne voyage qu'autour de nous. J'ai le cœur froid, tu n'es pas là... Attendez, qu'est-ce que c'est que ça ?!"
+      },
+      "REDUSA": {
+        "bName": "Tête rouge",
+        "bDesc": "Aux yeux d'un héros lambda, les têtes de gorgone flottantes n'ont rien de surprenant, surtout après des années d'aventures éprouvantes. La Tête rouge, en revanche, est encore plus dangereuse, sinistre et mortelle. Déjà, comme son nom l'indique, elle est rouge. Si ça ne suffit pas à vous glacer le sang, je ne sais pas ce qu'il vous faut."
+      },
+      "RELLYFISH": {
+        "bName": "Méduse rouge",
+        "bDesc": "Nous avons longtemps associé le rouge à la violence, à la passion et au danger. La couleur du sang réveille chez nous des peurs primales et des désirs irrépressibles... Sauf que vous ne ressentez ni peur ni désir lorsque vous voyez une bande de méduses ivres entrer dans une supérette pour s'enfiler toutes les bouteilles de ketchup. Parce que oui, c'est comme ça qu'elles se soulent."
+      },
+      "HEMO": {
+        "bName": "Mousse sanglante",
+        "bDesc": "Perpétuellement rejetées par les entrailles de l'enfer et prêtes à vous coller la peur au ventre. Attention, ces déjections sont excrémement néfastes. Lâchez-vous, tirez bien la chasse et ne vous ca(ca)rapatez pas, car seule la [ÉNIÈME BLAGUE SUR LES ÉTRONS] attend celles et ceux qui ont la courante. (Remarque : mieux vaut supprimer cette entrée avant de l'expulser à la face de l'éditeur. Elle ne sent pas la rose.)"
+      },
+      "BOSS_XLBLINDER": {
+        "bName": "Fauche-Vue",
+        "bDesc": "Cette Faucheuse, capable de jeter un voile obscur sur les héros qu'elle touche, se considère comme une vraie visionnaire. Le problème, c'est que lorsqu'elle fait irruption sur le champ de bataille, les innombrables particules, couleurs et effets spéciaux empêchent déjà de voir quoi que ce soit."
+      },
+      "FS_ROTGHOUL": {
+        "bName": "Goule putride",
+        "bDesc": "Chaque parcelle du corps de ces êtres pestilentiels exsude la puanteur de la mort. Ils étaient des villageois innocents que la Prêtraille de la Putréfaction est venue transformer en chair à canon. Ces Goules boivent les paroles de leurs Diacres en Décomposition, sauf que bon... elles ne sont plus vraiment en mesure de boire."
+      },
+      "FS_FLAMINGSKULL": {
+        "bName": "Crâne embrasé",
+        "bDesc": "Ils sont doués pour le combat, mais leur fonction principale est l'incinération des déchets. Tout est de la faute des nécromanciens, ces assistés incapables de sortir leurs poubelles comme tout adulte qui se respecte. Cela étant dit, si vous ne prenez pas ces crânes au sérieux, ils vous carboniseront à coup sûr."
+      },
+      "FS_WORM": {
+        "bName": "Ver de Lambton",
+        "bDesc": "Ces vers venimeux sortent de leur rivière pour se faufiler sur les bateaux des blasphémateurs et leur infliger un châtiment divin. Une fois à bord, ils déchaînent un torrent de prosélytisme virulent et jouent de la gratte acoustique."
+      },
+      "FS_SNAK1": {
+        "bName": "Ssserpent",
+        "bDesc": "Ce tome inclut déjà un serpent qui ressssemble comme deux gouttes d'eau à celui-ci, mais d'une autre couleur. Puisque les petites lignes de mon contrat m'obligent apparemment à donner ce nom à un ennemi, le voici pour votre plus grand plaisir."
+      },
+      "FS_SHOOTER1": {
+        "bName": "Tête solitaire",
+        "bDesc": "Pourquoi les monstres se déclinent-ils en plusieurs couleurs ? Est-ce là le résultat d'une mutation ? D'un acte de sorcellerie ? Ou alors la personne qui a rédigé ce bestiaire a décidé de sortir les pots de peinture pour augmenter son compte de mots ? Les paris sont ouverts."
+      },
+      "FS_MEATBALL": {
+        "bName": "Boulette",
+        "bDesc": "Légèrement relevée, c'est le parfait accompagnement pour un couscous."
+      },
+      "FS_MEATY": {
+        "bName": "Followa",
+        "bDesc": "Un mage venu d'un royaume lointain trouvait que le visage froid de la Followa ressemblait à une grande érudite qui avait quitté sa tour. Il eut l'audace de converser avec la créature des heures durant. Personne n'osa intervenir, alors même que l'air nocturne se mettait à geler, tout comme le mage. Il aurait prononcé ceci avant que les larmes dans ses yeux ne se changent en glace : \"Elle est vivante, à l'intérieur\"."
+      },
+      "FS_EDNA": {
+        "bName": "Edna",
+        "bDesc": "Au premier coup d'œil, on pourrait croire qu'un nécromancien s'est contenté de placer un crâne sur une mante décapitée. Et aux deuxième et troisième coups d'œil... on se dit toujours pareil. Toutefois, Renardo jure que ce n'est pas ce qu'il a fait. Il soutient qu'Edna est une créature digne de ce nom."
+      },
+      "FS_HORCAULD": {
+        "bName": "Aglagla",
+        "bDesc": "Pas d'états d'âme, pas de tourments, de sentiments. Le froid est pour moi le prix de la liberté. La tristesse, l'angoisse et la peur m'ont quitté depuis longtemps... mais ils m'entraînent jusqu'à l'insomnie, les fantômes de l'ennui."
+      },
+      "FS_HORWORM": {
+        "bName": "Épuiseur du puits",
+        "bDesc": "Ce monstre motivationnel donne des conseils de santé et de pleine conscience à quiconque vient puiser de l'eau dans le trou où il a élu domicile. Et puis, si ça vous épuise, tant puits pour vous."
+      },
+      "FS_HORNJUGG": {
+        "bName": "Nuggle mouillé",
+        "bDesc": "Quel degré d'humidité faut-il atteindre pour être considéré comme la version \"mouillée\" d'une créature déjà mouillée ? Il faut être aussi humide que le Nuggle mouillé, un équidé aqueux qui a bu bien plus de 1,5 litre d'eau par jour. Malgré une hydratation au top du top, la première cause de décès chez cette espèce est la noyade. Les Nuggles mouillés préfèrent être engloutis par les flots plutôt que de vivre à sec. Que voulez-vous ? Ils ont l'eau dans la peau."
+      },
+      "FS_HORAILLEN": {
+        "bName": "Crocifriggitone",
+        "bDesc": "Cet ogre claironne à tout bout de champ qu'il est très séduisant. Ce n'est pas un mensonge, vu qu'il est dans le top des monstres les plus sexy du coin. Il a gagné trois fois d'affilée le concours de maillot de bain de l'Abîme Foscari, et c'est le mannequin le plus populaire sur OnlyFaune, une publication mensuelle créée par et pour les bêtes en rut. Les spécialistes des créatures atypiques ont étudié ce béhémoth désirable afin de comprendre pourquoi il est si convoité, mais les résultats de leurs recherches les ont conduits à la folie. Leurs textes fiévreux ne sont qu'une ode à la divinité lovecraftienne sinistre qu'on appelle Bi'Hainan-Cher."
+      },
+      "FS_HORDUERG": {
+        "bName": "Nainconnu au bataillon",
+        "bDesc": "Ils prétendent être de vrais nains et pas des humains qui ont attaché leurs chaussures à leurs genoux pour faire semblant d'être plus petits. Même quand personne ne leur demande rien, ils proclament haut et fort qu'ils ne se déguisent pas du tout en nains pour partir à la retraite au même âge qu'eux. 54 ans, c'est vraiment l'âge idéal pour arrêter de travailler. Le monde entier les envie."
+      },
+      "FS_HORGLORY": {
+        "bName": "Gant de la Gloire",
+        "bDesc": "Sa passion dans la vie ? Donner des coups de main. Il aime collectionner les peluches et leur donner vie en un claquement de doigts. Il observe ses créations s'entretuer à mains nues avant d'abattre le poing sur la grande gagnante. Préparez-vous pour la bagarre, il n'est pas là pour trier des lentilles."
+      },
+      "FS_HORMARI": {
+        "bName": "Maronna Meea",
+        "bDesc": "Imaginez cette chose entrer par votre fenêtre la nuit. Elle respire bruyamment et chuchote de sa voix râpeuse dans les escaliers, puis s'approche de votre chambre, agrippe la cloche à son cou et regarde par l'embrasure de la porte. Elle observe et attend, tout en vous contemplant dans votre sommeil. Après une heure ou deux, elle ne tient plus en place, aussi se glisse-t-elle dans l'embrasure. La voilà qui vient vous lécher les sourcils. Elle convoite des nutriments : les minéraux cachés dans vos sourcils. Buffet gratuit tous les mercredis soirs pendant un an."
+      },
+      "FS_FMCETHLENN": {
+        "bName": "Fomoriens",
+        "bDesc": "Bjr ! BJR ?! É0 ? 0É ? où ESK tu tcaches ? Pas 5pa de pas RÉP srx ??!! @LLO KWA !!!! On tcheeEEEEEeeeerche 2puis lgt, tu C. Tu 2vais être AU camp 2 la douleuR, mé PADUTOU enft ! Paré ke T dans le DÉÉÉÉÉÉÉ AILE SAAAAAAIT, mé impossib 2 de te tr0uV rOoooOooooh...\n\nHé, mais... attends... te voilà.\n\nOn te TIEeEeeEEeeeEEeeeeeeeeeeeeeeeeeeeeeeeEeeeeeent !"
+      },
+      "FS_BOSS_JENEVIV": {
+        "bName": "Je-Ne-Viv",
+        "bDesc": "La mangeuse d'effroi, la consommatrice toute-puissante, la dévore-mondes. Elle a goûté à tout ce qui existe, et tout ce qui existe transparaît dans sa forme vorace. Elle est à 25 % humaine, à 25 % monstre, à 25 % morte-vivante, à 25 % démon et à 100 % abomination. Ce n'est pas un vampire. Elle n'en a jamais rencontré et voudrait bien en manger un. Elle veut savoir si vous avez vu des vampires. Le truc, c'est qu'elle sera bien trop occupée à vous manger pour entendre votre réponse."
+      },
+      "FS_GEF": {
+        "bName": "Ceffoose",
+        "bDesc": "On raconte que ces mammifères à mimines font partie des créatures les plus intelligentes, tous royaumes confondus. Cependant, il pourrait s'agir d'une fausse rumeur, puisqu'ils ont tendance à se contenter de se jeter en masse sur leurs ennemis. Tout le monde sait que cette technique n'a jamais marché."
       }
     }
   },
@@ -2019,6 +2535,178 @@
       "MS_SPIRIT1": {
         "bName": "KleinGeist",
         "bDesc": "Es gibt einfach keine Geister. Das ist wahrscheinlich nur eine schneebedeckte Fledermaus und sonst nichts."
+      },
+      "FS_GOBLIN": {
+        "bName": "Mampfi",
+        "bDesc": "Arme Goblins, ständig werden sie reduziert auf hinterhältige kleine Diebe, die einem gern hinterrücks ein Messer reinjagen. Sei gewarnt. Wenn du ihnen gegenüber so etwas anklingen lässt, kann es sein, dass sie sich heimtückisch anschleichen, dir ein Messer in den Rücken jagen und dabei die Geldbörse mopsen."
+      },
+      "FS_SALMON": {
+        "bName": "Weisenlachs",
+        "bDesc": "Sie zählen zu den ersten bestiarischen Bewohnern des Großen Sees und kennen seine Geheimnisse und Mysterien wohl besser als jeder andere. Es ist schon ironisch, dass der gewöhnliche Beobachter sie als gewöhnliche Fische identifiziert."
+      },
+      "FS_SELKIE": {
+        "bName": "Muskatnuss",
+        "bDesc": "Sie scheinen vom Wels abzustammen, zumindest weisen die Barteln, der große breite Kopf und das merkwürdige Fressverhalten darauf hin. Sie posieren als Jungfrau und locken leichtgläubige Schürzenjäger in ihre unheilvollen Gemächer."
+      },
+      "FS_WULVER": {
+        "bName": "Vulvio",
+        "bDesc": "Glaub mal ja nicht, dass diese pelzigen Fischer irgendwas mit dem gewöhnlichen Werwolf zu tun haben. Hast du schon mal gesehen, wie ein Werwolf einen Forellenbarsch gefangen hat? Und nein, das eine Mal zählt nicht."
+      },
+      "FS_LAMB": {
+        "bName": "Lammuga",
+        "bDesc": "Als Spross des legendären Gemüselamms hält sich dieses Schaf mit einem Pflanzenstrunk über dem Boden, der mit seiner Nabelschnur verbunden ist. Aus seinem Körper sprießen andere Schafe wie bizarre Wollfrüchte. Und das denkt sich euer bescheidener Lore-Kundige nicht aus. Wirklich, so steht es geschrieben. Geh ins Bett, Folklore, du bist besoffen."
+      },
+      "FS_HTROW": {
+        "bName": "Hügel-Trow",
+        "bDesc": "Sie waren einst im Fachbereich „Krieg & Plünderei“ unterwegs, bis sie merkten, dass sie mit ihrem drolligen Äußeren viel leichter menschliche Kinderherzen erobern konnten. Da ließen sie ihre blutige Zunft hinter sich und versicherten der Welt, sie seien nur die fiktionale Inspiration für ein Süße-Puppen-Franchise. So beherrscht man die Welt – nicht durch Krieg, sondern durch Merchandising-Möglichkeiten."
+      },
+      "FS_STROW": {
+        "bName": "Meeres-Trow",
+        "bDesc": "Anders als die Verwandtschaft in den Bergen sind die Meeres-Trow wohl zu ängstlich fürs Kriegswesen, oder nicht niedlich genug für die Spielzeugwelt. Sie bekennen sich zu ihrer Mittelmäßigkeit und stecken viel Zeit in ihre weitgefächerten Hobbywelten: Figürchenmalerei und Sandkämmen."
+      },
+      "FS_CLOWN": {
+        "bName": "Sam der Abendsonne-Clown",
+        "bDesc": "Heissa Hossa, versteckt eure Pfauen, hier kommt Sam der Abendsonne-Clown! Fängt zu dämmern es an, kannst du ihn schon hören. Aber hab keine Angst, er wird nicht lang stören. Grinse und lach mit dem fröhlichen Mondkalb, grinse und lach, gleich hat er dich schon kaltgemacht. Er tanzt, er springt und killt deine Liebsten rasch, der korrekte Begriff lautet dann Verschwand-schaft. Heissa Hossa, versteckt eure Pfauen, das war die Nachricht von Sam dem Abendsonne-Clown!"
+      },
+      "FS_CAKE": {
+        "bName": "Feenwesen",
+        "bDesc": "Der Raupenkuchen aus Vampire Survivors(™) und der großen Vampire-Survivors-Produktfamilie! Mit 30+ bist du es dir selbst schuldig: Sammy die Raupe muss dein Geburtstagskuchen sein. Das bist du auch den USA schuldig. Sammy die Raupe ist ein Warenzeichen der Marke Vampire Survivors(™). Sammy die Raupe ist für Kinder von 1-29 Jahren nicht geeignet. Sammy die Raupe ist nicht zum Verzehr geeignet. Sammy die Raupe ist nicht für Sammy die Raupe und für durch Sammy die Raupe verursachte Unfälle haftmachbar."
+      },
+      "FS_BROWN": {
+        "bName": "Topasi",
+        "bDesc": "Einst waren sie ein freundliches Feenvolk, das in perfekter Harmonie in den Häusern der Menschen lebte und im Gegenzug nur Freundlichkeit für die Hausarbeit verlangte. Diese friedliche Koexistenz dauerte an, bis die Gilde der Vermieter verfügte, dass Topasi bei der Berechnung der Miete als zusätzliche Bewohner gezählt werden. Mittellose Dorfbewohner sahen sich gezwungen, Topasi zu Tausenden zu vertreiben. Ihre Besen, einst im Namen der häuslichen Sauberkeit geschwungen, sind nun bereit, Blut zu vergießen. Oder zumindest leichte Prellungen zu verursachen."
+      },
+      "FS_GREEN": {
+        "bName": "Grüner Ritter",
+        "bDesc": "Der eigentliche, originale Grüne Ritter erbot kühne Recken, ihm einen Hieb irgendwo auf seinen Körper zu setzen. Er würde allerdings ein Jahr später zurückkehren und den Schlag vergelten. Diese hellgrünen Scharlatane wissen um die Legende ihres Ideenpatrons und nutzen sie, um Gegner nahe genug heranzulocken, sodass sie ihnen ins Untergeschoss treten und dann den von Entsetzen schon entstellten Kopf abschlagen können."
+      },
+      "FS_AILLEN": {
+        "bName": "Crocifriggitore",
+        "bDesc": "Seine magische Harfe kann Hunderte in Schlaf versetzen. Seine feurigen gastrointestinalen Ausbrüche können Tausende aus dem Schlaf reißen. Die zwanghafte Natur seiner unablässig getätigten Rektalartikulationen ist eine gute Nach-riecht für all jene, die seinem niederträchtigen Schlaflied aufgesessen sind."
+      },
+      "FS_DUERG": {
+        "bnAME": "Nichtadam",
+        "bDesc": "Es handelt sich um Zwerge. 08/15-Standardzwerge. Was soll ich denn noch sagen? Irgendwas mit verstörender Familienfolklore? Eine heitere Parodie, erwachsen aus der Wörter Tanz und Spiel, samt politischer Allegorien? Tut mir echt leid, aber es gibt da nicht viel mehr als: Es handelt sich um Zwerge. Und sie fordern universelle Gesundheitsfürsorge."
+      },
+      "FS_GLORY": {
+        "bName": "Hand des Ruhms",
+        "bDesc": "Diese Glitschgriffel grandios gerissener Gefangener generieren granatenstarke Gliederschmerzen und geplünderte Geldbörsen galore. Dazu sind sie auch noch echt gruselig und grob unappetitlich. Igittigitt!"
+      },
+      "FS_MARI": {
+        "bName": "Maronna",
+        "bDesc": "Es wurde lang debattiert, ob dieses Wesen aus der walisischen Mythologie vor-christlich ist. Ist es. Denn ansonsten hätte seine erste Beschreibung wohl doch gelautet: „Herr im Himmel, was ist das denn für ein gottverlassenes Viech?!“."
+      },
+      "FS_NJUGG": {
+        "bName": "Njuggles",
+        "bDesc": "Ein schönes wie niederträchtiges Ross, das sämtliche Vorteile seiner zwei Gestaltbestandteile aufs Trefflichste nutzt, und keine der Nachteile. Die Größe, Stärke und Ausdauer eines Pferds, gepaart mit der konkurrenzlosen Grausamkeit einer Forelle. Wer es gewagt hat, bei diesem Wesen aufsitzen zu wollen, fand sich schnell auf dem Seegrund wieder. Und das so überraschend, dass dem Opfer glatt entfiel, dass man ja auch einfach absteigen und wegschwimmen hätte können."
+      },
+      "FS_HAG": {
+        "bName": "Durchschnittliche Vettel",
+        "bDesc": "Wer sich mit dieser formvollendeten Vettel gut stellen möchte, sollte ihr ihr Lieblingsessen kredenzen: Eintopf aus Vettelbeeren und Vettelfisch an Vettelccine. Einfach einladen wird sie sich nicht lassen, du musst sie schon anvetteln, dass sie den Eintopf annimmt."
+      },
+      "FS_MUSH_HP": {
+        "bName": "Pilzmann",
+        "bDesc": "Dank seiner „Biosynthese“-Fähigkeit kann Pilzmann über 5 Sekunden 250 LP wiederherstellen. In dieser Zeit gewährt „Heilstrahl“ 50 % mehr LP. „Sporenwolke“ bewirkt 134 Schaden und verlangsamt alle Gegner im Eigenradius 4 Sekunden lang. Pilzmann ist ganz offensichtlich für den Kampf geboren. Dass keine der obigen Aussagen auf ihn zutrifft, ist daher schon schade."
+      },
+      "FS_GGHOST": {
+        "bName": "Geistererscheinung",
+        "bDesc": "Ein authentischer, redlicher und waschechter Geist. Scherz. Geister gibt es nicht, und es wird sie nie geben. Ich würde das Ding dann schon eher Vampir nennen, obwohl mir von denen auch noch keiner über den Weg gelaufen ist."
+      },
+      "FS_BOSS_AGAEA": {
+        "bName": "Avatar von Gaea",
+        "bDesc": "In Zeiten größter Not, wenn die natürliche Ordnung bedroht ist, manifestiert sich durch ein großes gemeinsames Wirken allen Lebens ein Wesen von solcher Anmut und Schönheit, dass ganze Zivilisationen vor Ehrfurcht in die Knie gehen. Die reinste Verkörperung dessen, was tugendhaft und wahrhaftig ist, die Essenz des Planeten, die Gestalt annimmt. Einst schlug es einem Mann mit seinem Huf den Kopf ein, weil der in den See gepinkelt hatte. Blut und Schädelteile überall."
+      },
+      "FS_CAULD": {
+        "bName": "Cauld",
+        "bDesc": "Er ist kalt wie Eis, lässt Liebe sein Opfer sein. Er hört auf kein’, das kommt ihn teuer zu stehen, irgendwann. Ist doch klar. Ich hab’s so oft geschehen sehen. Er schließt die Tür hinter sich, lässt die Welt zurück. Er gräbt nach Gold und reagiert emotional kein Stück. Das kommt ihn teuer zu stehen, irgendwann."
+      },
+      "REDUSA": {
+        "bName": "Kopf der Redusa",
+        "bDesc": "Den Allerweltshelden mag der Anblick eines schwebenden Gorgonenhaupts nicht mehr vom Hocker hauen, man gewöhnt sich an vieles. Die Redusa könnte eine Ausnahme sein: Sie ist einfach einen Tick größer, schrecklicher, tödlicher und diabolischer. Zum Beispiel ist sie rot. Und wenn das für einen Schrecken nicht reicht, weiß ich es auch nicht. Sorry."
+      },
+      "RELLYFISH": {
+        "bName": "Kwalle",
+        "bDesc": "Die Farbe Rot hat die Menschheit lange Zeit mit Attributen wie Gewalt, Leidenschaft und Gefahr assoziiert. Die Farbe des Blutes weckt unsere Urängste, aber auch unsere geheimen Wünsche. Um Ängste oder geheime Wünsche geht es allerdings höchstens indirekt, wenn man mal Zeuge wird, wie eine Bande besoffener Quallen nachts in einen Laden einbricht, um den ganzen Ketchup wegzusaufen (und genau so besaufen sich Quallen nun mal)."
+      },
+      "HEMO": {
+        "bName": "Blood Moss",
+        "bDesc": "Unaufhörlich spritzen sie aus den Eingeweiden der Hölle, stets bereit, dir eine volle Hose zu bereiten. Wer sie nicht ernstnimmt, wird latrinisiert. Wer sie besiegt, fühlt sich innerlich leer. Sie haben schon Tausende Hintern befleckt. Man braucht einen Arsch in der Hose, um sie samt und sonders in die Kanalisation des Vergessens zu spülen. (Notiz an mich selbst: Vor Abdrücken an den Verlag unbedingt alle diese Notizen löschen. Was für ein Mist, echt.)"
+      },
+      "BOSS_XLBLINDER": {
+        "bName": "Der Blender",
+        "bDesc": "Ein Schnitter, der sich für einen wahren Visionär hält. Er kann Helden per Obsidian-Fingerzeig mit einem Dunkelschleier belegen. Allerdings ist das Schlachtfeld eigentlich immer so knallvoll mit Partikeln, Farben und Spezialeffekten, dass man eh schon nichts mehr sieht, wenn er dort aufkreuzt."
+      },
+      "FS_ROTGHOUL": {
+        "bName": "Gammeliger Ghul",
+        "bDesc": "Der Gestank des Todes heftet sich an jeden verrotteten Quadratzentimeter dieser verseuchten Schufte. Einst waren sie unschuldige Bürger, dann wurden sie von der Priesterschaft der Verwesung als Fußsoldaten „rekrutiert“. Sie klammern sich an jedes Wort ihrer Vermoderten Diakone. Nur haben sie kaum mal genug Finger übrig, um ein echtes Klammern hinzubekommen."
+      },
+      "FS_FLAMINGSKULL": {
+        "bName": "Flammenschädel",
+        "bDesc": "Trotz ihres Kampftalents widmen sie sich meist einer weitaus langweiligeren Tätigkeit: Müll anzünden. Das liegt daran, dass Necromancer eben was „Besonderes“ sind und nicht mal den Müll ordentlich trennen können. Wer sie deswegen auslacht, sollte mal schauen, ob er/sie nicht gerade von ihnen angezündet wurde."
+      },
+      "FS_WORM": {
+        "bName": "Kirchenverweigerer",
+        "bDesc": "Giftwürmer, die sich aus ihren Behausungen in Flüssen auf Boote von Gotteslästernden winden, als göttliche Strafe. Einmal an Bord gelangt, entfesseln sie unbarmherzige Angriffe, eine Kombination aus Missionierung und Akustische-Gitarre-„Musik“."
+      },
+      "FS_SNAK1": {
+        "bName": "Slange",
+        "bDesc": "In diesem Folianten gibt es bereits einen Eintrag zu einer genetisch identischen, wenn auch pigmentär differenten Schlange. Da der bescheidene Lore-Kundige fast vergessen hatte, dass eine vertragliche Bindung besteht, etwas „Slange“ zu nennen: Weiterhin viel Spaß mit diesem nützlichen Beitrag."
+      },
+      "FS_SHOOTER1": {
+        "bName": "Verlorener Kopf",
+        "bDesc": "Wer weiß es schon mit Sicherheit zu sagen, warum und wie es sein kann, dass Monster stets so viele Farbvarianten haben. Mutation? Hexerei? Ein Bestiarium-Schreiberling mit einem Farbeimer und dem unbedingten Willen, noch ein paar Wörter rauszuquetschen? Es ist bis heute ungeklärt."
+      },
+      "FS_MEATBALL": {
+        "bName": "Fleischklops",
+        "bDesc": "Scharf."
+      },
+      "FS_MEATY": {
+        "bName": "Eisiger Fleischklops",
+        "bDesc": "Ein Magier aus einem weit, weit entfernten Reich schwor, „sein“ kaltes Antlitz gliche dem eines berühmten Gelehrten, der eines Tages seinen Turm verlassen hatte. Er fasste sich ein Herz und sprach die Kreatur an. Sie redeten stundenlang. Keiner wollte eingreifen, auch dann nicht, als es des Nachts bitterkalt wurde. So kalt, dass auch der Magier selbst einfror. Er soll einen letzten Satz gesagt haben, bevor seine Tränen zu Eis wurden: „Sie lebt.“"
+      },
+      "FS_EDNA": {
+        "bName": "Edna",
+        "bDesc": "Auf den ersten Blick mag es so erscheinen, dass hier ein fauler Necromancer einen Schädel auf eine kopflose Gottesanbeterin gepfropft hätte. Auf den zweiten und dritten Blick mag es immer noch so erscheinen. Renardo empfindet das als unfair: Edna sei ein eigenständiges Monster mit dem Recht auf einen Eintrag."
+      },
+      "FS_HORCAULD": {
+        "bName": "Kalt-Cauld",
+        "bDesc": "In seinem Leben gab es Herzschmerz und mehr Schmerz. Er glaubt, es wäre schon genug Schmerz. Er muss weiter, ist schon so weit gereist, von hier bis zur Einsamkeit … Er kennt die Liebe, kennt ihre Regeln. Aber ich kenn sie auch."
+      },
+      "FS_HORWORM": {
+        "bName": "Brunnenbewohner",
+        "bDesc": "Dieses leicht überkandidelte Monster brüllt jeden ungefragt mit Tipps zu Gesundheit und Achtsamkeit voll, der sich einen Eimer Wasser aus seiner Behausung ziehen will. Eine nie versiegender Quäl unnützen Wissens."
+      },
+      "FS_HORNJUGG": {
+        "bName": "Nasses Njuggles",
+        "bDesc": "Wie nass muss man werden, um als nasse Version von etwas bereits Nassem gelten zu können? Wahrscheinlich so nass wie ein Nasses Njuggles, ein Wasserpferd, das es mit dem Slogan „Immer genug trinken!“ etwas übertrieben hat. Sie beherrschen nasses Nass wie kein Zweiter, sterben allerdings ironischerweise am häufigsten den Ertrinkungstod. Das ist aber okay, sie ziehen das Wassergrab einem trockenem Leben vor. Sie wissen einfach: je nässer, je besser."
+      },
+      "FS_HORAILLEN": {
+        "bName": "Crocifriggitone",
+        "bDesc": "Ein Oger, der ständig auf seiner Attraktivität herumreitet. Gar nicht mal zu unrecht, er zählt schon zu den sexiesten Biestern da draußen. Er hat den Foscari-Abgrund-Badeanzugwettbewerb dreimal hintereinander abgeräumt und ist bei weitem die gefragteste Person bei OnlyFangs, ein von und für notgeile Monster gemachtes Monatsmagazin. Gelehrte, die mit der Biologie abnormaler Kreaturen befasst sind, haben Jahre damit verbracht, dieses begehrenswerte Ungetüm zu studieren, um die Frage zu klären, warum es so verflixt heiß ist. Doch dieses verbotene Wissen hat sie eindeutig von den Klippen der Vernunft gestoßen. Ihre Kritzeleien sind kaum mehr als sinnfreie Mantras, viele nehmen Bezug auf eine schauerliche Gottheit namens DummiDoof."
+      },
+      "FS_HORDUERG": {
+        "bName": "Noch immer Nichtadam",
+        "bDesc": "Alle schwören, es handele sich um einen echten Zwerg. Und nicht um einen Menschen, der eine „Ich tacker mir die Schuhe an die Knie“-Nummer abzieht. Neigen dazu, einem ungefragt zu versichern, dass sie sich keinesfalls als Zwerge verkleidet haben, um Zugang zu deren Gesundheitsversorgung zu bekommen. Die 50 % zukunftsfrischer und 100 % weniger profitorientiert ist."
+      },
+      "FS_HORGLORY": {
+        "bName": "Handschuh des Ruhms",
+        "bDesc": "Reicht dir gerne eine große Hand. Sammelt Plüschtiere und erweckt sie per magischem Fingerschnippen zum Leben. Liebt es, den Schöpfungen beim brutalen Kampf zuzuschauen, bis zum allerletzten Finisher. Hier muss man sich auf eine echte Klopperei einstellen."
+      },
+      "FS_HORMARI": {
+        "bName": "Maronna Meea",
+        "bDesc": "Stell dir mal vor, dieses Ding kriecht nachts durch dein Fenster herein und wackelt mit einem Flüsterröcheln die Treppe hinauf. Es nähert sich deinem Schlafzimmer und umklammert mit zitternder Hand die Glocke um seinen Hals, während es durch einen Spalt in der Tür starrt. Beobachtet. Wartet. Bewundert dich, während du schläfst. Nach einer Stunde, vielleicht zwei, kann es nicht länger widerstehen und schlüpft durch den Spalt, ohne die Tür auch nur einen Zentimeter zu bewegen. Es ist da. Es ist da, um deine Augenbrauen abzuschlecken. Es will die Nährstoffe, verstehst du, die Mineralien, die deine Augenbrauen bergen. Das wird es jetzt ein Jahr lang jeden Mittwoch tun."
+      },
+      "FS_FMCETHLENN": {
+        "bName": "Fomorians",
+        "bDesc": "H4lloo0! H@llo?/? wO st@ckst dU ? wOOOO bi...st dU h1n? H1N? h111nnn??? Wi4 h@ben dIcH üBer@ll gEsUcHT. dU woLLt3st b3im Basislag3r Schm3rz s3in, w@rst dU ab333333r nicht! sAgt3st, du w@rst d4, 4ber wir HAB3NDICH nicht g3fund3n! \n\nAch … Moment … da bist du ja. \n\nGEFUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUNDEN!"
+      },
+      "FS_BOSS_JENEVIV": {
+        "bName": "Je-Ne-Viv",
+        "bDesc": "Der finstere Fresser, der formidable Verschlinger, der Weltenesser. Er hat sämtliche Schöpfung schon geschmeckt und seine gefräßige Gestalt weist umgekehrt alle Wesen auf. Er ist Teil Mensch. Teil Monster. Teil Untoter. Teil Dämon. Teil Abscheulichkeit. Er ist kein Vampir. Den kennt er noch nicht. Würde aber gerne mal einen knabbern. Er möchte gern wissen, ob du kürzlich einen gesehen hast. Dann wäre er beschäftigt und müsste nicht dich und alles Physische um dich herum verknuspern."
+      },
+      "FS_GEF": {
+        "bName": "Ceffoose",
+        "bDesc": "Es heißt, diese übergriffigen Säugetiere zählen zu den intelligentesten Wesen aller Welten. Da ist allerdings durchaus Zweifel angebracht, denn sie stürmen doch ziemlich sinnbefreit in Scharen auf ihre Gegner los. Und hat das jemals schon funktioniert?"
       }
     }
   },
@@ -2525,7 +3213,179 @@
       },
       "MS_SPIRIT1": {
         "bName": "Spiritello",
-        "bDesc": "I fantasmi non esistono, punto. Probabilmente sono solo dei pipistrelli coperti di neve."
+        "bDesc": "I fantasmi non esistono, punto. Probabilmente è solo un pipistrello coperto di neve."
+      },
+      "FS_GOBLIN": {
+        "bName": "Chompo",
+        "bDesc": "Piccoli goblin miserelli stufi di essere rappresentati come furtivi ladri che pugnalano alle spalle. Fai attenzione: se hai intenzione di diffamarli, potrebbero sopraggiungere furtivamente, pugnalarti alle spalle e rubarti il borsello."
+      },
+      "FS_SALMON": {
+        "bName": "Wiseparke",
+        "bDesc": "Tra le prime bestie a essersi insediate nel Grande Lago, i Wiseparke ne conoscono i segreti e i misteri meglio di chiunque altro. È piuttosto ironico, dunque, che agli occhi degli osservatori di passaggio sembrino soltanto dei comuni pesci fuor d'acqua."
+      },
+      "FS_SELKIE": {
+        "bName": "Noce moscata",
+        "bDesc": "Sembra che discendano dai pesci gatto, come suggeriscono le loro vibrisse, le pesanti teste piatte e le curiosi abitudini alimentari, che consistono nel posare come illibate vergini per attirare ingenui dongiovanni nelle loro infauste tane."
+      },
+      "FS_WULVER": {
+        "bName": "Vulvio",
+        "bDesc": "Non farti ingannare: questi pelosi pescatori non sono affatto imparentati con i comuni lupi mannari. Hai mai visto un lupo mannaro catturare un persico trota? No, quella volta non conta."
+      },
+      "FS_LAMB": {
+        "bName": "Lammuga",
+        "bDesc": "Questa pecora, che discende dal leggendario Agnello vegetale, fluttua a mezz'aria sostenuta dallo stelo di una pianta, a cui è collegata tramite un cordone ombelicale. Il suo corpo genera altre pecore, come fossero bizzarri frutti lanuginosi. La vostra umile cantastorie non si sta inventando nulla. Sul serio, è scritto sui libri. Folclore, vai a casa, sei ubriaco."
+      },
+      "FS_HTROW": {
+        "bName": "Trow di collina",
+        "bDesc": "I Trow di collina furono un tempo una temuta razza di guerrafondai, almeno fin quando non compresero quanto attraente fosse il loro aspetto agli occhi degli infanti umani. Fu allora che presero le distanze dal proprio sanguinoso passato e convinsero il mondo a vederli come nient'altro che l'immaginaria fonte d'ispirazione per un'adorabile linea di bambole. È così che si domina il mondo: non con la guerra, ma tramite le opportunità commerciali."
+      },
+      "FS_STROW": {
+        "bName": "Trow marino",
+        "bDesc": "A differenza dei loro cugini di collina, i Trow marini non sono né abbastanza temibili per la guerra né abbastanza graziosi da diventare un giocattolo in voga. Riconoscendo e accettando la propria inevitabile mediocrità, sono diventati appassionati hobbisti, dediti a dipingere statuine e setacciare spiagge."
+      },
+      "FS_CLOWN": {
+        "bName": "Sam il clown di Sandown",
+        "bDesc": "Andiam, andiam, è il clown di Sandown, Sam! Quando il sole è all'imbrunire, potrai sentirlo guaire, ma non t'impaurire se lo vedrai apparire. Ridi e scherza, ché Sam non ha fretta, ridi e scherza mentre ti affetta. Ballerà e danzerà, intere famiglie massacrerà se ne avrà la possibilità. Andiam, andiam, che in città è arrivato il clown Sam!"
+      },
+      "FS_CAKE": {
+        "bName": "Sammy il bruco",
+        "bDesc": "È la brucotorta di Vampire Survivors(™) e della famiglia di prodotti Vampire Survivors! Se hai più di 30 anni, devi assolutamente concederti un Sammy il bruco come torta di compleanno. Non puoi non avere un Sammy il bruco come torta di compleanno, CE LO DEVI. Sammy il bruco è un marchio registrato di Vampire Survivors(™). Sammy il bruco non è adatto ai bambini di età inferiore ai 29 anni. Sammy il bruco non è commestibile. Sammy il bruco non è responsabile per Sammy il bruco e per eventuali incidenti correlati."
+      },
+      "FS_BROWN": {
+        "bName": "Brownie",
+        "bDesc": "Un popolo fatato che un tempo viveva in armonia nelle case degli umani e si occupava delle faccende domestiche chiedendo in cambio nient'altro che un po' di gentilezza. Questa pacifica convivenza è proseguita fin quando la Gilda dei Padroni di casa non ha deciso che, ai fini della rendita immobiliare, i Brownie andavano considerati occupanti a tutti gli effetti. Migliaia di Brownie furono quindi sfrattati dagli affittuari in difficoltà. Le loro scope, un tempo brandite in nome delle pulizie domestiche, sono ora pronte a far scorrere il sangue, o quantomeno a causare qualche contusione."
+      },
+      "FS_GREEN": {
+        "bName": "Cavaliere verde",
+        "bDesc": "Il primo vero Cavaliere verde sfidava i coraggiosi guerrieri a colpire liberamente un punto a piacere del proprio corpo, promettendo di tornare l'anno seguente e restituire il suddetto colpo. Questi glauchi imbroglioni conoscono a menadito il mito che circonda il proprio antenato, e sfruttano la leggendaria sfida per far avvicinare i nemici, assestar loro un bel calcio nei gioielli di famiglia e decapitare le loro teste ancora frastornate."
+      },
+      "FS_AILLEN": {
+        "bName": "Crocifriggitore",
+        "bDesc": "La sua arpa magica è in grado di far addormentare le genti a centinaia. Le sue poderose deflagrazioni gastrointestinali sono in grado di risvegliare le genti a migliaia. La natura costante e ossessiva delle emissioni gassose di questo goblin fornisce una relativa sicurezza a chiunque rischi di cadere in balia della sua cupa ninnananna."
+      },
+      "FS_DUERG": {
+        "bnAME": "Unbelniente",
+        "bDesc": "Sono nani. Normalissimi cari e vecchi nani. Che altro vorresti, esattamente? Un brillante colpo di scena nel folclore più noto? Una deliziosa parodia piena di giochi di parole e grossolane allegorie politiche? Spiacente, ma non ho Unbelniente da dire su di loro, al di là del fatto che si tratta di nani e che credono nell'assistenza sanitaria gratuita per tutti."
+      },
+      "FS_GLORY": {
+        "bName": "Mano della Gloria",
+        "bDesc": "Questi malconci moncherini macerati, mozzati a manigoldi mariuoli, emanano malvagità e miseria mediante movimenti maliziosi, molestie e mascalzonate. Inoltre, sono disgustosi e inquietanti. BLEAH!"
+      },
+      "FS_MARI": {
+        "bName": "Maronna",
+        "bDesc": "Esistono versioni contrastanti relative alla datazione di questa creatura del folclore gallese. È forse antecedente all'epoca cristiana? Senza dubbio, altrimenti l'esclamazione che avrebbe accompagnato il primo avvistamento sarebbe stata \"Gesù Cristo, cosa diavolo è quell'abominio senza Dio?\""
+      },
+      "FS_NJUGG": {
+        "bName": "Njuggles",
+        "bDesc": "Un destriero tanto meraviglioso quanto malvagio che unisce abilmente tutti i poteri delle due entità da cui è composto, senza mostrare alcuna delle loro debolezze. La stazza, la forza e l'energia di un cavallo, affiancate dall'ineguagliabile crudeltà della trota. Coloro che hanno osato cavalcarlo sono stati prontamente trascinati sul fondo del lago, apparentemente ignari del fatto che avrebbero potuto semplicemente smontare dalla groppa e nuotare fino a riva."
+      },
+      "FS_HAG": {
+        "bName": "Strega comune",
+        "bDesc": "Se vuoi ingraziarti questa strega sopraffina, dovrai prepararle i suoi piatti preferiti: strozzapreti allo stracchino, stracotto di struzzo con strudel salato, e struffoli con stracciatella per dolce. Dovrai inventarti uno stratagemma, per servirglieli, perché non è incline ad accettare strenne, e rischieresti di stressarla."
+      },
+      "FS_MUSH_HP": {
+        "bName": "Fungoman",
+        "bDesc": "L'abilità di biosintesi di Fungoman gli permette di recuperare 250 PS in 5 secondi, tempo in cui l'abilità del suo raggio curativo conferisce il 50% di salute in più. La Nube di spore infligge 134 danni e rallenta per 4 secondi tutti i nemici che avvolge. Indubbiamente nato per combattere, il fatto che Fungoman non sfrutti nessuna di queste abilità in battaglia lo rende piuttosto inutile."
+      },
+      "FS_GGHOST": {
+        "bName": "Apparizione spettrale",
+        "bDesc": "Un fantasma genuino, autentico e sincero. Ma va', scherzavo. I fantasmi non esistono, e non esisteranno mai. È più facile che definisca questa entità \"vampiro\" piuttosto che \"fantasma\", e non ho mai visto nemmeno uno di quelli."
+      },
+      "FS_BOSS_AGAEA": {
+        "bName": "Avatar di Gaia",
+        "bDesc": "Nell'ora più buia, quando l'ordine naturale delle cose è minacciato, un'enorme conglomerato di tutto ciò che di buono esiste al mondo si riunisce dando forma a un essere di tale grazia e bellezza da far inginocchiare al suo cospetto intere civiltà adoranti. L'incarnazione più pura di quanto di più vero e virtuoso esista, il cuore stesso del pianeta che prende vita. Una volta ha sfondato il cranio a un uomo col suo zoccolo perché questi aveva fatto pipì nel lago. Sangue e frammenti di cranio dappertutto."
+      },
+      "FS_CAULD": {
+        "bName": "Goffredo",
+        "bDesc": "Cos'è la vita, senza amore? È solo un albero che foglie non ha più. Quanto freddo ha? È una farfalla che sui fiori non vola più. S'alza il vento, un vento freddo come le foglie, che affossa ogni speranza. Quanto freddo ha?"
+      },
+      "REDUSA": {
+        "bName": "Testa di Medrossa",
+        "bDesc": "Per l'eroe medio, la testa di gorgone galleggiante non è più una visione insolita, dopo anni e anni di strazianti esperienze che l'hanno ormai sdoganata. La Medrossa è qualcosa di superiore, di più tragico, letale e decisamente malvagio. Tanto per cominciare, è rossa. E se questo non è abbastanza spaventoso, non so cos'altro aggiungere, spiacente."
+      },
+      "RELLYFISH": {
+        "bName": "Medrossa",
+        "bDesc": "L'umanità associa da tempo immemorabile il colore rosso alla violenza, alla passione e al pericolo. Il colore del sangue risveglia al contempo le nostre paure più recondite e le nostre pulsioni più istintive. Ma né la paura né il desiderio vengono smossi dalla vista di un branco di meduse ubriache che irrompono in un minimarket a notte fonda e si scolano tutto il ketchup (ossia il modo in cui si sballano le meduse)."
+      },
+      "HEMO": {
+        "bName": "Muschio di sangue",
+        "bDesc": "Espulso senza cessa dalle viscere degli inferi e flaccidamente raggomitolato su se stesso, pronto a colpire. Non abbassare la guardia, e non declassarlo al rango di minaccia residuale, o verrai colto alla sprovvista dal suo incessante moto devastatore che costringe le masse all'evacuazione. Ci vuol fegato per disfarsene e solo i guerrieri più valorosi ne sono capaci. (Nota personale: cancellare questa voce prima di sbolognarla all'editore. È una mer*a.)"
+      },
+      "BOSS_XLBLINDER": {
+        "bName": "L'Accecatore",
+        "bDesc": "Un Mietitore che si considera un vero visionario. È in grado di far piombare un velo di oscurità su qualunque eroe, al semplice tocco del suo dito d'ossidiana. Tuttavia, ogni volta che incappa in un combattimento, il campo di battaglia è talmente pieno di particelle, colori ed effetti speciali che nessuno riesce comunque a vedere un accidente."
+      },
+      "FS_ROTGHOUL": {
+        "bName": "Ghoul pazzesco",
+        "bDesc": "Il fetore della morte impregna ogni singolo centimetro di questi mefitici sciagurati. Un tempo innocenti esseri umani, sono stati convertiti dai Prelati della putrefazione e ora prestano loro servizio in veste di soldati. Pendono dalle labbra dei loro Diaconi decomposti, sempre che abbiano ancora abbastanza dita per appendersi."
+      },
+      "FS_FLAMINGSKULL": {
+        "bName": "Teschio ardente",
+        "bDesc": "Nonostante le loro prodezze in battaglia, i teschi ardenti si occupano perlopiù di incenerire la spazzatura. Ciò accade perché i negromanti tendono a strafare, e inoltre non si degnano di portar fuori il pattume nei giorni giusti, come ci si aspetta da qualsiasi adulto che si rispetti. A ogni modo, prenderli sottogamba porta alla cremazione craniale."
+      },
+      "FS_WORM": {
+        "bName": "Saltamessa",
+        "bDesc": "Dei vermi velenosi che strisciano dalle loro dimore fluviali fino alle imbarcazioni dei blasfemi, come punizione divina. Una volta a bordo, riversano sui malcapitati fiumi di spietato proselitismo e riff di chitarra elettrica."
+      },
+      "FS_SNAK1": {
+        "bName": "Biscio",
+        "bDesc": "Questo tomo contiene già una voce su un serpente geneticamente identico, ma dalla livrea di colore differente. Dal momento che questa umile cantastorie è costretta per contratto a utilizzare \"Biscio\" per battezzare qualcosa, goditi questo contenuto ridondante!"
+      },
+      "FS_SHOOTER1": {
+        "bName": "Senza testa",
+        "bDesc": "Chissà come e perché i mostri abbiano così tante variazioni di colore... Si tratta di mutazioni? Stregoneria? È colpa dell'autrice del bestiario che vuole aumentare senza ritegno il conteggio caratteri? Nessuno può dirlo con certezza."
+      },
+      "FS_MEATBALL": {
+        "bName": "Polpetta",
+        "bDesc": "Piccante."
+      },
+      "FS_MEATY": {
+        "bName": "Followa",
+        "bDesc": "Un mago da un regno distante giurava che il suo volto somigliasse a quello dell'insuperabile luminare che un giorno abbandonò la sua torre. Audacemente, questi osò parlare con questa creatura, e così fece per ore. Nessuno osò intervenire, neanche quando l'aria notturna si fece gelida, congelando a sua volta l'ormai pietrificato mago. Si dice ch'egli abbia mormorato un'ultima frase, mentre le lacrime agli angoli dei suoi occhi si tramutavano in ghiaccio: \"È viva, lì\"."
+      },
+      "FS_EDNA": {
+        "bName": "Edna",
+        "bDesc": "A prima vista, potrebbe sembrare che un pigro negromante abbia avvitato un teschio su una mantide decapitata chiudendo lì la questione. A un secondo e terzo sguardo, sembra ancora così. Tuttavia, Renardo giura che non è andata così, e che Edna è un mostro vero e proprio, degno di avere una voce nel bestiario."
+      },
+      "FS_HORCAULD": {
+        "bName": "Freddo Goffredo",
+        "bDesc": "Già troppe volte ormai han pianto gli occhi suoi. Piange, e dice che non è pioggia su di sé. Vuole solo farti sapere come si sente, vuole farti capire che non ti lascerà mai, che non ti deluderà mai, che non ti farà piangere né ti dirà bugie."
+      },
+      "FS_HORWORM": {
+        "bName": "Abitante del pozzo",
+        "bDesc": "Questo saccente mostro enuncia, a chiunque attinga acqua dal buco in cui dimora, spiegazioni non richieste su teoremi e scoperte sulle note di una famosa aria di Bach. Abita in un pozzo di scienza."
+      },
+      "FS_HORNJUGG": {
+        "bName": "Njuggles bagnato",
+        "bDesc": "Quanto bisogna essere bagnati per essere considerati la versione bagnata di qualcosa che è già bagnato? Direi su per giù bagnati quanto un Njuggles bagnato, un equino acquatico che ha preso troppo alla lettera il consiglio \"mantenersi idratati\". Nonostante padroneggi l'umidità, è ironico notare che la causa principale di morte, in seno alla sua specie, sia l'annegamento. Nonostante ciò, preferisce perire in una tomba d'acqua che vivere all'asciutto e felice. A quanto pare, il suo adagio preferito è \"a mollo è meglio\"."
+      },
+      "FS_HORAILLEN": {
+        "bName": "Crocifriggitone",
+        "bDesc": "Un orco che ripete allo sfinimento quanto sia un bel manzo ganzo. Non si può dire che abbia torto, a giudicare dalla sua reputazione di bestia tra le più sexy del circondario. Ha vinto la gara annuale in costume da bagno dell'Abisso Foscari per tre anni di fila, ed è di gran lunga il modello più apprezzato su OrcheSporche, un periodico mensile creato da e per mostri insaziabili. Gli studiosi più esperti nello studio dell'etologia delle creature aberranti hanno passato anni domandandosi cosa renda così ambito questo agognato colosso, ma tale inaccessibile conoscenza non ha fatto altro che portarli sull'orlo della pazzia. I loro febbrili testi sono poco più che insensibili mantra pieni di riferimenti a una misteriosa divinità chiamata Kuartho Dibhue."
+      },
+      "FS_HORDUERG": {
+        "bName": "Ancora Unbelniente",
+        "bDesc": "Tutti giurano che sia un vero nano e non uno di quegli umani che si inginocchiano sulle proprie scarpe fingendo di essere più bassi del normale. È sempre estremamente insistente nel dichiarare, senza essere interpellato, di essere un vero nano, per poter accedere all'assistenza sanitaria nanica, generalmente considerata più efficiente del 50% e al 100% senza scopo di lucro."
+      },
+      "FS_HORGLORY": {
+        "bName": "Guanto della Gloria",
+        "bDesc": "È qui per darti una mano, bella grossa. Ama collezionare pupazzi di peluche e donar loro la vita con un semplice schiocco delle sue potenti dita. In seguito, li ammira con soddisfazione mentre si massacrano a vicenda in cruenti corpo a corpo, per poi concludere abbattendo il suo pugno sul vincitore. Preparati a sanguinose risse: non è qui per starsene con le mani in mano."
+      },
+      "FS_HORMARI": {
+        "bName": "Maronna Meea",
+        "bDesc": "Immagina questo essere che nottetempo si insinua attraverso le fessure della tua finestra, ansimando impercettibilmente mentre rantola su per le scale. Si avvicina alla tua stanza da letto, impugnando la campanella che indossa al collo nella sua tremolante mano e scrutando da una fessura nella porta. Osserva. Aspetta. Ti ammira mentre dormi. Dopo un'ora, o forse due, non riesce più a resistere e striscia attraverso la crepa senza spostare la porta di un centimetro. È lì. È lì per leccarti le sopracciglia. Ne vuole assimilare i nutrienti, i minerali nascosti tra le tue sopracciglia. E farà così ogni mercoledì, per un intero anno."
+      },
+      "FS_FMCETHLENN": {
+        "bName": "Fomoriani",
+        "bDesc": "H3iiii1i! C 6?!? dOvE 6???? ke fine ai f@TT0??1!! HÉÉÉ???? DO0O0O0O0O0VE 6??? Ti abb1@mo CERKATO Da X TT. Ai D3tt0 KE eRi nell@ Campagnia di B@se ma N0N é cosiiiiiii''''! DICEV1 ke staV1 sul DI EL SI' ma NN é VeR0!!!1!1! 'Ndò St@@@iiii???? \n\nOh, un momento... eccoti. \n\nD@JEEEeeeeeeEEEEEEEEEeeeeeeeHHHHhhhhhh!!!1!!"
+      },
+      "FS_BOSS_JENEVIV": {
+        "bName": "Je-Ne-Viv",
+        "bDesc": "L'atroce sbranatore, l'insaziabile consumatore, il divoratore di mondi. Ha assaggiato ogni elemento del creato, e ogni cosa del creato si riflette nella sua forma predatoria. In parte umano, in parte mostro, in parte non morto, in parte demone, in parte abominio. Non è un vampiro. Non ne ha mai incontrato uno. Vorrebbe tanto mangiarne uno. Vuole sapere se tu ne hai mai visto uno. Ma sarebbe troppo impegnato a divorare te e ogni cosa che ti circondi per chiederti se ti è mai capitato."
+      },
+      "FS_GEF": {
+        "bName": "Ceffoose",
+        "bDesc": "Si dice che questi mammiferi dalle mani lunghe siano tra le creature più intelligenti di tutti i regni. Tuttavia, si potrebbe essere scettici davanti a una tale affermazione, dal momento che sembra che la cosa più intelligente che fanno sia correre stupidamente a frotte verso i loro nemici. Quando ha mai funzionato una trovata simile?"
       }
     }
   },
@@ -3019,8 +3879,180 @@
         "bDesc": "森の狐のような悪戯もので、 不適切なヤツから夜の剣を守っている。 尾が何本あるかはまだ不明で、 誰かが数えようとすると50本くらいになったところで焼かれてしまうんだよね。"
       },
       "MS_SPIRIT1": {
-        "bName": "小さな幽霊",
-        "bDesc": "幽霊のようなものはありません。 これはおそらく雪に覆われたコウモリであり、 他には何もありません。"
+        "bName": "スピリテッロ",
+        "bDesc": "お化けなんているわけがない。 これは恐らく雪をかぶったコウモリで、 それ以外の何物でもない。"
+      },
+      "FS_GOBLIN": {
+        "bName": "チョンポ",
+        "bDesc": "卑劣な裏切り者の泥棒として見られることにウンザリしている、 哀れなゴブリンたち。 しかし、 彼らの悪口を言う人は、 背後から刺されて財布をスられてしまうかもしれないからご用心。"
+      },
+      "FS_SALMON": {
+        "bName": "ワイズパーク",
+        "bDesc": "グレート・レイクに住み着いた最初の獣たちの中で、 誰よりもその謎と秘密について理解しているのはおそらく彼らだろう。 皮肉なのは、 無頓着な目にはそれが陸に上がった魚にしか見えないことだ。"
+      },
+      "FS_SELKIE": {
+        "bName": "ナツメグ",
+        "bDesc": "ヒゲがある顔に、 真っ平らな頭、 そして純真無垢な乙女のふりをして、 騙されやすい女好きたちを隠れ家に誘い込むといった奇妙な食性からして、 ナマズの子孫と見て間違いなさそうだ。"
+      },
+      "FS_WULVER": {
+        "bName": "ブルヴィオ",
+        "bDesc": "この毛むくじゃらな漁師たちは、 一般的な狼男と似てまったく非なる生き物だ。 君は、 狼男が巨大魚を捕まえるところを見たことがあるだろうか？  いや、 あの時のは数のうちに入らないぞ。"
+      },
+      "FS_LAMB": {
+        "bName": "ランミューガ",
+        "bDesc": "へその緒と繋がる強力な植物の茎によって吊り下がっている、 伝説のプラントラムから生まれたモンスター。 その体から他の羊たちを「生やす」様は、 まるで奇妙な果実のようだ。 これは決して、 綴り手が作り出したおとぎ話ではない。 マジで、 実際に本に載っているのだ。 もしかしたら、 執筆者が泥酔して記録に残したのかもしれない。"
+      },
+      "FS_HTROW": {
+        "bName": "ヒルトロー",
+        "bDesc": "かつては征服のために戦争に明け暮れたことで恐れられた種族だったが、 後に自分たちが人間の子供にとって魅力的な外見をしていることに気づいてからはすべては一変した。 彼らはそれ以来血なまぐさい過去を消し去り、 世界からの認識を自分たちの人形のような愛らしさで塗り替えてしまったのだ。 戦争ではなく、 可愛さを商業的な武器にすることで世界征服を達成するなんて、 誰が想像しただろうか？"
+      },
+      "FS_STROW": {
+        "bName": "シートロー",
+        "bDesc": "丘に住むイトコたちとは違い、 シートローには戦争で発揮できるような力も、 オモチャ界で次の流行を巻き起こせるような可愛さもない。 彼らはとにかく突出した平凡さを受け入れ、 日々の大半を置物の塗装や海辺の漂流物集めなどに費やし、 趣味を極めたのだった。"
+      },
+      "FS_CLOWN": {
+        "bName": "サンダウン・クラウン・サム",
+        "bDesc": "さあ、 困り顔や怒り顔は厳禁。 サンダウン・クラウン・サムがやってくるぞ！夕暮れ時になると聞こえてくるその声。 しかし彼が現れても、 怖がる必要はない。 とにかく陽気なお調子者と一緒に笑って、 残虐に切り刻まれる間も笑顔を絶やさないこと。 彼はすきあらば踊って飛び跳ねながら、 目につく家族全員を虐殺し尽くす。 さあ、 困り顔や怒り顔は厳禁。 サンダウン・クラウン・サムがやってくるぞ！"
+      },
+      "FS_CAKE": {
+        "bName": "イモムシ・サミー",
+        "bDesc": "Vampire Survivors(™)とその関連製品でおなじみのイモムシケーキが登場！もしあなたが30代以上なら、 誕生日ケーキはぜひイモムシ・サミーを選ぼう。 イモムシ・サミーも、 私たちも、 あなたの誕生日ケーキに選ばれれば本望なのです。 イモムシ・サミーはVampire Survivors(™)ブランドの登録商標です。 イモムシ・サミーは、 1〜29歳のお子様には適していません。 また、 イモムシ・サミーは食べられません。"
+      },
+      "FS_BROWN": {
+        "bName": "ブラウニー",
+        "bDesc": "かつては人間の故郷で仲良く暮らし、 優しさだけを求めて家事を陽気にこなしていたフレンドリーな妖精族だった。 この平和的な共存は、 地主ギルドがブラウニーを家賃計算で居住者に含めると布告するまで続いた。 そして困窮していた村人たちは、 何千ものブラウニーたちを追い払わざるを得なくなった。 悲しいことに、 家庭内の清潔さを保つために振るわれていた彼らのホウキも、 今では流血…あるいは多少の打撲をもたらすための道具となってしまったのだった。"
+      },
+      "FS_GREEN": {
+        "bName": "グリーンナイト",
+        "bDesc": "元々、 グリーンナイトは勇敢な戦士たちに挑み、 その体に自由に攻撃を当てさせては、 1年後にその打撃をお返しにくると約束して去る変わり者だった。 そんな祖先の伝説に精通する彼ら薄緑色のペテン師たちは、 その伝説的な挑戦を利用して敵を近くに誘い込み、 不意をついて相手が混乱している間に頭を落としてしまうらしい。"
+      },
+      "FS_AILLEN": {
+        "bName": "クロチフリッギトーレ",
+        "bDesc": "何百人もの人々を眠らせてしまう魔法のハープを持つ。 だが、 その体内から噴き出す爆発的な豪炎は、 何千人もの人々を叩き起こすこともできる。 このガス系ゴブリンの爆発的な排出は一貫して制御不能なため、 そんな低俗な子守唄に引っかかってしまう人にとっては逆に安全なのかもしれない。"
+      },
+      "FS_DUERG": {
+        "bnAME": "ノータダム",
+        "bDesc": "彼らはドワーフ。 何の変哲もない、 ただのドワーフだ。 これ以上の説明が必要だろうか？  おなじみの伝承にもっとひねりが欲しいとか、 言葉遊びと微妙な政治的主張を盛り込んだ愉快なパロディを求められても、 残念ながら期待には応えられない。 ノータダムたちは、 無償の普遍主義的医療制度を支持しているだけの、 ただのドワーフなのだ。"
+      },
+      "FS_GLORY": {
+        "bName": "栄光の手",
+        "bDesc": "盗みを働く囚人の手は、 つねるだけでなく、 パンチやスリだってお手のもの。 やられると結構痛いので要注意。 おまけに、 見た目も不気味でグロテスクだ！"
+      },
+      "FS_MARI": {
+        "bName": "マロンナ",
+        "bDesc": "ウェールズ神話に属するこの生き物がキリスト教以前に存在していたかについては、 数多くの議論があるが… もしキリスト教の方が先ならば、 これを初めて目撃した記録には「ジーザス（信じられない）！ あの神に見放されたかのような容姿の生き物は、 一体何なんだ？  」とでも残されているはずだ。"
+      },
+      "FS_NJUGG": {
+        "bName": "ンジャグルス",
+        "bDesc": "美しくも悪意に満ちた馬型の魔物。 2つの異なる形態から成る力を惜しみなく使いこなせるため、 弱点はほぼないと言える。 馬並みの図体の大きさ、 馬力およびスタミナと、 魚の比類なき残虐性を持ち合わせている。 上に飛び乗ろうものなら一瞬で湖底へと引きずり込まれ、 「あの時降りて泳ぎ去っていれば」と後悔する間もなく溺れ死んでしまうだろう。"
+      },
+      "FS_HAG": {
+        "bName": "魔女",
+        "bDesc": "この腕利きの魔女に気に入られたいなら、 お気に入りの食事《ハグベリーとメクラウナギのシチュー、 ハギス添え》を準備する必要がある。 しかし、 魔女はしつこいほどの値切りを好むため、 無償で提供することはできないぞ。"
+      },
+      "FS_MUSH_HP": {
+        "bName": "ファンゴーマン",
+        "bDesc": "生合成能力により、 ファンゴーマンは5秒間でHPを250回復し、 その間にヒールビームでさらにHPを50%アップできる。 雲胞子は134のダメージを付与し、 範囲内に入った敵全員を4秒間減速させる。 能力だけ見ると戦闘に特化しているのは明らかだが、 実際の戦闘ではこれらを一つも使わないため、 はっきり言って役立たずである。"
+      },
+      "FS_GGHOST": {
+        "bName": "ゴースト",
+        "bDesc": "正真正銘、 本物の幽霊。 という冗談は置いといて…実際はオバケなんかいないし、 オバケなんかウソなのだ。 それに、 ゴーストよりも、 まだヴァンパイア（これも未確認だが）と呼んだ方が現実味がある気がする。"
+      },
+      "FS_BOSS_AGAEA": {
+        "bName": "ガイア・アバター",
+        "bDesc": "自然の摂理が脅かされ、 最も困難な状況に陥った時、 あらゆる生命の慈愛が結集し、 文明が畏敬の念を抱いて膝をつくような優美さを持つ存在が実体化する。 これは美徳と真実の最も純粋な化身であり、 まさに惑星の心臓が形を得た姿なのだ。 以前、 湖で用を足している男の頭を蹄で殴打したことがあった。 あまりの力に、 そこかしこに頭蓋骨の破片と血が飛び散っていたそうだ。"
+      },
+      "FS_CAULD": {
+        "bName": "カウルド",
+        "bDesc": "氷のように冷たいこの者は、 我々の愛を迷いなく犠牲にする。 彼は誰からの言葉にも耳を傾けないゆえに、 いつかその代償を払うことになるだろう。 以前、 自分は目にしたことがある。 日常的に心の扉を閉ざし、 世界を置き去りにしていく様を。 金ばかり求めて感情という財産を捨て続けた果てに、 代償を払う日は必ずやってくるはずだ。"
+      },
+      "REDUSA": {
+        "bName": "レドゥーサの頭",
+        "bDesc": "長年苦難を経験してきた一般的なヒーローにとって、 ゴルゴンの頭が浮遊する光景はもはや日常と化している。 しかしレドゥーサとはそれ以上に恐ろしく、 殺傷能力も高く、 とてつもなく邪悪な魔物だ。 まずはその真っ赤な外見。 その時点で恐怖を感じないと言うなら、 残念ながらもう手遅れかもしれない。 ごめんね。"
+      },
+      "RELLYFISH": {
+        "bName": "レリーフィッシュ",
+        "bDesc": "人類は長い間、 赤色を暴力、 情熱、 そして危険と結びつけてきた。 血の色は、 我々の最も原始的な恐怖と本能的な欲望の両方を覚醒させる。 かといって、 夜中に酔っ払ったクラゲの軍団が店に押し入り、 すべてのケチャップを飲み干す（そもそもクラゲはそうやって酔うらしい）光景を目撃しても、 正直恐怖や欲望を掻き立てられることは一切ないだろう。"
+      },
+      "HEMO": {
+        "bName": "ブラッドモス",
+        "bDesc": "地獄の底から絶え間なく湧き、 常に襲いかかる相手を探している。 一時的なものだと気を抜いて軽くあしらってばかりいると、 やがて大きな脅威となり、 何千人もの避難を余儀なくされることになるので要注意。 例えるなら、 トイレを済ませた後に、 大したサイズじゃないから大丈夫、 と「小」で流したら、 威力が足りず詰まって大惨事になってしまうようなものだ。 （注意：しょうもないネタは、 公開せずトイレに流すが吉。 このクソログもまた然り）"
+      },
+      "BOSS_XLBLINDER": {
+        "bName": "ブラインダー",
+        "bDesc": "先見の明を持っていると自負する死神。 黒曜石のような指でヒーローに触れると闇のベールをかけることができるが、 いざ出現しても、 戦場にはすでにさまざまな破片や特殊効果が飛び交っていて何も見えないのでちょっと不憫である。"
+      },
+      "FS_ROTGHOUL": {
+        "bName": "ロッティン・グール",
+        "bDesc": "その腐り落ちる肉体には、 隅から隅まで強烈な死臭がまとわりついている。 かつては罪なき村人だったが、 腐の聖職者たちによってその歩兵へと作り替えられてしまった。 彼らは、 腐の助祭たちが放つ言葉すべてにしがみつくほどの従順さを持っている。 しがみつくための指が揃っているかどうかは別として。"
+      },
+      "FS_FLAMINGSKULL": {
+        "bName": "バーニン・スカル",
+        "bDesc": "高い戦闘力を持っているにも関わらず、 主にゴミの焼却という若干つまらない目的のために存在している。 それも、 分別ある大人らしくゴミの日すら普通にできないネクロマンサーのせいだ。 そこを指摘して馬鹿にしてしまった者には、 もれなくドクロによって火あぶりの刑に処されるのでご用心。"
+      },
+      "FS_WORM": {
+        "bName": "ミッシン・チャーチ",
+        "bDesc": "猛毒を持つミミズで、 住処である川から神を冒涜する者の船に這い上がってくる。 乗り上げてきたら最後、 冒涜者は無慈悲な強制改宗とアコースティックギター音楽のダブルパンチを受けることになる。"
+      },
+      "FS_SNAK1": {
+        "bName": "スネック",
+        "bDesc": "この図鑑には、 遺伝子的に類似した色違いのヘビがすでに登録されている。 どうやら、 綴り手は「ヘビのスネック呼び」が契約上義務付けられていることをすっかり忘れてしまったようだ。 ということで、 この余分なモンスターを楽しんでくれ！"
+      },
+      "FS_SHOOTER1": {
+        "bName": "ロストヘッド",
+        "bDesc": "モンスターたちがなぜ、 そしてどのようにして、 これほど多いカラーバリエーションで存在しているのか。 突然変異か、 それとも魔術によるものか？  それとも、 単に字数稼ぎをしようとでたらめに配色を増やしているモンスター図鑑の執筆者によるものか？  真実を知る者は、 誰もいない。"
+      },
+      "FS_MEATBALL": {
+        "bName": "ミートボール",
+        "bDesc": "とにかくスパイシー。"
+      },
+      "FS_MEATY": {
+        "bName": "フォロワ",
+        "bDesc": "その冷たい顔は、 ある日塔を捨てた偉大な学者に似ていると、 遠い国の魔道士は語った。 彼は果敢にもその生物と会話をし、 何時間も言葉をかけ続けた。 やがて夜空が広がり、 極寒の中魔道士が凍りついても、 誰も手を出そうとしなかった。 一筋の涙が氷へと変わる瞬間に彼が最後に発した一言は、 「彼女はそこで生きている」だったそうだ。"
+      },
+      "FS_EDNA": {
+        "bName": "エドナ",
+        "bDesc": "一見、 断頭されたカマキリにドクロをくっつけただけに見えるモンスターは、 やる気のないネクロマンサーが適当に作った作品のようだ。 いや、 二回、 三回見ても、 その意見は変わらないかもしれない。 当の本人であるリナルドは決してそうではないと全否定しており、 エドナは図鑑に載せる価値のあるモンスターだと断言している。"
+      },
+      "FS_HORCAULD": {
+        "bName": "コールド・カウルド",
+        "bDesc": "今までの人生は苦難と試練の連続だった。 もうこれ以上は耐えられないだろう。 だから前へ進むしかない。 この孤独な人生を変えるために、 彼ははるばるここまで来たのだから。 （愛を知りたい人のための某ヒット曲より）愛を知る彼は、 その決まりもよく心得ているのだ。"
+      },
+      "FS_HORWORM": {
+        "bName": "ウェル・ドウェラー",
+        "bDesc": "このお節介なモンスターは、 住処である井戸から水を汲む人々に、 心と体の健康に関する助言を投げかけてくる。 まさに善意の健康アドバイザーなのだ。"
+      },
+      "FS_HORNJUGG": {
+        "bName": "ウェット・ンジャグルス",
+        "bDesc": "すでに濡れていたものを濡らしたと考えるには、 どの程度濡らせばいいのだろうか？  水分補給という言葉を極限まで極めたこの馬型のモンスターは、 ウェット・ンジャグルスの名にふさわしい存在だと言える。 水に強い彼らだが、 死因のトップが溺死というのはなんとも皮肉な話である。 しかし彼らは、 水もしたたればしたたるほどイイものだと知っている。 だからこそ陸で乾いた生き方をするよりも、 水葬を選ぶのだ。"
+      },
+      "FS_HORAILLEN": {
+        "bName": "クロチフリッギトーレ",
+        "bDesc": "己のアツさをひたすらハープで表現するモンスター。 あれほどの情熱的な振る舞いを見れば、 最もセクシーな野獣の1体だと認められているのも頷ける。 実は、 「毎年恒例アビス・フォスカリ水着コンテスト」の3年連続優勝者なうえ、 モンスターのためのホットな月刊誌「OnlyFangs」の超人気モデルでもあるのだ。 異常生物の生態に詳しい学者たちは、 この巨体の危険な魅力について何年も研究してきたが、 その禁断の知識は明らかに彼らを正気の淵に追いやってしまった。 彼らの熱狂的な文章は、 ダミー・ムッチンという名の超自然神への言及に満ちた、 無分別なマントラに過ぎない。"
+      },
+      "FS_HORDUERG": {
+        "bName": "スティル・ノータダム",
+        "bDesc": "彼らは自分たちが生粋のドワーフであり、 決して膝立ちで靴をはき、 身長を低く見せようとしている人間ではないと言い張っている。 聞かれてもいないのに、 「ドワーフの国民医療制度を利用するために変装するようなニセモノじゃない」 と大声で公言する傾向がある。 ちなみにドワーフの医療制度は、 人間のそれより50%も先進的で、 100%利益重視ではないところが魅力的なのだ。"
+      },
+      "FS_HORGLORY": {
+        "bName": "栄光のグローブ",
+        "bDesc": "手を差し伸べるために存在するモンスター。 ぬいぐるみを集めるのが趣味だが、 その指をパチンと鳴らせば、 なんとぬいぐるみに命を吹き込むことができるのだ。 自分の作品が激しい近接戦でお互いを攻撃し合う様を歓喜の表情 （？  ）で眺めた後、 勝者に慈悲なき鉄槌を食らわせて楽しむ。 この手が現れたら、 本格的な乱闘を覚悟しておくことだ。"
+      },
+      "FS_HORMARI": {
+        "bName": "マロンナ・ミーア",
+        "bDesc": "夜に自宅の窓から入り込んできて、 ブツブツ独り言を言いながら階段を這い上がっていく。 やがて君の寝室へと辿り着くと、 首にかかった鈴を震える手で握り締め、 ドアの隙間から中を覗く。 そしてひたすら眺め続け、 待ち続けるのだ。 部屋の主人の寝顔を愛しそうに見つめながら。 1、 2時間が経つと、 いてもたってもいられなくなってそれは、 ドアをまったく動かさずに隙間からするりと入り込む。 ついにやってきてしまった。 すべては、 安らかに眠る君の眉毛を舐めるため。 というのも、 眉毛に含まれる栄養素やミネラルがお目当てらしい。 これを1年間、 毎週水曜日にやりにくるのだ。"
+      },
+      "FS_FMCETHLENN": {
+        "bName": "フォモリアンズ",
+        "bDesc": "ハロー！ﾊﾛｫ？  /? ドコに隠れテるノ？  どｵォォコォぉｵにィ、 ｲｯﾀの？  イナクなｯﾁｬったノ？  ドォぉぉこｵｵｵぉぉぉ？  ？  ？  ｷﾐのコとぉｫｫ、 探シ回っﾀﾝだヨぉ。 ペイン基地にイルｯて言ｯﾃたﾉﾆ、 いなかッタｧｧｧぁ！！！ﾃﾞｨｨｨｨｨえるシィィぃぃダって言っﾀのに、 なんで見ﾂｶんなインﾀﾞﾖぉぉｵｫ！！\nあ・・・・・・ミツケタ。 \nみぃｨｨｨぃつケタぁぁｱｧｧｧぁぁぁぁぁAAAAAAAAAAAA！"
+      },
+      "FS_BOSS_JENEVIV": {
+        "bName": "ジュ・ヌ・ヴィーヴ",
+        "bDesc": "恐るべき貪食者であり、 偉大なる消費者であり、 世界を喰らう者。 創造物のすべてを味わい尽くし、 喰らったすべてがその貪欲な化け物の姿に反映されている。 人間と、 モンスター、 不死の魔物、 悪魔、 そして憎悪でできている。 これはヴァンパイアではない。 まだヴァンパイアには出会えていないのだ。 だが、 ヴァンパイアを食べてみたくてしかたがない。 君が、 ヴァンパイアを見たことがあるかを知りたいらしい。 しかし、 君とその周囲のすべてを食い尽くすことに忙しすぎて、 そんなことを聞く余裕もないだろう。"
+      },
+      "FS_GEF": {
+        "bName": "セッフゥス",
+        "bDesc": "この奇妙な哺乳類は、 全領域内で最も知的な生き物のひとつと言われている。 しかし、 彼らは敵に向かって群れをなして突っ込んでいくだけで、 それ以上賢明な行動に出ないため、 知能があるかどうかも疑わしいところである。 そもそも、 突っ込むこと自体考えなしのすることでは？"
       }
     }
   },
@@ -3515,7 +4547,179 @@
       },
       "MS_SPIRIT1": {
         "bName": "작은 유령",
-        "bDesc": "단순히 유령 같은 것은 없습니다. 이것은 아마도 눈으로 뒤덮인 박쥐 일 뿐이고 다른 것은 아닙니다."
+        "bDesc": "이 세상에 유령 같은 건 없습니다. 이건 뭐, 그냥 눈에 뒤덮인 박쥐라거나 뭐 그런 걸 겁니다."
+      },
+      "FS_GOBLIN": {
+        "bName": "촘포",
+        "bDesc": "작고 애처로운 고블린으로 은밀한 중상모략을 일삼는 도둑이라는 헛소문이 지긋지긋합니다. 그들을 비방하는 편에 선다면 몰래 뒤로 다가와 등을 찌르고 지갑을 슬쩍할지도 몰라요."
+      },
+      "FS_SALMON": {
+        "bName": "와이즈파케",
+        "bDesc": "위대한 호수에 보금자리를 마련한 최초의 야수들 중에서 호수의 비밀과 신비를 가장 속속들이 파악하고 있는 존재입니다. 그러니 평범한 관찰자들이 그들을 물 밖에 나온 물고기로만 이해하는 것은 대단한 아이러니랍니다."
+      },
+      "FS_SELKIE": {
+        "bName": "넛멕",
+        "bDesc": "얼굴에 난 수염과 무겁고 납작한 머리, 호기심 많은 식습관으로 순결한 처녀 행세를 하며 속이기 쉬운 바람둥이들을 불길한 은신처로 유혹하는 것을 보면 메기의 후손인 것 같습니다."
+      },
+      "FS_WULVER": {
+        "bName": "불비오",
+        "bDesc": "이 털북숭이 낚시꾼이 어떤 식으로든 평범한 늑대인간과 관련이 있다고 생각하는 사람이 많은데 속지 마세요. 늑대 인간이 배스 낚시하는 것을 본 적이 있나요? 아니죠, 한 번 본 적이 있다고 해서 늘 그런다는 보장은 없죠."
+      },
+      "FS_LAMB": {
+        "bName": "램무가",
+        "bDesc": "전설적인 식물성 양의 후손이죠. 식물성 양은 탯줄로 연결된 거대한 식물 줄기로 연결되어 땅 위에 매달려 있는 양이랍니다. 몸에서 다른 양들이 싹을 틔우는 데 마치 모직으로 짠 기이한 열매 같습니다. 겸손한 현자가 지어낸 이야기가 아니랍니다. 진지하게 말하지만, 책에 쓰여 있어요. 집에 가세요, 수다쟁이님, 취하셨어요."
+      },
+      "FS_HTROW": {
+        "bName": "언덕배기 트로우",
+        "bDesc": "한때는 전쟁광을 정복하는 무시무시한 종족이었지만 그들의 기발한 외모가 인간 아이들에게 얼마나 매력적인지 알게 되었죠. 피비린내 나는 과거를 지운 그들은 자신들은 그저 사랑스러운 인형을 제작하기 위해 생각해낸 가상의 영감일 뿐이라는 믿음을 세상에 심어주었죠. 언덕배기 트로우는 이렇게 해서 전쟁이 아니라 캐릭터 상품 판매를 통해 세상을 지배하게 되었습니다."
+      },
+      "FS_STROW": {
+        "bName": "바다 트로우",
+        "bDesc": "언덕배기에 사는 사촌들과 달리 바다 트로우는 전쟁에 나설 만큼 무시무시하지도 않고, 차세대에 유행하는 장난감이 될 만큼 귀엽지도 않습니다. 피할 수 없는 평범함을 받아들인 그들은 열정적인 덕후가 되었고, 대부분 피규어에 색을 칠하고 해변을 훑듯이 쏘다니며 시간을 보낸답니다."
+      },
+      "FS_CLOWN": {
+        "bName": "황혼의 광대 샘",
+        "bDesc": "얼굴 찌푸리지 말아요, 모두 다 힘들잖아요. 황혼의 광대 샘이랍니다! 황혼이 다가오면 샘의 목소리를 듣게 되지만 샘이 나타나도 두려워하지 마세요. 명랑한 얼간이와 함께 미소지으며 웃으세요. 샘이 당신을 반으로 찢는 동안 그냥 미소지으며 웃어요. 샘은 춤을 추고, 깡충 대며 뛰다가 기회를 포착하고 온 가족을 도륙해버릴 거예요. 얼굴 찌푸리지 말아요, 모두 다 힘들잖아요. 황혼의 광대가 도착했어요."
+      },
+      "FS_CAKE": {
+        "bName": "애벌레 새미",
+        "bDesc": "Vampire Survivors(™)와 Vampire Survivors 제품군에서 만나보실 수 있는 애벌레 케이크랍니다! 만 30세 이상이라면 생일 케이크로 애벌레 새미를 먹어야 할 의무가 있죠. 당신은 생일 케이크로 애벌레 새미를 먹어야 하는 국가에 대한 의무가 있어요. 애벌레 새미는 Vampire Survivors(™) 브랜드의 상표입니다. 애벌레 새미는 1~29세의 어린이에게는 적합하지 않아요. 애벌레 새미는 먹을 수 없습니다. 애벌레 새미는 애벌레 새미에 관해 책임지지 않으며 어떠한 애벌레 새미와 관련된 부상에도 책임을 지지 않습니다."
+      },
+      "FS_BROWN": {
+        "bName": "브라우니",
+        "bDesc": "한때는 인간의 집에서 조화롭게 살며 집안일을 즐겁게 해치우고 그 대가로 오직 친절만을 요구했던 친근한 요정족이었습니다. 이 평화로운 공존은 집주인 조합이 집세를 더 받으려고 브라우니를 추가 거주자로 간주할 때까지 계속되었죠. 고군분투하던 마을 사람들은 수천 명의 브라우니를 쫓아내야 했습니다. 한때 가정의 청결이라는 핑계로 빗자루를 휘두르던 그들은 이제 그 빗자루로 출혈을 일으키거나 적어도 적당한 멍 정도는 들게 할 준비가 되어 있어요."
+      },
+      "FS_GREEN": {
+        "bName": "녹색 기사",
+        "bDesc": "원래 녹색 기사는 용감한 전사들에게 자기 몸의 아무 곳이나 자유롭게 공격하도록 도발하지만, 1년 후에 돌아와 같은 일격을 가하겠다고 맹세했죠. 이 녹색 사기꾼은 조상의 전설에 정통하며 전설적인 도발로 적을 유인한 다음, 중요 부위를 발로 차서 어리둥절해진 사이에 머리를 베어버려요."
+      },
+      "FS_AILLEN": {
+        "bName": "크로시프리지토르",
+        "bDesc": "수백 명을 잠재울 수 있는 마법의 하프를 가진 녀석이죠. 그렇지만 녀석의 불타는 위장기관이 폭발하면 수천 명을 깨울 수 있어요. 이 방귀쟁이 고블린의 폭발적인 방귀는 태어날 때부터 줄곧 조절하기가 어려웠기에 낮은 음으로 된 자장가를 즐기는 사람들은 상대적으로 피해를 덜 입을 수 있어서 다행이었습니다."
+      },
+      "FS_DUERG": {
+        "bnAME": "노아담",
+        "bDesc": "드워프입니다. 그냥 평범한 드워프요. 정확히 무엇을 더 바라시나요? 친숙한 민담을 영리하게 비꼬는 거요? 말장난과 적나라한 정치적 우화로 가득한 유쾌한 패러디요? 미안하지만 이들은 드워프이고, 무료로 제공되는 보편적 의료 복지를 믿는다는 사실 외에 노아담에 관해 할 말은 없어요."
+      },
+      "FS_GLORY": {
+        "bName": "영광의 손",
+        "bDesc": "도둑질하는 죄수의 손을 피클처럼 절여둔 건데 꼬집고, 주먹질하고, 많은 주머니를 훔쳐 위험한 고통을 전파하죠. 게다가 정말 오싹하고 역겨워요, 으윽!"
+      },
+      "FS_MARI": {
+        "bName": "마론나",
+        "bDesc": "이 웨일스 신화의 창조물이 기독교보다 먼저 존재했는지에 관해서는 논란이 상당히 많습니다. 분명히 그렇죠. 그렇지 않으면 목격에 대한 최초의 역사적 기록은 분명히 \"주여, 주께 버림받은 것이 무엇입니까?\"라고 쓰였을 거니까요."
+      },
+      "FS_NJUGG": {
+        "bName": "뉴글스",
+        "bDesc": "아름답지만 악의가 넘치는 말이며 두 가지 형태가 융합되어 연약한 부분은 하나도 남기지 않고 쏙 빼고 그 힘만 능수능란하게 휘두릅니다. 말의 크기, 힘, 체력이 송어의 독보적인 잔인함과 짝을 이루죠. 감히 그 위에 올라탄 사람들은 재빨리 호수 바닥으로 끌려갔고, 바로 내려서 헤엄쳐 나갈 수 있었다는 것을 알지 못한 것 같았습니다."
+      },
+      "FS_HAG": {
+        "bName": "평범한 노파",
+        "bDesc": "이 능구렁이같은 노파의 환심을 사려면 이 양반이 가장 즐겨 드시는 할로겐 푸딩을 곁들인 할미 베리와 할미꽃 스튜를 준비해야 합니다. 하지만 노파가 흥정을 하겠다고 고집을 부리니 이런 음식을 무작정 선물로 줄 수는 없어요."
+      },
+      "FS_MUSH_HP": {
+        "bName": "버섯맨",
+        "bDesc": "생합성 기술을 사용할 줄 아는 버섯맨은 5초 동안 HP 250을 회복할 수 있으며, 그동안 치유 빔의 능력으로 체력을 50% 더 많이 얻을 수 있습니다. 포자 구름은 134의 데미지를 입히고 반경에 들어오는 모든 적을 4초 동안 느리게 만듭니다. 분명히 전투를 위해 태어났지만, 버섯맨은 이러한 능력을 전투에서는 전혀 하지 않는다는 사실 때문에 오히려 쓸모가 없게 되어버리죠."
+      },
+      "FS_GGHOST": {
+        "bName": "오싹한 유령",
+        "bDesc": "진실하고 정직하며 선량한 유령입니다. 농담이에요. 유령은 실제로 존재하지 않고, 앞으로도 없을 거예요. 사실은 유령보다 뱀파이어라고 하는 것이 더 정확한 표현이고 아직 그중 하나도 본 적이 없거든요."
+      },
+      "FS_BOSS_AGAEA": {
+        "bName": "가에야의 아바타",
+        "bDesc": "절박한 상황이 와서 자연의 질서가 위협받고 있으면 모든 생명의 자비가 위대하게 합체하여 문명이 경외심에 무릎 꿇게 할 만큼 우아하고 아름다운 존재를 육체적으로 드러냅니다. 고결하고 진실한 것의 가장 순수한 화신, 행성의 정수가 현신한 모습이죠. 한때 호수에서 오줌을 누던 어떤 남자는 그 발굽에 머리가 움푹 패여버렸습니다. 사방에 피와 두개골 조각이 흩뿌려졌죠."
+      },
+      "FS_CAULD": {
+        "bName": "컬드",
+        "bDesc": "넌 나에게 좋은 남자가 아냐. 나에게 어울리는 사람이 아냐. 넌 내가 아는 그런 사람이 아냐. 넌 나쁜 남자야. 넌 나쁜 남자야. 전에도 본 적이 있고 항상 일어나는 일이죠. 그는 문을 닫고 세상을 뒤로하고 있습니다. 그는 행운을 바라고 있고 감정에 많은 돈을 허비하고 있지만 언젠가는 대가를 치르겠죠."
+      },
+      "REDUSA": {
+        "bName": "레두사의 머리",
+        "bDesc": "고르곤의 머리가 이렇게 둥둥 떠다니는 광경이 평범한 영웅에게는 그다지 이상한 일이 아니죠. 수년간 끔찍한 경험을 해온 탓에 실질적으로는 평범해져 버렸습니다. 레두사는 더 대단하고, 훨씬 더 끔찍하고 치명적이며 완전히 악마적이긴 하지만요. 처음부터 붉게 빛나죠. 여기서 별로 놀라지 않는다면 더는 없어요. 죄송합니다."
+      },
+      "RELLYFISH": {
+        "bName": "붉은 머리 해파리",
+        "bDesc": "인류는 오랫동안 빨간색을 폭력, 열정, 위험과 연관 지어 왔습니다. 피의 색, 우리의 가장 원초적인 두려움과 가장 본능적인 욕망을 일깨우는 색이죠. 술에 취한 해파리 떼가 어두운 밤, 상점에 침입해 케첩을 몽땅 먹어 버리는 광경을 목격하면 두려움도, 욕망도 생기지 않아요. (애초에 해파리들은 이렇게 해서 취한 것이죠)"
+      },
+      "HEMO": {
+        "bName": "피의 이끼",
+        "bDesc": "지옥의 창자에서 끊임없이 배출되어 둥글게 감겨 있다가 공격합니다. 긴장을 늦추지 말고 그들의 위협이 일시적일 것이라고 생각하지도 마세요. 그렇지 않으면 금방 잡혀버리거든요. 그들이 쉴 새 없이 움직이면 초토화되는 건 시간 문제고 수천 명이 대피해야 합니다. 피의 이끼를 씻어내려면 배짱이 필요합니다. 왕관을 쓰려는 자 그 무게를 견뎌야 하니까요. (참고 사항: 게시자에게 덤프하기 전에 이 로그를 무효로 해주세요. 쓰레기거든요)"
+      },
+      "BOSS_XLBLINDER": {
+        "bName": "눈가림 괴물",
+        "bDesc": "자신이 진정한 몽상가라고 생각하는 사신입니다. 흑요석 손가락을 대면 어떤 영웅의 주위에도 어둠의 장막을 던질 수 있지만, 전투를 위해 나타날 때마다 전장은 이미 입자와 색상, 특수 효과로 가득 차서 어쨌든 아무도, 개미 한 마리 볼 수가 없어요."
+      },
+      "FS_ROTGHOUL": {
+        "bName": "부패 구울",
+        "bDesc": "죽음의 악취가 이 역병에 걸린 가여운 녀석들에게 구석구석 불결하게 달라붙어 있습니다. 부패의 사제단이 한때 무고한 주민이었던 이들을 꾀어 보병으로 복무하게 했습니다. 이들은 부패한 집사가 하는 한 마디 한 마디에 매달릴 거예요. 매달릴 만큼 손가락 개수가 멀쩡한 녀석이 한 놈이라도 있다면요."
+      },
+      "FS_FLAMINGSKULL": {
+        "bName": "불타는 해골",
+        "bDesc": "전투 능력이 있음에도 불구하고 그들은 주로 쓰레기를 소각하는 다소 지루한 임무를 수행합니다. 네크로맨서들은 터무니없는 잉여의 존재들이라 분별력 있는 어른처럼 쓰레기 처리도 못 하기 때문이죠. 그래도 심각하게 받아들이지 않는 것은 두개골이 불타고 있어서죠."
+      },
+      "FS_WORM": {
+        "bName": "흐린 기억 속의 신앙충",
+        "bDesc": "신성한 형벌을 받아 강가의 주거지에서 신성 모독자의 배에 스멀스멀 기어오르는 독충입니다. 일단 배에 오르면 사람들을 무자비하게 개종시키며 어쿠스틱한 기타 연주를 쏟아낼 거예요."
+      },
+      "FS_SNAK1": {
+        "bName": "스넉",
+        "bDesc": "이 책에는 이미 다른 색을 가진 유전적으로 동일한 뱀이 수록되어 있죠. 겸손한 현자는 무언가를 스넉이라고 부를 의무가 있다는 점을 잊었으니 이 불필요한 콘텐츠를 즐겨주세요!"
+      },
+      "FS_SHOOTER1": {
+        "bName": "상실의 머리",
+        "bDesc": "괴물의 색깔이 왜 그렇게 수없이 변하는지 아는 사람은 누구일까요? 돌연변이일까요? 마법일까요? 페인트 통을 들고 단어 수를 늘리려고 애쓰는 동화 작가일까요? 아무도 확신할 수 없습니다."
+      },
+      "FS_MEATBALL": {
+        "bName": "해골 미트볼",
+        "bDesc": "매운맛입니다."
+      },
+      "FS_MEATY": {
+        "bName": "팔로와",
+        "bDesc": "머나먼 왕국에서 온 마법사는 그 차가운 얼굴이 어느 날 자기 탑을 포기해 버린 위대한 학자를 닮은 것이 확실하다고 주장했습니다. 마법사는 대담하게 그 생물과 몇 시간 동안 이야기를 나누었습니다. 아무도 감히 끼어들지 못했는데, 밤 공기가 살을 에이듯 차가워서 마법사도 얼어붙어 버렸죠. 마법사의 눈에서 눈물이 얼음이 되어 얼어붙자 마지막으로 한 마디를 전했다고 합니다. \"그녀가 거기 살아있어.\""
+      },
+      "FS_EDNA": {
+        "bName": "에드나",
+        "bDesc": "언뜻 보면 게으른 네크로맨서가 참수된 사마귀에 해골을 고정하는 것으로 하루를 다 보내는 것 같습니다. 두 번 보고, 세 번 봐도 여전히 그렇게 보일 수 있죠. 레너도는 명백히 자기가 한 일이 아니며 에드나가 기록할 가치가 있는 유효한 괴물이라고 단언합니다."
+      },
+      "FS_HORCAULD": {
+        "bName": "냉혹한 컬드",
+        "bDesc": "It’s beautiful life 넌 나의 곁에 있을걸. It’s beautiful life 나의 뒤에 서 있을걸. Beautiful love 하늘 아래 나와 있다면 숨쉬는 것만으로도 좋을 걸. It’s beautiful life, beautiful day 나의 기억에서 네가 살텐데...그는 사랑에 서툴지 않고 규칙을 알고 있어요. 저도 그렇죠."
+      },
+      "FS_HORWORM": {
+        "bName": "우물의 지배자",
+        "bDesc": "동기를 부여하는 이 괴물은 자기가 집이라고 부르는 구멍에 물을 길으러 오는 사람에게 건강과 마음 챙김에 관한 조언을 외칩니다. 부탁한 것도 아닌데 말이죠. 웰빙을 추구하는 진정한 웰빙입니다."
+      },
+      "FS_HORNJUGG": {
+        "bName": "축축한 뉴글스",
+        "bDesc": "이미 젖은 상태에서 축축한 버전으로 간주하려면 얼마나 더 젖어야 하죠? 축축한 뉴글스만큼 젖는다는 말의 의미는. \"수분을 공급해주세요”라는 문구를 극도로 축축하게 만든 친수성 어구죠. 수분을 지배할 능력이 있지만, 그들의 주요 사망 원인이 익사라는 사실은 잔인한 아이러니죠. 그런데도 그들은 높은 지대의 건조한 삶보다는 물기가 흥건한 죽음을 선호한답니다. 습한 것이 더 낫다는 것을 알고 있으니까요."
+      },
+      "FS_HORAILLEN": {
+        "bName": "크로시프리지톤",
+        "bDesc": "항상 얼마나 인기가 많은지 떠벌이는 오우거랍니다. 가장 섹시한 짐승 중 하나라는 지위를 고려하면 거짓말이라고 할 수는 없어요. Foscari 심연 연례 수영복 대회에서 3년 연속 우승했으며 음란한 괴물을 대상으로 발간된 월간지인 “아슬아슬한 송곳니”에서 가장 인기 있는 모델입니다. 비정상적인 생명체의 생물학에 정통한 학자들은 이 바람직한 거대동물이 왜 그토록 욕망을 느끼는지 정확히 이해하기 위해 수년 동안 연구해 왔지만, 그러한 금지된 지식 때문에 온전치 못한 상태가 되고 말았답니다. 그들은 열광적인 저술은 무감각한 만트라에 지나지 않으며 이름이 초대박 섹시라는 섬뜩한 신을 곳곳에서 언급하고 있습니다."
+      },
+      "FS_HORDUERG": {
+        "bName": "그래봤자 노아담",
+        "bDesc": "각자 자기가 분명히 진짜 난쟁이이며 신발을 무릎에 묶고 자신보다 훨씬 작은 척하는 그런 일을 한 인간은 아니라고 단언합니다.  묻지도 않았는데 큰 소리로 공언하고 있는거죠. 의료 보험 혜택을 받으려고 난쟁이로 위장한 건 아니라고요. 이런 행동은 일반적으로 50% 더 진보한 것이며 이익에 관한 동기 부여가 100% 더 덜한 것으로 본답니다."
+      },
+      "FS_HORGLORY": {
+        "bName": "영광의 장갑",
+        "bDesc": "큰 도움을 드릴게요. 봉제 인형 모으기를 좋아하고 강력한 손가락 스냅으로 인형에 생명을 불어넣습니다. 자신의 피조물들이 근접 전투에서 서로를 난폭하고 잔인하게 취급하고 승자를 주먹으로 내리치며 기뻐하는 모습을 지켜보며 흐뭇해하죠. 이것으로 진짜 싸움을 준비하세요. 코를 납작하게 해줄 테니까요."
+      },
+      "FS_HORMARI": {
+        "bName": "마론나 메아",
+        "bDesc": "이 녀석이 밤에 창문으로 기어들어 와 계단을 오르며 거친 소리와 함께 쌕쌕거리는 것을 상상해 보세요. 당신의 침실로 다가와 떨리는 손으로 목에 달린 방울을 움켜쥔 채 문틈으로 응시한답니다. 지켜보고 또 기다리죠. 당신이 자는 동안에는 당신을 존경해요. 한 시간, 어쩌면 두 시간이 지나면 더는 참을 수 없어서 문을 1인치도 움직이지 않고 균열을 통해 미끄러져 들어갑니다. 여기 있어요. 여기서 당신의 눈썹을 핥으려고 해요. 눈썹에 숨겨진 미네랄을 먹으려고요. 1년 동안 매주 수요일에 이런 일이 생길 거예요."
+      },
+      "FS_FMCETHLENN": {
+        "bName": "포모리안",
+        "bDesc": "안0하3ㅔ요! An녕Ha세요?/? 어디 Sum었지?  어어어어어어디RO 간 거Ya? 갔나? 가아아아아아아아아았어??? 우2는 당shiㄴ을 찾으려고 5ㄴ갖 곳을 다 뒤졌Oㅓ요. 당신은 통증 베이스캠프에 있다고 했지만 거기 없던 걸요! 그어어어어어어어기 있다아아아아아아아아아고 했지만 찾을 수 없었어어어어어어어어어어요! \n오… 잠깐만…거기 있군요. \n찾OㅏAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA따!"
+      },
+      "FS_BOSS_JENEVIV": {
+        "bName": "제네비",
+        "bDesc": "공포의 포식자이자 거대한 소비자이며 세상을 먹어 치우는 자입니다. 창조물이라면 모든 것을 맛보았고, 모든 창조물을 게걸스럽게 먹어 치워 표현합니다. 일부는 인간입니다. 일부는 몬스터고요. 일부는 언데드입니다. 일부는 악마고요. 일부는 혐오스럽죠. 뱀파이어가 아닙니다. 아직 뱀파이어를 만나지 못했을 뿐이죠. 정말이지 뱀파이어를 잡아먹고 싶을 거예요 당신이 뱀파이어를 본 적이 있는지 알고 싶어하죠. 당신을 먹어치우고 주변의 물질적인 것도 모조리 먹어 치우려다보니 너무 바빠서 뱀파이어를 본 적이 있는지 묻지 못할 거예요."
+      },
+      "FS_GEF": {
+        "bName": "세푸스",
+        "bDesc": "이 손버릇이 좋지 않은 포유류는 모든 영역에서 가장 지능적인 생물 중 하나라고 합니다. 그렇지만 사람들은 그러한 주장에 관해 회의적이죠. 왜냐하면, 그들은 무리를 지어 적을 향해 생각 없이 달려가는 것보다 더 영리한 일을 할 것 같아 보이지 않거든요. 효과가 있던 적이나 있었을까요?"
       }
     }
   },
@@ -4015,8 +5219,180 @@
         "bDesc": "Sprytny niczym leśny lis Dziewięćdziesiąt dziewięć nocy chroni Miecz nocy przed niegodnymi ludźmi. Nadal nie ustalono, ile dokładnie posiada ogonów, gdyż wszyscy, którzy próbowali je zliczyć, zostali spopieleni, gdy doliczyli do około pięćdziesięciu."
       },
       "MS_SPIRIT1": {
-        "bName": "Mały duch",
-        "bDesc": "Po prostu nie ma czegoś takiego jak duchy. To prawdopodobnie tylko nietoperz pokryty śniegiem i nic więcej."
+        "bName": "Duchello",
+        "bDesc": "Duchy po prostu nie istnieją. To prawdopodobnie tylko nietoperz pokryty śniegiem, nic więcej."
+      },
+      "FS_GOBLIN": {
+        "bName": "Ciamkasz",
+        "bDesc": "Biedne gobliny, które mają dość bycia przedstawianym jako przebiegli, zdradliwi złodzieje. Uważaj, jeśli zszargasz ich imię, mogą się zakraść, wbić ci nóż w plecy i zwinąć torebkę."
+      },
+      "FS_SALMON": {
+        "bName": "Mądrekin",
+        "bDesc": "Należą do jednych z pierwszych bestii, które zadomowiły się w Wielkim Jeziorze i rozumieją jego sekrety oraz tajemnice lepiej niż ktokolwiek. Ironiczne, że dla postronnego obserwatora wyglądają jakby czuły się nieswojo."
+      },
+      "FS_SELKIE": {
+        "bName": "Czub",
+        "bDesc": "Prawdopodobnie są potomkami sumów, co sugerują ich wąsy, spłaszczone głowy i ciekawe zwyczaje żywieniowe, zgodnie z którymi udają dziewice i wabią łatwowiernych rozpustników do swoich złowieszczych kryjówek."
+      },
+      "FS_WULVER": {
+        "bName": "Wulwiusz",
+        "bDesc": "Nie daj się zwieźć, że ci futrzani rybacy są w jakikolwiek sposób spokrewnieni z pospolitym wilkołakiem. Czy widziałeś kiedyś wilkołaka łapiącego bassa wielkogębowego? Nie, ten jeden raz się nie liczy."
+      },
+      "FS_LAMB": {
+        "bName": "Lamuga",
+        "bDesc": "Potomkini legendarnego Warzywnego Jagnięcia, owcy zawieszonej nad ziemią za pomocą potężnej łodygi połączonej z jej pępowiną. Z jej ciała kiełkują inne owce, jak jakieś dziwaczne wełniane owoce. Twój skromny Bajarz tego nie zmyślił. Poważnie, piszą o tym w książkach. Wracajcie do domu, legendy, jesteście pijane."
+      },
+      "FS_HTROW": {
+        "bName": "Górski trol",
+        "bDesc": "Niegdyś była to przerażająca rasa bezwzględnych wojowników – dopóki nie dowiedzieli się, jak bardzo ich dziwaczny wygląd podoba się ludzkim dzieciom. Zerwali wtedy ze swoją krwawą przeszłością i przekonali świat, że są niczym innym jak fikcyjną inspiracją dla linii uroczych lalek. Tak właśnie rządzi się światem – nie poprzez wojnę, a przez wykorzystywanie okazji handlowych."
+      },
+      "FS_STROW": {
+        "bName": "Morski trol",
+        "bDesc": "W przeciwieństwie do swoich kuzynów z wyżyn, morskie trolle nie są ani wystarczająco przerażające, by wyruszyć na wojnę, ani wystarczająco słodkie, by zostać nowym zabawkowym trendem. Pogodziły się ze swoją nieuchronną przeciętnością i skupiły się na hobby, a większość czasu spędzają, malując figurki i przeczesując plaże w poszukiwaniu ciekawych eksponatów."
+      },
+      "FS_CLOWN": {
+        "bName": "Klaun Zachodzącego Słońca",
+        "bDesc": "Zabawie nie ma końca, to Klaun Zachodzącego Słońca! Gdy noc zapada, usłyszysz, jak się skrada, ale nie bój się! Śmiej się i baw, skacz w górę i w dół! Śmiej się i baw, gdy rozerwie cię na pół. Tańczy, śpiewa, podryguje. Jeśli może, całą rodzinę wymorduje. Dziś zabawie nie ma końca, przybył Klaun Zachodzącego Słońca."
+      },
+      "FS_CAKE": {
+        "bName": "Gąsienica Sammy",
+        "bDesc": "To ciasto-gąsienica od Vampire Survivors(™) i rodziny produktów Vampire Survivors! Jeśli masz ponad 30 lat, należy Ci się Gąsienica Sammy na urodzinowym torcie. Jesteś to winien Stanom Zjednoczonym, by Gąsienica Sammy znalazł się na Twoim urodzinowym torcie. Gąsienica Sammy jest znakiem towarowym marki Vampire Survivors(™). Gąsienica Sammy nie jest odpowiednia dla dzieci w wieku 1-29 lat. Gąsienica Sammy nie nadaje się do jedzenia. Gąsienica Sammy nie jest odpowiedzialna za Gąsienicę Sammy ani żadne uszkodzenia wywołane przez Gąsienicę Sammy."
+      },
+      "FS_BROWN": {
+        "bName": "Skrzat",
+        "bDesc": "Niegdyś przyjazna, zaczarowana istotka żyjąca w harmonii w domach ludzi i radośnie wykonująca obowiązki domowe, w zamian prosząc jedynie o życzliwość. Ta pokojowa koegzystencja trwała do czasu, gdy Gildia Właścicieli ogłosiła, że skrzaty liczą się jako dodatkowi domownicy przy obliczaniu czynszu. Walczący o byt wieśniacy byli zmuszeni do wyrzucenia tysięcy skrzatów ze swoich domów. Ich miotły, niegdyś dzierżone w imię schludnego domostwa, dziś są żądne krwi, a przynajmniej gotowe kogoś dobrze posiniaczyć."
+      },
+      "FS_GREEN": {
+        "bName": "Zielony rycerz",
+        "bDesc": "Oryginalny Zielony Rycerz wyzywał odważnych wojowników, by uderzyli go w dowolne miejsce, ale przyrzekał, że powróci rok później, by oddać cios. Te zielonkawe szarlatany dobrze znają legendę swojego przodka i używają jego słynnego wyzwania, by zwabić wrogów przed kopnięciem ich w klejnoty i obcięciem oszołomionej głowy."
+      },
+      "FS_AILLEN": {
+        "bName": "Crocifriggitore",
+        "bDesc": "Jego magiczna harfa potrafi usypiać ludzi setkami. Jego gwałtowne wybuchy żołądkowo-jelitowe potrafią budzić ludzi tysiącami. Stale kompulsywna natura gazowych eksplozji tego wybuchowego goblina zapewnia względne bezpieczeństwo każdemu, kto padnie ofiarą jego posępnej kołysanki."
+      },
+      "FS_DUERG": {
+        "bnAME": "Nicanic",
+        "bDesc": "To krasnoludy. Najzwyklejsze krasnoludy. Czego chcieć więcej? Jakiegoś błyskotliwego nowego spojrzenia na starą legendę? Rozkosznej parodii pełnej gier słów i niesubtelnych alegorii politycznych? Przykro mi, ale nie mam Nicanic do powiedzenia na ich temat poza tym, że są krasnoludami i wierzą w bezpłatną powszechną opiekę zdrowotną."
+      },
+      "FS_GLORY": {
+        "bName": "Ręka chwały",
+        "bDesc": "Te drapieżne dłonie szabrujących więźniów dalej drapią, dziobią, dźgają i rabują. Poza tym są po prostu dziwne i ohydne, FUJ!"
+      },
+      "FS_MARI": {
+        "bName": "Maronna",
+        "bDesc": "Szeroko dyskutuje się o tym, czy ta istota z walijskich legend wyprzedza chrześcijaństwo. Najwyraźniej tak, bo w przeciwnym razie pierwsza wzmianka na jej temat brzmiałaby: „Jezu Chryste, co to, na Boga, jest?”."
+      },
+      "FS_NJUGG": {
+        "bName": "Pstrągokoń",
+        "bDesc": "Piękny, lecz podły wierzchowiec, który zwinnie łączy w sobie mocne strony dwóch składających się na niego form bez żadnych słabości. Rozmiar, siła i wytrzymałość konia w połączeniu z bezkonkurencyjną okrutnością śledzia. Ci, którzy odważyli się go dosiąść, szybko zostali zaciągnięci na dno jeziora, jakby nie rozumiejąc, że mogą po prostu zejść i odpłynąć."
+      },
+      "FS_HAG": {
+        "bName": "Przeciętna czarownica",
+        "bDesc": "Jeśli chcesz zyskać przychylność tej nienażartej czarownicy, musisz przynieść dla niej jej ulubiony deser – czarną czekoladę z czereśniami. Ale nie możesz po prostu dać jej prezentu, musisz trochę poczarować, by go przyjęła."
+      },
+      "FS_MUSH_HP": {
+        "bName": "Grzyboman",
+        "bDesc": "Umiejętność Biosyntezy pozwala Grzybomanowi odzyskać 250 PZ w ciągu 5 sekund, w trakcie których jego umiejętność Promień Uzdrowienia dodaje 50% więcej zdrowia. Chmura zarodników zadaje 134 obrażeń i spowalnia na 4 sekundy wszystkich wrogów, którzy wejdą w jej promień. Fakt, że Grzyboman – choć najwyraźniej stworzony do walki – nie robi żadnej z tych rzeczy, sprawia, że jest raczej bezużyteczny."
+      },
+      "FS_GGHOST": {
+        "bName": "Upiorna zjawa",
+        "bDesc": "Prawdziwy, autentyczny, nieudawany duch. Tylko żartuję. Duchy nie są i nigdy nie będą prawdziwe. Prędzej można by nazwać to wampirem niż duchem, choć wampira też nigdy nie widziałem."
+      },
+      "FS_BOSS_AGAEA": {
+        "bName": "Awatara Gai",
+        "bDesc": "W czasach pilnej potrzeby, gdy zagrożony jest sam ład naturalny, wielkie zjednoczenie obfitości życia objawia się cieleśnie jako istota o takim wdzięku i pięknie, że cywilizacje padają z podziwu na kolana. Najczystsze wcielenie tego, co dobre i prawdziwe, fizyczna forma samego serca planety. Kiedyś rozbiła kopytem głowę mężczyzny za sikanie do jeziora. Krew, odłamki czaszki i tak dalej."
+      },
+      "FS_CAULD": {
+        "bName": "Zimowit",
+        "bDesc": "Jest zimny jak lód, gotów, by zginąć dla miłości. Nigdy nie przyjmuje rad, kiedyś kogoś rozzłości. Już to widziałem, to ciągle się dzieje. Zamyka drzwi, odrzuca nadzieję. Szukając przepychu, traci uczucia – jego skarb. Kiedyś zrozumie, że nie był tego wart."
+      },
+      "REDUSA": {
+        "bName": "Głowa Meduzy",
+        "bDesc": "Na przeciętnym bohaterze widoki takie jak unosząca się głowa gorgony raczej nie robią już wrażenia – po latach wstrząsających doświadczeń stały się niemal codziennością. Głowa Meduzy to coś większego, coś straszliwszego, bardziej niebezpiecznego i najzwyczajniej diabolicznego. Zacznijmy od tego, że jest czerwona. Jeśli to cię nie przeraża, to nic lepszego nie wymyślę. Przykro mi."
+      },
+      "RELLYFISH": {
+        "bName": "Czerwona meduza",
+        "bDesc": "Ludzie od dawna kojarzyli kolor czerwony z przemocą, cierpieniem i niebezpieczeństwem. Kolor krwi budzi w nas nasze najprymitywniejsze lęki oraz najbardziej instynktowne pragnienia. Jednak ani lęk, ani pożądanie nie są reakcją na widok bandy pijanych meduz, które nocą włamują się do sklepu, by wypić cały ketchup (bo tak właśnie upijają się meduzy)."
+      },
+      "HEMO": {
+        "bName": "Krwawy mech",
+        "bDesc": "Nieustannie wydalany z wnętrzności piekła, by atakować. Nie lekceważ go, bo czeka cię kupa problemów. Nie tylko sieje postrach, ale też nie wygląda najlepiej. I nie najlepiej pachnie. Odważny wojownik, który stanie z nim do walki [JESZCZE JEDNA GRA SŁÓW O KUPIE], powinien mieć mocny żołądek. (Notatka do samego siebie: usunąć ten zapis, zanim wydawca się na nim skupi. Jest do dupy)."
+      },
+      "BOSS_XLBLINDER": {
+        "bName": "Oślepiacz",
+        "bDesc": "Żniwiarz, który uważa się za prawdziwego wizjonera. Potrafi rzucić zasłonę ciemności na każdego bohatera, na którym położy swój obsydianowy palec. Jednak za każdym razem, gdy pojawia się na polu bitwy, jest ono tak pełne cząsteczek, kolorów i efektów specjalnych, że i tak nikt tego nie widzi."
+      },
+      "FS_ROTGHOUL": {
+        "bName": "Gnijący ghul",
+        "bDesc": "Odór śmierci przenika każdy centymetr ciała tych nieprzyjemnych nieszczęśników. Ci niegdyś niewinni wieśniacy zostali zamienieni przez Kapłanów Rozkładu w żołnierzy piechoty. Kurczowo trzymaliby się każdego słowa swoich Gnijących Diakonów, jeśli którykolwiek z nich miałby wystarczającą ilość palców."
+      },
+      "FS_FLAMINGSKULL": {
+        "bName": "Płonąca czaszka",
+        "bDesc": "Pomimo swej sprawności w boju służą głównie raczej nudnemu celowi spalania śmieci. To dlatego, że nekromanci są absurdalnie dramatyczni i nie potrafią nawet raz w tygodniu zająć się śmieciami jak rozsądni dorośli. Jednak nietraktowanie ich poważnie prowadzi do kremacji czaszki."
+      },
+      "FS_WORM": {
+        "bName": "Zaginiony kościół",
+        "bDesc": "Jadowite robaki, które wypełzają ze swych rzecznych kryjówek i odnajdują łodzie bluźnierców jako kara boska. Na pokładzie zaczynają bezlitośnie nawracać w akompaniamencie akustycznej muzyki gitarowej."
+      },
+      "FS_SNAK1": {
+        "bName": "Wonsz",
+        "bDesc": "W tym tomie znajduje się już wpis o genetycznie identycznym wężu w innym kolorze. Twój skromny Bajarz zapomniał, że zgodnie z umowami musi nazwać coś Wonszem, dlatego możesz cieszyć się tymi zbędnymi treściami!"
+      },
+      "FS_SHOOTER1": {
+        "bName": "Zaginiona głowa",
+        "bDesc": "Kto wie, jak i dlaczego potwory mają tyle wersji kolorystycznych. Mutacja? Czarnoksięstwo? Pisarz bestiariusza z wiadrem farby, próbujący wypocić umówioną ilość słów? Nikt nie wie na pewno."
+      },
+      "FS_MEATBALL": {
+        "bName": "Klops",
+        "bDesc": "Pikantny."
+      },
+      "FS_MEATY": {
+        "bName": "Folloua",
+        "bDesc": "Mag z odległej krainy przysięgał, że jego zimna twarz przypominała wielkiego uczonego, który pewnego dnia porzucił swoją wieżę. Odważył się pomówić z istotą, a ich rozmowa trwała godzinami. Nikt nie odważył się im przerwać, nawet gdy nocne powietrze zamarzło, a mag, urzeczony, zamarzł wraz z nim. Podobno, gdy łzy w jego oczach zamieniały się w lód, jego ostatnie słowa brzmiały: „Jest tam żywa”."
+      },
+      "FS_EDNA": {
+        "bName": "Edna",
+        "bDesc": "Na pierwszy rzut oka wygląda, jakby leniwy nekromanta przymocował czaszkę do bezgłowej modliszki i stwierdził, że po robocie. Na drugi i trzeci rzut oka też tak wygląda. Renardo zapiera się jednak, że tak nie zrobił, a Edna to normalny potwór wart uwagi."
+      },
+      "FS_HORCAULD": {
+        "bName": "Zimny Zimowit",
+        "bDesc": "Jego życiu zawsze towarzyszył ból serca i cierpienie. Nie wie czy zniesie tego więcej. Nie może się teraz zatrzymać, przebył już tak daleką drogę, by zmienić swoje samotne życie… miłość nie jest mu obca. Oboje wiemy o co chodzi."
+      },
+      "FS_HORWORM": {
+        "bName": "Studniowiec",
+        "bDesc": "Ten motywujący potwór wykrzykuje dobrowolne rady o zdrowiu i świadomości do każdego, kto czerpie wodę z dziury, którą zwie domem. To na dobre samopoczucie."
+      },
+      "FS_HORNJUGG": {
+        "bName": "Mokry pstągokoń",
+        "bDesc": "Jak mokrym trzeba być, by zostać uznanym mokrą wersją czegoś, co już było mokre? Mniej więcej tak mokrym jak mokry pstrągokoń, wodny wierzchowiec, który potraktował wyrażenie „nawadniaj się” nieco zbyt poważnie.  Okrutną ironią jest to, że pomimo ich mistrzowskiego opanowania wilgoci główną przyczyną śmierci mokrych pstrągokoni jest utonięcie. Jednak i tak wolą wodny grób niż usychać na lądzie, bo rozumieją, że im mokrzej, tym lepiej."
+      },
+      "FS_HORAILLEN": {
+        "bName": "Crocifriggitone",
+        "bDesc": "Ogr, który zawsze przynudza o tym, jaki jest seksowny. Choć trzeba przyznać, że nie kłamie – cieszy się opinią jednej z najponętniejszych bestii w okolicy. Wygrał Coroczny Konkurs Kostiumów Kąpielowych Otchłani Foscari trzy lata z rzędu i jest zdecydowanie najpopularniejszym modelem OnlyFangs, miesięcznika stworzonego dla miłośników rogaczy. Uczeni specjalizujący się w biologii dziwacznych stworzeń spędzili lata, badając tego pożądanego potwora, by zrozumieć, czemu właściwie jest tak pociągający, jednak ta zakazana wiedza najwyraźniej wpędziła ich w obłęd. Ich rozgorączkowane notatki to niewiele więcej niż pozbawione sensu mantry pełne odniesień do przedwiecznego boga o imieniu Dad Bod."
+      },
+      "FS_HORDUERG": {
+        "bName": "Wciąż nicanic",
+        "bDesc": "Każdy z nich przysięga, że na pewno jest prawdziwym krasnoludem, a nie człowiekiem, który przywiązał buty do kolan, by udawać, że jest znacznie niższym niż w rzeczywistości. Mają tendencję, by ogłaszać – bez pytania – że nie przebrali się za krasnoludów, aby uzyskać dostęp do ich opieki zdrowotnej, która jest uznawana za o 50% bardziej zaawansowaną i 100% mniej motywowaną zyskami."
+      },
+      "FS_HORGLORY": {
+        "bName": "Rękawica chwały",
+        "bDesc": "Zawsze służy pomocną dłonią. Lubi zbierać pluszowe lalki i ożywiać je pstryknięciem potężnych palców. Później przygląda się z radością brutalnym walkom wręcz swoich tworów, by na koniec z rozkoszą przyłożyć pięścią wygranemu. Przygotuj się na prawdziwą awanturę – lubi trzymać wszystkich w garści."
+      },
+      "FS_HORMARI": {
+        "bName": "Kozia Maronna",
+        "bDesc": "Wyobraź sobie, że to coś wpełza w nocy przez twoje okno, by ze świszczącym oddechem i trzeszczącymi kośćmi wspiąć się po schodach. Zbliża się do twojej sypialni, drżącą ręką ściskając dzwonek wokół swojej szyi, gdy przygląda ci się przez uchylone drzwi. Obserwując. Czekając. Podziwiając cię, gdy śpisz. Po godzinie, może dwóch, nie może dłużej się powstrzymywać i wślizguje się przez szparę w drzwiach, nie otwierając ich ani o centymetr szerzej. Jest tu. Jest tu, by polizać twoje brwi. Pragnie składników odżywczych, rozumiesz, minerałów skrytych w twoich brwiach. Będzie to robić co środę przez rok."
+      },
+      "FS_FMCETHLENN": {
+        "bName": "Fomoranie",
+        "bDesc": "H4loo0! H4lo0o! gdIE SiiiĘ ukrYW4SZ??  gdDDdZie jjj...3steŚ? JEEESteś? jESsSsSteŚśŚ? WszĘDDZ!e C!Ę szuuUuUkaLL!ŚmY. MiiEeLI$ciE bYYć w B@ziE, @LeEe WAS n!e BYyŁo! MiiEeLI$ciE bYYć DEEEEEEE EL CEEEEEEEEE, @LeEe n!e Mo0oŻEmy W@sSs ZNaleŹŹźĆ! \n\nOch... chwila... tu jesteście. \n\nm@@aAMy WAAAAAAAAAAAAAAAAaaaaaaaaaaaaaaaaSSsS!"
+      },
+      "FS_BOSS_JENEVIV": {
+        "bName": "Je-Ne-Viv",
+        "bDesc": "Pochłaniaczka lęków, wielka zjadaczka, pożeraczka światów. Zakosztowała już wszystkiego, co było do zjedzenia a każdy byt jest odzwierciedlony w jej żarłocznej formie. Jest częściowo człowiekiem. Częściowo potworem. Częściowo nieumarłym. Częściowo demonem. Częściowo abominacją. Nie jest wampirem. Jeszcze nie spotkała wampira. Bardzo chciałaby zjeść wampira. Chce wiedzieć, czy widzieliście jakiegoś wampira. Będzie zbyt zajęta jedzeniem ciebie i wszystkiego, co cielesne, żeby zapytać."
+      },
+      "FS_GEF": {
+        "bName": "Ceffoose",
+        "bDesc": "Podobno te nieumiejące trzymać rąk przy sobie ssaki należą do najinteligentniejszych stworzeń we wszystkich światach. Jednak fakt, że zdają się nie robić nic więcej poza bezmyślnym biegiem  w kierunku wroga, napawa sceptycyzmem. Czy to kiedykolwiek zadziałało?"
       }
     }
   },
@@ -4516,8 +5892,180 @@
         "bDesc": "Velhaca astuta das florestas, a Noventa e Nove Noites defende a Espada da Noite de usuários indignos. Ainda não se sabe quantas caudas ela tem: geralmente, quem chega na 50ª morre incinerado."
       },
       "MS_SPIRIT1": {
-        "bName": "Pequeno fantasma",
-        "bDesc": "Simplesmente não existem fantasmas. Este é provavelmente apenas um morcego coberto de neve e nada mais."
+        "bName": "Espiritello",
+        "bDesc": "Fantasmas simplesmente não existem. Isso, provavelmente, é só um morcego coberto de neve, nada além disso."
+      },
+      "FS_GOBLIN": {
+        "bName": "Chompo",
+        "bDesc": "Coitados dos goblins, estão cansados de serem erroneamente retratados como ladrões sorrateiros que apunhalam as vítimas pelas costas. Fique sabendo que, se você difamá-los, eles podem chegar silenciosamente, te apunhalar pelas costas e limpar a sua carteira."
+      },
+      "FS_SALMON": {
+        "bName": "Peixe Aquático",
+        "bDesc": "Estão entre as primeiras criaturas que se estabeleceram no Grande Lago e, portanto, conhecem os segredos e mistérios da região melhor do que qualquer outra, possivelmente. Então, é uma grande ironia que observadores casuais os enxerguem como peixes fora d'água."
+      },
+      "FS_SELKIE": {
+        "bName": "Noz-condida",
+        "bDesc": "Parecem descendentes dos peixes-gatos, como sugerem suas vibrissas, cabeças chatas e curiosos hábitos alimentares, que incluem posar como donzelas virginais a fim de atrair sedutores ingênuos para suas tocas sinistras."
+      },
+      "FS_WULVER": {
+        "bName": "Vulvio",
+        "bDesc": "Não se engane, esses pescadores peludos não têm relação alguma com os lobisomens comuns. Você já viu algum lobisomem pescar um achigã? Não, aquela vez não conta."
+      },
+      "FS_LAMB": {
+        "bName": "Lammuga",
+        "bDesc": "Descendentes do lendário Cordeiro Vegetal, uma ovelha suspensa por um poderoso caule conectado ao seu cordão umbilical. Do seu corpo, brotam outras ovelhas, formando uma espécie de fruto de lã bizarro. E isso não é invenção minha, humilde Cronista de Lendas que vos escreve. É sério, você encontra isso em livros. Pode suspender a bebida do folclore."
+      },
+      "FS_HTROW": {
+        "bName": "Trow da Montanha",
+        "bDesc": "Era, no passado, uma raça temida de guerrilheiros até que descobriram que sua aparência excêntrica cativava crianças humanas. Desde então, apagaram o passado sanguinário e convenceram o mundo de que são apenas a inspiração fictícia para uma linha de adoráveis bonecos. É assim que se controla o mundo – não através de guerras e, sim, da venda de produtos."
+      },
+      "FS_STROW": {
+        "bName": "Trow do Mar",
+        "bDesc": "Ao contrário dos primos montanhosos, os Trows do Mar não são nem tão temíveis para fazer guerra e nem tão fofinhos para serem o próximo brinquedo do momento. Ao aceitar a própria mediocridade inescapável, se transformaram em fanáticos por hobbies e gastam a maioria dos dias pintando estatuetas e procurando quinquilharias na praia."
+      },
+      "FS_CLOWN": {
+        "bName": "Sam, o Palhaço de Sandown",
+        "bDesc": "Fique bem, não fique mal, é o Sam, o Palhaço de Sandown! Quando a noite cair, você vai o ouvir, mas não sinta medo se o Sam surgir! Só sorria e gargalhe com o grande bobão, sorria e gargalhe enquanto ele te rasga com a mão. Ele vai dançar, ele vai caracolar, ele vai trucidar famílias inteiras se você deixar. Fique bem, não fique mal, o Palhaço de Sandown está na cidade e isso não é nada mau."
+      },
+      "FS_CAKE": {
+        "bName": "Samuca, a Lagarta",
+        "bDesc": "É o bolo lagarta de Vampire Survivors(™) e da família de produtos Vampire Survivors! Se tiver mais de 30 anos, você deve a si ter Samuca, a Lagarta como bolo de aniversário. Você deve a NÓS ter Samuca, a Lagarta como bolo de aniversário. Samuca, a Lagarta é uma marca registrada da marca Vampire Survivors(™). Samuca, a Lagarta não é indicada para crianças entre 1 e 29 anos. Samuca, a Lagarta não é comestível. Samuca, a Lagarta não é responsável por Samuca, a Lagarta ou nenhum ferimento que tenha relação com Samuca, a Lagarta."
+      },
+      "FS_BROWN": {
+        "bName": "Brownie",
+        "bDesc": "No passado, eram criaturas fantásticas amistosas que viviam harmoniosamente em lares humanos e executavam tarefas domésticas com alegria, pedindo apenas gentileza em troca. Essa coexistência pacífica perdurou até a Guilda dos Senhorios decretar que os Brownies passariam a ser considerados ocupantes adicionais para fins do cálculo do aluguel. Aldeões com dificuldades financeiras foram obrigados a expulsar milhares de Brownies. Suas vassouras que, no passado, eram utilizadas em nome da limpeza doméstica agora são empunhadas para tirar sangue. Ou, pelo menos, causar ferimentos leves."
+      },
+      "FS_GREEN": {
+        "bName": "Cavaleiro Verde",
+        "bDesc": "O Cavaleiro Verde original desafiava guerreiros corajosos a golpearem qualquer parte do seu corpo livremente, mas jurava que retornaria um ano depois para retribuir a pancada na mesma moeda. Esses charlatães com cor de burro quando foge conhecem bem a lenda do seu progenitor e usam o desafio lendário para se aproximar dos inimigos, chutar suas fuças e cortar suas cabeças desnorteadas."
+      },
+      "FS_AILLEN": {
+        "bName": "Crocifriggitore",
+        "bDesc": "Sua harpa mágica pode colocar centenas para dormir. Suas ardentes explosões gastrointestinais podem despertar milhares. A natureza consistentemente compulsiva das explosivas expulsões desse goblin gasoso fornece relativa segurança a todas as vítimas de sua sombria canção de ninar."
+      },
+      "FS_DUERG": {
+        "bnAME": "Lhufas",
+        "bDesc": "São anões. Tipo, anões normais. Você queria mais alguma coisa? Algum causo folclórico conhecido com uma reviravolta brilhante? Uma deliciosa paródia repleta de trocadilhos e alegorias políticas escancaradas? Desculpa, mas não tenho Lhufas pra te dizer, só que eles são anões e acreditam na saúde universal gratuita."
+      },
+      "FS_GLORY": {
+        "bName": "Mão da Glória",
+        "bDesc": "Essas patas pusilânimes de prisioneiros perigosos propagam prelúdios politraumáticos com presteza, perversidade e um punhado de picaretagem peremptória. Também tem que elas são muito repugnantes e nojentas, ECA!"
+      },
+      "FS_MARI": {
+        "bName": "Maronna",
+        "bDesc": "Muito se discute sobre se essa criatura mítica galesa precede o cristianismo. Ela claramente precede, senão o primeiro registro histórico da sua aparição certamente seria \"Meu Jesus, que coisa renunciada por Deus é essa?\""
+      },
+      "FS_NJUGG": {
+        "bName": "Njuggles",
+        "bDesc": "Um corcel lindo, porém malévolo, que habilmente maneja todos os poderes das duas formas que o compõem, excluindo as fraquezas. O tamanho, força e vigor de um cavalo combinados com a crueldade incomparável de uma truta. Aqueles que ousaram montá-lo foram rapidamente arrastados para o fundo do lago; aparentemente não sabiam que podiam simplesmente descer e nadar até a margem."
+      },
+      "FS_HAG": {
+        "bName": "Bruxa Mediana",
+        "bDesc": "Se quiser cair nas graças dessa bruxa consumada, você precisa preparar sua refeição favorita: ensopado de meia mixina com meio pado-do-alvão e, de acompanhamento, meia buchada de ovelha. No entanto, não se pode simplesmente oferecer tal prato de bom grado, já que ela vai insistir em meio que encher o saco por isso."
+      },
+      "FS_MUSH_HP": {
+        "bName": "Homem-fungo",
+        "bDesc": "A habilidade Biossíntese permite que o Homem-fungo recupere 250 PV em 5 segundos e, durante esse tempo, sua habilidade Raio Curador concede 50% a mais de vida. A Nuvem de Esposos causa 134 de dano e deixa todos os inimigos que toca mais lentos por quatro segundos. Embora claramente tenha nascido para a batalha, o fato de que o Homem-fungo não faz nenhuma dessas coisas em combate o torna um tanto inútil."
+      },
+      "FS_GGHOST": {
+        "bName": "Aparição Fantasmagórica",
+        "bDesc": "Um fantasma genuíno, autêntico e, juro pela minha mãe, legítimo. Brincadeirinha. Fantasmas não existem e nunca vão existir. É mais fácil eu chamar esse troço de vampiro do que de fantasma de verdade, e eu também nunca vi nenhum vampiro."
+      },
+      "FS_BOSS_AGAEA": {
+        "bName": "Avatar de Gaea",
+        "bDesc": "Em tempos de extrema necessidade, quando até mesmo a ordem natural está em perigo, uma grande coalescência da benevolência de toda a vida concebe corporalmente um ser de tanta graça e beleza que é capaz de fazer civilizações inteiras se ajoelharem em reverência. A encarnação mais pura daquilo que é virtuoso e verdadeiro, o próprio coração do planeta concretizado. Uma vez, usou seu casco para destruir a cabeça de um homem porque ele estava urinando no lago. Sangue e cacos de crânio pra tudo quanto é lado."
+      },
+      "FS_CAULD": {
+        "bName": "Friorento",
+        "bDesc": "Frio como gelo, ele está disposto a sacrificar nosso amor. Nunca aceita conselhos e um dia vai pagar o alto preço. Já vi isso antes, acontece todo o tempo, ele está fechando a porta e para correr como o vento. Ele está em busca de ouro, jogando fora uma fortuna de sentimentos, mas um dia ele vai pagar."
+      },
+      "REDUSA": {
+        "bName": "Cabeça de Merrubra",
+        "bDesc": "Para o herói comum, ver cabeças de górgona flutuantes já não é mais tão estranho e se tornou praticamente trivial por conta dos anos de experiências angustiantes. A Merrubra é algo maior, mais terrível, letal e, simplesmente, diabólico. Pra começar, ela é vermelha. Se você não acha isso aterrorizante, não sei mais o que dizer. Foi mal."
+      },
+      "RELLYFISH": {
+        "bName": "Água-vermelha",
+        "bDesc": "Faz tempo que a humanidade associa a cor vermelha com violência, paixão e perigo. A cor do sangue desperta tanto os nossos medos mais primitivos quanto nossos desejos mais instintivos. Nem medo e nem desejo se manifestam quando você testemunha um grupelho de águas-vivas bêbadas invadindo uma loja durante a noite pra beber todo o ketchup que estiver pela frente (que, aliás, foi o que deixou as águas-vivas bêbadas pra começo de conversa)."
+      },
+      "HEMO": {
+        "bName": "Musgo de Sangue",
+        "bDesc": "Expelidos incessantemente pelas entranhas do Inferno, espiralado para atacar. Não relaxe as ancas e pense que são uma ameaça medíocre, senão eles vão te pegar de surpresa com movimentos que assolam sem descanso e forçam milhares a evacuar. É preciso força para enviá-los esgoto abaixo, somente [MAIS UM TROCADILHO DE MERDA] aguarda o guerreiro que corre para o trono (nota mental: mandar esse texto pro ralo antes de passar o fax pra editora. Tá uma bosta)."
+      },
+      "BOSS_XLBLINDER": {
+        "bName": "O Cegante",
+        "bDesc": "Um ceifador que se considera um verdadeiro visionário. É capaz de conjurar um véu de escuridão ao redor de qualquer herói tocado por seu dedo negro. Mas, toda vez que ele aparece para lutar, a campo de batalha já está tão cheio de partículas, cores e efeitos especiais que ninguém consegue ver nada mesmo."
+      },
+      "FS_ROTGHOUL": {
+        "bName": "Carniçal Putrefato",
+        "bDesc": "O fedor da morte está presente em todo centímetro repugnante desses miseráveis pestilentos. No passado, eram aldeões inocentes até que foram corrompidos pela Diocese da Putrefação para servir como soldados rasos. Eles se agarrariam a todas as palavras proferidas por seus Diáconos Decadentes, caso tivessem dedos suficientes para agarrar."
+      },
+      "FS_FLAMINGSKULL": {
+        "bName": "Caveira Flamejante",
+        "bDesc": "Apesar do talento no combate, elas têm como principal função a entediante tarefa de incinerar lixo, só porque necromantes se acham muito e não conseguem nem tirar o lixo como adultos sensatos. Ainda assim, não levá-las a sério significa sofrer cremação craniana."
+      },
+      "FS_WORM": {
+        "bName": "Missa Perdida",
+        "bDesc": "Vermes venenosos que se arrastam de suas tocas ribeirinhas em direção a barcos de blasfemadores como forma de punição divina. Já a bordo, lançam uma torrente impiedosa de proselitismo e fazem um luau com direito a violão."
+      },
+      "FS_SNAK1": {
+        "bName": "Codra",
+        "bDesc": "Este tomo já tem um verbete sobre uma cobra geneticamente idêntica de cor diferente. Já que eu, humilde Cronista de Lendas, esqueci que por contrato tinha a obrigação de batizar algo de Codra, desfrute deste conteúdo supérfluo à vontade!"
+      },
+      "FS_SHOOTER1": {
+        "bName": "Cabeça Perdida",
+        "bDesc": "Quem pode dizer como ou por que existem monstros com tantas inversões de cores? Mutação? Feitiçaria? A pessoa responsável pelo bestiário com um balde de tinta tentando aumentar a quantidade de palavras que está escrevendo? Nunca saberemos."
+      },
+      "FS_MEATBALL": {
+        "bName": "Bola de Carne",
+        "bDesc": "Picante."
+      },
+      "FS_MEATY": {
+        "bName": "Seguidore",
+        "bDesc": "Um mago de um reino distante jurava que o rosto gelado de Seguidore lembrava o de uma grande sábia que, um dia, abandonou a torre do mago. Destemidamente, ele ousou conversar com a criatura e assim o fez por horas. Ninguém se atreveu a interferir, mesmo quando o ar noturno congelou e o mago, atônito, congelou junto. Dizem que ele balbuciou suas últimas palavras enquanto suas lágrimas viravam gelo: \"Ela está viva aí\"."
+      },
+      "FS_EDNA": {
+        "bName": "Edna",
+        "bDesc": "À primeira vista, parece que um necromante preguiçoso aparafusou um crânio num louva-a-deus decapitado e vida que segue. À segunda e terceira vistas, continua parecendo. Renardo jura de pé junto que a intenção não foi essa e que Edna é um monstro válido, digno de registro."
+      },
+      "FS_HORCAULD": {
+        "bName": "Muito Friorento",
+        "bDesc": "Houve angústia e dor em sua vida. Ele não sabe se pode encarar mais feridas. Muito tarde para parar, ele chegou longe demais e quer mudar essa triste vida... E nessa loucura de dizer que não te quer, vai negando as aparências, disfarçando as evidências..."
+      },
+      "FS_HORWORM": {
+        "bName": "Monstro do Poço",
+        "bDesc": "Este monstro motivacional grita, sem ninguém pedir, conselhos sobre saúde e plenitude para qualquer um que pegue água do buraco que ele chama de lar. Foi empossado como o famoso moço nada grosso do fosso."
+      },
+      "FS_HORNJUGG": {
+        "bName": "Njuggles Molhado",
+        "bDesc": "Qual nível de umidade você precisa atingir para ser visto como a versão molhada de uma coisa que já é molhada? O mesmo nível do Njuggles Molhado, um equino aquoso que leva a frase \"hidrate-se\" ao seu mais encharcado extremo. Apesar da habilidade com a água, a ironia cruel é que a maior causa de morte entre essas criaturas é o afogamento. Independentemente disso, eles preferem um túmulo aguado a viver tomando banho de sol, pois consideram que quanto mais molhado, melhor."
+      },
+      "FS_HORAILLEN": {
+        "bName": "Crocifiggitone",
+        "bDesc": "Um ogro que está sempre falando sobre como ele é gostoso. Mas ninguém pode acusá-lo de ser mentiroso, dado o seu prestígio como uma das feras mais sensuais do pedaço. Ele venceu a Competição Anual de Traje de Banho do Abismo Foscari três anos seguidos e é, de longe, o modelo mais popular do OnlyCãs, uma publicação mensal criada por e para monstros safados. Os grandes estudiosos da biologia de criaturas anômalas passaram anos analisando esse desejado colosso a fim de compreender por que ele é tão cobiçado, mas esse conhecimento proibido os fez abrir mão da própria sanidade: produziram escritos alucinados que muito se assemelham a mantras inconscientes cheios de referências a um deus sobrenatural chamado Kipôp Pozão."
+      },
+      "FS_HORDUERG": {
+        "bName": "Bulhufas",
+        "bDesc": "Eles juram que são anões de verdade e não humanos que fizeram aquele negócio de amarrar o sapato no joelho pra fingir que são mais baixos do que realmente são. Tendem a declarar em alto e bom som, sem ninguém pedir, que não estão disfarçados de anões para ter acesso ao plano de saúde deles, que é considerado 50% mais avançado e 100% sem fins lucrativos."
+      },
+      "FS_HORGLORY": {
+        "bName": "Luva da Glória",
+        "bDesc": "Está aqui para te dar uma baita mão. Ela gosta de recolher bonecos de pelúcia e trazê-los à vida com o estalar de seus poderosos dedos. Com muita alegria, assiste às suas criações brutalizarem umas às outras violentamente em combate corpo a corpo e, com satisfação, esmaga o vencedor com toda força. Prepare-se para uma boa peleja: ela veio para arrasar."
+      },
+      "FS_HORMARI": {
+        "bName": "Maronna Meea",
+        "bDesc": "Imagine essa coisa se arrastando janela adentro à noite, ofegante, com um sussurro rouco, tremendo enquanto sobe as escadas. Ela se aproxima do seu quarto, segurando o sino que tem no pescoço com a mão estremecida e espia pela porta entreaberta. Observa. Aguarda. Admira você dormindo. Uma hora ou duas depois, ela não consegue mais resistir e desliza pela fresta, sem sequer encostar na porta. Ela está aqui. Está aqui para lamber suas sobrancelhas. Ela quer os nutrientes, sabe, os minerais que as suas sobrancelhas escondem. E vai fazer isso toda quarta-feira, durante um ano."
+      },
+      "FS_FMCETHLENN": {
+        "bName": "Fomorianos",
+        "bDesc": "Ol4aAá! Ol@@á?/? onDE cê Tá s3 EsConDendo?  4oNdEEEE vo..cê f0i? CADÊ? c4dEeEeEeEe33ê??? jÁ T3 Pr0cur4MOs eM T0dO C@nt0. CÊ Diss3 qu3 t4vA N4 Campanha-Base, mas N@o TAv4, nãÃãÃO! disS3 que taVA no DEEEEÊ ÉLE CEEEEEEEÊ, mas NÃo te Ach4moOoO00s! \n\nAh... peraí... você tá aí. \n\nACH0000000000000000000000000000000000000000000000000000000000000000000U!"
+      },
+      "FS_BOSS_JENEVIV": {
+        "bName": "Je-Ne-Viv",
+        "bDesc": "O terrível glutão, o grande consumidor, o devorador de mundos. Já provou tudo aquilo que a criação tem a oferecer, e toda a criação está refletida em sua forma voraz. É parte humano. Parte monstro. Parte morto-vivo. Parte demônio. Parte abominação. Não é um vampiro. Ainda está para conhecer um vampiro. Gostaria muito de comer um vampiro. Quer saber se você já viu algum vampiro. Mas vai estar ocupado demais comendo você e tudo que tiver um corpo perto de você para perguntar se você já viu um vampiro."
+      },
+      "FS_GEF": {
+        "bName": "Ceffoose",
+        "bDesc": "Dizem que esses mamíferos atrevidos estão entre as criaturas mais inteligentes de todos os reinos. No entanto, há quem duvide de tal afirmação, pois parece que eles não fazem nada mais inteligente do que correr sem pensar na direção dos inimigos aos montes. Isso já funcionou em alguma situação?"
       }
     }
   },
@@ -5017,8 +6565,180 @@
         "bDesc": "Хитрая бесовская лисица. Живет в лесах и охраняет меч ночи от рук недостойных. Пока еще не удалось выяснить, сколько же у нее хвостов, поскольку всех считающих испепеляют, когда они доходят примерно до пятидесятого."
       },
       "MS_SPIRIT1": {
-        "bName": "Маленький призрак",
-        "bDesc": "Призраков просто не существует. Вероятно, это просто летучая мышь, засыпанная снегом, и ничего больше."
+        "bName": "Мини-призрак",
+        "bDesc": "Приведений не существует. Просто какую-то летучую мышь засыпало снегом, вот и всё."
+      },
+      "FS_GOBLIN": {
+        "bName": "Чомпо",
+        "bDesc": "Бедненьких гоблинов уже достало, что их вечно выставляют коварными воришками, готовыми предать по щелчку. И будьте с ними осторожней: если они оскорбятся, то могут коварно подкрасться, всадить вам нож в спину и стянуть кошелек."
+      },
+      "FS_SALMON": {
+        "bName": "Премудрыб",
+        "bDesc": "Они были одними из первых тварей, поселившихся в Великом озере, а потому знают его тайны и загадки едва ли не лучше всех. Какая же ирония, что в глазах сторонних наблюдателей это всего лишь бьющаяся на песке рыба."
+      },
+      "FS_SELKIE": {
+        "bName": "Мускат",
+        "bDesc": "Судя по всему, они произошли от сомов — видели, какие усы? А большие сплющенные головы? Не говоря уж о необычных пищевых предпочтениях: кто еще станет притворяться непорочной девой, чтобы заманивать доверчивых ловеласов в свое логово?"
+      },
+      "FS_WULVER": {
+        "bName": "Вульвио",
+        "bDesc": "Пусть вас не обманывает внешний вид этих шерстистых рыбаков: они никаким образом не связаны с обычными оборотнями. Да вы вообще видели хоть раз, чтобы оборотень поймал большеротого окуня? Не, тот раз не считается."
+      },
+      "FS_LAMB": {
+        "bName": "Овцуга",
+        "bDesc": "Потомство легендарного овощного ягненка, подвешенного над землей на стеблях могучего растения, с которым его отпрыски соединены пуповиной. Овцы растут на нем, словно диковинные шерстяные фрукты. И ваш покорный летописец нисколько не выдумывает. Нет, серьезно, об этом есть и в других книгах. Слушай, фольклор, иди домой, ты пьян."
+      },
+      "FS_HTROW": {
+        "bName": "Трау с холмов",
+        "bDesc": "Некогда это был свирепый народ вояк и любителей побряцать оружием, жаждавших покорить весь мир, пока они не узнали, насколько их умильную внешность обожают человеческие детишки. С тех пор они стерли все следы кровавого прошлого и убедили остальной мир, что это всего лишь рекламные сказки для серии очаровательных куколок. Вот так и покоряется мир: не силой, а сувениркой для фанатов."
+      },
+      "FS_STROW": {
+        "bName": "Морской трау",
+        "bDesc": "В отличие от своих живущих в холмах родственников, морские трау недостаточно свирепы для войны и недостаточно умилительны, чтобы по игрушкам на их тему сходил с ума весь мир. Не поддавшись унынию, они приняли свою заурядность и посвятили себя разнообразным хобби. Сейчас их дни проходят за покраской кукол и поиском интересностей на пляжах."
+      },
+      "FS_CLOWN": {
+        "bName": "Сэм Закатный Клоун",
+        "bDesc": "Сэм Закатный Клоун к вам придет, Сэм Закатный Клоун вас найдет! Заставит улыбаться, не нужно бояться. Ждут вас танцы и веселье, угощенье, расчлененье. Он вам спляшет и споет, детям ноги оторвет. Сэм Закатный Клоун в город к вам придет, Сэм Закатный Клоун каждого найдет."
+      },
+      "FS_CAKE": {
+        "bName": "Сэмми",
+        "bDesc": "Это торт-гусеница из Vampire Survivors(™) и линейки продукции Vampire Survivors! Если вам уже за 30, побалуйте себя тортом в виде Гусенички Сэмми на день рождения, вы это заслужили. Закажите торт в виде Гусенички Сэмми на день рождения, США это заслужили. Гусеничка Сэмми является зарегистрированной торговой маркой Vampire Survivors(™). Гусеничка Сэмми не подходит для детей от 1 до 29 лет. Гусеничка Сэмми не предназначена для употребления в пищу. Гусеничка Сэмми не несет ответственность за Гусеничку Сэмми и любые травмы, связанные с Гусеничкой Сэмми."
+      },
+      "FS_BROWN": {
+        "bName": "Брауни",
+        "bDesc": "Когда-то дружелюбный волшебный народец жил в домах людей в полной гармонии с их обитателями и с удовольствием занимался домашней работой в обмен на доброе отношение. Эта мирная совместная жизнь продолжалась до тех пор, пока Гильдия домовладельцев не ввела закон, по которому брауни считались дополнительными жильцами и учитывались при расчете арендной платы. Едва сводившие концы с концами деревенские были вынуждены выставить на порог тысячи брауни. А теперь метлами, которые некогда брались в руки только для наведения порядка, проливают кровь или хотя бы наставляют синяков обидчикам."
+      },
+      "FS_GREEN": {
+        "bName": "Зеленый рыцарь",
+        "bDesc": "Настоящий Зеленый рыцарь бросал вызов храбрым воинам и разрешал беспрепятственно ударить себя в любое место на теле, но обещал, что вернется через год и нанесет ответный удар. А эти салатовые шарлатаны хорошо знают легенду о своем прародители и используют его испытание, чтобы подманить врагов поближе, а потом засадить им коленом прямо по самому дорогому и отрубить головы, пока те приходят в себя."
+      },
+      "FS_AILLEN": {
+        "bName": "Круцифриггиторе",
+        "bDesc": "Его волшебная арфа способна погрузить в сон сотни людей. Его бурные кишечные газы способны пробуждать тысячи. Зато благодаря неконтролируемому метеоризму этого гоблина жертвам мрачной колыбельной обычно удается спастись."
+      },
+      "FS_DUERG": {
+        "bnAME": "Нотадам",
+        "bDesc": "Это гномы. Обычные гномы. А вы что хотели? Новое оригинальное прочтение старых мифов? Великолепную пародию, полную игры слов и недвусмысленных политических отсылок? Шуточку про Неотдамуса? Нет, простите, это просто гномы, и они верят в бесплатное здравоохранение для всех."
+      },
+      "FS_GLORY": {
+        "bName": "Рука славы",
+        "bDesc": "Эти когтистые руки загребущие не протянут руку помощи, зато постараются прибрать к рукам все, до чего дотянутся и надавать по рукам конкурентам, а то и убить голыми руками. А еще они просто очень противно выглядят. ФУ!"
+      },
+      "FS_MARI": {
+        "bName": "Маронна",
+        "bDesc": "Ходит немало споров о том, что появилось раньше: христианство или эти существа из валлийских мифов. Явно второе, иначе в первом их описании точно бы говорилось что-то вроде: «Господи Иисусе, что это за бесовская тварь?»."
+      },
+      "FS_NJUGG": {
+        "bName": "Нжонгл",
+        "bDesc": "Красивый, но злобный скакун, мастерски использующий все преимущества обеих форм без присущих им недостатков. Размеры, сила и выносливость лошади в сочетании с непревзойденной жестокостью лосося. Смельчаков, рискнувших оседлать его, быстро утаскивали на дно озера, и почему-то им не хватало мозгов просто слезть и уплыть."
+      },
+      "FS_HAG": {
+        "bName": "Типичная ведьма",
+        "bDesc": "Если хотите заручиться благосклонностью этой конченой ведьмы, приготовьте ее любимое блюдо: ведьмин язык с соусом из волчьих ягод и настойкой на белладонне. Но учтите, что если вкус ее не устроит, она погонит вас поганой метлой."
+      },
+      "FS_MUSH_HP": {
+        "bName": "Грибомэн",
+        "bDesc": "Навык «Биосинтетика» грибомэна восстанавливает ему 250 ОЗ в течении 5 сек., а способность «Исцеляющий луч» в то же время дает +50% к здоровью. Облако спор наносит 134 ед. урона и замедляет всех врагов в радиусе действия на 4 сек. Он был явно рожден для битвы, но поскольку грибомэн не использует в бою ничего из вышеперечисленного, толку от него довольно мало."
+      },
+      "FS_GGHOST": {
+        "bName": "Призрачный фантом",
+        "bDesc": "Самый настоящий классический призрак, без балды. Шучу. Призраков не бывает, никогда не было и не будет. Я скорее окрещу его вампиром, чем призраком, и это при том, что клыкастые кровососы мне тоже еще ни разу не встречались."
+      },
+      "FS_BOSS_AGAEA": {
+        "bName": "Воплощение Геи",
+        "bDesc": "В час сильнейших испытаний, когда под угрозой находится сам естественный порядок вещей, благоденствие всей жизни обретает форму и воплощается в форме существа такой неописуемой красоты и грации, что перед ним падают в восторге и трепете целые цивилизации. Чистейшее олицетворение всего истинного и добродетельного, само сердце планеты, обретшее форму. Был случай, когда оно пробило копытом череп одного человека, который пописал в озеро. Помнится, все вокруг было в крови и осколках костей."
+      },
+      "FS_CAULD": {
+        "bName": "Кулд",
+        "bDesc": "Кто он: горе или радость? То замерзнет, то растает. Кто он: ласковое солнце или мертвый белый снег? Мы понять его пытались, кто же он на самом деле? Кто же он на самом деле: айсберг или человек? А он такой холодный, как айсберг в океане, и все его печали под черною водой."
+      },
+      "REDUSA": {
+        "bName": "Голова Красноргоны",
+        "bDesc": "Героя средней руки после всего пережитого за годы приключений вряд ли удивит парящая в воздухе голова Горгоны и ей подобные. Но вот Красноргона — это вам не просто Медуза. Она сильнее, грознее, смертоноснее — поистине дьявольское создание. Да и вообще, она красная. Этого недостаточно, чтобы напугать? Ну, больше у меня ничего нет, сорян."
+      },
+      "RELLYFISH": {
+        "bName": "Краснодуза",
+        "bDesc": "Красный издавна ассоциируется у людей с жестокостью, страстью и опасностью. Цвет крови пробуждает в нас самые первобытные страхи и самые животные желания. Но гарантирую, что ни страх, ни желание не шевельнутся внутри вас, когда увидите, как банда пьяных медуз вламывается ночью в магазин и выпивает там весь кетчуп (для них он — самое убойное пойло)."
+      },
+      "HEMO": {
+        "bName": "Blood Moss",
+        "bDesc": "Отрыжка адской клоаки, всегда готовая напасть. Это вам не какой-то дерьмовенький враг: он подступит незаметно, а потом в самый неподходящий момент всех так прихватит, что придется идти по-большому. Он нагадит всем, а справиться с ним могут лишь те, кому уже случалось разгребать говно. (Перед отправкой в издательство не забыть удалить эту срань!)"
+      },
+      "BOSS_XLBLINDER": {
+        "bName": "Ослепитель",
+        "bDesc": "Жнец, считающий себя визионером. Способен окружить вуалью тьмы любых героев, которых коснется своим обсидиановым перстом. Но всякий раз, когда он хочет вступить в битву, поле боя настолько забито частицами, цветами и спецэффектами, что никто уже ничего не видит."
+      },
+      "FS_ROTGHOUL": {
+        "bName": "Гнилой упырь",
+        "bDesc": "Из каждой поры на теле этой чумной дряни смердит смертью. Когда-то они были невинными селянами, а потом до них добралось Тлетворное братство и превратило в своих пешек. Они бы ловили каждое слово из уст диаконов разложения, да только им давно не хватает пальцев, чтобы что-то поймать."
+      },
+      "FS_FLAMINGSKULL": {
+        "bName": "Горящий череп",
+        "bDesc": "Несмотря на свой боевой потенциал, в основном они служат мусоросжигателями. А все потому, что некроманты настолько пафосны, что даже мусор не могут выкинуть как нормальные люди. Тем не менее тех, кто не воспримет их всерьез, ждет черепная кремация."
+      },
+      "FS_WORM": {
+        "bName": "Пропавшая церковь",
+        "bDesc": "Ядовитые черви, выползающие из речных нор, чтобы обрушить на лодки и головы богохульников божественное правосудие в форме немилосердных проповедей и бардовских песен под гитару."
+      },
+      "FS_SNAK1": {
+        "bName": "Змий",
+        "bDesc": "В этом томе уже есть запись о змее, генетически идентичном этому, но с другим окрасом. А поскольку ваш покорный летописец забыл, что ему контрактом предписано сделать хотя бы одну запись о существе под названием «Змий», он несет вам эту ненужную заметку!"
+      },
+      "FS_SHOOTER1": {
+        "bName": "Потерянная голова",
+        "bDesc": "Кто знает, почему монстры всегда имеют такую разнообразную расцветку. Это результат переменчивой мутации? Волшебного колдовства? Лени автора бестиария, который ищет побольше прилагательных, чтобы увеличить количество слов? Доподлинно никому не известно."
+      },
+      "FS_MEATBALL": {
+        "bName": "Фрикаделька",
+        "bDesc": "Пикантненько."
+      },
+      "FS_MEATY": {
+        "bName": "Мороженая фрикаделька",
+        "bDesc": "Маг из далеких земель клялся и божился, что холодное лицо этого монстра напоминало великую ученую, которая когда-то покинула свою башню. Маг дерзко завел с существом разговор и говорил не один час. Никто не решился его прервать, даже когда замерз ночной воздух, а с ним и сам маг. По слухам последнее, что он произнес, когда застывали стоящие в его глазах слезы: «Она там, и она еще жива»."
+      },
+      "FS_EDNA": {
+        "bName": "Эдна",
+        "bDesc": "На первый взгляд может показаться, что ленивый некромант просто взял и прицепил черепушку на тело обезглавленного богомола. И так же покажется и на второй взгляд, и на третий. Но Ренардо клянется и божится, что он задумывал совсем не это, и что Эдна — вполне себе монстр, достойный своей записи в бестиарии."
+      },
+      "FS_HORCAULD": {
+        "bName": "Холодный Кулд",
+        "bDesc": "С головы сорвал ветер его колпак. Он хотел любви, но вышло все не так. Знает он: ничего в жизни не вернуть, и теперь у него один лишь только путь... Ну и пусть будет нелегким сей путь. Тянут ко дну боль и грусть, прошлых ошибок груз."
+      },
+      "FS_HORWORM": {
+        "bName": "Колодезник",
+        "bDesc": "Этот мотивационный монстр выкрикивает советы о ЗОЖ и осознанности каждому, кто набирает воды из дырки, которую колодезник зовет домом. Поистине кладезь никому не нужных знаний."
+      },
+      "FS_HORNJUGG": {
+        "bName": "Мокрый нжонгл",
+        "bDesc": "Насколько сильно нужно промокнуть, чтобы называться мокрой версией изначально вполне себе мокрого существа? Пожалуй, примерно как мокрый нжонгл — водное парнокопытное, которое восприняло совет о поддержании водного баланса в организме слишком буквально. И хотя они подчинили себе воды, основной причиной их смерти по-прежнему остается утопление. Тем не менее они скорее предпочтут покоиться на дне морском, чем помирать от жажды где-нибудь в пустыне. И лучше пойдут на мокрое дело, чем проиграют всухую."
+      },
+      "FS_HORAILLEN": {
+        "bName": "Круцифриггитоне",
+        "bDesc": "Огр, которого хлебом не корми, только дай похвастаться как он горяч. И, в принципе, это даже не преувеличение: он правда один из сексуальнейших демонов, троекратный победитель конкурса красоты Бездны Фоскари и, безусловно, самая популярная модель из ОнлиБес — ежемесячного журнала от озабоченных монстров для озабоченных монстров. Специалисты по биологии девиантных существ годами изучали это чудовищное воплощение страсти, чтобы понять, почему по нему все так сохнут, но запретное знание явно свело их с ума. Оставшиеся горячечные письмена в основном представляют собой бессвязные мантры с кучей отсылок к хтоническому божеству по имени Вотэто Опа."
+      },
+      "FS_HORDUERG": {
+        "bName": "Неподвижный Нотадам",
+        "bDesc": "Кого из них ни спроси, каждый клянется, что он настоящий гном, а не человек, прицепивший туфли к коленкам, чтобы выглядеть карликом. Даже когда их никто не спрашивает, они любят громко объявить, что вовсе не притворяются гномами ради доступа к гномьей системе здравоохранения, которая в целом считается на 50% более продвинутой и на 100% менее ориентированной на выгоду."
+      },
+      "FS_HORGLORY": {
+        "bName": "Перчатка славы",
+        "bDesc": "Всегда подаст вам руку. Любит собирать плюшевых кукол и вдыхать в них жизнь одним щелчком могущественных пальцев. А потом с восторгом смотрит, как ее творения раздирают друг друга с особой жестокостью, чтобы в итоге обрушить мощный кулак на голову победительницы. Будьте готовы к серьезной драке, потому что эта ручка бьет со всей дури."
+      },
+      "FS_HORMARI": {
+        "bName": "Маронна Мия",
+        "bDesc": "Только представьте, что ночью к вам в окно пробирается вот Это. Потом с хрипом поднимается по лестнице, подходит к вашей спальне, сжимая в трясущихся пальцах висящий на шее колокольчик, и впивается в вас взглядом из приоткрытой двери. И смотрит. Ждет. Любуется вами во сне. А спустя пару часов не выдерживает и просачивается в щелку, не двигая дверь. Оно здесь. Оно пришло, чтобы облизать вам брови. Видите ли, в бровях у вас есть ценные и питательные минералы, которые ему очень нужны. И так будет повторяться каждую среду целый год."
+      },
+      "FS_FMCETHLENN": {
+        "bName": "Фоморианцы",
+        "bDesc": "ПРNВЕЕТ! ПреВеД... Превет?/? тЫ гДе? выХ0Дии! гдЕЕЕЕ ты О_о о_О гDЕ? хдеЕЕееЕеЕеЕЕЕ??? Мы NЩЩщем ищеммМММ ве33де. ГоВоРиШь 4то в Лагере боли а тебя там НЕ БЫЛОооо00! гоВоРишь 4то ДЭЭЭЭ ЭЛЛЛЛ ЦЭЭЭЭЭ но Мы теБR не вИИИИдим!!1! \n\nА... вот... вот ты где. \n\nНаШЛиииииИИИИИИииииИИИИИ!"
+      },
+      "FS_BOSS_JENEVIV": {
+        "bName": "Не-Жи-Вьева",
+        "bDesc": "Поглотительница ужаса, великий дегустатор, пожирательница миров. Она попробовала все, что дало мироздание, и все мироздание отражается в ее ненасытном облике. Частично человек, частично монстр. Частично нежить. Частично демон. Частично мерзость. Но не вампир. Вампиров ей еще не попадалось, но она бы с удовольствием их попробовала. Ей хочется знать, не видели ли вы где-нибудь вампира, но она будет слишком поглощена поеданием вас и всего материального вокруг вас, чтобы спросить."
+      },
+      "FS_GEF": {
+        "bName": "Цеффуз",
+        "bDesc": "Говорят, что эти рукастые млекопитающие относятся к одним из самых разумных существ на свете. Но многие воспринимают данное утверждение весьма скептично, поскольку с виду самое разумное, на что способны эти тварюшки — бездумно набегать на врагов всей толпой. Когда такое вообще срабатывало?"
       }
     }
   },
@@ -5512,8 +7232,180 @@
         "bDesc": "Este zorro embaucador de los bosques defiende la espada de la noche frente a los indignos que la quieran empuñar. Aún no se sabe con certeza la cantidad de colas que tiene realmente, los que han intentado contarlas no suelen pasar de la número 50 sin quedar totalmente calcinados."
       },
       "MS_SPIRIT1": {
-        "bName": "Pequeño fantasma",
-        "bDesc": "Simplemente no existen los fantasmas. Probablemente sea solo un murciélago cubierto de nieve, y nada más."
+        "bName": "Spiritello",
+        "bDesc": "Los fantasmas no existen. Seguramente sea un murciélago cubierto de nieve, nada más."
+      },
+      "FS_GOBLIN": {
+        "bName": "Chompo",
+        "bDesc": "Estos pobres trasguitos están hartos de que los tomen por ladrones traicioneros. Aunque debes tener cuidado, si hablas mal de ellos, puede que se te acerquen cuando menos te lo esperes, te apuñalen por la espalda y te roben la cartera."
+      },
+      "FS_SALMON": {
+        "bName": "Pezpicaz",
+        "bDesc": "Unas de las primeras criaturas que hicieron del Gran Lago su hábitat. Gracias a su increíble astucia, entienden los secretos y los misterios de su hogar mejor que casi cualquier otro ser. Lo irónico es que los que los ven solo piensan que son peces fuera del agua."
+      },
+      "FS_SELKIE": {
+        "bName": "Myristica",
+        "bDesc": "Al parecer están emparentados con los siluros, prueba de ello son sus bigotes, sus cráneos aplastados y sus curiosos hábitos de alimentación: se hacen pasar por doncellas virginales para atraer a donjuanes ingenuos a sus funestas guaridas. Todo el mundo se ha encontrado un catfish en su vida."
+      },
+      "FS_WULVER": {
+        "bName": "Vulvio",
+        "bDesc": "No te confundas, estos pescadores peludos no tienen nada que ver con los hombres lobo tradicionales. ¿Acaso has visto alguna vez a un hombre lobo cazar una perca? No, esa vez no cuenta."
+      },
+      "FS_LAMB": {
+        "bName": "Cocordero",
+        "bDesc": "Es un descendiente del cordero vegetal, una oveja suspendida en el aire mediante un fuerte tallo que va de la tierra hasta su ombligo. De su cuerpo brotan otras ovejas como si fueran frutos cubiertos de lana. Te juro que no me lo invento. Está documentado en libros, de verdad. Vaya con el folclore, alguien llevaba una copa de más cuando escribió eso."
+      },
+      "FS_HTROW": {
+        "bName": "Duendecillo montañés",
+        "bDesc": "Antiguamente eran una tribu de conquistadores belicistas hasta que descubrieron que su extravagante aspecto cautivaba a los niños humanos. Fue entonces cuando se deshicieron de todo su sangriento pasado y convencieron al mundo de que eran el personaje fantástico perfecto para inspirar una línea de muñecos muy cuquis. Así es como se conquista el mundo, no con guerras, sino con un buen merchandising."
+      },
+      "FS_STROW": {
+        "bName": "Duendecillo marino",
+        "bDesc": "A diferencia de sus primos montañeses, los duendecillos marinos nunca han sido lo suficientemente temibles para la guerra ni lo suficientemente adorables para inspirar un juguete. Tras aceptar su inevitable mediocridad, decidieron dedicar su vida a las aficiones. Ahora se pasan los días pintando figuritas y yendo al raque."
+      },
+      "FS_CLOWN": {
+        "bName": "Sam, el payaso de Sandown",
+        "bDesc": "Alegra esa cara, estás de suerte, ¡Sam el payaso viene a verte! Cuando se acerque el ocaso será cuando escuches sus pasos. Empieza a sonreír por si acaso, ya mismo llegará el payaso. No dejes de sonreír como los corderos del corral. No dejes de sonreír mientras te abre en canal. Bailará y brincará de todas las maneras y no dudará en masacrar familias enteras. Alegra esa cara, estás de suerte, del payaso de Sandown nadie podrá protegerte."
+      },
+      "FS_CAKE": {
+        "bName": "Sammy la oruga",
+        "bDesc": "¡Es la tarta oruga de Vampire Survivors(™) y la línea de productos de Vampire Survivors! Si tienes más de 30 años, date el capricho de tener a Sammy la oruga de tarta de cumpleaños. Nos lo debes. Sammy la oruga es una marca registrada de Vampire Survivors(™). Sammy la oruga no se recomienda para niños de 1 a 29 años. Sammy la oruga no es comestible. Sammy la oruga no se hace responsable de Sammy la oruga o de cualquier herida que pueda causar."
+      },
+      "FS_BROWN": {
+        "bName": "Brownie",
+        "bDesc": "Antaño eran unos seres feéricos muy simpáticos que vivían pacíficamente en hogares de humanos y realizaban tareas domésticas de muy buena gana a cambio simplemente de su gratitud. Esta coexistencia armoniosa continuó un tiempo hasta que el gremio de los propietarios decretó que había que considerar a los brownies como inquilinos adicionales, lo que aumentó bastante el precio de los alquileres. Los aldeanos que no se lo podían permitir no tuvieron más remedio que echar a los brownies de sus casas. Miles de ellos se vieron afectados. Por esta razón, ahora usan sus escobas, que eran el símbolo de la limpieza del hogar, para asesinar o, al menos, para infligir dolor."
+      },
+      "FS_GREEN": {
+        "bName": "Caballero verde",
+        "bDesc": "El caballero verde original retaba a guerreros valerosos a que lo golpearan en cualquier parte de su cuerpo con la condición de poder devolvérselo al año siguiente. Estos embusteros de color verde amarillento conocen muy bien la leyenda de su antepasado, pero usan este desafío legendario para acercarse a sus enemigos, darles una buena patada en las bellotas y cortarles la cabeza."
+      },
+      "FS_AILLEN": {
+        "bName": "Crocifriggitore",
+        "bDesc": "Su arpa mágica puede dormir a cientos de personas, pero sus estallidos gastrointestinales pueden despertar a miles. La naturaleza constante de las expulsiones explosivas de este trasgo flatulento proporciona algo de seguridad a quien se tope con su melancólica nana."
+      },
+      "FS_DUERG": {
+        "bnAME": "Melasuda",
+        "bDesc": "Son enanos corrientes y molientes. ¿Esperabas algo más? ¿Una especie de giro brillante sobre una criatura fantástica tan común? ¿Una parodia inteligente llena de juegos de palabras y alegorías políticas descaradas? Lo siento, pero Melasuda, solo te diré que son enanos que creen en la asistencia sanitaria universal."
+      },
+      "FS_GLORY": {
+        "bName": "Mano de la gloria",
+        "bDesc": "Estas garras grotescas de granujas ingratos agreden con guantazos y rasguños graves. Además, son escalofriantes y dan mucho asco. ¡PUAJ!"
+      },
+      "FS_MARI": {
+        "bName": "Maronna",
+        "bDesc": "Hay todo un debate sobre si esta criatura del folclore galés es anterior al cristianismo. Está claro que sí, si no, la primera documentación de su existencia habría sido: «¡La Virgen! ¿Qué es esta criatura dejada de la mano de Dios?»."
+      },
+      "FS_NJUGG": {
+        "bName": "Njuggle",
+        "bDesc": "Un corcel tan bello como maligno que aprovecha al máximo las ventajas de las dos criaturas de las que se compone y no tiene ninguna de sus debilidades. Posee el tamaño, la fuerza y la resistencia de un caballo y la insuperable crueldad de una trucha. Los que se atreven a montarlo se ven arrastrados a las profundidades del lago sin darse cuenta de que pueden soltarse y salir a la superficie."
+      },
+      "FS_HAG": {
+        "bName": "Bruja escocesa",
+        "bDesc": "Esta bruja de Escocia es coja y tiene escorbuto. Le encanta buscar escorpiones entre escombros y escoger los mejores para sus brebajes. Cuidado con cruzártela, porque piensa que todo el mundo es escoria y te escoñará con su escoba."
+      },
+      "FS_MUSH_HP": {
+        "bName": "Fungicántropo",
+        "bDesc": "La habilidad Biosíntesis del fungicántropo le permite recuperar 250 PS en 5 segundos, tiempo durante el que su habilidad Rayo curativo le otorga un 50 % más de PS. Su habilidad Nube de esporas causa 134 de daño y ralentiza durante 4 segundos a todos los enemigos que entran en su radio de efecto. Aunque han nacido para luchar, el hecho de que los fungicántropos no usen ninguna de estas habilidades en combate hace que sean bastante inútiles."
+      },
+      "FS_GGHOST": {
+        "bName": "Aparición espectral",
+        "bDesc": "Un fantasma auténtico y genuino. Es broma, los fantasmas no existen y nunca lo harán. Preferiría decir que esta cosa es un vampiro que un fantasma real, y eso que tampoco he visto ninguno aún."
+      },
+      "FS_BOSS_AGAEA": {
+        "bName": "Avatar de Gaia",
+        "bDesc": "En tiempos de necesidad, cuando el orden natural está en peligro, se manifiesta corpóreamente la fusión de la bondad de todo ser vivo en una criatura tan majestuosa y bella que es capaz de maravillar a civilizaciones enteras. Se trata de la encarnación más pura de lo moral y lo verdadero, el mismísimo corazón del planeta en carne y hueso. Un día le reventó la cabeza a un tío de una coz por mear en el lago; lo dejó todo perdido de sangre y trocitos de cráneo."
+      },
+      "FS_CAULD": {
+        "bName": "Frígido",
+        "bDesc": "Frío, cuando estás conmigo sientes frío. Si me miras fijo ves frío. Cuando algo te digo oyes frío. Frío, distante y esquivo. Miedo, a verte llegar y tú digas frío. A un beso, un abrazo y más tarde el vacío. A que prenda el fuego y después llegue el frío. Frío, así ha sucedido."
+      },
+      "REDUSA": {
+        "bName": "Cabeza de Rojadusa",
+        "bDesc": "Para el héroe medio, ver la cabeza flotante de una gorgona ya no tiene nada de extraño. Tras años de experiencias horribles, es prácticamente un hecho mundano y no tiene nada de especial. La Rojadusa no tiene nada que ver; es más funesta, mortal y absolutamente diabólica. Para empezar, es roja. Si eso no te causa pavor, no se me ocurre nada más. Lo siento."
+      },
+      "RELLYFISH": {
+        "bName": "Rojusa",
+        "bDesc": "La humanidad siempre ha asociado el color rojo con la violencia, la pasión y el peligro. El color de la sangre despierta en nosotros nuestros miedos más primitivos y nuestros deseos más instintivos. Aunque no son deseos ni miedos lo que provoca ver cómo una pandilla de medusas borrachas irrumpe en una tienda por la noche y se bebe todo el kétchup (que es, de hecho, como se emborrachan)."
+      },
+      "HEMO": {
+        "bName": "Cúmulo sanguinario",
+        "bDesc": "Estos seres se ven deposicionados constantemente del interior del averno y siempre están listos para caer desde cierta altura. No los trates como una mierda o te cagarás de miedo. Sus apretones no dejan alivio ninguno y te obligarán a evacuar. Trágate tu orgullo y pídele al señor Roca que te ayude con estos zurullos. (Nota: mejorar este truño antes de enviarlo)."
+      },
+      "BOSS_XLBLINDER": {
+        "bName": "La Cegadora",
+        "bDesc": "Una Muerte que se considera una visionaria. Puede lanzar un velo de oscuridad alrededor de cualquier héroe a quien señale con su dedo de obsidiana, aunque, cada vez que aparece para luchar, el campo de batalla está tan lleno de colorines y cosas brillantes que tampoco es que pueda empeorar la visibilidad mucho más."
+      },
+      "FS_ROTGHOUL": {
+        "bName": "Necrófago putrefacto",
+        "bDesc": "Estos desgraciados apestan a muerto de pies a cabeza. Originalmente eran aldeanos inofensivos, pero el sacerdocio de la Putrefacción los corrompió para convertirlos en su infantería. Se agarran a todo lo que dicen sus diáconos descompuestos, aunque algunos no tienen dedos suficientes para agarrarse a nada."
+      },
+      "FS_FLAMINGSKULL": {
+        "bName": "Cráneo llameante",
+        "bDesc": "A pesar de su destreza para el combate, normalmente se dedican a la tediosa labor de incinerar basura. Esto se debe a que los nigromantes son tan tiquismiquis que no pueden tirar la basura como adultos sensatos. Aun así, si no te los tomas en serio, puede que seas lo próximo que quemen en su proceso de cremación craneal."
+      },
+      "FS_WORM": {
+        "bName": "Saltarse la misa",
+        "bDesc": "Son gusanos venenosos que reptan desde sus moradas fluviales hasta los barcos de los blasfemos como castigo divino. Una vez a bordo, desatan un torrente de proselitismo y música religiosa con acompañamiento de guitarra."
+      },
+      "FS_SNAK1": {
+        "bName": "Serpente",
+        "bDesc": "En este tomo ya hay una entrada de una serpiente genéticamente idéntica, pero de un color diferente. Se me había olvidado que el contrato me obliga a usar «serpente» en algún sitio. Disfruta de este contenido superfluo."
+      },
+      "FS_SHOOTER1": {
+        "bName": "Cabeza perdida",
+        "bDesc": "¿Alguien me puede explicar por qué hay tantas versiones de monstruos de colores distintos? ¿Son mutaciones? ¿El resultado de algún hechizo? ¿Alguien con un cubo de pintura y muchas palabras por escribir? Nadie lo sabe con certeza."
+      },
+      "FS_MEATBALL": {
+        "bName": "Almóndiga",
+        "bDesc": "Picante."
+      },
+      "FS_MEATY": {
+        "bName": "Followa",
+        "bDesc": "Un mago de un reino lejano estaba convencido de que su cara le recordaba a alquien que había estado en su torre hacía tiempo. Tuvo el coraje suficiente para hablar con la criatura y lo hizo durante horas. Nadie se atrevió a interrumpirlos, ni siquiera cuando el aire de la noche se heló y el mago, absorto, se congeló con él. Dicen que murmuró algo justo antes de que sus lágrimas se convirtieran en hielo: «Sigue con vida»."
+      },
+      "FS_EDNA": {
+        "bName": "Edna",
+        "bDesc": "A primera vista, puede parecer que un nigromante vago decidió que su día había terminado tras ponerle un cráneo a una mantis decapitada. Si miras un poco más, sigue pareciendo lo mismo. Sin embargo, Renardo jura que no es el caso y que Edna es un monstruo tan válido como el resto para tener una entrada en este bestiario."
+      },
+      "FS_HORCAULD": {
+        "bName": "Frígido Escárchez",
+        "bDesc": "Silencio. Tan grande, tan vacío y tan muerto. Cómo quema este dolor del silencio. Que llena cada espacio en mi cuerpo. Cómo duele este silencio de amor."
+      },
+      "FS_HORWORM": {
+        "bName": "Morapozos",
+        "bDesc": "Este monstruo motivacional grita consejos sobre salud y mindfulness a cualquiera que saque agua del agujero donde vive. Tu bienestar en un pozo."
+      },
+      "FS_HORNJUGG": {
+        "bName": "Njuggle mojado",
+        "bDesc": "¿Cómo de mojado tienes que estar para ser la versión mojada de algo que ya lo está? Estos potros acuosos llevaron lo de «mantenerse hidratado» al extremo más húmedo. A pesar de que son especialistas en temas acuáticos, la ironía es que muchos de ellos mueren ahogados. De todas formas, prefieren morir empapados que vivir desecados."
+      },
+      "FS_HORAILLEN": {
+        "bName": "Crocifriggitone",
+        "bDesc": "Un ogro que no para de dar la nota presumiendo de lo bueno que está. La verdad es que no miente, es un sex symbol entre los monstruos del lugar. Ha ganado el título de Míster Abismo Foscari en bañador tres años seguidos y es el modelo más popular de OnlyFangs, una revista creada por y para las criaturas más sexis. Los eruditos más especializados en biología de seres aberrantes llevan años estudiando a este mastodonte para intentar comprender qué causa tanta lascivia, pero no hay duda de que este conocimiento prohibido les ha hecho perder la cordura. Sus escritos delirantes no son más que un sinsentido de mantras repleto de referencias a un dios terrorífico llamado Xhul'Azo."
+      },
+      "FS_HORDUERG": {
+        "bName": "Melasiguesu Dando",
+        "bDesc": "Todos dicen que son enanos de verdad y no humanos que hacen eso de ponerse los zapatos en las rodillas y fingir que son mucho más bajos. Nadie les pregunta, pero siempre gritan que no se están haciendo pasar por enanos para acceder a su asistencia sanitaria, considerada un 50 % más avanzada y sin ánimo de lucro."
+      },
+      "FS_HORGLORY": {
+        "bName": "Guante de la gloria",
+        "bDesc": "Este ser es de guantazo fácil. Le encanta coleccionar muñecos a los que dota de vida con un simple chasquido. Se regodea mientras ve cómo sus creaciones luchan brutalmente en combates cuerpo a cuerpo y termina dándole un puñetazo al ganador. Prepárate para una buena pelea: ha venido a llenarte la cara de aplausos."
+      },
+      "FS_HORMARI": {
+        "bName": "Maronna Meea",
+        "bDesc": "Imagínate que esta cosa se te cuela por la ventana en mitad de la noche con un chirrido mudo mientras se tambalea escaleras arriba en dirección a tu habitación. Cuando llega, se agarra el cascabel que tiene colgado con su temblorosa mano y comienza a mirarte a través de la rendija de la puerta. Te observa con paciencia. Admira cómo duermes. Después de una hora o dos, no puede resistirse más y se cuela por la rendija sin mover la puerta ni un centímetro. Entra. Ha venido a chuparte las cejas. Quiere los nutrientes y los minerales que hay en ellas. Vendrá cada miércoles durante todo un año."
+      },
+      "FS_FMCETHLENN": {
+        "bName": "Fomorianos",
+        "bDesc": "H0laaa! H@la?/? dnd te esconds? dONdEEEEEEE te has meti2? METIDO? Dondeeeeeeeeeee??? T3 heMoS busca2 X TodAAAaaaas paaRt3S xq diJisteEe q 3stArias En el caMpAmentoOo bASe, pErO no teMos vIStooO! DnD eSTabAsssS?\n\nAh… Vale… Ya te hemos visto. \n\nT EnconTrAm00000000000000000000000000000000000000000000000000000000000s!"
+      },
+      "FS_BOSS_JENEVIV": {
+        "bName": "Je-Ne-Viv",
+        "bDesc": "El devorador de miedos, el gran agujero insaciable, el engullemundos. Ha probado todo lo que la creación puede ofrecer, y toda creación se refleja en su forma voraz. Parte humano, parte monstruo, parte zombi, parte demonio y parte abominación. No es parte vampiro, aún no se ha encontrado ninguno. Aunque le encantaría comérselo. Quiere saber si has visto alguno. No podrá preguntarte cuando tenga la boca llena mientras te engulle a ti y todo lo que hay a tu alrededor."
+      },
+      "FS_GEF": {
+        "bName": "Caramangosta",
+        "bDesc": "Dicen que estas criaturas sobonas son las más inteligentes del universo. Sin embargo, yo tengo mis dudas. Lo único que hacen es precipitarse sobre sus enemigos en manada como si estuvieran poseídas. ¿Desde cuándo eso es inteligente?"
       }
     }
   },
@@ -6025,8 +7917,180 @@
         "bDesc": "Ormanların kurnaz düzenbazı Doksan Dokuz Gece, Gece Kılıcını nalayık kullanıcılara karşı korur. Gerçekte kaç kuyruğu olduğu henüz belirlenmemiştir, çünkü saymaya çalışan herkes 50'ye falan kadar saydıktan sonra yanıp küle dönmüştür."
       },
       "MS_SPIRIT1": {
-        "bName": "küçük hayalet",
-        "bDesc": "Hayalet diye bir şey yoktur. Bu muhtemelen sadece karla kaplı bir yarasa ve başka bir şey değil."
+        "bName": "Hayaletcik",
+        "bDesc": "Hayalet diye bir şey yoktur. Muhtemelen sadece kara bulanmış bir yarasadan ibaret."
+      },
+      "FS_GOBLIN": {
+        "bName": "Chompo",
+        "bDesc": "Sinsi, arkadan bıçaklayan hırsızlar olarak yanlış tanıtılmaktan bıkmış zavallı küçük goblinler. Dikkatli olun, çünkü onlara iftira atayım derseniz, size gizlice yaklaşabilir, sizi arkadan bıçaklayabilir ve çantanızı çalabilirler."
+      },
+      "FS_SALMON": {
+        "bName": "Wiseparke",
+        "bDesc": "Büyük Göl'e ev yapan ilk canavarlar arasında, gölün sırlarını ve gizemlerini belki de diğerlerinden daha iyi anlıyorlar. O hâlde sıradan gözlemcilerin onları yalnızca sudan çıkmış balık olarak görmeleri büyük bir ironi."
+      },
+      "FS_SELKIE": {
+        "bName": "Nutmeg",
+        "bDesc": "Görünüşe göre, yüz bıyıkları, ağır basık kafaları, el değmemiş bakireler gibi göründükleri ve avanak çapkınları uğursuz yuvalarına çektikleri tuhaf beslenme alışkanlıklarından anlaşıldığı kadarıyla yayın balığı soyundan geliyorlar."
+      },
+      "FS_WULVER": {
+        "bName": "Kurtadam",
+        "bDesc": "Bu kürklü balıkçıların herhangi bir şekilde sıradan kurt adamlarla akraba olduğunu düşünerek yanılgıya düşmeyin. Hiç iri ağızlı bir levrek yakalayan bir kurt adam gördünüz mü? Hayır, bu sefer sayılmaz."
+      },
+      "FS_LAMB": {
+        "bName": "Lammuga",
+        "bDesc": "Göbek bağıyla birbirine bağlanan güçlü bir bitki sapıyla yerden yüksekte asılı duran bir koyun olan efsanevi Bitkisel Kuzu'nun soyundan gelir. Diğer koyunları, tuhaf yünlü meyvelermiş gibi vücudunda filizlendirir. Mütevazı Bilgi Bekçiniz bunu kafasından uydurmuyor. Ciddiyim, kitaplarda falan yazar bu. Eve git fıkracı, şişenin dibini görmüşsün."
+      },
+      "FS_HTROW": {
+        "bName": "Bayır Trolü",
+        "bDesc": "Bir zamanlar etrafa korku salan fetihkâr savaş çığırtkanlarıydılar, ta ki çocukların gözünde nasıl da sempatik göründüklerini öğrenene kadar. O zamandan beri kanlı geçmişlerine bir sünger çektiler ve dünyayı bir dizi sevimli oyuncak bebeğin kurgusal ilham kaynağı olduklarına ikna ettiler. İşte dünyayı böyle yönetirsiniz - savaşla değil, ticaret fırsatlarıyla."
+      },
+      "FS_STROW": {
+        "bName": "Deniz Trolü",
+        "bDesc": "Daha tepeli kuzenlerinin aksine, Deniz Trolleri ne savaş için yeterince korkutucu ne de bir sonraki büyük oyuncak modası olacak kadar sevimliler. Kaçınılmaz vasatlıklarını benimseyerek, günlerinin çoğunu heykelcikler boyayarak ve sahilde ilgi çekici şeyler arayarak hevesli hobi sahipleri oluverdiler."
+      },
+      "FS_CLOWN": {
+        "bName": "Soytarı Sam",
+        "bDesc": "Korkmayın, korkmayın canısı, bu bizim Sam Soytarısı. Alacakaranlık yaklaşır, ona kulak kesilir, ama gerek yok korkmaya Sam çıkar ortaya. Sen sadece katıl ve kikirde, sen gülerken o seni böler ikiye. Dans eder, zıplar, fırsatını bulsa tüm aileyi bıçaklar. Korkmayın, korkmayın, Sam kasabanıza geldi diye kaçmayın."
+      },
+      "FS_CAKE": {
+        "bName": "Tırtıl Sammy",
+        "bDesc": "Bu, Vampire Survivors(™) ve Vampire Survivors ürün ailesinin tırtıl pastası! 30 yaşından büyükseniz, doğum günü pastanız için Tırtıl Sammy'ye sahip olmayı kendinize borçlusunuz. Doğum günü pastanız olarak Tırtıl Sammy'ye sahip olmayı BİZE borçlusunuz. Tırtıl Sammy, Vampire Survivors(™) markasının ticari markasıdır. Tırtıl Sammy, 1-29 yaş arası çocuklar için uygun değildir. Tırtıl Sammy yenilebilir değildir. Tırtıl Sammy, Tırtıl Sammy ve Tırtıl Sammy ile ilgili herhangi bir yaralanmadan sorumlu değildir."
+      },
+      "FS_BROWN": {
+        "bName": "Brownie",
+        "bDesc": "Bir zamanlar insan evlerinde uyum içinde yaşayan ve karşılığında yalnızca iyilik dileyerek ev işlerini neşeyle yerine getiren dost canlısı peri halkı. Bu barış içinde bir arada yaşama, Ev Sahipleri Birliği, kira hesaplaması yaparken Brownielerin de hanehalkından sayılmasına karar verene kadar devam etti. Zor durumda kalan köylüler, binlerce Brownie'yi kapı dışarı etmek zorunda kaldı. Bir zamanlar ev temizliği adına kullanılan süpürgeleri, artık kan akıtmaya veya en azından ölçülü şekilde morarmaya sebebiyet vermek için göreve hazır."
+      },
+      "FS_GREEN": {
+        "bName": "Yeşil Şövalye",
+        "bDesc": "Orijinal Yeşil Şövalye, cesur savaşçılara vücudunun herhangi bir yerine istedikleri gibi vurmaları için meydan okurdu, ancak bir yıl sonra geri döneceğine ve aynı darbeyi kendisinin vuracağına yemin ederdi. Bu yeşilimsi şarlatanlar, atalarının efsanesi konusunda bayağı bilgi sahibi ve şövalyenin efsanevi meydan okumasını, düşmanlarının testislerine tekme atıp şaşkın kafalarını kesmeden önce yakınlarına çekmek için kullanıyorlar."
+      },
+      "FS_AILLEN": {
+        "bName": "Crocifriggitore",
+        "bDesc": "Sihirli arpı yüzlerce insanı uyutabilir. Ateşli mide patlamaları binlerce insanı uyandırabilir. Bu gazlı goblinin patlayıcı yellenmesinin yeterli derecede uyarıcı doğası, kasvetli ninnisine aldanan herkes için görece güvenlik sağlar."
+      },
+      "FS_DUERG": {
+        "bnAME": "Adamdeğil",
+        "bDesc": "Onlar cüceler. Sıradan yaşlı cüceler. Daha ne diyeyim? Halk dilindeki zekice bir kinaye mi? Kelime oyunları ve inceliksiz politik kinayelerle dolu hoş bir parodi mi? Üzgünüm ama onlar hakkında cüce oldukları ve ücretsiz evrensel sağlık hizmetlerine inandıkları gerçeği dışında söyleyecek pek Adam gibi bir şeyim yok."
+      },
+      "FS_GLORY": {
+        "bName": "Zafer Eli",
+        "bDesc": "Yankesicilik yapan yağmacıların bu yaramaz yedleri, yakalayarak, yumruklayarak ve yan kesicilik yaparak tehlike yayar. Ayrıca gerçekten ürkütücü ve iğrençler, IYY!"
+      },
+      "FS_MARI": {
+        "bName": "Maronna",
+        "bDesc": "Galler mitindeki bu yaratığın Hıristiyanlıktan eskiye dayanıp dayanmadığı konusunda pek çok tartışma var. Kesinlikle daha eskiye dayanıyordur, aksi takdirde görüldüğüne dair ilk tarihsel kayıt kesinlikle \"Tanrı aşkına, bu kahrolası şey de nedir?\" olurdu."
+      },
+      "FS_NJUGG": {
+        "bName": "Njuggles",
+        "bDesc": "İki ayrı formunun tüm güçlerini hiçbir zayıflığı olmadan ustaca kullanan güzel ama kötü niyetli bir küheylan. Bir atın büyüklüğü, gücü ve dayanıklılığının, bir alabalığın emsalsiz gaddarlığıyla birleştiği bir yaratık. Ona binmeye cesaret edenler, görünüşe göre üzerinden atlayıp yüzerek uzaklaşabileceklerinin farkında olmadan hızla gölün dibine sürüklendiler."
+      },
+      "FS_HAG": {
+        "bName": "Vasat Cadaloz",
+        "bDesc": "Bu mükemmel cadının beğenisini kazanmak istiyorsanız, onun en sevdiği yemeği hazırlamalısınız; haggis'in yanında yabanmersini ve hagfish kapama. Onlara böyle bir yemeği bedava verilmiş bir hediye olarak sunamazsınız, çünkü bunun için pazarlık yapmakta ısrar edeceklerdir."
+      },
+      "FS_MUSH_HP": {
+        "bName": "Mantoradam",
+        "bDesc": "Biyosentez becerisi, Mantoradam'ın 5 saniye içinde 250 HP'yi yenilemesini sağlar ve bu süre zarfında Şifa Kökü yeteneği %50 daha fazla sağlık verir. Spor Bulutları, 134 hasar verir ve yarıçapına giren tüm düşmanları dört saniyeliğine yavaşlatır. Tam bir savaş makinesi olsa da, Mantoradam'ın bir savaşta bunların hiçbirini yapmaması onu oldukça işe yaramaz hâle getiriyor."
+      },
+      "FS_GGHOST": {
+        "bName": "Hayalet Çehresi",
+        "bDesc": "Gerçek, iyi niyetli, dürüstlükten yana bir hayalet. Şaka yapıyorum. Hayaletler gerçek değildir ve asla olmayacaktır. Bu şeye bir hayalet demektense vampir demeyi tercih ederim ve henüz vampir de görmüş değilim."
+      },
+      "FS_BOSS_AGAEA": {
+        "bName": "Gaea'nın Avatarı",
+        "bDesc": "En acil ihtiyaç zamanlarında, doğal düzenin tehdit altında olduğu zamanlarda, tüm yaşamın iyilikseverliğinin büyük bir birleşimi, medeniyetleri huşu içinde dize getirecek kadar zarafet ve güzellikte bir varlığın bedenselliğinde tezahür eder. Erdemli ve doğru olanın en saf somutlaşmış hâli, gezegenin kalbinin sureti bahşedilen. Bir keresinde göle işediği için bir adamın kafasını toynakla ezmişti. Her yerde kan ve kafatası parçaları vardı."
+      },
+      "FS_CAULD": {
+        "bName": "Cauld",
+        "bDesc": "He’s as cold as ice, he’s willing to sacrifice our love. He never takes advice, someday he’ll pay the price, I know. I’ve seen it before, it happens all the time, he’s closing the door, he leaves the world behind. He’s digging for gold, he’s throwing away a fortune in feelings, but someday he’ll pay."
+      },
+      "REDUSA": {
+        "bName": "Redusa Kafası",
+        "bDesc": "Ortalama bir kahraman için, yüzen bir gorgon başı gibi manzaralar, yıllar boyu süren ürkütücü deneyimlerle neredeyse sıradan hâle gelen bu tür şeyler artık pek de tuhaf değil. Redusa daha büyük bir şey, hepten daha korkunç, ölümcül ve düpedüz şeytani bir şey. Her şeyden önce, kırmızıdır. Bu senin için yeterince korkutucu değilse, başka bir şeyim yok. Üzgünüm."
+      },
+      "RELLYFISH": {
+        "bName": "Penizanası",
+        "bDesc": "İnsanlık uzun zamandır kırmızı rengi şiddet, tutku ve tehlike ile ilişkilendirmiştir. Kanın rengi hem en temel korkularımızı hem de en içgüdüsel arzularımızı uyandırır. Bir sarhoş denizanası çetesinin gece bir dükkana girip tüm ketçapı içmesine (denizanası en başta bu şekilde sarhoş olur) tanık olunduğunda ne korku ne de arzu uyanır."
+      },
+      "HEMO": {
+        "bName": "Kan Yosunu",
+        "bDesc": "Cehennemin bağırsaklarından durmaksızın boşaltıldı ve saldırmak için dürüldü. Sakın gevşemeyin ve onları küçümsemeyin, aksi takdirde kısa sürede sizi ele geçirirler, çünkü eylemleri tahrip edicidir ve binlerce kişiyi sıçmaya zorlar. Üzerlerine sifon çekmek yürek isteyen büyük bir iştir ve sadece en cesurlar bu pislikleri temizleyebilmiştir. (Kendime not: Yayıncıya göndermeden önce bu yazıyı sil. Çok boktan.)"
+      },
+      "BOSS_XLBLINDER": {
+        "bName": "Köreden",
+        "bDesc": "Kendisini gerçek bir vizyoner olarak gören Ölüm Meleği. Obsidiyen parmağını değdirdiği tüm kahramanların etrafına bir karanlık perdesi atabilir, ancak ne zaman bir dövüş için sahaya çıksa, savaş alanı halihazırda o kadar çok parçacık, renk ve özel efektlerle doludur ki, zaten kimse en ufak bir şey göremez."
+      },
+      "FS_ROTGHOUL": {
+        "bName": "Kokuşgul",
+        "bDesc": "Bu vebalı sefillerin iğrençlik saçan her zerresine ölüm kokusu sinmiş. Bir zamanlar masum köylüler olan bu sefiller, Çürükler Rahipliği tarafından nefer olarak hizmet etmeleri için kandırıldılar. İçlerinden birinin tutunmaya yetecek parmağı olsaydı, Çürümüş Diyakozların söylediği her kelimeye tutunurlardı."
+      },
+      "FS_FLAMINGSKULL": {
+        "bName": "Yanan Kafa",
+        "bDesc": "Dövüş hünerlerine rağmen, asıl olarak çöp yakmak gibi oldukça sıkıcı bir amaca hizmet ederler. Bunun nedeni, ölüm büyücülerinin saçma bir şekilde sayılarının fazla olması ve aklı yerinde bir yetişkin gibi çöp atma günü bile yapamamalarındandır. Yine de, onları ciddiye almamak, kafatası yanmasına maruz bırakır."
+      },
+      "FS_WORM": {
+        "bName": "Kiliseden Firar",
+        "bDesc": "İlahi ceza olarak nehirdeki barınaklarından kafirlerin teknelerine sızan zehirli solucanlar. Tekneye çıktıklarında, acımasızca kendi dinini yayar ve akustik gitar müziği selini üzerlerine salar."
+      },
+      "FS_SNAK1": {
+        "bName": "Yılan",
+        "bDesc": "Bu ciltte zaten farklı bir renge sahip genetik olarak özdeş bir yılanla ilgili bir girdi var. Mütevazı Bilgi Bekçiniz sözleşme gereği bir şeye Yılan demek zorunda olduğunu unuttuğundan, rica ediyorum bu gereksiz içeriğin tadını çıkarın!"
+      },
+      "FS_SHOOTER1": {
+        "bName": "Kayıp Kafa",
+        "bDesc": "Canavarların nasıl ve neden bu kadar çok renk değiştirdiğini kim söyleyebilir? Mutasyon mu? Büyücülük mü? Bir kova boyayla kelime sayısını artırmaya çalışan bir mahlukatname yazarı mı? Kimse kesin olarak bilmiyor."
+      },
+      "FS_MEATBALL": {
+        "bName": "Köfte",
+        "bDesc": "Baharatlı."
+      },
+      "FS_MEATY": {
+        "bName": "Donmuş Köfte",
+        "bDesc": "Uzak bir diyardan bir büyücü, soğuk suratının günün birinde kulesini terk eden büyük bir bilgini andırdığına yemin etti. Cesurca yaratıkla konuşmaya cüret etti ve saatlerce konuştu. Gece hava ayaz olduğunda ve donakalmış büyücü de onunla birlikte buz kestiğinde bile kimse müdahale etmeye cesaret edemedi. Gözlerindeki yaşlar buza dönerken son bir söz söylediği söylenir: “Kendisi hayatta.”"
+      },
+      "FS_EDNA": {
+        "bName": "Edna",
+        "bDesc": "İlk bakışta, tembel bir ölüm büyücüsü, kafası kesilmiş bir peygamber devesine bir kafatası cıvatalayıp paydos etmiş gibi görünebilir. İkinci ve üçüncü bakışta, hâlâ öyle görünüyor olabilir. Renardo kesinlikle yaptığı şeyin bu olmadığına ve Edna'nın kayda değer makul bir canavar olduğuna yemin ediyor."
+      },
+      "FS_HORCAULD": {
+        "bName": "Soğuk Cauld",
+        "bDesc": "Kaderinde gönül yarası ve ızdırap hüküm sürüyordu. Onunla tekrar yüzleşip yüzleşemeyeceğini bilmiyordu. Artık duramaz, bu yalnız hayatı değiştirmek için çok yol kat etti… aşka yabancı değil, kuralları biliyor, ben de biliyorum."
+      },
+      "FS_HORWORM": {
+        "bName": "Kuyu Sakini",
+        "bDesc": "Bu motivasyon canavarı, evi dediği delikten su çeken herkese sağlık ve farkındalık hakkında istenmeyen tavsiyeler veriyor. Bu bir esenlik hâletiruhiyesidir."
+      },
+      "FS_HORNJUGG": {
+        "bName": "Islak Njuggles",
+        "bDesc": "Zaten ıslak olan bir şeyin ıslak versiyonu olarak kabul edilmek için ne kadar ıslanmanız gerekir? Wet Njuggles kadar ıslak, sulu bir at \"bol su iç\" ifadesinin üzerine bir sürahi su boca etti. Islaklık konusundaki ustalıklarına rağmen, aralarındaki başlıca ölüm nedeninin boğulma olması acımasız bir ironidir. Ne olursa olsun, yüksekte ve kuru yaşamaktansa sulu bir mezarı tercih ederler, çünkü ne kadar nem o kadar ıslaklık."
+      },
+      "FS_HORAILLEN": {
+        "bName": "Crocifriggitone",
+        "bDesc": "Her zaman ne kadar ateşli olduğundan bahseden bir dev. Etraftaki en seksi canavarlardan biri olarak statüsü göz önüne alındığında, yalan söylediğini söyleyemem. Abyss Foscari Geleneksel Mayo Yarışmasını üç yıl üst üste kazandı. Azgın canavarlar için yine azgınlar tarafından oluşturulan aylık bir yayın olan OnlyFangs'ın açık ara en popüler modeli. Sapkın yaratıkların biyolojisi alanında uzman bilim adamları, tam olarak neden bu kadar şehvetle arzulandığını anlamak için bu çekici devi incelemeye yıllarını harcadılar, ancak bu tür yasaklanmış bilgiler onları şüphesiz deliliğe sürükledi. Onların ateşli yazıları, Dummy Thicc adlı tuhaf bir tanrıya göndermelerle dolu duyarsız hicivlerin bir tık üstüdür."
+      },
+      "FS_HORDUERG": {
+        "bName": "Hâlâ Adamdeğil",
+        "bDesc": "Her biri kesinlikle gerçek bir cüce olduklarına ve ayakkabıları dizlerine bağlayıp olduğundan çok daha kısaymış gibi davranan bir insan olmadığına yemin eder.\nGenellikle %50 daha gelişmiş ve %100 daha az kâr amacı güden sağlık hizmetlerine erişmek için cüce kılığına girmediklerini kendilerine sorulmadan yüksek sesle itiraf etme eğilimindelerdir."
+      },
+      "FS_HORGLORY": {
+        "bName": "Zafer Eldiveni",
+        "bDesc": "Sana alkış tutmaya geldi. Peluş oyuncak bebekleri toplamayı sever ve kudretli parmaklarını şaklatmasıyla onlara hayat bahşeder. Yarattıklarının yakın dövüşte birbirlerine gaddarca saldırmasını neşeyle izledikten sonra kazananın kafasına bir yumruk geçirir. Gerçek bir kavgaya hazırlan, ezmek için burada."
+      },
+      "FS_HORMARI": {
+        "bName": "Maronna Meea",
+        "bDesc": "Bu şeyin geceleyin pencerenden içeri girdiğini, merdivenlerden çıkarken hırıltılı bir şekilde fısır fısır kulak tırmalayan bir sesle titreştiğini hayal et. Yatak odana yaklaşıyor, kapıdaki bir aralıktan bakarken titreyen eliyle boynundaki zili tutuyor. İzliyor. Bekliyor. Uyurken sana hayran oluyor. Bir, belki iki saatten sonra daha fazla dayanamıyor, kapıyı bir santim kıpırdatmadan çatlaktan içeri süzülüyor. Burada. Kaşlarını yalamak için burada. Gördüğün gibi sadece kaşlarının sakladığı mineralleri istiyor. Bunu bir yıl boyunca her Çarşamba yapacak."
+      },
+      "FS_FMCETHLENN": {
+        "bName": "Fomorlar",
+        "bDesc": "M3rhab4! M@raba?/? neREDe sakLan1y0rsuN? neRRRRRRRRe kayb..oldun y4v? nErE? gittiNnNnNnNNNnNnNN??? H3r y3re b@kt1q ß@kt111111k seN1n iÇiN. gIriŞd3y1m DE din ama orda y0kTUUUUUn!  DEEEEEEE LE CEEEEEEEEE vAr dEdİn ama biS buLamad1k sen111111!\n\nOh… bekle… işte buradasın.\n\nBuLduM S333333333333333333333333333333333333333333333333333333333333333333N1!"
+      },
+      "FS_BOSS_JENEVIV": {
+        "bName": "Je-Ne-Viv",
+        "bDesc": "Pisboğaz, homini gırtlak, doymak bilmez. Evrenin sunduğu her şeyin tadına baktı ve tüm evren bu obur formuna yansıdı. Kısmen insan. Yarı canavar. Kısmen hortlak. Yarı iblis. Kısmen tiksinç. Bir vampir değil. Henüz bir vampirle tanışmadı. Bir vampiri yemeyi çok isterdi. Herhangi bir vampir görüp görmediğini bilmek istiyor. Görüp görmediğini sormak için seni ve çevrendeki maddesel her şeyi yemekle oldukça meşgul olacaktı."
+      },
+      "FS_GEF": {
+        "bName": "Şeffeza",
+        "bDesc": "Bu becerikli memelilerin tüm alemlerdeki en zeki yaratıklar arasında olduğu söyleniyor. Ancak sürüler halinde düşmanlarına doğru akılsızca koşmaktan daha akıllıca bir şey yapmadıkları için bu iddiaya şüpheyle yaklaşılıyor. Bu taktiğin hiç işe yaradığı oldu mu ki?"
       }
     }
   },

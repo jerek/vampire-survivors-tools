@@ -459,11 +459,12 @@
       },
       "BUBBLES2": {
         "name": "噼里啪啦",
-        "description": "进化后的乱气蓝泡， 飞射物可以多次命中同一个敌人。"
+        "description": "进化后的乱气蓝泡， 飞射物可以多次命中同一个敌人。",
+        "tips": "需要咒缚盒 （最高级）。"
       },
       "NIGHTSWORD": {
         "name": "太宵一文字",
-        "description": "向最近的敌人发动连续刺击， 可以返还伤害， 有一定几率偷心。",
+        "description": "向最近的敌人发动连续刺击，可以返还伤害，有一定几率偷心。",
         "tips": "无关：速度、 持续时间。"
       },
       "NIGHTSWORD2": {
@@ -473,10 +474,94 @@
       },
       "BOCCE": {
         "name": "108地滚球玉",
-        "description": "其实只有8颗地滚球而已， 会对周围的敌人造成伤害。",
+        "description": "其实只有8颗而已，造成的伤害取决于诅咒和运气的差值。",
         "tips": "无关：发射数量、 持续时间、 速度。"
       },
-      "BONE2": {}
+      "BONE2": {
+        "name": "“死东西”之魂",
+        "description": "进化后的骨头，飞射物在弹射时会加速。",
+        "tips": "需要：泰特拉部队。"
+      },
+      "SPELL_STRING": {
+        "name": "咒能魔线",
+        "description": "攻击附近的敌人， 伤害根据速度翻倍。",
+        "tips": "无关：攻击范围、 持续时间。"
+      },
+      "SPELL_STREAM": {
+        "name": "咒能洪流",
+        "description": "生成一处不断扩大的伤害区域， 伤害根据攻击范围翻倍。",
+        "tips": "无关：发射数量。"
+      },
+      "SPELL_STRIKE": {
+        "name": "咒能打击",
+        "description": "攻击最近的敌人， 伤害可进一步根据力量翻倍。",
+        "tips": "无关：攻击范围、 持续时间。"
+      },
+      "SPELL_STROM": {
+        "name": "咒能风暴",
+        "description": "将咒能魔线、 咒能洪流和咒能打击组合到一起， 每一次爆发点过后会变得更强。"
+      },
+      "SWORD": {
+        "name": "湖中剑",
+        "description": "攻击附近的敌人， 可返还伤害。",
+        "tips": "无关：速度、 持续时间。",
+        "customDescValue": "每五次激活都有一个组合终结者。"
+      },
+      "SWORD2": {
+        "name": "千军斩",
+        "description": "进化后的湖中剑， 生成额外的飞射物， 可返还伤害。",
+        "tips": "需要护盔 （最高级）。"
+      },
+      "FLASHARROW": {
+        "name": "飞雷箭",
+        "description": "可以造成暴击， 伤害受发射数量影响。",
+        "tips": "无关：持续时间。"
+      },
+      "FLASHARROW2": {
+        "name": "百万箭雨",
+        "description": "进化后的飞雷箭， 额外的飞射物受发射数量影响， 在金币拾取时也可触发。",
+        "tips": "需要护腕 （最高级）、 四叶草 （最高级）。"
+      },
+      "PRISMATICMISS": {
+        "name": "耀眼飞弹",
+        "description": "在角色周围生成爆炸， 受秘法牌 II、 XIV 或 XIX 影响， 仅其中任意首张有效。",
+        "tips": "无关：持续时间。"
+      },
+      "PRISMATICMISS2": {
+        "name": "璀璨光芒",
+        "description": "进化后的耀眼飞弹， 增加经验宝石和金币的数量。",
+        "tips": "需要：王冠 （最高级）。"
+      },
+      "SHADOWSERVANT": {
+        "name": "暗影仆从",
+        "description": "有一定几率减缓敌人的速度。",
+        "tips": "最佳搭配：运气。"
+      },
+      "SHADOWSERVANT2": {
+        "name": "蛇夫宝珠",
+        "description": "进化后的暗影仆从， 有一定几率瞬杀敌人。",
+        "tips": "需要：疯狂骷髅 （最高级）。"
+      },
+      "PARTY": {
+        "name": "彩纸拉炮",
+        "description": "投掷能反弹的飞射物。",
+        "tips": "最佳搭配：速度、 持续时间。"
+      },
+      "ACADEMYBADGE": {
+        "name": "学院徽章",
+        "description": "以成长属性换取额外的发射数量和复活机会。"
+      },
+      "SHADOWSERVANT_COUNTER": {
+        "name": "银色银币",
+        "description": "暗影仆从和蛇夫宝珠在秘法牌 I - 双子座的影响下所对应的双生武器。"
+      },
+      "PARTY_COUNTER": {
+        "name": "彩纸拉稀",
+        "description": "彩纸拉炮在秘法牌 I - 双子座的影响下所对应的双生武器。"
+      },
+      "INSATIABLE": {
+        "name": "贪得无厌"
+      }
     }
   },
   "zh-TW": {
@@ -951,11 +1036,11 @@
       "BUBBLES2": {
         "name": "Boo Roo Boolle",
         "description": "Evolved Mille Bolle Blu. Projectiles can hit the same target more than once.",
-        "tips": "Requires: Tetraforce."
+        "tips": "Requires Max: Spellbinder."
       },
       "NIGHTSWORD": {
         "name": "Night Sword",
-        "description": "Dangerous, cursed weapon. Retaliates. Might steal hearts.",
+        "description": "Strikes with a combo attack at the nearest enemy. Retaliates. Might steal hearts.",
         "tips": "Ignores: Speed, Duration."
       },
       "NIGHTSWORD2": {
@@ -970,7 +1055,88 @@
       },
       "BONE2": {
         "name": "Anima of Mortaccio",
-        "description": "Evolved Bone. Projectiles accelerate when bouncing."
+        "description": "Evolved Bone. Projectiles accelerate when bouncing.",
+        "tips": "Requires: Tetraforce."
+      },
+      "SPELL_STRING": {
+        "name": "SpellString",
+        "description": "Strikes at nearby enemies. Damage multiplied by Speed.",
+        "tips": "Ignores: Area, Duration."
+      },
+      "SPELL_STREAM": {
+        "name": "SpellStream",
+        "description": "Generates an expanding damaging zone. Damage multiplied by Area.",
+        "tips": "Ignores: Amount."
+      },
+      "SPELL_STRIKE": {
+        "name": "SpellStrike",
+        "description": "Strikes at the nearest enemy. Damage further multiplied by Might.",
+        "tips": "Ignores: Area, Duration."
+      },
+      "SPELL_STROM": {
+        "name": "SpellStrom",
+        "description": "Union of SpellString, SpellStream, and SpellStrike. Grows stronger after every singularity."
+      },
+      "SWORD": {
+        "name": "Eskizzibur",
+        "description": "Attacks nearby enemies. Retaliates.",
+        "tips": "Ignores: Speed, Duration.",
+        "customDescValue": "Every fifth activation has a combo finisher."
+      },
+      "SWORD2": {
+        "name": "Legionnaire",
+        "description": "Evolved Eskizzibur. Generates additional projectiles that deal retaliatory damage.",
+        "tips": "Requires Max: Armor."
+      },
+      "FLASHARROW": {
+        "name": "Flash Arrow",
+        "description": "Can deal critical damage. Amount affects damage instead.",
+        "tips": "Ignores: Duration."
+      },
+      "FLASHARROW2": {
+        "name": "Millionaire",
+        "description": "Evolved Flash Arrow. Fires additional projectiles based on Amount and when picking up gold coins.",
+        "tips": "Requires Max: Bracer, Clover."
+      },
+      "PRISMATICMISS": {
+        "name": "Prismatic Missile",
+        "description": "Generates explosions around the character. Affected by the first chosen Arcana between II, XIV, or XIX.",
+        "tips": "Ignores: duration."
+      },
+      "PRISMATICMISS2": {
+        "name": "Luminaire",
+        "description": "Evolved Prismatic Missile. Increases the value of gems and coins on the ground.",
+        "tips": "Requires Max: Crown"
+      },
+      "SHADOWSERVANT": {
+        "name": "Shadow Servant",
+        "description": "Has a chance to slow enemies down.",
+        "tips": "Best with: Luck."
+      },
+      "SHADOWSERVANT2": {
+        "name": "Ophion",
+        "description": "Evolved Shadow Servant. Has a chance to instantly kill enemies.",
+        "tips": "Requires Max: Skull'O Maniac."
+      },
+      "PARTY": {
+        "name": "Party Popper",
+        "description": "Throws bouncing projectiles.",
+        "tips": "Best with: Duration, Speed."
+      },
+      "ACADEMYBADGE": {
+        "name": "Academy Badge",
+        "description": "Will provide bonus Amount and Revivals in exchange for Growth."
+      },
+      "SHADOWSERVANT_COUNTER": {
+        "name": "Silver Sliver",
+        "description": "Counterpart to Shadow Servant and Ophion from Arcana I - Gemini."
+      },
+      "PARTY_COUNTER": {
+        "name": "Party Pooper",
+        "description": "Counterpart to Party Popper from Arcana I - Gemini."
+      },
+      "INSATIABLE": {
+        "name": "Insatiable"
       }
     }
   },
@@ -1427,7 +1593,8 @@
       },
       "BUBBLES2": {
         "name": "Boo Roo Boolle",
-        "description": "Évolution du Mille Bolle Blu. Les projectiles peuvent frapper plusieurs fois une cible."
+        "description": "Évolution du Mille Bolle Blu. Les projectiles peuvent frapper plusieurs fois une cible.",
+        "tips": "Requiert : Reliure magique au max."
       },
       "NIGHTSWORD": {
         "name": "Épée nocturne",
@@ -1441,10 +1608,94 @@
       },
       "BOCCE": {
         "name": "108 Boules",
-        "description": "En fait, il n'y en a que 8... Inflige des dégâts aux ennemis à proximité.",
+        "description": "En fait, il n'y en a que 8... Les dégâts sont affectés par la différence entre la malédiction et la chance.",
         "tips": "Ignore : quantité, durée, vitesse."
       },
-      "BONE2": {}
+      "BONE2": {
+        "name": "Anima de Mortaccio",
+        "description": "Évolution de l'Os. Les projectiles accélèrent lorsqu'ils rebondissent.",
+        "tips": "Requiert : Tétraforce."
+      },
+      "SPELL_STRING": {
+        "name": "SpellString",
+        "description": "Frappe les ennemis à proximité. Les dégâts sont multipliés par la vitesse.",
+        "tips": "Ignore : portée, durée."
+      },
+      "SPELL_STREAM": {
+        "name": "SpellStream",
+        "description": "Génère une zone de dégâts qui s'étend. Les dégâts sont multipliés par la portée.",
+        "tips": "Ignore : quantité."
+      },
+      "SPELL_STRIKE": {
+        "name": "SpellStrike",
+        "description": "Frappe l'ennemi le plus proche. Les dégâts sont multipliés par la puissance.",
+        "tips": "Ignore : portée, durée."
+      },
+      "SPELL_STROM": {
+        "name": "SpellStrom",
+        "description": "Fusion du SpellString, du SpellStream et du SpellStrike. Devient de plus en plus puissant."
+      },
+      "SWORD": {
+        "name": "Excuzzibur",
+        "description": "Attaque les ennemis à proximité. Rend coup pour coup.",
+        "tips": "Ignore : vitesse, durée.",
+        "customDescValue": "Inflige un combo décisif toutes les 5 activations."
+      },
+      "SWORD2": {
+        "name": "Légionnaire",
+        "description": "Évolution de l'Excuzzibur. Génère des projectiles supplémentaires qui infligent des dégâts de riposte.",
+        "tips": "Requiert : Armure au max."
+      },
+      "FLASHARROW": {
+        "name": "Flèche Flash",
+        "description": "Peut infliger des dégâts critiques. La quantité affecte plutôt les dégâts.",
+        "tips": "Ignore : durée."
+      },
+      "FLASHARROW2": {
+        "name": "Millionnaire",
+        "description": "Évolution de la Flèche Flash. Lance des projectiles en fonction de la quantité et lorsque vous ramassez de l'or.",
+        "tips": "Requiert : Brassard et Trèfle au max."
+      },
+      "PRISMATICMISS": {
+        "name": "Missile prismatique",
+        "description": "Génère des explosions autour du personnage. Le premier arcane choisi entre II, XIV et XIX l'affecte.",
+        "tips": "Ignore : durée."
+      },
+      "PRISMATICMISS2": {
+        "name": "Luminaire",
+        "description": "Évolution du Missile prismatique. Augmente la valeur des gemmes et des pièces au sol.",
+        "tips": "Requiert : Couronne au max."
+      },
+      "SHADOWSERVANT": {
+        "name": "Pierrombre",
+        "description": "Peut ralentir les ennemis.",
+        "tips": "Efficace avec : chance."
+      },
+      "SHADOWSERVANT2": {
+        "name": "Ophion",
+        "description": "Évolution de la Pierrombre. Peut tuer instantanément les ennemis.",
+        "tips": "Requiert : Skull O'Maniac au max."
+      },
+      "PARTY": {
+        "name": "Confettis",
+        "description": "Lancent des projectiles rebondissants.",
+        "tips": "Efficace avec : vitesse, durée."
+      },
+      "ACADEMYBADGE": {
+        "name": "Insigne de l'Académie",
+        "description": "Octroie un bonus de quantité et de Résurrection en échange de votre expertise."
+      },
+      "SHADOWSERVANT_COUNTER": {
+        "name": "Éclat d'argent",
+        "description": "Équivalent de la Pierrombre et de l'Ophion pour l'arcane I - Gémeaux."
+      },
+      "PARTY_COUNTER": {
+        "name": "Confestifs",
+        "description": "Équivalents des Confettis pour l'arcane I - Gémeaux."
+      },
+      "INSATIABLE": {
+        "name": "Insatiable"
+      }
     }
   },
   "de": {
@@ -1894,7 +2145,8 @@
       },
       "BUBBLES2": {
         "name": "Boo Roo Boolle",
-        "description": "Verbesserter Mille Bolle Blu. Geschosse können dasselbe Ziel mehrmals treffen."
+        "description": "Verbesserter Mille Bolle Blu. Geschosse können dasselbe Ziel mehrmals treffen.",
+        "tips": "Max. erforderlich: Zauberbinder."
       },
       "NIGHTSWORD": {
         "name": "Nachtschwert",
@@ -1908,10 +2160,94 @@
       },
       "BOCCE": {
         "name": "108 Bocce",
-        "description": "Eigentlich nur 8. Schädigt nahe Gegner.",
+        "description": "Eigentlich nur 8. Der Schaden hängt von der Differenz zwischen Fluch und Glück ab.",
         "tips": "Ignoriert: Menge, Dauer, Tempo."
       },
-      "BONE2": {}
+      "BONE2": {
+        "name": "Anima von Mortaccio",
+        "description": "Verbesserter Knochen. Geschosse werden schneller, wenn sie aufspringen.",
+        "tips": "Benötigt: Tetrakraft."
+      },
+      "SPELL_STRING": {
+        "name": "Zauberband",
+        "description": "Schlägt Gegner in der Nähe. Der Schaden wird mit der Schnelligkeit multipliziert.",
+        "tips": "Ignoriert: Bereich, Dauer."
+      },
+      "SPELL_STREAM": {
+        "name": "Zauberstrom",
+        "description": "Erzeugt ein wachsendes Schadensgebiet. Der Schaden wird mit dem Bereich multipliziert.",
+        "tips": "Ignoriert: Menge."
+      },
+      "SPELL_STRIKE": {
+        "name": "Zauberschlag",
+        "description": "Schlägt den nächsten Gegner. Der Schaden wird weiter mit der Macht multipliziert.",
+        "tips": "Ignoriert: Bereich, Dauer."
+      },
+      "SPELL_STROM": {
+        "name": "Zauberstrom",
+        "description": "Vereint Zauberband, Zauberstrom und Zauberschlag. Wird mit jeder Eigenheit stärker."
+      },
+      "SWORD": {
+        "name": "Eskizzibur",
+        "description": "Greift Gegner in der Nähe an. Übt Vergeltung aus.",
+        "tips": "Ignoriert: Tempo, Dauer.",
+        "customDescValue": "Jede fünfte Aktivierung hat einen Kombo-Finisher."
+      },
+      "SWORD2": {
+        "name": "Legionär",
+        "description": "Verbessertes Eskizzibur. Erzeugt zusätzliche Geschosse, die Vergeltungsschaden verursachen.",
+        "tips": "Benötigt (max.): Rüstung."
+      },
+      "FLASHARROW": {
+        "name": "Blitzpfeil",
+        "description": "Kann kritischen Schaden verursachen. Der Schaden hängt stattdessen von der Menge ab.",
+        "tips": "Ignoriert: Dauer."
+      },
+      "FLASHARROW2": {
+        "name": "Millionär",
+        "description": "Verbesserter Blitzpfeil. Feuert je nach Menge und beim Sammeln von Goldmünzen zusätzliche Geschosse ab.",
+        "tips": "Benötigt (max.): Armschiene, Kleeblatt."
+      },
+      "PRISMATICMISS": {
+        "name": "Prismatische Rakete",
+        "description": "Erzeugt um den Charakter herum Explosionen. Hängt von der ersten Wahl aus Arcana II, XIV oder XIX ab.",
+        "tips": "Ignoriert: Dauer."
+      },
+      "PRISMATICMISS2": {
+        "name": "Luminaire",
+        "description": "Verbesserte Prismatische Rakete. Erhöht den Wert von Edelsteinen und Münzen, die auf dem Boden liegen.",
+        "tips": "Benötigt (max.): Krone."
+      },
+      "SHADOWSERVANT": {
+        "name": "Schattendiener",
+        "description": "Hat eine Chance, Gegner zu verlangsamen.",
+        "tips": "Am besten mit: Glück."
+      },
+      "SHADOWSERVANT2": {
+        "name": "Ophion",
+        "description": "Verbesserter Schattendiener. Hat eine Chance, Gegner sofort zu töten.",
+        "tips": "Benötigt (max.): Skull'O Maniac."
+      },
+      "PARTY": {
+        "name": "Partybombe",
+        "description": "Wirft springende Geschosse.",
+        "tips": "Am besten mit: Tempo, Dauer."
+      },
+      "ACADEMYBADGE": {
+        "name": "Akademieabzeichen",
+        "description": "Gewährt Bonusmenge und Wiederbelebungen im Tausch gegen Entwicklung."
+      },
+      "SHADOWSERVANT_COUNTER": {
+        "name": "Doppelsilber",
+        "description": "Gegenstück zum Schattendiener und Ophion von Arcana I – Zwillinge."
+      },
+      "PARTY_COUNTER": {
+        "name": "Partysprenger",
+        "description": "Gegenstück zur Partybombe von Arcana I – Zwillinge."
+      },
+      "INSATIABLE": {
+        "name": "Unersättlich"
+      }
     }
   },
   "el": {
@@ -2373,7 +2709,8 @@
       },
       "BUBBLES2": {
         "name": "Boo Roo Boolle",
-        "description": "Evoluzione di Mille Bolle Blu. I proiettili possono colpire lo stesso bersaglio più volte."
+        "description": "Evoluzione di Mille Bolle Blu. I proiettili possono colpire lo stesso bersaglio più volte.",
+        "tips": "Necessita del massimo di: Estendincanto."
       },
       "NIGHTSWORD": {
         "name": "Spada notturna",
@@ -2387,10 +2724,94 @@
       },
       "BOCCE": {
         "name": "108 bocce",
-        "description": "In realtà sono solo 8. Infliggono danni ai nemici circostanti.",
+        "description": "In realtà sono solo 8. Danni influenzati dalla differenza tra Maledizione e Fortuna.",
         "tips": "Ignora: Quantità, Durata, Velocità."
       },
-      "BONE2": {}
+      "BONE2": {
+        "name": "Anima di Mortaccio",
+        "description": "Evoluzione di Osso. I proiettili accelerano quando rimbalzano.",
+        "tips": "Requisito: Tetraforza."
+      },
+      "SPELL_STRING": {
+        "name": "SpellString",
+        "description": "Colpisce i nemici circostanti. I danni vengono moltiplicati dalla Velocità.",
+        "tips": "Ignora: Area, Durata."
+      },
+      "SPELL_STREAM": {
+        "name": "SpellStream",
+        "description": "Genera un'area di danno crescente. I danni vengono moltiplicati dall'Area.",
+        "tips": "Ignora: Quantità."
+      },
+      "SPELL_STRIKE": {
+        "name": "SpellStrike",
+        "description": "Colpisce il nemico più vicino. I danni vengono moltiplicati dalla Potenza.",
+        "tips": "Ignora: Area, Durata."
+      },
+      "SPELL_STROM": {
+        "name": "SpellStrom",
+        "description": "Unione di SpellString, SpellStream e SpellStrike. Diventa più potente dopo ogni singolarità."
+      },
+      "SWORD": {
+        "name": "Eskizzibur",
+        "description": "Attacca i nemici circostanti. Contrattacca.",
+        "tips": "Ignora: Velocità, Durata.",
+        "customDescValue": "Ha una combo di colpi di grazia ogni cinque attivazioni."
+      },
+      "SWORD2": {
+        "name": "Legionnaire",
+        "description": "Evoluzione di Eskizzibur. Genera proiettili aggiuntivi che infliggono danni da contrattacco.",
+        "tips": "Necessita del massimo di: Armatura."
+      },
+      "FLASHARROW": {
+        "name": "Freccia flash",
+        "description": "Può infliggere danni critici. La Quantità influenza i danni.",
+        "tips": "Ignora: Durata."
+      },
+      "FLASHARROW2": {
+        "name": "Millionaire",
+        "description": "Evoluzione di Freccia flash. Spara proiettili aggiuntivi in base alla Quantità e quando raccogli monete d'oro.",
+        "tips": "Necessita del massimo di: Parabraccio, Quadrifoglio."
+      },
+      "PRISMATICMISS": {
+        "name": "Missile prismatico",
+        "description": "Genera esplosioni attorno al personaggio. È influenzato dal primo Arcano scelto tra il II, il XIV o il XIX.",
+        "tips": "Ignora: Durata."
+      },
+      "PRISMATICMISS2": {
+        "name": "Luminaire",
+        "description": "Evoluzione di Missile prismatico. Aumenta il valore delle gemme e delle monete al suolo.",
+        "tips": "Necessita del massimo di: Corona."
+      },
+      "SHADOWSERVANT": {
+        "name": "Servo dell'ombra",
+        "description": "Ha una probabilità di rallentare i nemici.",
+        "tips": "Ideale con: Fortuna."
+      },
+      "SHADOWSERVANT2": {
+        "name": "Ophion",
+        "description": "Evoluzione del Servo dell'ombra. Ha una probabilità di uccidere istantaneamente i nemici.",
+        "tips": "Necessita del massimo di: Teschiomaniac."
+      },
+      "PARTY": {
+        "name": "Sparacoriandoli",
+        "description": "Scaglia proiettili rimbalzanti.",
+        "tips": "Ideale con: Velocità, Durata."
+      },
+      "ACADEMYBADGE": {
+        "name": "Distintivo dell'Accademia",
+        "description": "Concede Quantità e Resurrezione bonus in cambio di Crescita."
+      },
+      "SHADOWSERVANT_COUNTER": {
+        "name": "Frammento argentato",
+        "description": "Controparte del Servo dell'ombra e di Ophion dell'Arcano I - Gemelli."
+      },
+      "PARTY_COUNTER": {
+        "name": "Guastafeste",
+        "description": "Controparte di Sparacoriandoli dell'Arcano I - Gemelli."
+      },
+      "INSATIABLE": {
+        "name": "Insaziabile"
+      }
     }
   },
   "ja": {
@@ -2840,11 +3261,12 @@
       },
       "BUBBLES2": {
         "name": "無尽の泡",
-        "description": "無尽の泡を進化させたもの。 発射物が同じ敵に複数回ヒットする。"
+        "description": "無尽の泡を進化させたもの。 発射物が同じ敵に複数回ヒットする。",
+        "tips": "最大限が必要：封魔の書。"
       },
       "NIGHTSWORD": {
         "name": "夜の剣",
-        "description": "最も近くにいる敵に連続攻撃を仕掛ける。 反撃する。 攻撃力でハートを奪う。",
+        "description": "最も近くにいる敵に連続攻撃を仕掛ける。反撃する。攻撃力でハートを奪える可能性あり。",
         "tips": "弾速、 効果時間はこの武器に効果をもたらさない。"
       },
       "NIGHTSWORD2": {
@@ -2854,10 +3276,94 @@
       },
       "BOCCE": {
         "name": "百八つの数珠",
-        "description": "実は、 8個だけ。 近くの敵にダメージを与える。",
+        "description": "実は、8個だけ。ダメージは呪いと運に左右される。",
         "tips": "発射弾数、 効果時間、 弾速はこの武器に効果をもたらさない。"
       },
-      "BONE2": {}
+      "BONE2": {
+        "name": "モルタッチョのアニマ",
+        "description": "進化した骨。弾丸は跳ね返ると加速する。",
+        "tips": "必要アイテム：テトラフォース"
+      },
+      "SPELL_STRING": {
+        "name": "スペルストリング",
+        "description": "近くの敵を攻撃する。 弾速によってダメージが増加。",
+        "tips": "攻撃範囲と効果時間は効果をもたらさない。"
+      },
+      "SPELL_STREAM": {
+        "name": "スペルストリーム",
+        "description": "拡大するダメージゾーンを発生させる。 このダメージは、 攻撃範囲によって増加する。",
+        "tips": "発射弾数は効果をもたらさない。"
+      },
+      "SPELL_STRIKE": {
+        "name": "スペルストライク",
+        "description": "最も近い敵を攻撃する。 攻撃力によって、 ダメージがさらに増加。",
+        "tips": "攻撃範囲と効果時間は効果をもたらさない。"
+      },
+      "SPELL_STROM": {
+        "name": "スペルストーム",
+        "description": "スペルストリング、 スペルストリーム、 スペルストライクの合体技。 特異点を超えるごとに強さが増す。"
+      },
+      "SWORD": {
+        "name": "エスキッジブール",
+        "description": "近くの敵に攻撃、 および報復を食らわせる。",
+        "tips": "弾速、 効果時間は効果をもたらさない。",
+        "customDescValue": "5回のアクティベーションごとにコンボフィニッ。"
+      },
+      "SWORD2": {
+        "name": "レギオネア",
+        "description": "エスキッジブールの進化形。 報復ダメージを与える発射物をさらに発生させる。",
+        "tips": "最大値の鎧が必要。"
+      },
+      "FLASHARROW": {
+        "name": "閃光の矢",
+        "description": "クリティカルダメージを与えることができる。 発射弾数は代わりにダメージに作用する。",
+        "tips": "持続時間を無視する。"
+      },
+      "FLASHARROW2": {
+        "name": "ミリオネア",
+        "description": "閃光の矢の進化形。 発射弾数に基づいて追加の発射物を放ち、 金貨を拾う際も発射する。",
+        "tips": "最大値の腕甲とクローバーが必要。"
+      },
+      "PRISMATICMISS": {
+        "name": "プリズムミサイル",
+        "description": "キャラクターの周りで爆発を起こす。 2, 14, 19のうち、 最初に選んだアルカナの影響を受ける。",
+        "tips": "持続時間を無視する。"
+      },
+      "PRISMATICMISS2": {
+        "name": "ルミネール",
+        "description": "プリズムミサイルの進化形。 地面に落ちているジェムと金貨の価値を上げる。",
+        "tips": "最大値の王冠が必要。"
+      },
+      "SHADOWSERVANT": {
+        "name": "シャドー・サーヴァント",
+        "description": "敵を減速させる可能性あり。",
+        "tips": "好相性の能力値：運"
+      },
+      "SHADOWSERVANT2": {
+        "name": "オフィオン",
+        "description": "シャドー・サーヴァントの進化形。 敵を瞬時に倒す可能性あり。",
+        "tips": "最大値のスカルオ・マニアック"
+      },
+      "PARTY": {
+        "name": "パーティー・ポッパー",
+        "description": "跳ね回る発射物を放つ。",
+        "tips": "好相性の能力値：効果時間、 弾速"
+      },
+      "ACADEMYBADGE": {
+        "name": "アカデミーバッジ",
+        "description": "成長効率と引き換えに、 ボーナスの発射弾数と復活を付与する。"
+      },
+      "SHADOWSERVANT_COUNTER": {
+        "name": "シルバー・スライバー",
+        "description": "アルカナ1 - ジェミニのシャドー・サーヴァントとオフィオンと相対するもの。"
+      },
+      "PARTY_COUNTER": {
+        "name": "パーティー・バッシャー",
+        "description": "アルカナ1 - ジェミニのパーティー・ポッパーに相対するもの。"
+      },
+      "INSATIABLE": {
+        "name": "インセーシャブル"
+      }
     }
   },
   "ko": {
@@ -3307,7 +3813,8 @@
       },
       "BUBBLES2": {
         "name": "부 루 불레",
-        "description": "진화한 밀레 불레 블루입니다. 투사체가 동일한 대상을 2번 이상 적중할 수 없습니다."
+        "description": "진화한 밀레 불레 블루입니다. 투사체가 동일한 대상을 2번 이상 적중할 수 없습니다.",
+        "tips": "주문속박기 최대 레벨이 필요합니다."
       },
       "NIGHTSWORD": {
         "name": "밤의 검",
@@ -3321,10 +3828,94 @@
       },
       "BOCCE": {
         "name": "108 보체",
-        "description": "사실은 그냥 8입니다. 근처 적에게 피해를 가합니다.",
+        "description": "사실은 그냥 8입니다. 피해량은 저주와 행운의 차이에 따라 영향을 받습니다.",
         "tips": "강화 무시: 투사체 수, 지속시간, 투사체 속도"
       },
-      "BONE2": {}
+      "BONE2": {
+        "name": "모르타치오의 아니마",
+        "description": "진화한 뼈입니다. 투사체가 튕겨 나올 때 가속됩니다.",
+        "tips": "요구 사항: 테트라포스"
+      },
+      "SPELL_STRING": {
+        "name": "마법주문 두루마리",
+        "description": "가까이 있는 적을 가격합니다. 데미지는 속도를 곱한 만큼 배가합니다.",
+        "tips": "강화 무시: 공격 범위, 지속시간"
+      },
+      "SPELL_STREAM": {
+        "name": "마법주문 유창본",
+        "description": "확장된 데미지 구역을 만듭니다. 데미지는 공격 범위를 곱한 만큼 배가합니다.",
+        "tips": "강화 무시: 수량."
+      },
+      "SPELL_STRIKE": {
+        "name": "마법주문 전능본",
+        "description": "가장 가까이 있는 적을 가격합니다. 데미지는 피해량을 더 곱한 만큼 배가합니다.",
+        "tips": "강화 무시: 공격 범위, 지속시간"
+      },
+      "SPELL_STROM": {
+        "name": "마법주문 통합본",
+        "description": "마법주문 두루마리, 마법주문 유창본, 마법주문 전능본의 통합본입니다. 모든 특이점이 지난 후 더 강력하게 성장합니다."
+      },
+      "SWORD": {
+        "name": "에스키치버",
+        "description": "근처에 있는 적을 공격합니다. 반격합니다.",
+        "tips": "강화 무시: 속도, 지속시간",
+        "customDescValue": "5회 활성화마다 콤보 피니셔가 있습니다."
+      },
+      "SWORD2": {
+        "name": "레지오네어",
+        "description": "에스키치버의 진화 형태입니다. 추가 발사체를 생성해 반격 데미지를 가합니다.",
+        "tips": "최대치 필요: 방어력."
+      },
+      "FLASHARROW": {
+        "name": "섬광의 화살",
+        "description": "치명적인 데미지를 가할 수 있습니다. 수량이 데미지에 영향을 미칩니다.",
+        "tips": "강화 무시: 지속시간."
+      },
+      "FLASHARROW2": {
+        "name": "밀리어네어",
+        "description": "섬광의 화살이 진화된 형태입니다. 금화를 습득하면 수량에 따라 발사체를 추가로 발사합니다.",
+        "tips": "최대치 필요: 팔 보호대, 클로버"
+      },
+      "PRISMATICMISS": {
+        "name": "프리즈마틱 미사일",
+        "description": "캐릭터 주변에 폭발을 일으킵니다. II, XIV, XIX 중 가장 먼저 고른 아르카나의 영향을 받습니다.",
+        "tips": "강화 무시: 지속시간."
+      },
+      "PRISMATICMISS2": {
+        "name": "루미네어",
+        "description": "프리즈마틱 미사일이 진화된 형태입니다. 지면에 있는 보석과 금화의 가치를 증가시킵니다.",
+        "tips": "최대치 필요: 왕관"
+      },
+      "SHADOWSERVANT": {
+        "name": "그림자 시종",
+        "description": "적의 속도를 느리게 할 가능성이 있습니다.",
+        "tips": "최상의 조합: 행운."
+      },
+      "SHADOWSERVANT2": {
+        "name": "오피온",
+        "description": "그림자 시종의 진화 형태입니다. 적을 그즉시 죽일 가능성이 있습니다.",
+        "tips": "최대치 필요: 미치광이의 두개골"
+      },
+      "PARTY": {
+        "name": "파티 폭죽",
+        "description": "튕겨나오는 발사체를 던집니다.",
+        "tips": "최상의 조합: 지속시간, 속도."
+      },
+      "ACADEMYBADGE": {
+        "name": "아카데미 배지",
+        "description": "성장에 대한 대가로 보너스 수량과 부활을 제공합니다."
+      },
+      "SHADOWSERVANT_COUNTER": {
+        "name": "실버 슬리버",
+        "description": "아르카나 I - 쌍둥이 자리의 그림자 시종과 오피온에 상응합니다."
+      },
+      "PARTY_COUNTER": {
+        "name": "파티 똥자루",
+        "description": "아프카나 I - 쌍둥이 자리의 파티 폭죽에 해당합니다."
+      },
+      "INSATIABLE": {
+        "name": "만족할 줄 모르죠."
+      }
     }
   },
   "no": {
@@ -3780,7 +4371,8 @@
       },
       "BUBBLES2": {
         "name": "Boo Roo Boolle",
-        "description": "Ulepszone Mille Bolle Blu. Pociski mogą trafić ten sam cel więcej niż raz."
+        "description": "Ulepszone Mille Bolle Blu. Pociski mogą trafić ten sam cel więcej niż raz.",
+        "tips": "Wymagany maks. poziom: Zaklinacz."
       },
       "NIGHTSWORD": {
         "name": "Miecz nocy",
@@ -3794,10 +4386,94 @@
       },
       "BOCCE": {
         "name": "108 Bocce",
-        "description": "Tak naprawdę to tylko 8. Zadaje obrażenia pobliskim wrogom.",
+        "description": "Tak naprawdę to tylko 8. Obrażenia zależne od różnicy między Klątwą a Szczęściem.",
         "tips": "Ignoruje: Ilość, Czas trwania, Prędkość."
       },
-      "BONE2": {}
+      "BONE2": {
+        "name": "Anima Mortaccio",
+        "description": "Ulepszona Kość. Pociski przyspieszają po odbiciu.",
+        "tips": "Wymagania: Czwórmoc."
+      },
+      "SPELL_STRING": {
+        "name": "Księga Zaklęć",
+        "description": "Trafia w pobliskich wrogów. Obrażenia zwielokrotnione przez Prędkość.",
+        "tips": "Ignoruje: Obszar, Czas trwania."
+      },
+      "SPELL_STREAM": {
+        "name": "Strumień Zaklęć",
+        "description": "Wytwarza powiększającą się strefę obrażeń. Obrażenia zwielokrotnione przez Obszar.",
+        "tips": "Ignoruje: Ilość."
+      },
+      "SPELL_STRIKE": {
+        "name": "Nawałnica Zaklęć",
+        "description": "Trafia w najbliższych wrogów. Obrażenia jeszcze bardziej zwielokrotnione przez Moc.",
+        "tips": "Ignoruje: Obszar, Czas trwania."
+      },
+      "SPELL_STROM": {
+        "name": "Wybuch Zaklęć",
+        "description": "Połączenie Księgi Zaklęć, Strumienia Zaklęć i Nawałnicy Zaklęć. Staje się silniejszy po każdej osobliwości."
+      },
+      "SWORD": {
+        "name": "Eskizzibur",
+        "description": "Atakuje pobliskich wrogów. Bierze odwet.",
+        "tips": "Ignoruje: Prędkość i Czas trwania.",
+        "customDescValue": "Umożliwia kombinację ciosów co piątą aktywację."
+      },
+      "SWORD2": {
+        "name": "Legionnaire",
+        "description": "Ulepszony Eskizzibur. Wytwarza dodatkowe pociski, które zadają obrażenia odwetowe.",
+        "tips": "Wymagany maks. poziom: Pancerz."
+      },
+      "FLASHARROW": {
+        "name": "Zwinna Strzała",
+        "description": "Może zadawać obrażenia krytyczne. Ilość wpływa na obrażenia.",
+        "tips": "Ignoruje: Czas trwania."
+      },
+      "FLASHARROW2": {
+        "name": "Millionaire",
+        "description": "Ulepszona Zwinna Strzała. Wystrzeliwuje dodatkowe pociski na podstawie Ilości oraz podczas podnoszenia złotych monet.",
+        "tips": "Wymagany maks. poziom: Karwasz, Koniczyna."
+      },
+      "PRISMATICMISS": {
+        "name": "Pocisk Pryzmatyczny",
+        "description": "Wytwarza eksplozje wokół postaci. Zależne od pierwszych wybranych Arkan między II, XIV lub XIX.",
+        "tips": "Ignoruje: Czas trwania."
+      },
+      "PRISMATICMISS2": {
+        "name": "Luminaire",
+        "description": "Ulepszony Pocisk Pryzmatyczny. Zwiększa wartość klejnotów i monet na ziemi.",
+        "tips": "Wymagany maks. poziom: Korona"
+      },
+      "SHADOWSERVANT": {
+        "name": "Sługa Cienia",
+        "description": "Ma szansę na spowolnienie wrogów.",
+        "tips": "Działa najlepiej z: Szczęście."
+      },
+      "SHADOWSERVANT2": {
+        "name": "Ophion",
+        "description": "Ulepszony Sługa Cienia. Ma szansę na natychmiastowe zabicie wrogów.",
+        "tips": "Wymagany maks. poziom: Czaszkomaniak"
+      },
+      "PARTY": {
+        "name": "Imprezokról",
+        "description": "Strzela podskakującymi pociskami.",
+        "tips": "Działa najlepiej z: Prędkość, Czas trwania."
+      },
+      "ACADEMYBADGE": {
+        "name": "Odznaka Akademii",
+        "description": "Zapewnia bonusową Ilość i Wskrzeszenia w zamian za Rozwój."
+      },
+      "SHADOWSERVANT_COUNTER": {
+        "name": "Srebrny Odłamek",
+        "description": "Odpowiednik Sługi Cienia i Ophiona z Arkan I – Bliźnięta."
+      },
+      "PARTY_COUNTER": {
+        "name": "Imprezopsuj",
+        "description": "Odpowiednik Imprezokróla z Arkan I – Bliźnięta."
+      },
+      "INSATIABLE": {
+        "name": "Nienasycenie"
+      }
     }
   },
   "pt": {
@@ -4253,7 +4929,8 @@
       },
       "BUBBLES2": {
         "name": "Boo Roo Boolle",
-        "description": "Evolução de Mille Bolle Blu. Projéteis podem atingir o mesmo alvo mais de uma vez."
+        "description": "Evolução de Mille Bolle Blu. Projéteis podem atingir o mesmo alvo mais de uma vez.",
+        "tips": "Requer máx. de: Magicatalisador."
       },
       "NIGHTSWORD": {
         "name": "Espada da Noite",
@@ -4267,10 +4944,94 @@
       },
       "BOCCE": {
         "name": "108 Bocha",
-        "description": "Na verdade, é só 8. Causa dano a inimigos próximos.",
+        "description": "Na verdade, é só 8. Dano afetado pela diferença entre Maldição e Sorte.",
         "tips": "Ignora: Quantidade, Duração, Velocidade."
       },
-      "BONE2": {}
+      "BONE2": {
+        "name": "Anima de Mortaccio",
+        "description": "Evolução do Osso. Projéteis aceleram ao ricochetear.",
+        "tips": "Requer: Tetraforça."
+      },
+      "SPELL_STRING": {
+        "name": "Sortilivro",
+        "description": "Golpeia inimigos próximos. O dano é multiplicado pela Velocidade.",
+        "tips": "Ignora: Área, Duração."
+      },
+      "SPELL_STREAM": {
+        "name": "Sortifeixe",
+        "description": "Gera uma zona de dano crescente. O dano é multiplicado pela Área.",
+        "tips": "Ignora: Quantidade."
+      },
+      "SPELL_STRIKE": {
+        "name": "Sortigolpe",
+        "description": "Golpeia o inimigo mais próximo. O dano é multiplicado pelo Poder.",
+        "tips": "Ignora: Área, Duração."
+      },
+      "SPELL_STROM": {
+        "name": "Sortitorrente",
+        "description": "União de Sortilivro, Sortifeixe e Sortigolpe. Fica mais forte a cada singularidade."
+      },
+      "SWORD": {
+        "name": "Eskizzibur",
+        "description": "Ataca inimigos próximos. Retalia.",
+        "tips": "Ignora: Velocidade, Duração.",
+        "customDescValue": "Uma sequência finalizadora a cada cinco ativações."
+      },
+      "SWORD2": {
+        "name": "Legionária",
+        "description": "Evolução de Eskizzibur. Gera projéteis adicionais que causam dano retaliativo.",
+        "tips": "Requer máx. de: Armadura."
+      },
+      "FLASHARROW": {
+        "name": "Flecha Flash",
+        "description": "Pode causar dano crítico. Quantidade passa a afetar o dano.",
+        "tips": "Ignora: Duração."
+      },
+      "FLASHARROW2": {
+        "name": "Milionária",
+        "description": "Evolução da Flecha Flash. Dispara projéteis adicionais com base na Quantidade e ao coletar moedas de ouro.",
+        "tips": "Requer máx. de: Braçadeira, Trevo."
+      },
+      "PRISMATICMISS": {
+        "name": "Projétil Prismático",
+        "description": "Gera explosões ao redor do personagem. Afetado pela primeira Arcana escolhida entre II, XIV ou XIX.",
+        "tips": "Ignora: Duração."
+      },
+      "PRISMATICMISS2": {
+        "name": "Luminária",
+        "description": "Evolução do Projétil Prismático. Aumenta o valor das joias e moedas no chão.",
+        "tips": "Requer máx. de: Coroa."
+      },
+      "SHADOWSERVANT": {
+        "name": "Serviçal Sombrio",
+        "description": "Tem a chance de causar lentidão nos inimigos.",
+        "tips": "Melhor com: Sorte."
+      },
+      "SHADOWSERVANT2": {
+        "name": "Ofíon",
+        "description": "Evolução de Serviçal Sombrio. Tem a chance de eliminar inimigos instantaneamente.",
+        "tips": "Requer máx. de: Caveira Maníaca."
+      },
+      "PARTY": {
+        "name": "Lança-confetes",
+        "description": "Lança projéteis ricocheteantes.",
+        "tips": "Melhor com: Velocidade, Duração."
+      },
+      "ACADEMYBADGE": {
+        "name": "Brasão Acadêmico",
+        "description": "Fornece Quantidade e Ressurreições de bônus em troca de Crescimento."
+      },
+      "SHADOWSERVANT_COUNTER": {
+        "name": "Lasca Prateada",
+        "description": "Contrapartida do Serviçal Sombrio e Ofíon da Arcana I - Gêmeos."
+      },
+      "PARTY_COUNTER": {
+        "name": "Mancha-confetes",
+        "description": "Contrapartida do Lança-confetes da Arcana I - Gêmeos."
+      },
+      "INSATIABLE": {
+        "name": "Insaciável"
+      }
     }
   },
   "ro": {
@@ -4726,7 +5487,8 @@
       },
       "BUBBLES2": {
         "name": "Бу-ру-булле",
-        "description": "Улучшенный Милли-булли-блу. Снаряды могут несколько раз попадать по одной и той же цели."
+        "description": "Улучшенный Милли-булли-блу. Снаряды могут несколько раз попадать по одной и той же цели.",
+        "tips": "Требуется макс.: заклинатель."
       },
       "NIGHTSWORD": {
         "name": "Меч ночи",
@@ -4740,10 +5502,94 @@
       },
       "BOCCE": {
         "name": "108 Бочче",
-        "description": "На самом деле всего 8. Наносит урон врагам поблизости.",
+        "description": "На самом деле всего 8. Урон зависит от разницы между показателями проклятия и удачи.",
         "tips": "Игнорирует: количество, продолжительность, скорость."
       },
-      "BONE2": {}
+      "BONE2": {
+        "name": "Анима Мортаччо",
+        "description": "Улучшенная «Кость». Ускоряет снаряды при рикошете.",
+        "tips": "Требуется: сила четырех."
+      },
+      "SPELL_STRING": {
+        "name": "ЦепьЗаклинаний",
+        "description": "Бьет по ближайшим врагам. Урон умножается на скорость.",
+        "tips": "Игнорирует: область, продолжительность."
+      },
+      "SPELL_STREAM": {
+        "name": "ПотокЗаклинаний",
+        "description": "Создает расширяющуюся зону урона. Урон умножается на значение области.",
+        "tips": "Игнорирует: боезапас."
+      },
+      "SPELL_STRIKE": {
+        "name": "УдарЗаклинаний",
+        "description": "Бьет по ближайшему врагу. Урон также умножается на силу.",
+        "tips": "Игнорирует: область, продолжительность."
+      },
+      "SPELL_STROM": {
+        "name": "ШтормЗаклинаний",
+        "description": "Гибрид из ЦепьЗаклинаний, ПотокЗаклинаний и УдарЗаклинаний. Становится сильнее с каждой сингулярностью."
+      },
+      "SWORD": {
+        "name": "Экскиззибур",
+        "description": "Атакует врагов поблизости. Наносит ответный удар.",
+        "tips": "Игнорирует: скорость, продолжительность.",
+        "customDescValue": "Добивающее комбо при каждом пятом срабатывании."
+      },
+      "SWORD2": {
+        "name": "Легионер",
+        "description": "Улучшенный Экскиззибур. Дает дополнительные снаряды, которые наносят ответный урон.",
+        "tips": "Требуется макс.: броня."
+      },
+      "FLASHARROW": {
+        "name": "Громовая стрела",
+        "description": "Может наносить критический урон. Боезапас влияет на урон.",
+        "tips": "Игнорирует: срок."
+      },
+      "FLASHARROW2": {
+        "name": "Миллионер",
+        "description": "Улучшенная Громовая стрела. Стреляет дополнительными снарядами в зависимости от боезапаса и при собирании золотых монет.",
+        "tips": "Требуется макс.: наруч, клевер."
+      },
+      "PRISMATICMISS": {
+        "name": "Призматический снаряд",
+        "description": "Создает взрывы вокруг персонажа. Подвержен влиянию первой выбранной Арканы из II, XIV или XIX.",
+        "tips": "Игнорирует: срок."
+      },
+      "PRISMATICMISS2": {
+        "name": "Люминера",
+        "description": "Улучшенный Призматический снаряд. Повышает ценность самоцветов и монет на земле.",
+        "tips": "Требуется макс.: корона."
+      },
+      "SHADOWSERVANT": {
+        "name": "Служитель тьмы",
+        "description": "Дает шанс замедлить врагов.",
+        "tips": "Для лучшего эффекта требуется: удача."
+      },
+      "SHADOWSERVANT2": {
+        "name": "Офион",
+        "description": "Улучшенный Служитель тьмы. Дает шанс мгновенно убить врагов.",
+        "tips": "Требуется макс.: Череп О'Маньяка."
+      },
+      "PARTY": {
+        "name": "Хлопушка",
+        "description": "Бросает отскакивающий снаряд.",
+        "tips": "Для лучшего эффекта требуются: скорость, продолжительность."
+      },
+      "ACADEMYBADGE": {
+        "name": "Значок Академии",
+        "description": "Дает дополнительный боезапас и оживления в обмен на развитие."
+      },
+      "SHADOWSERVANT_COUNTER": {
+        "name": "Серебряное серебро",
+        "description": "Идет в пару к Служителю тьмы и Офиону из Арканы I — Близнецы."
+      },
+      "PARTY_COUNTER": {
+        "name": "Колотушка",
+        "description": "Идет в паре с Хлопушкой из Арканы I — Близнецы."
+      },
+      "INSATIABLE": {
+        "name": "Ненасытность"
+      }
     }
   },
   "es": {
@@ -5193,7 +6039,8 @@
       },
       "BUBBLES2": {
         "name": "Boo roo boolle",
-        "description": "Evolución de Mille Bolle Blu. Los proyectiles pueden impactar en el mismo objetivo más de una vez."
+        "description": "Evolución de Mille Bolle Blu. Los proyectiles pueden impactar en el mismo objetivo más de una vez.",
+        "tips": "Requiere: potenciahechizos al máximo."
       },
       "NIGHTSWORD": {
         "name": "Espada de la noche",
@@ -5207,10 +6054,94 @@
       },
       "BOCCE": {
         "name": "108 bocce",
-        "description": "En realidad solo son 8. Daña a los enemigos cercanos.",
+        "description": "En realidad solo son 8. El daño se ve afectado por la diferencia entre maldición y suerte.",
         "tips": "Ignora: cantidad, duración, velocidad."
       },
-      "BONE2": {}
+      "BONE2": {
+        "name": "Ánima de Mortaccio",
+        "description": "Evolución del hueso. Los proyectiles se aceleran al rebotar.",
+        "tips": "Requiere: tetrafuerza."
+      },
+      "SPELL_STRING": {
+        "name": "Sortitruco",
+        "description": "Golpea a los enemigos cercanos. El daño se multiplica por la velocidad.",
+        "tips": "Ignora: área de efecto, duración."
+      },
+      "SPELL_STREAM": {
+        "name": "Sortitorrente",
+        "description": "Genera una zona de daño que se expande. El daño se multiplica por el área de efecto.",
+        "tips": "Ignora: cantidad."
+      },
+      "SPELL_STRIKE": {
+        "name": "Sortigolpe",
+        "description": "Golpea al enemigo más cercano. El daño también se multiplica por el poder.",
+        "tips": "Ignora: área de efecto, duración."
+      },
+      "SPELL_STROM": {
+        "name": "Sorticorriente",
+        "description": "Fusiona el sortitruco, el sortitorrente y el sortigolpe. Se hace más fuerte después de cada singularidad."
+      },
+      "SWORD": {
+        "name": "Eskizzibur",
+        "description": "Ataca a enemigos cercanos. Refleja el daño.",
+        "tips": "Ignora: velocidad, duración.",
+        "customDescValue": "Realiza un remate de combo cada cinco activaciones."
+      },
+      "SWORD2": {
+        "name": "Legionnaire",
+        "description": "Evolución de Eskizzibur. Genera proyectiles adicionales que causan daño reflejado.",
+        "tips": "Requiere: armadura al máximo."
+      },
+      "FLASHARROW": {
+        "name": "Flecha flash",
+        "description": "Puede causar daño crítico. La cantidad afecta al daño.",
+        "tips": "Ignora: duración."
+      },
+      "FLASHARROW2": {
+        "name": "Millionaire",
+        "description": "Evolución de la flecha flash. Dispara proyectiles adicionales según la cantidad y al recoger monedas de oro.",
+        "tips": "Requiere: brazal y trébol al máximo."
+      },
+      "PRISMATICMISS": {
+        "name": "Misil prismático",
+        "description": "Genera explosiones alrededor del personaje. Se ve afectado por el primer arcano elegido si es II, XIV o XIX.",
+        "tips": "Ignora: duración."
+      },
+      "PRISMATICMISS2": {
+        "name": "Luminaire",
+        "description": "Evolución del misil prismático. Aumenta el valor de las gemas y de las monedas que te encuentras en el suelo.",
+        "tips": "Requiere: corona al máximo."
+      },
+      "SHADOWSERVANT": {
+        "name": "Siervo sombrío",
+        "description": "Probabilidad de ralentizar a los enemigos.",
+        "tips": "Mejor con: suerte."
+      },
+      "SHADOWSERVANT2": {
+        "name": "Ophion",
+        "description": "Evolución del siervo sombrío. Probabilidad de matar enemigos instantáneamente.",
+        "tips": "Requiere: skull o'maniac al máximo."
+      },
+      "PARTY": {
+        "name": "Animafiestas",
+        "description": "Lanza proyectiles que rebotan.",
+        "tips": "Mejor con: duración, velocidad."
+      },
+      "ACADEMYBADGE": {
+        "name": "Insignia de la academia",
+        "description": "Proporcionará una bonificación de cantidad y resurrecciones a cambio de crecimiento."
+      },
+      "SHADOWSERVANT_COUNTER": {
+        "name": "Fragmento argénteo",
+        "description": "Pareja del siervo sombrío y de Ophion del arcano I: Géminis."
+      },
+      "PARTY_COUNTER": {
+        "name": "Aguafiestas",
+        "description": "Pareja del animafiestas del arcano I: Géminis."
+      },
+      "INSATIABLE": {
+        "name": "Insaciable"
+      }
     }
   },
   "es-419": {
@@ -5678,7 +6609,8 @@
       },
       "BUBBLES2": {
         "name": "Boo Roo Boolle",
-        "description": "Evrilmiş Mille Bolle Blu. Fırlatılabilirler aynı hedefi birden fazla kez vurabilir."
+        "description": "Evrilmiş Mille Bolle Blu. Fırlatılabilirler aynı hedefi birden fazla kez vurabilir.",
+        "tips": "Maks Gerektirir: Büyübağlayan."
       },
       "NIGHTSWORD": {
         "name": "Gece Kılıcı",
@@ -5692,10 +6624,94 @@
       },
       "BOCCE": {
         "name": "108 Bocce",
-        "description": "Aslında sadece 8. Yakındaki düşmanlara hasar verir.",
+        "description": "Aslında sadece 8. Hasar, Lanet ve Şans arasındaki farktan etkilenir.",
         "tips": "Yok sayar: Miktar, Tesir Süresi, Hız."
       },
-      "BONE2": {}
+      "BONE2": {
+        "name": "Mortaccio'nun Animası",
+        "description": "Evrimleşmiş Kemik. Fırlatılabilirler sektiğinde hızlanır.",
+        "tips": "Gerektirir: Tetraforce."
+      },
+      "SPELL_STRING": {
+        "name": "BüyülüCeride",
+        "description": "Yakındaki düşmanlara vurur. Hasar, Hız ile daha da artar.",
+        "tips": "Yok Sayar: Alan, Tesir Süresi."
+      },
+      "SPELL_STREAM": {
+        "name": "BüyülüAkım",
+        "description": "Genişleyen hasar verici bölgeler oluşturur. Hasar, Alan ile daha da artar.",
+        "tips": "Yok Sayar: Miktar."
+      },
+      "SPELL_STRIKE": {
+        "name": "BüyülüSaldırı",
+        "description": "En yakın düşmana vurur. Hasar, Kuvvet ile daha da artar.",
+        "tips": "Yok sayar: Alan, Tesir Süresi."
+      },
+      "SPELL_STROM": {
+        "name": "BüyülüFırtına",
+        "description": "BüyülüCeride, BüyülüAkım ve BüyülüSaldırı'nın birleşimi. Her tekillikten sonra daha da güçlenir."
+      },
+      "SWORD": {
+        "name": "Eskizzibur",
+        "description": "Yakındaki düşmanlara saldırır. Misilleme yapar.",
+        "tips": "Yok Sayar: Hız, Tesir Süresi.",
+        "customDescValue": "Her beşinci aktivasyon bir kombo bitiricisi verir."
+      },
+      "SWORD2": {
+        "name": "Lejyoner",
+        "description": "Evrilmiş Eskizzibur. Misilleme hasarı veren fazladan fırlatılabilir oluşturur.",
+        "tips": "Maks Gerektirir: Zırh."
+      },
+      "FLASHARROW": {
+        "name": "Işıltı Oku",
+        "description": "Kritik hasar verebilir. Miktar direkt hasarı etkiler.",
+        "tips": "Yok Sayar: Tesir Süresi."
+      },
+      "FLASHARROW2": {
+        "name": "Milyoner",
+        "description": "Evrilmiş Işıltı Oku. Altın akçeleri toplarken Miktar'a bağlı olarak fazladan fırlatılabilir ateşler.",
+        "tips": "Maks Gerektirir: Kol Zırhı, Yonca."
+      },
+      "PRISMATICMISS": {
+        "name": "Mukarnes Fırlatılabiliri",
+        "description": "Karakterin etrafında patlamalar oluşturur. II, XIV veya XIX arasında ilk seçilen Arcana'dan etkilenir.",
+        "tips": "Yok Sayar: Tesir Süresi."
+      },
+      "PRISMATICMISS2": {
+        "name": "Lambader",
+        "description": "Evrilmiş Mukarnes Fırlatılabiliri. Yerdeki değerli taşların ve akçelerin değerini artırır.",
+        "tips": "Maks Gerektirir: Taç"
+      },
+      "SHADOWSERVANT": {
+        "name": "Gölge Hizmetkâr",
+        "description": "Düşmanları yavaşlatma şansı vardır.",
+        "tips": "İyi gider: Şans."
+      },
+      "SHADOWSERVANT2": {
+        "name": "Ophion",
+        "description": "Evrilmiş Gölge Hizmetkâr. Düşmanlara tek atma şansı vardır.",
+        "tips": "Maks Gerektirir: Skull'O Maniac."
+      },
+      "PARTY": {
+        "name": "Oyunbozan",
+        "description": "Seken fırlatılabilirler atar.",
+        "tips": "İyi gider: Tesir Süresi, Hız."
+      },
+      "ACADEMYBADGE": {
+        "name": "Akademi Rozeti",
+        "description": "Büyüme karşılığında bonus Miktar ve Canlanma sağlar."
+      },
+      "SHADOWSERVANT_COUNTER": {
+        "name": "Silver Sliver",
+        "description": "Arcana I - Gemini'dan Gölge Hizmetkâr ve Ophion'un muadili."
+      },
+      "PARTY_COUNTER": {
+        "name": "Oyunbozan",
+        "description": "Arcana I - Gemini'dan Oyunbozan'ın muadili."
+      },
+      "INSATIABLE": {
+        "name": "Pisboğaz"
+      }
     }
   },
   "uk": {

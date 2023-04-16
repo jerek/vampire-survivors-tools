@@ -183,9 +183,20 @@
         "name": "佛斯卡利的灯笼",
         "description": "针对移动速度，永久移除所有金蛋加成，此操作不可撤销。"
       },
-      "DUMMY_GOLDENEGG_MAX": {},
-      "RELIC_MALACHITE": {},
-      "RELIC_CHARM": {}
+      "DUMMY_GOLDENEGG_MAX": {
+        "name": "无脑金蛋",
+        "description": "花最多的钱，买最多的金蛋。"
+      },
+      "RELIC_MALACHITE": {
+        "name": "混沌孔雀石",
+        "description": "“死东西”在达到80级时可以变身。",
+        "achievementTips": "“死东西”之魂"
+      },
+      "RELIC_CHARM": {
+        "name": "一瓶药",
+        "description": "可以购买强化：魅惑。",
+        "achievementTips": "强化：魅惑。"
+      }
     }
   },
   "zh-TW": {
@@ -576,9 +587,20 @@
         "name": "Lanterne de Foscari",
         "description": "Supprime tous les bonus d'Œuf doré pour le déplacement. Cette action est irréversible."
       },
-      "DUMMY_GOLDENEGG_MAX": {},
-      "RELIC_MALACHITE": {},
-      "RELIC_CHARM": {}
+      "DUMMY_GOLDENEGG_MAX": {
+        "name": "ŒUFS MAX",
+        "description": "Dépensez le plus d'or possible pour acheter des Œufs dorés."
+      },
+      "RELIC_MALACHITE": {
+        "name": "Malachite du chaos",
+        "description": "Mortaccio se transforme lorsqu'il atteint le niveau 80.",
+        "achievementTips": "L'anima de Mortaccio."
+      },
+      "RELIC_CHARM": {
+        "name": "Apoplexie",
+        "description": "Permet d'acheter le bonus de charme.",
+        "achievementTips": "Bonus de charme."
+      }
     }
   },
   "de": {
@@ -752,9 +774,20 @@
         "name": "Laterne von Foscari",
         "description": "Entfernt dauerhaft alle Goldenes-Ei-Boni aufs Bewegungstempo. Kann nicht rückgängig gemacht werden."
       },
-      "DUMMY_GOLDENEGG_MAX": {},
-      "RELIC_MALACHITE": {},
-      "RELIC_CHARM": {}
+      "DUMMY_GOLDENEGG_MAX": {
+        "name": "MAX. EIER",
+        "description": "Gib möglichst viel Geld aus, um Goldene Eier zu kaufen."
+      },
+      "RELIC_MALACHITE": {
+        "name": "Chaosmalachit",
+        "description": "Ermöglicht Mortaccio die Verwandlung ab Level 80.",
+        "achievementTips": "Anima von Mortaccio."
+      },
+      "RELIC_CHARM": {
+        "name": "Apoplexie",
+        "description": "Ermöglicht den Kauf des Charme-Power-ups.",
+        "achievementTips": "Charme-Power-up."
+      }
     }
   },
   "el": {
@@ -940,9 +973,20 @@
         "name": "Lanterna di Foscari",
         "description": "Rimuove definitivamente tutti i bonus Uovo d'oro alla Velocità di movimento. Quest'azione è irreversibile."
       },
-      "DUMMY_GOLDENEGG_MAX": {},
-      "RELIC_MALACHITE": {},
-      "RELIC_CHARM": {}
+      "DUMMY_GOLDENEGG_MAX": {
+        "name": "UOVA MASSIME",
+        "description": "Spendi più monete possibili per acquistare Uova d'oro."
+      },
+      "RELIC_MALACHITE": {
+        "name": "Malachite del caos",
+        "description": "Consente a Mortaccio di trasformarsi quando raggiunge il livello 80.",
+        "achievementTips": "Anima di Mortaccio."
+      },
+      "RELIC_CHARM": {
+        "name": "Apoplessia",
+        "description": "Consente di acquistare il potenziamento Fascino.",
+        "achievementTips": "Potenziamento Fascino."
+      }
     }
   },
   "ja": {
@@ -1116,9 +1160,20 @@
         "name": "フォスカリの灯籠",
         "description": "黄金の卵で上昇した移動速度が永続的に失われる。取り消し不可。"
       },
-      "DUMMY_GOLDENEGG_MAX": {},
-      "RELIC_MALACHITE": {},
-      "RELIC_CHARM": {}
+      "DUMMY_GOLDENEGG_MAX": {
+        "name": "マックスエッグ",
+        "description": "できるだけ多くのゴールドを消費して、金の卵を購入する。"
+      },
+      "RELIC_MALACHITE": {
+        "name": "カオスマラカイト",
+        "description": "レベル80になるとモルタッチオが進化する。",
+        "achievementTips": "モルタッチョのアニマ"
+      },
+      "RELIC_CHARM": {
+        "name": "脳卒中",
+        "description": "チャームパワーアップを購入できる。",
+        "achievementTips": "チャームパワーアップ"
+      }
     }
   },
   "ko": {
@@ -1292,9 +1347,20 @@
         "name": "포스카리의 등불",
         "description": "이동 속도에 대한 모든 황금알 보너스를 영구적으로 제거합니다. 이는 실행 취소할 수 없습니다."
       },
-      "DUMMY_GOLDENEGG_MAX": {},
-      "RELIC_MALACHITE": {},
-      "RELIC_CHARM": {}
+      "DUMMY_GOLDENEGG_MAX": {
+        "name": "최대 황금알",
+        "description": "황금알을 구매하기 위해 최대한 많은 골드를 사용합니다."
+      },
+      "RELIC_MALACHITE": {
+        "name": "카오스 말라카이트",
+        "description": "레벨 80 도달 시 모르타치오가 변신할 수 있습니다.",
+        "achievementTips": "모르타치오의 아니마입니다."
+      },
+      "RELIC_CHARM": {
+        "name": "아포플렉시",
+        "description": "매력 강화를 구매할 수 있습니다.",
+        "achievementTips": "매력 강화입니다."
+      }
     }
   },
   "no": {
@@ -1474,9 +1540,20 @@
         "name": "Latarnia Foscari",
         "description": "Na stałe usuwa wszystkie premie do Prędkości ruchu ze Złotych jaj. Nie można tego cofnąć."
       },
-      "DUMMY_GOLDENEGG_MAX": {},
-      "RELIC_MALACHITE": {},
-      "RELIC_CHARM": {}
+      "DUMMY_GOLDENEGG_MAX": {
+        "name": "MAKSYMALNA LICZBA JAJ",
+        "description": "Wydaj jak najwięcej złota na zakup Złotych jaj."
+      },
+      "RELIC_MALACHITE": {
+        "name": "Malachit Chaosu",
+        "description": "Umożliwia Mortaccio przekształcenie się po osiągnięciu 80. poziomu.",
+        "achievementTips": "Anima Mortaccio."
+      },
+      "RELIC_CHARM": {
+        "name": "Apopleksja",
+        "description": "Odblokowuje wzmocnienie Urok.",
+        "achievementTips": "Wzmocnienie Urok."
+      }
     }
   },
   "pt": {
@@ -1656,9 +1733,20 @@
         "name": "Luminária de Foscari",
         "description": "Remove permanentemente todos os bônus de Ovos Dourados na Velocidade de Movimento. Não pode ser desfeito."
       },
-      "DUMMY_GOLDENEGG_MAX": {},
-      "RELIC_MALACHITE": {},
-      "RELIC_CHARM": {}
+      "DUMMY_GOLDENEGG_MAX": {
+        "name": "MÁX. DE OVOS",
+        "description": "Gaste o máximo de ouro possível para comprar Ovos Dourados."
+      },
+      "RELIC_MALACHITE": {
+        "name": "Malaquita do Caos",
+        "description": "Permite que Mortaccio se transforme ao alcançar o nível 80.",
+        "achievementTips": "Anima de Mortaccio."
+      },
+      "RELIC_CHARM": {
+        "name": "Apoplexia",
+        "description": "Permite comprar o aprimoramento Charme.",
+        "achievementTips": "Aprimoramento Charme."
+      }
     }
   },
   "ro": {
@@ -1838,9 +1926,20 @@
         "name": "Фонарь Фоскари",
         "description": "Убирает все бонусы золотых яиц для скорости движения. Нельзя отменить."
       },
-      "DUMMY_GOLDENEGG_MAX": {},
-      "RELIC_MALACHITE": {},
-      "RELIC_CHARM": {}
+      "DUMMY_GOLDENEGG_MAX": {
+        "name": "МАКСИМУМ ЯИЦ",
+        "description": "Потратьте как можно больше золота на покупку Золотых яиц."
+      },
+      "RELIC_MALACHITE": {
+        "name": "Малахит хаоса",
+        "description": "Позволяет Мортаччо менять форму по достижении 80 уровня.",
+        "achievementTips": "Анима Мортаччо."
+      },
+      "RELIC_CHARM": {
+        "name": "Апоплексия",
+        "description": "Позволяет приобрести усиление «Очарование».",
+        "achievementTips": "Усиление «Очарование»."
+      }
     }
   },
   "es": {
@@ -2014,9 +2113,20 @@
         "name": "Farol de Foscari",
         "description": "Elimina de forma permanente todas las bonificaciones de huevo de oro a la vel. de movimiento. No se puede deshacer."
       },
-      "DUMMY_GOLDENEGG_MAX": {},
-      "RELIC_MALACHITE": {},
-      "RELIC_CHARM": {}
+      "DUMMY_GOLDENEGG_MAX": {
+        "name": "MÁX. DE HUEVOS",
+        "description": "Usa la mayor cantidad de oro posible para comprar huevos de oro."
+      },
+      "RELIC_MALACHITE": {
+        "name": "Malaquita del caos",
+        "description": "Permite que Mortaccio se transforme al alcanzar el nivel 80.",
+        "achievementTips": "Ánima de Mortaccio."
+      },
+      "RELIC_CHARM": {
+        "name": "Apoplejía",
+        "description": "Permite comprar la mejora encanto.",
+        "achievementTips": "Mejora encanto."
+      }
     }
   },
   "es-419": {
@@ -2208,9 +2318,20 @@
         "name": "Foscari'nin Feneri",
         "description": "HareketHızı'ndaki tüm Altın Yumurta bonuslarını kalıcı olarak kaldırır. Geri dönüşü yoktur."
       },
-      "DUMMY_GOLDENEGG_MAX": {},
-      "RELIC_MALACHITE": {},
-      "RELIC_CHARM": {}
+      "DUMMY_GOLDENEGG_MAX": {
+        "name": "MAKS YUMURTALAR",
+        "description": "Altın Yumurta satın almak için olabildiğince çok altın harca."
+      },
+      "RELIC_MALACHITE": {
+        "name": "Kaos Malahiti",
+        "description": "Seviye 80'e ulaşırken Mortaccio'nun dönüşmesine olanak sağlar.",
+        "achievementTips": "Mortaccio'nun Animası"
+      },
+      "RELIC_CHARM": {
+        "name": "İnmeletici",
+        "description": "Letafet Güçlendirmesi'ni satın almaya olanak sağlar.",
+        "achievementTips": "Letafet Güçlendirmesi."
+      }
     }
   },
   "uk": {

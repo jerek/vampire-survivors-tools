@@ -1,0 +1,45 @@
+{
+    "dlc_type": "Foscari",
+    "json": [],
+    "image": [],
+    "atlas": [],
+    "multiatlas": [
+        { "key": "foscariChars", "data": "assets/img/foscariChars.json", "path": "assets/img" }
+    ],
+    "audio": [
+        { "key": "BGM_Foscari", "path": "assets/sfx/bgm_elrond_foscari.ogg" },
+        { "key": "BGM_Foscari2", "path": "assets/sfx/bgm_elrond_foscari2.ogg" },
+        { "key": "BGM_Magic", "path": "assets/sfx/bgm_elrond_magic.ogg" },
+        { "key": "BGM_War", "path": "assets/sfx/bgm_elrond_war.ogg" },
+        { "key": "BGM_Deception", "path": "assets/sfx/bgm_elrond_deception.ogg" },
+        { "key": "BGM_Genevieve", "path": "assets/sfx/bgm_elrond_genevieve.ogg" },
+        { "key": "BGM_Luminaire", "path": "assets/sfx/bgm_elrond_luminaire.ogg" },
+        { "key": "BGM_Nature", "path": "assets/sfx/bgm_nature.ogg" },
+        { "key": "BGM_HB", "path": "assets/sfx/bgm_elrond_hb.ogg" }
+    ],
+    "glsl": [],
+    "weapon_data": [
+        { "key": "weaponData_Foscari", "path": "scripts/data/weaponData_Foscari.js" }
+    ],
+    "stage_data": [
+        { "key": "stageData_Foscari", "path": "scripts/data/stageData_Foscari.js" }
+    ],
+    "character_data": [
+        { "key": "characterData_Foscari", "path": "scripts/data/characterData_Foscari.js" }
+    ],
+    "achievement_data": [
+        { "key": "achievementData_Foscari", "path": "scripts/data/achievementData_Foscari.js" }
+    ],
+    "enemy_data": [
+        { "key": "enemyData_Foscari", "path": "scripts/data/enemyData_Foscari.js" }
+    ],
+    "secret_data": [
+        { "key": "secretData_Foscari", "path": "scripts/data/secretData_Foscari.js" }
+    ],
+    "music_data": [
+        { "key": "musicData_Foscari", "path": "scripts/data/musicData_Foscari.js" }
+    ],
+    "limitbreak_data": [
+        { "key": "limitBreakData_Foscari", "path": "scripts/data/limitBreakData_Foscari.js" }
+    ]
+}

@@ -1,0 +1,122 @@
+{
+    "FOSC01_FindCoffin": {
+        "description": "Find and open the coffin in Lake Foscari.",
+        "characterToUnlock": "ELEANOR",
+        "achieved": false
+    },
+    "FOSC02_Survive15Eleanor": {
+        "description": "Survive 15 minutes with Eleanor Uziron.",
+        "weaponToUnlock": "SPELL_STRING",
+        "achieved": false
+    },
+    "FOSC03_GetStreamToLevel6": {
+        "description": "Get SpellStream to Level 6.",
+        "weaponToUnlock": "SPELL_STREAM",
+        "achieved": false
+    },
+    "FOSC04_GetStrikeToLevel6": {
+        "description": "Get SpellStrike to Level 6.",
+        "weaponToUnlock": "SPELL_STRIKE",
+        "achieved": false
+    },
+    "FOSC05_UniteSpells": {
+        "description": "Unite SpellString, SpellStream, and SpellStrom.",
+        "characterToUnlock": "VICTOR",
+        "achieved": false
+    },
+    "FOSC06_Survive15Viktor": {
+        "description": "Survive 15 minutes with Maruto Cuts.",
+        "weaponToUnlock": "SWORD",
+        "achieved": false
+    },
+    "FOSC07_EvolveEskizzibur": {
+        "description": "Evolve the Eskizzibur.",
+        "characterToUnlock": "KEIRA",
+        "achieved": false
+    },
+    "FOSC08_Survive15Keira": {
+        "description": "Survive 15 minutes with Keitha Muort.",
+        "weaponToUnlock": "FLASHARROW",
+        "achieved": false
+    },
+    "FOSC09_EvolveFlashArrow": {
+        "description": "Evolve the Flash Arrow.",
+        "weaponIcon": "FLASHARROW2",
+        "goldPrize": 50000,
+        "achieved": false
+    },
+    "FOSC10_BreakSeal1": {
+        "description": "With Keitha, break the Seal of the Lake.",
+        "stageToUnlock": "FOSCARI2",
+        "requiresChar": "KEIRA",
+        "achieved": false
+    },
+    "FOSC11_BreakSeal2": {
+        "description": "With Maruto, break the Seal of the Abyss.",
+        "characterToUnlock": "LUMINAIRE",
+        "requiresStage": "FOSCARI2",
+        "achieved": false
+    },
+    "FOSC12_BreakSeal3": {
+        "description": "With Eleanor, break the Seal of the Banished.",
+        "characterToUnlock": "GENEVIEVE",
+        "requiresStage": "FOSCARI2",
+        "achieved": false
+    },
+    "FOSC13_Survive15Luminaire": {
+        "description": "Survive 15 minutes with Luminaire Foscari.",
+        "weaponToUnlock": "PRISMATICMISS",
+        "requiresStage": "FOSCARI2",
+        "achieved": false
+    },
+    "FOSC14_EvolvePrismatic": {
+        "description": "Evolve the Prismatic Missile.",
+        "goldPrize": 50000,
+        "weaponIcon": "PRISMATICMISS2",
+        "requiresStage": "FOSCARI2",
+        "achieved": false
+    },
+    "FOSC15_Survive15Genevieve": {
+        "description": "Survive 15 minutes with Genevieve Gruyère.",
+        "weaponToUnlock": "SHADOWSERVANT",
+        "requiresStage": "FOSCARI2",
+        "achieved": false
+    },
+    "FOSC16_EvolveShadow": {
+        "description": "Evolve the Shadow Servant.",
+        "goldPrize": 50000,
+        "weaponIcon": "SHADOWSERVANT2",
+        "requiresStage": "FOSCARI2",
+        "achieved": false
+    },
+    "FOSC17_Defeat100kGenevieve": {
+        "description": "Defeat 100000 enemies in a sinle run with Genevieve Gruyère.",
+        "characterToUnlock": "MEGAGENEVIEVE",
+        "requiresStage": "FOSCARI2",
+        "achieved": false,
+        "mistery": true
+    },
+    "FOSC18_Defeat6kFairy": {
+        "description": "Defeat a total of 6000 Sammies.",
+        "characterToUnlock": "CTRPCAKE",
+        "achieved": false
+    },
+    "FOSC19_Defeat6kHorror": {
+        "description": "Defeat a total of 6000 Rotting Ghouls.",
+        "weaponToUnlock": "PARTY",
+        "characterToUnlock": "GHOUL",
+        "requiresStage": "FOSCARI2",
+        "achieved": false
+    },
+    "FOSC20_DefeatBossLake": {
+        "description": "Defeat the Avatar of Gaea in Lake Foscari.",
+        "hyperToUnlock": "FOSCARI",
+        "achieved": false
+    },
+    "FOSC21_DefeatBossAbyss": {
+        "description": "Defeat Je-Ne-Viv in Abyss Foscari.",
+        "hyperToUnlock": "FOSCARI2",
+        "requiresStage": "FOSCARI2",
+        "achieved": false
+    }
+}

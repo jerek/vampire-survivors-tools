@@ -243,6 +243,44 @@
       "TONY": {
         "charName": "贾伟鬼",
         "description": "每20级， 飞射物增加， 最多+4。"
+      },
+      "ELEANOR": {
+        "charName": "伊莲娜尔",
+        "surname": "乌兹容",
+        "description": "在第10级获得咒能洪流， 在第20级获得咒能打击； 在第30级获得学院徽章。"
+      },
+      "VICTORprefix": {},
+      "VICTOR": {
+        "charName": "马洛托",
+        "surname": "卡茨",
+        "description": "在受到伤害后，获得暂时的防御加成； 在第30级获得学院徽章。"
+      },
+      "KEIRA": {
+        "charName": "科伊萨",
+        "surname": "莫托",
+        "description": "每一级， 运气+1%； 在第30级获得学院徽章。"
+      },
+      "LUMINAIRE": {
+        "charName": "卢米纳尔",
+        "surname": "佛斯卡里",
+        "description": "升级时触发一次玫瑰念珠效果。 复活后， 获得短暂的力量、 冷却时间和移动速度加成。"
+      },
+      "GENEVIEVE": {
+        "charName": "让纳维",
+        "surname": "格吕耶",
+        "description": "升级时触发一次聚星宝珠效果。 每一次生命期间， 当受到致命打击时， 触发灭世者效果。"
+      },
+      "MEGAGENEVIEVE": {
+        "charName": "不死让纳维",
+        "description": "它真的能吃掉这个世界。"
+      },
+      "CTRPCAKE": {
+        "charName": "小山姆",
+        "description": "每次拾取金币和钱袋时， 获得经验值； 开局时， 力量有临时减成。"
+      },
+      "GHOUL": {
+        "charName": "弗卓·史施奎",
+        "description": "每20级， 飞射物增加， 最多+4。"
       }
     }
   },
@@ -501,6 +539,44 @@
       "TONY": {
         "charName": "Gav'Et-Oni",
         "description": "Gets more projectiles every 20 levels (max+4)."
+      },
+      "ELEANOR": {
+        "charName": "Eleanor",
+        "surname": "Uziron",
+        "description": "Receives SpellStream at Level 10 and SpellStrike at Level 20. Receives Academy Badge at Level 30."
+      },
+      "VICTORprefix": {},
+      "VICTOR": {
+        "charName": "Maruto",
+        "surname": "Cuts",
+        "description": "Gains a temporary Armor bonus after getting damaged. Receives Academy Badge at Level 30."
+      },
+      "KEIRA": {
+        "charName": "Keitha",
+        "surname": "Muort",
+        "description": "Gains +1% Luck every level. Receives Academy Badge at Level 30."
+      },
+      "LUMINAIRE": {
+        "charName": "Luminaire",
+        "surname": "Foscari",
+        "description": "Triggers a Rosary when levelling up. Gets a temporary Might, Cooldown, and MoveSpeed bonus after reviving."
+      },
+      "GENEVIEVE": {
+        "charName": "Genevieve",
+        "surname": "Gruyère",
+        "description": "Triggers a Vacuum when levelling up. Once per life, triggers World Eater after receiving fatal damage."
+      },
+      "MEGAGENEVIEVE": {
+        "charName": "Je-Ne-Viv",
+        "description": "It will literally eat the world."
+      },
+      "CTRPCAKE": {
+        "charName": "Sammy",
+        "description": "Gains XP when picking up Gold Coins and Coin Bags. Starts with temporarily reduced Might."
+      },
+      "GHOUL": {
+        "charName": "Rottin'Ghoul",
+        "description": "Gets more projectiles every 20 levels (max+4)."
       }
     }
   },
@@ -741,6 +817,44 @@
       "TONY": {
         "charName": "Gav'Et-Oni",
         "description": "Obtient des projectiles bonus tous les 20 niveaux (+4 max)."
+      },
+      "ELEANOR": {
+        "charName": "Eleanor",
+        "surname": "Uziron",
+        "description": "Obtient le SpellStream au niveau 10, le SpellStrike au niveau 20 et l'Insigne de l'Académie au niveau 30."
+      },
+      "VICTORprefix": {},
+      "VICTOR": {
+        "charName": "Maruto",
+        "surname": "Cuts",
+        "description": "Obtient un bonus d'armure temporaire après avoir subi des dégâts, et l'Insigne de l'Académie au niveau 30."
+      },
+      "KEIRA": {
+        "charName": "Keitha",
+        "surname": "Muort",
+        "description": "Obtient +1 % de chance à chaque niveau, et l'Insigne de l'Académie au niveau 30."
+      },
+      "LUMINAIRE": {
+        "charName": "Luminaire",
+        "surname": "Foscari",
+        "description": "Déclenche un Chapelet lors du passage au niveau supérieur. Bonus de puissance, de recharge et de déplacement temporaire après une Résurrection."
+      },
+      "GENEVIEVE": {
+        "charName": "Geneviève",
+        "surname": "Gruyère",
+        "description": "Déclenche un Vortex lors du passage au niveau supérieur. Une fois par vie, déclenche Dévore-monde après avoir subi des dégâts mortels."
+      },
+      "MEGAGENEVIEVE": {
+        "charName": "Je-Ne-Viv",
+        "description": "Elle va dévorer le monde, littéralement."
+      },
+      "CTRPCAKE": {
+        "charName": "Sammy",
+        "description": "Obtient de l'EXP lorsqu'il ramasse des pièces et des bourses d'or. Commence avec une puissance temporairement réduite."
+      },
+      "GHOUL": {
+        "charName": "Rottin'Ghoul",
+        "description": "Obtient des projectiles bonus tous les 20 niveaux (+4 max)."
       }
     }
   },
@@ -974,6 +1088,44 @@
       },
       "TONY": {
         "charName": "Gav'Et-Oni",
+        "description": "Erhält alle 20 Level mehr Geschosse (max. +4)."
+      },
+      "ELEANOR": {
+        "charName": "Eleanor",
+        "surname": "Uziron",
+        "description": "Erhält Zauberstrom auf Level 10 und Zauberschlag auf Level 20. Erhält Akademieabzeichen auf Level 30."
+      },
+      "VICTORprefix": {},
+      "VICTOR": {
+        "charName": "Maruto",
+        "surname": "Cuts",
+        "description": "Erlangt nach dem Erleiden von Schaden einen kurzfristigen Rüstungsbonus. Erhält Akademieabzeichen auf Level 30."
+      },
+      "KEIRA": {
+        "charName": "Keitha",
+        "surname": "Muort",
+        "description": "Erlangt +1 % Glück pro Level. Erhält Akademieabzeichen auf Level 30."
+      },
+      "LUMINAIRE": {
+        "charName": "Luminaire",
+        "surname": "Foscari",
+        "description": "Löst beim Levelaufstieg Rosenkranz aus. Erlangt nach dem Wiederbeleben kurzzeitig einen Bonus auf Macht, Abklingzeit und Bewegungstempo."
+      },
+      "GENEVIEVE": {
+        "charName": "Genevieve",
+        "surname": "Gruyère",
+        "description": "Löst beim Levelaufstieg ein Vakuum aus. Einmal pro Leben, wenn tödlicher Schaden erlitten wurde, wird Weltenfresser ausgelöst."
+      },
+      "MEGAGENEVIEVE": {
+        "charName": "Je-Ne-Viv",
+        "description": "Frisst buchstäblich die Welt."
+      },
+      "CTRPCAKE": {
+        "charName": "Sammy",
+        "description": "Erlangt beim Einsammeln von Goldmünzen und Münzsäcken EP. Startet mit vorübergehend reduzierter Macht."
+      },
+      "GHOUL": {
+        "charName": "Rottin'Ghoul",
         "description": "Erhält alle 20 Level mehr Geschosse (max. +4)."
       }
     }
@@ -1221,6 +1373,44 @@
       "TONY": {
         "charName": "Gav'Et-Oni",
         "description": "Ottiene proiettili aggiuntivi ogni 20 livelli (max +4)."
+      },
+      "ELEANOR": {
+        "charName": "Eleanor",
+        "surname": "Uziron",
+        "description": "Riceve SpellStream al livello 10 e SpellStrike al livello 20. Riceve il Distintivo dell'Accademia al livello 30."
+      },
+      "VICTORprefix": {},
+      "VICTOR": {
+        "charName": "Maruto",
+        "surname": "Cuts",
+        "description": "Ottiene un bonus all'Armatura temporaneo dopo aver subito danni. Riceve il Distintivo dell'Accademia al livello 30."
+      },
+      "KEIRA": {
+        "charName": "Keitha",
+        "surname": "Muort",
+        "description": "Guadagna +1% di Fortuna per ogni livello. Riceve il Distintivo dell'Accademia al livello 30."
+      },
+      "LUMINAIRE": {
+        "charName": "Luminaire",
+        "surname": "Foscari",
+        "description": "Quando sale di livello scatena un Rosario. Ottiene un bonus temporaneo a Potenza, Tempo di ricarica e Velocità di movimento dopo la resurrezione."
+      },
+      "GENEVIEVE": {
+        "charName": "Genevieve",
+        "surname": "Gruyère",
+        "description": "Quando sale di livello scatena un Risucchio. Una volta per vita, dopo aver ricevuto un danno letale scatena un Divoratore di mondi."
+      },
+      "MEGAGENEVIEVE": {
+        "charName": "Je-Ne-Viv",
+        "description": "Divorerà il mondo. Letteralmente."
+      },
+      "CTRPCAKE": {
+        "charName": "Sammy",
+        "description": "Guadagna PE quando raccoglie Monete d'oro e Sacchetti d'oro. Comincia con la Potenza temporaneamente ridotta."
+      },
+      "GHOUL": {
+        "charName": "Rottin'Ghoul",
+        "description": "Ottiene proiettili aggiuntivi ogni 20 livelli (max +4)."
       }
     }
   },
@@ -1454,6 +1644,44 @@
       },
       "TONY": {
         "charName": "ガブエト・オニ",
+        "description": "レベル20ごとに弾数が上がる(最大+4)。"
+      },
+      "ELEANOR": {
+        "charName": "エレノール",
+        "surname": "ウジロン",
+        "description": "レベル10でスペルストリームを、 レベル20でスペルストライクを獲得。レベル30でアカデミーバッジを獲得。"
+      },
+      "VICTORprefix": {},
+      "VICTOR": {
+        "charName": "マルト",
+        "surname": "カッツ",
+        "description": "ダメージを受けた後、 一時的な鎧ボーナスを獲得。 レベル30でアカデミーバッジを獲得。"
+      },
+      "KEIRA": {
+        "charName": "キーサ",
+        "surname": "ムオルト",
+        "description": "レベルごとに運を1%獲得。 レベル30でアカデミーバッジを獲得。"
+      },
+      "LUMINAIRE": {
+        "charName": "ルミネール",
+        "surname": "フォスカリ",
+        "description": "レベルアップ時にロザリオを発動。 復活後、 一時的な攻撃力、 クールダウン、 そして移動速度ボーナスを獲得。"
+      },
+      "GENEVIEVE": {
+        "charName": "ジュヌヴィーヴ",
+        "surname": "グリュイエール",
+        "description": "レベルアップ時に吸引のオーブを発動。 1ライフにつき1階、 致命的ダメージを受けるとワールドイーターを発動。"
+      },
+      "MEGAGENEVIEVE": {
+        "charName": "ジュ・ヌ・ヴィーヴ",
+        "description": "文字通り、 世界を食い尽くす。"
+      },
+      "CTRPCAKE": {
+        "charName": "サミー",
+        "description": "金貨と金貨袋を拾うとXPを獲得。 一時的に攻撃力が減少した状態で開始する。"
+      },
+      "GHOUL": {
+        "charName": "ロッティン・グール",
         "description": "レベル20ごとに弾数が上がる(最大+4)。"
       }
     }
@@ -1689,6 +1917,44 @@
       "TONY": {
         "charName": "가베트오니",
         "description": "20개 레벨마다 투사체가 추가됩니다(최대 +4)."
+      },
+      "ELEANOR": {
+        "charName": "엘리노어",
+        "surname": "유지론",
+        "description": "레벨 10에서는 마법주문 유창본을 받고 레벨 20에서는 마법주문 전능본을 받습니다. 레벨 30에서는 아카데미 배지를 받습니다."
+      },
+      "VICTORprefix": {},
+      "VICTOR": {
+        "charName": "마루토",
+        "surname": "컷츠",
+        "description": "데미지를 받고 나면 일시적인 방어력 보너스를 획득합니다. 레벨 30에서는 아카데미 배지를 받습니다."
+      },
+      "KEIRA": {
+        "charName": "케이타",
+        "surname": "무오르트",
+        "description": "각 레벨에서 +1%의 행운을 획득합니다. 레벨 30에서는 아카데미 배지를 받습니다."
+      },
+      "LUMINAIRE": {
+        "charName": "루미네어",
+        "surname": "포스카리",
+        "description": "레벨업할 때 묵주를 발동합니다. 부활 후 피해량, 쿨타임, 이동속도를 일시적 보너스로 얻습니다."
+      },
+      "GENEVIEVE": {
+        "charName": "쥬느비에브",
+        "surname": "그루예르",
+        "description": "레벨업할 때 흡입기를 발동합니다. 치명적인 데미지를 받으면 수명당 한 번씩 세계를 먹어치우는 자를 발동합니다."
+      },
+      "MEGAGENEVIEVE": {
+        "charName": "제네비",
+        "description": "말 그대로 세계를 먹어치울 거예요."
+      },
+      "CTRPCAKE": {
+        "charName": "새미",
+        "description": "금화와 금화 주머니를 주우면 XP를 획득합니다. 일시적으로 줄어든 피해량에서 시작합니다."
+      },
+      "GHOUL": {
+        "charName": "썩어가는 구울",
+        "description": "20레벨마다 발사체를 더 많이 얻습니다.(최대+4)"
       }
     }
   },
@@ -1928,6 +2194,44 @@
       },
       "TONY": {
         "charName": "Gav'Et-Oni",
+        "description": "Zyskuje więcej pocisków co 20 poziomów (maks. +4)."
+      },
+      "ELEANOR": {
+        "charName": "Eleanor",
+        "surname": "Uziron",
+        "description": "Otrzymuje Strumień Zaklęć na poziomie 10 i Nawałnicę Zaklęć na poziomie 20. Otrzymuje Odznakę Akademii na poziomie 30."
+      },
+      "VICTORprefix": {},
+      "VICTOR": {
+        "charName": "Maruto",
+        "surname": "Cuts",
+        "description": "Po doznaniu obrażeń otrzymuje tymczasowy bonus Pancerza. Otrzymuje Odznakę Akademii na poziomie 30."
+      },
+      "KEIRA": {
+        "charName": "Keitha",
+        "surname": "Muort",
+        "description": "Otrzymuje +1% Szczęścia na każdym poziomie. Otrzymuje Odznakę Akademii na poziomie 30."
+      },
+      "LUMINAIRE": {
+        "charName": "Luminaire",
+        "surname": "Foscari",
+        "description": "Wyzwala Różaniec podczas zdobywania poziomów. Po wskrzeszeniu otrzymuje tymczasowy bonus Mocy, Odnawiania i Prędkości ruchu."
+      },
+      "GENEVIEVE": {
+        "charName": "Genevieve",
+        "surname": "Gruyère",
+        "description": "Wyzwala Próżnię podczas zdobywania poziomów. Raz w życiu po otrzymaniu śmiertelnych obrażeń wyzwala Światożercę."
+      },
+      "MEGAGENEVIEVE": {
+        "charName": "Je-Ne-Viv",
+        "description": "Dosłownie zje świat."
+      },
+      "CTRPCAKE": {
+        "charName": "Sammy",
+        "description": "Zdobywa PD podczas podnoszenia Złotych monet i Worków monet. Zaczyna z tymczasowo zmniejszoną Mocą."
+      },
+      "GHOUL": {
+        "charName": "Rottin'Ghoul",
         "description": "Zyskuje więcej pocisków co 20 poziomów (maks. +4)."
       }
     }
@@ -2169,6 +2473,44 @@
       "TONY": {
         "charName": "Gav'Et-Oni",
         "description": "Ganha mais projéteis a cada 20 níveis (máx. de +4)."
+      },
+      "ELEANOR": {
+        "charName": "Eleanor",
+        "surname": "Uziron",
+        "description": "Recebe Sortifeixe no nível 10 e Sortigolpe no nível 20. Recebe Brasão Acadêmico no nível 30."
+      },
+      "VICTORprefix": {},
+      "VICTOR": {
+        "charName": "Maruto",
+        "surname": "Cuts",
+        "description": "Ao sofrer dano, ganha Armadura temporária de bônus. Recebe Brasão Acadêmico no nível 30."
+      },
+      "KEIRA": {
+        "charName": "Keitha",
+        "surname": "Muort",
+        "description": "Ganha +1% de Sorte a cada nível. Recebe Brasão Acadêmico no nível 30."
+      },
+      "LUMINAIRE": {
+        "charName": "Luminaire",
+        "surname": "Foscari",
+        "description": "Ativa um Rosário ao subir de nível. Recebe um bônus temporário de Poder, Recarga e Velocidade de Movimento após ressuscitar."
+      },
+      "GENEVIEVE": {
+        "charName": "Genevieve",
+        "surname": "Gruyère",
+        "description": "Ativa um Aspirador ao subir de nível. Uma vez a cada vida, ativa o Devorador de Mundos ao sofrer dano fatal."
+      },
+      "MEGAGENEVIEVE": {
+        "charName": "Je-Ne-Viv",
+        "description": "Devora o mundo, literalmente."
+      },
+      "CTRPCAKE": {
+        "charName": "Sammy",
+        "description": "Ganha EXP ao coletar moedas de ouro e bolsas de moedas. Começa com Poder temporariamente reduzido."
+      },
+      "GHOUL": {
+        "charName": "Rottin'Ghoul",
+        "description": "Ganha mais projéteis a cada 20 níveis (máx. de +4)."
       }
     }
   },
@@ -2409,6 +2751,44 @@
       "TONY": {
         "charName": "Габ'Эт-они",
         "description": "Получает больше снарядов за каждые 20 уровней (макс. +4)."
+      },
+      "ELEANOR": {
+        "charName": "Элеанора",
+        "surname": "Узирон",
+        "description": "Получает ПотокЗаклинаний на 10-м уровне и УдарЗаклинаний на 20-м. На 30-м уровне получает Значок Академии."
+      },
+      "VICTORprefix": {},
+      "VICTOR": {
+        "charName": "Маруто",
+        "surname": "Катс",
+        "description": "Дает временный бонус к броне после получения урона. На 30-м уровне получает Значок Академии."
+      },
+      "KEIRA": {
+        "charName": "Кита",
+        "surname": "Муорт",
+        "description": "С каждым уровнем повышает удачу на 1%. На 30-м уровне получает Значок Академии."
+      },
+      "LUMINAIRE": {
+        "charName": "Люминера",
+        "surname": "Фоскари",
+        "description": "При переходе на новый уровень взывает четки. Дает временные бонусы к силе, перезарядке и скорости движения после оживления."
+      },
+      "GENEVIEVE": {
+        "charName": "Женевьева",
+        "surname": "Грюйер",
+        "description": "При переходе на новый уровень взывает вакуум. Один раз за жизнь вызывает Пожирателя мира при получении смертельного урона."
+      },
+      "MEGAGENEVIEVE": {
+        "charName": "Не-Жи-Вьева",
+        "description": "В буквальном смысле пожрет весь мир."
+      },
+      "CTRPCAKE": {
+        "charName": "Сэмми",
+        "description": "Дает опыт при сборе золотых монет и мешков денег. Начинает с временно уменьшенной силой."
+      },
+      "GHOUL": {
+        "charName": "Гнилой упырь",
+        "description": "Получает больше снарядов за каждые 20 уровней (макс. +4)."
       }
     }
   },
@@ -2642,6 +3022,44 @@
       },
       "TONY": {
         "charName": "Gav'Et-Oni",
+        "description": "Consigue más proyectiles cada 20 niveles (máx. +4)."
+      },
+      "ELEANOR": {
+        "charName": "Eleanor",
+        "surname": "Uziron",
+        "description": "Recibe el sortitorrente en el nivel 10 y el sortigolpe en el nivel 20. Recibe la insignia de la academia en el nivel 30."
+      },
+      "VICTORprefix": {},
+      "VICTOR": {
+        "charName": "Maruto",
+        "surname": "Cuts",
+        "description": "Gana una bonificación de armadura temporal tras recibir daño. Recibe la insignia de la academia en el nivel 30."
+      },
+      "KEIRA": {
+        "charName": "Keitha",
+        "surname": "Muort",
+        "description": "Gana +1 % de suerte cada nivel. Recibe la insignia de la academia en el nivel 30."
+      },
+      "LUMINAIRE": {
+        "charName": "Luminaire",
+        "surname": "Foscari",
+        "description": "Activa un rosario al subir de nivel. Obtiene una bonificación temporal de poder, recarga y vel. de movimiento tras resucitar."
+      },
+      "GENEVIEVE": {
+        "charName": "Genevieve",
+        "surname": "Gruyère",
+        "description": "Activa un aspiragemas al subir de nivel. Activa el Engullemundos tras recibir daño letal una vez por vida."
+      },
+      "MEGAGENEVIEVE": {
+        "charName": "Je-Ne-Viv",
+        "description": "Se comerá el mundo, literalmente."
+      },
+      "CTRPCAKE": {
+        "charName": "Sammy",
+        "description": "Gana EXP al recoger monedas de oro y sacos de monedas. Comienza con una reducción de poder temporal."
+      },
+      "GHOUL": {
+        "charName": "Rottin'Ghoul",
         "description": "Consigue más proyectiles cada 20 niveles (máx. +4)."
       }
     }
@@ -2894,6 +3312,44 @@
       },
       "TONY": {
         "charName": "Gav'Et-Oni",
+        "description": "Her 20 seviyede daha fazla fırlatılabilir alır (maks: +4)."
+      },
+      "ELEANOR": {
+        "charName": "Eleanor",
+        "surname": "Uziron",
+        "description": "10. Seviyede BüyülüAkım ve 20. Seviyede BüyülüSaldırı alır. 30. Seviyede Akademi Rozeti alır."
+      },
+      "VICTORprefix": {},
+      "VICTOR": {
+        "charName": "Maruto",
+        "surname": "Cuts",
+        "description": "Hasar aldıktan sonra geçici bir Zırh bonusu kazanır. 30. Seviyede Akademi Rozeti alır."
+      },
+      "KEIRA": {
+        "charName": "Keitha",
+        "surname": "Muort",
+        "description": "Her seviyede +%1 Şans kazanır. 30. Seviyede Akademi Rozeti alır."
+      },
+      "LUMINAIRE": {
+        "charName": "Luminaire",
+        "surname": "Foscari",
+        "description": "Seviye atlarken bir Tespih tetikler. Canlandıktan sonra geçici bir Kuvvet, Bekleme Süresi ve HareketHızı bonusu alır."
+      },
+      "GENEVIEVE": {
+        "charName": "Genevieve",
+        "surname": "Gruyère",
+        "description": "Seviye atlarken bir Vakum tetikler. Her canlandığında bir kez, ölümcül hasar aldıktan sonra Dünya Yiyen'i tetikler."
+      },
+      "MEGAGENEVIEVE": {
+        "charName": "Je-Ne-Viv",
+        "description": "Tam anlamıyla dünyayı yer."
+      },
+      "CTRPCAKE": {
+        "charName": "Sammy",
+        "description": "Altın Akçeleri ve Akçe Çuvallarını toplarken XP kazanır. Geçici olarak azaltılmış Kuvvet ile başlar."
+      },
+      "GHOUL": {
+        "charName": "Rottin'Ghoul",
         "description": "Her 20 seviyede daha fazla fırlatılabilir alır (maks: +4)."
       }
     }

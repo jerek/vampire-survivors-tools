@@ -494,9 +494,81 @@
       "MOON17_EvolveBubbles": {
         "description": "进化乱气蓝泡。"
       },
-      "ReachLV80InverseForest": {},
-      "FindApoplexy": {},
-      "FindChaosMalachite": {}
+      "ReachLV80InverseForest": {
+        "description": "在疯狂森林（翻转）中升到80级。"
+      },
+      "FindApoplexy": {
+        "description": "在蝙蝠国的第9分钟时找到一瓶药。"
+      },
+      "FindChaosMalachite": {
+        "description": "在蝙蝠国的第18分钟时找到混沌孔雀石。"
+      },
+      "FOSC01_FindCoffin": {
+        "description": "在佛斯卡里湖中找到并打开棺材。"
+      },
+      "FOSC02_Survive15Eleanor": {
+        "description": "使用伊莲娜尔·乌兹容存活15分钟。"
+      },
+      "FOSC03_GetStreamToLevel6": {
+        "description": "将咒能洪流升到6级。"
+      },
+      "FOSC04_GetStrikeToLevel6": {
+        "description": "将咒能打击升到6级。"
+      },
+      "FOSC05_UniteSpells": {
+        "description": "将咒能魔线、咒能洪流和咒能打击组合到一起。"
+      },
+      "FOSC06_Survive15Viktor": {
+        "description": "使用马洛托·卡茨存活15分钟。"
+      },
+      "FOSC07_EvolveEskizzibur": {
+        "description": "进化湖中剑。"
+      },
+      "FOSC08_Survive15Keira": {
+        "description": "使用科伊萨·莫托存活15分钟。"
+      },
+      "FOSC09_EvolveFlashArrow": {
+        "description": "进化飞雷箭。"
+      },
+      "FOSC10_BreakSeal1": {
+        "description": "使用科伊萨破除湖林封印。"
+      },
+      "FOSC11_BreakSeal2": {
+        "description": "使用马洛托破除深渊封印。"
+      },
+      "FOSC12_BreakSeal3": {
+        "description": "使用伊莲娜尔破除放逐封印。"
+      },
+      "FOSC13_Survive15Luminaire": {
+        "description": "使用卢米纳尔 佛斯卡里存活15分钟。"
+      },
+      "FOSC14_EvolvePrismatic": {
+        "description": "进化耀眼飞弹。"
+      },
+      "FOSC15_Survive15Genevieve": {
+        "description": "使用让纳维·格吕耶存活15分钟。"
+      },
+      "FOSC16_EvolveShadow": {
+        "description": "进化暗影仆从。"
+      },
+      "FOSC17_Defeat100kGenevieve": {
+        "description": "在一轮游戏中，使用让纳维·格吕耶击败100000名敌人。"
+      },
+      "FOSC18_Defeat6kFairy": {
+        "description": "总共击败6000个小山姆。"
+      },
+      "FOSC19_Defeat6kHorror": {
+        "description": "总共击败6000个腐臭尸鬼。"
+      },
+      "FOSC20_DefeatBossLake": {
+        "description": "在佛斯卡里湖击败盖伊化身。"
+      },
+      "FOSC21_DefeatBossAbyss": {
+        "description": "在佛斯卡里深渊击败不死让纳维。"
+      },
+      "Banish20Items": {
+        "description": "在一局中排除掉20种或更多的武器。"
+      }
     }
   },
   "zh-TW": {
@@ -901,7 +973,7 @@
         "description": "Reach Level 50 with Suor Clerici."
       },
       "CompleteCollection": {
-        "description": "Complete the 1.0 Collection."
+        "description": "Complete the Collection 1.0"
       },
       "Defeat100kWithSigma": {
         "description": "Defeat 100000 enemies in a single run with Queen Sigma."
@@ -1013,6 +1085,72 @@
       },
       "FindChaosMalachite": {
         "description": "Find the Chaos Malachite at minute 18:00 in Bat Country."
+      },
+      "FOSC01_FindCoffin": {
+        "description": "Find and open the coffin in Lake Foscari."
+      },
+      "FOSC02_Survive15Eleanor": {
+        "description": "Survive 15 minutes with Eleanor Uziron."
+      },
+      "FOSC03_GetStreamToLevel6": {
+        "description": "Get SpellStream to Level 6."
+      },
+      "FOSC04_GetStrikeToLevel6": {
+        "description": "Get SpellStrike to Level 6."
+      },
+      "FOSC05_UniteSpells": {
+        "description": "Unite SpellString, SpellStream, and SpellStrike."
+      },
+      "FOSC06_Survive15Viktor": {
+        "description": "Survive 15 minutes with Maruto Cuts."
+      },
+      "FOSC07_EvolveEskizzibur": {
+        "description": "Evolve the Eskizzibur."
+      },
+      "FOSC08_Survive15Keira": {
+        "description": "Survive 15 minutes with Keitha Muort."
+      },
+      "FOSC09_EvolveFlashArrow": {
+        "description": "Evolve the Flash Arrow."
+      },
+      "FOSC10_BreakSeal1": {
+        "description": "With Keitha, break the Seal of the Lake."
+      },
+      "FOSC11_BreakSeal2": {
+        "description": "With Maruto, break the Seal of the Abyss."
+      },
+      "FOSC12_BreakSeal3": {
+        "description": "With Eleanor, break the Seal of the Banished."
+      },
+      "FOSC13_Survive15Luminaire": {
+        "description": "Survive 15 minutes with Luminaire Foscari."
+      },
+      "FOSC14_EvolvePrismatic": {
+        "description": "Evolve the Prismatic Missile."
+      },
+      "FOSC15_Survive15Genevieve": {
+        "description": "Survive 15 minutes with Genevieve Gruyère."
+      },
+      "FOSC16_EvolveShadow": {
+        "description": "Evolve the Shadow Servant."
+      },
+      "FOSC17_Defeat100kGenevieve": {
+        "description": "Defeat 100000 enemies in a single run with Genevieve Gruyère."
+      },
+      "FOSC18_Defeat6kFairy": {
+        "description": "Defeat a total of 6000 Sammies."
+      },
+      "FOSC19_Defeat6kHorror": {
+        "description": "Defeat a total of 6000 Rotting Ghouls."
+      },
+      "FOSC20_DefeatBossLake": {
+        "description": "Defeat the Avatar of Gaea in Lake Foscari."
+      },
+      "FOSC21_DefeatBossAbyss": {
+        "description": "Defeat Je-Ne-Viv in Abyss Foscari."
+      },
+      "Banish20Items": {
+        "description": "Banish 20 or more weapons in a single run."
       }
     }
   },
@@ -1504,9 +1642,81 @@
       "MOON17_EvolveBubbles": {
         "description": "Faites évoluer la Mille Bolle Blu."
       },
-      "ReachLV80InverseForest": {},
-      "FindApoplexy": {},
-      "FindChaosMalachite": {}
+      "ReachLV80InverseForest": {
+        "description": "Atteignez le niveau 80 dans le Bois dément inversé."
+      },
+      "FindApoplexy": {
+        "description": "Trouvez l'Apoplexie à la 9e minute (Voie vampirique)."
+      },
+      "FindChaosMalachite": {
+        "description": "Trouvez la Malachite du chaos à la 18e minute (Voie vampirique)."
+      },
+      "FOSC01_FindCoffin": {
+        "description": "Trouvez et ouvrez le cercueil au Lac Foscari."
+      },
+      "FOSC02_Survive15Eleanor": {
+        "description": "Survivez 15 minutes avec Eleanor Uziron."
+      },
+      "FOSC03_GetStreamToLevel6": {
+        "description": "Atteignez le niveau 6 du SpellStream."
+      },
+      "FOSC04_GetStrikeToLevel6": {
+        "description": "Atteignez le niveau 6 du SpellStrike."
+      },
+      "FOSC05_UniteSpells": {
+        "description": "Fusionnez le SpellString, le SpellStream et le SpellStrike."
+      },
+      "FOSC06_Survive15Viktor": {
+        "description": "Survivez 15 minutes avec Maruto Cuts."
+      },
+      "FOSC07_EvolveEskizzibur": {
+        "description": "Faites évoluer l'Excuzzibur."
+      },
+      "FOSC08_Survive15Keira": {
+        "description": "Survivez 15 minutes avec Keitha Muort."
+      },
+      "FOSC09_EvolveFlashArrow": {
+        "description": "Faites évoluer la Flèche Flash."
+      },
+      "FOSC10_BreakSeal1": {
+        "description": "Brisez le sceau du Lac avec Keitha."
+      },
+      "FOSC11_BreakSeal2": {
+        "description": "Brisez le sceau de l'Abîme avec Maruto."
+      },
+      "FOSC12_BreakSeal3": {
+        "description": "Brisez le sceau de l'Exil avec Eleanor."
+      },
+      "FOSC13_Survive15Luminaire": {
+        "description": "Survivez 15 minutes avec Luminaire Foscari."
+      },
+      "FOSC14_EvolvePrismatic": {
+        "description": "Faites évoluer le Missile prismatique."
+      },
+      "FOSC15_Survive15Genevieve": {
+        "description": "Survivez 15 minutes avec Geneviève Gruyère."
+      },
+      "FOSC16_EvolveShadow": {
+        "description": "Faites évoluer la Pierrombre."
+      },
+      "FOSC17_Defeat100kGenevieve": {
+        "description": "Éliminez 100 000 ennemis en une seule partie avec Geneviève."
+      },
+      "FOSC18_Defeat6kFairy": {
+        "description": "Éliminez 6 000 Sammy au total."
+      },
+      "FOSC19_Defeat6kHorror": {
+        "description": "Éliminez 6 000 Goules putrides au total."
+      },
+      "FOSC20_DefeatBossLake": {
+        "description": "Éliminez l'Avatar de Gaïa au Lac Foscari."
+      },
+      "FOSC21_DefeatBossAbyss": {
+        "description": "Éliminez Je-Ne-Vis dans l'Abîme Foscari."
+      },
+      "Banish20Items": {
+        "description": "Bannissez au moins 20 armes en une seule partie."
+      }
     }
   },
   "de": {
@@ -1991,9 +2201,81 @@
       "MOON17_EvolveBubbles": {
         "description": "Verbessere die Mille Bolle Blu."
       },
-      "ReachLV80InverseForest": {},
-      "FindApoplexy": {},
-      "FindChaosMalachite": {}
+      "ReachLV80InverseForest": {
+        "description": "Erreiche Level 80 im Umgekehrten Verrückten Wald."
+      },
+      "FindApoplexy": {
+        "description": "Finde die Apoplexie in der 9. Minute im Fledermausland."
+      },
+      "FindChaosMalachite": {
+        "description": "Finde den Chaosmalachit in der 18. Minute im Fledermausland."
+      },
+      "FOSC01_FindCoffin": {
+        "description": "Finde und öffne den Sarg in See Foscari."
+      },
+      "FOSC02_Survive15Eleanor": {
+        "description": "Überlebe 15 Minuten mit Eleanor Uziron."
+      },
+      "FOSC03_GetStreamToLevel6": {
+        "description": "Bringe den Zauberstrom auf Level 6."
+      },
+      "FOSC04_GetStrikeToLevel6": {
+        "description": "Bringe den Zauberschlag auf Level 6."
+      },
+      "FOSC05_UniteSpells": {
+        "description": "Vereine den Zauberband, den Zauberstrom und den Zauberschlag."
+      },
+      "FOSC06_Survive15Viktor": {
+        "description": "Überlebe 15 Minuten mit Maruto Cuts."
+      },
+      "FOSC07_EvolveEskizzibur": {
+        "description": "Verbessere Eskizzibur."
+      },
+      "FOSC08_Survive15Keira": {
+        "description": "Überlebe 15 Minuten mit Keitha Muort."
+      },
+      "FOSC09_EvolveFlashArrow": {
+        "description": "Verbessere den Blitzpfeil."
+      },
+      "FOSC10_BreakSeal1": {
+        "description": "Brich mit Keitha das Siegel des Sees."
+      },
+      "FOSC11_BreakSeal2": {
+        "description": "Brich mit Maruto das Siegel des Abgrunds."
+      },
+      "FOSC12_BreakSeal3": {
+        "description": "Brich mit Eleanor das Siegel der Verbannten."
+      },
+      "FOSC13_Survive15Luminaire": {
+        "description": "Überlebe 15 Minuten mit Luminaire Foscari."
+      },
+      "FOSC14_EvolvePrismatic": {
+        "description": "Verbessere die Prismatische Rakete."
+      },
+      "FOSC15_Survive15Genevieve": {
+        "description": "Überlebe 15 Minuten mit Genevieve Gruyère."
+      },
+      "FOSC16_EvolveShadow": {
+        "description": "Verbessere den Schattendiener."
+      },
+      "FOSC17_Defeat100kGenevieve": {
+        "description": "Besiege 100.000 Gegner in einem Lauf mit Genevieve Gruyère."
+      },
+      "FOSC18_Defeat6kFairy": {
+        "description": "Besiege insgesamt 6.000 Feenwesen."
+      },
+      "FOSC19_Defeat6kHorror": {
+        "description": "Besiege insgesamt 6.000 Gammelghule."
+      },
+      "FOSC20_DefeatBossLake": {
+        "description": "Besiege den Avatar von Gaea in See Foscari."
+      },
+      "FOSC21_DefeatBossAbyss": {
+        "description": "Besiege Je-Ne-Viv im Foscari-Abgrund."
+      },
+      "Banish20Items": {
+        "description": "Verbanne 20 oder mehr Waffen in einem Lauf."
+      }
     }
   },
   "el": {
@@ -2490,9 +2772,81 @@
       "MOON17_EvolveBubbles": {
         "description": "Migliora la Mille Bolle Blu."
       },
-      "ReachLV80InverseForest": {},
-      "FindApoplexy": {},
-      "FindChaosMalachite": {}
+      "ReachLV80InverseForest": {
+        "description": "Raggiungi il livello 80 nella Foresta folle invertita."
+      },
+      "FindApoplexy": {
+        "description": "Trova l'Apoplessia al minuto 09:00 nella Terra dei pipistrelli."
+      },
+      "FindChaosMalachite": {
+        "description": "Trova la Malachite del caos al minuto 18:00 nella Terra dei pipistrelli."
+      },
+      "FOSC01_FindCoffin": {
+        "description": "Trova e apri la bara in Lago Foscari."
+      },
+      "FOSC02_Survive15Eleanor": {
+        "description": "Sopravvivi per 15 minuti con Eleanor Uziron."
+      },
+      "FOSC03_GetStreamToLevel6": {
+        "description": "Porta SpellStream al livello 6."
+      },
+      "FOSC04_GetStrikeToLevel6": {
+        "description": "Porta SpellStrike al livello 6."
+      },
+      "FOSC05_UniteSpells": {
+        "description": "Unisci SpellString, SpellStream e SpellStrike."
+      },
+      "FOSC06_Survive15Viktor": {
+        "description": "Sopravvivi per 15 minuti con Maruto Cuts."
+      },
+      "FOSC07_EvolveEskizzibur": {
+        "description": "Migliora l'Eskizzibur."
+      },
+      "FOSC08_Survive15Keira": {
+        "description": "Sopravvivi per 15 minuti con Keitha Muort."
+      },
+      "FOSC09_EvolveFlashArrow": {
+        "description": "Migliora la Freccia flash."
+      },
+      "FOSC10_BreakSeal1": {
+        "description": "Con Keitha, spezza il Sigillo del Lago."
+      },
+      "FOSC11_BreakSeal2": {
+        "description": "Con Maruto, spezza il Sigillo dell'Abisso."
+      },
+      "FOSC12_BreakSeal3": {
+        "description": "Con Eleanor, spezza il Sigillo dell'Esiliato."
+      },
+      "FOSC13_Survive15Luminaire": {
+        "description": "Sopravvivi per 15 minuti con Luminaria Foscari."
+      },
+      "FOSC14_EvolvePrismatic": {
+        "description": "Migliora il Missile prismatico."
+      },
+      "FOSC15_Survive15Genevieve": {
+        "description": "Sopravvivi per 15 minuti con Genevieve Gruyère."
+      },
+      "FOSC16_EvolveShadow": {
+        "description": "Migliora il Servo dell'ombra."
+      },
+      "FOSC17_Defeat100kGenevieve": {
+        "description": "Sconfiggi 100.000 nemici in una partita con Genevieve Gruyère."
+      },
+      "FOSC18_Defeat6kFairy": {
+        "description": "Sconfiggi 6.000 Sammy in totale."
+      },
+      "FOSC19_Defeat6kHorror": {
+        "description": "Sconfiggi 6.000 Rottin' Ghoul in totale."
+      },
+      "FOSC20_DefeatBossLake": {
+        "description": "Sconfiggi l'Avatar di Gaia in Lago Foscari."
+      },
+      "FOSC21_DefeatBossAbyss": {
+        "description": "Sconfiggi Je-Ne-Viv nell'Abisso Foscari."
+      },
+      "Banish20Items": {
+        "description": "Escludi 20 o più armi in una singola partita."
+      }
     }
   },
   "ja": {
@@ -2977,9 +3331,81 @@
       "MOON17_EvolveBubbles": {
         "description": "藍の泡進化させる"
       },
-      "ReachLV80InverseForest": {},
-      "FindApoplexy": {},
-      "FindChaosMalachite": {}
+      "ReachLV80InverseForest": {
+        "description": "狂気の森の反対でレベル80に到達する。"
+      },
+      "FindApoplexy": {
+        "description": "バットカントリーで09:00分に脳卒中を見つける。"
+      },
+      "FindChaosMalachite": {
+        "description": "バットカントリーで18:00分にカオスマラカイトを見つける。"
+      },
+      "FOSC01_FindCoffin": {
+        "description": "フォスカリ湖で棺を見つけて開ける。"
+      },
+      "FOSC02_Survive15Eleanor": {
+        "description": "エレノール・ウジロンで15分生き残る。"
+      },
+      "FOSC03_GetStreamToLevel6": {
+        "description": "スペルストリームをレベル6に上げる。"
+      },
+      "FOSC04_GetStrikeToLevel6": {
+        "description": "スペルストライクをレベル6に上げる。"
+      },
+      "FOSC05_UniteSpells": {
+        "description": "スペルストリング、スペルストリーム、スペルストライクを統合する。"
+      },
+      "FOSC06_Survive15Viktor": {
+        "description": "マルト・カッツで15分生き残る。"
+      },
+      "FOSC07_EvolveEskizzibur": {
+        "description": "エスキッジブールを進化させる。"
+      },
+      "FOSC08_Survive15Keira": {
+        "description": "キーサ・ムオルトで15分生き残る。"
+      },
+      "FOSC09_EvolveFlashArrow": {
+        "description": "閃光の矢を進化させる。"
+      },
+      "FOSC10_BreakSeal1": {
+        "description": "キーサで湖の封印を破る。"
+      },
+      "FOSC11_BreakSeal2": {
+        "description": "マルトでアビスの封印を破る。"
+      },
+      "FOSC12_BreakSeal3": {
+        "description": "エレノールで追放者の封印を破る。"
+      },
+      "FOSC13_Survive15Luminaire": {
+        "description": "ルミネール・フォスカリで15分生き残る。"
+      },
+      "FOSC14_EvolvePrismatic": {
+        "description": "プリズムミサイルを進化させる。"
+      },
+      "FOSC15_Survive15Genevieve": {
+        "description": "ジュヌヴィーヴ・グリュイエールで15分生き残る。"
+      },
+      "FOSC16_EvolveShadow": {
+        "description": "シャドー・サーヴァントを進化させる。"
+      },
+      "FOSC17_Defeat100kGenevieve": {
+        "description": "ジュヌヴィーヴ・グリュイエールで死なずに敵を10万体倒す。"
+      },
+      "FOSC18_Defeat6kFairy": {
+        "description": "サミーを合計6,000体倒す。"
+      },
+      "FOSC19_Defeat6kHorror": {
+        "description": "ロッティン・グールを合計6,000体倒す。"
+      },
+      "FOSC20_DefeatBossLake": {
+        "description": "フォスカリ湖でガイア・アバターを倒す。"
+      },
+      "FOSC21_DefeatBossAbyss": {
+        "description": "アビス・フォスカリでジュ・ヌ・ヴィーヴを倒す。"
+      },
+      "Banish20Items": {
+        "description": "1回のプレイで20個以上の武器を消去する。"
+      }
     }
   },
   "ko": {
@@ -3464,9 +3890,81 @@
       "MOON17_EvolveBubbles": {
         "description": "밀레 볼레 블루 진화합니다."
       },
-      "ReachLV80InverseForest": {},
-      "FindApoplexy": {},
-      "FindChaosMalachite": {}
+      "ReachLV80InverseForest": {
+        "description": "광기의 숲 반전 모드에서 레벨 80에 도달합니다."
+      },
+      "FindApoplexy": {
+        "description": "박쥐 나라에서 9분 생존해 아포플렉시를 찾습니다."
+      },
+      "FindChaosMalachite": {
+        "description": "박쥐 나라에서 18분 생존해 카오스 말라카이트를 찾습니다."
+      },
+      "FOSC01_FindCoffin": {
+        "description": "Foscari 호수에서 관을 찾고 엽니다."
+      },
+      "FOSC02_Survive15Eleanor": {
+        "description": "엘리노어 유지론으로 15분 생존합니다."
+      },
+      "FOSC03_GetStreamToLevel6": {
+        "description": "마법주문 유창본을 레벨 6까지 올립니다."
+      },
+      "FOSC04_GetStrikeToLevel6": {
+        "description": "마법주문 전능본을 레벨 6까지 올립니다."
+      },
+      "FOSC05_UniteSpells": {
+        "description": "마법주문 두루마리, 마법주문 유창본, 마법주문 전능본을 통합합니다."
+      },
+      "FOSC06_Survive15Viktor": {
+        "description": "마루토 컷츠로 15분 생존합니다."
+      },
+      "FOSC07_EvolveEskizzibur": {
+        "description": "에스키치버를 진화시킵니다."
+      },
+      "FOSC08_Survive15Keira": {
+        "description": "케이타 무오르트로 15분 생존합니다."
+      },
+      "FOSC09_EvolveFlashArrow": {
+        "description": "섬광의 화살을 진화시킵니다."
+      },
+      "FOSC10_BreakSeal1": {
+        "description": "케이타로 호수의 봉인을 파괴합니다."
+      },
+      "FOSC11_BreakSeal2": {
+        "description": "마루토로 심연의 봉인을 파괴합니다."
+      },
+      "FOSC12_BreakSeal3": {
+        "description": "엘리노어로 추방자의 봉인을 파괴합니다."
+      },
+      "FOSC13_Survive15Luminaire": {
+        "description": "루미네어 포스카리로 15분 생존합니다."
+      },
+      "FOSC14_EvolvePrismatic": {
+        "description": "프리즈마틱 미사일을 진화시킵니다."
+      },
+      "FOSC15_Survive15Genevieve": {
+        "description": "쥬느비에브 그루예르로 15분 생존합니다."
+      },
+      "FOSC16_EvolveShadow": {
+        "description": "그림자 시종을 진화시킵니다."
+      },
+      "FOSC17_Defeat100kGenevieve": {
+        "description": "쥬느비에브 그루예르로 1번의 게임에서 적을 100000명 처치합니다."
+      },
+      "FOSC18_Defeat6kFairy": {
+        "description": "총 6000마리의 새미를 처치합니다."
+      },
+      "FOSC19_Defeat6kHorror": {
+        "description": "충 6000마리의 썩어가는 구울을 처치합니다."
+      },
+      "FOSC20_DefeatBossLake": {
+        "description": "Foscari 호수에서 가에야의 아바타를 처치합니다."
+      },
+      "FOSC21_DefeatBossAbyss": {
+        "description": "Foscari 심연에서 제네비를 처치합니다."
+      },
+      "Banish20Items": {
+        "description": "한 게임에서 20개 이상의 무기를 지웁니다."
+      }
     }
   },
   "no": {
@@ -3957,9 +4455,81 @@
       "MOON17_EvolveBubbles": {
         "description": "Ulepsz Mille Bolle Blu."
       },
-      "ReachLV80InverseForest": {},
-      "FindApoplexy": {},
-      "FindChaosMalachite": {}
+      "ReachLV80InverseForest": {
+        "description": "Osiągnij 80. poziom w odwróconym Szalonym lesie."
+      },
+      "FindApoplexy": {
+        "description": "Znajdź Apopleksję w 09:00 minucie w Krainie nietoperzy."
+      },
+      "FindChaosMalachite": {
+        "description": "Znajdź Malachit Chaosu w 18:00 minucie w Krainie nietoperzy."
+      },
+      "FOSC01_FindCoffin": {
+        "description": "Znajdź i otwórz trumnę w Jeziorze Foscari."
+      },
+      "FOSC02_Survive15Eleanor": {
+        "description": "Przeżyj 15 minut jako Eleanor Uziron."
+      },
+      "FOSC03_GetStreamToLevel6": {
+        "description": "Doprowadź Strumień Zaklęć do 6. poziomu."
+      },
+      "FOSC04_GetStrikeToLevel6": {
+        "description": "Doprowadź Nawałnicę Zaklęć do 6. poziomu."
+      },
+      "FOSC05_UniteSpells": {
+        "description": "Połącz Księgę Zaklęć, Strumień Zaklęć i Nawałnicę Zaklęć."
+      },
+      "FOSC06_Survive15Viktor": {
+        "description": "Przeżyj 15 minut jako Maruto Cuts."
+      },
+      "FOSC07_EvolveEskizzibur": {
+        "description": "Ulepsz Eskizzibura."
+      },
+      "FOSC08_Survive15Keira": {
+        "description": "Przeżyj 15 minut jako Keitha Muort."
+      },
+      "FOSC09_EvolveFlashArrow": {
+        "description": "Ulepsz Zwinną Strzałę."
+      },
+      "FOSC10_BreakSeal1": {
+        "description": "Przełam Pieczęć Jeziora jako Keitha."
+      },
+      "FOSC11_BreakSeal2": {
+        "description": "Przełam Pieczęć Otchłani jako Maruto."
+      },
+      "FOSC12_BreakSeal3": {
+        "description": "Przełam Pieczęć Wygnanych jako Eleanor."
+      },
+      "FOSC13_Survive15Luminaire": {
+        "description": "Przeżyj 15 minut jako Luminaire Foscari."
+      },
+      "FOSC14_EvolvePrismatic": {
+        "description": "Ulepsz Pocisk Pryzmatyczny."
+      },
+      "FOSC15_Survive15Genevieve": {
+        "description": "Przeżyj 15 minut jako Genevieve Gruyère."
+      },
+      "FOSC16_EvolveShadow": {
+        "description": "Ulepsz Sługę Cienia."
+      },
+      "FOSC17_Defeat100kGenevieve": {
+        "description": "Pokonaj 100000 wrogów w jednej rozgrywce jako Genevieve Gruyère."
+      },
+      "FOSC18_Defeat6kFairy": {
+        "description": "Pokonaj łącznie 6000 Sammielek."
+      },
+      "FOSC19_Defeat6kHorror": {
+        "description": "Pokonaj łącznie 6000 Gnijących Ghuli."
+      },
+      "FOSC20_DefeatBossLake": {
+        "description": "Pokonaj Awatarę Gaea w Jeziorze Foscari."
+      },
+      "FOSC21_DefeatBossAbyss": {
+        "description": "Pokonaj Je-Ne-Viv w Otchłani Foscari."
+      },
+      "Banish20Items": {
+        "description": "Odrzuć co najmniej 20 broni w jednej rozgrywce."
+      }
     }
   },
   "pt": {
@@ -4450,9 +5020,81 @@
       "MOON17_EvolveBubbles": {
         "description": "Evolua o Mille Bolle Blu."
       },
-      "ReachLV80InverseForest": {},
-      "FindApoplexy": {},
-      "FindChaosMalachite": {}
+      "ReachLV80InverseForest": {
+        "description": "Alcance o nível 80 na Floresta Insana invertida."
+      },
+      "FindApoplexy": {
+        "description": "Encontre a Apoplexia no minuto 09:00 no País Morcego."
+      },
+      "FindChaosMalachite": {
+        "description": "Encontre a Malaquita do Caos no minuto 18:00 no País Morcego."
+      },
+      "FOSC01_FindCoffin": {
+        "description": "Encontre e abra o caixão no Lago Foscari."
+      },
+      "FOSC02_Survive15Eleanor": {
+        "description": "Sobreviva por 15 minutos com Eleanor Uziron."
+      },
+      "FOSC03_GetStreamToLevel6": {
+        "description": "Eleve o Sortifeixe para o nível 6."
+      },
+      "FOSC04_GetStrikeToLevel6": {
+        "description": "Eleve o Sortigolpe para o nível 6."
+      },
+      "FOSC05_UniteSpells": {
+        "description": "Faça a união de Sortilivro, Sortifeixe e Sortigolpe."
+      },
+      "FOSC06_Survive15Viktor": {
+        "description": "Sobreviva por 15 minutos com Maruto Cuts."
+      },
+      "FOSC07_EvolveEskizzibur": {
+        "description": "Evolua a Eskizzibur."
+      },
+      "FOSC08_Survive15Keira": {
+        "description": "Sobreviva por 15 minutos com Keitha Muort."
+      },
+      "FOSC09_EvolveFlashArrow": {
+        "description": "Evolua a Flecha Flash."
+      },
+      "FOSC10_BreakSeal1": {
+        "description": "Com Keitha, rompa o Selo do Lago."
+      },
+      "FOSC11_BreakSeal2": {
+        "description": "Com Maruto, rompa o Selo do Abismo."
+      },
+      "FOSC12_BreakSeal3": {
+        "description": "Com Eleanor, rompa o Selo do Banido."
+      },
+      "FOSC13_Survive15Luminaire": {
+        "description": "Sobreviva por 15 minutos com Luminaire Foscari."
+      },
+      "FOSC14_EvolvePrismatic": {
+        "description": "Evolua o Projétil Prismático."
+      },
+      "FOSC15_Survive15Genevieve": {
+        "description": "Sobreviva por 15 minutos com Genevieve Gruyère."
+      },
+      "FOSC16_EvolveShadow": {
+        "description": "Evolua o Serviçal Sombrio."
+      },
+      "FOSC17_Defeat100kGenevieve": {
+        "description": "Derrote 100 mil inimigos em uma só partida com Genevieve Gruyère."
+      },
+      "FOSC18_Defeat6kFairy": {
+        "description": "Derrote 6.000 Samucas."
+      },
+      "FOSC19_Defeat6kHorror": {
+        "description": "Derrote 6.000 Carniçais Putrefatos."
+      },
+      "FOSC20_DefeatBossLake": {
+        "description": "Derrote o Avatar de Gaea no Lago Foscari."
+      },
+      "FOSC21_DefeatBossAbyss": {
+        "description": "Derrote Je-Ne-Viv no Abismo Foscari."
+      },
+      "Banish20Items": {
+        "description": "Use Banir em 20 ou mais armas na mesma partida."
+      }
     }
   },
   "ro": {
@@ -4943,9 +5585,81 @@
       "MOON17_EvolveBubbles": {
         "description": "Улучшите Милли-булли-блу."
       },
-      "ReachLV80InverseForest": {},
-      "FindApoplexy": {},
-      "FindChaosMalachite": {}
+      "ReachLV80InverseForest": {
+        "description": "Достигните 80 уровня в инверсном Безумном лесу."
+      },
+      "FindApoplexy": {
+        "description": "Найдите Апоплексию в Стране нетопырей ровно в 09:00."
+      },
+      "FindChaosMalachite": {
+        "description": "Найдите Малахит хаоса в Стране нетопырей ровно в 18:00."
+      },
+      "FOSC01_FindCoffin": {
+        "description": "Найдите и откройте гроб на Озере Фоскари."
+      },
+      "FOSC02_Survive15Eleanor": {
+        "description": "Продержитесь 15 минут, играя за Элеанору Узирон."
+      },
+      "FOSC03_GetStreamToLevel6": {
+        "description": "Получите ПотокЗаклинаний 6 уровня."
+      },
+      "FOSC04_GetStrikeToLevel6": {
+        "description": "Получите УдарЗаклинаний 6 уровня."
+      },
+      "FOSC05_UniteSpells": {
+        "description": "Объедините ЦепьЗаклинаний, ПотокЗаклинаний и УдарЗаклинаний"
+      },
+      "FOSC06_Survive15Viktor": {
+        "description": "Продержитесь 15 минут, играя за Маруто Катса."
+      },
+      "FOSC07_EvolveEskizzibur": {
+        "description": "Улучшите Экскиззибур."
+      },
+      "FOSC08_Survive15Keira": {
+        "description": "Продержитесь 15 минут, играя за Киту Муорт."
+      },
+      "FOSC09_EvolveFlashArrow": {
+        "description": "Улучшите Громовую стрелу."
+      },
+      "FOSC10_BreakSeal1": {
+        "description": "Разрушьте печать Озера, играя за Киту."
+      },
+      "FOSC11_BreakSeal2": {
+        "description": "Разрушьте печать Бездны, играя за Маруто."
+      },
+      "FOSC12_BreakSeal3": {
+        "description": "Разрушьте печать изгнанных, играя за Элеанору."
+      },
+      "FOSC13_Survive15Luminaire": {
+        "description": "Продержитесь 15 минут, играя за Люминеру Фоскари."
+      },
+      "FOSC14_EvolvePrismatic": {
+        "description": "Улучшите Призматический снаряд."
+      },
+      "FOSC15_Survive15Genevieve": {
+        "description": "Продержитесь 15 минут, играя за Женевьеву Грюйер."
+      },
+      "FOSC16_EvolveShadow": {
+        "description": "Улучшите Служителя тьмы."
+      },
+      "FOSC17_Defeat100kGenevieve": {
+        "description": "Победите 100 000 врагов за один заход, играя за Женевьеву Грюйер."
+      },
+      "FOSC18_Defeat6kFairy": {
+        "description": "Победите в общей сложности 6000 сэмми."
+      },
+      "FOSC19_Defeat6kHorror": {
+        "description": "Победите в общей сложности 6000 гнилых упырей."
+      },
+      "FOSC20_DefeatBossLake": {
+        "description": "Победите воплощение Геи на Озере Фоскари."
+      },
+      "FOSC21_DefeatBossAbyss": {
+        "description": "Победите Не-Жи-Вьеву в Бездне Фоскари."
+      },
+      "Banish20Items": {
+        "description": "Изгоните 20 или более орудий за один забег."
+      }
     }
   },
   "es": {
@@ -5428,11 +6142,83 @@
         "description": "Derrota a Orochimario en el Monte Hechizoluna."
       },
       "MOON17_EvolveBubbles": {
-        "description": "Haz evolucionar la Mille Bolle Blu."
+        "description": "Haz evolucionar la Mille bolle blu."
       },
-      "ReachLV80InverseForest": {},
-      "FindApoplexy": {},
-      "FindChaosMalachite": {}
+      "ReachLV80InverseForest": {
+        "description": "Alcanza el nivel 80 en el reflejo del Bosque demente."
+      },
+      "FindApoplexy": {
+        "description": "Encuentra la apoplejía en el minuto 09:00 en Murcilandia."
+      },
+      "FindChaosMalachite": {
+        "description": "Encuentra la malaquita del caos en el minuto 18:00 en Murcilandia."
+      },
+      "FOSC01_FindCoffin": {
+        "description": "Encuentra y abre el ataúd del Lago Foscari."
+      },
+      "FOSC02_Survive15Eleanor": {
+        "description": "Sobrevive 15 minutos con Eleanor Uziron."
+      },
+      "FOSC03_GetStreamToLevel6": {
+        "description": "Mejora el sortitorrente al nivel 6."
+      },
+      "FOSC04_GetStrikeToLevel6": {
+        "description": "Mejora el sortigolpe al nivel 6."
+      },
+      "FOSC05_UniteSpells": {
+        "description": "Fusiona el sortitruco, el sortitorrente y el sortigolpe."
+      },
+      "FOSC06_Survive15Viktor": {
+        "description": "Sobrevive 15 minutos con Maruto Cuts."
+      },
+      "FOSC07_EvolveEskizzibur": {
+        "description": "Haz evolucionar a Eskizzibur."
+      },
+      "FOSC08_Survive15Keira": {
+        "description": "Sobrevive 15 minutos con Keitha Muort."
+      },
+      "FOSC09_EvolveFlashArrow": {
+        "description": "Haz evolucionar la flecha flash."
+      },
+      "FOSC10_BreakSeal1": {
+        "description": "Rompe el sello del Lago con Keitha."
+      },
+      "FOSC11_BreakSeal2": {
+        "description": "Rompe el sello del Abismo con Maruto."
+      },
+      "FOSC12_BreakSeal3": {
+        "description": "Rompe el sello de los Eliminados con Eleanor."
+      },
+      "FOSC13_Survive15Luminaire": {
+        "description": "Sobrevive 15 minutos con Luminaire Foscari."
+      },
+      "FOSC14_EvolvePrismatic": {
+        "description": "Haz evolucionar el misil prismático."
+      },
+      "FOSC15_Survive15Genevieve": {
+        "description": "Sobrevive 15 minutos con Genevieve Gruyère."
+      },
+      "FOSC16_EvolveShadow": {
+        "description": "Haz evolucionar el siervo sombrío."
+      },
+      "FOSC17_Defeat100kGenevieve": {
+        "description": "Derrota a 100 000 enemigos en una sola partida con Genevieve Gruyère."
+      },
+      "FOSC18_Defeat6kFairy": {
+        "description": "Derrota a un total de 6000 sammys."
+      },
+      "FOSC19_Defeat6kHorror": {
+        "description": "Derrota a un total de 6000 necrófagos putrefactos."
+      },
+      "FOSC20_DefeatBossLake": {
+        "description": "Derrota al avatar de Gaia en el Lago Foscari."
+      },
+      "FOSC21_DefeatBossAbyss": {
+        "description": "Derrota a Je-Ne-Viv en el Abismo Foscari."
+      },
+      "Banish20Items": {
+        "description": "Elimina 20 armas o más en una sola partida."
+      }
     }
   },
   "es-419": {
@@ -5935,9 +6721,81 @@
       "MOON17_EvolveBubbles": {
         "description": "Mille Bolle Blu evrilt."
       },
-      "ReachLV80InverseForest": {},
-      "FindApoplexy": {},
-      "FindChaosMalachite": {}
+      "ReachLV80InverseForest": {
+        "description": "Ters Deli Orman'da Seviye 80'e ulaş."
+      },
+      "FindApoplexy": {
+        "description": "Yarasa Diyarı'nda dakika 09:00'da İnmeletici'yi bul."
+      },
+      "FindChaosMalachite": {
+        "description": "Yarasa Diyarı'nda dakika 18:00'da Kaos Malahiti'ni bul."
+      },
+      "FOSC01_FindCoffin": {
+        "description": "Foscari Gölü'ndeki tabutu bul ve aç."
+      },
+      "FOSC02_Survive15Eleanor": {
+        "description": "Eleanor Uziron ile 15 dakika hayatta kal."
+      },
+      "FOSC03_GetStreamToLevel6": {
+        "description": "BüyülüAkım'ı Seviye 6'ya çıkar."
+      },
+      "FOSC04_GetStrikeToLevel6": {
+        "description": "BüyülüSaldırı'yı Seviye 6'ya çıkar."
+      },
+      "FOSC05_UniteSpells": {
+        "description": "BüyülüCeride, BüyülüAkım ve BüyülüSaldırı'yı birleştir."
+      },
+      "FOSC06_Survive15Viktor": {
+        "description": "Maruto Cuts ile 15 dakika hayatta kal."
+      },
+      "FOSC07_EvolveEskizzibur": {
+        "description": "Eskizzibur'u evrilt."
+      },
+      "FOSC08_Survive15Keira": {
+        "description": "Keitha Muort ile 15 dakika hayatta kal."
+      },
+      "FOSC09_EvolveFlashArrow": {
+        "description": "Işıltı Oku'nu evrilt."
+      },
+      "FOSC10_BreakSeal1": {
+        "description": "Keitha ile Göl'ün Mührünü kır."
+      },
+      "FOSC11_BreakSeal2": {
+        "description": "Maruto ile Uçurum'un Mührünü kır."
+      },
+      "FOSC12_BreakSeal3": {
+        "description": "Eleanor ile Sürülmüşlerin Mührünü kır."
+      },
+      "FOSC13_Survive15Luminaire": {
+        "description": "Luminaire Foscari ile 15 dakika hayatta kal."
+      },
+      "FOSC14_EvolvePrismatic": {
+        "description": "Mukarnes Fırlatılabiliri'ni evrilt."
+      },
+      "FOSC15_Survive15Genevieve": {
+        "description": "Genevieve Gruyère ile 15 dakika hayatta kal."
+      },
+      "FOSC16_EvolveShadow": {
+        "description": "Gölge Hizmetkâr'ı evrilt."
+      },
+      "FOSC17_Defeat100kGenevieve": {
+        "description": "Genevieve Gruyère ile tek seferde 100000 düşman öldür."
+      },
+      "FOSC18_Defeat6kFairy": {
+        "description": "Toplam 6000 Alık öldür."
+      },
+      "FOSC19_Defeat6kHorror": {
+        "description": "Toplam 6000 Kokuşgul öldür."
+      },
+      "FOSC20_DefeatBossLake": {
+        "description": "Foscari Gölü'nde Gaea'nın Avatarını yen."
+      },
+      "FOSC21_DefeatBossAbyss": {
+        "description": "Foscari Uçurumu'nda Je-Ne-Viv'i yen."
+      },
+      "Banish20Items": {
+        "description": "Tek seferde 20 veya daha fazla silahı çıkar."
+      }
     }
   },
   "uk": {

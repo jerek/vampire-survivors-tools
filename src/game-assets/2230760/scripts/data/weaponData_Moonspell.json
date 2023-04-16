@@ -9,6 +9,7 @@
             "tips": "",
             "texture": "items",
             "frameName": "silverWind.png",
+            "collectionFrame": "frameB_blue.png",
             "evoSynergy": [
                 "REGEN"
             ],
@@ -72,6 +73,7 @@
             "tips": "Requires Max: Pummarola.",
             "texture": "items",
             "frameName": "silverWind2.png",
+            "collectionFrame": "frameB_blue.png",
             "evolvesFrom": [
                 "SILVERWIND"
             ],
@@ -111,6 +113,7 @@
             "tips": "Ignores: speed.",
             "texture": "items",
             "frameName": "fourSeasons.png",
+            "collectionFrame": "frameB_blue.png",
             "evoSynergy": [
                 "AREA",
                 "POWER"
@@ -168,6 +171,7 @@
             "tips": "Requires Max: Spinach, Candelabrador.",
             "texture": "items",
             "frameName": "fourSeasons2.png",
+            "collectionFrame": "frameB_blue.png",
             "evolvesFrom": [
                 "FOURSEASONS"
             ],
@@ -205,6 +209,7 @@
             "tips": "Ignores: speed.",
             "texture": "items",
             "frameName": "summonNight.png",
+            "collectionFrame": "frameB_blue.png",
             "evoSynergy": [
                 "AMOUNT"
             ],
@@ -259,6 +264,7 @@
             "tips": "Requires Max: Duplicator.",
             "texture": "items",
             "frameName": "summonNight2.png",
+            "collectionFrame": "frameB_blue.png",
             "evolvesFrom": [
                 "SUMMONNIGHT"
             ],
@@ -296,6 +302,7 @@
             "tips": "Ignores: speed.",
             "texture": "items",
             "frameName": "mirageRobe.png",
+            "collectionFrame": "frameB_blue.png",
             "evoSynergy": [
                 "MAGNET"
             ],
@@ -354,6 +361,7 @@
             "tips": "Requires Max: Magnet.",
             "texture": "items",
             "frameName": "mirageRobe2.png",
+            "collectionFrame": "frameB_blue.png",
             "evolvesFrom": [
                 "MIRAGEROBE"
             ],
@@ -392,6 +400,7 @@
             "tips": "Ignores: speed, duration.",
             "texture": "items",
             "frameName": "nightSword.png",
+            "collectionFrame": "frameB_blue.png",
             "evoSynergy": [
                 "GREED"
             ],
@@ -448,6 +457,7 @@
             "tips": "Requires Max: Stone Mask.",
             "texture": "items",
             "frameName": "nightSword2.png",
+            "collectionFrame": "frameB_blue.png",
             "evolvesFrom": [
                 "NIGHTSWORD"
             ],
@@ -484,6 +494,7 @@
             "tips": "",
             "texture": "items",
             "frameName": "bubble.png",
+            "collectionFrame": "frameB_blue.png",
             "evoSynergy": [
                 "DURATION"
             ],
@@ -541,6 +552,7 @@
             "tips": "Requires Max: Spellbinder",
             "texture": "items",
             "frameName": "bubble2.png",
+            "collectionFrame": "frameB_blue.png",
             "evolvesFrom": [
                 "BUBBLES"
             ],
@@ -576,6 +588,7 @@
             "tips": "Ignores: amount, duration, speed.",
             "texture": "items",
             "frameName": "bocce.png",
+            "collectionFrame": "frameB_blue.png",
             "isUnlocked": false,
             "poolLimit": 50,
             "rarity": 10,

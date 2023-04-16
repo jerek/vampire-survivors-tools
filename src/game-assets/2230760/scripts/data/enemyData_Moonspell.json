@@ -879,7 +879,7 @@
     "MS_OROCHIHEAD": [
         {
             "level": 1,
-            "maxHp": 40,
+            "maxHp": 50,
             "speed": 0,
             "power": 20,
             "skills": [
