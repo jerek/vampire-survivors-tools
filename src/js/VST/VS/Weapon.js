@@ -476,6 +476,25 @@ VST.VS.Weapon = new function () {
             {id: 66, vsId: 'BUBBLES2'},
             {id: 67, vsId: 'BOCCE'},
         ],
+        [VS.DLC_TIDES_OF_THE_FOSCARI]: [
+            {id: 68, vsId: "SPELL_STRING"},
+            {id: 69, vsId: "SPELL_STREAM"},
+            {id: 70, vsId: "SPELL_STRIKE"},
+            {id: 71, vsId: "SPELL_STROM"},
+            {id: 72, vsId: "SWORD"},
+            {id: 73, vsId: "SWORD2"},
+            {id: 74, vsId: "FLASHARROW"},
+            {id: 75, vsId: "FLASHARROW2"},
+            {id: 76, vsId: "PRISMATICMISS"},
+            {id: 77, vsId: "PRISMATICMISS2"},
+            {id: 78, vsId: "SHADOWSERVANT"},
+            {id: 79, vsId: "SHADOWSERVANT2"},
+            {id: 80, vsId: "PARTY"},
+            // {id: 81?, vsId: "ACADEMYBADGE"},
+            // {id: 82?, vsId: "SHADOWSERVANT_COUNTER"},
+            // {id: 83?, vsId: "PARTY_COUNTER"},
+            // {id: 84?, vsId: "INSATIABLE"},
+        ],
     };
 
     /** @type {VsType} The entity type that this class is associated with. */

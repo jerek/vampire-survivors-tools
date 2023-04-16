@@ -1626,6 +1626,16 @@ VST.VS.Character = new function () {
             {id: 48, vsId: 'MEGASYUUTO'},
             {id: 49, vsId: 'TONY'},
         ],
+        [VS.DLC_TIDES_OF_THE_FOSCARI]: [
+            {id: 50, vsId: 'ELEANOR'},
+            {id: 51, vsId: 'VICTOR'},
+            {id: 52, vsId: 'KEIRA'},
+            {id: 53, vsId: 'LUMINAIRE'},
+            {id: 54, vsId: 'GENEVIEVE'},
+            {id: 55, vsId: 'MEGAGENEVIEVE'},
+            {id: 56, vsId: 'CTRPCAKE'},
+            {id: 57, vsId: 'GHOUL'},
+        ],
     };
 
     /** @type {string} What's displayed when a stat is increased each time the character levels up. */

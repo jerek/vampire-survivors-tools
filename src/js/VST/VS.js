@@ -59,6 +59,7 @@ VST.VS = new function () {
 
     // DLCs that have additional data to load.
     /** @type {DlcId} */ this.DLC_LEGACY_OF_THE_MOONSPELL = 2230760;
+    /** @type {DlcId} */ this.DLC_TIDES_OF_THE_FOSCARI = 2313550;
 
     // Passive Items have constants since they're referred to by ID in multiple places.
     /** @type {PassiveId} */ this.PASSIVE_ID_SPINACH = 1;

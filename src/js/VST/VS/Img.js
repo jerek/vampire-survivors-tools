@@ -92,6 +92,7 @@ VST.VS.Img = new function () {
     // DLC-specific sprites.
     /** @type {VsSprite} */ this.DLC_MOONSPELL       = 'moonspell';
     /** @type {VsSprite} */ this.DLC_MOONSPELL_CHARS = 'moonspellChars';
+    /** @type {VsSprite} */ this.DLC_FOSCARI_CHARS = 'foscariChars';
 
     // ------- //
     // PRIVATE //
@@ -107,6 +108,7 @@ VST.VS.Img = new function () {
     const SPRITE_DLC = {
         [this.DLC_MOONSPELL]:       VS.DLC_LEGACY_OF_THE_MOONSPELL,
         [this.DLC_MOONSPELL_CHARS]: VS.DLC_LEGACY_OF_THE_MOONSPELL,
+        [this.DLC_FOSCARI_CHARS]:   VS.DLC_TIDES_OF_THE_FOSCARI,
     };
 
     // ********************* //
