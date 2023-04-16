@@ -1941,7 +1941,7 @@ VST.VS.Character = new function () {
                 type: TYPE,
             };
 
-            if (Object.keys(baseData.onEveryLevelUp).length) {
+            if (baseData.onEveryLevelUp && Object.keys(baseData.onEveryLevelUp).length) {
                 charData.onEveryLevelUp = baseData.onEveryLevelUp;
             }
 
