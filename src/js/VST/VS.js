@@ -392,20 +392,28 @@ VST.VS = new function () {
             let charactersJsonPath = `${dataPath}/characterData_${shorthand}.json`;
 
             // Weapons
+            VST.debug(`Loading ${shorthand} weapon data...`);
             fetch(weaponsJsonPath).then(response => {
+                VST.debug(`Parsing ${shorthand} weapon data...`);
                 response.json().then(data => {
                     // This uses unshift because weapons have to be imported first.
                     entityData[dlcId].unshift({class: Weapon, data: data});
+
+                    VST.debug(`Loaded ${shorthand} weapon data.`);
 
                     finishEntity();
                 });
             });
 
             // Characters
+            VST.debug(`Loading ${shorthand} character data...`);
             fetch(charactersJsonPath).then(response => {
+                VST.debug(`Parsing ${shorthand} character data...`);
                 response.json().then(data => {
                     // This uses push because characters have to be imported after weapons.
                     entityData[dlcId].push({class: Character, data: data});
+
+                    VST.debug(`Loaded ${shorthand} character data.`);
 
                     finishEntity();
                 });
