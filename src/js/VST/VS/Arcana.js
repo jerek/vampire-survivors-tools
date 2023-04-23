@@ -42,6 +42,7 @@ VST.VS.Arcana = new function () {
         2: {
             name: 'I - Gemini',
             description: 'Listed weapons come with a counterpart.',
+            items: ['Nft1.png'],
             weapons: [
                 VS.WEAPON_ID_PEACHONE,
                 VS.WEAPON_ID_EBONY_WINGS,
@@ -49,6 +50,11 @@ VST.VS.Arcana = new function () {
                 VS.WEAPON_ID_PHIERA_DER_TUPHELLO,
                 VS.WEAPON_ID_EIGHT_THE_SPARROW,
                 VS.WEAPON_ID_PHIERAGGI,
+                VS.WEAPON_ID_GATTI_AMARI,
+                VS.WEAPON_ID_VICIOUS_HUNGER,
+                VS.WEAPON_ID_SHADOW_SERVANT,
+                VS.WEAPON_ID_OPHION,
+                VS.WEAPON_ID_PARTY_POPPER,
             ],
         },
         3: {
@@ -57,12 +63,19 @@ VST.VS.Arcana = new function () {
             weapons: [
                 VS.WEAPON_ID_KING_BIBLE,
                 VS.WEAPON_ID_UNHOLY_VESPERS,
+                VS.WEAPON_ID_LIGHTNING_RING,
+                VS.WEAPON_ID_THUNDER_LOOP,
                 VS.WEAPON_ID_PEACHONE,
                 VS.WEAPON_ID_EBONY_WINGS,
                 VS.WEAPON_ID_RUNETRACER,
                 VS.WEAPON_ID_SHADOW_PINION,
                 VS.WEAPON_ID_BONE,
                 VS.WEAPON_ID_CELESTIAL_DUSTING,
+                VS.WEAPON_ID_BI_BRACELET,
+                VS.WEAPON_ID_SILVER_WIND,
+                VS.WEAPON_ID_FESTIVE_WINDS,
+                VS.WEAPON_ID_PRISMATIC_MISSILE,
+                VS.WEAPON_ID_LUMINAIRE,
             ],
         },
         4: {
@@ -99,6 +112,8 @@ VST.VS.Arcana = new function () {
                 VS.WEAPON_ID_FUWALAFUWALOO,
                 VS.WEAPON_ID_SOUL_EATER,
                 VS.WEAPON_ID_CELESTIAL_DUSTING,
+                VS.WEAPON_ID_SILVER_WIND,
+                VS.WEAPON_ID_FESTIVE_WINDS,
             ],
         },
         8: {
@@ -112,6 +127,8 @@ VST.VS.Arcana = new function () {
                 VS.WEAPON_ID_PHIERA_DER_TUPHELLO,
                 VS.WEAPON_ID_EIGHT_THE_SPARROW,
                 VS.WEAPON_ID_CARRELLO,
+                VS.WEAPON_ID_FLASH_ARROW,
+                VS.WEAPON_ID_MILLIONAIRE,
             ],
         },
         9: {
@@ -136,6 +153,7 @@ VST.VS.Arcana = new function () {
                 VS.WEAPON_ID_SONG_OF_MANA,
                 VS.WEAPON_ID_VENTO_SACRO,
                 VS.WEAPON_ID_VICTORY_SWORD,
+                VS.WEAPON_ID_SILVER_WIND,
             ],
         },
         11: {
@@ -143,7 +161,7 @@ VST.VS.Arcana = new function () {
             description: 'Listed weapons get +1 Amount. The character\'s main weapon and its evolution gain +3 ' +
                 'Amount instead.',
             weapons: [
-                VS.WEAPON_ID_DEATH_SPIRAL,
+                // TODO: Automatically add the selected character's main weapon and its evolution.
                 VS.WEAPON_ID_BONE,
                 VS.WEAPON_ID_CHERRY_BOMB,
                 VS.WEAPON_ID_CARRELLO,
@@ -168,7 +186,11 @@ VST.VS.Arcana = new function () {
             name: 'XII - Out of Bounds',
             description: 'Freezing enemies generates explosions. Orologions are easier to find.',
             items: ['PocketWatch.png'],
-            weapons: [VS.WEAPON_ID_CLOCK_LANCET],
+            weapons: [
+                VS.WEAPON_ID_CLOCK_LANCET,
+                VS.WEAPON_ID_MIRAGE_ROBE,
+                VS.WEAPON_ID_JODORE,
+            ],
         },
         14: {
             name: 'XIII - Wicked Season',
@@ -184,12 +206,16 @@ VST.VS.Arcana = new function () {
         15: {
             name: 'XIV - Jail of Crystal',
             description: 'Listed weapon projectiles have a chance to freeze enemies.',
+            items: ['Guns2_counter.png', 'Silf1_counter.png'],
             weapons: [
                 VS.WEAPON_ID_MAGIC_WAND,
                 VS.WEAPON_ID_HOLY_WAND,
                 VS.WEAPON_ID_RUNETRACER,
                 VS.WEAPON_ID_NO_FUTURE,
                 VS.WEAPON_ID_EIGHT_THE_SPARROW,
+                VS.WEAPON_ID_BRACELET,
+                VS.WEAPON_ID_PRISMATIC_MISSILE,
+                VS.WEAPON_ID_LUMINAIRE,
             ],
         },
         16: {
@@ -212,6 +238,12 @@ VST.VS.Arcana = new function () {
                 VS.WEAPON_ID_HEAVEN_SWORD,
                 VS.WEAPON_ID_VENTO_SACRO,
                 VS.WEAPON_ID_FUWALAFUWALOO,
+                VS.WEAPON_ID_VICTORY_SWORD,
+                VS.WEAPON_ID_MURAMASA,
+                VS.WEAPON_ID_ESKIZZIBUR,
+                VS.WEAPON_ID_LEGIONNAIRE,
+                VS.WEAPON_ID_FLASH_ARROW,
+                VS.WEAPON_ID_MILLIONAIRE,
             ],
         },
         18: {
@@ -228,12 +260,15 @@ VST.VS.Arcana = new function () {
             name: 'XIX - Heart of Fire',
             description: 'Listed weapon projectiles explode on impact. Light sources explode. Character explodes ' +
                 'when damaged.',
-            items: ['Brazier1.png'],
+            items: ['Guns_counter.png', 'Silf2_counter.png', 'Brazier1.png'],
             weapons: [
                 VS.WEAPON_ID_FIRE_WAND,
                 VS.WEAPON_ID_HELLFIRE,
+                VS.WEAPON_ID_VALKYRIE_TURNER,
                 VS.WEAPON_ID_PHIERA_DER_TUPHELLO,
-                VS.WEAPON_ID_VALKYRIE_TURNER
+                VS.WEAPON_ID_TRI_BRACELET,
+                VS.WEAPON_ID_PRISMATIC_MISSILE,
+                VS.WEAPON_ID_LUMINAIRE,
             ],
         },
         21: {
