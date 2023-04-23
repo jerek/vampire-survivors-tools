@@ -2,6 +2,7 @@
  * Functions related to Vampire Survivors passive items.
  */
 VST.VS.Passive = new function () {
+    const self = this;
     const VS = VST.VS;
 
     // *********************** //
@@ -236,6 +237,13 @@ VST.VS.Passive = new function () {
         },
     };
 
+    /** @type {Object<DlcId, Array<{id: PassiveId, vsId: PassiveVsId}>>} The passive items from each DLC, in order. */
+    const DLC_PASSIVES = {
+        [VS.DLC_TIDES_OF_THE_FOSCARI]: [
+            {id: VS.PASSIVE_ID_ACADEMY_BADGE, vsId: "ACADEMYBADGE"},
+        ],
+    };
+
     /** @type {VsType} The entity type that this class is associated with. */
     const TYPE = VS.TYPE_PASSIVE;
 
@@ -294,6 +302,57 @@ VST.VS.Passive = new function () {
      * @return {PassiveId[]}
      */
     this.getIds = () => VS.getSortedIds(DATA);
+
+    /**
+     * Import the given passive item data.
+     *
+     * @param {DlcId} dlc
+     * @param {Object<PassiveVsId, Array<Object<string, *>>>} data
+     */
+    this.importDlcData = (dlc, data) => {
+        const Weapon = VS.Weapon;
+
+        // Find the highest order that's been used so far. The added data will increase from there.
+        let order = 0;
+        self.getIds().forEach(id => {
+            order = Math.max(order, DATA[id].order);
+        });
+
+        /** @type {Object<PassiveVsId, PassiveVsId>} A map of base items to their evolutions. */
+        (DLC_PASSIVES[dlc] || []).forEach(dlcPassive => {
+            /** @type {Array<Object<string, *>>} Data from the DLC's JSON files. Base data, then level-up data. */
+            let dlcData = data[dlcPassive.vsId];
+            let baseData = dlcData[0];
+
+            /** @type {PassiveData} */
+            let passiveData = {
+                name: baseData.name,
+                description: baseData.description,
+                dlc: dlc,
+                frameName: baseData.frameName,
+                id: dlcPassive.id,
+                order: ++order,
+                type: TYPE,
+                vsId: dlcPassive.vsId,
+            };
+
+            if (baseData.evolvesFrom && baseData.evolvesFrom.length) {
+                passiveData.reqWeapons = [];
+                baseData.evolvesFrom.forEach(fromVsId => {
+                    passiveData.reqWeapons.push(Weapon.getIdByStringId(fromVsId));
+                });
+            }
+
+            if (baseData.requires && baseData.requires.length) {
+                passiveData.reqPassives = [];
+                baseData.requires.forEach(fromVsId => {
+                    passiveData.reqPassives.push(self.getIdByStringId(fromVsId));
+                });
+            }
+
+            DATA[dlcPassive.id] = passiveData;
+        });
+    };
 
     // ************************** //
     // ***** INITIALIZATION ***** //

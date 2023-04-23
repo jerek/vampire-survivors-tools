@@ -587,7 +587,7 @@ VST.VS.Weapon = new function () {
         });
 
         /** @type {Object<WeaponVsId, WeaponVsId>} A map of base items to their evolutions. */
-        DLC_WEAPONS[dlc].forEach(dlcWeapon => {
+        (DLC_WEAPONS[dlc] || []).forEach(dlcWeapon => {
             /** @type {Array<Object<string, *>>} Data from the DLC's JSON files. Base data, then level-up data. */
             let dlcData = data[dlcWeapon.vsId];
             let baseData = dlcData[0];

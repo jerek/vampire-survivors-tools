@@ -89,6 +89,7 @@ VST.VS = new function () {
     /** @type {PassiveId} */ this.PASSIVE_ID_TWICE_UPON_A_TIME = 25;
     /** @type {PassiveId} */ this.PASSIVE_ID_SOLE_SOLUTION = 26;
     /** @type {PassiveId} */ this.PASSIVE_ID_FLOCK_DESTROYER = 27;
+    /** @type {PassiveId} */ this.PASSIVE_ID_ACADEMY_BADGE = 28;
 
     // Weapons have constants since they're referred to by ID in multiple places.
     /** @type {WeaponId} */ this.WEAPON_ID_WHIP = 1;
@@ -380,7 +381,10 @@ VST.VS = new function () {
     this.loadDlcData = callback => {
         const DLC = self.DLC;
         const Character = self.Character;
+        const Passive = self.Passive;
         const Weapon = self.Weapon;
+
+        const DLC_ENTITIES_COUNT = 3;
 
         let dlcIds = DLC.getIds();
         let dlcCount = dlcIds.length;
@@ -405,9 +409,8 @@ VST.VS = new function () {
         // Load the data for each DLC.
         dlcIds.forEach(dlcId => {
             entityData[dlcId] = [];
-            let entitiesCount = 2;
             let finishEntity = () => {
-                if (entityData[dlcId].length === entitiesCount) {
+                if (entityData[dlcId].length === DLC_ENTITIES_COUNT) {
                     // All entity data for this DLC has been loaded; mark it as ready for import.
                     finishDlc();
                 }
@@ -418,15 +421,16 @@ VST.VS = new function () {
             let weaponsJsonPath = `${dataPath}/weaponData_${shorthand}.json`;
             let charactersJsonPath = `${dataPath}/characterData_${shorthand}.json`;
 
-            // Weapons
-            VST.debug(`Loading ${shorthand} weapon data...`);
+            // Weapons and Passive Items
+            VST.debug(`Loading ${shorthand} weapon and passive item data...`);
             fetch(weaponsJsonPath).then(response => {
-                VST.debug(`Parsing ${shorthand} weapon data...`);
+                VST.debug(`Parsing ${shorthand} weapon and passive item data...`);
                 response.json().then(data => {
-                    // This uses unshift because weapons have to be imported first.
+                    // This uses unshift because weapons and passive items have to be imported first.
                     entityData[dlcId].unshift({class: Weapon, data: data});
+                    entityData[dlcId].unshift({class: Passive, data: data});
 
-                    VST.debug(`Loaded ${shorthand} weapon data.`);
+                    VST.debug(`Loaded ${shorthand} weapon and passive item data.`);
 
                     finishEntity();
                 });
