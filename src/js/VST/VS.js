@@ -145,6 +145,32 @@ VST.VS = new function () {
     /** @type {WeaponId} */ this.WEAPON_ID_GREATEST_JUBILEE = 52;
     /** @type {WeaponId} */ this.WEAPON_ID_FLAMES_OF_MISSPELL = 53;
     /** @type {WeaponId} */ this.WEAPON_ID_ASHES_OF_MUSPELL = 54;
+    /** @type {WeaponId} */ this.WEAPON_ID_SILVER_WIND = 55;
+    /** @type {WeaponId} */ this.WEAPON_ID_FESTIVE_WINDS = 56;
+    /** @type {WeaponId} */ this.WEAPON_ID_FOUR_SEASONS = 57;
+    /** @type {WeaponId} */ this.WEAPON_ID_GODAI_SHUFFLE = 58;
+    /** @type {WeaponId} */ this.WEAPON_ID_SUMMON_NIGHT = 59;
+    /** @type {WeaponId} */ this.WEAPON_ID_NIGHTS_REACH = 60;
+    /** @type {WeaponId} */ this.WEAPON_ID_MIRAGE_ROBE = 61;
+    /** @type {WeaponId} */ this.WEAPON_ID_JODORE = 62;
+    /** @type {WeaponId} */ this.WEAPON_ID_NIGHT_SWORD = 63;
+    /** @type {WeaponId} */ this.WEAPON_ID_MURAMASA = 64;
+    /** @type {WeaponId} */ this.WEAPON_ID_MILLE_BOLLE_BLU = 65;
+    /** @type {WeaponId} */ this.WEAPON_ID_BOO_ROO_BOOLLE = 66;
+    /** @type {WeaponId} */ this.WEAPON_ID_BOCCE = 67;
+    /** @type {WeaponId} */ this.WEAPON_ID_SPELL_STRING = 68;
+    /** @type {WeaponId} */ this.WEAPON_ID_SPELL_STREAM = 69;
+    /** @type {WeaponId} */ this.WEAPON_ID_SPELL_STRIKE = 70;
+    /** @type {WeaponId} */ this.WEAPON_ID_SPELL_STROM = 71;
+    /** @type {WeaponId} */ this.WEAPON_ID_ESKIZZIBUR = 72;
+    /** @type {WeaponId} */ this.WEAPON_ID_LEGIONNAIRE = 73;
+    /** @type {WeaponId} */ this.WEAPON_ID_FLASH_ARROW = 74;
+    /** @type {WeaponId} */ this.WEAPON_ID_MILLIONAIRE = 75;
+    /** @type {WeaponId} */ this.WEAPON_ID_PRISMATIC_MISSILE = 76;
+    /** @type {WeaponId} */ this.WEAPON_ID_LUMINAIRE = 77;
+    /** @type {WeaponId} */ this.WEAPON_ID_SHADOW_SERVANT = 78;
+    /** @type {WeaponId} */ this.WEAPON_ID_OPHION = 79;
+    /** @type {WeaponId} */ this.WEAPON_ID_PARTY_POPPER = 80;
 
     // ********************* //
     // ***** FUNCTIONS ***** //
